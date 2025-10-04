@@ -1,0 +1,2667 @@
+{
+  "jQuery": {
+    "name": "jQuery",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+    "website": "https://jquery.com",
+    "patterns": {
+      "scriptSrc": [
+        "jquery",
+        "/jquery(?:-(\\d+\\.\\d+\\.\\d+))[/.-]\\;version:\\1",
+        "/(\\d+\\.\\d+\\.\\d+)/jquery[/.-][^u]\\;version:\\1"
+      ],
+      "scripts": [
+        "/jquery(?:-[\\d.]+)?(?:\\.min)?\\.js",
+        "jquery.*\\.js(?:\\?ver(?:sion)?=([\\d.]+))?\\;version:\\1",
+        "jquery[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+)/jquery(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Lodash": {
+    "name": "Lodash",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.",
+    "website": "http://www.lodash.com",
+    "patterns": {
+      "scriptSrc": [
+        "lodash.*\\.js"
+      ],
+      "scripts": [
+        "lodash(?:\\.min)?\\.js",
+        "lodash.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Moment.js": {
+    "name": "Moment.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Moment.js is a free and open-source JavaScript library that removes the need to use the native JavaScript Date object directly.",
+    "website": "https://momentjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "moment(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "moment(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "_hyperscript ": {
+    "name": "_hyperscript ",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "_​hyperscript is a scripting language for adding interactivity to the front-end.",
+    "website": "https://hyperscript.org",
+    "patterns": {
+      "scriptSrc": [
+        "//unpkg\\.com/hyperscript\\.org@([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "AOS": {
+    "name": "AOS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "JavaScript library to animate elements on your page as you scroll.",
+    "website": "http://michalsnik.github.io/aos/",
+    "patterns": {
+      "scriptSrc": [
+        "unpkg\\.com/aos@([\\d\\.]+)/dist/aos\\.js\\;version:\\1",
+        "/typo3conf/ext/udem_vendor/Resources/Public/aos-([\\d\\.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "unpkg\\.com/aos@(next)/dist/aos\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Axios": {
+    "name": "Axios",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Promise based HTTP client for the browser and node.js",
+    "website": "https://github.com/axios/axios",
+    "patterns": {
+      "scriptSrc": [
+        "/axios(@|/)([\\d.]+)(?:/[a-z]+)?/axios(?:.min)?\\.js\\;version:\\2"
+      ],
+      "scripts": [
+        "/axios(@|/)([\\d.]+)(?:/[a-z]+)?/axios(?:.min)?\\.js\\;version:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "autoComplete.js": {
+    "name": "autoComplete.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "autoComplete.js is a simple, pure vanilla Javascript library.",
+    "website": "https://tarekraafat.github.io/autoComplete.js",
+    "patterns": {
+      "scriptSrc": [
+        "@tarekraafat/autocomplete\\.js@([\\d\\.]+)/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Cart.js": {
+    "name": "Cart.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Cart.js is a very small open-source Javascript library that makes the addition of powerful Ajax cart functionality to your Shopify theme a breeze.",
+    "website": "https://cartjs.org",
+    "patterns": {
+      "scriptSrc": [
+        "(?:shopify-cartjs/([\\d\\.]+)|assets)/rivets-cart\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Choices": {
+    "name": "Choices",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Choices.js is a lightweight, configurable select box/text input plugin.",
+    "website": "https://github.com/Choices-js/Choices",
+    "patterns": {
+      "scriptSrc": [
+        "choices\\.js(?:@|/)?([\\d\\.]+)?.+choices\\.min\\.js\\;version:\\1",
+        "/modules/choices/js/choices\\.js"
+      ],
+      "scripts": [
+        "choices\\.js/|@([\\d.]+)(?:/assets)?(?:/scripts)?(?:/styles)?(?:/dist)?/choices(?:\\.min)?\\.js|css\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ClientJS": {
+    "name": "ClientJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "ClientJS is a JavaScript library for generating browser fingerprints, exposing all the browser data-points.",
+    "website": "http://clientjs.org",
+    "patterns": {
+      "scriptSrc": [
+        "/clientjs@(\\d.*?)/\\;version:\\1",
+        "/ClientJS/(?:(\\d.*?)/)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 83"
+      ]
+    }
+  },
+  "crypto-js": {
+    "name": "crypto-js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "crypto-js is a JavaScript library of crypto standards.",
+    "website": "https://github.com/brix/crypto-js",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/([\\d\\.-]+))?/crypto-js(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "DHTMLX": {
+    "name": "DHTMLX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "DHTMLX specialises in building JavaScript UI libraries for project management, event planning, big data visualisation, and reporting.",
+    "website": "http://dhtmlx.com",
+    "patterns": {
+      "scriptSrc": [
+        "/dhtmlxcommon\\.js"
+      ],
+      "scripts": [
+        "dhtmlxcommon\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Darkmode.js": {
+    "name": "Darkmode.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Darkmode.js is a JavaScript library that enables an HTML element to switch between CSS themes.",
+    "website": "https://github.com/sandoche/Darkmode.js",
+    "patterns": {
+      "scriptSrc": [
+        "darkmode-js@([\\d\\.]+)/lib/darkmode-js\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "DataTables": {
+    "name": "DataTables",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "DataTables is a plug-in for the jQuery Javascript library adding advanced features like pagination, instant search, themes, and more to any HTML table.",
+    "website": "http://datatables.net",
+    "patterns": {
+      "scriptSrc": [
+        "dataTables.*\\.js"
+      ],
+      "scripts": [
+        "dataTables.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FancyBox": {
+    "name": "FancyBox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style 'lightbox' that floats overtop of web page.",
+    "website": "http://fancyapps.com/fancybox",
+    "patterns": {
+      "scriptSrc": [
+        "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1"
+      ],
+      "scripts": [
+        "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FilePond": {
+    "name": "FilePond",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "FilePond is a JavaScript library for file uploads.",
+    "website": "https://pqina.nl/filepond/",
+    "patterns": {
+      "scriptSrc": [
+        "filepond.js"
+      ],
+      "scripts": [
+        "filepond.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FingerprintJS": {
+    "name": "FingerprintJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "FingerprintJS is a browser fingerprinting library that queries browser attributes and computes a hashed visitor identifier from them.",
+    "website": "https://fingerprintjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "fingerprint(?:/fp)?(\\d)?(?:\\.min)?\\.js\\;version:\\1",
+        "fingerprintjs(?:\\-pro|2)?(?:@|/)(\\d.*?)?/\\;version:\\1"
+      ],
+      "scripts": [
+        "fingerprint(\\d)?(?:\\.min)?\\.js\\;version:\\1",
+        "/fingerprintjs@(\\d)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 83"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Flickity": {
+    "name": "Flickity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Flickity is a JavaScript slider library, built by David DeSandro of Metafizzy fame.",
+    "website": "https://flickity.metafizzy.co",
+    "patterns": {
+      "scriptSrc": [
+        "flickity(?:/|@)([\\d\\.]+).+flickity(?:\\.pkgd)?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/flickity(?:\\.pkgd)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "fullPage.js": {
+    "name": "fullPage.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "fullPage.js a jQuery and vanilla JavaScript plugin for fullscreen scrolling websites.",
+    "website": "https://github.com/alvarotrigo/fullpage.js",
+    "patterns": {
+      "scriptSrc": [
+        "/fullPage\\.js(?:/([\\d\\.]+)/)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Glide.js": {
+    "name": "Glide.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Glide.js is a dependency-free JavaScript ES6 slider and carousel.",
+    "website": "https://glidejs.com",
+    "patterns": {
+      "scriptSrc": [
+        "/@glidejs/glide(?:@([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Glider.js": {
+    "name": "Glider.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Glider.js is a fast, lightweight, responsive, dependency-free scrollable list with customisable paging controls.",
+    "website": "https://nickpiscitelli.github.io/Glider.js",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/|@)?([\\d\\.]{2,})?/glider\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Howler.js": {
+    "name": "Howler.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Howler.js is an audio library with support for the Web Audio API and a fallback mechanism for HTML5 Audio.",
+    "website": "https://howlerjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "howler@([\\d.]+)/dist/howler\\.min\\.js\\;version:\\1",
+        "howler/([\\d.]+)/howler(?:\\.core)?\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Htmx": {
+    "name": "Htmx",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Htmx is a JavaScript library for performing AJAX requests, triggering CSS transitions, and invoking WebSocket and server-sent events directly from HTML elements.",
+    "website": "https://htmx.org",
+    "patterns": {
+      "scriptSrc": [
+        "/htmx\\.org@([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Instant.Page": {
+    "name": "Instant.Page",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Instant.Page is a JavaScript library which uses just-in-time preloading technique to make websites faster.",
+    "website": "https://instant.page/",
+    "patterns": {
+      "scriptSrc": [
+        "instant\\.page"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "InstantClick": {
+    "name": "InstantClick",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "InstantClick is a JavaScript library that speeds up your website, making navigation faster.",
+    "website": "http://instantclick.io/",
+    "patterns": {
+      "scriptSrc": [
+        "instantclick\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "InstantGeo": {
+    "name": "InstantGeo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "InstantGeo is a service that provides IP geolocation to web pages",
+    "website": "https://instantgeo.info",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.instantgeo\\.info",
+        "script\\.instantgeo\\.info"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "JsRender": {
+    "name": "JsRender",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "JsRender is the template library. The library is developed and maintained by Microsoft employee Boris Moore and is used in projects such as Outlook.com and Windows Azure.",
+    "website": "https://www.jsviews.com/#jsrender",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d\\.]+)?/jsrender(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "JsViews": {
+    "name": "JsViews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "JsViews is the MVVM library which provides two-way data binding for the template. The library is developed and maintained by Microsoft employee Boris Moore and is used in projects such as Outlook.com and Windows Azure.",
+    "website": "https://www.jsviews.com/#jsviews",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d\\.]+)?/jsviews(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "jQuery DevBridge Autocomplete": {
+    "name": "jQuery DevBridge Autocomplete",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Ajax Autocomplete for jQuery allows you to easily create autocomplete/autosuggest boxes for text input fields.",
+    "website": "https://www.devbridge.com/sourcery/components/jquery-autocomplete/",
+    "patterns": {
+      "scriptSrc": [
+        "/devbridgeAutocomplete(?:-min)?\\.js",
+        "/jquery\\.devbridge-autocomplete/([0-9.]+)/jquery\\.autocomplete(?:.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/devbridgeAutocomplete(?:-min)?\\.js",
+        "/jquery\\.devbridge-autocomplete/([0-9.]+)/jquery\\.autocomplete(?:.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "jQuery Migrate": {
+    "name": "jQuery Migrate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Query Migrate is a javascript library that allows you to preserve the compatibility of your jQuery code developed for versions of jQuery older than 1.9.",
+    "website": "https://github.com/jquery/jquery-migrate",
+    "patterns": {
+      "scriptSrc": [
+        "jquery[.-]migrate(?:-([\\d.]+))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1?\\1:\\2"
+      ],
+      "scripts": [
+        "jquery[.-]migrate(?:-([\\d.]+))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1?\\1:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "jQuery Modal": {
+    "name": "jQuery Modal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "JQuery Modal is an overlay dialog box or in other words, a popup window that is made to display on the top or 'overlayed' on the current page.",
+    "website": "https://jquerymodal.com",
+    "patterns": {
+      "scriptSrc": [
+        "jquery-modal/([\\d\\.]+)/jquery\\.modal\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "jQuery UI": {
+    "name": "jQuery UI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "jQuery UI is a collection of GUI widgets, animated visual effects, and themes implemented with jQuery, Cascading Style Sheets, and HTML.",
+    "website": "http://jqueryui.com",
+    "patterns": {
+      "scriptSrc": [
+        "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
+        "jquery-ui.*\\.js"
+      ],
+      "scripts": [
+        "jquery-ui[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "([\\d.]+)/jquery-ui(?:\\.min)?\\.js\\;version:\\1",
+        "jquery-ui.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Karma": {
+    "name": "Karma",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Karma is a test runner for JavaScript that runs on Node.js.",
+    "website": "https://karma-runner.github.io",
+    "patterns": {
+      "scriptSrc": [
+        "karma\\.mdpcdn\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "LazySizes unveilhooks plugin": {
+    "name": "LazySizes unveilhooks plugin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "LazySizes unveilhooks plugin extends lazySizes to lazyload scripts/widgets, background images, styles and video/audio elements.",
+    "website": "https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/unveilhooks",
+    "patterns": {
+      "scriptSrc": [
+        "ls\\.unveilhooks(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "Lozad.js": {
+    "name": "Lozad.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Lozad.js is a lightweight lazy-loading library that's just 535 bytes minified & gzipped.",
+    "website": "https://apoorv.pro/lozad.js/",
+    "patterns": {
+      "scripts": [
+        "/lozad\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "libphonenumber": {
+    "name": "libphonenumber",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "libphonenumber is a JavaScript library for parsing, formatting, and validating international phone numbers.",
+    "website": "https://github.com/google/libphonenumber",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/([\\d\\.]+))?/libphonenumber(?:-js\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Modernizr": {
+    "name": "Modernizr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Modernizr is a JavaScript library that detects the features available in a user's browser.",
+    "website": "https://modernizr.com",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d.]+)?/modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1?\\1:\\2"
+      ],
+      "scripts": [
+        "([\\d.]+)?/modernizr(?:\\.([\\d.]+))?.*\\.js\\;version:\\1?\\1:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "metisMenu": {
+    "name": "metisMenu",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "metisMenu is a collapsible jQuery menu plugin.",
+    "website": "https://github.com/onokumus/metismenu",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/|\\.)metisMenu(?:js)?(?:\\.min)?\\.js(?:\\?([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "OWL Carousel": {
+    "name": "OWL Carousel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "OWL Carousel is an enabled jQuery plugin that lets you create responsive carousel sliders.",
+    "website": "https://owlcarousel2.github.io/OwlCarousel2/",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "owl\\.carousel.*\\.js"
+      ],
+      "scripts": [
+        "owl\\.carousel.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Polyfill": {
+    "name": "Polyfill",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Polyfill is a service which accepts a request for a set of browser features and returns only the polyfills that are needed by the requesting browser.",
+    "website": "https://polyfill.io",
+    "patterns": {
+      "scriptSrc": [
+        "polyfill\\.io/v([\\d\\.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "^https?://cdn\\.polyfill\\.io/",
+        "/polyfill\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Quicklink": {
+    "name": "Quicklink",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Quicklink is a JS library which aims to be a drop-in solution for sites to prefetch links based on what is in the user's viewport",
+    "website": "https://getquick.link/",
+    "patterns": {
+      "scriptSrc": [
+        "quicklink@([\\d.]+)/dist/quicklink.*\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "qiankun": {
+    "name": "qiankun",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "qiankun is a JS library who helps developers to build a micro frontends system.",
+    "website": "https://qiankun.umijs.org",
+    "patterns": {
+      "scripts": [
+        "__POWERED_BY_QIANKUN__"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Select2": {
+    "name": "Select2",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+    "website": "https://select2.org/",
+    "patterns": {
+      "scriptSrc": [
+        "select2(?:\\.min|\\.full)?\\.js"
+      ],
+      "scripts": [
+        "select2(?:\\.min|\\.full)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SweetAlert": {
+    "name": "SweetAlert",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "SweetAlert is a beautiful replacement for JavaScript's alert.",
+    "website": "https://sweetalert.js.org",
+    "patterns": {
+      "html": [
+        "<link[^>]+?href=\"[^\"]+sweet-alert(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "sweet(?:-)?alert(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "sweet(?:-)?alert(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SweetAlert2": {
+    "name": "SweetAlert2",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "SweetAlert2 is a beautiful, responsive, customizable, accessible replacement for JavaScript's popup boxes.",
+    "website": "https://sweetalert2.github.io/",
+    "patterns": {
+      "html": [
+        "<link[^>]+?href=\"[^\"]+sweetalert2(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "sweetalert2(?:\\.all)?(?:\\.min)?\\.js",
+        "/npm/sweetalert2@([\\d.]+)\\;version:\\1",
+        "sweetalert2@([\\d.]+)/dist/sweetalert2(?:\\.all)(?:\\.min)\\.js",
+        "limonte-sweetalert2/([\\d.]+)/sweetalert2(?:\\.all)(?:\\.min)\\.js"
+      ],
+      "scripts": [
+        "sweetalert2(?:\\.all)?(?:\\.min)?\\.js",
+        "/npm/sweetalert2@([\\d.]+)\\;version:\\1",
+        "sweetalert2@([\\d.]+)/dist/sweetalert2(?:\\.all)(?:\\.min)\\.js",
+        "limonte-sweetalert2/([\\d.]+)/sweetalert2(?:\\.all)(?:\\.min)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Swiffy Slider": {
+    "name": "Swiffy Slider",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Swiffy Slider is a wrapper defined in html with slides, navigation and indicators as its children.",
+    "website": "https://swiffyslider.com",
+    "patterns": {
+      "scriptSrc": [
+        "/npm/swiffy-slider@([\\d\\.]+)/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Swiper": {
+    "name": "Swiper",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Swiper is a JavaScript library that creates modern touch sliders with hardware-accelerated transitions.",
+    "website": "https://swiperjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "swiper(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Tiny Slider": {
+    "name": "Tiny Slider",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Tiny Slider is a vanilla javascript slider for all purposes.",
+    "website": "https://github.com/ganlanyuan/tiny-slider",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/([\\d\\.]+)/min/)?tiny-slider(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Tippy.js": {
+    "name": "Tippy.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Tippy.js is the complete tooltip, popover, dropdown, and menu solution for the web, powered by Popper.",
+    "website": "https://atomiks.github.io/tippyjs",
+    "patterns": {
+      "scriptSrc": [
+        "/tippy\\.js(?:@|/)?([\\d\\.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "TurfJS": {
+    "name": "TurfJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Turf is a modular geospatial engine written in JavaScript.",
+    "website": "https://turfjs.org/",
+    "patterns": {
+      "scriptSrc": [
+        "(turf@[\\d.]+)?/?turf\\.min\\.js"
+      ],
+      "scripts": [
+        "(turf@[\\d.]+)?/?turf\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Underscore.js": {
+    "name": "Underscore.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "Underscore.js is a JavaScript library which provides utility functions for common programming tasks. It is comparable to features provided by Prototype.js and the Ruby language, but opts for a functional programming design instead of extending object prototypes.",
+    "website": "http://underscorejs.org",
+    "patterns": {
+      "scriptSrc": [
+        "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "underscore.*\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Wurfl": {
+    "name": "Wurfl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "WURFL.js is JavaScript that detects device models of smartphones, tablets, smart TVs and game consoles accessing your website.",
+    "website": "https://web.wurfl.io/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.wurfl\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "web-vitals": {
+    "name": "web-vitals",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "The web-vitals JavaScript is a tiny, modular library for measuring all the web vitals metrics on real users.",
+    "website": "https://github.com/GoogleChrome/web-vitals",
+    "patterns": {
+      "scripts": [
+        "(8999999999999[\\s\\S]+1e12[\\s\\S]+(largest-contentful-paint|first-input|layout-shift)|(largest-contentful-paint|first-input|layout-shift)[\\s\\S]+8999999999999[\\s\\S]+1e12)"
+      ],
+      "scriptSrc": [
+        "web-vitals@([\\d.]+)/dist/web-vitals.*\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 78"
+      ]
+    }
+  },
+  "YUI": {
+    "name": "YUI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 59",
+    "description": "YUI is a JavaScript and CSS library with more than 30 unique components including low-level DOM utilities and high-level user-interface widgets.",
+    "website": "https://clarle.github.io/yui3",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/yui/|yui\\.yahooapis\\.com)"
+      ],
+      "scripts": [
+        "(?:/yui/|yui\\.yahooapis\\.com)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Boba.js": {
+    "name": "Boba.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://boba.space150.com",
+    "patterns": {
+      "scriptSrc": [
+        "boba(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "boba(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bootstrap Table": {
+    "name": "Bootstrap Table",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://bootstrap-table.wenzhixin.net.cn/",
+    "patterns": {
+      "html": [
+        "<link[^>]+href=\"[^>]*bootstrap-table(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "bootstrap-table(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "bootstrap-table(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "basket.js": {
+    "name": "basket.js",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://addyosmani.github.io/basket.js/",
+    "patterns": {
+      "scripts": [
+        "basket.*\\.js\\;confidence:10"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clipboard.js": {
+    "name": "Clipboard.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://clipboardjs.com/",
+    "patterns": {
+      "scriptSrc": [
+        "clipboard(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "clipboard(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Dojo": {
+    "name": "Dojo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://dojotoolkit.org",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d.]+)/dojo/dojo(?:\\.xd)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "([\\d.]+)/dojo/dojo(?:\\.xd)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "decimal.js": {
+    "name": "decimal.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://mikemcl.github.io/decimal.js/",
+    "patterns": {
+      "scriptSrc": [
+        "decimal[.-]([\\d.]*\\d+)(?:\\.min)?\\.js\\;version:\\1",
+        "/([\\d.]*\\d+)/decimal(?:\\.min)?\\.js\\;version:\\1",
+        "decimal(?:\\.min)?\\.js(?:\\?ver(?:sion)?=([\\d.]*\\d+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "decimal[.-]([\\d.]*\\d+)(?:\\.min)?\\.js\\;version:\\1",
+        "/([\\d.]*\\d+)/decimal(?:\\.min)?\\.js\\;version:\\1",
+        "decimal(?:\\.min)?\\.js(?:\\?ver(?:sion)?=([\\d.]*\\d+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hammer.js": {
+    "name": "Hammer.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://hammerjs.github.io",
+    "patterns": {
+      "scriptSrc": [
+        "hammer(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "hammer(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "HeadJS": {
+    "name": "HeadJS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://headjs.com",
+    "patterns": {
+      "html": [
+        "<[^>]*data-headjs-load"
+      ],
+      "scriptSrc": [
+        "head\\.(?:core|load)(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "head\\.(?:core|load)(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Highlight.js": {
+    "name": "Highlight.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://highlightjs.org/",
+    "patterns": {
+      "scriptSrc": [
+        "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/(?:([\\d.])+/)?highlight(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Immutable.js": {
+    "name": "Immutable.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://facebook.github.io/immutable-js/",
+    "patterns": {
+      "scriptSrc": [
+        "^immutable\\.(?:min\\.)?js$"
+      ],
+      "scripts": [
+        "^immutable\\.(?:min\\.)?js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Lightbox": {
+    "name": "Lightbox",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://lokeshdhakar.com/projects/lightbox2/",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^\"]+lightbox(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "lightbox(?:-plus-jquery)?.{0,32}\\.js"
+      ],
+      "scripts": [
+        "lightbox(?:-plus-jquery)?.{0,32}\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "List.js": {
+    "name": "List.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://listjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "list\\.js/\\;confidence:50",
+        "@([\\d.]+)/(?:/dist)?list\\.(?:min\\.)?js\\;version:\\1"
+      ],
+      "scripts": [
+        "list\\.js/\\;confidence:50",
+        "@([\\d.]+)/(?:/dist)?list\\.(?:min\\.)?js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Marked": {
+    "name": "Marked",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://marked.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "/marked(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "/marked(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MobX": {
+    "name": "MobX",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://mobx.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/([\\d\\.]+))?/mobx(?:\\.[a-z]+){0,2}\\.js(?:$|\\?)\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:/([\\d\\.]+))?/mobx(?:\\.[a-z]+){0,2}\\.js(?:$|\\?)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MochiKit": {
+    "name": "MochiKit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://mochi.github.io/mochikit/",
+    "patterns": {
+      "scriptSrc": [
+        "MochiKit(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "MochiKit(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Moment Timezone": {
+    "name": "Moment Timezone",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://momentjs.com/timezone/",
+    "patterns": {
+      "scriptSrc": [
+        "moment-timezone(?:-data)?(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "moment-timezone(?:-data)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "math.js": {
+    "name": "math.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://mathjs.org",
+    "patterns": {
+      "scriptSrc": [
+        "math(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "math(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "prettyPhoto": {
+    "name": "prettyPhoto",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/",
+    "patterns": {
+      "html": [
+        "(?:<link [^>]*href=\"[^\"]*prettyPhoto(?:\\.min)?\\.css|<a [^>]*rel=\"prettyPhoto)"
+      ],
+      "scriptSrc": [
+        "jquery\\.prettyPhoto\\.js"
+      ],
+      "scripts": [
+        "jquery\\.prettyPhoto\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ramda": {
+    "name": "Ramda",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://ramdajs.com",
+    "patterns": {
+      "scriptSrc": [
+        "ramda.*\\.js"
+      ],
+      "scripts": [
+        "ramda.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Slick": {
+    "name": "Slick",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://kenwheeler.github.io/slick",
+    "patterns": {
+      "html": [
+        "<link [^>]+(?:/([\\d.]+)/)?slick-theme\\.css\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "(?:/([\\d.]+))?/slick(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:/([\\d.]+))?/slick(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Slimbox": {
+    "name": "Slimbox",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://www.digitalia.be/software/slimbox",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^/]*slimbox(?:-rtl)?\\.css"
+      ],
+      "scriptSrc": [
+        "slimbox\\.js"
+      ],
+      "scripts": [
+        "slimbox\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Slimbox 2": {
+    "name": "Slimbox 2",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://www.digitalia.be/software/slimbox2",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^/]*slimbox2(?:-rtl)?\\.css"
+      ],
+      "scriptSrc": [
+        "slimbox2\\.js"
+      ],
+      "scripts": [
+        "slimbox2\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Snap.svg": {
+    "name": "Snap.svg",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://snapsvg.io",
+    "patterns": {
+      "scriptSrc": [
+        "snap\\.svg(?:-min)?\\.js"
+      ],
+      "scripts": [
+        "snap\\.svg(?:-min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "script.aculo.us": {
+    "name": "script.aculo.us",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://script.aculo.us",
+    "patterns": {
+      "scriptSrc": [
+        "/(?:scriptaculous|protoaculous)(?:\\.js|/)"
+      ],
+      "scripts": [
+        "/(?:scriptaculous|protoaculous)(?:\\.js|/)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "scrollreveal": {
+    "name": "scrollreveal",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://scrollrevealjs.org",
+    "patterns": {
+      "html": [
+        "<[^>]+data-sr(?:-id)"
+      ],
+      "scriptSrc": [
+        "scrollreveal(?:\\.min)(?:\\.js)"
+      ],
+      "scripts": [
+        "scrollreveal(?:\\.min)(?:\\.js)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twitter typeahead.js": {
+    "name": "Twitter typeahead.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://twitter.github.io/typeahead.js",
+    "patterns": {
+      "scriptSrc": [
+        "(?:typeahead|bloodhound)\\.(?:jquery|bundle)?(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "(?:typeahead|bloodhound)\\.(?:jquery|bundle)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XRegExp": {
+    "name": "XRegExp",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://xregexp.com",
+    "patterns": {
+      "scriptSrc": [
+        "xregexp[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+)/xregexp(?:\\.min)?\\.js\\;version:\\1",
+        "xregexp.*\\.js"
+      ],
+      "scripts": [
+        "xregexp[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+)/xregexp(?:\\.min)?\\.js\\;version:\\1",
+        "xregexp.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Xajax": {
+    "name": "Xajax",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://xajax-project.org",
+    "patterns": {
+      "scriptSrc": [
+        "xajax_core.*\\.js"
+      ],
+      "scripts": [
+        "xajax_core.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zepto": {
+    "name": "Zepto",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://zeptojs.com",
+    "patterns": {
+      "scriptSrc": [
+        "zepto.*\\.js"
+      ],
+      "scripts": [
+        "zepto.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apollo": {
+    "name": "Apollo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Apollo is a fully-featured caching GraphQL client with integrations for React, Angular, and more.",
+    "website": "https://www.apollographql.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Barba.js": {
+    "name": "Barba.js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Barba.js is a small and easy-to-use javascript library that helps you creating fluid and smooth transitions between your website's pages.",
+    "website": "https://barba.js.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Boomerang": {
+    "name": "Boomerang",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "boomerang is a JavaScript library that measures the page load time experienced by real users, commonly called RUM (Real User Measurement).",
+    "website": "https://akamai.github.io/boomerang",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 78"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "core-js": {
+    "name": "core-js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "core-js is a modular standard library for JavaScript, with polyfills for cutting-edge ECMAScript features.",
+    "website": "https://github.com/zloirock/core-js",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Dropzone": {
+    "name": "Dropzone",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Dropzone is a JavaScript library that turns any HTML element into a dropzone.",
+    "website": "https://www.dropzone.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Ethers": {
+    "name": "Ethers",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Ethers is a complete, tiny and simple Ethereum library.",
+    "website": "https://ethers.org/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Fresco": {
+    "name": "Fresco",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Fresco is a responsive lightbox. Fresco comes with thumbnail support, fullscreen zoom, Youtube and Vimeo integration for HTML5 video and a powerful Javascript API.",
+    "website": "https://github.com/staaky/fresco",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Granim.js": {
+    "name": "Granim.js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Granim.js is a lightweight javascript library to create fluid and interactive gradients animations.",
+    "website": "https://sarcadass.github.io/granim.js",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Isotope": {
+    "name": "Isotope",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Isotope.js is a JavaScript library that makes it easy to sort, filter, and add Masonry layouts to items on a webpage.",
+    "website": "https://isotope.metafizzy.co",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JsObservable": {
+    "name": "JsObservable",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "JsObservable is integrated with JsViews and facilitates observable data manipulations that are immediately reflected in the data-bound templates. The library is developed and maintained by Microsoft employee Boris Moore and is used in projects such as Outlook.com and Windows Azure.",
+    "website": "https://www.jsviews.com/#jsobservable",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Keen-Slider": {
+    "name": "Keen-Slider",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Keen-Slider is a free library agnostic touch slider with native touch/swipe behavior.",
+    "website": "https://keen-slider.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Laravel Echo": {
+    "name": "Laravel Echo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Laravel Echo is a JavaScript library that makes it painless to subscribe to channels and listen for events broadcast by Laravel.",
+    "website": "https://laravel.com/docs/broadcasting#client-side-installation",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "LazySizes": {
+    "name": "LazySizes",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "LazySizes is a JavaScript library used to delay the loading of images (iframes, scripts, etc) until they come into view.",
+    "website": "https://github.com/aFarkas/lazysizes",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59",
+        "Category 92"
+      ]
+    }
+  },
+  "Lenis": {
+    "name": "Lenis",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Lenis is a smooth scroll library to normalise the scrolling experience across devices.",
+    "website": "https://lenis.studiofreight.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Loadable-Components": {
+    "name": "Loadable-Components",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Loadable-Components is a library to solve the React code-splitting client-side and server-side.",
+    "website": "https://github.com/gregberge/loadable-components",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "lit-element": {
+    "name": "lit-element",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "lit-element is a simple base class for creating web components that work in any web page with any framework. lit-element uses lit-html to render into shadow DOM, and adds API to manage properties and attributes.",
+    "website": "https://lit.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "lit-html": {
+    "name": "lit-html",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "lit-html is a simple, modern, safe, small and fast HTML templating library for JavaScript.",
+    "website": "https://lit.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "lite-youtube-embed": {
+    "name": "lite-youtube-embed",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "The lite-youtube-embed technique renders the YouTube video inside the IFRAME tag only when the play button in clicked thus improving the core web vitals score of your website.",
+    "website": "https://github.com/paulirish/lite-youtube-embed",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Mantine": {
+    "name": "Mantine",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Mantine is a React components library.",
+    "website": "https://mantine.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Mavo": {
+    "name": "Mavo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Mavo is a JavaScript library that enables web developers to turn regular HTML into reactive web applications without the need for writing custom JavaScript.",
+    "website": "https://mavo.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Muuri": {
+    "name": "Muuri",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Muuri is a JavaScript layout engine that allows you to build all kinds of layouts and make them responsive, sortable, filterable, draggable and/or animated.",
+    "website": "https://muuri.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "OpenCV": {
+    "name": "OpenCV",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library.",
+    "website": "https://opencv.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Preact": {
+    "name": "Preact",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Preact is a JavaScript library that describes itself as a fast 3kB alternative to React with the same ES6 API.",
+    "website": "https://preactjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "PubSubJS": {
+    "name": "PubSubJS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "PubSubJS is a topic-based publish/subscribe library written in JavaScript.",
+    "website": "https://github.com/mroderick/PubSubJS",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "ScrollMagic": {
+    "name": "ScrollMagic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "ScrollMagic is a jQuery plugin which essentially lets you use the scrollbar like a playback scrub control.",
+    "website": "https://scrollmagic.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Selectize": {
+    "name": "Selectize",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Selectize is an extensible jQuery-based custom <select> UI control.",
+    "website": "https://selectize.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Splide": {
+    "name": "Splide",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Splide.js is a lightweight, responsive, and customizable slider and carousel library for JavaScript.",
+    "website": "https://splidejs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "SpriteSpin": {
+    "name": "SpriteSpin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "SpriteSpin is a JavaScript plugin that enables users to create 360-degree image spin animations on their websites.",
+    "website": "https://github.com/giniedp/spritespin",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "vxe-table": {
+    "name": "vxe-table",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "vxe-table is a Vue.js based PC form component, support add, delete, change, virtual scroll, lazy load, shortcut menu, data validation, tree structure, print export, form rendering, data paging, virtual list, modal window, custom template, renderer, flexible configuration items, extension interface.",
+    "website": "https://vxetable.cn",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "Ziggy": {
+    "name": "Ziggy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 59",
+    "description": "Ziggy is a library that allows using Laravel named routes in JavaScript.",
+    "website": "https://github.com/tighten/ziggy",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ]
+    }
+  },
+  "@sulu/web": {
+    "name": "@sulu/web",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://github.com/sulu/web-js",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Day.js": {
+    "name": "Day.js",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 59",
+    "description": "",
+    "website": "https://github.com/iamkun/dayjs",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SoundManager": {
+    "name": "SoundManager",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 59",
+    "description": "",
+    "website": "http://www.schillmania.com/projects/soundmanager2",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

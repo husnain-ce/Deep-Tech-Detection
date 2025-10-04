@@ -1,0 +1,203 @@
+{
+  "Blue": {
+    "name": "Blue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "Blue is a ecommerce data marketing, lead generation, real time bidding and recommendation solutions.",
+    "website": "https://web.getblue.io/en/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getblue\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "Cross Pixel": {
+    "name": "Cross Pixel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "Cross Pixel is an advertising platform through which advertisers can leverage the marriage of partner audience synergies with the power of retargeting.",
+    "website": "http://crosspixel.net",
+    "patterns": {
+      "scriptSrc": [
+        "tag\\.crsspxl\\.com"
+      ],
+      "scripts": [
+        "tag\\.crsspxl\\.com/s1\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PebblePost": {
+    "name": "PebblePost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "PebblePost provides marketers a way to transform recent online data into intelligent direct mail programs that perform.",
+    "website": "https://www.pebblepost.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.pbbl\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "Picreel": {
+    "name": "Picreel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "Picreel is a conversion optimisation software.",
+    "website": "https://www.picreel.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.picreel\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77",
+        "Advertising"
+      ]
+    }
+  },
+  "SharpSpring Ads": {
+    "name": "SharpSpring Ads",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "SharpSpring Ads is an all-in-one retargeting platform.",
+    "website": "https://sharpspring.com/ads",
+    "patterns": {
+      "scriptSrc": [
+        "\\.perfectaudience\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "Smarter Click": {
+    "name": "Smarter Click",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "Smarter Click is a marketing technology company.",
+    "website": "https://smarterclick.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.?smct\\.(?:io|co)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "Squadata": {
+    "name": "Squadata",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "Squadata provides data based marketing and advertising solutions including email retargeting, CRM onboarding, data monetisation, data management platform.",
+    "website": "https://www.squadata.net",
+    "patterns": {
+      "scriptSrc": [
+        "//asset\\.easydmp\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "SteelHouse": {
+    "name": "SteelHouse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 77",
+    "description": "SteelHouse is an advertising software company which provides services for brands, agencies, and direct marketers.",
+    "website": "https://steelhouse.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.steelhousemedia\\.com/(?:spx\\?dxver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  },
+  "Linx Impulse": {
+    "name": "Linx Impulse",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 77",
+    "description": "Linx Impulse is a personalisation, media and retargeting solutions built by Linx.",
+    "website": "https://www.linx.com.br/linx-impulse",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77",
+        "Category 76"
+      ]
+    }
+  },
+  "RTB House": {
+    "name": "RTB House",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 77",
+    "description": "RTB House is a company that provides learning-powered retargeting solutions for brands and agencies.",
+    "website": "https://www.rtbhouse.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 77"
+      ]
+    }
+  }
+}

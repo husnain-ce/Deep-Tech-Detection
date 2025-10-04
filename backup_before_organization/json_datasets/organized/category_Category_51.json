@@ -1,0 +1,1380 @@
+{
+  "Acquia Site Studio": {
+    "name": "Acquia Site Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Site Studio (formerly Cohesion) is a low-code, Drupal add-on page builder.",
+    "website": "https://www.acquia.com/products/drupal-cloud/site-studio",
+    "patterns": {
+      "scriptSrc": [
+        "sites/\\w*/files/cohesion"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Adobe Portfolio": {
+    "name": "Adobe Portfolio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Adobe Portfolio is an Adobe platform that allows you to create a web page where you can show your projects, creations, and the services you offer.",
+    "website": "https://portfolio.adobe.com",
+    "patterns": {
+      "meta": [
+        "twitter:site: @AdobePortfolio"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "BeyondMenu": {
+    "name": "BeyondMenu",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "BeyondMenu is an online food ordering service.",
+    "website": "https://www.beyondmenu.com/contactus.aspx",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.beyondmenu\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 93"
+      ]
+    }
+  },
+  "Bricks": {
+    "name": "Bricks",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Bricks is a premium WordPress theme that lets you visually build performant WordPress sites.",
+    "website": "https://bricksbuilder.io",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bricks/assets/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 80"
+      ]
+    }
+  },
+  "Bricksite": {
+    "name": "Bricksite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Bricksite is a free website online tool where clients can create free accounts with various themes and features.",
+    "website": "https://bricksite.io",
+    "patterns": {
+      "meta": [
+        "generator: ^Bricksite$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Bubble": {
+    "name": "Bubble",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Bubble is a no-code platform that lets anyone build web apps without writing any code.",
+    "website": "http://bubble.io",
+    "patterns": {
+      "headers": [
+        "x-bubble-capacity-limit: ",
+        "x-bubble-perf: ",
+        "x-bubble-capacity-used: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cargo": {
+    "name": "Cargo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Cargo is a professional site building platform for designers and artists.",
+    "website": "https://cargo.site",
+    "patterns": {
+      "meta": [
+        "cargo_title: "
+      ],
+      "scriptSrc": [
+        "/cargo\\."
+      ],
+      "html": [
+        "<link [^>]+Cargo feed"
+      ],
+      "scripts": [
+        "/cargo\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Carrd": {
+    "name": "Carrd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Carrd is a platform for building simple, responsive, one-page sites.",
+    "website": "https://carrd.co",
+    "patterns": {
+      "scripts": [
+        "\\(\\!section\\s\\|\\|\\ssection\\.tagName\\s\\!\\=\\s\\'SECTION\\'\\)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Convertri": {
+    "name": "Convertri",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Convertri is a sales funnel building solution.",
+    "website": "https://www.convertri.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.convertri\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Divi": {
+    "name": "Divi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Divi is a WordPress Theme and standalone WordPress plugin from Elegant themes that allows users to build websites using the visual drag-and-drop Divi page builder.",
+    "website": "https://www.elegantthemes.com/gallery/divi",
+    "patterns": {
+      "meta": [
+        "generator: Divi(?:\\sv\\.([\\d\\.]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "Divi/js/custom\\.(?:min|unified)\\.js\\?ver=([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 80",
+        "Category 87"
+      ]
+    }
+  },
+  "Elementor": {
+    "name": "Elementor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Elementor is a website builder platform for professionals on WordPress.",
+    "website": "https://elementor.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Elementor\\s([\\d\\.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/wp-content/plugins/elementor(?:-pro)?/.+frontend-modules\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ],
+      "html": [
+        "<div class=(?:\"|')[^\"']*elementor",
+        "<section class=(?:\"|')[^\"']*elementor",
+        "<link [^>]*href=(?:\"|')[^\"']*elementor/assets",
+        "<link [^>]*href=(?:\"|')[^\"']*uploads/elementor/css"
+      ],
+      "scripts": [
+        "elementor/assets/js/[^/]+\\.js\\?ver=([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Framer Sites": {
+    "name": "Framer Sites",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Framer is primarily a design and prototyping tool. It allows you to design interactive prototypes of websites and applications using production components and real data.",
+    "website": "https://framer.com/sites",
+    "patterns": {
+      "scriptSrc": [
+        "framerusercontent\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Frontastic": {
+    "name": "Frontastic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Frontastic is a Commerce Frontend Platform that unites business and development teams to build commerce sites on headless.",
+    "website": "https://www.frontastic.cloud/",
+    "patterns": {
+      "headers": [
+        "frontastic-request-id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Homestead": {
+    "name": "Homestead",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Homestead is a website builder.",
+    "website": "https://www.homestead.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Homestead SiteBuilder$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Hostinger Website Builder": {
+    "name": "Hostinger Website Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Hostinger Website Builder is a web-based platform that allows users to create and design websites without needing to write code or have extensive technical knowledge.",
+    "website": "https://www.hostinger.com",
+    "patterns": {
+      "meta": [
+        "generator: Hostinger Website Builder"
+      ],
+      "scriptSrc": [
+        "userapp\\.zyrosite\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Hypervisual Page Builder": {
+    "name": "Hypervisual Page Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Hypervisual Page Builder is a page builder for Shopify.",
+    "website": "https://gethypervisual.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.gethypervisual\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 100"
+      ]
+    }
+  },
+  "Instapage": {
+    "name": "Instapage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Instapage is a cloud-based landing page platform designed for marketing teams and agencies.",
+    "website": "https://instapage.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.instapagemetrics\\.com",
+        "heatmap-events-collector\\.instapage\\.com"
+      ],
+      "scripts": [
+        "cdn\\.instapagemetrics\\.com",
+        "heatmap-events-collector\\.instapage\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 74",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Launchrock": {
+    "name": "Launchrock",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Launchrock is an online tool designed to help capture email addresses and create online product launching events.",
+    "website": "https://www.launchrock.com",
+    "patterns": {
+      "scriptSrc": [
+        "builder\\.launchrock\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 75"
+      ]
+    }
+  },
+  "MailerLite Website Builder": {
+    "name": "MailerLite Website Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "MailerLite Website Builder is a free drag & drop website builder with interactive blocks and ecommerce integrations.",
+    "website": "https://www.mailerlite.com/features/website-builder",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.mailerlite\\.com/moment/moment\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Menufy Website": {
+    "name": "Menufy Website",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Menufy is an online and mobile meal ordering service.",
+    "website": "https://restaurant.menufy.com",
+    "patterns": {
+      "scriptSrc": [
+        "sitecontent-menufycom\\.netdna-ssl\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Mobirise": {
+    "name": "Mobirise",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios.",
+    "website": "https://mobirise.com",
+    "patterns": {
+      "html": [
+        "<!-- Site made with Mobirise Website Builder v([\\d.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: ^Mobirise v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MySiteNow": {
+    "name": "MySiteNow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "MySiteNow provides cloud-based web development services, allowing users to create HTML5 websites and mobile sites.",
+    "website": "https://mysitenow.gr",
+    "patterns": {
+      "meta": [
+        "app-platform: ^MySiteNow$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "MyWebsite": {
+    "name": "MyWebsite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "MyWebsite is website builder designed for easy editing and fast results.",
+    "website": "https://www.ionos.com",
+    "patterns": {
+      "meta": [
+        "generator: IONOS MyWebsite\\;version:8",
+        "generator: ^.*MyWebsite.*$\\;version:8"
+      ],
+      "scripts": [
+        "\\/\\/integration\\.mywebsite-editor\\.com.*\\.js\\;version:9"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MyWebsite Creator": {
+    "name": "MyWebsite Creator",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "MyWebsite Creator is website builder designed for easy editing and fast results.",
+    "website": "https://www.ionos.com",
+    "patterns": {
+      "scriptSrc": [
+        "website-editor\\.net",
+        "mywebsite-editor\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "MyWebsite Now": {
+    "name": "MyWebsite Now",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "MyWebsite Now is a website builder designed for getting online quickly.",
+    "website": "https://www.ionos.com",
+    "patterns": {
+      "meta": [
+        "generator: MyWebsite NOW"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Nicepage": {
+    "name": "Nicepage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Nicepage is a free website building tool that requires no coding skills and integrates seamlessly with all leading CMS systems.",
+    "website": "https://nicepage.com",
+    "patterns": {
+      "meta": [
+        "generator: Nicepage\\s([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Oxygen": {
+    "name": "Oxygen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Oxygen Builder is a tool to build a WordPress website.",
+    "website": "https://oxygenbuilder.com",
+    "patterns": {
+      "html": [
+        "<body class=(?:\"|')[^\"']*oxygen-body",
+        "<link [^>]*href=(?:\"|')[^>]*wp-content/plugins/oxygen/"
+      ],
+      "scriptSrc": [
+        "wp-content/plugins/oxygen"
+      ],
+      "scripts": [
+        "wp-content/plugins/oxygen"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PageFly": {
+    "name": "PageFly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "PageFly is an app for Shopify that allows you to build landing pages, product pages, blogs, and FAQs.",
+    "website": "https://pagefly.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: PageFly"
+      ],
+      "scriptSrc": [
+        "cdn\\.pagefly\\.io"
+      ],
+      "scripts": [
+        "pagefly\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Platforma LP": {
+    "name": "Platforma LP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Platforma LP is a web design and development platform that provides ready-to-use website templates for various industries and purposes. It is a collection of over 500 website templates that can be customised and edited according to user needs.",
+    "website": "https://platformalp.ru",
+    "patterns": {
+      "scriptSrc": [
+        "\\.lpcdn\\.site/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "PromoBuilding": {
+    "name": "PromoBuilding",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "PromoBuilding is a subscription-based website builder for optimising budgets for creating promotional campaigns.",
+    "website": "https://promobuilding.ru",
+    "patterns": {
+      "cookies": [
+        "promobuilding_session: "
+      ],
+      "html": [
+        "<!-- made with https://promobuilding\\.ru"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Rawabit": {
+    "name": "Rawabit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Rawabit is a website builder that lets small businesses design landing pages, modify sections, and embed content links using a drag and drop editor.",
+    "website": "https://www.rawabit.me",
+    "patterns": {
+      "cookies": [
+        "rawabit_session: "
+      ],
+      "meta": [
+        "powered-by: ^Rawabit$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Readymag": {
+    "name": "Readymag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Readymag is a browser-based design tool that helps create websites, portfolios and all kinds of online publications without coding.",
+    "website": "https://readymag.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Readymag$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "STUDIO": {
+    "name": "STUDIO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "STUDIO is a Japan-based company and SaaS application for designing and hosting websites. The service includes a visual editor with built-in CMS and analytics.",
+    "website": "https://studio.design",
+    "patterns": {
+      "meta": [
+        "generator: ^STUDIO$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Showit": {
+    "name": "Showit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Showit is a drag-and-drop, no-code website builder for photographers and creative professionals.",
+    "website": "https://showit.co",
+    "patterns": {
+      "scriptSrc": [
+        "lib\\.showit\\.co/engine/([\\d\\.]+)/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "SpotHopper": {
+    "name": "SpotHopper",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "SpotHopper is an all-in-one marketing and online revenue platform for restaurants.",
+    "website": "https://www.spothopperapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.spotapps\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Stackbit": {
+    "name": "Stackbit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Stackbit is a visual experience platform for building decoupled websites.",
+    "website": "https://www.stackbit.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stackbit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Starhost": {
+    "name": "Starhost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Starhost provides a Platform-as-a-Service (PaaS) for website building, web hosting, and domain registration.",
+    "website": "https://starhost.verbosec.com",
+    "patterns": {
+      "headers": [
+        "Cache-Control: Starhost",
+        "X-Starhost: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 62"
+      ]
+    }
+  },
+  "Umso": {
+    "name": "Umso",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Umso is a website builder for Startups.",
+    "website": "https://www.umso.com",
+    "patterns": {
+      "scripts": [
+        "isPriorBlockingEnabled\\;confidence:75"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Vev": {
+    "name": "Vev",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Vev is a cloud-based design and publishing platform that enables users to create interactive digital content without coding, using a drag-and-drop interface and built-in templates and integrations.",
+    "website": "https://www.vev.design",
+    "patterns": {
+      "scriptSrc": [
+        "\\.vev\\.design/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Visual Composer": {
+    "name": "Visual Composer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Visual Composer is an all-in-one web design tool for anyone who uses WordPress.",
+    "website": "https://visualcomposer.com",
+    "patterns": {
+      "meta": [
+        "generator: Powered by Visual Composer Website Builder"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Vitrin.me": {
+    "name": "Vitrin.me",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Vitrin.me is a no-code platform that lets anyone build web apps without writing any code.",
+    "website": "https://vitrin.me",
+    "patterns": {
+      "scriptSrc": [
+        "\\.vitrin\\.me/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Webflow": {
+    "name": "Webflow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Webflow is Software-as-a-Service (SaaS) for website building and hosting.",
+    "website": "https://webflow.com",
+    "patterns": {
+      "meta": [
+        "generator: Webflow"
+      ],
+      "html": [
+        "<html[^>]+data-wf-site"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "wpBakery": {
+    "name": "wpBakery",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "WPBakery is a drag and drop visual page builder plugin for WordPress.",
+    "website": "https://wpbakery.com",
+    "patterns": {
+      "meta": [
+        "generator: WPBakery"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yola": {
+    "name": "Yola",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 51",
+    "description": "Yola is a website builder and website hosting company headquartered in San Francisco.",
+    "website": "https://www.yola.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.yola(?:cdn)?\\.(?:net|com)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "ApexPages": {
+    "name": "ApexPages",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 51",
+    "description": "",
+    "website": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro.htm",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Salesforce\\.com ApexPages"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Boats Group": {
+    "name": "Boats Group",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Boats Group is a website platform for boat dealers and brokers.",
+    "website": "https://www.boatsgroup.com/websites",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Breakdance": {
+    "name": "Breakdance",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Breakdance is a page builder that features a drag-and-drop interface for users to create pages using full site editing functionality.",
+    "website": "https://breakdance.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Chinese Menu Online": {
+    "name": "Chinese Menu Online",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Chinese Menu Online is an online food ordering service.",
+    "website": "https://www.chinesemenuonline.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Category 93"
+      ]
+    }
+  },
+  "Doteasy Website Builder": {
+    "name": "Doteasy Website Builder",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Doteasy Website Builder is a tool provided by Doteasy, a web hosting company that enables users to create and personalise their own websites without necessitating any technical knowledge or expertise in website design.",
+    "website": "https://www.doteasy.com/website-builder/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Funnelish": {
+    "name": "Funnelish",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Funnelish is a software tool that helps businesses create and optimise sales funnels for their websites to increase their conversion rates and revenue. Funnelish page builder is a funnel builder focused on building ecommerce funnels.",
+    "website": "https://funnelish.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "GrapesJS": {
+    "name": "GrapesJS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "GrapesJS is an open-source, multi-purpose page builder which combines different plugins and intuitive drag and drop interface.",
+    "website": "https://grapesjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51",
+        "Widgets"
+      ]
+    }
+  },
+  "Kapix Studio": {
+    "name": "Kapix Studio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Kapix Studio is a no-code platform that lets anyone build web apps without writing any code.",
+    "website": "https://studio.kapix.fr",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Level 5": {
+    "name": "Level 5",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Level 5 is a page builder constructed with WordPress and powered with WP Engine hosting featuring advanced caching and performance optimisation.",
+    "website": "https://level5advertising.com/websites/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Mysitefy": {
+    "name": "Mysitefy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Mysitefy is a digital platform for B2B enterprises. It provides companies with a closed-loop digital application system from website building to marketing, to customer and order management.",
+    "website": "https://www.mysitefy.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Notion": {
+    "name": "Notion",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Notion is a collaboration platform with modified Markdown support that integrates kanban boards, tasks, wikis, and database.",
+    "website": "https://notion.so",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "OnUniverse": {
+    "name": "OnUniverse",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "OnUniverse is the first website builder and commerce platform built for mobile devices.",
+    "website": "https://onuniverse.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Oopy": {
+    "name": "Oopy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Oopy provides you with a simple and easy way to turn your Notion page into a performant website.",
+    "website": "https://oopy.us/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Oracle Application Express": {
+    "name": "Oracle Application Express",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Oracle Application Express (APEX) is an enterprise low-code development platform from Oracle Corporation. APEX is a fully supported no-cost feature of Oracle Database.",
+    "website": "https://apex.oracle.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Plasmic": {
+    "name": "Plasmic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Plasmic is a visual, no-code headless page/content builder for any website or codebase.",
+    "website": "https://www.plasmic.app",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Shogun Page Builder": {
+    "name": "Shogun Page Builder",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Shogun is a page builder commonly used with headless implementations.",
+    "website": "https://getshogun.com/page-builder",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Simvoly": {
+    "name": "Simvoly",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Simvoly is a drag-and-drop website builder for small and medium-sized businesses, agencies, and freelancers.",
+    "website": "https://simvoly.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "SiteW": {
+    "name": "SiteW",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "SiteW is a French-based company that offers a website building service.",
+    "website": "https://www.en.sitew.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Softr": {
+    "name": "Softr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Softr is a tool designed to help users build custom websites, web apps, clients portals, or internal tools using Airtable or Google Sheets data.",
+    "website": "https://www.softr.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "StackerHQ": {
+    "name": "StackerHQ",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "StackerHQ is a tool in the low code platforms and application builders categories.",
+    "website": "https://www.stackerhq.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Super Builder": {
+    "name": "Super Builder",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Super Builder is a new tool for creating sleek landing pages right in Notion.",
+    "website": "https://super.so",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "WebsiteBuilder": {
+    "name": "WebsiteBuilder",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "WebsiteBuilder is a page-builder for creating web pages without knowledge of programming languages.",
+    "website": "https://www.websitebuilder.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  },
+  "Ycode": {
+    "name": "Ycode",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 51",
+    "description": "Ycode is a no-code development platform that allows users to create web and mobile applications without any coding skills.",
+    "website": "https://www.ycode.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 51"
+      ]
+    }
+  }
+}

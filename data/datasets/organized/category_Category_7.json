@@ -1,0 +1,34 @@
+{
+  "Alpine.js": {
+    "name": "Alpine.js",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 7",
+    "description": "",
+    "website": "https://alpinejs.dev",
+    "patterns": {
+      "html": [
+        "<[^>]+[^\\w-]x-data[^\\w-][^<]+\\;confidence:75",
+        "x-data=|x-init="
+      ],
+      "scriptSrc": [
+        "/alpine(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "/alpine(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 7"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

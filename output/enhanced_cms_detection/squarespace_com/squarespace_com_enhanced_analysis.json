@@ -1,0 +1,205 @@
+{
+  "url": "https://squarespace.com",
+  "final_url": "https://www.squarespace.com/",
+  "analysis_time": 4.910033464431763,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515393.6179037
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515393.985349
+    },
+    {
+      "name": "Squarespace",
+      "confidence": 85,
+      "category": "CMS",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<!-- This is Squarespace\\. -->",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.squarespace.com",
+      "description": "Squarespace provides Software-as-a-Service (SaaS) for website building and hosting, and allows users to use pre-built website templates.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515395.0284564
+    },
+    {
+      "name": "Cart Functionality",
+      "confidence": 85,
+      "category": "Web Servers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/pages/homepage-2025/hero/basketball-2-500w.jpg",
+          "match": "/(?:cart|order|basket|trolley|bag|shoppingbag|checkout)",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515397.8269467
+    },
+    {
+      "name": "Joomla",
+      "confidence": 85,
+      "category": "CMS",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/extensions-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/payment-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/capital-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/analytics-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/website-editing-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/design-intelligence-3-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/business-email-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/domains-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/queen-carousel/ai-seo-500w.jpg",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/conversion/conversion-centered-poster-500w.png",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://media-www.sqspcdn.com/images/components/conversion/conversion-centered-mobile-poster-500w.png",
+          "match": "/administrator/|/components/",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://www.joomla.org/",
+      "description": "Joomla is a free and open-source content management system for publishing web content.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515397.8294857
+    }
+  ],
+  "metadata": {
+    "title": "Website Builder &mdash; Easily Create Your Own Website &mdash; Squarespace",
+    "description": "Create a professional website with a free Squarespace trial. Our website \r\nbuilder makes it easy to start with customizable templates, AI tools, or a \r\ndomain name.",
+    "content_length": 485652,
+    "response_time": "0",
+    "server": "Squarespace",
+    "total_technologies": 5,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 4,
+    "confidence_distribution": {
+      "high (80-100)": 5,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 4.91,
+      "technologies_per_second": 1.02
+    }
+  },
+  "errors": []
+}

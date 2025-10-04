@@ -1,0 +1,90 @@
+{
+  "Jenkins": {
+    "name": "Jenkins",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 44",
+    "description": "Jenkins is an open-source automation tool written in Java with plugins built for Continuous Integration (CI) purposes.",
+    "website": "https://jenkins.io/",
+    "patterns": {
+      "headers": [
+        "X-Jenkins: ([\\d.]+)\\;version:\\1",
+        "X-Jenkins: .+"
+      ],
+      "html": [
+        "<span class=\"jenkins_ver\"><a href=\"https://jenkins\\.io/\">Jenkins ver\\. ([\\d.]+)\\;version:\\1"
+      ],
+      "url": [
+        "/jenkins/|/job/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 44"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "TeamCity": {
+    "name": "TeamCity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 44",
+    "description": "TeamCity is a build management and continuous integration server from JetBrains.",
+    "website": "https://www.jetbrains.com/teamcity/",
+    "patterns": {
+      "html": [
+        "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "application-name: TeamCity"
+      ],
+      "headers": [
+        "X-TeamCity-Server: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 44"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "GitLab CI/CD": {
+    "name": "GitLab CI/CD",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 44",
+    "description": "",
+    "website": "http://about.gitlab.com/gitlab-ci",
+    "patterns": {
+      "meta": [
+        "description: GitLab CI/CD is a tool built into GitLab for software development through continuous methodologies."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 44",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

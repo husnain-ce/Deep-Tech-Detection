@@ -1,0 +1,1155 @@
+{
+  "reCAPTCHA": {
+    "name": "reCAPTCHA",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "reCAPTCHA is a free service from Google that helps protect websites from spam and abuse.",
+    "website": "https://www.google.com/recaptcha/",
+    "patterns": {
+      "scripts": [
+        "api-secure\\.recaptcha\\.net",
+        "/recaptcha/api\\.js",
+        "www\\.google\\.com/recaptcha/.*api\\.js",
+        "recaptcha_ajax\\.js"
+      ],
+      "scriptSrc": [
+        "api-secure\\.recaptcha\\.net",
+        "recaptcha_ajax\\.js",
+        "/recaptcha/(?:api|enterprise)\\.js"
+      ],
+      "html": [
+        "<div[^>]+id=\"recaptcha_image",
+        "<link[^>]+recaptcha",
+        "g-recaptcha",
+        "<div[^>]+class=\"g-recaptcha\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "hCaptcha": {
+    "name": "hCaptcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "hCaptcha is an anti-bot solution that protects user privacy and rewards websites.",
+    "website": "https://www.hcaptcha.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: (?:\\.|//)hcaptcha\\.com"
+      ],
+      "css": [
+        "#cf-hcaptcha-container"
+      ],
+      "scriptSrc": [
+        "hcaptcha\\.com/([\\d]+?)/api\\.js\\;version:\\1"
+      ],
+      "html": [
+        "<style[^>]+[^<]+#cf-hcaptcha-container[^<]+</style>",
+        "h-captcha"
+      ],
+      "scripts": [
+        "hcaptcha\\.com/1/api\\.js",
+        "https://hcaptcha.com/([\\d]+?)/api.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "AWS WAF Captcha": {
+    "name": "AWS WAF Captcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "AWS WAF Captcha helps block unwanted bot traffic by requiring users to successfully complete challenges before their web request are allowed to reach AWS WAF protected resources.",
+    "website": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-captcha.html",
+    "patterns": {
+      "headers": [
+        "x-amzn-waf-action: ^captcha$"
+      ],
+      "scriptSrc": [
+        "captcha\\.awswaf\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Akamai Bot Manager": {
+    "name": "Akamai Bot Manager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Akamai Bot Manager detect bots using device fingerprinting bot signatures.",
+    "website": "https://www.akamai.com/us/en/products/security/bot-manager.jsp",
+    "patterns": {
+      "cookies": [
+        "bm_sz: ",
+        "bm_sv: ",
+        "ak_bmsc: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Akamai Web Application Protector": {
+    "name": "Akamai Web Application Protector",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Akamai Web Application Protector is designed for companies looking for a more automated approach to web application firewall (WAF) and distributed denial-of-service (DDoS) security.",
+    "website": "https://www.akamai.com/us/en/products/security/web-application-protector-enterprise-waf-firewall-ddos-protection.jsp",
+    "patterns": {
+      "scriptSrc": [
+        "ds-aksb-a\\.akamaihd\\.net/aksb.min.js",
+        "aksb\\.min\\.js\\;confidence:50"
+      ],
+      "scripts": [
+        "ds-aksb-a\\.akamaihd\\.net/aksb.min.js",
+        "aksb\\.min\\.js\\;confidence:50"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Alibaba Cloud Verification Code": {
+    "name": "Alibaba Cloud Verification Code",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Alibaba Cloud Verification Code is a security feature provided by Alibaba Cloud to help protect user accounts from unauthorised access.",
+    "website": "https://help.aliyun.com/document_detail/193141.html",
+    "patterns": {
+      "scriptSrc": [
+        "cf\\.aliyun\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "AntiBot.Cloud": {
+    "name": "AntiBot.Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "AntiBot.Cloud is a PHP script and cloud service to protect websites from bots and junk traffic.",
+    "website": "https://antibot.cloud",
+    "patterns": {
+      "meta": [
+        "generator: AntiBot\\.Cloud\\sv\\.\\s([\\d\\.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/antibot8/static/peel\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Basic": {
+    "name": "Basic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Basic is an authetication method used by some web servers.",
+    "website": "https://tools.ietf.org/html/rfc7617",
+    "patterns": {
+      "headers": [
+        "WWW-Authenticate: ^Basic"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Blue Triangle": {
+    "name": "Blue Triangle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Blue Triangle is a connected view of marketing, web performance, and third-party tag analytics while constantly monitoring website code for security vulnerabilities.",
+    "website": "https://bluetriangle.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.btttag\\.com/btt\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Category 78"
+      ]
+    }
+  },
+  "ClickCease": {
+    "name": "ClickCease",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "ClickCease is an ad fraud and click-fraud detection and protection service software.",
+    "website": "https://www.clickcease.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.clickcease\\.com/monitor/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Cloudflare Bot Management": {
+    "name": "Cloudflare Bot Management",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Cloudflare bot management solution identifies and mitigates automated traffic to protect websites from bad bots.",
+    "website": "https://www.cloudflare.com/en-gb/products/bot-management/",
+    "patterns": {
+      "cookies": [
+        "__cf_bm: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "CoinHive Captcha": {
+    "name": "CoinHive Captcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Coinhive Captcha provides captcha service that is simple to integrate, where your users’ devices need to solve a number of hashes, adjustable by you, in order to login or post a comment to your site.",
+    "website": "https://coinhive.com",
+    "patterns": {
+      "scriptSrc": [
+        "https?://authedmine\\.com/(?:lib/captcha|captcha)"
+      ],
+      "html": [
+        "(?:<div[^>]+class=\"coinhive-captcha[^>]+data-key|<div[^>]+data-key[^>]+class=\"coinhive-captcha)"
+      ],
+      "scripts": [
+        "https?://authedmine\\.com/(?:lib/captcha|captcha)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Combahton FlowShield": {
+    "name": "Combahton FlowShield",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Combahton FlowShield is a network security solution designed to protect networks and servers from various cyber threats, including DDoS attacks, malware, and other types of malicious traffic.",
+    "website": "https://combahton.net",
+    "patterns": {
+      "headers": [
+        "Server: antiddos/flowproxy",
+        "X-Flowproxy-Author: "
+      ],
+      "cookies": [
+        "FLOWPROXY-ORIGIN: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "DDoS-Guard": {
+    "name": "DDoS-Guard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "DDoS-Guard is a Russian Internet infrastructure company which provides DDoS protection, content delivery network services, and web hosting services.",
+    "website": "https://ddos-guard.net",
+    "patterns": {
+      "headers": [
+        "server: ^ddos-guard$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Digest": {
+    "name": "Digest",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Digest is an authentication method based on a MD5 hash used by web servers.",
+    "website": "https://tools.ietf.org/html/rfc7616",
+    "patterns": {
+      "headers": [
+        "WWW-Authenticate: ^Digest"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Forter": {
+    "name": "Forter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Forter is a SaaS company that provides fraud prevention technology for online retailers and marketplaces.",
+    "website": "https://www.forter.com",
+    "patterns": {
+      "cookies": [
+        "forterToken: "
+      ],
+      "scriptSrc": [
+        "forter\\.com"
+      ],
+      "scripts": [
+        "forter\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Friendly Captcha": {
+    "name": "Friendly Captcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Friendly Captcha is a proof-of-work based solution in which the user’s device does all the work.",
+    "website": "https://friendlycaptcha.com",
+    "patterns": {
+      "scripts": [
+        "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "GeeTest": {
+    "name": "GeeTest",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "GeeTest is a CAPTCHA and bot management provider, protects websites, mobile apps, and APIs from automated bot-driven attacks, like ATO, credential stuffing, web scalping, etc.",
+    "website": "https://www.geetest.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.geetest\\.com"
+      ],
+      "scriptSrc": [
+        "\\.geetest\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "HSTS": {
+    "name": "HSTS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "HTTP Strict Transport Security (HSTS) informs browsers that the site should only be accessed using HTTPS.",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1",
+    "patterns": {
+      "headers": [
+        "Strict-Transport-Security: "
+      ],
+      "url": [
+        "^https://[\\w\\d\\.\\-]+(?:\\.dev)(?:/.+||/)$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Human Presence": {
+    "name": "Human Presence",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Human Presence is a bot detection and spam protection software for WordPress and Shopify.",
+    "website": "https://www.humanpresence.io",
+    "patterns": {
+      "scriptSrc": [
+        "/.*\\.humanpresence\\.(?:io|app)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Imunify360": {
+    "name": "Imunify360",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Imunify360 is a comprehensive security platform for Linux web servers which utilises machine learning technology and other advanced techniques to provide protection against various types of cyber threats, such as malware, viruses, and other attacks.",
+    "website": "https://www.imunify360.com",
+    "patterns": {
+      "headers": [
+        "Server: imunify360-webshield/([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Kerberos": {
+    "name": "Kerberos",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Kerberos is an authentication method commonly used by Windows servers",
+    "website": "https://tools.ietf.org/html/rfc4559",
+    "patterns": {
+      "headers": [
+        "WWW-Authenticate: ^Kerberos"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Konduto": {
+    "name": "Konduto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Konduto is a fraud detection service for ecommerce.",
+    "website": "https://www.konduto.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.k-analytix\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "MTCaptcha": {
+    "name": "MTCaptcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "MTCaptcha is a captcha service that is GDPR and WCAG compliant, providing the confidence of privacy and accessibility.",
+    "website": "https://www.mtcaptcha.com",
+    "patterns": {
+      "scriptSrc": [
+        "service(?:2)?\\.mtcaptcha\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "NTLM": {
+    "name": "NTLM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "NTLM is an authentication method commonly used by Windows servers",
+    "website": "https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-ntht/",
+    "patterns": {
+      "headers": [
+        "WWW-Authenticate: ^NTLM"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "NexusPIPE": {
+    "name": "NexusPIPE",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "NexusPIPE is a ADC and DDoS mitigation Company.",
+    "website": "https://nexuspipe.com",
+    "patterns": {
+      "headers": [
+        "Server: ^Nexuspipe.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "NoFraud": {
+    "name": "NoFraud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "NoFraud is a fraud prevention solution for ecommerce businesses.",
+    "website": "https://www.nofraud.com",
+    "patterns": {
+      "scriptSrc": [
+        "services\\.nofraud\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Norton Shopping Guarantee": {
+    "name": "Norton Shopping Guarantee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Norton Shopping Guarantee offering a third-party shopping guarantee to customers provides added protection and validation that you are safe to buy from.",
+    "website": "https://norton.buysafe.com",
+    "patterns": {
+      "scriptSrc": [
+        "nsg\\.symantec\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Onfido": {
+    "name": "Onfido",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Onfido is a technology company that helps businesses verify people's identities using a photo-based identity document, a selfie and artificial intelligence algorithms.",
+    "website": "https://onfido.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: (?:api|sync)\\.onfido\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Category 69"
+      ]
+    }
+  },
+  "PerimeterX": {
+    "name": "PerimeterX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "PerimeterX is a provider of scalable, behavior-based threat protection technology for the web, cloud, and mobile.",
+    "website": "https://www.perimeterx.com",
+    "patterns": {
+      "cookies": [
+        "_px3: ",
+        "_pxff_cc: ",
+        "_pxvid: ",
+        "_pxhd: "
+      ],
+      "scriptSrc": [
+        "client\\.a\\.pxi\\.pub/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RapidSec": {
+    "name": "RapidSec",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "RapidSec offers automated client-side security and monitoring.",
+    "website": "https://rapidsec.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.rapidsec\\.net",
+        "Content-Security-Policy-Report-Only: \\.rapidsec\\.net",
+        "report-to: \\.rapidsec\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "SPNEGO": {
+    "name": "SPNEGO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "SPNEGO is an authentication method commonly used in Windows servers to allow NTLM or Kerberos authentication.",
+    "website": "https://tools.ietf.org/html/rfc4559",
+    "patterns": {
+      "headers": [
+        "WWW-Authenticate: ^Negotiate"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Sqreen": {
+    "name": "Sqreen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Sqreen is the application security platform for the modern enterprise. Acquired by Datadog in Apr 2021.",
+    "website": "https://sqreen.io",
+    "patterns": {
+      "headers": [
+        "X-Protected-By: ^Sqreen$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Rich Text Editors"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ThreatMetrix": {
+    "name": "ThreatMetrix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "LexisNexis ThreatMetrix is an enterprise solution for online risk and fraud protection ('digital identity intelligence and digital authentication').",
+    "website": "https://risk.lexisnexis.com/products/threatmetrix",
+    "patterns": {
+      "scriptSrc": [
+        "\\.online-metrix\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Category 83"
+      ]
+    }
+  },
+  "TruValidate": {
+    "name": "TruValidate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "TransUnion TruValidate (previously ReputationShield/IDVision from iovation) is an online risk and fraud detection platform.",
+    "website": "https://www.transunion.com/solution/truvalidate",
+    "patterns": {
+      "scriptSrc": [
+        "mpsnare\\.iesnare\\.com",
+        "ci-mpsnare\\.iovation\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Category 83"
+      ]
+    }
+  },
+  "VAPTCHA": {
+    "name": "VAPTCHA",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "VAPTCHA is the abbreviation of (Variation Analysis based Public Turing Test to Tell Computers and Humans Apart), also known as gesture verification code, is a human-machine verification solution based on artificial intelligence and big data.",
+    "website": "https://en.vaptcha.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.vaptcha\\.com/v([\\d\\.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Variti": {
+    "name": "Variti",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Variti is a network security solutions firm that blocks bad bots, protects users from various automated abuse, attacks and fraud techniques.",
+    "website": "https://variti.io",
+    "patterns": {
+      "headers": [
+        "X-VARITI-CCR: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "VentryShield": {
+    "name": "VentryShield",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "VentryShield offers DDoS Protected VPS and Web Hosting.",
+    "website": "https://ventryshield.net",
+    "patterns": {
+      "headers": [
+        "x-ventryshield-cache-status: no-cache",
+        "x-ventryshield-sid: "
+      ],
+      "cookies": [
+        "ventryshield_pre: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Yandex SmartCaptcha": {
+    "name": "Yandex SmartCaptcha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Issue Trackers",
+    "description": "Yandex SmartCaptcha is a service for verifying queries to identify user requests and block bots.",
+    "website": "https://cloud.yandex.com/en/services/smartcaptcha",
+    "patterns": {
+      "headers": [
+        "x-yandex-captcha: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Captch Me": {
+    "name": "Captch Me",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Issue Trackers",
+    "description": "",
+    "website": "http://captchme.com",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://api\\.captchme\\.net/"
+      ],
+      "scripts": [
+        "^https?://api\\.captchme\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Datadome": {
+    "name": "Datadome",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Issue Trackers",
+    "description": "",
+    "website": "https://datadome.co/",
+    "patterns": {
+      "headers": [
+        "Server: ^DataDome$",
+        "X-DataDome-CID: ",
+        "X-DataDome: "
+      ],
+      "cookies": [
+        "datadome-_zldt: ",
+        "datadome: ",
+        "datadome-_zldp: "
+      ],
+      "scriptSrc": [
+        "^https://ct\\.datadome\\.co/[a-z]\\.js$"
+      ],
+      "scripts": [
+        "^https://ct\\.datadome\\.co/[a-z]\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Imperva": {
+    "name": "Imperva",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Issue Trackers",
+    "description": "",
+    "website": "https://www.imperva.com/",
+    "patterns": {
+      "headers": [
+        "X-Iinfo: "
+      ],
+      "scriptSrc": [
+        "/_Incapsula_Resource"
+      ],
+      "scripts": [
+        "/_Incapsula_Resource"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mollom": {
+    "name": "Mollom",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Issue Trackers",
+    "description": "",
+    "website": "http://mollom.com",
+    "patterns": {
+      "html": [
+        "<img[^>]+\\.mollom\\.com"
+      ],
+      "scriptSrc": [
+        "mollom(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "mollom(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Solve Media": {
+    "name": "Solve Media",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Issue Trackers",
+    "description": "",
+    "website": "http://solvemedia.com",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://api\\.solvemedia\\.com/"
+      ],
+      "scripts": [
+        "^https?://api\\.solvemedia\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bugcrowd": {
+    "name": "Bugcrowd",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "Bugcrowd is a crowdsourced cybersecurity platform.",
+    "website": "https://www.bugcrowd.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudflare Turnstile": {
+    "name": "Cloudflare Turnstile",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "Turnstile is Cloudflare's smart CAPTCHA alternative.",
+    "website": "https://www.cloudflare.com/products/turnstile",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Detectify": {
+    "name": "Detectify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "Detectify is an automated scanner that checks your web application for vulnerabilities.",
+    "website": "https://detectify.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FunCaptcha": {
+    "name": "FunCaptcha",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "FunCaptcha is a type of CAPTCHA, which is a security measure used to protect websites and online services from spam, bots, and other forms of automated abuse.",
+    "website": "https://www.arkoselabs.com/arkose-matchkey/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Jumio": {
+    "name": "Jumio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "Jumio is an online mobile payments and identity verification company that provides card and ID scanning and validation products for mobile and web transactions.",
+    "website": "https://www.jumio.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Keybase": {
+    "name": "Keybase",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Issue Trackers",
+    "description": "Keybase is for keeping everyone's chats and files safe, from families to communities to companies. MacOS, Windows, Linux, iPhone, and Android.",
+    "website": "https://keybase.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Issue Trackers"
+      ]
+    }
+  }
+}

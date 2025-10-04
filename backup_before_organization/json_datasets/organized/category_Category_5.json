@@ -1,0 +1,183 @@
+{
+  "Flask": {
+    "name": "Flask",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://flask.palletsprojects.com",
+    "patterns": {
+      "headers": [
+        "Server: Werkzeug/?([\\d\\.]+)?\\;version:\\1",
+        "Server: (?i)Werkzeug|gunicorn"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "ASP.NET": {
+    "name": "ASP.NET",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://learn.microsoft.com/aspnet/",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)ASP\\.NET"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ]
+    }
+  },
+  "Jetty": {
+    "name": "Jetty",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://www.eclipse.org/jetty/",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Jetty",
+        "Server: Jetty(?:\\(([\\d\\.]*\\d+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5",
+        "Category 3"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "NestJS": {
+    "name": "NestJS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://nestjs.com",
+    "patterns": {
+      "html": [
+        "nestjs"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ]
+    }
+  },
+  "Fastify": {
+    "name": "Fastify",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://www.fastify.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)fastify"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ]
+    }
+  },
+  "Koa": {
+    "name": "Koa",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://koajs.com",
+    "patterns": {
+      "html": [
+        "koa"
+      ],
+      "headers": [
+        "X-Powered-By: ^koa$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "FastAPI": {
+    "name": "FastAPI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://fastapi.tiangolo.com",
+    "patterns": {
+      "html": [
+        "FastAPI"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ]
+    }
+  },
+  "Spring Boot": {
+    "name": "Spring Boot",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 5",
+    "description": "",
+    "website": "https://spring.io/projects/spring-boot",
+    "patterns": {
+      "headers": [
+        "X-Application-Context: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 5"
+      ]
+    }
+  }
+}

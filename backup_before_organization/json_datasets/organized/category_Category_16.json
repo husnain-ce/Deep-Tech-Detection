@@ -1,0 +1,522 @@
+{
+  "GitHub Actions": {
+    "name": "GitHub Actions",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://github.com/features/actions",
+    "patterns": {
+      "html": [
+        "github-actions"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "GitLab CI": {
+    "name": "GitLab CI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://docs.gitlab.com/ee/ci/",
+    "patterns": {
+      "headers": [
+        "GitLab-LB: .+|GitLab"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "CircleCI": {
+    "name": "CircleCI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://circleci.com",
+    "patterns": {
+      "scripts": [
+        "static\\.circleci\\.com|circleci\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Travis CI": {
+    "name": "Travis CI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.travis-ci.com",
+    "patterns": {
+      "html": [
+        "travis-ci"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Bamboo": {
+    "name": "Bamboo",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.atlassian.com/software/bamboo",
+    "patterns": {
+      "headers": [
+        "X-Bamboo-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Azure DevOps Pipelines": {
+    "name": "Azure DevOps Pipelines",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://azure.microsoft.com/products/devops/",
+    "patterns": {
+      "headers": [
+        "X-TFS-Session: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Bitbucket Pipelines": {
+    "name": "Bitbucket Pipelines",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://bitbucket.org/product/features/pipelines",
+    "patterns": {
+      "html": [
+        "bitbucket-pipelines"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Buddy": {
+    "name": "Buddy",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://buddy.works",
+    "patterns": {
+      "scripts": [
+        "buddy\\.works/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Buildkite": {
+    "name": "Buildkite",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://buildkite.com",
+    "patterns": {
+      "headers": [
+        "X-Buildkite-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Drone CI": {
+    "name": "Drone CI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.drone.io",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Caddy|Drone"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Argo CD": {
+    "name": "Argo CD",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://argo-cd.readthedocs.io",
+    "patterns": {
+      "headers": [
+        "Argo-CD-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Spinnaker": {
+    "name": "Spinnaker",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://spinnaker.io",
+    "patterns": {
+      "html": [
+        "Spinnaker"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Tekton": {
+    "name": "Tekton",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://tekton.dev",
+    "patterns": {
+      "html": [
+        "Tekton Pipeline"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Harness": {
+    "name": "Harness",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.harness.io",
+    "patterns": {
+      "scripts": [
+        "app\\.harness\\.io/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "CodeShip": {
+    "name": "CodeShip",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://codeship.com",
+    "patterns": {
+      "html": [
+        "codeship"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Semaphore CI": {
+    "name": "Semaphore CI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://semaphoreci.com",
+    "patterns": {
+      "html": [
+        "semaphoreci"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Octopus Deploy": {
+    "name": "Octopus Deploy",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://octopus.com",
+    "patterns": {
+      "headers": [
+        "X-Octopus-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "FluxCD": {
+    "name": "FluxCD",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://fluxcd.io",
+    "patterns": {
+      "headers": [
+        "FluxCD-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Codefresh": {
+    "name": "Codefresh",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://codefresh.io",
+    "patterns": {
+      "scripts": [
+        "gql\\.codefresh\\.io|codefresh\\.io/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "GoCD": {
+    "name": "GoCD",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.gocd.org",
+    "patterns": {
+      "headers": [
+        "X-GoCD-Version: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Wercker": {
+    "name": "Wercker",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.oracle.com/devops/wercker/",
+    "patterns": {
+      "html": [
+        "wercker"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Shippable": {
+    "name": "Shippable",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.jfrog.com/shippable/",
+    "patterns": {
+      "html": [
+        "shippable"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Spacelift": {
+    "name": "Spacelift",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://spacelift.io",
+    "patterns": {
+      "scripts": [
+        "app\\.spacelift\\.io/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Atlantis": {
+    "name": "Atlantis",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.runatlantis.io",
+    "patterns": {
+      "headers": [
+        "X-Atlantis-Version: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Terraform Cloud": {
+    "name": "Terraform Cloud",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://www.hashicorp.com/products/terraform",
+    "patterns": {
+      "scripts": [
+        "app\\.terraform\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  },
+  "Jenkins X": {
+    "name": "Jenkins X",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 16",
+    "description": "",
+    "website": "https://jenkins-x.io",
+    "patterns": {
+      "html": [
+        "Jenkins X"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 16"
+      ]
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Hyva Themes": {
+    "name": "Hyva Themes",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 108",
+    "description": "Hyva Themes is a performance-optimised theme for Magento 2 which eliminated the third-party libraries and having only two dependencies Alpine.js and Tailwind CSS.",
+    "website": "https://hyva.io",
+    "patterns": {
+      "headers": [
+        "X-Built-With: ^Hyva Themes$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  },
+  "PWA Studio": {
+    "name": "PWA Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 108",
+    "description": "PWA Studio is a collection of tools that lets developers build complex Progressive Web Applications on top of Magento 2 or Adobe Commerce stores.",
+    "website": "https://developer.adobe.com/commerce/pwa-studio/",
+    "patterns": {
+      "scripts": [
+        "RootCmp_CMS_PAGE"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  },
+  "Vue Storefront": {
+    "name": "Vue Storefront",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 108",
+    "description": "Vue Storefront is a frontend platform for headless ecommerce.",
+    "website": "https://www.vuestorefront.io/",
+    "patterns": {
+      "meta": [
+        "generator: ^Vue Storefront ([0-9.]+)?$\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "vsf-layout\\;version:1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  },
+  "GoMage": {
+    "name": "GoMage",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 108",
+    "description": "GoMage is a Magento development company with 10 years of experience.",
+    "website": "https://www.gomage.com/magento-2-pwa",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  },
+  "ScandiPWA": {
+    "name": "ScandiPWA",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 108",
+    "description": "ScandiPWA is the next generation Magento 2 PWA theme developed in React.",
+    "website": "https://scandipwa.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  },
+  "Shogun Frontend": {
+    "name": "Shogun Frontend",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 108",
+    "description": "Shogun Frontend is an all-in-one ecommerce frontend platform. Shogun Frontend pairs with leading backends: Shopify, BigCommerce, Magento (Adobe Commerce), and more.",
+    "website": "https://getshogun.com/frontend",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 108"
+      ]
+    }
+  }
+}

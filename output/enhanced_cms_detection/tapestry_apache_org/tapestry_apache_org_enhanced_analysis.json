@@ -1,0 +1,109 @@
+{
+  "url": "https://tapestry.apache.org",
+  "final_url": "https://tapestry.apache.org",
+  "analysis_time": 2.7131264209747314,
+  "technologies": [
+    {
+      "name": "Bootstrap",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "bootstrap(?:\\.min)?\\.css",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/resources/bootstrap/bootstrap.min.js",
+          "match": "/bootstrap(?:\\.bundle)?(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://getbootstrap.com",
+      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515455.156267
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/resources/jquery/jquery-3.4.1.slim.min.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515455.4250553
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "/resources/font-awesome/5.13.0/css/all.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/resources/font-awesome/5.13.0/css/all.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515456.8071887
+    }
+  ],
+  "metadata": {
+    "title": "Apache Tapestry",
+    "description": "Apache Tapestry is a open-source component-oriented framework for creating dynamic, robust, highly scalable web applications in Java. Tapestry complements and builds upon the standard Java Servlet API, and so it works in any servlet container or application server.",
+    "content_length": 22395,
+    "response_time": "0",
+    "server": "Apache",
+    "total_technologies": 3,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 3,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 2.71,
+      "technologies_per_second": 1.11
+    }
+  },
+  "errors": []
+}

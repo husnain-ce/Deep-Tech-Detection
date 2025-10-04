@@ -1,0 +1,277 @@
+{
+  "Google Tag Manager": {
+    "name": "Google Tag Manager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+    "website": "http://www.google.com/tagmanager",
+    "patterns": {
+      "html": [
+        "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+        "GTM-[A-Z0-9]+",
+        "<!-- (?:End )?Google Tag Manager -->"
+      ],
+      "scriptSrc": [
+        "googletagmanager\\.com/gtm\\.js"
+      ],
+      "scripts": [
+        "www\\.googletagmanager\\.com/gtm\\.js",
+        "googletagmanager\\.com/gtm\\.js",
+        "googletagmanager\\.com/gtag/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Commanders Act TagCommander": {
+    "name": "Commanders Act TagCommander",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "Commanders Act TagCommander is a European company providing a tag management product designed to handle website tags.",
+    "website": "https://www.commandersact.com/en/solutions/tagcommander/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tagcommander\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ]
+    }
+  },
+  "Ensighten": {
+    "name": "Ensighten",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "Ensighten is a solution that enables secure management, implementation and control of website technologies.",
+    "website": "https://success.ensighten.com/hc/en-us",
+    "patterns": {
+      "scriptSrc": [
+        "//nexus\\.ensighten\\.com/"
+      ],
+      "scripts": [
+        "//nexus\\.ensighten\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TagPro": {
+    "name": "TagPro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "TagPro is software that updates and allows you to manage tags within websites, identifying various types of variables to optimise loads for advertising.",
+    "website": "https://tagpro.adpromedia.net",
+    "patterns": {
+      "scriptSrc": [
+        "tagpro\\.adpromedia\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ]
+    }
+  },
+  "Tealium": {
+    "name": "Tealium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "Tealium provides a sales enterprise tag management system and marketing software.",
+    "website": "http://tealium.com",
+    "patterns": {
+      "scriptSrc": [
+        "^(?:https?:)?//tags\\.tiqcdn\\.com/",
+        "/tealium/utag\\.js$"
+      ],
+      "scripts": [
+        "^(?:https?:)?//tags\\.tiqcdn\\.com/",
+        "/tealium/utag\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42",
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yottaa": {
+    "name": "Yottaa",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "Yottaa is an ecommerce optimisation platform that helps with conversions, performance and security.",
+    "website": "https://www.yottaa.com",
+    "patterns": {
+      "meta": [
+        "X-Yottaa-Optimizations: ",
+        "X-Yottaa-Metrics: "
+      ],
+      "scriptSrc": [
+        "cdn\\.yottaa\\.\\w+/"
+      ],
+      "scripts": [
+        "cdn\\.yottaa\\.\\w+/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42",
+        "Category 74",
+        "Category 92"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TagCommander": {
+    "name": "TagCommander",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 42",
+    "description": "TagCommander is an enterprise tag management system (TMS) that makes it easy to add and remove vendor tags from your Drupal-based websites.",
+    "website": "https://www.commandersact.com/en/solutions/tagcommander/",
+    "patterns": {
+      "scripts": [
+        "\\.tagcommander\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ]
+    }
+  },
+  "Yahoo! Tag Manager": {
+    "name": "Yahoo! Tag Manager",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 42",
+    "description": "",
+    "website": "https://tagmanager.yahoo.co.jp/",
+    "patterns": {
+      "html": [
+        "<!-- (?:End )?Yahoo! Tag Manager -->"
+      ],
+      "scriptSrc": [
+        "b\\.yjtag\\.jp/iframe"
+      ],
+      "scripts": [
+        "b\\.yjtag\\.jp/iframe"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adobe DTM": {
+    "name": "Adobe DTM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 42",
+    "description": "Dynamic Tag Management (DTM) is a tag management solution for Adobe Experience Cloud applications and others.",
+    "website": "https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adobe Experience Platform Launch": {
+    "name": "Adobe Experience Platform Launch",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 42",
+    "description": "Adobe Experience Cloud Launch is an extendable tag management solution for Adobe Experience Cloud, Adobe Experience Platform, and other applications.",
+    "website": "https://docs.adobelaunch.com/getting-started",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Matomo Tag Manager": {
+    "name": "Matomo Tag Manager",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 42",
+    "description": "Matomo Tag Manager manages tracking and marketing tags.",
+    "website": "https://developer.matomo.org/guides/tagmanager/introduction",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

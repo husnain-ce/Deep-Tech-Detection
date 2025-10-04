@@ -1,0 +1,127 @@
+{
+  "ConveyThis": {
+    "name": "ConveyThis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 89",
+    "description": "ConveyThis is a website translation service.",
+    "website": "https://www.conveythis.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.conveythis\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89"
+      ]
+    }
+  },
+  "Smartling": {
+    "name": "Smartling",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 89",
+    "description": "Smartling is a cloud-based translation management system.",
+    "website": "https://www.smartling.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.smartling\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89"
+      ]
+    }
+  },
+  "Weglot": {
+    "name": "Weglot",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 89",
+    "description": "",
+    "website": "https://www.weglot.com",
+    "patterns": {
+      "headers": [
+        "Weglot-Translated: "
+      ],
+      "scriptSrc": [
+        "cdn\\.weglot\\.com",
+        "wp-content/plugins/weglot"
+      ],
+      "scripts": [
+        "cdn\\.weglot\\.com",
+        "wp-content/plugins/weglot"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bablic": {
+    "name": "Bablic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 89",
+    "description": "Bablic is a localisation solution to translate your website.",
+    "website": "https://www.bablic.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "langify": {
+    "name": "langify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 89",
+    "description": "langify translate your shop into multiple languages. langify comes with a visual configurator that allows you to add language switchers that integrate seamlessly into your existing design.",
+    "website": "https://langify-app.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89"
+      ]
+    }
+  },
+  "Transcy": {
+    "name": "Transcy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 89",
+    "description": "Transcy is a Shopify translation app. Transcy allows you to translate your whole store content into target languages to reach different nation shoppers.",
+    "website": "https://transcy.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 89",
+        "Category 100"
+      ]
+    }
+  }
+}

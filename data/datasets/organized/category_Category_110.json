@@ -1,0 +1,106 @@
+{
+  "Formaloo": {
+    "name": "Formaloo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 110",
+    "description": "Formaloo is a no-code collaboration platform that helps businesses create custom data-driven business applications and internal tools, automate their processes and engage their audience.",
+    "website": "https://www.formaloo.com",
+    "patterns": {
+      "scriptSrc": [
+        "//formaloo\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  },
+  "Formli": {
+    "name": "Formli",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 110",
+    "description": "Formli is a web-based form builder service that permits users to produce and personalise online forms for different purposes, including surveys, feedback forms, event registrations, and others.",
+    "website": "https://formli.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:app|cdn)\\.(?:formli|humanagency)\\.(?:com|org)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  },
+  "FormAssembly": {
+    "name": "FormAssembly",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 110",
+    "description": "FormAssembly is a platform that enables to collection of data and processing via workflow.",
+    "website": "https://www.formassembly.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  },
+  "FormBold": {
+    "name": "FormBold",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 110",
+    "description": "FormBold is a complete web forms solution for static websites that allows you to create forms, collect data, and send notifications.",
+    "website": "https://formbold.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  },
+  "Google Forms": {
+    "name": "Google Forms",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 110",
+    "description": "Google Forms is a free online form builder that allows you to create and publish online forms, surveys, quizzes, order forms, and more.",
+    "website": "https://www.google.com/forms/about/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  },
+  "Netlify Forms": {
+    "name": "Netlify Forms",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 110",
+    "description": "Netlify Forms is a serverless form handling solution for static websites.",
+    "website": "https://www.netlify.com/products/forms",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 110"
+      ]
+    }
+  }
+}

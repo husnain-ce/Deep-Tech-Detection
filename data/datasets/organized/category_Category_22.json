@@ -1,0 +1,83 @@
+{
+  "HAProxy": {
+    "name": "HAProxy",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 22",
+    "description": "",
+    "website": "http://www.haproxy.org",
+    "patterns": {
+      "headers": [
+        "Server: (?i)HAProxy"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 22"
+      ]
+    }
+  },
+  "Traefik": {
+    "name": "Traefik",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 22",
+    "description": "",
+    "website": "https://traefik.io",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Traefik"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 22"
+      ]
+    }
+  },
+  "Envoy Proxy": {
+    "name": "Envoy Proxy",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 22",
+    "description": "",
+    "website": "https://www.envoyproxy.io",
+    "patterns": {
+      "headers": [
+        "Server: (?i)envoy"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 22"
+      ]
+    }
+  },
+  "F5 BIG-IP": {
+    "name": "F5 BIG-IP",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 22",
+    "description": "",
+    "website": "https://www.f5.com",
+    "patterns": {
+      "cookies": [
+        "BIGipServer: .*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 22",
+        "Category 14"
+      ]
+    }
+  }
+}

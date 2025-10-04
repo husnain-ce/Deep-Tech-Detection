@@ -1,0 +1,310 @@
+{
+  "Engintron": {
+    "name": "Engintron",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Engintron is a plugin that integrates Nginx to cPanel/WHM server.",
+    "website": "https://github.com/engintron/engintron",
+    "patterns": {
+      "headers": [
+        "X-Server-Powered-By: ^Engintron$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ]
+    }
+  },
+  "mod_auth_pam": {
+    "name": "mod_auth_pam",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_auth_pam is used to configure ways for authenticating users.",
+    "website": "http://pam.sourceforge.net/mod_auth_pam",
+    "patterns": {
+      "headers": [
+        "Server: mod_auth_pam(?:/([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_dav": {
+    "name": "mod_dav",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_dav is an Apache module to provide WebDAV capabilities for your Apache web server. It is an open-source module, provided under an Apache-style license.",
+    "website": "http://webdav.org/mod_dav",
+    "patterns": {
+      "headers": [
+        "Server: \\b(?:mod_)?DAV\\b(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_fastcgi": {
+    "name": "mod_fastcgi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_fcgid is a high performance alternative to mod_cgi or mod_cgid, which starts a sufficient number instances of the CGI program to handle concurrent requests, and these programs remain running to handle further incoming requests.",
+    "website": "http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html",
+    "patterns": {
+      "headers": [
+        "Server: mod_fastcgi(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_jk": {
+    "name": "mod_jk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_jk is an Apache module used to connect the Tomcat servlet container with web servers such as Apache, iPlanet, Sun ONE (formerly Netscape) and even IIS using the Apache JServ Protocol. A web server waits for client HTTP requests.",
+    "website": "http://tomcat.apache.org/tomcat-3.3-doc/mod_jk-howto.html",
+    "patterns": {
+      "headers": [
+        "Server: mod_jk(?:/([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_perl": {
+    "name": "mod_perl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_perl is an optional module for the Apache HTTP server. It embeds a Perl interpreter into the Apache server. In addition to allowing Apache modules to be written in the Perl programming language, it allows the Apache web server to be dynamically configured by Perl programs.",
+    "website": "http://perl.apache.org",
+    "patterns": {
+      "headers": [
+        "Server: mod_perl(?:/([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_python": {
+    "name": "mod_python",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_python is an Apache HTTP Server module that integrates the Python programming language with the server. It is intended to provide a Python language binding for the Apache HTTP Server. ",
+    "website": "http://www.modpython.org",
+    "patterns": {
+      "headers": [
+        "Server: mod_python(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_rack": {
+    "name": "mod_rack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_rack is a free web server and application server with support for Ruby, Python and Node.js.",
+    "website": "http://phusionpassenger.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: mod_rack(?:/([\\d.]+))?\\;version:\\1",
+        "Server: mod_rack(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_rails": {
+    "name": "mod_rails",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Mod_rails is a free web server and application server with support for Ruby, Python and Node.js.",
+    "website": "http://phusionpassenger.com",
+    "patterns": {
+      "headers": [
+        "Server: mod_rails(?:/([\\d.]+))?\\;version:\\1",
+        "X-Powered-By: mod_rails(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_ssl": {
+    "name": "mod_ssl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "mod_ssl is an optional module for the Apache HTTP Server. It provides strong cryptography for the Apache web server via the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) cryptographic protocols by the help of the open-source SSL/TLS toolkit OpenSSL.",
+    "website": "http://modssl.org",
+    "patterns": {
+      "headers": [
+        "Server: mod_ssl(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mod_wsgi": {
+    "name": "mod_wsgi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "mod_wsgi is an Apache HTTP Server module that provides a WSGI compliant interface for hosting Python based web applications under Apache.",
+    "website": "https://code.google.com/p/modwsgi",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: mod_wsgi(?:/([\\d.]+))?\\;version:\\1",
+        "Server: mod_wsgi(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenSSL": {
+    "name": "OpenSSL",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end.",
+    "website": "http://openssl.org",
+    "patterns": {
+      "headers": [
+        "Server: OpenSSL(?:/([\\d.]+[a-z]?))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Shelf": {
+    "name": "Shelf",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Search",
+    "description": "Shelf is a server framework for Dart.",
+    "website": "https://pub.dev/packages/shelf",
+    "patterns": {
+      "headers": [
+        "Server: dart:io with Shelf",
+        "x-powered-by: Dart with package:shelf"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Search"
+      ]
+    }
+  }
+}

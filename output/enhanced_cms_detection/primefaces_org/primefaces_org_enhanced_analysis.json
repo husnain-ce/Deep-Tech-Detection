@@ -1,0 +1,1660 @@
+{
+  "url": "https://primefaces.org",
+  "final_url": "https://www.primefaces.org/",
+  "analysis_time": 10.923588514328003,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.1239388
+    },
+    {
+      "name": "WordPress",
+      "confidence": 85,
+      "category": "Category 1",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link rel=[\"']stylesheet[\"'] [^>]+/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']WordPress",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery-migrate.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery-migrate.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery-migrate.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.1.3",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.1.3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.1.3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/core.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/core.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/core.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/widget.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/widget.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/widget.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/tabs.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/tabs.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/tabs.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/accordion.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/accordion.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/accordion.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-and-player.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-and-player.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-and-player.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-migrate.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-migrate.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelement-migrate.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/wp-mediaelement.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/wp-mediaelement.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/wp-mediaelement.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/third-party.min.js?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/third-party.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/third-party.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.0.1",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/modules.min.js?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/modules.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/modules.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/blog.min.js?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/blog.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/blog.min.js?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/comment-reply.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/comment-reply.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/comment-reply.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/like.min.js?ver=1.0",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/like.min.js?ver=1.0",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/js/like.min.js?ver=1.0",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/wp-embed.min.js",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/wp-embed.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/wp-embed.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/wp-embed.min.js",
+          "match": "wp-embed\\.min\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.min.css?ver=4.7.5",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.min.css?ver=4.7.5",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.min.css?ver=4.7.5",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/style.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/style.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/style.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/plugins.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/plugins.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/plugins.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/elegant-icons/style.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/elegant-icons/style.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/elegant-icons/style.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/ion-icons/css/ionicons.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/ion-icons/css/ionicons.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/ion-icons/css/ionicons.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/linea-icons/style.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/linea-icons/style.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/linea-icons/style.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/simple-line-icons/simple-line-icons.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/simple-line-icons/simple-line-icons.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/simple-line-icons/simple-line-icons.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/dripicons/dripicons.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/dripicons/dripicons.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/dripicons/dripicons.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules-responsive.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules-responsive.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/modules-responsive.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog-responsive.min.css?ver=5.3.4",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog-responsive.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/blog-responsive.min.css?ver=5.3.4",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/prime_logo_white.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/uploads/2018/05/primetek_logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/angular-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/react-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/11/vue-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/java-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/03/asset-hero-mobile.png?fit=1260%2C788&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/23.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/29.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/6.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/33.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/28.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/26.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/22.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/5.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/31.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/54.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/46.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/32.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/20.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/29.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/6.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/33.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/28.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/26.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/22.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/5.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/31.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/54.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/46.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/32.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primefaces-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primeng-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primereact-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primevue-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/08/primefacesorg-newshowcases-primeblocks-2.png?fit=1000%2C600&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/09/freya-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/02/ultima-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/06/diamond-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2020/02/apollo-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2020/02/verona-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2020/02/avalon-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2020/02/atlantis-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/08/poseidon-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2015/12/primeng-book.jpg?fit=243%2C300&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2015/12/cookbook.jpg?fit=243%2C300&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2018/12/starter-o-1.jpg?fit=300%2C375&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2015/12/beginners.png?fit=302%2C379&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2018/12/extensiondeveloper-o-1.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2024/07/nextlevel-primeng-2024.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2018/12/themedev-o-1.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/06/vuejs3byexample.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://www.primefaces.org/wp-content/plugins/cookie-law-info/lite/frontend/images/poweredbtcky.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://wordpress.org",
+      "description": "Open-source CMS.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.1468506
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<!-- (?:End )?Google Tag Manager -->",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.3132095
+    },
+    {
+      "name": "Google Font API",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/fonts",
+      "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.4333205
+    },
+    {
+      "name": "Ionicons",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]* href=[^>]+ionicons(?:\\.min)?\\.css",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://ionicons.com",
+      "description": "Ionicons is an open-source icon set crafted for web, iOS, Android, and desktop apps.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.4335186
+    },
+    {
+      "name": "Google Fonts",
+      "confidence": 75,
+      "category": "Category 28",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fonts\\.googleapis\\.com/css",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fonts.google.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.727595
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery.js",
+          "match": "/jquery(?:-[\\d.]+)?(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/jquery-migrate.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/core.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/widget.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/tabs.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://c0.wp.com/c/5.3.4/wp-includes/js/jquery/ui/accordion.min.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515460.9264226
+    },
+    {
+      "name": "Google Maps",
+      "confidence": 85,
+      "category": "Hosting/PAAS",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://maps.googleapis.com/maps/api/js?ver=5.3.4",
+          "match": "//maps\\.google(?:apis)?\\.com/maps/api/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://maps.googleapis.com/maps/api/js?ver=5.3.4",
+          "match": "//maps\\.google(?:apis)?\\.com/maps/api/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://maps.google.com",
+      "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360\u00b0 interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515463.2759066
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.4",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://www.primefaces.org/wp-content/themes/optimizewp/assets/css/font-awesome/css/font-awesome.min.css?ver=5.3.4",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515465.7982788
+    },
+    {
+      "name": "Jetpack Site Accelerator",
+      "confidence": 75,
+      "category": "Category 9",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/angular-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/react-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/11/vue-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/11/java-cx@2x.png?fit=72%2C72&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/03/asset-hero-mobile.png?fit=1260%2C788&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/23.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/29.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/6.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/33.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/28.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/26.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/22.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/5.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/31.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/54.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/46.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/32.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/20.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/29.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/6.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/33.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/28.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/26.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2016/08/22.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/5.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/31.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/54.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2016/08/46.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2016/08/32.jpg?resize=150%2C150&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primefaces-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primeng-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primereact-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2021/01/primefacesorg-primevue-2021.png?fit=1000%2C600&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2021/08/primefacesorg-newshowcases-primeblocks-2.png?fit=1000%2C600&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/09/freya-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/02/ultima-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/06/diamond-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2020/02/apollo-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2020/02/verona-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2020/02/avalon-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2020/02/atlantis-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2020/08/poseidon-medium-variation-2-o.jpg?fit=600%2C360&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2015/12/primeng-book.jpg?fit=243%2C300&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2015/12/cookbook.jpg?fit=243%2C300&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i1.wp.com/www.primefaces.org/wp-content/uploads/2018/12/starter-o-1.jpg?fit=300%2C375&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2015/12/beginners.png?fit=302%2C379&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2018/12/extensiondeveloper-o-1.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2024/07/nextlevel-primeng-2024.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i0.wp.com/www.primefaces.org/wp-content/uploads/2018/12/themedev-o-1.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        },
+        {
+          "field": "images",
+          "detail": "https://i2.wp.com/www.primefaces.org/wp-content/uploads/2021/06/vuejs3byexample.jpg?fit=300%2C370&amp;ssl=1",
+          "match": "i\\d\\.wp\\.com/",
+          "confidence": 75
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://jetpack.com/support/site-accelerator/",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515468.2363038
+    }
+  ],
+  "metadata": {
+    "title": "PrimeFaces &#8211; Ultimate UI Framework",
+    "description": "",
+    "content_length": 170948,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 10,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 8,
+    "confidence_distribution": {
+      "high (80-100)": 8,
+      "medium (50-79)": 2,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 10.92,
+      "technologies_per_second": 0.92
+    }
+  },
+  "errors": []
+}

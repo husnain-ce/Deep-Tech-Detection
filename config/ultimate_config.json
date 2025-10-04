@@ -1,0 +1,60 @@
+{
+  "system": {
+    "name": "Ultimate Web Technology Detection System",
+    "version": "2.0.0",
+    "description": "The most comprehensive web technology detection system available"
+  },
+  "datasets": {
+    "directory": "json_datasets",
+    "web_tech_dataset": "web_tech_dataset.json",
+    "wappalyzer_dataset": "wappalyzer_technologies_clean.json",
+    "technology_lookup_dataset": "technology_lookup_merged.json",
+    "individual_wappalyzer_dir": "wappalyzer_technologies"
+  },
+  "engines": {
+    "enhanced_detector": {
+      "enabled": true,
+      "min_confidence": 10,
+      "max_results": 100,
+      "use_multiple_user_agents": true,
+      "user_agent_count": 3
+    },
+    "whatweb": {
+      "enabled": true,
+      "path": "./data/external_tools/WhatWeb/whatweb",
+      "timeout": 30,
+      "aggression": 3
+    },
+    "wappalyzer": {
+      "enabled": true,
+      "update_on_init": false
+    }
+  },
+  "user_agents": {
+    "preferred_browser": "chrome",
+    "preferred_os": "windows",
+    "fallback_count": 3,
+    "include_mobile": true,
+    "include_bots": true
+  },
+  "performance": {
+    "max_workers": 5,
+    "cache_enabled": true,
+    "cache_ttl": 3600,
+    "parallel_processing": true,
+    "batch_size": 100
+  },
+  "output": {
+    "default_format": "json",
+    "pretty_print": true,
+    "save_reports": true,
+    "include_metadata": true,
+    "include_user_agent_info": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "tech_detector.log",
+    "max_size": "10MB",
+    "backup_count": 5
+  }
+}

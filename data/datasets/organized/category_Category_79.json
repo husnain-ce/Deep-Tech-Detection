@@ -1,0 +1,237 @@
+{
+  "BigDataCloud IP Geolocation": {
+    "name": "BigDataCloud IP Geolocation",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "BigDataCloud IP Geolocation API provides detailed and accurate locality and security metrics of an IP address.",
+    "website": "https://www.bigdatacloud.com/packages/ip-geolocation",
+    "patterns": {
+      "scriptSrc": [
+        "bigdatacloud\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "db-ip": {
+    "name": "db-ip",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "dbip is a geolocation API and database.",
+    "website": "https://db-ip.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.db-ip\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "Geo Targetly": {
+    "name": "Geo Targetly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "Geo Targetly is a website geo personalisation software.",
+    "website": "https://geotargetly.com",
+    "patterns": {
+      "scriptSrc": [
+        "geotargetly\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "IPinfo": {
+    "name": "IPinfo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "IPinfo is an IP address data provider.",
+    "website": "https://ipinfo.io",
+    "patterns": {
+      "scriptSrc": [
+        "ipinfo\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipify": {
+    "name": "ipify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "ipify is a service which provide public IP address API, IP geolocation API, VPN and Proxy detection API products.",
+    "website": "https://ipify.org",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ipify\\.org"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "MaxMind": {
+    "name": "MaxMind",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 79",
+    "description": "MaxMind is a provider of geolocation and online fraud detection tools.",
+    "website": "https://www.maxmind.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:device|js)\\.maxmind\\.com/",
+        "geoip\\.maxmind\\.min\\.js",
+        "geoip-js\\.com/.+/v([\\d\\.]+)/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79",
+        "Category 83"
+      ]
+    }
+  },
+  "IPInfoDB": {
+    "name": "IPInfoDB",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "IPInfoDB is the API that returns the location of an IP address.",
+    "website": "https://www.ipinfodb.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipapi": {
+    "name": "ipapi",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "ipapi is a real-time geolocation and reverse IP lookup REST API.",
+    "website": "https://ipapi.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipapi.co": {
+    "name": "ipapi.co",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "ipapi.co is a web analytics provider with IP address lookup and location API.",
+    "website": "https://ipapi.co",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipdata": {
+    "name": "ipdata",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "ipdata is a JSON IP Address Geolocation API that allows to lookup the location of both IPv4 and IPv6.",
+    "website": "https://ipdata.co/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipgeolocation": {
+    "name": "ipgeolocation",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "ipgeolocation is an IP Geolocation API and Accurate IP Lookup Database.",
+    "website": "https://ipgeolocation.co/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ipstack": {
+    "name": "ipstack",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 79",
+    "description": "ipstack is a real-time IP to geolocation API capable of looking at location data and assessing security threats originating from risky IP addresses.",
+    "website": "https://ipstack.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  },
+  "ip-api": {
+    "name": "ip-api",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 79",
+    "description": "",
+    "website": "https://ip-api.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 79"
+      ]
+    }
+  }
+}

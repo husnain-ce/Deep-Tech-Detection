@@ -1,0 +1,96 @@
+{
+  "url": "https://hbl.com",
+  "final_url": "https://www.hbl.com/",
+  "analysis_time": 0.7359464168548584,
+  "technologies": [
+    {
+      "name": "Imperva",
+      "confidence": 75,
+      "category": "Issue Trackers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3",
+          "match": "/_Incapsula_Resource",
+          "confidence": 75
+        },
+        {
+          "field": "scripts",
+          "detail": "/_Incapsula_Resource?SWJIYLWA=5074a744e2e3d891814e9a2dace20bd4,719d34d31c8e3a6e6fffd425f7e032f3",
+          "match": "/_Incapsula_Resource",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.imperva.com/",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505255.343526
+    }
+  ],
+  "metadata": {
+    "title": "",
+    "description": "",
+    "content_length": 212,
+    "response_time": "0",
+    "server": "",
+    "total_technologies": 1,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 1,
+    "confidence_distribution": {
+      "high (80-100)": 0,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 0.74,
+      "technologies_per_second": 1.36
+    },
+    "verbose_stats": {
+      "wappalyzer_detections": 0,
+      "whatweb_detections": 0,
+      "cmseek_detections": 0,
+      "pattern_detections": 1,
+      "additional_detections": 0,
+      "deep_detections": 0,
+      "total_patterns_checked": 0,
+      "categories_covered": [
+        "Web Servers",
+        "Category 28",
+        "DevOps/CI",
+        "Issue Trackers",
+        "Category 16",
+        "Category 17",
+        "Video Players",
+        "Rich Text Editors",
+        "Blogs",
+        "Category 59",
+        "Widgets",
+        "Hosting/PAAS",
+        "Database",
+        "Category 5",
+        "Category 15",
+        "Category 67",
+        "Security",
+        "Category 66",
+        "Category 42",
+        "Category 12"
+      ],
+      "engines_used": [
+        "additional_patterns",
+        "pattern_matching"
+      ]
+    }
+  },
+  "errors": []
+}

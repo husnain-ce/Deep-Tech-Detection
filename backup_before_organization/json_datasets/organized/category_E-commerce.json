@@ -1,0 +1,140 @@
+{
+  "phpMyAdmin": {
+    "name": "phpMyAdmin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "E-commerce",
+    "description": "PhpMyAdmin is a free and open-source administration tool for MySQL and MariaDB.",
+    "website": "https://www.phpmyadmin.net",
+    "patterns": {
+      "headers": [
+        "Set-Cookie: phpMyAdmin_https"
+      ],
+      "html": [
+        "!\\[CDATA\\[[^<]*PMA_VERSION:\\\"([\\d.]+)\\;version:\\1",
+        "(?: \\| phpMyAdmin ([\\d.]+)<\\/title>|PMA_sendHeaderLocation\\(|<link [^>]*href=\"[^\"]*phpmyadmin\\.css\\.php)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SQL Buddy": {
+    "name": "SQL Buddy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "E-commerce",
+    "description": "SQL Buddy is an open-source web-based application written in PHP to handle the administration of MySQL and SQLite with the use of a Web browser.",
+    "website": "http://www.sqlbuddy.com",
+    "patterns": {
+      "html": [
+        "(?:<title>SQL Buddy</title>|<[^>]+onclick=\"sideMainClick\\(\"home\\.php)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adminer": {
+    "name": "Adminer",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "E-commerce",
+    "description": "",
+    "website": "http://www.adminer.org",
+    "patterns": {
+      "html": [
+        "Adminer</a> <span class=\"version\">([\\d.]+)</span>\\;version:\\1",
+        "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "phpPgAdmin": {
+    "name": "phpPgAdmin",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "E-commerce",
+    "description": "",
+    "website": "http://phppgadmin.sourceforge.net",
+    "patterns": {
+      "html": [
+        "(?:<title>phpPgAdmin</title>|<span class=\"appname\">phpPgAdmin)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BigDump": {
+    "name": "BigDump",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "E-commerce",
+    "description": "",
+    "website": "http://www.ozerov.de/bigdump.php",
+    "patterns": {
+      "html": [
+        "<!-- <h1>BigDump: Staggered MySQL Dump Importer ver\\. ([\\d.b]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce"
+      ]
+    }
+  },
+  "8base": {
+    "name": "8base",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "E-commerce",
+    "description": "8base is a low-code development platform for building and running enterprise-grade digital products including SaaS solutions, marketplaces and other go-to-market applications.",
+    "website": "https://8base.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "E-commerce",
+        "Category 62"
+      ]
+    }
+  }
+}

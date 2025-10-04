@@ -1,0 +1,130 @@
+{
+  "url": "https://gohugo.io",
+  "final_url": "https://gohugo.io",
+  "analysis_time": 1.0549235343933105,
+  "technologies": [
+    {
+      "name": "Alpine.js",
+      "confidence": 75,
+      "category": "Category 7",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "x-data=|x-init=",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://alpinejs.dev",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515406.3833175
+    },
+    {
+      "name": "Hugo",
+      "confidence": 85,
+      "category": "Category 57",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "(?i)Hugo [0-9.]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://gohugo.io",
+      "description": "Hugo is an open-source static site generator written in Go.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515406.490656
+    },
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-MBZGKNMDWC",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-MBZGKNMDWC",
+          "match": "gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515406.6384952
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-MBZGKNMDWC",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515406.847457
+    }
+  ],
+  "metadata": {
+    "title": "The world's fastest framework for building websites",
+    "description": "",
+    "content_length": 89153,
+    "response_time": "0",
+    "server": "Netlify",
+    "total_technologies": 4,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 4,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 1.05,
+      "technologies_per_second": 3.79
+    }
+  },
+  "errors": []
+}

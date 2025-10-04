@@ -1,0 +1,18 @@
+{
+  "Etix": {
+    "name": "Etix",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 104",
+    "description": "Etix is an international web-based ticketing service provider for the entertainment, travel, and sports industries.",
+    "website": "https://hello.etix.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 104"
+      ]
+    }
+  }
+}

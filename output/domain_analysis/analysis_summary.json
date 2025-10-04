@@ -1,0 +1,61 @@
+{
+  "analysis_date": "2025-10-02 02:31:12 UTC",
+  "total_domains": 7,
+  "successful_analyses": 7,
+  "failed_analyses": 0,
+  "total_time": 93.62000823020935,
+  "average_time_per_domain": 13.374286890029907,
+  "total_technologies_detected": 36,
+  "total_categories_detected": 34,
+  "results": [
+    {
+      "domain": "dskbank.bg",
+      "technologies": 7,
+      "categories": 7,
+      "time": 4.807374954223633,
+      "success": true
+    },
+    {
+      "domain": "santamonica.gov",
+      "technologies": 0,
+      "categories": 0,
+      "time": 0.5710208415985107,
+      "success": true
+    },
+    {
+      "domain": "fibank.bg",
+      "technologies": 5,
+      "categories": 5,
+      "time": 3.700150728225708,
+      "success": true
+    },
+    {
+      "domain": "bnpparibas.com",
+      "technologies": 0,
+      "categories": 0,
+      "time": 61.181761503219604,
+      "success": true
+    },
+    {
+      "domain": "tkxel.com",
+      "technologies": 12,
+      "categories": 11,
+      "time": 13.350066661834717,
+      "success": true
+    },
+    {
+      "domain": "stackoverflow.com",
+      "technologies": 12,
+      "categories": 11,
+      "time": 6.18278431892395,
+      "success": true
+    },
+    {
+      "domain": "hbl.com",
+      "technologies": 0,
+      "categories": 0,
+      "time": 0.8149189949035645,
+      "success": true
+    }
+  ]
+}

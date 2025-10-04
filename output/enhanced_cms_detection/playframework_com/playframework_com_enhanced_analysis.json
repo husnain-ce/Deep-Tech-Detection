@@ -1,0 +1,151 @@
+{
+  "url": "https://playframework.com",
+  "final_url": "https://www.playframework.com/",
+  "analysis_time": 3.340319871902466,
+  "technologies": [
+    {
+      "name": "Gravatar",
+      "confidence": 85,
+      "category": "Rich Text Editors",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<[^>]+gravatar\\.com/avatar/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://gravatar.com",
+      "description": "Gravatar is a service for providing globally unique avatars.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515450.0205486
+    },
+    {
+      "name": "jsDelivr",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link [^>]*?href=\"?[a-zA-Z]*?:?//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css",
+          "match": "//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css",
+          "match": "cdn\\.jsdelivr\\.net",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.jsdelivr.com/",
+      "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515450.04725
+    },
+    {
+      "name": "Google Font API",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/fonts",
+      "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515450.1533623
+    },
+    {
+      "name": "Google Fonts",
+      "confidence": 75,
+      "category": "Category 28",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fonts\\.googleapis\\.com/css",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fonts.google.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515450.2539468
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/assets/lib/jquery/641dd14370106e992d352166f5a07e99-jquery.min.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515450.5355086
+    }
+  ],
+  "metadata": {
+    "title": "Play Framework - Build Modern &amp; Scalable Web Apps with Java and Scala",
+    "description": "Play Framework - The High Velocity Web Framework For Java and Scala",
+    "content_length": 94437,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 5,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 5,
+    "confidence_distribution": {
+      "high (80-100)": 4,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 3.34,
+      "technologies_per_second": 1.5
+    }
+  },
+  "errors": []
+}

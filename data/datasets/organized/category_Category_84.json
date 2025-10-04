@@ -1,0 +1,239 @@
+{
+  "BON Loyalty": {
+    "name": "BON Loyalty",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "BON Loyalty is a free rewards and referrals app that helps merchants increase customer engagement with captivating points, rewards & referral program.",
+    "website": "https://bonloyalty.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.bonloyalty\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84",
+        "Category 100"
+      ]
+    }
+  },
+  "Beans": {
+    "name": "Beans",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Beans is a provider of ecommerce loyalty programs.",
+    "website": "https://www.trybeans.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.trybeans\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Gameball": {
+    "name": "Gameball",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Gameball is a loyalty & retention platform that offers gamified customer engagement tools for customers such as rewards, points, and referrals.",
+    "website": "https://www.gameball.co",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.gameball\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Lootly": {
+    "name": "Lootly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Lootly is a loyalty and referral marketing automation software suite for ecommerce businesses.",
+    "website": "https://lootly.io",
+    "patterns": {
+      "scriptSrc": [
+        "lootly\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84",
+        "Category 94"
+      ]
+    }
+  },
+  "LoyaltyLion": {
+    "name": "LoyaltyLion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "LoyaltyLion is a data-driven ecommerce loyalty and engagement platform.",
+    "website": "https://loyaltylion.com",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.loyaltylion\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Redonner": {
+    "name": "Redonner",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "This company promotes the collection and recycling of textiles by rewarding each donation of clothing made on its website with 'Re' points, allowing you to benefit from advantages and discounts at more than 70 partner brands.",
+    "website": "https://www.redonner.fr",
+    "patterns": {
+      "scriptSrc": [
+        "\\.redonner\\.fr/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Rise.ai": {
+    "name": "Rise.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Rise.ai is a strategic re-engagement solution that provides brands and retailers with a unique currency of their own.",
+    "website": "https://rise.ai",
+    "patterns": {
+      "scriptSrc": [
+        "strn\\.rise-ai\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84",
+        "Category 94"
+      ]
+    }
+  },
+  "Smile": {
+    "name": "Smile",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Smile is a provider of ecommerce loyalty programs.",
+    "website": "https://smile.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.(?:smile|sweettooth)\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "SpurIT Loyalty App": {
+    "name": "SpurIT Loyalty App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "SpurIT Loyalty App is a turnkey solution allowing you to reward existing customers in a number of ways.",
+    "website": "https://spur-i-t.com/shopify-apps/loyalty-points-manager",
+    "patterns": {
+      "scriptSrc": [
+        "cdn-spurit\\.com/shopify-apps/loyaltypoints/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84",
+        "Category 94",
+        "Category 100"
+      ]
+    }
+  },
+  "Yotpo Loyalty & Referrals": {
+    "name": "Yotpo Loyalty & Referrals",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 84",
+    "description": "Yotpo is a user-generated content marketing platform.",
+    "website": "https://www.yotpo.com/platform/loyalty/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.swellrewards\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Nift": {
+    "name": "Nift",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 84",
+    "description": "Nift is a marketing program for pools of local businesses. Businesses give Nift gift cards to thank and reward their customers for taking actions, like signing up for a newsletter, referring a friend, or making a purchase.",
+    "website": "https://www.gonift.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  },
+  "Zinrelo": {
+    "name": "Zinrelo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 84",
+    "description": "Zinrelo is an enterprise-grade, loyalty rewards platform.",
+    "website": "https://www.zinrelo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 84"
+      ]
+    }
+  }
+}

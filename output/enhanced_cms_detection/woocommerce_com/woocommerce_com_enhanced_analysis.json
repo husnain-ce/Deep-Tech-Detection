@@ -1,0 +1,1231 @@
+{
+  "url": "https://woocommerce.com",
+  "final_url": "https://woocommerce.com",
+  "analysis_time": 6.29682469367981,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.4175608
+    },
+    {
+      "name": "WordPress",
+      "confidence": 85,
+      "category": "Category 1",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link rel=[\"']stylesheet[\"'] [^>]+/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']WordPress",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]+s\\d+\\.wp\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/themes/woo/dist/blocks/effect-block-horizontal-scroll-step.min.js",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/themes/woo/dist/blocks/effect-block-horizontal-scroll-step.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/themes/woo/dist/blocks/effect-block-horizontal-scroll-step.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1759256726j",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1759256726j",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1759256726j",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/bundle.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/bundle.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/bundle.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14",
+          "match": "/wp-includes/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/wccom-components.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/wccom-components.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/wccom-components.min.js?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/dom-manipulation/footer-template.min.js?m=1759505286g",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/dom-manipulation/footer-template.min.js?m=1759505286g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/dom-manipulation/footer-template.min.js?m=1759505286g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://refer.wordpress.com/wp-content/themes/refer-wordpress/assets/js/referrals.min.js",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://refer.wordpress.com/wp-content/themes/refer-wordpress/assets/js/referrals.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://refer.wordpress.com/wp-content/themes/refer-wordpress/assets/js/referrals.min.js",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202540",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202540",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202540",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?m=1758280662g",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?m=1758280662g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?m=1758280662g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/gallery/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/gallery/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/cover/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/cover/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/social-links/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/social-links/style.min.css?m=1759256725g",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/images/woo-logo.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-01-A@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-01-C@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-02-A@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-02-C@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-03-A@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/woo-header-03-C@2x.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-1@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-1-mobile@2x_15f522.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-2@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-2-mobile@2x_f9d0e1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-3@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-3-mobile@2x_03d427.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-4@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-4-mobile@2x_55e46a.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-5@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-5-mobile@2x_80a379.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-6@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-block-theme-6-mobile@2x_062f9d.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/05/woo-build-stores-for-others@2x_f794ad.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/05/woo-enhance-your-experience@2x_dfdd60.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/ruby-1.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/ruby-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/lunch-1.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/lunch-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/Captura-de-pantalla.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/montvel-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/la-morzocco.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/la-morzocco-mobile.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/wetnwild-1.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/wetnwild-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/coolhunter-1.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/coolhunter-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/jimmynelson-1.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/jimmynelson-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/atholl.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/atholl-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/createtatoo.png?w=420",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2023/09/createtattoo-mobile-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-quote-economy-candy-bg.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-quote-economy-candy-top@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-01-wnw@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-02-scrubdaddy@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-03-vanleeuwen@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-04-taika@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-05-stroopwafels@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-07-ffcw@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-08-mintmobile@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-09-cc@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-10-polestar@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-11-hvr@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-12-nutribullet@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-13-landyachtz@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/logo-15-lamarzocco@2x.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-nb1@2x.jpg?w=650",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-nb3.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-hfm1@2x.jpg?w=650",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-hfm3.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-dos1@2x.jpg?w=650",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/woo-cs-dos3.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/01/Homepage-CTA-Wooble.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/images/woo-logo.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/Appstore.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/Playstore.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/automattic-thingamajig.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://woocommerce.com/wp-content/uploads/2025/02/automattic-thingamajig.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://wordpress.org",
+      "description": "Open-source CMS.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.4701715
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.6767507
+    },
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.7955132
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fontawesome(?:\\.min)?\\.css|fa-(?:solid|brands|regular)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.8768756
+    },
+    {
+      "name": "Yoast SEO",
+      "confidence": 85,
+      "category": "Category 54",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "yoast-schema-graph|yoast seo",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://yoast.com/wordpress/plugins/seo/",
+      "description": "Yoast SEO is a search engine optimisation plugin for WordPress and other platforms.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.8850536
+    },
+    {
+      "name": "WooCommerce",
+      "confidence": 85,
+      "category": "Web Servers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<!-- WooCommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1759256726j",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJyFjl0KwkAMhC/kblRYfx7Es5QYdLdmUzqpvb5b2kdBGMgwfBmG5iGwVZfqNLynZ66g2YxNVUYW6gBxUFnUQOuzNBdXFzXXWLCjHyWPDF+a/CUqCD523IPWE+TTUPx/57YjbNFG3/V2OKdr2qfj5VS+TGJG+Q==",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/bundle.min.js?ver=2025-10-03_15:25",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJyVj90OgjAMRl/IMjXBnwvjs4xtkiFbSduF13fOYCASjZf90nPaT40DGIzioqihT62PrKxnUaMxGGCKOgZHhARC2tx9bKvgY9XxRq3wI2JmgyPjlGZ28uQVY8pBk1gcLYb/VTcqa1YhWUegRcg3STzGr65Fo5kZPjTvmrOjL9xnZ0u63Pr9MwyENhkBciWKtpC81mU0ebuHoP3U4houu2N9rrf1/nToHpRAoxg=",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJx9zzEOwyAQRNELZb2KJdtKEeUsCEYyiAXCrmMfP1W6iHreFJ/PRrH4fAQoJ+UQ1RjqXQPtJnmSWKakN/7rMgTFhuaDEmrnDueNkl7Uj2JRMDwFtA7vDGHMqgz3qKS7y7mehPfhfjEved635TEv6zav6QtOv13V",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJx9zDsOgCAMANALiY0maByMZzHQoUQ+Uurn9rq4GfaXB2dSFMwmFhkcgyUukDLFTOVWu6Bg6ym0jhv4oyb6FLlu3u5YC6o1EVdhRiuXylEKha9c/NyNeur1MPaDewB5UT+4",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWT8ksLtEvy0wtL8gvKtHLzczTyyrW0UdTlFiQqVuUWliaWoxTCdiclPxcoLrElEqoKvtcW0NzU0sjUzNzI/MsAA06K+0=",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/wccom-components.min.js?ver=2025-10-03_15:25",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/dom-manipulation/footer-template.min.js?m=1759505286g",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??-eJydjksOwjAMBS+Ea0AKnwXiLCFxaFqnQbZRBacn6o4VossnzYwezg8IdTKaDK2nQopzrRizGt64hlHx7plJXqCcI0lX8tQNusHfYvTmG/NskECSBY5/+JQSBYNlQfKRoKkrdcthbC80SGVeG+mr5HfjPX+HruWyO7qz27r96TB8ALATfdU=",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/fonts/font-awesome/css/all.min.css?v=1.0",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/themes/woo/dist/deferred-global.min.css?ver=2025-10-03_15:25",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?m=1758280662g",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/gallery/style.min.css?m=1759256725g",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/cover/style.min.css?m=1759256725g",
+          "match": "woocommerce",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://woocommerce.com/wp-includes/blocks/social-links/style.min.css?m=1759256725g",
+          "match": "woocommerce",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://woocommerce.com",
+      "description": "WooCommerce is an open-source ecommerce plugin for WordPress.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.9525213
+    },
+    {
+      "name": "Cart Functionality",
+      "confidence": 85,
+      "category": "Web Servers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<a[^>]*href=[^>]*/Checkout",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.9629822
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "/jquery(?:-[\\d.]+)?(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-includes/js/dist/hooks.min.js?m=1759256726j",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515573.5279362
+    },
+    {
+      "name": "Wistia",
+      "confidence": 85,
+      "category": "Message Boards",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://fast.wistia.com/assets/external/E-v1.js",
+          "match": "fast\\.wistia\\.com/assets/external/E-v1\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://fast.wistia.com/assets/external/E-v1.js",
+          "match": "\\.wistia\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://wistia.com",
+      "description": "Wistia is designed exclusively to serve companies using video on their websites for marketing, support, and sales.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515574.5841787
+    },
+    {
+      "name": "React",
+      "confidence": 85,
+      "category": "Blogs",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+          "match": "/react(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://reactjs.org",
+      "description": "React is an open-source JavaScript library for building user interfaces or UI components.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515574.9060729
+    }
+  ],
+  "metadata": {
+    "title": "WooCommerce",
+    "description": "WooCommerce is the open-source ecommerce platform that helps merchants and developers build successful businesses for the long\u00a0term.",
+    "content_length": 313869,
+    "response_time": "0",
+    "server": "nginx",
+    "total_technologies": 11,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 10,
+    "confidence_distribution": {
+      "high (80-100)": 11,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 6.3,
+      "technologies_per_second": 1.75
+    }
+  },
+  "errors": []
+}

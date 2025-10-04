@@ -1,0 +1,27 @@
+{
+  "Adyen": {
+    "name": "Adyen",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 13",
+    "description": "",
+    "website": "https://www.adyen.com",
+    "patterns": {
+      "scripts": [
+        "checkoutshopper(-pro)?\\.adyen\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 13"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

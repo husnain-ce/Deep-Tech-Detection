@@ -1,0 +1,2687 @@
+{
+  "6sense": {
+    "name": "6sense",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "6sense is a B2B predictive intelligence platform for marketing and sales.",
+    "website": "https://6sense.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.6sc\\.co/"
+      ],
+      "scriptSrc": [
+        "\\.6sc\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 76"
+      ]
+    }
+  },
+  "Acquia Campaign Factory": {
+    "name": "Acquia Campaign Factory",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Acquia Campaign Factory is centralized marketing management system powered by Mautic.",
+    "website": "https://www.acquia.com/products/marketing-cloud/campaign-factory",
+    "patterns": {
+      "scriptSrc": [
+        "mautic\\.net",
+        "maestro\\.mautic\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Act-On": {
+    "name": "Act-On",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Act-On is a cloud-based SaaS product for marketing automation.",
+    "website": "http://act-on.com",
+    "patterns": {
+      "scriptSrc": [
+        "/cdnr/\\d+/acton/bn/tracker/\\d+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Actito": {
+    "name": "Actito",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Actito is an agile SaaS marketing automation platform.",
+    "website": "https://www.actito.com",
+    "patterns": {
+      "cookies": [
+        "SmartFocus: "
+      ],
+      "scriptSrc": [
+        "cdn\\.actito\\.be",
+        "\\.advisor\\.smartfocus\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 76"
+      ]
+    }
+  },
+  "ActiveCampaign": {
+    "name": "ActiveCampaign",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ActiveCampaign is email and marketing automation software.",
+    "website": "https://www.activecampaign.com",
+    "patterns": {
+      "url": [
+        "\\.activehosted\\.com",
+        "\\.ac-page\\.com"
+      ],
+      "scriptSrc": [
+        "plugins/activecampaign-subscription-forms/site_tracking\\.js",
+        "\\.activehosted\\.com",
+        "\\.app-us1\\.com",
+        "\\.ac-page\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Adabra": {
+    "name": "Adabra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Adabra is a SaaS omnichannel marketing automation platform to help boost sales. Adabra allows you to manage user segmentation, create workflow and campaigns through email, social, SMS and more.",
+    "website": "https://www.adabra.com",
+    "patterns": {
+      "scriptSrc": [
+        "track\\.adabra\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Aimtell": {
+    "name": "Aimtell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Aimtell is a cloud-hosted marketing platform that allows digital marketers and businesses to deliver web-based push notifications.",
+    "website": "https://aimtell.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.aimtell\\.\\w+/"
+      ],
+      "scripts": [
+        "cdn\\.aimtell\\.\\w+/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Airship": {
+    "name": "Airship",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Airship is an American company that provides marketing and branding services. Airship allows companies to generate custom messages to consumers via push notifications, SMS messaging, and similar, and provides customer analytics services.",
+    "website": "https://www.airship.com",
+    "patterns": {
+      "scriptSrc": [
+        "urbanairship\\.\\w+/notify/v([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "urbanairship\\.\\w+/notify/v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Automizely": {
+    "name": "Automizely",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Automizely creates and manages enterprise-level marketing automation systems including contact and CRM mappings, lead funnels, email nurture, lead-generating pages, and blog posts, and website integrations.",
+    "website": "https://www.automizely.com/marketing",
+    "patterns": {
+      "scriptSrc": [
+        "\\.automizely\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Aweber": {
+    "name": "Aweber",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "AWeber is an email marketing service.",
+    "website": "https://www.aweber.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.aweber\\.com/"
+      ],
+      "scripts": [
+        "\\.aweber\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Beeketing": {
+    "name": "Beeketing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Beeketing is a suite of marketing apps for ecommerce shop owners.",
+    "website": "https://beeketing.com",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.beeketing\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Birdeye": {
+    "name": "Birdeye",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Birdeye is an all-in-one customer experience platform.",
+    "website": "https://birdeye.com",
+    "patterns": {
+      "scriptSrc": [
+        "birdeye\\.com/embed",
+        "birdeye\\.com"
+      ],
+      "scripts": [
+        "birdeye\\.com/embed",
+        "birdeye\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bluecore": {
+    "name": "Bluecore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Bluecore is a retail marketing technology that uses data gained from direct marketing like email, social media, site activity.",
+    "website": "https://www.bluecore.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.bluecore\\.com"
+      ],
+      "scripts": [
+        "\\.bluecore\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BowNow": {
+    "name": "BowNow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "BowNow is a marketing automation tool with business card management, sales support, analysis, and email magazine functions.",
+    "website": "https://bow-now.jp",
+    "patterns": {
+      "cookies": [
+        "bownow_act: ",
+        "bownow_aid: ",
+        "bownow_cid: ",
+        "bownow_mbid: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Branch": {
+    "name": "Branch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Branch is a mobile deep linking system to increase engagement and retention.",
+    "website": "https://branch.io",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.branch\\.io",
+        "app\\.link/_r\\?sdk=web([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "cdn\\.branch\\.io",
+        "app\\.link/_r\\?sdk=web([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Braze": {
+    "name": "Braze",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Braze is a customer engagement platform that delivers messaging experiences across push, email, in-product, and more.",
+    "website": "https://www.braze.com",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.appboycdn\\.com/web-sdk/([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "js\\.appboycdn\\.com/web-sdk/([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BrightInfo": {
+    "name": "BrightInfo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "BrightInfo is an automated content personalisation solution.",
+    "website": "https://www.brightinfo.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.brightinfo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 74"
+      ]
+    }
+  },
+  "Bronto": {
+    "name": "Bronto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Bronto is a cloud-based email marketing automation software.",
+    "website": "https://bronto.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:snip|cdn)\\.bronto\\.com"
+      ],
+      "scripts": [
+        "(?:snip|cdn)\\.bronto\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BySide": {
+    "name": "BySide",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "BySide is a personalisation and marketing automation platform.",
+    "website": "https://byside.com",
+    "patterns": {
+      "scriptSrc": [
+        "webcare\\.byside\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 76"
+      ]
+    }
+  },
+  "Campaign Monitor": {
+    "name": "Campaign Monitor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Campaign Monitor is a global technology company that provides an email marketing platform.",
+    "website": "https://www.campaignmonitor.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.createsend1\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "CartKit": {
+    "name": "CartKit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "CartKit build apps from fuss-free multi-channel marketing automation and campaigns to social proof popups and user session recording.",
+    "website": "https://www.cartkit.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cartkitcdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Carts Guru": {
+    "name": "Carts Guru",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Carts Guru is the all-in-one marketing automation tool for ecommerce stores.",
+    "website": "https://www.carts.guru",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.cartsguru\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "ClickDimensions": {
+    "name": "ClickDimensions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ClickDimensions is a SaaS marketing automation platform built on the Microsoft Windows Azure platform.",
+    "website": "https://clickdimensions.com",
+    "patterns": {
+      "scriptSrc": [
+        "analytics\\.clickdimensions\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "ClickFunnels": {
+    "name": "ClickFunnels",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ClickFunnels is an online sales funnel builder that helps businesses market, sell, and deliver their products online.",
+    "website": "https://www.clickfunnels.com",
+    "patterns": {
+      "meta": [
+        "cf:app_domain:: app\\.clickfunnels\\.com"
+      ],
+      "html": [
+        "<meta property=\"cf:app_domain\" content=\"app\\.clickfunnels\\.com\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Constant Contact": {
+    "name": "Constant Contact",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Constant Contact is a marketing automation and email marketing solution.",
+    "website": "https://www.constantcontact.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ctctcdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "ConvertKit": {
+    "name": "ConvertKit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ConvertKit is an email marketing tool built for content creators.",
+    "website": "https://convertkit.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.convertkit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Convertcart": {
+    "name": "Convertcart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ConvertCart helps online businesses deliver outstanding experiences to customers throughout their journey.",
+    "website": "https://www.convertcart.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.convertcart\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Customer.io": {
+    "name": "Customer.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Customer.io is an automated messaging platform for marketers.",
+    "website": "https://customer.io/",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.customer\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Dotdigital": {
+    "name": "Dotdigital",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Dotdigital is an all-in-one cloud-based customer engagement multichannel marketing platform.",
+    "website": "https://dotdigital.com",
+    "patterns": {
+      "scriptSrc": [
+        "js/_dmptv([\\d.]+)\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "js/_dmptv([\\d.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Dreamdata": {
+    "name": "Dreamdata",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Dreamdata is a B2B revenue attribution platform.",
+    "website": "https://dreamdata.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.bizible\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ]
+    }
+  },
+  "Drip": {
+    "name": "Drip",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Drip is a marketing automation platform built for ecommerce.",
+    "website": "https://www.drip.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getdrip\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Eloqua": {
+    "name": "Eloqua",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Eloqua is a Software-as-a-Service (SaaS) platform for marketing automation offered that aims to help B2B marketers and organisations manage marketing campaigns and sales lead generation.",
+    "website": "http://eloqua.com",
+    "patterns": {
+      "cookies": [
+        "ELOQUA: "
+      ],
+      "scriptSrc": [
+        "elqCfg\\.js"
+      ],
+      "scripts": [
+        "elqCfg\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Emarsys": {
+    "name": "Emarsys",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Emarsys is a cloud-based B2C marketing platform.",
+    "website": "https://emarsys.com/",
+    "patterns": {
+      "scriptSrc": [
+        "(?:static|cdn)\\.scarabresearch\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Emotive": {
+    "name": "Emotive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Emotive is a computer software company that provides SaaS, Mobile Marketing, NLP, machine learning, and B2B.",
+    "website": "https://emotive.io",
+    "patterns": {
+      "scriptSrc": [
+        "emotivecdn\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "ExitIntel": {
+    "name": "ExitIntel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ExitIntel is a full service conversion optimisation agency that focuses on ecommerce companies.",
+    "website": "https://exitintelligence.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:get.)?exitintel\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "e-goi": {
+    "name": "e-goi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "e-goi is a multichannel marketing automation software for ecommerce.",
+    "website": "https://www.e-goi.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.e-goi\\.com/egoimmerce\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "eSputnik": {
+    "name": "eSputnik",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "eSputnik is a marketing automation service for ecommerce.",
+    "website": "https://esputnik.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?://|\\.)esputnik\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 97"
+      ]
+    }
+  },
+  "emBlue": {
+    "name": "emBlue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "emBlue is an email and marketing automation platform.",
+    "website": "https://www.embluemail.com/en",
+    "patterns": {
+      "scriptSrc": [
+        "\\.embluemail\\.com/(?:library/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Firepush": {
+    "name": "Firepush",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Firepush is an omnichannel marketing app that helps Shopify stores to drive sales with automated web push, email and SMS campaigns.",
+    "website": "https://getfirepush.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.firepush\\.\\w+",
+        "fpcdn\\.me/.+shopify"
+      ],
+      "scripts": [
+        "cdn\\.firepush\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 100"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Fomo": {
+    "name": "Fomo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Fomo is a social proof marketing platform.",
+    "website": "https://fomo.com",
+    "patterns": {
+      "scriptSrc": [
+        "fomo\\.com/api/v"
+      ],
+      "scripts": [
+        "fomo\\.com/api/v"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Frizbit": {
+    "name": "Frizbit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Frizbit is a marketing tool that helps digital marketeers increase web traffic and revenue by combining web push notification.",
+    "website": "https://frizbit.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.frizbit\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Frosmo": {
+    "name": "Frosmo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Frosmo is a SaaS company which provides AI-driven personalisation products.",
+    "website": "https://frosmo.com",
+    "patterns": {
+      "scriptSrc": [
+        "frosmo\\.easy\\.js"
+      ],
+      "scripts": [
+        "frosmo\\.easy\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FunnelCockpit": {
+    "name": "FunnelCockpit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "FunnelCockpit is an all-in-one funnel builder.",
+    "website": "https://funnelcockpit.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.funnelcockpit\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Genesys Cloud": {
+    "name": "Genesys Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Genesys Cloud is an all-in-one cloud-based contact center software built to improve the customer experience.",
+    "website": "https://www.genesys.com",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.mypurecloud\\.\\w+/widgets/([\\d.]+)\\;version:\\1",
+        "apps\\.mypurecloud\\.\\w+"
+      ],
+      "scripts": [
+        "apps\\.mypurecloud\\.\\w+/widgets/([\\d.]+)\\;version:\\1",
+        "apps\\.mypurecloud\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Advertising",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GetResponse": {
+    "name": "GetResponse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "GetResponse is an email marketing app that allows you to create a mailing list and capture data onto it.",
+    "website": "https://www.getresponse.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getresponse\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Grin": {
+    "name": "Grin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Grin is a influence marketing platform.",
+    "website": "https://grin.co/",
+    "patterns": {
+      "scriptSrc": [
+        "grin-sdk\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Growave": {
+    "name": "Growave",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Growave is the all-in-one app: social login and sharing, reviews, wishlists, instagram feed, automated emails and more.",
+    "website": "https://growave.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.socialshopwave\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 69"
+      ]
+    }
+  },
+  "HubSpot": {
+    "name": "HubSpot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+    "website": "https://www.hubspot.com",
+    "patterns": {
+      "html": [
+        "<!-- Start of Async HubSpot"
+      ],
+      "meta": [
+        "generator: HubSpot"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hushly": {
+    "name": "Hushly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Hushly is an all-in-one B2B marketing software platform.",
+    "website": "https://www.hushly.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hushly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Invoca": {
+    "name": "Invoca",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Invoca is an AI-powered call tracking and conversational analytics company.",
+    "website": "https://www.invoca.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.dialogtech\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ]
+    }
+  },
+  "Iterable": {
+    "name": "Iterable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Iterable is a cross-channel marketing platform that powers unified customer experiences.",
+    "website": "https://iterable.com/",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.iterable\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Izooto": {
+    "name": "Izooto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "iZooto is a user engagement and retention tool that leverages web push notifications to help business to drive repeat traffic, leads and sales.",
+    "website": "https://www.izooto.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.izooto\\.\\w+"
+      ],
+      "scripts": [
+        "cdn\\.izooto\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kartra": {
+    "name": "Kartra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Kartra is an online business platform that offers marketing and sales tools.",
+    "website": "https://home.kartra.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.kartra\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Kiliba": {
+    "name": "Kiliba",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Kiliba has developed a module that automates the marketing process from creating an email to distributing it.",
+    "website": "https://en.kiliba.com",
+    "patterns": {
+      "url": [
+        "/modules/kiliba/logo\\.png"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Klaviyo": {
+    "name": "Klaviyo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Klaviyo is an email marketing platform for online businesses.",
+    "website": "https://www.klaviyo.com/",
+    "patterns": {
+      "scriptSrc": [
+        "klaviyo\\.com"
+      ],
+      "scripts": [
+        "klaviyo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "KlickPages": {
+    "name": "KlickPages",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "KlickPages is a landing page management software designed to help businesses execute email marketing campaigns and capture leads.",
+    "website": "https://klickpages.com.br",
+    "patterns": {
+      "meta": [
+        "klickart:url: "
+      ],
+      "scriptSrc": [
+        "\\.klickpages\\.com\\.br/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 51"
+      ]
+    }
+  },
+  "Leanplum": {
+    "name": "Leanplum",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Leanplum is a multi-channel messaging and campaign orchestration platform.",
+    "website": "https://www.leanplum.com",
+    "patterns": {
+      "scriptSrc": [
+        "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "npm/leanplum-sdk\\@([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Listrak": {
+    "name": "Listrak",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Listrak is a AI-based marketing automation and CRM solutions that unify, interpret and personalise data to engage customer across channels and devices.",
+    "website": "https://www.listrak.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn|s1)\\.listrakbi\\.com",
+        "services\\.listrak\\.com"
+      ],
+      "scripts": [
+        "(?:cdn|s1)\\.listrakbi\\.com",
+        "services\\.listrak\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MailChimp": {
+    "name": "MailChimp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Mailchimp is a marketing automation platform and email marketing service.",
+    "website": "http://mailchimp.com",
+    "patterns": {
+      "html": [
+        "<form [^>]*data-mailchimp-url",
+        "<form [^>]*id=\"mc-embedded-subscribe-form\"",
+        "<form [^>]*name=\"mc-embedded-subscribe-form\"",
+        "<input [^>]*id=\"mc-email\"\\;confidence:20",
+        "<!-- Begin MailChimp Signup Form -->"
+      ],
+      "scriptSrc": [
+        "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
+        "cdn-images\\.mailchimp\\.com/[^>]*\\.css",
+        "chimpstatic\\.com/mcjs-connected"
+      ],
+      "scripts": [
+        "s3\\.amazonaws\\.com/downloads\\.mailchimp\\.com/js/mc-validate\\.js",
+        "cdn-images\\.mailchimp\\.com/[^>]*\\.css",
+        "mailchimp-woocommerce-public\\.min\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+        "mailchimp-for-wp/assets/js/forms\\.min\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+        "chimpstatic\\.com/mcjs-connected"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MailerLite": {
+    "name": "MailerLite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "MailerLite is an email marketing tool and website builder for businesses of all shapes and sizes.",
+    "website": "https://www.mailerlite.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.mailerlite\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "ManyChat": {
+    "name": "ManyChat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ManyChat is a service that allows you to create chatbots for Facebook Messenger.",
+    "website": "https://manychat.com/",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.manychat\\.com"
+      ],
+      "scripts": [
+        "widget\\.manychat\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ManyContacts": {
+    "name": "ManyContacts",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "ManyContacts is an attention-grabbing contact form sitting on top of your website that helps to increase conversion by converting visitors into leads.",
+    "website": "https://www.manycontacts.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.manycontacts\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Advertising"
+      ]
+    }
+  },
+  "Marketo": {
+    "name": "Marketo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Marketo develops and sells marketing automation software for account-based marketing and other marketing services and products including SEO and content creation.",
+    "website": "https://www.marketo.com",
+    "patterns": {
+      "scriptSrc": [
+        "munchkin\\.marketo\\.\\w+/(?:([\\d.]+)/)?munchkin\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "munchkin\\.marketo\\.\\w+/(?:([\\d.]+)/)?munchkin\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mautic": {
+    "name": "Mautic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Mautic is a free and open-source marketing automation tool for Content Management, Social Media, Email Marketing, and can be used for the integration of social networks, campaign management, forms, questionnaires, reports, etc.",
+    "website": "https://www.mautic.org/",
+    "patterns": {
+      "scriptSrc": [
+        "[^a-z]mtc.*\\.js"
+      ],
+      "scripts": [
+        "[^a-z]mtc.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MoEngage": {
+    "name": "MoEngage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "MoEngage is an intelligent customer engagement platform for the customer-obsessed marketer.",
+    "website": "https://www.moengage.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.moengage\\.\\w+"
+      ],
+      "scripts": [
+        "cdn\\.moengage\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Najva": {
+    "name": "Najva",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Najva is a retention marketing solution that offers push notification and email marketing.",
+    "website": "https://www.najva.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.najva\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Nudgify": {
+    "name": "Nudgify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Nudgify is a Social Proof & Fomo App tool that integrates seamlessly with ecommerce platform such as Shopify, WooCommerce and Magento.",
+    "website": "https://www.nudgify.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.nudgify\\.com/",
+        "cdn\\.convertize\\.com/nudgify-shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Ometria": {
+    "name": "Ometria",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Ometria is a customer insight and marketing automation platform.",
+    "website": "https://ometria.com",
+    "patterns": {
+      "cookies": [
+        "ometria: "
+      ],
+      "scriptSrc": [
+        "cdn\\.ometria\\.com"
+      ],
+      "scripts": [
+        "cdn\\.ometria\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Omnisend": {
+    "name": "Omnisend",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Omnisend is an ecommerce marketing automation platform that provides an omnichannel marketing strategy for businesses.",
+    "website": "https://www.omnisend.com",
+    "patterns": {
+      "cookies": [
+        "omnisendSessionID: "
+      ],
+      "meta": [
+        "omnisend-site-verification: "
+      ],
+      "scriptSrc": [
+        "omnisrc\\.com"
+      ],
+      "scripts": [
+        "omnisrc\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OneSignal": {
+    "name": "OneSignal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "OneSignal is a customer engagement messaging solution.",
+    "website": "https://onesignal.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.onesignal\\.com"
+      ],
+      "scripts": [
+        "cdn\\.onesignal\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Postscript": {
+    "name": "Postscript",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Postscript is an SMS and MMS marketing platform for Shopify stores.",
+    "website": "https://www.postscript.io",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.postscript\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Privy": {
+    "name": "Privy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Privy is a all-in-one marketing automation platform for ecommerce.",
+    "website": "https://www.privy.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.privy\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "PushEngage": {
+    "name": "PushEngage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "PushEngage is a browser push notification platform that helps content website managers engage visitors by automatically segmenting and sending web push messages.",
+    "website": "https://www.pushengage.com",
+    "patterns": {
+      "scriptSrc": [
+        "clientcdn\\.pushengage\\.\\w+/core"
+      ],
+      "scripts": [
+        "clientcdn\\.pushengage\\.\\w+/core"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PushOwl": {
+    "name": "PushOwl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "PushOwl is a push notification platform for ecommerce stores.",
+    "website": "https://pushowl.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.pushowl\\.com"
+      ],
+      "scripts": [
+        "cdn\\.pushowl\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PushPushGo": {
+    "name": "PushPushGo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "PushPushGo is a GDPR-ready platform which enables startups, SMBs and corporations to create and send automatic web push notification campaigns on desktop and via mobile to manage various scenarios including abandoned carts, segmentation, cross-selling, customer engagement, and return rates.",
+    "website": "https://pushpushgo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pushpushgo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Pushnami": {
+    "name": "Pushnami",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Pushnami is an AI-powered messaging platform that uses intelligent analytics to deliver superior push, social, and email performance.",
+    "website": "https://pushnami.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.pushnami\\.com"
+      ],
+      "scripts": [
+        "api\\.pushnami\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RD Station": {
+    "name": "RD Station",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "RD Station is a platform that helps medium and small businesses manage and automate their Digital Marketing strategy.",
+    "website": "http://rdstation.com.br",
+    "patterns": {
+      "scriptSrc": [
+        "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js"
+      ],
+      "scripts": [
+        "d335luupugsy2\\.cloudfront\\.net/js/loader-scripts/.*-loader\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rockerbox": {
+    "name": "Rockerbox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Rockerbox is a provider of multi-touch attribution software.",
+    "website": "https://www.rockerbox.com",
+    "patterns": {
+      "scriptSrc": [
+        "wxyz\\.rb\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "SEMrush": {
+    "name": "SEMrush",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "SEMrush is an all-in-one tool suite for improving online visibility and discovering marketing insights.",
+    "website": "https://www.semrush.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.semrush\\.com"
+      ],
+      "scripts": [
+        "www\\.semrush\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sailthru": {
+    "name": "Sailthru",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Sailthru is a marketing automation software and multi-channel personalisation tool that serves ecommerce and media brands.",
+    "website": "https://www.sailthru.com",
+    "patterns": {
+      "cookies": [
+        "sailthru_pageviews: "
+      ],
+      "meta": [
+        "sailthru.image.full: ",
+        "sailthru.title: "
+      ],
+      "scriptSrc": [
+        "ak\\.sail-horizon\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75",
+        "Category 76"
+      ]
+    }
+  },
+  "Salesforce Marketing Cloud Account Engagement": {
+    "name": "Salesforce Marketing Cloud Account Engagement",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Salesforce Marketing Cloud Account Engagement (formerly known as Pardot) is an application specifically designed for B2B marketing automation.",
+    "website": "https://www.salesforce.com/products/marketing-cloud/marketing-automation",
+    "patterns": {
+      "headers": [
+        "X-Pardot-LB: ",
+        "X-Pardot-Route: ",
+        "X-Pardot-Rsp: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Satori": {
+    "name": "Satori",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Satori provides marketing automation software.",
+    "website": "https://satori.marketing",
+    "patterns": {
+      "scriptSrc": [
+        "satori\\.segs\\.jp/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "SendPulse": {
+    "name": "SendPulse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "SendPulse is an email marketing platform with additional channels: SMS, web push notifications, Facebook and WhatsApp chatbots.",
+    "website": "https://sendpulse.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sendpulse\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Sendinblue": {
+    "name": "Sendinblue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Sendinblue is an email marketing solution for small and medium-sized businesses that want to send and automate email marketing campaigns.",
+    "website": "https://www.sendinblue.com",
+    "patterns": {
+      "scriptSrc": [
+        "sib(?:automation|forms)\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 75"
+      ]
+    }
+  },
+  "Shanon": {
+    "name": "Shanon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Shanon provides marketing automation software.",
+    "website": "https://www.shanon.co.jp",
+    "patterns": {
+      "scriptSrc": [
+        "\\.shanon-services\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "SharpSpring": {
+    "name": "SharpSpring",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "SharpSpring is a cloud-based marketing tool that offers customer relationship management, marketing automation, mobile and social marketing, sales team automation, customer service and more, all within one solution.",
+    "website": "https://sharpspring.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.marketingautomation\\.services.+(?:ver=)([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Signal": {
+    "name": "Signal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Signal is a cross-platform encrypted messaging service.",
+    "website": "https://www.signal.co/",
+    "patterns": {
+      "scriptSrc": [
+        "//s\\.btstatic\\.com/tag\\.js",
+        "//s\\.thebrighttag\\.com/iframe\\?"
+      ],
+      "scripts": [
+        "//s\\.btstatic\\.com/tag\\.js",
+        "//s\\.thebrighttag\\.com/iframe\\?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 42"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Simplero": {
+    "name": "Simplero",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Simplero is an all-in-one marketing software.",
+    "website": "https://simplero.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.simplero\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "SocialLadder": {
+    "name": "SocialLadder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "SocialLadder is a complete end-to-end creator management solution for brands looking to maximize and scale their brand ambassador, influencer, and affiliate marketing efforts.",
+    "website": "https://socialladderapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "socialladder\\.rkiapps\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "SprintHub": {
+    "name": "SprintHub",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "SprintHub is an all-in-one marketing platform.",
+    "website": "https://lp.sprinthub.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sprinthub\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Stylitics": {
+    "name": "Stylitics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Stylitics is a cloud-based SaaS platform for retailers to automate and distribute visual content at scale.",
+    "website": "https://stylitics.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stylitics\\.com/v([\\d.]+)\\;version:\\1",
+        "/stylitics/js/stylitics\\.js\\?ver=v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Systeme.io": {
+    "name": "Systeme.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Systeme.io is an all-in-one marketing platform that helps businesses create and launch sales funnels, affiliate programs, email marketing campaigns, online courses, blogs, and websites.",
+    "website": "https://systeme.io",
+    "patterns": {
+      "scriptSrc": [
+        "//systeme\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "VWO Engage": {
+    "name": "VWO Engage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "VWO Engage is a part of the VWO Platform, which is a web-based push notification platform used by SaaS and B2B marketers, online content publishers, and ecommerce store owners.",
+    "website": "https://vwo.com/engage",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.pushcrew\\.\\w+"
+      ],
+      "scripts": [
+        "cdn\\.pushcrew\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vizury": {
+    "name": "Vizury",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Vizury is a ecommerce marketing platform.",
+    "website": "https://www.vizury.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.vizury\\.com"
+      ],
+      "scripts": [
+        "\\.vizury\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebEngage": {
+    "name": "WebEngage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "WebEngage is a customer data platform and marketing automation suite.",
+    "website": "https://webengage.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.webengage\\.co(?:m)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 76"
+      ]
+    }
+  },
+  "Webpushr": {
+    "name": "Webpushr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Webpushr is a web push notification platform that supports mobile and desktop devices.",
+    "website": "https://www.webpushr.com",
+    "patterns": {
+      "scripts": [
+        "cdn\\.webpushr\\.com/app\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Wigzo": {
+    "name": "Wigzo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Wigzo is e-commerce marketing automation platform that helps businesses of every size dig deeper into data to find opportunities to increase their sales and revenue.",
+    "website": "https://www.wigzo.com/",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.wigzo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Wunderkind": {
+    "name": "Wunderkind",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Wunderkind (Formerly BounceX) is a software for behavioural marketing technologies, created to de-anonymise site visitors, analyse their digital behaviour and create relevant digital experiences regardless of channel or device.",
+    "website": "https://www.wunderkind.co",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.smarterhq\\.io"
+      ],
+      "scriptSrc": [
+        "\\.bounceexchange\\.com",
+        "\\.smarterhq\\.io/"
+      ],
+      "scripts": [
+        "\\.bounceexchange\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Infusionsoft": {
+    "name": "Infusionsoft",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Infusionsoft is a cloud-based email marketing platform and customer relationship management (CRM) system.",
+    "website": "http://infusionsoft.com",
+    "patterns": {
+      "html": [
+        "<input [^>]*name=\"infusionsoft_version\" [^>]*value=\"([^>]*)\" [^>]*\\/>\\;version:\\1",
+        "<input [^>]*value=\"([^>]*)\" [^>]*name=\"infusionsoft_version\" [^>]*\\/>\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Pardot": {
+    "name": "Pardot",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Pardot is a Software-as-a-Service (SaaS) marketing automation platform.",
+    "website": "https://www.pardot.com",
+    "patterns": {
+      "headers": [
+        "X-Pardot-LB: ",
+        "X-Pardot-Route: ",
+        "X-Pardot-Rsp: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Pixlee": {
+    "name": "Pixlee",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "DevOps/CI",
+    "description": "Pixlee is a visual marketing platform that helps brands leverage user-generated content to improve their marketing performance.",
+    "website": "https://pixlee.com",
+    "patterns": {
+      "scripts": [
+        "assets\\.pixlee\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Autoketing": {
+    "name": "Autoketing",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Autoketing is a marketing automation platform.",
+    "website": "https://autoketing.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Autopilot": {
+    "name": "Autopilot",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Autopilot is a visual marketing software that enables users to create marketing campaigns and manage lead conversions. ",
+    "website": "https://www.autopilothq.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Category 74",
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CleverTap": {
+    "name": "CleverTap",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "CleverTap is a SaaS based customer lifecycle management and mobile marketing company headquartered in Mountain View, California.",
+    "website": "https://clevertap.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ematic Solutions": {
+    "name": "Ematic Solutions",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Ematic Solutions is part of Ematic Group and started to revolve around transforming email marketing into an ROI machine.",
+    "website": "https://www.ematicsolutions.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "MAJIN": {
+    "name": "MAJIN",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "MAJIN reads the hearts and minds of each customer using real-world data to automate optimal marketing processes.",
+    "website": "https://ma-jin.jp",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Mindbox": {
+    "name": "Mindbox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Mindbox is a marketing automation platform.",
+    "website": "https://mindbox.ru",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Netdeal": {
+    "name": "Netdeal",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Netdeal is a marketing automation platform.",
+    "website": "https://www.netdeal.com.br",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "OptinMonster": {
+    "name": "OptinMonster",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "OptinMonster is a conversion optimisation tool that allows you to grow your email list.",
+    "website": "https://optinmonster.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Salesloft": {
+    "name": "Salesloft",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Salesloft is a cloud-based sales engagement platform.",
+    "website": "https://salesloft.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "ShopiMind": {
+    "name": "ShopiMind",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "ShopiMind is a multi-channel marketing automation solution for all ecommerce activities.",
+    "website": "https://www.shopimind.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Sleeknote": {
+    "name": "Sleeknote",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Sleeknote is a cloud-based software that helps online businesses reach conversion goals through website popups.",
+    "website": "https://sleeknote.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Truepush": {
+    "name": "Truepush",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Truepush is web-based push notification service available for PWA, AMP, WordPress, and Shopify.",
+    "website": "https://www.truepush.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Xtremepush": {
+    "name": "Xtremepush",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Xtremepush is a customer engagement, personalisation and data platform. It's purpose-built for multichannel and mobile marketing.",
+    "website": "https://xtremepush.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yotpo SMSBump": {
+    "name": "Yotpo SMSBump",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "SMS Bump is a SMS marketing and automations app which was acquired by Yotpo.",
+    "website": "https://www.yotpo.com/platform/smsbump-sms-marketing/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Zotabox": {
+    "name": "Zotabox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "DevOps/CI",
+    "description": "Zotabox is marketing tool which includes popups, header bars, page/form builder, testimonial, live chat, etc.",
+    "website": "https://info.zotabox.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Maxemail": {
+    "name": "Maxemail",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "DevOps/CI",
+    "description": "",
+    "website": "https://maxemail.xtremepush.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

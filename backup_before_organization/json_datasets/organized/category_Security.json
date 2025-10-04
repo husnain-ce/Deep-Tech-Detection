@@ -1,0 +1,4391 @@
+{
+  "Google Analytics": {
+    "name": "Google Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+    "website": "http://google.com/analytics",
+    "patterns": {
+      "cookies": [
+        "_ga_*: \\;version:GA4",
+        "_gat: \\;version:UA",
+        "_gat: ",
+        "__utma: ",
+        "_ga: "
+      ],
+      "scripts": [
+        "google-analytics\\.com/(?:ga|urchin|analytics)\\.js",
+        "gtag/js",
+        "gtag\\([^)]+'(UA-)\\;version:\\1?UA:",
+        "gtag\\([^)]+'(G-)\\;version:\\1?GA4:",
+        "www\\.google-analytics\\.com/analytics\\.js"
+      ],
+      "scriptSrc": [
+        "google-analytics\\.com/(?:ga|urchin|analytics)\\.js",
+        "googletagmanager\\.com/gtag/js"
+      ],
+      "html": [
+        "ga\\(|gtag\\(",
+        "<amp-analytics [^>]*type=[\"']googleanalytics[\"']"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Hotjar": {
+    "name": "Hotjar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Hotjar is a suite of analytic tools to assist in the gathering of qualitative data, providing feedback through tools such as heatmaps, session recordings, and surveys.",
+    "website": "https://www.hotjar.com",
+    "patterns": {
+      "scriptSrc": [
+        "//static\\.hotjar\\.com/"
+      ],
+      "scripts": [
+        "//static\\.hotjar\\.com/",
+        "static\\.hotjar\\.com/c/hotjar-.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "VWO": {
+    "name": "VWO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "VWO is a website testing and conversion optimisation platform.",
+    "website": "https://vwo.com",
+    "patterns": {
+      "scriptSrc": [
+        "dev\\.visualwebsiteoptimizer\\.com/",
+        "/visual-website-optimizer/([\\d\\.])\\;version:\\1"
+      ],
+      "scripts": [
+        "dev\\.visualwebsiteoptimizer\\.com/?([\\d.]+)\\;version:\\1",
+        "dev\\.visualwebsiteoptimizer\\.com/.*\\.js|cdn\\.vwo\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Plausible": {
+    "name": "Plausible",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Plausible is an open-source alternative to Google Analytics.",
+    "website": "https://plausible.io/",
+    "patterns": {
+      "cookies": [],
+      "scriptSrc": [
+        "plausible\\.io/js/plausible\\.js"
+      ],
+      "scripts": [
+        "plausible\\.io/js/plausible\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Mixpanel": {
+    "name": "Mixpanel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Mixpanel provides a business analytics service. It tracks user interactions with web and mobile applications and provides tools for targeted communication with them. Its toolset contains in-app A/B tests and user survey forms.",
+    "website": "https://mixpanel.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.mxpnl\\.com/libs/mixpanel\\-([0-9.]+)\\.min\\.js\\;version:\\1",
+        "api\\.mixpanel\\.com/track"
+      ],
+      "scripts": [
+        "api\\.mixpanel\\.com/track",
+        "cdn\\.mxpnl\\.com/.*\\.js",
+        "cdn\\.mxpnl\\.com/libs/mixpanel\\-([0-9.]+)\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Amplitude": {
+    "name": "Amplitude",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Amplitude is a web and mobile analytics solution with cross-platform user journey tracking, user behavior analysis and segmentation capabilities.",
+    "website": "https://amplitude.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.(?:segment.+)?amplitude(?:\\.com|-plugins)"
+      ],
+      "scripts": [
+        "cdn\\.amplitude\\.com",
+        "cdn\\.amplitude\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Heap": {
+    "name": "Heap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Heap is an analytics platform.",
+    "website": "https://heap.io",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.heapanalytics\\.com",
+        "heap-\\d+\\.js"
+      ],
+      "scripts": [
+        "cdn\\.heapanalytics\\.com/.*\\.js",
+        "heap-\\d+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Microsoft Clarity": {
+    "name": "Microsoft Clarity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Microsoft's Clarity is a analytics tool which provides website usage statistics, session recording, and heatmaps.",
+    "website": "https://clarity.microsoft.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.clarity\\.ms/.+/([\\d.]+)/clarity\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "www\\.clarity\\.ms/.+/([\\d.]+)/clarity\\.js\\;version:\\1",
+        "www\\.clarity\\.ms/tag/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Acquia Personalization": {
+    "name": "Acquia Personalization",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Acquia Personalization (formerly Acquia Lift) lets you track customers' behavior throughout your website.",
+    "website": "https://www.acquia.com/products/marketing-cloud/personalization",
+    "patterns": {
+      "scriptSrc": [
+        "lift\\.acquia\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 76"
+      ]
+    }
+  },
+  "Albacross": {
+    "name": "Albacross",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Albacross is a lead generation and account intelligence platform. It helps marketing and sales teams identify their ideal customers visiting their website and gives them the insights they need to generate more qualified leads, make prospecting more efficient and close more deals.",
+    "website": "https://albacross.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.albacross\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 77"
+      ]
+    }
+  },
+  "Alexa Certified Site Metrics": {
+    "name": "Alexa Certified Site Metrics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Alexa Certified Site Metrics is an analytics service wich monitors and analyses web traffic and can be used to keep track of user behavior.",
+    "website": "https://support.alexa.com/hc/en-us/sections/200063374",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cloudfront\\.net/atrk\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "AppDynamics": {
+    "name": "AppDynamics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "AppDynamics is an application performance management (APM) and IT operations analytics (ITOA) company based in San Francisco.",
+    "website": "https://appdynamics.com",
+    "patterns": {
+      "scriptSrc": [
+        "adrum"
+      ],
+      "scripts": [
+        "adrum"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 78"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Appsflyer": {
+    "name": "Appsflyer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "AppsFlyer is a SaaS mobile marketing analytics and attribution platform.",
+    "website": "https://www.appsflyer.com/",
+    "patterns": {
+      "scriptSrc": [
+        "websdk\\.appsflyer\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Auryc": {
+    "name": "Auryc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Auryc is a client-side journey intelligence platform that surfaces real-time insights.",
+    "website": "https://www.auryc.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.auryc\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Azure Monitor": {
+    "name": "Azure Monitor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Azure Monitor collects monitoring telemetry from a variety of on-premises and Azure sources. Azure Monitor helps you maximise the availability and performance of your applications and services.",
+    "website": "https://azure.microsoft.com/en-us/services/monitor",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: js\\.monitor\\.azure\\.com"
+      ],
+      "scriptSrc": [
+        "js\\.monitor\\.azure\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 92"
+      ]
+    }
+  },
+  "Baidu Analytics (百度统计)": {
+    "name": "Baidu Analytics (百度统计)",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Baidu Analytics (百度统计) is a free tool for tracking and reporting traffic data of users visiting your site.",
+    "website": "https://tongji.baidu.com/",
+    "patterns": {
+      "scriptSrc": [
+        "hm\\.baidu\\.com/hm?\\.js"
+      ],
+      "scripts": [
+        "hm\\.baidu\\.com/hm\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Blueshift": {
+    "name": "Blueshift",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Blueshift offers the SmartHub CDP, which helps brands deliver relevant and connected experiences across every customer interaction.",
+    "website": "https://blueshift.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn.getblueshift.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "BugSnag": {
+    "name": "BugSnag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Bugsnag is a cross-platform error monitoring, reporting, and resolution software.",
+    "website": "http://bugsnag.com",
+    "patterns": {
+      "scriptSrc": [
+        "/bugsnag.*\\.js"
+      ],
+      "scripts": [
+        "/bugsnag.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ChannelAdvisor": {
+    "name": "ChannelAdvisor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "ChannelAdvisor is a provider of cloud-based solutions to ecommerce companies.",
+    "website": "https://www.channeladvisor.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.channeladvisor\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "ClearSale": {
+    "name": "ClearSale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "ClearSale offers fraud management and chargeback protection services.",
+    "website": "https://www.clear.sale/",
+    "patterns": {
+      "scriptSrc": [
+        "device\\.clearsale\\.com\\.br"
+      ],
+      "scripts": [
+        "device\\.clearsale\\.com\\.br"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clearbit Reveal": {
+    "name": "Clearbit Reveal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Clearbit Reveal identifies anonymous visitors to websites.",
+    "website": "https://clearbit.com/reveal",
+    "patterns": {
+      "scriptSrc": [
+        "reveal\\.clearbit\\.com/v[(0-9)]/"
+      ],
+      "scripts": [
+        "reveal\\.clearbit\\.com/v[(0-9)]/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ClickTale": {
+    "name": "ClickTale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "ClickTale is a SaaS solution enabling organisations to gain visual in-page analytics.",
+    "website": "http://www.clicktale.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.clicktale\\.net"
+      ],
+      "scripts": [
+        "\\.clicktale\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clicky": {
+    "name": "Clicky",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Clicky is web an analytics tool which helps you to get real-time analysis including spy view.",
+    "website": "http://getclicky.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.getclicky\\.com"
+      ],
+      "scripts": [
+        "static\\.getclicky\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudflare Browser Insights": {
+    "name": "Cloudflare Browser Insights",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Cloudflare Browser Insights is a tool tool that measures the performance of websites from the perspective of users.",
+    "website": "http://www.cloudflare.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 78"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Contentsquare": {
+    "name": "Contentsquare",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Contentsquare is an enterprise-level UX optimisation platform.",
+    "website": "https://contentsquare.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.contentsquare\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ]
+    }
+  },
+  "Conversio": {
+    "name": "Conversio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Conversio is an optimisation and analytics agency.",
+    "website": "https://conversio.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.conversio\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "ConvertFlow": {
+    "name": "ConvertFlow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "ConvertFlow is the all-in-one conversion marketing platform.",
+    "website": "https://www.convertflow.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:app|js)\\.convertflow\\.co"
+      ],
+      "scripts": [
+        "(?:app|js)\\.convertflow\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "comScore": {
+    "name": "comScore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "comScore is an American media measurement and analytics company providing marketing data and analytics to enterprises; media and advertising agencies; and publishers.",
+    "website": "http://comscore.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.scorecardresearch\\.com/beacon\\.js|COMSCORE\\.beacon"
+      ],
+      "html": [
+        "<iframe[^>]* (?:id=\"comscore\"|scr=[^>]+comscore)|\\.scorecardresearch\\.com/beacon\\.js|COMSCORE\\.beacon"
+      ],
+      "scripts": [
+        "\\.scorecardresearch\\.com/beacon\\.js|COMSCORE\\.beacon"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Decibel": {
+    "name": "Decibel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Decibel is a behavioral analysis solution that helps users gain actionable insights about their digital audience.",
+    "website": "https://decibel.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.decibelinsight\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ]
+    }
+  },
+  "Demandbase": {
+    "name": "Demandbase",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Demandbase is a targeting and personalization platform for business-to-business companies.",
+    "website": "https://www.demandbase.com",
+    "patterns": {
+      "scriptSrc": [
+        "tag.demandbase.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 76"
+      ]
+    }
+  },
+  "Dynatrace": {
+    "name": "Dynatrace",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Dynatrace is a technology company that produces a software intelligence platform based on artificial intelligence to monitor and optimise application performance and development, IT infrastructure, and user experience for businesses and government agencies throughout the world.",
+    "website": "https://www.dynatrace.com",
+    "patterns": {
+      "cookies": [
+        "dtCookie1: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Etracker": {
+    "name": "Etracker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Etracker is a web optimisation solution.",
+    "website": "https://www.etracker.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.etracker\\.com"
+      ],
+      "scripts": [
+        "\\.etracker\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Everflow": {
+    "name": "Everflow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Everflow is a partner marketing analytics platform.",
+    "website": "https://www.everflow.io",
+    "patterns": {
+      "scriptSrc": [
+        "everflow\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Ezoic": {
+    "name": "Ezoic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Ezoic is a website optimisation platform for digital publishers and website owners powered by machine learning.",
+    "website": "https://www.ezoic.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ezo(?:js|ic|dn)\\.(?:com|net)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Cookie compliance"
+      ]
+    }
+  },
+  "Facebook Pixel": {
+    "name": "Facebook Pixel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Facebook pixel is an analytics tool that allows you to measure the effectiveness of your advertising.",
+    "website": "http://facebook.com",
+    "patterns": {
+      "scriptSrc": [
+        "connect\\.facebook.\\w+/signals/config/\\d+\\?v=([\\d\\.]+)\\;version:\\1",
+        "connect\\.facebook\\.\\w+/.+/fbevents\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Fathom": {
+    "name": "Fathom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Fathom is easy-yet-powerful website analytics that protects digital privacy.",
+    "website": "https://usefathom.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.usefathom\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "FullContact": {
+    "name": "FullContact",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "FullContact is a privacy-safe Identity Resolution company building trust between people and brands.",
+    "website": "https://www.fullcontact.com",
+    "patterns": {
+      "scriptSrc": [
+        "tags\\.fullcontact\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "FullStory": {
+    "name": "FullStory",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "FullStory is a web-based digital intelligence system that helps optimize the client experience.",
+    "website": "https://www.fullstory.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.fullstory\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Glassbox": {
+    "name": "Glassbox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Glassbox is an Israeli software company. It sells session-replay analytics software and services.",
+    "website": "https://www.glassbox.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.glassboxcdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "GoatCounter": {
+    "name": "GoatCounter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "GoatCounter is an open source web analytics platform available as a hosted service (free for non-commercial use) or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.",
+    "website": "https://www.goatcounter.com/",
+    "patterns": {
+      "scriptSrc": [
+        "gc\\.zgo\\.at/count\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Google Ads Conversion Tracking": {
+    "name": "Google Ads Conversion Tracking",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Google Ads Conversion Tracking is a free tool that shows you what happens after a customer interacts with your ads.",
+    "website": "https://support.google.com/google-ads/answer/1722022",
+    "patterns": {
+      "scripts": [
+        "gtag\\([^)]+'(AW-)"
+      ],
+      "scriptSrc": [
+        "\\.googleadservices\\.com/pagead/conversion_async\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Google Analytics Enhanced eCommerce": {
+    "name": "Google Analytics Enhanced eCommerce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Google analytics enhanced ecommerce is a plug-in which enables the measurement of user interactions with products on ecommerce websites.",
+    "website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce",
+    "patterns": {
+      "scriptSrc": [
+        "google-analytics\\.com\\/plugins\\/ua\\/(?:ec|ecommerce)\\.js"
+      ],
+      "scripts": [
+        "google-analytics\\.com\\/plugins\\/ua\\/(?:ec|ecommerce)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Call Conversion Tracking": {
+    "name": "Google Call Conversion Tracking",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Google Call Conversion Tracking is conversion tracking that shows which search keywords are driving the most calls.",
+    "website": "https://support.google.com/google-ads/answer/6100664",
+    "patterns": {
+      "scriptSrc": [
+        "gstatic\\.com/call-tracking/.+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Grafana": {
+    "name": "Grafana",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Grafana is a multi-platform open source analytics and interactive visualisation web application.",
+    "website": "https://grafana.com",
+    "patterns": {
+      "scripts": [
+        ".+latestVersion\":\"[\\d\\.\\w\\-]+\"\\,\"version\":\"([\\d\\.]+)\\;version:\\1\\;confidence:75"
+      ],
+      "scriptSrc": [
+        "grafana\\..+\\.com/public/build/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "HubSpot Analytics": {
+    "name": "HubSpot Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+    "website": "https://www.hubspot.com/products/marketing/analytics",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.hs-analytics\\.net/analytics"
+      ],
+      "scripts": [
+        "js\\.hs-analytics\\.net/analytics"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Huberway Analytics": {
+    "name": "Huberway Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Huberway Analytics is a free web analytics service that tracks and reports website traffic.",
+    "website": "https://www.huberway.com/analytics-software",
+    "patterns": {
+      "scriptSrc": [
+        "analytics\\.huberway\\.com/pixel/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "InMoment": {
+    "name": "InMoment",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "InMoment provides SaaS based customer survey and enterprise feedback management solutions.",
+    "website": "https://inmoment.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.inmoment\\.com",
+        "Content-Security-Policy-Report-Only: \\.inmoment\\.com"
+      ],
+      "scriptSrc": [
+        "\\.inmoment\\.com(?:\\.\\w+)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 73"
+      ]
+    }
+  },
+  "Instana": {
+    "name": "Instana",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Instana is a Kubernetes-native APM tool which is built for new-stack including Microservices and lately Serverless but also supports the existing VM based stacks  including several supported technologies.",
+    "website": "https://www.instana.com",
+    "patterns": {
+      "scriptSrc": [
+        "eum\\.instana\\.io"
+      ],
+      "scripts": [
+        "eum\\.instana\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Forums",
+        "Category 78"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "June": {
+    "name": "June",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "June is a product analytics for subscription businesses. It automatically generates graphs of the metrics users should track by connecting their segment account.",
+    "website": "https://june.so",
+    "patterns": {
+      "cookies": [
+        "_june_session: "
+      ],
+      "scriptSrc": [
+        "static\\.june\\.so/analytics\\.js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 97"
+      ]
+    }
+  },
+  "Koala": {
+    "name": "Koala",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Koala is an analytical product with CRM features that helps businesses efficiently identify and track prospects, providing valuable insights and streamlining the sales process.",
+    "website": "https://getkoala.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.getkoala\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 53"
+      ]
+    }
+  },
+  "Kount": {
+    "name": "Kount",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Kount is a suite of fraud detection and prevention solutions for ecommerce businesses.",
+    "website": "https://kount.com",
+    "patterns": {
+      "scriptSrc": [
+        "shopify\\.kount\\.net/js"
+      ],
+      "scripts": [
+        "shopify\\.kount\\.net/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Leadfeeder": {
+    "name": "Leadfeeder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Leadfeeder is a B2B visitor identification software that tracks and identifies companies that visit your website.",
+    "website": "https://www.leadfeeder.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.(?:lfeeder|leadfeeder)\\.com"
+      ],
+      "scriptSrc": [
+        "\\.leadfeeder\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Leadinfo": {
+    "name": "Leadinfo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Leadinfo is a lead generation software that enables you to recognise B2B website visitors.",
+    "website": "https://www.leadinfo.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.leadinfo\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Lexity": {
+    "name": "Lexity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Lexity is the one-stop-shop of ecommerce services for SMBs.",
+    "website": "http://lexity.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.lexity\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Linkedin Insight Tag": {
+    "name": "Linkedin Insight Tag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "LinkedIn Insight Tag is a lightweight JavaScript tag that powers conversion tracking, website audiences, and website demographics.",
+    "website": "https://business.linkedin.com/marketing-solutions/insight-tag",
+    "patterns": {
+      "scripts": [
+        "snap\\.licdn\\.com/li\\.lms-analytics/insight\\.min\\.js",
+        "_linkedin_partner_id"
+      ],
+      "scriptSrc": [
+        "snap\\.licdn\\.com/li\\.lms-analytics/insight\\.min\\.js",
+        "cdn\\.oribi\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LiveSession": {
+    "name": "LiveSession",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "LiveSession helps increase conversion rates using session replays, and event-based product analytics.",
+    "website": "https://livesession.io/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.livesession\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "LogRocket": {
+    "name": "LogRocket",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "LogRocket records videos of user sessions with logs and network data.",
+    "website": "https://logrocket.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.logrocket\\.(com|io)",
+        "cdn\\.lr-ingest\\.io"
+      ],
+      "scripts": [
+        "cdn\\.logrocket\\.(com|io)",
+        "cdn\\.lr-ingest\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Loggly": {
+    "name": "Loggly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Loggly is a cloud-based log management service provider.",
+    "website": "https://www.loggly.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.loggly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Lucky Orange": {
+    "name": "Lucky Orange",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Lucky Orange is a conversion optimisation tool with features including heatmaps, session recording, conversion funnels, form analytics, and chat.",
+    "website": "https://www.luckyorange.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.luckyorange\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Marchex": {
+    "name": "Marchex",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Marchex is a B2B call and conversational analytics company.",
+    "website": "https://www.marchex.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.marchex\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Marfeel": {
+    "name": "Marfeel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Marfeel is a publisher platform that allows publishers to create, optimise and monetise their mobile websites.",
+    "website": "https://www.marfeel.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.marfeel\\.com/",
+        "\\.mrf\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Cookie compliance"
+      ]
+    }
+  },
+  "Matomo Analytics": {
+    "name": "Matomo Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Matomo Analytics is a free and open-source web analytics application, that runs on a PHP/MySQL web-server.",
+    "website": "https://matomo.org",
+    "patterns": {
+      "cookies": [
+        "PIWIK_SESSID: "
+      ],
+      "meta": [
+        "apple-itunes-app: app-id=737216887",
+        "generator: (?:Matomo|Piwik) - Open Source Web Analytics",
+        "google-play-app: app-id=org\\.piwik\\.mobile2"
+      ],
+      "scriptSrc": [
+        "piwik\\.js|piwik\\.php"
+      ],
+      "scripts": [
+        "piwik\\.js|piwik\\.php"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Measured": {
+    "name": "Measured",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Measured is an analytics platform to measure efficiency of marketing channels.",
+    "website": "https://www.measured.com",
+    "patterns": {
+      "scriptSrc": [
+        "tag\\.measured\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Medallia": {
+    "name": "Medallia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Medallia (formerly Kampyle) is a complete customer feedback platform that helps digital enterprises listen, understand, and act across all digital touch-points.",
+    "website": "https://www.medallia.com",
+    "patterns": {
+      "cookies": [
+        "k_visit: "
+      ],
+      "scriptSrc": [
+        "cf\\.kampyle\\.com/k_button\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Forums",
+        "Category 73"
+      ]
+    }
+  },
+  "Metrilo": {
+    "name": "Metrilo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Metrilo is an ecommerce analytics, email marketing software provider.",
+    "website": "https://www.metrilo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.metrilo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 75"
+      ]
+    }
+  },
+  "Mint": {
+    "name": "Mint",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Mint is an extensible, self-hosted web site analytics program.",
+    "website": "https://haveamint.com",
+    "patterns": {
+      "scriptSrc": [
+        "mint/\\?js"
+      ],
+      "scripts": [
+        "mint/\\?js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Moat": {
+    "name": "Moat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Moat is a digital ad analytics tool.",
+    "website": "https://moat.com/",
+    "patterns": {
+      "scriptSrc": [
+        "moatads\\.com"
+      ],
+      "scripts": [
+        "moatads\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Naver Analytics": {
+    "name": "Naver Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Naver Analytics is a Korean based analytics service.",
+    "website": "https://analytics.naver.com",
+    "patterns": {
+      "meta": [
+        "naver-site-verification: "
+      ],
+      "scriptSrc": [
+        "wcs\\.naver\\.net/wcslog\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Noddus": {
+    "name": "Noddus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Noddus offers brands and agencies access to an advanced proprietary content marketing platform automating content production, distribution and analytics.",
+    "website": "https://www.enterprise.noddus.com",
+    "patterns": {
+      "scriptSrc": [
+        "noddus\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Oracle Infinity": {
+    "name": "Oracle Infinity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Oracle Infinity is a digital analytics platform for tracking, measuring, and optimizing the performance and visitor behavior of enterprise websites and mobile apps.",
+    "website": "https://www.oracle.com/cx/marketing/digital-intelligence/",
+    "patterns": {
+      "scriptSrc": [
+        "c\\.oracleinfinity\\.io"
+      ],
+      "scripts": [
+        "c\\.oracleinfinity\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PayPal Marketing Solutions": {
+    "name": "PayPal Marketing Solutions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "PayPal Marketing Solutions enables merchants to see shopper insights and provide custom rewards for buyers with PayPal accounts.",
+    "website": "https://developer.paypal.com/docs/marketing-solutions",
+    "patterns": {
+      "scriptSrc": [
+        "\\.paypalobjects\\.com/muse/",
+        "\\.paypal\\.com/tagmanager/pptm\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Pendo": {
+    "name": "Pendo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Pendo is a product analytics platform used in release to enrich the product experience and provide insights to the product management team.",
+    "website": "https://www.pendo.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pendo\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 58"
+      ]
+    }
+  },
+  "Piwik PRO Core": {
+    "name": "Piwik PRO Core",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Piwik PRO Core is a free alternative to Google Analytics that is privacy & compliance focused.",
+    "website": "https://piwik.pro",
+    "patterns": {
+      "scriptSrc": [
+        "\\.piwik\\.pro/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "PostHog": {
+    "name": "PostHog",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "PostHog is the open-source, all-in-one product analytics platform.",
+    "website": "https://posthog.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.posthog\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Quantcast Measure": {
+    "name": "Quantcast Measure",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Quantcast Measure is an audience insights and analytics tool.",
+    "website": "https://www.quantcast.com/products/measure-audience-insights",
+    "patterns": {
+      "scriptSrc": [
+        "\\.quantserve\\.com/quant\\.js"
+      ],
+      "scripts": [
+        "\\.quantserve\\.com/quant\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Quantum Metric": {
+    "name": "Quantum Metric",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Quantum Metric is a continuous product design platform that helps organizations build better products faster.",
+    "website": "https://www.quantummetric.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.quantummetric\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Quora Pixel": {
+    "name": "Quora Pixel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Quora Pixel is a tool that is placed in your website code to track traffic and conversions.",
+    "website": "https://quoraadsupport.zendesk.com/hc/en-us/categories/115001573928-Pixels-Tracking",
+    "patterns": {
+      "scriptSrc": [
+        "\\.quora\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Riskified": {
+    "name": "Riskified",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Riskified is a privately held company that provides SaaS fraud and chargeback prevention technology.",
+    "website": "https://www.riskified.com/",
+    "patterns": {
+      "headers": [
+        "server: Riskified Server"
+      ],
+      "html": [
+        "<[^>]*beacon\\.riskified\\.com",
+        "<[^>]*c\\.riskified\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SalesReps.io": {
+    "name": "SalesReps.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "SalesReps.io is a sales representative performance and commission reporting software provider.",
+    "website": "https://salesreps.io",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.salesreps\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "SegmentStream": {
+    "name": "SegmentStream",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "SegmentStream is a AI-powered marketing analytics platform built for data-driven CMOs, web analysts and performance marketing teams.",
+    "website": "https://segmentstream.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.segmentstream\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Sift": {
+    "name": "Sift",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Sift is a CA-based fraud prevention company.",
+    "website": "https://sift.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.sift(?:science)?\\.com/s\\.js"
+      ],
+      "scripts": [
+        "cdn\\.sift(?:science)?\\.com/s\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Signifyd": {
+    "name": "Signifyd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Signifyd is a provider of an enterprise-grade fraud technology solution for ecommerce stores.",
+    "website": "https://www.signifyd.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.signifyd\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Issue Trackers"
+      ]
+    }
+  },
+  "Simple Analytics": {
+    "name": "Simple Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Simple Analytics is a privacy-friendly Google Analytics alternative.",
+    "website": "https://simpleanalytics.com",
+    "patterns": {
+      "scriptSrc": [
+        "simpleanalyticscdn\\.com",
+        "simpleanalytics\\.io",
+        "simpleanalytics\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Site Kit": {
+    "name": "Site Kit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
+    "website": "https://sitekit.withgoogle.com/",
+    "patterns": {
+      "meta": [
+        "generator: ^Site Kit by Google ?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 87"
+      ]
+    }
+  },
+  "SiteVibes": {
+    "name": "SiteVibes",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "SiteVibes is a cloud-based user generated content and visual marketing platform.",
+    "website": "https://sitevibes.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.sitevibes\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Siteimprove": {
+    "name": "Siteimprove",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Siteimprove is a digital analytics and content QA platform.",
+    "website": "https://www.siteimprove.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:\\.|//)siteimprove(?:analytics)?\\.com/js/siteanalyze"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Skai": {
+    "name": "Skai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Skai (formerly Kenshoo) is a marketing activation solution for brands and agencies.",
+    "website": "https://skai.io",
+    "patterns": {
+      "scripts": [
+        "\\.xg4ken\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Smartlook": {
+    "name": "Smartlook",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Smartlook is a qualitative analytics solution for websites and mobile apps.",
+    "website": "https://www.smartlook.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.smartlook\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Snowplow Analytics": {
+    "name": "Snowplow Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Snowplow is an open-source behavioral data management platform for businesses.",
+    "website": "https://snowplowanalytics.com",
+    "patterns": {
+      "cookies": [
+        "_sp_id: ",
+        "sp: \\;confidence:50"
+      ],
+      "scriptSrc": [
+        "sp\\.js\\;confidence:50",
+        "d1fc8wv8zag5ca\\.cloudfront\\.net/.+/sp\\.js",
+        "cdn\\.jsdelivr\\.net/gh/snowplow/sp-js-assets@(?:.+)/sp\\.js",
+        "cdnjs\\.cloudflare\\.com/ajax/libs/snowplow/(?:.+)/sp.*\\.js",
+        "unpkg.com/@snowplow/javascript-tracker@(?:.+)/dist/sp.*\\.js",
+        "cdn\\.jsdelivr\\.net/npm/@snowplow/javascript-tracker@(?:.+)/dist/sp\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 63"
+      ]
+    }
+  },
+  "Stack Analytix": {
+    "name": "Stack Analytix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Stack Analytix offers heatmaps, session recording, conversion analysis and user engagement tools.",
+    "website": "https://www.stackanalytix.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.stackanalytix\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Statsig": {
+    "name": "Statsig",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Statsig is a modern product experimentation platform that helps product teams continuously measure impact of every single feature they launch.",
+    "website": "https://statsig.com/",
+    "patterns": {
+      "headers": [
+        "x-statsig-region: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 85"
+      ]
+    }
+  },
+  "Swagify": {
+    "name": "Swagify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Swagify allows you to upsell, cross-sell, and promote, by creating as many completely customizable offers as you want.",
+    "website": "https://swagifyapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.swagifyapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Syndeca": {
+    "name": "Syndeca",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Syndeca is a visual commerce platform that allows brands to quickly create engaging, actionable campaigns.",
+    "website": "https://www.syndeca.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.syndeca\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 76"
+      ]
+    }
+  },
+  "Tallentor": {
+    "name": "Tallentor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Tallentor is a subscription-based software website analytics, heatmap, channel chat intergration.",
+    "website": "https://tallentor.com",
+    "patterns": {
+      "scriptSrc": [
+        "tallentor\\.com/js/script_tracker\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "The Hotels Network": {
+    "name": "The Hotels Network",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "The Hotels Network provides a SaaS software that enhances hotelier websites with predictive marketing personalisation and user behavior analytics.",
+    "website": "https://thehotelsnetwork.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.thehotelsnetwork\\.com",
+        "content-security-policy-report-only: \\.thehotelsnetwork\\.com"
+      ],
+      "scriptSrc": [
+        "\\.thehotelsnetwork\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 76"
+      ]
+    }
+  },
+  "Thesis": {
+    "name": "Thesis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Thesis is a conversion rate optimisation company.",
+    "website": "https://www.thesistesting.com",
+    "patterns": {
+      "scriptSrc": [
+        "thix\\.ttsep\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Tinybird": {
+    "name": "Tinybird",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Tinybird is a cloud-native data processing platform that allows developers and data teams to build real-time data pipelines and perform complex data transformations and analysis at scale.",
+    "website": "https://www.tinybird.co/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tinybird.co/js/index\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "TrackJs": {
+    "name": "TrackJs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "TrackJS is an error monitoring agent for production web sites and applications.",
+    "website": "http://trackjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.trackjs\\.com"
+      ],
+      "scripts": [
+        "tracker\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twitter Analytics": {
+    "name": "Twitter Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Twitter Analytics is a built-in data-tracking platform that shows you insights specific to your Twitter account and activity.",
+    "website": "https://analytics.twitter.com",
+    "patterns": {
+      "scriptSrc": [
+        "analytics\\.twitter\\.com"
+      ],
+      "scripts": [
+        "analytics\\.twitter\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Umami": {
+    "name": "Umami",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Umami is a self-hosted web analytics solution. It's goal is to provide a friendlier, privacy-focused alternative to Google Analytics and a free, open-sourced alternative to paid solutions.",
+    "website": "https://umami.is/",
+    "patterns": {
+      "scriptSrc": [
+        "umami\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "VK Pixel": {
+    "name": "VK Pixel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "VK is a Russian online social media and social networking service.",
+    "website": "https://vk.com/",
+    "patterns": {
+      "scriptSrc": [
+        "vk\\.com/js/api/openapi\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "WP-Statistics": {
+    "name": "WP-Statistics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "WP-Statistics is a WordPress plugin which allows you to know your website statistics.",
+    "website": "https://wp-statistics.com",
+    "patterns": {
+      "html": [
+        "<!-- Analytics by WP-Statistics v([\\d\\.]+)\\;version:\\1",
+        "<!-- Analytics by WP-Statistics v([\\d.]+) -\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WildJar": {
+    "name": "WildJar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "WildJar is a call tracking and intelligence platform which helps you understand where your leads are coming from, who is calling you, what your conversations are about and connect that data into other platforms.",
+    "website": "https://www.wildjar.com",
+    "patterns": {
+      "scriptSrc": [
+        "trkcall\\.com/scripts"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Yandex.Metrika": {
+    "name": "Yandex.Metrika",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Yandex.Metrica is a free web analytics service that tracks and reports website traffic.",
+    "website": "http://metrika.yandex.com",
+    "patterns": {
+      "scriptSrc": [
+        "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
+        "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+      ],
+      "scripts": [
+        "mc\\.yandex\\.ru/metrika/(?:tag|watch)\\.js",
+        "cdn\\.jsdelivr\\.net/npm/yandex\\-metrica\\-watch/watch\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zoominfo": {
+    "name": "Zoominfo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Security",
+    "description": "ZoomInfo provides actionable B2B contact and company information for sales and marketing teams.",
+    "website": "https://www.zoominfo.com/",
+    "patterns": {
+      "scriptSrc": [
+        "ws\\.zoominfo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Kampyle": {
+    "name": "Kampyle",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Kampyle is a complete customer feedback platform that helps digital enterprises listen, understand, and act across all digital touch-points.",
+    "website": "http://www.kampyle.com",
+    "patterns": {
+      "cookies": [
+        "k_visit: "
+      ],
+      "scripts": [
+        "cf\\.kampyle\\.com/k_button\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Forums"
+      ]
+    }
+  },
+  "Oribi": {
+    "name": "Oribi",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Security",
+    "description": "Oribi is an all-in-one marketing analytics tool.",
+    "website": "https://oribi.io/",
+    "patterns": {
+      "scripts": [
+        "cdn\\.oribi\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "AT Internet XiTi": {
+    "name": "AT Internet XiTi",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://atinternet.com/en",
+    "patterns": {
+      "scriptSrc": [
+        "xiti\\.com/hit\\.xiti"
+      ],
+      "scripts": [
+        "xiti\\.com/hit\\.xiti"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AWStats": {
+    "name": "AWStats",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://awstats.sourceforge.net",
+    "patterns": {
+      "meta": [
+        "generator: AWStats ([\\d.]+(?: \\(build [\\d.]+\\))?)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ahoy": {
+    "name": "Ahoy",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://github.com/ankane/ahoy",
+    "patterns": {
+      "cookies": [
+        "ahoy_track: ",
+        "ahoy_visit: ",
+        "ahoy_visitor: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Analysys Ark": {
+    "name": "Analysys Ark",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://ark.analysys.cn",
+    "patterns": {
+      "cookies": [
+        "ARK_ID: "
+      ],
+      "scriptSrc": [
+        "AnalysysFangzhou_JS_SDK\\.min\\.js\\?v=([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "AnalysysFangzhou_JS_SDK\\.min\\.js\\?v=([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CNZZ": {
+    "name": "CNZZ",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://web.umeng.com/",
+    "patterns": {
+      "scriptSrc": [
+        "//[^./]+\\.cnzz\\.com/(?:z_stat.php|core)\\?"
+      ],
+      "scripts": [
+        "//[^./]+\\.cnzz\\.com/(?:z_stat.php|core)\\?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Chartbeat": {
+    "name": "Chartbeat",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://chartbeat.com",
+    "patterns": {
+      "scriptSrc": [
+        "chartbeat\\.js"
+      ],
+      "scripts": [
+        "chartbeat\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ClickHeat": {
+    "name": "ClickHeat",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.labsmedia.com/clickheat/index.html",
+    "patterns": {
+      "scriptSrc": [
+        "clickheat.*\\.js"
+      ],
+      "scripts": [
+        "clickheat.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Crazy Egg": {
+    "name": "Crazy Egg",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://crazyegg.com",
+    "patterns": {
+      "scriptSrc": [
+        "script\\.crazyegg\\.com/pages/scripts/\\d+/\\d+\\.js"
+      ],
+      "scripts": [
+        "script\\.crazyegg\\.com/pages/scripts/\\d+/\\d+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Engagio": {
+    "name": "Engagio",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.engagio.com/",
+    "patterns": {
+      "scriptSrc": [
+        "web-analytics\\.engagio\\.com/js/ei\\.js",
+        "web-analytics\\.engagio\\.com/api/"
+      ],
+      "scripts": [
+        "web-analytics\\.engagio\\.com/js/ei\\.js",
+        "web-analytics\\.engagio\\.com/api/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Freespee": {
+    "name": "Freespee",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.freespee.com",
+    "patterns": {
+      "scriptSrc": [
+        "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js"
+      ],
+      "scripts": [
+        "analytics\\.freespee\\.com/js/external/fs\\.(?:min\\.)?js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gauges": {
+    "name": "Gauges",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://get.gaug.es",
+    "patterns": {
+      "cookies": [
+        "_gauges_: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gemius": {
+    "name": "Gemius",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.gemius.com",
+    "patterns": {
+      "html": [
+        "<a [^>]*onclick=\"gemius_hit"
+      ],
+      "scriptSrc": [
+        "hit\\.gemius\\.pl/xgemius\\.js",
+        "hit\\.gemius\\.pl\\;confidence:80",
+        "xgemius\\.js\\;confidence:30"
+      ],
+      "scripts": [
+        "hit\\.gemius\\.pl/xgemius\\.js",
+        "hit\\.gemius\\.pl\\;confidence:80",
+        "xgemius\\.js\\;confidence:30"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GrowingIO": {
+    "name": "GrowingIO",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.growingio.com/",
+    "patterns": {
+      "cookies": [
+        "gr_user_id: ",
+        "grwng_uid: "
+      ],
+      "scriptSrc": [
+        "assets\\.growingio\\.com/([\\d.]+)/gio\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "assets\\.growingio\\.com/([\\d.]+)/gio\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "hantana": {
+    "name": "hantana",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://hantana.org/",
+    "patterns": {
+      "scriptSrc": [
+        "//hantana\\.org/widget"
+      ],
+      "scripts": [
+        "//hantana\\.org/widget"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "IBM Coremetrics": {
+    "name": "IBM Coremetrics",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://ibm.com/software/marketing-solutions/coremetrics",
+    "patterns": {
+      "scriptSrc": [
+        "cmdatatagutils\\.js"
+      ],
+      "scripts": [
+        "cmdatatagutils\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "INFOnline": {
+    "name": "INFOnline",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.infonline.de",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://(?:[^/]+\\.)?i(?:oam|v)wbox\\.de/"
+      ],
+      "scripts": [
+        "^https?://(?:[^/]+\\.)?i(?:oam|v)wbox\\.de/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Inspectlet": {
+    "name": "Inspectlet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.inspectlet.com/",
+    "patterns": {
+      "html": [
+        "<!-- (?:Begin|End) Inspectlet Embed Code -->"
+      ],
+      "scriptSrc": [
+        "cdn\\.inspectlet\\.com"
+      ],
+      "scripts": [
+        "cdn\\.inspectlet\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ip-label": {
+    "name": "ip-label",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.ip-label.com",
+    "patterns": {
+      "scriptSrc": [
+        "clobs\\.js"
+      ],
+      "scripts": [
+        "clobs\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Jirafe": {
+    "name": "Jirafe",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://docs.jirafe.com",
+    "patterns": {
+      "scriptSrc": [
+        "/jirafe\\.js"
+      ],
+      "scripts": [
+        "/jirafe\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Liveinternet": {
+    "name": "Liveinternet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://liveinternet.ru/rating/",
+    "patterns": {
+      "html": [
+        "<!--/LiveInternet-->",
+        "<a href=\"http://www\\.liveinternet\\.ru/click\"",
+        "<!--LiveInternet counter-->",
+        "<script [^>]*>[\\s\\S]*//counter\\.yadro\\.ru/hit"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mouse Flow": {
+    "name": "Mouse Flow",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://mouseflow.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.mouseflow\\.com"
+      ],
+      "scripts": [
+        "cdn\\.mouseflow\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Navegg": {
+    "name": "Navegg",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.navegg.com/",
+    "patterns": {
+      "scriptSrc": [
+        "tag\\.navdmp\\.com"
+      ],
+      "scripts": [
+        "tag\\.navdmp\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Open Web Analytics": {
+    "name": "Open Web Analytics",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.openwebanalytics.com",
+    "patterns": {
+      "html": [
+        "<!-- (?:Start|End) Open Web Analytics Tracker -->"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Oracle Recommendations On Demand": {
+    "name": "Oracle Recommendations On Demand",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.oracle.com/us/products/applications/commerce/recommendations-on-demand/index.html",
+    "patterns": {
+      "scriptSrc": [
+        "atgsvcs.+atgsvcs\\.js"
+      ],
+      "scripts": [
+        "atgsvcs.+atgsvcs\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Profitwell": {
+    "name": "Profitwell",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.profitwell.com/",
+    "patterns": {
+      "scriptSrc": [
+        "profitwell\\.js"
+      ],
+      "scripts": [
+        "public\\.profitwell\\.com/js/profitwell\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sensors Data": {
+    "name": "Sensors Data",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.sensorsdata.cn",
+    "patterns": {
+      "cookies": [
+        "sensorsdata2015jssdkcross: ",
+        "sensorsdata2015session: "
+      ],
+      "scriptSrc": [
+        "sensorsdata"
+      ],
+      "scripts": [
+        "sensorsdata"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ShinyStat": {
+    "name": "ShinyStat",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://shinystat.com",
+    "patterns": {
+      "html": [
+        "<img[^>]*\\s+src=['\"]?https?://www\\.shinystat\\.com/cgi-bin/shinystat\\.cgi\\?[^'\"\\s>]*['\"\\s/>]"
+      ],
+      "scriptSrc": [
+        "^https?://codice(?:business|ssl|pro|isp)?\\.shinystat\\.com/cgi-bin/getcod\\.cgi"
+      ],
+      "scripts": [
+        "^https?://codice(?:business|ssl|pro|isp)?\\.shinystat\\.com/cgi-bin/getcod\\.cgi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Site Meter": {
+    "name": "Site Meter",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.sitemeter.com",
+    "patterns": {
+      "scriptSrc": [
+        "sitemeter\\.com/js/counter\\.js\\?site="
+      ],
+      "scripts": [
+        "sitemeter\\.com/js/counter\\.js\\?site="
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Snoobi": {
+    "name": "Snoobi",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.snoobi.com",
+    "patterns": {
+      "scriptSrc": [
+        "snoobi\\.com/snoop\\.php"
+      ],
+      "scripts": [
+        "snoobi\\.com/snoop\\.php"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Splitbee": {
+    "name": "Splitbee",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://splitbee.io",
+    "patterns": {
+      "scriptSrc": [
+        "^https://cdn\\.splitbee\\.io/sb\\.js"
+      ],
+      "scripts": [
+        "^https://cdn\\.splitbee\\.io/sb\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Statcounter": {
+    "name": "Statcounter",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.statcounter.com",
+    "patterns": {
+      "scriptSrc": [
+        "statcounter\\.com/counter/counter"
+      ],
+      "scripts": [
+        "statcounter\\.com/counter/counter"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Synerise": {
+    "name": "Synerise",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://synerise.com/",
+    "patterns": {
+      "scriptSrc": [
+        "snrcdn\\.net/sdk/(3\\.0)/synerise-javascript-sdk\\.min\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "snrcdn\\.net/sdk/(3\\.0)/synerise-javascript-sdk\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tencent Analytics (腾讯分析)": {
+    "name": "Tencent Analytics (腾讯分析)",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://ta.qq.com/",
+    "patterns": {
+      "scriptSrc": [
+        "tajs\\.qq\\.com/stats"
+      ],
+      "scripts": [
+        "tajs\\.qq\\.com/stats"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "user.com": {
+    "name": "user.com",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://user.com",
+    "patterns": {
+      "html": [
+        "<div[^>]+/id=\"ue_widget\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vercel Analytics": {
+    "name": "Vercel Analytics",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://vercel.com/analytics",
+    "patterns": {
+      "scriptSrc": [
+        "/va/script\\.js",
+        "/_vercel/insights/script\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "W3Counter": {
+    "name": "W3Counter",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.w3counter.com",
+    "patterns": {
+      "scriptSrc": [
+        "w3counter\\.com/tracker\\.js"
+      ],
+      "scripts": [
+        "w3counter\\.com/tracker\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebMetric": {
+    "name": "WebMetric",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://webmetric.ir/",
+    "patterns": {
+      "cookies": [
+        "_wmuid: "
+      ],
+      "scriptSrc": [
+        "cdn\\.webmetric\\.ir"
+      ],
+      "scripts": [
+        "cdn\\.webmetric\\.ir"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Webtrends": {
+    "name": "Webtrends",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://worldwide.webtrends.com",
+    "patterns": {
+      "html": [
+        "<img[^>]+id=\"DCSIMG\"[^>]+webtrends"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Woopra": {
+    "name": "Woopra",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.woopra.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.woopra\\.com"
+      ],
+      "scripts": [
+        "static\\.woopra\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yahoo! Web Analytics": {
+    "name": "Yahoo! Web Analytics",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://web.analytics.yahoo.com",
+    "patterns": {
+      "scriptSrc": [
+        "d\\.yimg\\.com/mi/ywa\\.js"
+      ],
+      "scripts": [
+        "d\\.yimg\\.com/mi/ywa\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zipkin": {
+    "name": "Zipkin",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://zipkin.io/",
+    "patterns": {
+      "headers": [
+        "X-B3-ParentSpanId: ",
+        "X-B3-Sampled: ",
+        "X-B3-Flags: ",
+        "X-B3-TraceId: ",
+        "X-B3-SpanId: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ADPLAN": {
+    "name": "ADPLAN",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.adplan7.com/",
+    "patterns": {
+      "scripts": [
+        "^https?://[^.]+\\.adplan7\\.com/\\;version:7",
+        "^https?://(?!o\\.)\\w+\\.advg\\.jp/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Advanced Web Stats": {
+    "name": "Advanced Web Stats",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.advancedwebstats.com",
+    "patterns": {
+      "html": [
+        "aws\\.src = [^<]+caphyon-analytics"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "51.LA": {
+    "name": "51.LA",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "51.LA is a Chinese based website visitor counter.",
+    "website": "https://www.51.la",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Ackee": {
+    "name": "Ackee",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Ackee is a self-hosted, Node.js based analytics tool with a focus on privacy.",
+    "website": "https://ackee.electerious.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Acoustic Experience Analytics": {
+    "name": "Acoustic Experience Analytics",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Acoustic Experience Analytics (Tealeaf), formerly known as IBM Tealeaf Customer Experience on Cloud, is a SaaS-based analytics solution that delivers Tealeaf core capabilities in an managed cloud environment. Tealeaf captures and manages each visitor interaction on your website and mobile applications.",
+    "website": "https://acoustic.com/tealeaf",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Adjust": {
+    "name": "Adjust",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Adjust is the mobile marketing analytics platform.",
+    "website": "https://www.adjust.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Air360": {
+    "name": "Air360",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Air360 is a technology company that specialises in performance-enhancing, mobile and ecommerce experience analytics.",
+    "website": "https://www.air360.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Analyzee": {
+    "name": "Analyzee",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Analyzee is an analytics tool that allows you to gain insights into visitor behavior and optimise your website's user experience using heatmaps and other analytics features.",
+    "website": "https://analyzee.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Avanser": {
+    "name": "Avanser",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Avanser allow you to track every call and enable your business to make better-informed decisions based on your phone calls.",
+    "website": "https://www.avanser.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "CallRail": {
+    "name": "CallRail",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "CallRail is a service that tracks and manages your phone leads, helping businesses to determine which marketing campaigns are driving quality leads.",
+    "website": "https://www.callrail.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "CallTrackingMetrics": {
+    "name": "CallTrackingMetrics",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "CallTrackingMetrics is a call tracking and marketing attribution solution for contact centers and agencies.",
+    "website": "https://www.calltrackingmetrics.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "DataMilk": {
+    "name": "DataMilk",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "DataMilk is an AI tool which autonomously optimises customer UI for ecommerce customers in order to increase conversions.",
+    "website": "https://www.datamilk.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Rich Text Editors"
+      ]
+    }
+  },
+  "Delacon": {
+    "name": "Delacon",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Delacon provides Australian businesses with Call Tracking, Call Management and Speech Analytics solutions.",
+    "website": "https://www.delacon.com.au",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Elastic APM": {
+    "name": "Elastic APM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Elastic APM offers free and open application performance monitoring.",
+    "website": "https://www.elastic.co/apm",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Forums",
+        "Category 78"
+      ]
+    }
+  },
+  "Elevar": {
+    "name": "Elevar",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Elevar is an official Shopify Plus Partner data collection and marketing monitoring tool.",
+    "website": "https://www.getelevar.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Errorception": {
+    "name": "Errorception",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Errorception is a error reporting service for client-side in-browser JavaScript errors.",
+    "website": "https://errorception.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Histats": {
+    "name": "Histats",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Histats is a simple website visitor analysis and tracking tool.",
+    "website": "https://www.histats.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Kwai pixel": {
+    "name": "Kwai pixel",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Kwai is a social network for short videos and trends.",
+    "website": "https://www.kwai.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Mapp": {
+    "name": "Mapp",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Mapp is designed specifically to help consumer-facing brands run highly personalised, cross-channel marketing campaigns powered by real-time customer data and generated insights.",
+    "website": "https://mapp.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Monsido": {
+    "name": "Monsido",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Monsido provides a website management platform that automates processes, ensures regulatory compliance, improves collaboration in web and marketing teams, and streamlines reporting.",
+    "website": "https://monsido.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 67",
+        "Category 68"
+      ]
+    }
+  },
+  "Panelbear": {
+    "name": "Panelbear",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Panelbear is a simple website performance and traffic analytics tool.",
+    "website": "https://panelbear.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Forums"
+      ]
+    }
+  },
+  "Peripl": {
+    "name": "Peripl",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Peripl is a French software company that provides cloud-based software solutions for business management, including accounting, invoicing, payroll, and project management.",
+    "website": "https://www.peripl.fr",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Pinterest Conversion Tag": {
+    "name": "Pinterest Conversion Tag",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Pinterest Conversion Tag allows you to track actions people take on your website after viewing your Promoted Pin.",
+    "website": "https://www.pinterest.com.au/business/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Roistat": {
+    "name": "Roistat",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Roistat is a marketing analytics system.",
+    "website": "https://roistat.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 74"
+      ]
+    }
+  },
+  "Spinnakr": {
+    "name": "Spinnakr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Spinnakr is a startup with a platform designed to personalise messages on blogs and websites.",
+    "website": "https://www.spinnakr.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Traek": {
+    "name": "Traek",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Traek is a website insights, analytics and lead generation tool.",
+    "website": "https://www.traek.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Triple Whale": {
+    "name": "Triple Whale",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "The Triple Whale platform combines centralization, visualization, and attribution into a dashboard that presents and illustrates KPIs in an actionable way.",
+    "website": "https://triplewhale.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "uMarketingSuite": {
+    "name": "uMarketingSuite",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "uMarketingSuite is a set of diverse features that together form a full marketing suite for the Umbraco platform.",
+    "website": "https://www.umarketingsuite.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 76"
+      ]
+    }
+  },
+  "Ve Global": {
+    "name": "Ve Global",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Ve Global, formerly known as Ve Interactive, is a global technology company that provides ecommerce businesses with a managed-service of proprietary marketing software and digital advertising solutions.",
+    "website": "https://ve.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Webolytics": {
+    "name": "Webolytics",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Webolytics is an open API platform designed to track return on advertising spend.",
+    "website": "https://www.webolytics.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Category 71"
+      ]
+    }
+  },
+  "Snowplow": {
+    "name": "Snowplow",
+    "source": "technology_lookup",
+    "confidence": 65,
+    "category": "Security",
+    "description": "Snowplow is an open-source data collection platform.",
+    "website": "https://snowplowanalytics.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "AT Internet Analyzer": {
+    "name": "AT Internet Analyzer",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://atinternet.com/en",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Countly": {
+    "name": "Countly",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "https://count.ly",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GoStats": {
+    "name": "GoStats",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://gostats.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "KISSmetrics": {
+    "name": "KISSmetrics",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.kissmetrics.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Luigi’s Box": {
+    "name": "Luigi’s Box",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.luigisbox.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OneAPM": {
+    "name": "OneAPM",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.oneapm.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OneStat": {
+    "name": "OneStat",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.onestat.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Parse.ly": {
+    "name": "Parse.ly",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "https://www.parse.ly",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Reinvigorate": {
+    "name": "Reinvigorate",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.reinvigorate.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TikTok Pixel": {
+    "name": "TikTok Pixel",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "https://ads.tiktok.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Tealeaf": {
+    "name": "Tealeaf",
+    "source": "technology_lookup",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.tealeaf.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  },
+  "Webtrekk": {
+    "name": "Webtrekk",
+    "source": "technology_lookup",
+    "confidence": 55,
+    "category": "Security",
+    "description": "",
+    "website": "http://www.webtrekk.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Security"
+      ]
+    }
+  }
+}

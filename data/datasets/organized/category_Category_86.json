@@ -1,0 +1,100 @@
+{
+  "Adobe Audience Manager": {
+    "name": "Adobe Audience Manager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 86",
+    "description": "Adobe Audience Manager is a versatile audience data management platform.",
+    "website": "https://business.adobe.com/products/audience-manager/adobe-audience-manager.html",
+    "patterns": {
+      "cookies": [
+        "Demdex: ",
+        "aam_uuid: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 86"
+      ]
+    }
+  },
+  "Oracle BlueKai": {
+    "name": "Oracle BlueKai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 86",
+    "description": "Oracle BlueKai is a cloud-based big data platform that enables companies to personalise online, offline, and mobile marketing campaigns.",
+    "website": "https://www.oracle.com/cx/marketing/data-management-platform",
+    "patterns": {
+      "scriptSrc": [
+        "tags\\.(?:bluekai|bkrtx)\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 86"
+      ]
+    }
+  },
+  "Salesforce Audience Studio": {
+    "name": "Salesforce Audience Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 86",
+    "description": "Salesforce Audience Studio is a customer data marketplace that only other platform users can access.",
+    "website": "https://www.salesforce.com/products/marketing-cloud/data-management",
+    "patterns": {
+      "scriptSrc": [
+        "\\.krxd\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 86",
+        "Category 97"
+      ]
+    }
+  },
+  "Tealium AudienceStream": {
+    "name": "Tealium AudienceStream",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 86",
+    "description": "Tealium AudienceStream is an omnichannel customer segmentation and real-time action engine.",
+    "website": "https://tealium.com/products/audiencestream",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tealiumiq\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 86"
+      ]
+    }
+  },
+  "Viafoura": {
+    "name": "Viafoura",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 86",
+    "description": "Viafoura is an audience engagement and social monetisation platform.",
+    "website": "https://viafoura.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 86"
+      ]
+    }
+  }
+}

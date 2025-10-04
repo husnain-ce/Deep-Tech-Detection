@@ -1,0 +1,182 @@
+{
+  "Appcues": {
+    "name": "Appcues",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "Appcues is a solution for measuring and improving product adoption.",
+    "website": "https://www.appcues.com/",
+    "patterns": {
+      "scriptSrc": [
+        "fast\\.appcues\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "Chameleon": {
+    "name": "Chameleon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "Chameleon is a sophisticated no-code platform for product success, empowering SaaS teams to build self-service user onboarding, feature adoption, and feedback collection.",
+    "website": "https://www.trychameleon.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.trychameleon\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "FintechOS": {
+    "name": "FintechOS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "FintechOS is a low-code platform for banking and insurance.",
+    "website": "https://fintechos.com",
+    "patterns": {
+      "meta": [
+        "ftos-app-version: \\sv([\\d\\.]+)\\s\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "Hansel": {
+    "name": "Hansel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "Hansel is a B2B enterprise software that deploys real-time Nudges to drive feature adoption and address user drop-offs, at scale.",
+    "website": "https://hansel.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hansel\\.io/web/([\\d\\.]+)/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "LOU": {
+    "name": "LOU",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "LOU is a Digital Adoption Platform that streamlines user onboarding and training.",
+    "website": "https://www.louassist.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.louassist\\.com*"
+      ],
+      "scripts": [
+        "cdn\\.louassist\\.com*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Userflow": {
+    "name": "Userflow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "Userflow is a user onboarding software for building product tours and onboarding checklists, tailored to your app and your users.",
+    "website": "https://userflow.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.userflow\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "Whatfix": {
+    "name": "Whatfix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 58",
+    "description": "Whatfix is a SaaS based platform which provides in-app guidance and performance support for web applications and software products.",
+    "website": "https://whatfix.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.whatfix\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  },
+  "Userpilot": {
+    "name": "Userpilot",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 58",
+    "description": "Userpilot is a cloud-based product experience platform designed for customer success and product teams to onboard users and increase product adoption through behavior-triggered experiences.",
+    "website": "https://userpilot.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58",
+        "Category 97"
+      ]
+    }
+  },
+  "WalkMe": {
+    "name": "WalkMe",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 58",
+    "description": "WalkMe is a cloud-based interactive guidance and engagement platform.",
+    "website": "https://www.walkme.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 58"
+      ]
+    }
+  }
+}

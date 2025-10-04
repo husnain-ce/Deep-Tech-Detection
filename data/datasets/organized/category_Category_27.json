@@ -1,0 +1,230 @@
+{
+  "Google Optimize (legacy)": {
+    "name": "Google Optimize (legacy)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://optimize.google.com",
+    "patterns": {
+      "scripts": [
+        "www\\.googleoptimize\\.com/optimize\\.js|optimize\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Adobe Target": {
+    "name": "Adobe Target",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://business.adobe.com/products/target/adobe-target.html",
+    "patterns": {
+      "scripts": [
+        "tt-omtrdc\\.net|mbox\\.js|at\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27",
+        "Category 11"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Convert.com": {
+    "name": "Convert.com",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.convert.com",
+    "patterns": {
+      "scripts": [
+        "cdn-3\\.convertexperiments\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Salesforce Interaction Studio (Evergage)": {
+    "name": "Salesforce Interaction Studio (Evergage)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.salesforce.com/products/marketing-cloud/personalization/",
+    "patterns": {
+      "scripts": [
+        "cdn\\.evergage\\.com/.*\\.js|evergage\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Monetate": {
+    "name": "Monetate",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.monetate.com",
+    "patterns": {
+      "scripts": [
+        "se\\.monetate\\.net/js/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Split.io": {
+    "name": "Split.io",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://split.io",
+    "patterns": {
+      "scripts": [
+        "cdn\\.split\\.io/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27",
+        "Category 16"
+      ]
+    }
+  },
+  "GrowthBook": {
+    "name": "GrowthBook",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.growthbook.io",
+    "patterns": {
+      "scripts": [
+        "unpkg\\.com/@growthbook/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27",
+        "Category 16"
+      ]
+    }
+  },
+  "Webtrends Optimize": {
+    "name": "Webtrends Optimize",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.webtrends-optimize.com",
+    "patterns": {
+      "scripts": [
+        "wt-euw\\.s3\\.amazonaws\\.com/.*\\.js|webtrendsoptimize\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Intellimize": {
+    "name": "Intellimize",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.intellimize.com",
+    "patterns": {
+      "scripts": [
+        "cdn\\.intellimize\\.co/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Taplytics": {
+    "name": "Taplytics",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://taplytics.com",
+    "patterns": {
+      "scripts": [
+        "cdn\\.taplytics\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  },
+  "Apptimize": {
+    "name": "Apptimize",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 27",
+    "description": "",
+    "website": "https://www.apptimize.com",
+    "patterns": {
+      "scripts": [
+        "cdn\\.apptimize\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 27"
+      ]
+    }
+  }
+}

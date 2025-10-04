@@ -1,0 +1,22 @@
+{
+  ".NET": {
+    "name": ".NET",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 4",
+    "description": "",
+    "website": "https://dotnet.microsoft.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)ASP\\.NET|\\.NET"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 4"
+      ]
+    }
+  }
+}

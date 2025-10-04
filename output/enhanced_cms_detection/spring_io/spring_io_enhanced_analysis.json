@@ -1,0 +1,181 @@
+{
+  "url": "https://spring.io",
+  "final_url": "https://spring.io",
+  "analysis_time": 2.2780520915985107,
+  "technologies": [
+    {
+      "name": "React",
+      "confidence": 85,
+      "category": "Blogs",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<[^>]+data-react",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://reactjs.org",
+      "description": "React is an open-source JavaScript library for building user interfaces or UI components.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515440.4874532
+    },
+    {
+      "name": "Gatsby",
+      "confidence": 85,
+      "category": "Category 57",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "__GATSBY|gatsby-script",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<div id=\"___gatsby\">",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.gatsbyjs.org/",
+      "description": "Gatsby is a React-based open-source framework with performance, scalability and security built-in.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515440.5072722
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515440.6980107
+    },
+    {
+      "name": "OneTrust",
+      "confidence": 85,
+      "category": "Category 67",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "cdn\\.cookielaw\\.org",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "cdn\\.cookielaw\\.org",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "cdn\\.cookielaw\\.org",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "cdn\\.cookielaw\\.org",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "otSDKStub\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+          "match": "otSDKStub\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.onetrust.com",
+      "description": "OneTrust is a cloud-based data privacy management compliance platform.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515441.4524896
+    },
+    {
+      "name": "Cloudflare Browser Insights",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://static.cloudflareinsights.com/beacon.min.js",
+          "match": "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.cloudflareinsights.com/beacon.min.js",
+          "match": "static\\.cloudflareinsights\\.com/beacon(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.cloudflare.com",
+      "description": "Cloudflare Browser Insights is a tool tool that measures the performance of websites from the perspective of users.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515442.1194513
+    }
+  ],
+  "metadata": {
+    "title": "Spring | Home",
+    "description": "Level up your Java code and explore what Spring can do for you.",
+    "content_length": 375271,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 5,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 5,
+    "confidence_distribution": {
+      "high (80-100)": 5,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 2.28,
+      "technologies_per_second": 2.19
+    }
+  },
+  "errors": []
+}

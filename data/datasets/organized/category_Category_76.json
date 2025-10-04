@@ -1,0 +1,1392 @@
+{
+  "4-Tell": {
+    "name": "4-Tell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "4-Tell is an ecommerce software company for retailers with AI-powered personalisation and recommendations products.",
+    "website": "https://4-tell.com",
+    "patterns": {
+      "cookies": [
+        "4Tell: ",
+        "4TellCart: ",
+        "4TellSession: "
+      ],
+      "scriptSrc": [
+        "4tellcdn\\.azureedge\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Apptus": {
+    "name": "Apptus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Apptus is an AI-powered ecommerce optimisation software provider.",
+    "website": "https://www.apptus.com",
+    "patterns": {
+      "cookies": [
+        "apptus.customerKey: ",
+        "apptus.sessionKey: "
+      ],
+      "scriptSrc": [
+        "cdn\\.esales\\.apptus\\.com.+(?:apptus-esales-api-([\\d.]+))\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Attentive": {
+    "name": "Attentive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Attentive is a personalised mobile messaging platform that helps retail & ecommerce brands acquire, retain, and interact with mobile shoppers.",
+    "website": "https://www.attentivemobile.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.attn\\.tv"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Barilliance": {
+    "name": "Barilliance",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Barilliance is an ecommerce personalisation tools including cart abandonment emails, personalised product recommendations, onsite personalisation, and live notifications.",
+    "website": "https://www.barilliance.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.barilliance\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 98"
+      ]
+    }
+  },
+  "Beyable": {
+    "name": "Beyable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Beyable is a suite of tools that analyze website traffic to understand visitors' behaviors in real-time, through multi-channel in order to optimise conversion rate.",
+    "website": "https://beyable.com",
+    "patterns": {
+      "cookies": [
+        "beyable-cart: ",
+        "beyable-cartd: "
+      ],
+      "scriptSrc": [
+        "msecnd\\.net/api/beYableJSv(\\d+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Blueknow": {
+    "name": "Blueknow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Blueknow is a ecommerce personalisation software designed to serve enterprises, SMEs.",
+    "website": "https://www.blueknow.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.blueknow\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Bold Commerce": {
+    "name": "Bold Commerce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Bold Commerce is a software company that specialises in ecommerce websites and app development.",
+    "website": "https://boldcommerce.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.boldapps\\.net/",
+        "\\.boldcommerce\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "BrainSINS": {
+    "name": "BrainSINS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "BrainSINS is a personalisation technology and ecommerce analytics services to online retailers.",
+    "website": "http://brainsins.com",
+    "patterns": {
+      "scriptSrc": [
+        "mw\\.brainsins\\.com",
+        "cloudfront\\.net/brainsins(?:_v)?(\\d+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Clerk.io": {
+    "name": "Clerk.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Clerk.io is an all-in-one ecommerce personalisation platform.",
+    "website": "https://clerk.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.clerk\\.io/"
+      ],
+      "scripts": [
+        "\\.clerk\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clinch": {
+    "name": "Clinch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Clinch delivers hyper-personalized creative experiences and consumer intelligence across all channels.",
+    "website": "https://clinch.co/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.clinch\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Connectif": {
+    "name": "Connectif",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Connectif is a marketing automation and personalisation data-first action platform, powered by AI.",
+    "website": "https://connectif.ai",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.connectif\\.cloud/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Cross Sell": {
+    "name": "Cross Sell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Cross Sell provide recommendations solution for Shopify based sites.",
+    "website": "https://csell.io/",
+    "patterns": {
+      "scriptSrc": [
+        "load\\.csell\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Customily": {
+    "name": "Customily",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Customily is an online product personalisation software.",
+    "website": "https://www.customily.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn|app)\\.customily\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Cxense": {
+    "name": "Cxense",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Cxense was an AI-powered data management and intelligent personalisation platform.",
+    "website": "https://www.cxense.com",
+    "patterns": {
+      "meta": [
+        "cXenseParse:itm-meta-keywords: ",
+        "cXenseParse:pageclass: ",
+        "cXenseParse:publishtime: ",
+        "cXenseParse:url: "
+      ],
+      "scriptSrc": [
+        "\\.cxense\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 86"
+      ]
+    }
+  },
+  "Drapr": {
+    "name": "Drapr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Drapr is an ecommerce startup and online application based on technology that enables customers to quickly create 3D avatars and virtually try on clothing.",
+    "website": "https://www.drapr.com",
+    "patterns": {
+      "scriptSrc": [
+        "draprpubsubtest\\.firebaseapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Fanplayr": {
+    "name": "Fanplayr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Fanplayr is a real-time insights platform that provides website optimisation and personalisation solutions for businesses.",
+    "website": "https://fanplayr.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.fanplayr\\.com/.+/([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Fit Analytics": {
+    "name": "Fit Analytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Fit Analytics is a platform that provides clothing size recommendations for online customers by measuring individual dimensions via webcams.",
+    "website": "https://www.fitanalytics.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.fitanalytics\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "iGoDigital": {
+    "name": "iGoDigital",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "iGoDigital provides web-based commerce tools, personalisation, and product recommendations designed to increase customer interaction.",
+    "website": "http://www.igodigital.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.igodigital\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Jivox": {
+    "name": "Jivox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Jivox is a cloud-based, data-driven platform for delivering personalised digital advertising and marketing experiences at scale.",
+    "website": "https://jivox.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.jivox\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Justuno": {
+    "name": "Justuno",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Justuno is a visitor conversion optimisation platform.",
+    "website": "https://www.justuno.com",
+    "patterns": {
+      "scriptSrc": [
+        "my\\.jst\\.ai",
+        "cdn\\.justuno\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 98"
+      ]
+    }
+  },
+  "Kibo Personalization": {
+    "name": "Kibo Personalization",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Kibo Personalization is a omnichannel personalisation software powered by machine learning to deliver individualized customer experiences and powered by Monetate and Certona.",
+    "website": "https://kibocommerce.com/personalization-software",
+    "patterns": {
+      "scriptSrc": [
+        "\\.monetate\\.net",
+        "\\.baynote\\.net",
+        "\\.certona\\.net"
+      ],
+      "scripts": [
+        "\\.monetate\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kiwi Sizing": {
+    "name": "Kiwi Sizing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Kiwi Sizing is a size chart and a recommender plugin on the Shopify platform.",
+    "website": "https://www.kiwisizing.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.static\\.kiwisizing\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "LimeSpot": {
+    "name": "LimeSpot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "LimeSpot is an AI-powered personalisation platform for marketers and ecommerce professionals.",
+    "website": "https://www.limespot.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.personalizer\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Nosto": {
+    "name": "Nosto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Nosto is an ecommerce platform providing product recommendations based on individual behavioral data.",
+    "website": "https://www.nosto.com",
+    "patterns": {
+      "meta": [
+        "nosto-version: ([\\d.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "connect\\.nosto\\.\\w+/"
+      ],
+      "scripts": [
+        "connect\\.nosto\\.\\w+/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Nuqlium": {
+    "name": "Nuqlium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Nuqlium is an integrated cloud-based online merchandising platform.",
+    "website": "https://www.nuqlium.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.nuqlium\\.com/api"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Web Servers"
+      ]
+    }
+  },
+  "PersonaClick": {
+    "name": "PersonaClick",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "PersonaClick is a provide personalisation, recommandation and multi channel services.",
+    "website": "https://www.personaclick.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.personaclick\\.com/v([\\d.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Personizely": {
+    "name": "Personizely",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Personizely is a conversion marketing toolkit which helps websites and ecommerce stores better engage with visitors using website widgets and personalisation.",
+    "website": "https://www.personizely.net",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.personizely\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Perzonalization": {
+    "name": "Perzonalization",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Perzonalization is a AI powered personalization engine for eCommerce",
+    "website": "https://www.perzonalization.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.perzonalization\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Piano": {
+    "name": "Piano",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Piano is a enterprise SaaS company which specializing in advanced media business processes and ecommerce optimisation.",
+    "website": "https://piano.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tinypass\\.com",
+        "\\.piano\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Poloriz": {
+    "name": "Poloriz",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Poloriz's technology automatically creates a personalised, full-screen, mobile-first, cross-selling user experience for shoppers.",
+    "website": "https://www.poloriz.com",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.poloriz\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Potions": {
+    "name": "Potions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Potions is a personalisation technology for customising the ecommerce experience for site visitors without the use of cookies.",
+    "website": "https://get-potions.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.get-potions\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Prediggo": {
+    "name": "Prediggo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Prediggo is an ecommerce personalisation and marketing automation software provider.",
+    "website": "https://prediggo.com",
+    "patterns": {
+      "scriptSrc": [
+        "js/prediggo/(?:[\\w]+)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Printful": {
+    "name": "Printful",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Printful offers print-on-demand drop shipping solution for ecommerce sites.",
+    "website": "https://www.printful.com/",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.cdn\\.printful\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Qstomizer": {
+    "name": "Qstomizer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Qstomizer app is the app for Shopify and Woocomerce that allows you to add a visual custom product designer to your shop.",
+    "website": "https://www.qstomizer.com",
+    "patterns": {
+      "scriptSrc": [
+        "/qsmz-scripttag/qstomizer_st(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Raptor": {
+    "name": "Raptor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Raptor is a personalisation engine based on machine learning that analyses and learns about the user's behavior and unique browser history.",
+    "website": "https://raptorsmartadvisor.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.raptorsmartadvisor\\.com",
+        "msecnd\\.net/script/raptor-([\\d.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Rebuy": {
+    "name": "Rebuy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Rebuy offers personlisation solutions for ecommerce sites.",
+    "website": "https://rebuyengine.com/",
+    "patterns": {
+      "scriptSrc": [
+        "rebuyengine\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 100"
+      ]
+    }
+  },
+  "RecoverMyCart": {
+    "name": "RecoverMyCart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "RecoverMyCart is a Shopify app for abandoned basket recovery.",
+    "website": "https://app.recovermycart.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.recovermycart\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 100"
+      ]
+    }
+  },
+  "Reelevant": {
+    "name": "Reelevant",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Reelevant is a visual content platform that helps businesses to create on-demand content for their viewers in order to increase conversion rates.",
+    "website": "https://try.reelevant.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.reelevant\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Reflektion": {
+    "name": "Reflektion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Reflektion is a customer centric personalisation platform that optimizes customer experiences on an individual basis in real time.",
+    "website": "https://reflektion.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cloudfront\\.net/js/reflektion\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Retail Rocket": {
+    "name": "Retail Rocket",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Retail Rocket is a big data-based personalisation platform for ecommerce websites.",
+    "website": "https://retailrocket.net",
+    "patterns": {
+      "cookies": [
+        "rr-testCookie: testvalue",
+        "rrpvid: ^\\d+$"
+      ],
+      "scriptSrc": [
+        "cdn\\.retailrocket\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "RevLifter": {
+    "name": "RevLifter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "RevLifter is an AI-powered coupon technology which allows brands to offer personalised incentives to their customers based on real-time basket data.",
+    "website": "https://www.revlifter.com",
+    "patterns": {
+      "cookies": [
+        "REVLIFTER: "
+      ],
+      "scriptSrc": [
+        "assets\\.revlifter\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "RichRelevance": {
+    "name": "RichRelevance",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "RichRelevance is a cloud-based omnichannel personalisation platform built to help Retailers, B2B, financial services, travel and hospitality, and branded manufacturers personalise their customer experiences.",
+    "website": "https://richrelevance.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.richrelevance\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Rokt": {
+    "name": "Rokt",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Rokt is an ecommerce marketing technology that gives customers a personalised and relevant experience while buying online.",
+    "website": "https://www.rokt.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.rokt\\.com"
+      ],
+      "scriptSrc": [
+        "\\.rokt\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "SalesFire": {
+    "name": "SalesFire",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "SalesFire is a SaaS company specialising in conversion rate optimisation, intelligent personalisation and on-site search solutions.",
+    "website": "https://www.salesfire.co.uk",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.salesfire\\.co\\.uk/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Web Servers"
+      ]
+    }
+  },
+  "Salesforce Interaction Studio": {
+    "name": "Salesforce Interaction Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Salesforce Interaction Studio (formerly Evergage) is a cloud-based software that allows users to collect, analyze, and respond to user behavior on their websites and web applications in real-time.",
+    "website": "https://www.salesforce.com/products/marketing-cloud/customer-interaction",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.evgnet\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 86"
+      ]
+    }
+  },
+  "Syte": {
+    "name": "Syte",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Syte is a provider of visual AI technology that aims to improve retailers' site navigation, product discovery, and user experience by powering solutions that engage and convert shoppers.",
+    "website": "https://www.syte.ai",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.syteapi\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Web Servers"
+      ]
+    }
+  },
+  "Target2Sell": {
+    "name": "Target2Sell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Target2Sell is a personalisation solution for ecommerce sites.",
+    "website": "https://www.target2sell.com/",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.target2sell\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "True Fit": {
+    "name": "True Fit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "True Fit is a data-driven personalisation platform for footwear and apparel retailers.",
+    "website": "https://www.truefit.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.truefitcorp\\.com/(?:.+/([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Twik": {
+    "name": "Twik",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Twik provides a automated, no-configuration business intelligence & personalization automation engine.",
+    "website": "https://www.twik.io/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.twik\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Unbxd": {
+    "name": "Unbxd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Unbxd is an ecommerce product discovery platform that applies artificial intelligence and advanced data sciences to connect shoppers to the products they are most likely to buy.",
+    "website": "https://unbxd.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cloudfront\\.net/unbxdAnalytics\\.js",
+        "unbxd\\.s\\d\\.amazonaws\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Web Servers"
+      ]
+    }
+  },
+  "Usizy": {
+    "name": "Usizy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Usizy is the top size recommendation and prediction solution for ecommerce using machine learning, big data, and isomoprhic algorythms.",
+    "website": "https://usizy.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.usizy\\.es/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Virtusize": {
+    "name": "Virtusize",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Virtusize is a personalisation service that provides size and product recommendations specific to a user's size and trend preferences.",
+    "website": "https://www.virtusize.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.virtusize\\.jp/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Vue.ai": {
+    "name": "Vue.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Vue.ai is an AI-powered experience management suite which combines the power of product, customer and business intelligence using computer vision and NLP.",
+    "website": "https://vue.ai",
+    "patterns": {
+      "scriptSrc": [
+        "vuex\\.vue\\.ai",
+        "vue_ai\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Wair": {
+    "name": "Wair",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Wair is the widget to personalised fit.",
+    "website": "https://getwair.com",
+    "patterns": {
+      "scriptSrc": [
+        "getwair\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Advertising"
+      ]
+    }
+  },
+  "XGen Ai": {
+    "name": "XGen Ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "XGen Ai is a cloud-based customer journey mapping tool that helps businesses manage product recommendations via artificial intelligence (AI).",
+    "website": "https://xgen.ai",
+    "patterns": {
+      "scriptSrc": [
+        "//assets\\.xgen\\.dev/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Yieldify": {
+    "name": "Yieldify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 76",
+    "description": "Yieldify is a customer journey optimisation platform that brings personalisation to the full customer journey.",
+    "website": "https://www.yieldify.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.yieldify\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Breinify": {
+    "name": "Breinify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Breinify is a powerful personalisation engine that enables brands to create personalised digital experiences at an individual level across web, e-mail, SMS and app channels.",
+    "website": "https://home.breinify.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Depict": {
+    "name": "Depict",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Depict is an ecommerce personalisation solution for fashion.",
+    "website": "https://depict.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Findmeashoe": {
+    "name": "Findmeashoe",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Findmeashoe is a footwear recommendation portal that aims to improve shopping efficiency and experience of footwear shoppers.",
+    "website": "https://findmeashoe.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "HulkApps Infinite Product Options": {
+    "name": "HulkApps Infinite Product Options",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "HulkApps Infinite Product Options is a unlimited custom options for products. Display variant options as buttons, color and image swatches, and more.",
+    "website": "https://www.hulkapps.com/products/infinite-product-options-shopify",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76",
+        "Category 100"
+      ]
+    }
+  },
+  "Movable Ink": {
+    "name": "Movable Ink",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Movable Ink is a technology company that allows marketers to change emails after they have been sent out.",
+    "website": "https://movableink.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Relewise": {
+    "name": "Relewise",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Relewise is a platform that uses personalisation technology to provide customised online experiences through personalised search and recommendations.",
+    "website": "https://relewise.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Revieve": {
+    "name": "Revieve",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Revieve is a technology company delivering consumer-centric personalised digital brand experiences powered by AI/AR.",
+    "website": "https://www.revieve.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Shoefitr.io": {
+    "name": "Shoefitr.io",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Shoefitr.io is data-based shoe size advice service where we measure the length, width, ball, and instep.",
+    "website": "https://www.shoefitr.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Sizebay": {
+    "name": "Sizebay",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Sizebay is a virtual fitting room that helps ecommerce and even brick-and-mortar stores provide their shoppers with a personalised shopping.",
+    "website": "https://sizebay.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "StrutFit": {
+    "name": "StrutFit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "StrutFit is an online sizing platform for footwear retailers.",
+    "website": "https://www.strut.fit",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Triggerbee": {
+    "name": "Triggerbee",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Triggerbee is an onsite personalisation platform that lets you use customer and behavioral data to build and launch personalised campaigns.",
+    "website": "https://triggerbee.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  },
+  "Zakeke": {
+    "name": "Zakeke",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 76",
+    "description": "Zakeke is a product customisation tool compatible with services and apps mostly used to manage ecommerce store.",
+    "website": "https://www.zakeke.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 76"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Redis": {
+    "name": "Redis",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 21",
+    "description": "",
+    "website": "https://redis.io",
+    "patterns": {
+      "headers": [
+        "X-Cache-Status: HIT|MISS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 21",
+        "Category 15"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

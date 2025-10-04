@@ -1,0 +1,688 @@
+{
+  "Anthology Encompass": {
+    "name": "Anthology Encompass",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Anthology Encompass is a constituent engagement management provider or educational institutions that provides modules to help you manage events, websites and content, data, and more.",
+    "website": "https://www.anthology.com/products/lifecycle-engagement/alumni-and-advancement/anthology-encompass",
+    "patterns": {
+      "url": [
+        "https.+\\.imodules\\.com/s/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Astute Solutions": {
+    "name": "Astute Solutions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Astute Solutions is a customer engagement software.",
+    "website": "https://astutesolutions.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.iperceptions\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "amoCRM": {
+    "name": "amoCRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "amoCRM is a web-based customer relationship management software solution.",
+    "website": "https://www.amocrm.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.amocrm\\.(?:ru|com)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Bigin": {
+    "name": "Bigin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Bigin is a cloud-based customer relationship management (CRM) software.",
+    "website": "https://en.bigin.io",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.bigin\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Bitrix24": {
+    "name": "Bitrix24",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Bitrix24 is a set of tools for the organization and management of business processes.",
+    "website": "https://www.bitrix24.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.bitrix24\\.com",
+        "\\.bitrix24\\..+/bitrix/js/crm/form_loader\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "DX1": {
+    "name": "DX1",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "DX1 is an entirely cloud-based dealership management system for the motorcycle and powersports industry. Offering DMS, website, CRM and marketing tools.",
+    "website": "https://www.dx1app.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.dx1app\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Dito": {
+    "name": "Dito",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Dito is a tool that centralizes and manages the relationship between brands and their customers.",
+    "website": "https://www.dito.com.br",
+    "patterns": {
+      "scriptSrc": [
+        "storage\\.googleapis\\.com/dito/sdk\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "eShopCRM": {
+    "name": "eShopCRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "eShopCRM is an ecommerce CRM for Shopify.",
+    "website": "https://eshopcrm.com",
+    "patterns": {
+      "scriptSrc": [
+        "eshopcrm\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Freshworks CRM": {
+    "name": "Freshworks CRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Freshworks CRM is a cloud-based customer relationship management (CRM) solution. Key features include one-click phone, sales lead tracking, sales management, event tracking and more.",
+    "website": "https://www.freshworks.com/crm",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.freshmarketer\\.com",
+        "cdn\\.zarget\\.com"
+      ],
+      "scripts": [
+        "cdn\\.freshmarketer\\.com",
+        "cdn\\.zarget\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53",
+        "DevOps/CI",
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "HappyFox Helpdesk": {
+    "name": "HappyFox Helpdesk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "HappyFox is a help desk ticketing system that is hosted on cloud, supporting multiple customer support channels like email, voice and live chat.",
+    "website": "https://www.happyfox.com/customer-service-software/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.happyfox\\.com/media/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Hi Platform": {
+    "name": "Hi Platform",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Hi Platform provider of an online customer relationship platform.",
+    "website": "https://www.hiplatform.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hiplatform\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Insightly CRM": {
+    "name": "Insightly CRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Insightly CRM is a cloud-based customer relationship management software, helps businesses manage leads, contacts, and opportunities, track customer interactions, create custom reports, automate workflows, and integrate with third-party applications, improving customer engagement and streamlining business processes.",
+    "website": "https://www.insightly.com/crm/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.insightly\\.services/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Keap": {
+    "name": "Keap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Keap offers an email marketing and sales platform for small businesses, including products to manage customers, customer relationship management, marketing, and ecommerce.",
+    "website": "https://keap.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.infusionsoft\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "OperateBeyond": {
+    "name": "OperateBeyond",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "OperateBeyond is a software development company that offers website design, automated inventory management, CRM, dealer websites, and DMS.",
+    "website": "https://operatebeyond.com/dealer-websites-marketing",
+    "patterns": {
+      "scriptSrc": [
+        "//dealer-cdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Perfex CRM": {
+    "name": "Perfex CRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Perfex CRM is self hosted customer relationship management software that is a great fit for almost any company, freelancer or many other uses.",
+    "website": "https://www.perfexcrm.com",
+    "patterns": {
+      "scriptSrc": [
+        "/assets/themes/perfex/js/global\\.min\\.js(?:\\?v=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Richpanel": {
+    "name": "Richpanel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Richpanel is a purpose-built CRM and customer support platform for ecommerce and DTC brands.",
+    "website": "https://www.richpanel.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.richpanel\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Salesforce": {
+    "name": "Salesforce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Salesforce is a cloud computing service software (SaaS) that specializes in customer relationship management (CRM).",
+    "website": "https://www.salesforce.com",
+    "patterns": {
+      "cookies": [
+        "com.salesforce: "
+      ],
+      "html": [
+        "<[^>]+=\"brandQuaternaryFgrs\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Salesforce Desk": {
+    "name": "Salesforce Desk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Salesforce Desk(Desk.com) is software as a service (SaaS) tool on the help desk.",
+    "website": "https://www.salesforce.com/solutions/small-business-solutions/help-desk-software/",
+    "patterns": {
+      "scriptSrc": [
+        "^/s/sfsites/auraFW/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Sellsy": {
+    "name": "Sellsy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Sellsy is a cloud-based sales management solution for small to midsize businesses",
+    "website": "https://go.sellsy.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sellsy\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Slate": {
+    "name": "Slate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "Slate is a CRM system designed specifically for higher education institutions, which helps them to manage student interactions, track admissions, and analyze student data in a flexible and user-friendly way.",
+    "website": "https://technolutions.com",
+    "patterns": {
+      "scriptSrc": [
+        "slate-technolutions-net\\.cdn\\.technolutions\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "vcita": {
+    "name": "vcita",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "vcita is an all-in-one customer service and business management software designed for service providers.",
+    "website": "https://www.vcita.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.vcita\\.com/widgets/",
+        "widgets\\.vcdnita\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53",
+        "Category 72"
+      ]
+    }
+  },
+  "WoowUp": {
+    "name": "WoowUp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 53",
+    "description": "WoowUp is a tool of CRM and predictive marketing.",
+    "website": "https://www.woowup.com",
+    "patterns": {
+      "scriptSrc": [
+        "assets-cdn\\.woowup\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Pico": {
+    "name": "Pico",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 53",
+    "description": "",
+    "website": "https://trypico.com",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.pico\\.tools"
+      ],
+      "scripts": [
+        "widget\\.pico\\.tools"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SAP": {
+    "name": "SAP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 53",
+    "description": "",
+    "website": "http://sap.com",
+    "patterns": {
+      "headers": [
+        "Server: SAP NetWeaver Application Server"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tessitura": {
+    "name": "Tessitura",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 53",
+    "description": "",
+    "website": "https://www.tessituranetwork.com",
+    "patterns": {
+      "html": [
+        "<!--[^>]+Tessitura Version: (\\d*\\.\\d*\\.\\d*)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CRM+": {
+    "name": "CRM+",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "CRM+ is a German CRM software product building on Vtiger with GDPR-compliant extensions and improvements.",
+    "website": "https://www.brainformatik.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "CiviCRM": {
+    "name": "CiviCRM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "CiviCRM is a web-based suite of internationalised open-source software for constituency relationship management.",
+    "website": "https://civicrm.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Ellucian CRM Recruit": {
+    "name": "Ellucian CRM Recruit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Ellucian CRM Recruit is a comprehensive solution that supports your entire recruiting and admissions lifecycle.",
+    "website": "https://www.ellucian.com/solutions/ellucian-crm-recruit",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53",
+        "Category 101"
+      ]
+    }
+  },
+  "MDS Brand": {
+    "name": "MDS Brand",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "MDS Brand is a provider of website, CRM, vrtual BDC, SEO, PPC, and live chat solutions for Marine, RV, Powersports, and automotive industries.",
+    "website": "https://mdsbrand.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Neon CRM": {
+    "name": "Neon CRM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Neon CRM, a Neon One company, is a cloud-based customer relationship management (CRM) software suite for nonprofits of all sizes. Applications include fundraising management, donor management, membership management, event registration and management, customised reporting, and more.",
+    "website": "https://neonone.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53",
+        "Category 111"
+      ]
+    }
+  },
+  "Q4": {
+    "name": "Q4",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Q4 is a SaaS platform that provides communication and intelligence solutions to investor relations professionals.",
+    "website": "https://www.q4inc.com/products/investor-relations-websites/default.aspx",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Virtuagym": {
+    "name": "Virtuagym",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Virtuagym is a cloud-based membership management and coaching platform designed for personal trainers and fitness businesses of all sizes.",
+    "website": "https://business.virtuagym.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Vtiger": {
+    "name": "Vtiger",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Vtiger is a cloud-based suite of marketing, sales and help desk offerings, which can be deployed separately or as an integrated, all-in-one ecosystem.",
+    "website": "https://www.vtiger.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ]
+    }
+  },
+  "Zoho": {
+    "name": "Zoho",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 53",
+    "description": "Zoho is a web-based online office suite.",
+    "website": "https://www.zoho.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

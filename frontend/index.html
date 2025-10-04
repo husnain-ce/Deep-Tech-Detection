@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Detection Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-search-plus"></i>
+                    <h1>Tech Detection Dashboard</h1>
+                </div>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalTechnologies">0</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalCategories">0</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="analysisTime">0s</span>
+                        <span class="stat-label">Analysis Time</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-globe"></i>
+                    <input type="text" id="domainInput" placeholder="Enter domain (e.g., example.com)" autocomplete="off">
+                    <button id="analyzeBtn" class="analyze-btn">
+                        <i class="fas fa-search"></i>
+                        Analyze
+                    </button>
+                </div>
+                <div class="search-suggestions" id="searchSuggestions">
+                    <div class="suggestion-item" data-domain="dskbank.bg">dskbank.bg</div>
+                    <div class="suggestion-item" data-domain="santamonica.gov">santamonica.gov</div>
+                    <div class="suggestion-item" data-domain="wordpress.com">wordpress.com</div>
+                    <div class="suggestion-item" data-domain="joomla.org">joomla.org</div>
+                    <div class="suggestion-item" data-domain="drupal.org">drupal.org</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <div class="loading-state" id="loadingState">
+            <div class="loading-spinner"></div>
+            <p>Analyzing domain...</p>
+            <div class="loading-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection">
+            <!-- Domain Info -->
+            <div class="domain-info" id="domainInfo">
+                <div class="domain-header">
+                    <h2 id="domainName">example.com</h2>
+                    <div class="domain-status">
+                        <span class="status-badge" id="domainStatus">Analyzing</span>
+                    </div>
+                </div>
+                <div class="domain-details">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Analysis Time: <strong id="analysisTimeDetail">0s</strong></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-link"></i>
+                        <span>Final URL: <strong id="finalUrl">-</strong></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>Errors: <strong id="errorCount">0</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Overview -->
+            <div class="overview-section">
+                <h3>Technology Overview</h3>
+                <div class="overview-grid">
+                    <div class="overview-card">
+                        <div class="card-icon cms">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-number" id="cmsCount">0</span>
+                            <span class="card-label">CMS</span>
+                        </div>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon framework">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-number" id="frameworkCount">0</span>
+                            <span class="card-label">Frameworks</span>
+                        </div>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon security">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-number" id="securityCount">0</span>
+                            <span class="card-label">Security</span>
+                        </div>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon analytics">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-content">
+                            <span class="card-number" id="analyticsCount">0</span>
+                            <span class="card-label">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology List -->
+            <div class="technologies-section">
+                <div class="section-header">
+                    <h3>Detected Technologies</h3>
+                    <div class="filter-controls">
+                        <select id="categoryFilter">
+                            <option value="">All Categories</option>
+                        </select>
+                        <select id="confidenceFilter">
+                            <option value="">All Confidence</option>
+                            <option value="90-100">High (90-100%)</option>
+                            <option value="70-89">Medium (70-89%)</option>
+                            <option value="50-69">Low (50-69%)</option>
+                        </select>
+                        <input type="text" id="searchTech" placeholder="Search technologies...">
+                    </div>
+                </div>
+                <div class="technologies-grid" id="technologiesGrid">
+                    <!-- Technologies will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="charts-section">
+                <div class="chart-container">
+                    <h3>Technology Distribution</h3>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h3>Confidence Distribution</h3>
+                    <div style="position: relative; height: 300px;">
+                        <canvas id="confidenceChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detection Engines -->
+            <div class="engines-section">
+                <h3>Detection Engines</h3>
+                <div class="engines-grid" id="enginesGrid">
+                    <!-- Engine status will be dynamically inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div class="error-state" id="errorState">
+            <div class="error-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h3>Analysis Failed</h3>
+            <p id="errorMessage">Something went wrong during the analysis.</p>
+            <button class="retry-btn" onclick="retryAnalysis()">Try Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

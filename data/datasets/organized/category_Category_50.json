@@ -1,0 +1,84 @@
+{
+  "Invenio": {
+    "name": "Invenio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 50",
+    "description": "Invenio is an open-source software framework for large-scale digital repositories that provides the tools for management of digital assets in an institutional repository and research data management systems.",
+    "website": "http://invenio-software.org",
+    "patterns": {
+      "cookies": [
+        "INVENIOSESSION: "
+      ],
+      "html": [
+        "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 50"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Koha": {
+    "name": "Koha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 50",
+    "description": "Koha is an open-source Integrated Library System (ILS).",
+    "website": "https://koha-community.org/",
+    "patterns": {
+      "html": [
+        "<a href=\"/cgi-bin/koha/",
+        "<input name=\"koha_login_context\" value=\"intranet\" type=\"hidden\">"
+      ],
+      "meta": [
+        "generator: ^Koha ([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 50"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Open Journal Systems": {
+    "name": "Open Journal Systems",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 50",
+    "description": "Open Journal Systems (OJS) is an open-source software application for managing and publishing scholarly journals.",
+    "website": "http://pkp.sfu.ca/ojs",
+    "patterns": {
+      "cookies": [
+        "OJSSID: "
+      ],
+      "meta": [
+        "generator: Open Journal Systems(?: ([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 50"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

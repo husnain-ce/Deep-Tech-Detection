@@ -1,0 +1,42 @@
+{
+  "Tealium iQ": {
+    "name": "Tealium iQ",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 19",
+    "description": "",
+    "website": "https://tealium.com",
+    "patterns": {
+      "scripts": [
+        "tags\\.tiqcdn\\.com/utag/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 19"
+      ]
+    }
+  },
+  "Adobe Launch": {
+    "name": "Adobe Launch",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 19",
+    "description": "",
+    "website": "https://business.adobe.com/products/experience-platform/tags.html",
+    "patterns": {
+      "scripts": [
+        "assets\\.adobedtm\\.com/launch-.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 19"
+      ]
+    }
+  }
+}

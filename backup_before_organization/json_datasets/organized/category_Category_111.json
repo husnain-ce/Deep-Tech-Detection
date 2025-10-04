@@ -1,0 +1,515 @@
+{
+  "AlumnIQ": {
+    "name": "AlumnIQ",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "AlumnIQ is a set of services to manage events, giving, email, volunteers, class agents, and more, all designed to work with your database of record.",
+    "website": "https://www.alumniq.com/platform/",
+    "patterns": {
+      "cookies": [
+        "alumniq-online-giving: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Arreva": {
+    "name": "Arreva",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Arreva is a fundraising software that provides the ability to mobilise constituents using the donor tracking system.",
+    "website": "https://www.arreva.com",
+    "patterns": {
+      "scriptSrc": [
+        "/Arreva-OnlineDonations-Portlet/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Blackbaud CRM": {
+    "name": "Blackbaud CRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Blackbaud CRM gathers fundraising, online applications, actionable prospect research and analytics, and multichannel direct marketing into one platform.",
+    "website": "https://www.blackbaud.com",
+    "patterns": {
+      "url": [
+        "/site/Donation2?.*df_id="
+      ],
+      "scriptSrc": [
+        "js/convio/modules\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Classy": {
+    "name": "Classy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Classy is an online fundraising platform.",
+    "website": "https://www.classy.org/",
+    "patterns": {
+      "scripts": [
+        "classy\\.org"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Click & Pledge": {
+    "name": "Click & Pledge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Click & Pledge is an all-in-one digital fundraising platform.",
+    "website": "https://clickandpledge.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.clickandpledge\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Community Funded": {
+    "name": "Community Funded",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Community Funded is a digital fundraising and engagement platform.",
+    "website": "https://www.communityfunded.com",
+    "patterns": {
+      "scriptSrc": [
+        "//give\\.communityfunded\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "DonorPerfect": {
+    "name": "DonorPerfect",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "DonorPerfect is a fundraising management software.",
+    "website": "https://www.donorperfect.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.donorperfect\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "EveryAction": {
+    "name": "EveryAction",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "EveryAction provides fundraising software, donor management software, and CRM software to nonprofit organisations.",
+    "website": "https://www.everyaction.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.everyaction\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Fundraise Up": {
+    "name": "Fundraise Up",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Fundraise Up is a platform for online donations.",
+    "website": "https://fundraiseup.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.fundraiseup\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "GiveCampus": {
+    "name": "GiveCampus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "GiveCampus is a fundraising platform for nonprofit educational institutions.",
+    "website": "https://go.givecampus.com",
+    "patterns": {
+      "meta": [
+        "author: ^GiveCampus$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "GiveSmart": {
+    "name": "GiveSmart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "GiveSmart is an event fund gathering technology that offers customisable event size, mobile bidding, text-to-donate, enhanced dashboard and reporting, seating arrangement, and more.",
+    "website": "https://www.givesmart.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.givesmart\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "GiveWP": {
+    "name": "GiveWP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "GiveWP is a donation plugin for WordPress.",
+    "website": "https://givewp.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/plugins/give/.+give\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111",
+        "Category 87"
+      ]
+    }
+  },
+  "GivingFuel": {
+    "name": "GivingFuel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "GivingFuel is a fundraising software solution.",
+    "website": "https://www.givingfuel.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.givingfuel\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Network for Good": {
+    "name": "Network for Good",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Network for Good is an American certified B Corporation software company that offers fundraising software and coaching for charities and non-profit organisations.",
+    "website": "https://www.networkforgood.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.networkforgood\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "OneCause": {
+    "name": "OneCause",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "OneCause is a fundraising platform designed for nonprofits to manage all types of fundraising campaigns.",
+    "website": "https://www.onecause.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.onecause\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Pushpay": {
+    "name": "Pushpay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Pushpay is a digital giving and engagement platform designed to help churches manage processes related to donations and fundraising.",
+    "website": "https://pushpay.com",
+    "patterns": {
+      "scriptSrc": [
+        "//pushpay\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Qgiv": {
+    "name": "Qgiv",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Qgiv is an online fundraising platform helping nonprofit, faith-based, healthcare, and education organisations raise funds.",
+    "website": "https://www.qgiv.com",
+    "patterns": {
+      "scriptSrc": [
+        "//secure\\.qgiv\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "RaiseDonors": {
+    "name": "RaiseDonors",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "RaiseDonors is for anyone raising money and cultivating donor relationships online.",
+    "website": "https://explore.raisedonors.com",
+    "patterns": {
+      "meta": [
+        "author: ^RaiseDonors$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Revv": {
+    "name": "Revv",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Revv is a lead optimisation and donation platform.",
+    "website": "https://revv.com",
+    "patterns": {
+      "meta": [
+        "revv-api-domain: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Vanco Payment Solutions": {
+    "name": "Vanco Payment Solutions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Vanco Payment Solutions provides credit card processing to nonprofits.",
+    "website": "https://www.vancopayments.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.eservicepayments\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111",
+        "Category 41"
+      ]
+    }
+  },
+  "Virtuous": {
+    "name": "Virtuous",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Virtuous is the responsive fundraising software platform.",
+    "website": "https://virtuous.org",
+    "patterns": {
+      "scriptSrc": [
+        "\\.virtuoussoftware\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Yapla": {
+    "name": "Yapla",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 111",
+    "description": "Yapla is a web-based software platform that provides event management and fundraising solutions for non-profit organisations, associations, and event planners.",
+    "website": "https://www.yapla.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Yapla\\sv([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Donorbox": {
+    "name": "Donorbox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 111",
+    "description": "Donorbox is a US-based technology company. It offers an online fundraising software that allows individuals and nonprofit organisations to receive donations over the Internet.",
+    "website": "https://donorbox.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Funraise": {
+    "name": "Funraise",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 111",
+    "description": "Funraise is a nonprofit fundraising platform that enables organisations to build fundraising websites as well as manage donations and campaigns.",
+    "website": "https://funraise.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Kindful": {
+    "name": "Kindful",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 111",
+    "description": "Kindful is a cloud-based donor management and fundraising software and database designed for nonprofit organisations.",
+    "website": "https://kindful.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  },
+  "Raisely": {
+    "name": "Raisely",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 111",
+    "description": "Raisely is a cloud-based fundraising platform that helps non-profits and charities drive fundraising campaigns and collect donations.",
+    "website": "https://raisely.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 111"
+      ]
+    }
+  }
+}

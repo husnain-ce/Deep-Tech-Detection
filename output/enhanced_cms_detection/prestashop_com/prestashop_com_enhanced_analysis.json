@@ -1,0 +1,958 @@
+{
+  "url": "https://prestashop.com",
+  "final_url": "https://prestashop.com",
+  "analysis_time": 2.6697304248809814,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515569.8506725
+    },
+    {
+      "name": "Nuxt.js",
+      "confidence": 85,
+      "category": "Blogs",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<div [^>]*id=\"__nuxt\"",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "__NUXT__",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://nuxtjs.org",
+      "description": "Nuxt is a Vue framework for developing modern web applications.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515569.979283
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515570.155368
+    },
+    {
+      "name": "Meilisearch",
+      "confidence": 75,
+      "category": "Category 17",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "Meilisearch",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.meilisearch.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515570.3043854
+    },
+    {
+      "name": "AB Tasty",
+      "confidence": 85,
+      "category": "Category 74",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://try.abtasty.com/1b616f091198fe52210ca8ac0cced5f9.js",
+          "match": "try\\.abtasty\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://try.abtasty.com/1b616f091198fe52210ca8ac0cced5f9.js",
+          "match": "try\\.abtasty\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://try.abtasty.com/1b616f091198fe52210ca8ac0cced5f9.js",
+          "match": "try\\.abtasty\\.com/.*\\.js|cdn\\.abtasty\\.com/.*\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.abtasty.com",
+      "description": "AB Tasty is a customer experience optimisation company. AB Tasty offers AI-driven experimentation, personalisation, and product optimisation platforms for user testing.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515571.0270543
+    },
+    {
+      "name": "WordPress",
+      "confidence": 85,
+      "category": "Category 1",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2025/01/Solution_Icon_white.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Learn.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Grow.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/connect.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Blog.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/02/home-1920x978.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_magimix_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/04/LOGO_HUYGENS.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_dealy_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_bobbies_460_Noir-1.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_lechocolatdesfrancais_460_Noir-1-240x70.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Pylones_240_NB-1-e1679901855972.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_lepantalon_240-1-e1679901914361.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_listing_offre_Finsbury_240-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Push_Colibri_logo_M-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Magimix_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Visiofactory_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Huygens_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Bleu_Chauffe_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Dealy_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Kenable_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_StarName_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_LeChocolat_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Bleu_Chauffe_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Dealy_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Kenable_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_StarName_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_LeChocolat_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Bleu_Chauffe_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Dealy_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Kenable_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_StarName_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_LeChocolat_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Bleu_Chauffe_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Dealy_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Kenable_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_StarName_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_LeChocolat_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_ironheart_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Huygens_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Bleu_Chauffe_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Surf_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_VapeGreen_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_ironheart_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Huygens_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Bleu_Chauffe_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Surf_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_VapeGreen_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_ironheart_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Huygens_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Bleu_Chauffe_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Surf_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_VapeGreen_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_ironheart_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Huygens_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_Bleu_Chauffe_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_mobile_Surf_UK.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/Homepage_VapeGreen_UK-500x313.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/09/ecosystem-home.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2024/09/Home-Partenaire-Experts-Mobile_1-1.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2023/03/home_Experts-Mobile.svg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2025/08/65d4d07e3a605798c18bf56b_obut-fabricant-boule-convivialite.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2025/09/AdobeStock_322063740.jpeg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://dsv16luwmjfsl.cloudfront.net/wp-content/uploads/2025/09/Web-image-PhotoAdobeStock_555122759_HD.jpg",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://wordpress.org",
+      "description": "Open-source CMS.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515572.3080351
+    }
+  ],
+  "metadata": {
+    "title": "Create an online shop easily - Ecommerce | PrestaShop",
+    "description": "Launch your ecommerce website, customize your online store and start selling your products with the PrestaShop ecommerce platform.",
+    "content_length": 277758,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 6,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 6,
+    "confidence_distribution": {
+      "high (80-100)": 5,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 2.67,
+      "technologies_per_second": 2.25
+    }
+  },
+  "errors": []
+}

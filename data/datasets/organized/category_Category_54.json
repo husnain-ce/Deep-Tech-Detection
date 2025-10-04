@@ -1,0 +1,178 @@
+{
+  "Yoast SEO": {
+    "name": "Yoast SEO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "Yoast SEO is a search engine optimisation plugin for WordPress and other platforms.",
+    "website": "https://yoast.com/wordpress/plugins/seo/",
+    "patterns": {
+      "html": [
+        "yoast-schema-graph|yoast seo",
+        "<!-- This site is optimized with the Yoast SEO Premium plugin v(?:[^\\s]+) \\(Yoast SEO v([^\\s]+)\\) -\\;version:\\1",
+        "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([^\\s]+) -\\;version:\\1",
+        "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([\\d.]+) -\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "All in One SEO Pack": {
+    "name": "All in One SEO Pack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "All in One SEO plugin optimizes WordPress website and its content for search engines.",
+    "website": "https://aioseo.com",
+    "patterns": {
+      "html": [
+        "<!-- All in One SEO Pack ([\\d.]+) \\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Alli": {
+    "name": "Alli",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "Alli is artificial intelligence for search engine optimisation.",
+    "website": "https://www.alliai.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.alliai\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54"
+      ]
+    }
+  },
+  "BrightEdge": {
+    "name": "BrightEdge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "BrightEdge is an SEO solution and content performance marketing platform.",
+    "website": "https://www.brightedge.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.brightedge\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54"
+      ]
+    }
+  },
+  "SEOmatic": {
+    "name": "SEOmatic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "SEOmatic facilitates modern SEO best practices & implementation for Craft CMS 3.",
+    "website": "https://plugins.craftcms.com/seomatic",
+    "patterns": {
+      "meta": [
+        "generator: ^SEOmatic$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54"
+      ]
+    }
+  },
+  "The SEO Framework": {
+    "name": "The SEO Framework",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "The SEO Framework is the only WordPress plugin that can intelligently generate critical SEO meta tags by reading your WordPress environment.",
+    "website": "https://theseoframework.com",
+    "patterns": {
+      "html": [
+        "<!--[^>]+The SEO Framework by Sybre Waaijer"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54",
+        "Category 87"
+      ]
+    }
+  },
+  "Yoast SEO Premium": {
+    "name": "Yoast SEO Premium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "Yoast SEO Premium is a search engine optimisation plugin for WordPress and other platforms.",
+    "website": "https://yoast.com/wordpress/plugins/seo/",
+    "patterns": {
+      "html": [
+        "<!-- This site is optimized with the Yoast SEO Premium plugin v([^\\s]+) \\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54"
+      ]
+    }
+  },
+  "Yoast SEO for Shopify": {
+    "name": "Yoast SEO for Shopify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 54",
+    "description": "Yoast SEO for Shopify optimizes Shopify shops.",
+    "website": "https://yoast.com/shopify/apps/yoast-seo/",
+    "patterns": {
+      "html": [
+        "<!-- This site is optimized with Yoast SEO for Shopify -->"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 54",
+        "Category 100"
+      ]
+    }
+  }
+}

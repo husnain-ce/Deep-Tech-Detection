@@ -1,0 +1,30 @@
+{
+  "Akaunting": {
+    "name": "Akaunting",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 55",
+    "description": "Akaunting is a free and online accounting software.",
+    "website": "https://akaunting.com",
+    "patterns": {
+      "headers": [
+        "X-Akaunting: ^Free Accounting Software$"
+      ],
+      "html": [
+        "<link[^>]+akaunting-green\\.css",
+        "Powered By Akaunting: <a [^>]*href=\"https?://(?:www\\.)?akaunting\\.com[^>]+>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 55"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "Hotjar Incoming Feedback": {
+    "name": "Hotjar Incoming Feedback",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Hotjar Incoming Feedback is a widget that sits at the edge of a page.",
+    "website": "https://www.hotjar.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hotjar\\.com/preact-incoming-feedback"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "HulkApps Form Builder": {
+    "name": "HulkApps Form Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "HulkApps Form Builder is an application that creates customizable, job-specific forms for unit needs.",
+    "website": "https://www.hulkapps.com/products/form-builder-shopify",
+    "patterns": {
+      "scriptSrc": [
+        "formbuilder\\.hulkapps\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73",
+        "Category 100",
+        "Category 110"
+      ]
+    }
+  },
+  "OpinionLab": {
+    "name": "OpinionLab",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "OpinionLab is a omnichannel customer feedback solution provider.",
+    "website": "https://www.opinionlab.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.foresee\\.com/code/([\\d.]+)-oo/oo_engine\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Qualaroo": {
+    "name": "Qualaroo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Qualaroo provides surveys on websites and apps to get user feedback.",
+    "website": "https://qualaroo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.qualaroo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Qualtrics": {
+    "name": "Qualtrics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Qualtrics is an cloud-based platform for creating and distributing web-based surveys.",
+    "website": "https://www.qualtrics.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.qualtrics\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Segmanta": {
+    "name": "Segmanta",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Segmanta is a mobile-first survey platform designed for product feedback, brand awareness and concept testing research.",
+    "website": "https://segmanta.com",
+    "patterns": {
+      "scriptSrc": [
+        "pge\\.segmanta\\.com/widget_embed_js(?:/widgetEmbed-v([\\d.]+)\\.min\\.js)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Service Management Group": {
+    "name": "Service Management Group",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Service Management Group offers customer experience measurement, employee engagement, social monitoring, publishing, and brand research services.",
+    "website": "https://www.smg.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.smg\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Sprig": {
+    "name": "Sprig",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Sprig is a UX analysis and management tool to understand what motivates customers to sign up, engage, and remain loyal to products.",
+    "website": "https://sprig.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.userleap\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73",
+        "Security"
+      ]
+    }
+  },
+  "Survicate": {
+    "name": "Survicate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Survicate is an all-in-one customer feedback tool that allows you collect feedback.",
+    "website": "https://survicate.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: api\\.survicate\\.com"
+      ],
+      "scriptSrc": [
+        "\\.survicate\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Tally": {
+    "name": "Tally",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Tally is the simplest way to create free forms & surveys. Create any type of form in seconds, without knowing how to code, and for free.",
+    "website": "https://tally.so/",
+    "patterns": {
+      "scriptSrc": [
+        "//tally\\.so/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Typeform": {
+    "name": "Typeform",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 73",
+    "description": "Typeform is a Spanish online software as a service (SaaS) company that specialises in online form building and online surveys.",
+    "website": "https://www.typeform.com",
+    "patterns": {
+      "scriptSrc": [
+        "embed\\.typeform\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  },
+  "Wufoo": {
+    "name": "Wufoo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 73",
+    "description": "Wufoo is an online form builder that creates forms including contact forms, online payments, online surveys and event registrations.",
+    "website": "https://www.wufoo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 73"
+      ]
+    }
+  }
+}

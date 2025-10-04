@@ -1,0 +1,313 @@
+{
+  "Contentstack": {
+    "name": "Contentstack",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.contentstack.com",
+    "patterns": {
+      "scripts": [
+        "cdn\\.contentstack\\.io/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Payload CMS": {
+    "name": "Payload CMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://payloadcms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)Payload"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 5"
+      ]
+    }
+  },
+  "KeystoneJS": {
+    "name": "KeystoneJS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://keystonejs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)KeystoneJS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 5"
+      ]
+    }
+  },
+  "Netlify CMS": {
+    "name": "Netlify CMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.netlifycms.org",
+    "patterns": {
+      "scripts": [
+        "netlify-identity-widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  },
+  "TinaCMS": {
+    "name": "TinaCMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://tina.io",
+    "patterns": {
+      "scripts": [
+        "tina\\.umd\\.js|tina-cloud"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 6"
+      ]
+    }
+  },
+  "Magnolia CMS": {
+    "name": "Magnolia CMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.magnolia-cms.com",
+    "patterns": {
+      "html": [
+        "magnolia\\.properties|Magnolia CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 1"
+      ]
+    }
+  },
+  "Bloomreach Content (Hippo)": {
+    "name": "Bloomreach Content (Hippo)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.bloomreach.com",
+    "patterns": {
+      "html": [
+        "Hippo CMS|Bloomreach Experience"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 1"
+      ]
+    }
+  },
+  "ApostropheCMS": {
+    "name": "ApostropheCMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://apostrophecms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)Apostrophe"
+      ],
+      "html": [
+        "<[^>]+data-apos-refreshable[^>]"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 5"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Cockpit CMS": {
+    "name": "Cockpit CMS",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://getcockpit.com",
+    "patterns": {
+      "html": [
+        "data-cockpit|Cockpit CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 5"
+      ]
+    }
+  },
+  "Builder.io": {
+    "name": "Builder.io",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.builder.io",
+    "patterns": {
+      "scripts": [
+        "cdn\\.builder\\.io/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Kentico Kontent": {
+    "name": "Kentico Kontent",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://kontent.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  },
+  "Hygraph (GraphCMS)": {
+    "name": "Hygraph (GraphCMS)",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://hygraph.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  },
+  "Agility CMS": {
+    "name": "Agility CMS",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://agilitycms.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  },
+  "Umbraco Heartcore": {
+    "name": "Umbraco Heartcore",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://umbraco.com/products/umbraco-heartcore/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  },
+  "Cosmic": {
+    "name": "Cosmic",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 24",
+    "description": "",
+    "website": "https://www.cosmicjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 24",
+        "Category 10"
+      ]
+    }
+  }
+}

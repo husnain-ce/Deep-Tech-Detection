@@ -1,0 +1,99 @@
+{
+  "Deliverr": {
+    "name": "Deliverr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 107",
+    "description": "Deliverr is a fulfilment service that facilitates shipping services for ecommerce businesses.",
+    "website": "https://deliverr.com",
+    "patterns": {
+      "scriptSrc": [
+        "fast-tags\\.deliverr\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 107"
+      ]
+    }
+  },
+  "Malomo": {
+    "name": "Malomo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 107",
+    "description": "Malomo is a cloud-based shipment tracking solution that helps small to midsize eCommerce businesses provide customers with shipping updates via white-label package tracking pages.",
+    "website": "https://gomalomo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.gomalomo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 107"
+      ]
+    }
+  },
+  "Route": {
+    "name": "Route",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 107",
+    "description": "Route is a delivery and shipping tracking app",
+    "website": "https://route.com/",
+    "patterns": {
+      "scriptSrc": [
+        "//cdn.routeapp.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 107"
+      ]
+    }
+  },
+  "Shoprunner": {
+    "name": "Shoprunner",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 107",
+    "description": "ShopRunner is a service offering consumers free two-day shipping and returns on online orders placed with certain retailers.",
+    "website": "https://www.shoprunner.com",
+    "patterns": {
+      "scriptSrc": [
+        "/shoprunner/shoprunner_init\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 107",
+        "Category 102"
+      ]
+    }
+  },
+  "AfterShip": {
+    "name": "AfterShip",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 107",
+    "description": "AfterShip provides automated shipment tracking as a service.",
+    "website": "https://www.aftership.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 107"
+      ]
+    }
+  }
+}

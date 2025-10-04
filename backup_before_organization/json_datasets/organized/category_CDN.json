@@ -1,0 +1,197 @@
+{
+  "AlternC": {
+    "name": "AlternC",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "AlternC is a set of software management on Linux shared hosting.",
+    "website": "https://alternc.com",
+    "patterns": {
+      "scriptSrc": [
+        "js/alternc\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ]
+    }
+  },
+  "cPanel": {
+    "name": "cPanel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "cPanel is a web hosting control panel. The software provides a graphical interface and automation tools designed to simplify the process of hosting a website.",
+    "website": "http://www.cpanel.net",
+    "patterns": {
+      "headers": [
+        "Server: cpsrvd/([\\d.]+)\\;version:\\1"
+      ],
+      "cookies": [
+        "cprelogin: ",
+        "cpsession: "
+      ],
+      "html": [
+        "<!-- cPanel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DirectAdmin": {
+    "name": "DirectAdmin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "DirectAdmin is a graphical web-based web hosting control panel designed to make administration of websites easier.",
+    "website": "https://www.directadmin.com",
+    "patterns": {
+      "headers": [
+        "Server: DirectAdmin Daemon v([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "<a[^>]+>DirectAdmin</a> Web Control Panel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "i-MSCP": {
+    "name": "i-MSCP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "i-MSCP (internet Multi Server Control Panel) is a software for shared hosting environments management on Linux servers.",
+    "website": "https://github.com/i-MSCP/imscp",
+    "patterns": {
+      "meta": [
+        "application-name: ^i-MSCP$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ]
+    }
+  },
+  "Plesk": {
+    "name": "Plesk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "Plesk is a web hosting and server data centre automation software with a control panel developed for Linux and Windows-based retail hosting service providers.",
+    "website": "https://www.plesk.com/",
+    "patterns": {
+      "headers": [
+        "X-Powered-By-Plesk: ^Plesk",
+        "X-Powered-By: ^Plesk(?:L|W)in"
+      ],
+      "scriptSrc": [
+        "common\\.js\\?plesk"
+      ],
+      "scripts": [
+        "common\\.js\\?plesk"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pterodactyl Panel": {
+    "name": "Pterodactyl Panel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CDN",
+    "description": "Pterodactyl Panel is a free, open-source game server management panel built with PHP, React, and Go.",
+    "website": "https://pterodactyl.io",
+    "patterns": {
+      "cookies": [
+        "pterodactyl_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ]
+    }
+  },
+  "Tencent Waterproof Wall": {
+    "name": "Tencent Waterproof Wall",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CDN",
+    "description": "",
+    "website": "https://007.qq.com/",
+    "patterns": {
+      "scriptSrc": [
+        "/TCaptcha\\.js",
+        "captcha\\.qq\\.com/.*"
+      ],
+      "scripts": [
+        "/TCaptcha\\.js",
+        "captcha\\.qq\\.com/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN",
+        "Issue Trackers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TCAdmin": {
+    "name": "TCAdmin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CDN",
+    "description": "TCAdmin is the game hosting control panel.",
+    "website": "https://www.tcadmin.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CDN"
+      ]
+    }
+  }
+}

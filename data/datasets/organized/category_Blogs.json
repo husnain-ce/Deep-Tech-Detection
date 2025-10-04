@@ -1,0 +1,1596 @@
+{
+  "React": {
+    "name": "React",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "React is an open-source JavaScript library for building user interfaces or UI components.",
+    "website": "https://reactjs.org",
+    "patterns": {
+      "html": [
+        "<[^>]+data-react"
+      ],
+      "meta": [
+        "description: ^Web site created using create-react-app$"
+      ],
+      "scriptSrc": [
+        "react(?:-with-addons)?[.-](\\d+(?:\\.\\d+)+)[^/]*\\.js\\;version:\\1",
+        "/([\\d\\.]+)/react(?:\\.min)?\\.js\\;version:\\1",
+        "^react\\b.*\\.js"
+      ],
+      "scripts": [
+        "^react\\b.*\\.js",
+        "/([\\d.]+)/react(?:\\.min)?\\.js\\;version:\\1",
+        "/static/js/main\\.[a-f0-9]+\\.js",
+        "/react(?:\\.min)?\\.js",
+        "react(?:-with-addons)?[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Vue.js": {
+    "name": "Vue.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Vue.js is an open-source model–view–viewmodel JavaScript framework for building user interfaces and single-page applications.",
+    "website": "https://vuejs.org",
+    "patterns": {
+      "html": [
+        "<[^>]+\\sdata-v(?:ue)?-",
+        "data-v-[a-f0-9]{5}"
+      ],
+      "css": [
+        "\\.vue-notification-group"
+      ],
+      "scriptSrc": [
+        "vue[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "(?:/([\\d.]+))?/vue(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/vue(?:\\.runtime)?(?:\\.min)?\\.js",
+        "vue[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "(?:/([\\d.]+))?/vue(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Next.js": {
+    "name": "Next.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Next.js is a React framework for developing single page Javascript applications.",
+    "website": "https://nextjs.org",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^Next\\.js ?([0-9.]+)?\\;version:\\1"
+      ],
+      "html": [
+        "__NEXT_DATA__"
+      ],
+      "scripts": [
+        "/_next/static/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets",
+        "Web Frameworks",
+        "Category 57"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Nuxt.js": {
+    "name": "Nuxt.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Nuxt is a Vue framework for developing modern web applications.",
+    "website": "https://nuxtjs.org",
+    "patterns": {
+      "html": [
+        "<div [^>]*id=\"__nuxt\"",
+        "<script [^>]*>window\\.__NUXT__",
+        "__NUXT__"
+      ],
+      "scriptSrc": [
+        "/_nuxt/"
+      ],
+      "scripts": [
+        "/_nuxt/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets",
+        "Web Frameworks",
+        "Category 57"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "GSAP": {
+    "name": "GSAP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "GSAP is an animation library that allows you to create animations with JavaScript.",
+    "website": "https://greensock.com/gsap",
+    "patterns": {
+      "scriptSrc": [
+        "TweenMax(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "TweenMax(?:\\.min)?\\.js",
+        "gsap(?:\\.min)?\\.js|TweenMax(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "AMP": {
+    "name": "AMP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "AMP, originally created by Google, is an open-source HTML framework developed by the AMP open-source Project. AMP is designed to help webpages load faster.",
+    "website": "https://www.amp.dev",
+    "patterns": {
+      "html": [
+        "<html[^>]* (?:amp|⚡)[^-]",
+        "<link rel=\"amphtml\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AlertifyJS": {
+    "name": "AlertifyJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "AlertifyJS is a javascript framework for developing browser dialogs and notifications.",
+    "website": "https://alertifyjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "/alertify/alertify\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "AngularJS": {
+    "name": "AngularJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "AngularJS is a JavaScript-based open-source web application framework led by the Angular Team at Google.",
+    "website": "https://angularjs.org",
+    "patterns": {
+      "html": [
+        "<(?:div|html)[^>]+ng-app=",
+        "<ng-app"
+      ],
+      "scriptSrc": [
+        "angular[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+(?:-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js\\;version:\\1",
+        "(?!angular\\.io)\\bangular.{0,32}\\.js"
+      ],
+      "scripts": [
+        "angular[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+(?:-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js\\;version:\\1",
+        "\\bangular.{0,32}\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Aurelia": {
+    "name": "Aurelia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Aurelia is an open-source UI JavaScript framework designed to create single page applications.",
+    "website": "http://aurelia.io",
+    "patterns": {
+      "scriptSrc": [
+        "/aurelia[\\d\\w\\-\\.]+\\.js"
+      ],
+      "html": [
+        "<[^>]+aurelia-app=[^>]",
+        "<[^>]+data-main=[^>]aurelia-bootstrapper",
+        "<[^>]+au-target-id=[^>]\\d"
+      ],
+      "scripts": [
+        "aurelia(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BEM": {
+    "name": "BEM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "BEM (Block, Element, Modifier) is a naming convention for classes in HTML and CSS what was developed by Yandex.",
+    "website": "http://en.bem.info",
+    "patterns": {
+      "html": [
+        "<[^>]+data-bem"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Backbone.js": {
+    "name": "Backbone.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "BackboneJS is a JavaScript library that allows to develop and structure the client side applications that run in a web browser.",
+    "website": "http://backbonejs.org",
+    "patterns": {
+      "scriptSrc": [
+        "backbone.*\\.js"
+      ],
+      "scripts": [
+        "backbone.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Enyo": {
+    "name": "Enyo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Enyo is an open-source JavaScript framework for cross-platform for mobile, desktop, TV and web applications.",
+    "website": "http://enyojs.com",
+    "patterns": {
+      "scriptSrc": [
+        "enyo\\.js"
+      ],
+      "scripts": [
+        "enyo\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Frontity": {
+    "name": "Frontity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Frontity is a React open-source framework focused on WordPress.",
+    "website": "https://frontity.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Frontity"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Handlebars": {
+    "name": "Handlebars",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Handlebars is a JavaScript library used to create reusable webpage templates.",
+    "website": "http://handlebarsjs.com",
+    "patterns": {
+      "html": [
+        "<[^>]*type=[^>]text\\/x-handlebars-template"
+      ],
+      "scriptSrc": [
+        "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hydrogen": {
+    "name": "Hydrogen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Hydrogen is a front-end web development framework used for building Shopify custom storefronts.",
+    "website": "https://hydrogen.shopify.dev",
+    "patterns": {
+      "headers": [
+        "powered-by: ^Shopify-Hydrogen$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "Inertia.js": {
+    "name": "Inertia.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Inertia.js is a protocol for creating monolithic single-page applications.",
+    "website": "https://inertiajs.com",
+    "patterns": {
+      "headers": [
+        "Vary: X-Inertia",
+        "X-Inertia: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "Marionette.js": {
+    "name": "Marionette.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Marionette is a composite application library for Backbone.js that aims to simplify the construction of large scale JavaScript applications. It is a collection of common design and implementation patterns found in applications.",
+    "website": "https://marionettejs.com",
+    "patterns": {
+      "scriptSrc": [
+        "backbone\\.marionette.*\\.js"
+      ],
+      "scripts": [
+        "backbone\\.marionette.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mustache": {
+    "name": "Mustache",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Mustache is a web template system.",
+    "website": "https://mustache.github.io",
+    "patterns": {
+      "scriptSrc": [
+        "mustache(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "mustache(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Prototype": {
+    "name": "Prototype",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Prototype is a JavaScript Framework that aims to ease development of web applications.",
+    "website": "http://www.prototypejs.org",
+    "patterns": {
+      "scriptSrc": [
+        "(?:prototype|protoaculous)(?:-([\\d.]*[\\d]))?.*\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:prototype|protoaculous)(?:-([\\d.]*[\\d]))?.*\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "React Redux": {
+    "name": "React Redux",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "React Redux is the official React binding for Redux.",
+    "website": "https://react-redux.js.org/",
+    "patterns": {
+      "scriptSrc": [
+        "/react-redux(@|/)([\\d.]+)(?:/[a-z]+)?/react-redux(?:.min)?\\.js\\;version:\\2"
+      ],
+      "scripts": [
+        "/react-redux(@|/)([\\d.]+)(?:/[a-z]+)?/react-redux(?:.min)?\\.js\\;version:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "React Router": {
+    "name": "React Router",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "React Router provides declarative routing for React.",
+    "website": "https://reactrouter.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/react-router(@|/)([\\d.]+)(?:/[a-z]+)?)?/react-router(?:\\.min)?\\.js\\;version:\\2"
+      ],
+      "scripts": [
+        "/react-router(@|/)([\\d.]+)(?:/[a-z]+)?/react-router(?:.min)?\\.js\\;version:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Redux": {
+    "name": "Redux",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Redux is a predictable state container for JavaScript applications.",
+    "website": "https://redux.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "/redux(@|/)([\\d.]+)(?:/[a-z]+)?/redux(?:.min)?\\.js\\;version:\\2"
+      ],
+      "scripts": [
+        "/redux(@|/)([\\d.]+)(?:/[a-z]+)?/redux(?:.min)?\\.js\\;version:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Replicache": {
+    "name": "Replicache",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Replicache is a JavaScript framework for building high-performance, offline-capable, collaborative web apps.",
+    "website": "https://replicache.dev/",
+    "patterns": {
+      "headers": [
+        "x-replicache-requestid: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Web Servers"
+      ]
+    }
+  },
+  "RequireJS": {
+    "name": "RequireJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "RequireJS is a JavaScript library and file loader which manages the dependencies between JavaScript files and in modular programming.",
+    "website": "http://requirejs.org",
+    "patterns": {
+      "scriptSrc": [
+        "require.*\\.js"
+      ],
+      "scripts": [
+        "require.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ripple": {
+    "name": "Ripple",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Ripple is the frontend framework for Single Digital Presence, delivered using Nuxt and Vue.js.",
+    "website": "https://dpc-sdp.github.io/sdp-docs/ripple/",
+    "patterns": {
+      "headers": [
+        "x-sdp-app-type: ripple"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "RxJS": {
+    "name": "RxJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "RxJS is a reactive library used to implement reactive programming to deal with async implementation, callbacks, and event-based programs.",
+    "website": "http://reactivex.io",
+    "patterns": {
+      "scriptSrc": [
+        "rx(?:\\.\\w+)?(?:\\.compat|\\.global)?(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "rx(?:\\.\\w+)?(?:\\.compat|\\.global)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sencha Touch": {
+    "name": "Sencha Touch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Sencha Touch is a user interface (UI) JavaScript library, or web framework, specifically built for the Mobile Web.",
+    "website": "http://www.sencha.com/products/touch",
+    "patterns": {
+      "scriptSrc": [
+        "sencha-touch.*\\.js"
+      ],
+      "scripts": [
+        "sencha-touch.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Stimulus": {
+    "name": "Stimulus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "A modest JavaScript framework for the HTML you already have.",
+    "website": "https://stimulusjs.org/",
+    "patterns": {
+      "html": [
+        "<[^>]+data-controller"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Stitches": {
+    "name": "Stitches",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "Stitches is a is a CSS-in-JS styling framework with near-zero runtime, SSR, and multi-variant support.",
+    "website": "https://stitches.dev",
+    "patterns": {
+      "meta": [
+        "generator: ^c-[A-Za-z]{5}$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 47"
+      ]
+    }
+  },
+  "UmiJs": {
+    "name": "UmiJs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Blogs",
+    "description": "UmiJs is a scalable, enterprise-class frontend application framework that supports both configuration and conventional routing while maintaining functional completeness, such as dynamic routing, nested routing, and permission routing.",
+    "website": "https://umijs.org",
+    "patterns": {
+      "scriptSrc": [
+        "/umi\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "AlloyUI": {
+    "name": "AlloyUI",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://www.alloyui.com",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://cdn\\.alloyui\\.com/"
+      ],
+      "scripts": [
+        "^https?://cdn\\.alloyui\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Catberry.js": {
+    "name": "Catberry.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://catberry.github.io/",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Catberry"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Element UI": {
+    "name": "Element UI",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://element.eleme.io/",
+    "patterns": {
+      "html": [
+        "<(?:div|button) class=\"el-(?:table-column|table-filter|popper|pagination|pager|select-group|form|form-item|color-predefine|color-hue-slider|color-svpanel|color-alpha-slider|color-dropdown|color-picker|badge|tree|tree-node|select|message|dialog|checkbox|checkbox-button|checkbox-group|container|steps|carousel|menu|menu-item|submenu|menu-item-group|button|button-group|card|table|select-dropdown|row|tabs|notification|radio|progress|progress-bar|tag|popover|tooltip|cascader|cascader-menus|cascader-menu|time-spinner|spinner|spinner-inner|transfer|transfer-panel|rate|slider|dropdown|dropdown-menu|textarea|input|input-group|popup-parent|radio-group|main|breadcrumb|time-range-picker|date-range-picker|year-table|date-editor|range-editor|time-spinner|date-picker|time-panel|date-table|month-table|picker-panel|collapse|collapse-item|alert|select-dropdown|select-dropdown__empty|select-dropdown__wrap|select-dropdown__list|scrollbar|switch|carousel|upload|upload-dragger|upload-list|upload-cover|aside|input-number|header|message-box|footer|radio-button|step|autocomplete|autocomplete-suggestion|loading-parent|loading-mask|loading-spinner|)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ember.js": {
+    "name": "Ember.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://emberjs.com",
+    "patterns": {
+      "scripts": [
+        "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Essential JS 2": {
+    "name": "Essential JS 2",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://www.syncfusion.com/javascript-ui-controls",
+    "patterns": {
+      "html": [
+        "<[^>]+ class ?= ?\"(?:e-control|[^\"]+ e-control)(?: )[^\"]* e-lib\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ExtJS": {
+    "name": "ExtJS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://www.sencha.com",
+    "patterns": {
+      "scriptSrc": [
+        "ext-base\\.js"
+      ],
+      "scripts": [
+        "ext-base\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ef.js": {
+    "name": "ef.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://ef.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "/ef(?:-core)?(?:\\.min|\\.dev)?\\.js"
+      ],
+      "scripts": [
+        "/ef(?:-core)?(?:\\.min|\\.dev)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hogan.js": {
+    "name": "Hogan.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://twitter.github.io/hogan.js/",
+    "patterns": {
+      "scriptSrc": [
+        "hogan-[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "([\\d.]+)/hogan(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "hogan-[.-]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "([\\d.]+)/hogan(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Meteor": {
+    "name": "Meteor",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://www.meteor.com",
+    "patterns": {
+      "html": [
+        "<link[^>]+__meteor-css__"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MooTools": {
+    "name": "MooTools",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://mootools.net",
+    "patterns": {
+      "scriptSrc": [
+        "mootools.*\\.js"
+      ],
+      "scripts": [
+        "mootools.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Moon": {
+    "name": "Moon",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://kbrsh.github.io/moon/",
+    "patterns": {
+      "scriptSrc": [
+        "/moon(?:\\.min)?\\.js$"
+      ],
+      "scripts": [
+        "/moon(?:\\.min)?\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenUI5": {
+    "name": "OpenUI5",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://openui5.org/",
+    "patterns": {
+      "scriptSrc": [
+        "sap-ui-core\\.js"
+      ],
+      "scripts": [
+        "sap-ui-core\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Polymer": {
+    "name": "Polymer",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://polymer-project.org",
+    "patterns": {
+      "html": [
+        "(?:<polymer-[^>]+|<link[^>]+rel=\"import\"[^>]+/polymer\\.html\")"
+      ],
+      "scriptSrc": [
+        "polymer\\.js"
+      ],
+      "scripts": [
+        "polymer\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Reveal.js": {
+    "name": "Reveal.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://lab.hakim.se/reveal-js",
+    "patterns": {
+      "scriptSrc": [
+        "(?:^|/)reveal(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "(?:^|/)reveal(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RightJS": {
+    "name": "RightJS",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://rightjs.org",
+    "patterns": {
+      "scripts": [
+        "right\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Riot": {
+    "name": "Riot",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://riot.js.org/",
+    "patterns": {
+      "scriptSrc": [
+        "riot(?:\\+compiler)?(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "riot(?:\\+compiler)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Socket.io": {
+    "name": "Socket.io",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://socket.io",
+    "patterns": {
+      "scriptSrc": [
+        "socket\\.io.*\\.js"
+      ],
+      "scripts": [
+        "socket\\.io.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Strapdown.js": {
+    "name": "Strapdown.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://strapdownjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "strapdown\\.js"
+      ],
+      "scripts": [
+        "strapdown\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Webix": {
+    "name": "Webix",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Blogs",
+    "description": "",
+    "website": "http://webix.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\bwebix\\.js"
+      ],
+      "scripts": [
+        "\\bwebix\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adobe Client Data Layer": {
+    "name": "Adobe Client Data Layer",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "Adobe Client Data Layer is a framework of JavaScript objects on your site that contains all variable values used in your implementation.",
+    "website": "https://github.com/adobe/adobe-client-data-layer",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "Emotion": {
+    "name": "Emotion",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "Emotion is a library designed for writing CSS styles with JavaScript.",
+    "website": "http://emotion.sh",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 47"
+      ]
+    }
+  },
+  "JSS": {
+    "name": "JSS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "JSS is an authoring tool for CSS which allows you to use JavaScript to describe styles in a declarative, conflict-free and reusable way.",
+    "website": "https://cssinjs.org/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 47"
+      ]
+    }
+  },
+  "Knockout.js": {
+    "name": "Knockout.js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "Knockout.js is basically a library written in JavaScript, based on MVVM pattern that helps developers build rich and responsive websites.",
+    "website": "http://knockoutjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Quasar": {
+    "name": "Quasar",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "Quasar is an open-source Vue.js based framework.",
+    "website": "https://quasar.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "RedwoodJS": {
+    "name": "RedwoodJS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "RedwoodJS is a full-stack serverless web application framework built by Tom Preston Werner (co-founder of Github) et al.",
+    "website": "https://redwoodjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Widgets"
+      ]
+    }
+  },
+  "SolidJS": {
+    "name": "SolidJS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "SolidJS is a purely reactive library. It was designed from the ground up with a reactive core. It's influenced by reactive principles developed by previous libraries.",
+    "website": "https://www.solidjs.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "styled-components": {
+    "name": "styled-components",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "Styled components is a CSS-in-JS styling framework that uses tagged template literals in JavaScript.",
+    "website": "https://styled-components.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "toastr": {
+    "name": "toastr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Blogs",
+    "description": "toastr is a Javascript library for non-blocking notifications. The goal is to create a simple core library that can be customized and extended.",
+    "website": "https://github.com/CodeSeven/toastr",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ]
+    }
+  },
+  "InfernoJS": {
+    "name": "InfernoJS",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://infernojs.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "jComponent": {
+    "name": "jComponent",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://componentator.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs",
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Phaser": {
+    "name": "Phaser",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://phaser.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Transifex": {
+    "name": "Transifex",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://www.transifex.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twitter Flight": {
+    "name": "Twitter Flight",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://flightjs.github.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zone.js": {
+    "name": "Zone.js",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Blogs",
+    "description": "",
+    "website": "https://github.com/angular/angular/tree/master/packages/zone.js",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Blogs"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

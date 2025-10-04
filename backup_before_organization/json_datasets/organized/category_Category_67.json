@@ -1,0 +1,1104 @@
+{
+  "2B Advice": {
+    "name": "2B Advice",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "2B Advice provides a plug-in to manage GDPR cookie consent.",
+    "website": "https://www.2b-advice.com/en/data-privacy-software/cookie-consent-plugin/",
+    "patterns": {
+      "scriptSrc": [
+        "2badvice-cdn\\.azureedge\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "CIVIC": {
+    "name": "CIVIC",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Civic provides cookie control for user consent and the use of cookies.",
+    "website": "https://www.civicuk.com/cookie-control",
+    "patterns": {
+      "scriptSrc": [
+        "cc\\.cdn\\.civiccomputing\\.com"
+      ],
+      "scripts": [
+        "cc\\.cdn\\.civiccomputing\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clarip": {
+    "name": "Clarip",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Clarip is an enterprise data privacy and risk management platform.",
+    "website": "https://www.clarip.com",
+    "patterns": {
+      "scriptSrc": [
+        "//cdn\\.clarip\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Commanders Act TrustCommander": {
+    "name": "Commanders Act TrustCommander",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Commanders Act TrustCommander is a consent management platform (CMP) which allows you to comply with the general data protection regulation (GDPR) regulation in terms of collecting consent.",
+    "website": "https://www.commandersact.com/en/solutions/trustcommander/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.trustcommander\\.net/privacy/.+_v([\\d]+)_([\\d]+)\\.js\\;version:\\1.\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Conversant Consent Tool": {
+    "name": "Conversant Consent Tool",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Conversant Consent Tool is a free tool to gain GDPR and ePD compliant consent for digital advertising.",
+    "website": "https://www.conversantmedia.eu/consent-tool",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.conversant\\.mgr\\.consensu\\.org/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Cookie Notice": {
+    "name": "Cookie Notice",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Cookie Notice provides a simple, customizable website banner that can be used to help your website comply with certain cookie consent requirements under the EU GDPR cookie law and CCPA regulations and includes seamless integration with Cookie Compliance to help your site comply with the latest updates to existing consent laws.",
+    "website": "https://wordpress.org/plugins/cookie-notice",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/plugins/cookie-notice/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 87"
+      ]
+    }
+  },
+  "Cookie Script": {
+    "name": "Cookie Script",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Cookie-Script automatically scans, categorizes and adds description to all cookies found on your website.",
+    "website": "https://cookie-script.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cookie-script\\.com/"
+      ],
+      "scripts": [
+        "//cookie-script\\.com/s/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CookieFirst": {
+    "name": "CookieFirst",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "CookieFirst is an GDPR and CCPA compliant consent management platform.",
+    "website": "https://cookiefirst.com",
+    "patterns": {
+      "scriptSrc": [
+        "consent\\.cookiefirst\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Cookiebot": {
+    "name": "Cookiebot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Cookiebot is a cloud-driven solution that automatically controls cookies and trackers, enabling full GDPR/ePrivacy and CCPA compliance for websites.",
+    "website": "http://www.cookiebot.com",
+    "patterns": {
+      "scriptSrc": [
+        "consent\\.cookiebot\\.com"
+      ],
+      "scripts": [
+        "consent\\.cookiebot\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "clickio": {
+    "name": "clickio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Clickio Consent Tool collects and communicates consent both to IAB Framework vendors and to Google Ads products.",
+    "website": "http://www.gdpr.clickio.com/",
+    "patterns": {
+      "scriptSrc": [
+        "clickio\\.mgr\\.consensu\\.org/t/consent_[0-9]+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Didomi": {
+    "name": "Didomi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Didomi is a consent management platform helping brands and businesses collect, store and leverage their customer consents.",
+    "website": "https://www.didomi.io/en/consent-preference-management",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.privacy-center\\.org/.*/loader\\.js"
+      ],
+      "scripts": [
+        "sdk\\.privacy-center\\.org/.*/loader\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Evidon": {
+    "name": "Evidon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Evidon is a transparency company that helps organizations educate consumers on how and why data is collected, as well as provide consumers with the ability to give and withdraw consent to their data being used.",
+    "website": "https://www.evidon.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.evidon\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Funding Choices": {
+    "name": "Funding Choices",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Funding Choices is a messaging tool that can help you comply with the EU General Data Protection Regulation (GDPR), and recover lost revenue from ad blocking users.",
+    "website": "https://developers.google.com/funding-choices",
+    "patterns": {
+      "scriptSrc": [
+        "fundingchoicesmessages\\.google\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "HulkApps GDPR/CCPA Compliance Manager": {
+    "name": "HulkApps GDPR/CCPA Compliance Manager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "HulkApps GDPR/CCPA Compliance Manager is a consent management solution.",
+    "website": "https://www.hulkapps.com/products/gdpr-ccpa-cookie-manager-shopify-app",
+    "patterns": {
+      "scriptSrc": [
+        "cookiebar\\.hulkapps\\.com/hulk_cookie_bar\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 100"
+      ]
+    }
+  },
+  "iubenda": {
+    "name": "iubenda",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "iubenda is a compliance software used by businesses for their websites and apps.",
+    "website": "https://www.iubenda.com",
+    "patterns": {
+      "scriptSrc": [
+        "iubenda\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Ketch": {
+    "name": "Ketch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Ketch is a data control platform that manages compliance with privacy regulations.",
+    "website": "https://www.ketch.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ketchcdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Legal Monster": {
+    "name": "Legal Monster",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Legal Monster is a consent and privacy management solution, which helps businesses maintain compliance with ePrivacy, marketing requirements and General Data Protection Regulation (GDPR).",
+    "website": "https://www.legalmonster.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.legalmonster\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "LiveRamp PCM": {
+    "name": "LiveRamp PCM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "LiveRamp PCM is a preference and consent management platform that enables comply with the ePrivacy Directive, GDPR, CCPA, and other data protection and privacy laws and regulations.",
+    "website": "https://liveramp.com/our-platform/preference-consent-management",
+    "patterns": {
+      "scriptSrc": [
+        "gdpr\\.privacymanager\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "OneTrust": {
+    "name": "OneTrust",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "OneTrust is a cloud-based data privacy management compliance platform.",
+    "website": "http://www.onetrust.com",
+    "patterns": {
+      "cookies": [
+        "OptanonConsent: "
+      ],
+      "scriptSrc": [
+        "cdn\\.cookielaw\\.org",
+        "optanon\\.blob\\.core\\.windows\\.net",
+        "otSDKStub\\.js",
+        "cdn\\.cookielaw\\.org",
+        "optanon\\.blob\\.core\\.windows\\.net"
+      ],
+      "scripts": [
+        "cdn\\.cookielaw\\.org",
+        "optanon\\.blob\\.core\\.windows\\.net",
+        "otSDKStub\\.js",
+        "cdn\\.cookielaw\\.org",
+        "optanon\\.blob\\.core\\.windows\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Osano": {
+    "name": "Osano",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Osano is a data privacy platform that helps your website become compliant with laws such as GDPR and CCPA.",
+    "website": "https://www.osano.com",
+    "patterns": {
+      "scriptSrc": [
+        "cookieconsent\\.min\\.js",
+        "cmp\\.osano\\.com/"
+      ],
+      "scripts": [
+        "cookieconsent\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Quantcast Choice": {
+    "name": "Quantcast Choice",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Quantcast Choice is a free consent management platform to meet key privacy requirements stemming from ePrivacy Directive, GDPR, and CCPA.",
+    "website": "https://www.quantcast.com/products/choice-consent-management-platform",
+    "patterns": {
+      "scriptSrc": [
+        "quantcast\\.mgr\\.consensu\\.org"
+      ],
+      "scripts": [
+        "quantcast\\.mgr\\.consensu\\.org"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Segment Consent Manager ": {
+    "name": "Segment Consent Manager ",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": " Segment Consent Manager is a tool that automates the process of requesting consent for data usage, stores data on user privacy preferences, and updates these preferences when users request changes.",
+    "website": "https://segment.com/blog/how-to-build-consent-management-into-your-site-in-less-than-a-week",
+    "patterns": {
+      "scriptSrc": [
+        "@segment/consent-manager@([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Shopify Consent Management": {
+    "name": "Shopify Consent Management",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Shopify Consent Management let's you create a tracking consent banner for EU customers.",
+    "website": "https://apps.shopify.com/customer-privacy-banner",
+    "patterns": {
+      "scriptSrc": [
+        "cookie_consent_shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 100"
+      ]
+    }
+  },
+  "Sourcepoint": {
+    "name": "Sourcepoint",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Sourcepoint is the data privacy software company for the digital marketing ecosystem.",
+    "website": "https://sourcepoint.com",
+    "patterns": {
+      "cookies": [
+        "_sp_enable_dfp_personalized_ads: "
+      ],
+      "scripts": [
+        "SOURCEPOINT_MMS_DOMAIN"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "snigel AdConsent": {
+    "name": "snigel AdConsent",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "snigel AdConsent is a IAB-registered consent management platfrom (CMP) which help keep sites speed intact while remaining compliant with GDPR and CCPA.",
+    "website": "https://www.snigel.com/adconsent/",
+    "patterns": {
+      "scriptSrc": [
+        "(?:staging-)?cdn\\.snigelweb\\.com/(?:snhb|adconsent)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "TRUENDO": {
+    "name": "TRUENDO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "TRUENDO is a GDPR compliance software.",
+    "website": "https://truendo.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.priv\\.center/",
+        "cdn\\.truendo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Termly": {
+    "name": "Termly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Termly provides free website policy resources and web-based policy creation software.",
+    "website": "https://termly.io/",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.termly\\.io/embed\\.min\\.js"
+      ],
+      "scripts": [
+        "app\\.termly\\.io/embed\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TrustArc": {
+    "name": "TrustArc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "TrustArc provides software and services to help corporations update their privacy management processes so they comply with government laws and best practices.",
+    "website": "http://trustarc.com",
+    "patterns": {
+      "scriptSrc": [
+        "consent\\.trustarc\\.com"
+      ],
+      "scripts": [
+        "consent\\.trustarc\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Usercentrics": {
+    "name": "Usercentrics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Usercentrics is a SaaS enterprise solution for Consent Management (CMP) that helps enterprise customers to obtain, manage and document the user consent.",
+    "website": "https://usercentrics.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.usercentrics\\.eu/.+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Yett": {
+    "name": "Yett",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "Yett is a small webpage library to control the execution of (third party) scripts like analytics.",
+    "website": "https://github.com/elbywan/yett",
+    "patterns": {
+      "scriptSrc": [
+        "/yett@([\\d\\.]+)/dist/yett\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Crownpeak": {
+    "name": "Crownpeak",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 67",
+    "description": "CrownPeak is a cloud-based Digital Experience Management (DEM) platform that is designed to in the management of digital experiences across multiple touch-points, especially for marketing and a freer IT architecture.",
+    "website": "http://www.crownpeak.com",
+    "patterns": {
+      "scripts": [
+        "c\\.evidon\\.com",
+        "js/crownpeak\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "CookieHub": {
+    "name": "CookieHub",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://www.cookiehub.com",
+    "patterns": {
+      "scriptSrc": [
+        "cookiehub\\.net/.*\\.js"
+      ],
+      "scripts": [
+        "cookiehub\\.net/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CookieYes": {
+    "name": "CookieYes",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://www.cookieyes.com/",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.cookieyes\\.com/client_data/",
+        "cdn-cookieyes\\.com/client_data/",
+        "/wp-content/plugins/cookie-law-info/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "app\\.cookieyes\\.com/client_data/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "eucookie.eu": {
+    "name": "eucookie.eu",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://www.eucookie.eu/",
+    "patterns": {
+      "scriptSrc": [
+        "eucookie\\.eu/public/gdpr-cookie-consent\\.js"
+      ],
+      "scripts": [
+        "eucookie\\.eu/public/gdpr-cookie-consent\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Metomic": {
+    "name": "Metomic",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://metomic.io",
+    "patterns": {
+      "scriptSrc": [
+        "metomic\\.js"
+      ],
+      "scripts": [
+        "metomic\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Seers": {
+    "name": "Seers",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "http://www.seersco.com",
+    "patterns": {
+      "scriptSrc": [
+        "seersco.com/script/cb\\.js"
+      ],
+      "scripts": [
+        "seersco.com/script/cb\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Uniconsent": {
+    "name": "Uniconsent",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://www.uniconsent.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js"
+      ],
+      "scripts": [
+        "cmp\\.uniconsent\\.mgr\\.consensu\\.org/dfp\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Iubenda": {
+    "name": "Iubenda",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Category 67",
+    "description": "",
+    "website": "https://www.iubenda.com/",
+    "patterns": {
+      "scripts": [
+        "iubenda\\.com/cookie-solution/confs/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "AdOpt": {
+    "name": "AdOpt",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "AdOpt is a consent tool that prioritises privacy and usability towards the LGPD.",
+    "website": "https://goadopt.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "AdRoll CMP System": {
+    "name": "AdRoll CMP System",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "AdRoll CMP System is a consent management solution.",
+    "website": "https://www.adroll.com/features/consent-management",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Axeptio": {
+    "name": "Axeptio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Axeptio is a trusted third party that collects and archive users' consent in a GDPR compliant fashion.",
+    "website": "https://www.axeptio.eu",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Borlabs Cookie": {
+    "name": "Borlabs Cookie",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Borlabs Cookie is a GDPR cookie consent plugin for WordPress.",
+    "website": "https://borlabs.io/borlabs-cookie/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cookie Information": {
+    "name": "Cookie Information",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Cookie Information is a privacy tech company that develops software that helps making company websites and mobile apps GDPR and ePrivacy compliant.",
+    "website": "https://cookieinformation.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Efilli": {
+    "name": "Efilli",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Efilli is a tool used to manage cookies on websites, providing users with data privacy control through GDPR compliance.",
+    "website": "https://efilli.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "HubSpot Cookie Policy Banner": {
+    "name": "HubSpot Cookie Policy Banner",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "HubSpot Cookie Policy banner is a cookie compliance functionality from HubSpot.",
+    "website": "https://knowledge.hubspot.com/reports/customize-your-cookie-tracking-settings-and-privacy-policy-alert",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Klaro": {
+    "name": "Klaro",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Klaro is a simple consent management platform and privacy tool.",
+    "website": "https://heyklaro.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Moove GDPR Consent": {
+    "name": "Moove GDPR Consent",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Moove GDPR Consent is a GDPR Cookie Compliance plugin for Wordpress.",
+    "website": "https://www.mooveagency.com/wordpress/gdpr-cookie-compliance-plugin",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 87"
+      ]
+    }
+  },
+  "Spatie Laravel Cookie Consent": {
+    "name": "Spatie Laravel Cookie Consent",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Spatie Laravel Cookie Consent is a banner that is displayed on websites to ask visitors for consent for the use of cookies.",
+    "website": "https://github.com/spatie/laravel-cookie-consent",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Tealium Consent Management": {
+    "name": "Tealium Consent Management",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Tealium Consent Management adds consent and data privacy support.",
+    "website": "https://docs.tealium.com/platforms/getting-started/consent-management",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Transcend": {
+    "name": "Transcend",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Transcend is data privacy management compliance platform.",
+    "website": "http://www.transcend.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67"
+      ]
+    }
+  },
+  "Ultimate GDPR & CCPA": {
+    "name": "Ultimate GDPR & CCPA",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 67",
+    "description": "Ultimate GDPR & CCPA is a compliance toolkit for WordPress by createIT",
+    "website": "https://www.createit.com/gdpr",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 67",
+        "Category 87"
+      ]
+    }
+  }
+}

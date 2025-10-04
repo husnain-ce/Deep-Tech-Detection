@@ -1,0 +1,1848 @@
+{
+  "Django": {
+    "name": "Django",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Django is a Python-based free and open-source web application framework.",
+    "website": "https://djangoproject.com",
+    "patterns": {
+      "cookies": [
+        "django_language: ",
+        "csrftoken: .*",
+        "sessionid: .*"
+      ],
+      "html": [
+        "(?:powered by <a[^>]+>Django ?([\\d.]+)?<\\/a>|<input[^>]*name=[\"']csrfmiddlewaretoken[\"'][^>]*>)\\;version:\\1"
+      ],
+      "headers": [
+        "X-Frame-Options: DENY"
+      ],
+      "url": [
+        "/admin/login/?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Laravel": {
+    "name": "Laravel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Laravel is a free, open-source PHP web framework.",
+    "website": "https://laravel.com",
+    "patterns": {
+      "cookies": [
+        "laravel_session: .*",
+        "XSRF-TOKEN: .*",
+        "laravel_session: "
+      ],
+      "html": [
+        "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Laravel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Symfony": {
+    "name": "Symfony",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Symfony is a PHP web application framework and a set of reusable PHP components/libraries.",
+    "website": "https://symfony.com",
+    "patterns": {
+      "cookies": [
+        "sf_redirect: "
+      ],
+      "headers": [
+        "x-symfony-cache: .+"
+      ],
+      "html": [
+        "<div id=\"sfwdt[^\"]+\" class=\"[^\"]*sf-toolbar"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Ruby on Rails": {
+    "name": "Ruby on Rails",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Ruby on Rails is a server-side web application framework written in Ruby under the MIT License.",
+    "website": "https://rubyonrails.org",
+    "patterns": {
+      "headers": [
+        "Server: mod_(?:rails|rack)",
+        "X-Rack-Cache: .*",
+        "X-Runtime: .+",
+        "X-Powered-By: mod_(?:rails|rack)"
+      ],
+      "cookies": [
+        "_session_id: \\;confidence:75",
+        "_rails_.*: .*"
+      ],
+      "meta": [
+        "csrf-param: ^authenticity_token$\\;confidence:50"
+      ],
+      "scriptSrc": [
+        "/assets/application-[a-z\\d]{32}/\\.js\\;confidence:50"
+      ],
+      "scripts": [
+        "/assets/application-[a-z\\d]{32}/\\.js\\;confidence:50"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Express": {
+    "name": "Express",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Express is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
+    "website": "http://expressjs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Express(?:$|,)",
+        "X-Powered-By: ^Express$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "CakePHP": {
+    "name": "CakePHP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP.",
+    "website": "http://cakephp.org",
+    "patterns": {
+      "cookies": [
+        "cakephp: "
+      ],
+      "meta": [
+        "application-name: CakePHP"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Chicago Boss": {
+    "name": "Chicago Boss",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Chicago Boss is a web framework for Erlang.",
+    "website": "https://github.com/ChicagoBoss/ChicagoBoss",
+    "patterns": {
+      "cookies": [
+        "_boss_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Dancer": {
+    "name": "Dancer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Mono.net delivers the a Software-as-a-Service (SaaS) platform to build and sell websites and other digital products.",
+    "website": "http://perldancer.org",
+    "patterns": {
+      "headers": [
+        "Server: Perl Dancer ([\\d.]+)\\;version:\\1",
+        "X-Powered-By: Perl Dancer ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Frappe": {
+    "name": "Frappe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Frappe is a full stack, batteries-included, web framework written in Python and Javascript.",
+    "website": "https://frappeframework.com",
+    "patterns": {
+      "meta": [
+        "generator: ^frappe$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "GLPI": {
+    "name": "GLPI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "GLPI is an open-source IT Asset Management, issue tracking and service desk system.",
+    "website": "https://glpi-project.org",
+    "patterns": {
+      "meta": [
+        "glpi:csrf_token: "
+      ],
+      "scriptSrc": [
+        "//.*glpi.+common\\.min\\.js\\?v=(\\d+\\.\\d+\\.\\d+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Category 53"
+      ]
+    }
+  },
+  "Google Web Toolkit": {
+    "name": "Google Web Toolkit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Google Web Toolkit (GWT) is an open-source Java software development framework that makes writing AJAX applications.",
+    "website": "http://developers.google.com/web-toolkit",
+    "patterns": {
+      "meta": [
+        "gwt:property: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hamechio": {
+    "name": "Hamechio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Hamechio is a web application framework.",
+    "website": "https://hamech.io",
+    "patterns": {
+      "meta": [
+        "generator: hamech\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "HeliumWeb": {
+    "name": "HeliumWeb",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "HeliumWeb is a server-side (backend) web framework written in PHP & JavaScript",
+    "website": "https://heliumweb.adrikikicp-development.ml",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Adrikikicp Development"
+      ],
+      "scriptSrc": [
+        "helium/src/helium.js/helium_web.js",
+        "http://maven.enriquitomcfh.ml/helium.js/helium_web.js",
+        "http://maven.enriquitomcfh.ml/helium.js/helium_web.min.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Hono": {
+    "name": "Hono",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Hono is a small, simple, and ultrafast web framework for the Edge.",
+    "website": "https://hono.dev",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Hono"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Ktor": {
+    "name": "Ktor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Ktor is a Kotlin framework that allow developers to write asynchronous clients and servers applications, in Kotlin.",
+    "website": "https://ktor.io",
+    "patterns": {
+      "headers": [
+        "server: ^Ktor/debug$",
+        "x-engine: ^Ktor$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Livewire": {
+    "name": "Livewire",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Livewire is a full-stack Laravel framework for building dynamic interfaces.",
+    "website": "https://laravel-livewire.com",
+    "patterns": {
+      "html": [
+        "<[^>]{1,512}\\bwire:"
+      ],
+      "scriptSrc": [
+        "livewire(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "livewire(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Rich Text Editors"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Luana": {
+    "name": "Luana",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Luana is a web framework that uses web browser APIs and features to make a cross-platform web app look like a Native one and bring the same experience.",
+    "website": "https://luanaframework.github.io",
+    "patterns": {
+      "meta": [
+        "generator: ^Luana\\sFramework\\s([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Marko": {
+    "name": "Marko",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Marko is HTML re-imagined as a language for building dynamic and reactive user interfaces.",
+    "website": "https://markojs.com",
+    "patterns": {
+      "scripts": [
+        "\\.marko(\\.js)?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Category 66"
+      ]
+    }
+  },
+  "MasterkinG32 Framework": {
+    "name": "MasterkinG32 Framework",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "MasterkinG32 framework.",
+    "website": "https://masterking32.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-Framework: MasterkinG(?:)"
+      ],
+      "meta": [
+        "generator: ^MasterkinG(?:)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft ASP.NET": {
+    "name": "Microsoft ASP.NET",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages.",
+    "website": "https://www.asp.net",
+    "patterns": {
+      "headers": [
+        "set-cookie: \\.AspNetCore",
+        "X-Powered-By: ^ASP\\.NET",
+        "X-AspNet-Version: (.+)\\;version:\\1"
+      ],
+      "cookies": [
+        "ASPSESSION: ",
+        "ASP.NET_SessionId: "
+      ],
+      "html": [
+        "<input[^>]+name=\"__VIEWSTATE"
+      ],
+      "url": [
+        "\\.aspx?(?:$|\\?)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenSwoole": {
+    "name": "OpenSwoole",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "OpenSwoole is a high-performance, asynchronous, event-driven, coroutine-based PHP framework.",
+    "website": "https://openswoole.com",
+    "patterns": {
+      "headers": [
+        "Server: OpenSwoole(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "StimulusReflex": {
+    "name": "StimulusReflex",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "StimulusReflex lets you create reactive web interfaces with Ruby on Rails.",
+    "website": "https://docs.stimulusreflex.com",
+    "patterns": {
+      "scripts": [
+        "\\.stimulate"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "The.com": {
+    "name": "The.com",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "The.com is a low-code website building platform with community-created components that you can share and own.",
+    "website": "https://www.the.com",
+    "patterns": {
+      "scriptSrc": [
+        "the-dotcom-public-cdn\\.s3\\.amazonaws\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Category 51"
+      ]
+    }
+  },
+  "ThinkPHP": {
+    "name": "ThinkPHP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "ThinkPHP is an open-source PHP framework with MVC structure developed and maintained by Shanghai Topthink Company.",
+    "website": "http://www.thinkphp.cn",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ThinkPHP"
+      ],
+      "cookies": [
+        "thinkphp_show_page_trace: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vaadin": {
+    "name": "Vaadin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Vaadin is an open-source framework for building user interfaces and single-page applications using Java and TypeScript.",
+    "website": "https://vaadin.com",
+    "patterns": {
+      "scriptSrc": [
+        "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "vaadinBootstrap\\.js(?:\\?v=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yii": {
+    "name": "Yii",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Widgets",
+    "description": "Yii is an open-source, object-oriented, component-based MVC PHP web application framework.",
+    "website": "https://www.yiiframework.com",
+    "patterns": {
+      "cookies": [
+        "YII_CSRF_TOKEN: "
+      ],
+      "html": [
+        "<!\\[CDATA\\[YII-BLOCK-(?:HEAD|BODY-BEGIN|BODY-END)\\]",
+        "Powered by <a href=\"http://www\\.yiiframework\\.com/\" rel=\"external\">Yii Framework</a>",
+        "<input type=\"hidden\" value=\"[a-zA-Z0-9]{40}\" name=\"YII_CSRF_TOKEN\" \\/>"
+      ],
+      "scriptSrc": [
+        "/assets/[a-zA-Z0-9]{8}\\/yii\\.js$",
+        "/yii\\.(?:validation|activeForm)\\.js"
+      ],
+      "scripts": [
+        "/assets/[a-zA-Z0-9]{8}\\/yii\\.js$",
+        "/yii\\.(?:validation|activeForm)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adobe ColdFusion": {
+    "name": "Adobe ColdFusion",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://adobe.com/products/coldfusion-family.html",
+    "patterns": {
+      "headers": [
+        "Cookie: CFTOKEN="
+      ],
+      "html": [
+        "<!-- START headerTags\\.cfm"
+      ],
+      "url": [
+        "\\.cfm(?:$|\\?)"
+      ],
+      "scriptSrc": [
+        "/cfajax/"
+      ],
+      "scripts": [
+        "/cfajax/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AdonisJS": {
+    "name": "AdonisJS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://adonisjs.com",
+    "patterns": {
+      "cookies": [
+        "adonis-session-values: ",
+        "adonis-session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Akka HTTP": {
+    "name": "Akka HTTP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://akka.io",
+    "patterns": {
+      "headers": [
+        "Server: akka-http(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amber": {
+    "name": "Amber",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://amberframework.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Amber$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "actionhero.js": {
+    "name": "actionhero.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://www.actionherojs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: actionhero API"
+      ],
+      "scriptSrc": [
+        "actionheroClient\\.js"
+      ],
+      "scripts": [
+        "actionheroClient\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Blade": {
+    "name": "Blade",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://lets-blade.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: blade-([\\w.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Blazor": {
+    "name": "Blazor",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor",
+    "patterns": {
+      "scriptSrc": [
+        "blazor\\.server\\.js",
+        "blazor\\.host\\.min\\.js",
+        "blazor\\.webassembly\\.js"
+      ],
+      "scripts": [
+        "blazor\\.server\\.js",
+        "blazor\\.host\\.min\\.js",
+        "blazor\\.webassembly\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bonfire": {
+    "name": "Bonfire",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://cibonfire.com",
+    "patterns": {
+      "cookies": [
+        "bf_session: "
+      ],
+      "html": [
+        "Powered by <a[^>]+href=\"https?://(?:www\\.)?cibonfire\\.com[^>]*>Bonfire v([^<]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CodeIgniter": {
+    "name": "CodeIgniter",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://codeigniter.com",
+    "patterns": {
+      "cookies": [
+        "exp_tracker: ",
+        "ci_session: ",
+        "ci_csrf_token: ^(.+)$\\;version:\\1?2+:",
+        "exp_last_activity: "
+      ],
+      "html": [
+        "<input[^>]+name=\"ci_csrf_token\"\\;version:2+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Fat-Free Framework": {
+    "name": "Fat-Free Framework",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://fatfreeframework.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Fat-Free Framework$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Includable": {
+    "name": "Includable",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://includable.com",
+    "patterns": {
+      "headers": [
+        "X-Includable-Version: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Java Servlet": {
+    "name": "Java Servlet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://www.oracle.com/technetwork/java/index-jsp-135475.html",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Servlet(?:\\/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JavaServer Faces": {
+    "name": "JavaServer Faces",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://javaserverfaces.java.net",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: JSF(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JavaServer Pages": {
+    "name": "JavaServer Pages",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://www.oracle.com/technetwork/java/javaee/jsp/index.html",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: JSP(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kemal": {
+    "name": "Kemal",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://kemalcr.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Kemal"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kohana": {
+    "name": "Kohana",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://kohanaframework.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Kohana Framework ([\\d.]+)\\;version:\\1"
+      ],
+      "cookies": [
+        "kohanasession: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Lift": {
+    "name": "Lift",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://liftweb.net",
+    "patterns": {
+      "headers": [
+        "X-Lift-Version: (.+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mojolicious": {
+    "name": "Mojolicious",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://mojolicio.us",
+    "patterns": {
+      "headers": [
+        "server: ^mojolicious",
+        "x-powered-by: mojolicious"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mono": {
+    "name": "Mono",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://mono-project.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Mono"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Neos Flow": {
+    "name": "Neos Flow",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://flow.neos.io",
+    "patterns": {
+      "headers": [
+        "X-Flow-Powered: Flow/?(.+)?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Nette Framework": {
+    "name": "Nette Framework",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://nette.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Nette Framework"
+      ],
+      "cookies": [
+        "nette-browser: "
+      ],
+      "html": [
+        "<input[^>]+data-nette-rules",
+        "<div[^>]+id=\"snippet-",
+        "<input[^>]+id=\"frm-"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Phoenix": {
+    "name": "Phoenix",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://github.com/Sazito/phoenix/",
+    "patterns": {
+      "meta": [
+        "generator: ^phoenix"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Play": {
+    "name": "Play",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://www.playframework.com",
+    "patterns": {
+      "cookies": [
+        "PLAY_SESSION: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "pinoox": {
+    "name": "pinoox",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://pinoox.com",
+    "patterns": {
+      "cookies": [
+        "pinoox_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Revel": {
+    "name": "Revel",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://revel.github.io",
+    "patterns": {
+      "cookies": [
+        "REVEL_FLASH: ",
+        "REVEL_SESSION: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sails.js": {
+    "name": "Sails.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://sailsjs.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Sails(?:$|[^a-z0-9])"
+      ],
+      "cookies": [
+        "sails.sid: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sapper": {
+    "name": "Sapper",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://sapper.svelte.dev",
+    "patterns": {
+      "html": [
+        "<script[^>]*>__SAPPER__"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Snap": {
+    "name": "Snap",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://snapframework.com",
+    "patterns": {
+      "headers": [
+        "Server: Snap/([.\\d]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Spring": {
+    "name": "Spring",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://spring.io/",
+    "patterns": {
+      "headers": [
+        "X-Application-Context: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TwistPHP": {
+    "name": "TwistPHP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://twistphp.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: TwistPHP"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "total.js": {
+    "name": "total.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://totaljs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^total\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Web2py": {
+    "name": "Web2py",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://web2py.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: web2py"
+      ],
+      "meta": [
+        "generator: ^Web2py"
+      ],
+      "scriptSrc": [
+        "web2py\\.js"
+      ],
+      "scripts": [
+        "web2py\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Xeora": {
+    "name": "Xeora",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://www.xeora.org",
+    "patterns": {
+      "headers": [
+        "Server: XeoraEngine",
+        "X-Powered-By: XeoraCube"
+      ],
+      "html": [
+        "<input type=\"hidden\" name=\"_sys_bind_\\d+\" id=\"_sys_bind_\\d+\" />"
+      ],
+      "scriptSrc": [
+        "/_bi_sps_v.+\\.js"
+      ],
+      "scripts": [
+        "/_bi_sps_v.+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ZK": {
+    "name": "ZK",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://zkoss.org",
+    "patterns": {
+      "html": [
+        "<!-- ZK [.\\d\\s]+-->"
+      ],
+      "scriptSrc": [
+        "zkau/"
+      ],
+      "scripts": [
+        "zkau/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Swiftlet": {
+    "name": "Swiftlet",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://swiftlet.org",
+    "patterns": {
+      "headers": [
+        "X-Generator: Swiftlet",
+        "X-Powered-By: Swiftlet",
+        "X-Swiftlet-Cache: "
+      ],
+      "html": [
+        "Powered by <a href=\"[^>]+Swiftlet"
+      ],
+      "meta": [
+        "generator: Swiftlet"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "ABP Framework": {
+    "name": "ABP Framework",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "ABP Framework is a complete infrastructure to create modern web applications by following the best practices and conventions of software development.",
+    "website": "https://abp.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "ASP.NET Boilerplate": {
+    "name": "ASP.NET Boilerplate",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "ASP.NET Boilerplate is a general purpose application framework especially designed for new modern web applications. It uses already familiar tools and implements best practices around them to provide you a SOLID development experience.",
+    "website": "https://www.aspnetboilerplate.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Fresh": {
+    "name": "Fresh",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Fresh is a full stack modern web framework for JavaScript and TypeScript developers, designed to make it trivial to create high-quality, performant, and personalized web applications.",
+    "website": "https://fresh.deno.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Helix Ultimate": {
+    "name": "Helix Ultimate",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Helix Ultimate a free template framework for Joomla.",
+    "website": "https://www.joomshaper.com/joomla-templates/helixultimate",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Macaron": {
+    "name": "Macaron",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Macaron is a high productive and modular web framework in Go.",
+    "website": "https://go-macaron.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Phoenix Framework": {
+    "name": "Phoenix Framework",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Phoenix Framework is an open-source web application framework built using the Elixir programming language.",
+    "website": "https://www.phoenixframework.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Phoenix LiveView": {
+    "name": "Phoenix LiveView",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Phoenix LiveView is a library that brings live, interactive, real-time user experiences to your Phoenix applications.",
+    "website": "https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "Qwik": {
+    "name": "Qwik",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Qwik is designed for the fastest possible page load time, by delivering pure HTML with near 0 JavaScript.",
+    "website": "https://qwik.builder.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "SolidStart": {
+    "name": "SolidStart",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "SolidStart is the Solid app framework.",
+    "website": "https://start.solidjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets",
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Stencil": {
+    "name": "Stencil",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Widgets",
+    "description": "Stenciljs is an open-source web component compiler that enables developers to create reusable, interoperable UI components that can work across different frameworks and platforms.",
+    "website": "https://stenciljs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ]
+    }
+  },
+  "AngularDart": {
+    "name": "AngularDart",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://webdev.dartlang.org/angular/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apache Wicket": {
+    "name": "Apache Wicket",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Widgets",
+    "description": "",
+    "website": "http://wicket.apache.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ionic": {
+    "name": "Ionic",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://ionicframework.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Shiny": {
+    "name": "Shiny",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Widgets",
+    "description": "",
+    "website": "https://shiny.rstudio.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

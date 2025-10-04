@@ -1,0 +1,98 @@
+{
+  "Amazon ALB": {
+    "name": "Amazon ALB",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 65",
+    "description": "Amazon Application Load Balancer (ALB) distributes incoming application traffic to increase availability and support content-based routing.",
+    "website": "https://aws.amazon.com/elasticloadbalancing/",
+    "patterns": {
+      "cookies": [
+        "AWSALBCORS: ",
+        "AWSALB: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 65"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amazon ELB": {
+    "name": "Amazon ELB",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 65",
+    "description": "AWS ELB is a network load balancer service provided by Amazon Web Services for distributing traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions.",
+    "website": "https://aws.amazon.com/elasticloadbalancing/",
+    "patterns": {
+      "headers": [
+        "Server: awselb"
+      ],
+      "cookies": [
+        "AWSELB: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 65"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Application Request Routing": {
+    "name": "Application Request Routing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 65",
+    "description": "Application Request Routing (ARR) is an extension to Internet Information Server (IIS), which enables an IIS server to function as a load balancer.",
+    "website": "https://www.iis.net/downloads/microsoft/application-request-routing",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^ARR/([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 65"
+      ]
+    }
+  },
+  "Azure Front Door": {
+    "name": "Azure Front Door",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 65",
+    "description": "Azure Front Door is a scalable and secure entry point for fast delivery of your global web applications.",
+    "website": "https://docs.microsoft.com/en-us/azure/frontdoor/",
+    "patterns": {
+      "headers": [
+        "X-Azure-Ref: "
+      ],
+      "cookies": [
+        "ASLBSA: ",
+        "ASLBSACORS: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 65"
+      ]
+    }
+  }
+}

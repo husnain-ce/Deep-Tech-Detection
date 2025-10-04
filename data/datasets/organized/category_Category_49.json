@@ -1,0 +1,26 @@
+{
+  "Planet": {
+    "name": "Planet",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 49",
+    "description": "Planet is a feed aggregator, which creates pages with entries from the original feeds in chronological order, most recent entries first.",
+    "website": "http://planetplanet.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Planet(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 49"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

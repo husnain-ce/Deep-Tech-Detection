@@ -1,0 +1,103 @@
+{
+  "url": "https://shopify.com",
+  "final_url": "https://www.shopify.com/",
+  "analysis_time": 3.785759925842285,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515379.0401008
+    },
+    {
+      "name": "Cart Functionality",
+      "confidence": 85,
+      "category": "Web Servers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<a[^>]*href=[^>]*/Checkout",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515379.993115
+    },
+    {
+      "name": "Shopify",
+      "confidence": 85,
+      "category": "Category 1",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "https://cdn.shopify.com/shopifycloud/world/brochure/production-homepage/assets/home.v4-K1Ay_BiY.css",
+          "match": "cdn\\.shopify\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://cdn.shopify.com/shopifycloud/world/brochure/production-homepage/assets/PageLayout-CnziH6HH.css",
+          "match": "cdn\\.shopify\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://www.shopify.com",
+      "description": "Hosted ecommerce & CMS.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515382.24903
+    }
+  ],
+  "metadata": {
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "description": "Try Shopify free and start a business or grow an existing one. Get more than ecommerce software with tools to manage every part of your business.",
+    "content_length": 443015,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 3,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 3,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 3.79,
+      "technologies_per_second": 0.79
+    }
+  },
+  "errors": []
+}

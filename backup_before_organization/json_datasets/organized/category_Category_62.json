@@ -1,0 +1,870 @@
+{
+  "Netlify": {
+    "name": "Netlify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Netlify providers hosting and server-less backend services for web applications and static websites.",
+    "website": "https://www.netlify.com/",
+    "patterns": {
+      "headers": [
+        "Server: ^Netlify",
+        "Server: (?i)Netlify|NetlifyEdge",
+        "X-NF-Request-ID: "
+      ],
+      "url": [
+        "^https?://[^/]+\\.netlify\\.(?:com|app)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Vercel": {
+    "name": "Vercel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Vercel is a cloud platform for static frontends and serverless functions.",
+    "website": "https://vercel.com",
+    "patterns": {
+      "headers": [
+        "x-now-trace: ",
+        "x-vercel-cache: ",
+        "server: ^now|Vercel$",
+        "x-vercel-id: ",
+        "server: (?i)vercel",
+        "server: ^now$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Heroku": {
+    "name": "Heroku",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Heroku is a cloud platform as a service (PaaS) supporting several programming languages.",
+    "website": "https://www.heroku.com/",
+    "patterns": {
+      "headers": [
+        "Via: [\\d.-]+ vegur$",
+        "Server: (?i)Cowboy"
+      ],
+      "url": [
+        "\\.herokuapp\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "GitHub Pages": {
+    "name": "GitHub Pages",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "GitHub Pages is a static site hosting service.",
+    "website": "https://pages.github.com/",
+    "patterns": {
+      "headers": [
+        "Server: ^GitHub\\.com$",
+        "Server: (?i)GitHub.com",
+        "X-GitHub-Request-Id: "
+      ],
+      "url": [
+        "^https?://[^/]+\\.github\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Render": {
+    "name": "Render",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Render is a cloud computing platform that provides a wide range of services, including web hosting, cloud computing, and application development. Render offers several hosting options, including static site hosting, web application hosting, and managed databases.",
+    "website": "https://render.com",
+    "patterns": {
+      "headers": [
+        "x-render-origin-server: Render",
+        "Server: (?i)render"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Fly.io": {
+    "name": "Fly.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Fly is a platform for running full stack apps and databases.",
+    "website": "https://fly.io",
+    "patterns": {
+      "headers": [
+        "server: ^Fly/[\\w]+\\s\\(.*\\)$",
+        "via: ^.*\\sfly\\.io$",
+        "Fly-Request-Id: .+",
+        "fly-request-id: "
+      ],
+      "cookies": [
+        "_fly: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Acquia Cloud Platform": {
+    "name": "Acquia Cloud Platform",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Acquia Cloud Platform is a Drupal-tuned application lifecycle management suite with an infrastructure to support Drupal deployment workflow processes.",
+    "website": "https://www.acquia.com/products/drupal-cloud/cloud-platform",
+    "patterns": {
+      "headers": [
+        "X-AH-Environment: ^(next)?.*$\\;version:\\1?Next:",
+        "X-AH-Environment: ^\\w+$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amazon Web Services": {
+    "name": "Amazon Web Services",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Amazon Web Services (AWS) is a comprehensive cloud services platform offering compute power, database storage, content delivery and other functionality.",
+    "website": "https://aws.amazon.com/",
+    "patterns": {
+      "headers": [
+        "x-amz-delete-marker: ",
+        "x-amz-err-code: ",
+        "x-amz-err-message: ",
+        "x-amz-id-2: ",
+        "x-amz-req-time-micros: ",
+        "x-amz-request-id: ",
+        "x-amz-rid: ",
+        "x-amz-version-id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Appian": {
+    "name": "Appian",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Appian is an enterprise low-code application platform.",
+    "website": "https://www.appian.com",
+    "patterns": {
+      "scriptSrc": [
+        "tempo/ui/sail-client/embeddedBootstrap\\.nocache\\.js"
+      ],
+      "scripts": [
+        "/suite/tempo/ui/sail-client/embeddedBootstrap.nocache.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Azure": {
+    "name": "Azure",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Azure is a cloud computing service for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+    "website": "https://azure.microsoft.com",
+    "patterns": {
+      "headers": [
+        "x-ms-client-request-id: ",
+        "azure-slotname: ",
+        "azure-regionname: ",
+        "azure-version: ",
+        "x-ms-gateway-requestid: ",
+        "server: ^Windows-Azure",
+        "azure-sitename: ",
+        "x-ms-correlation-request-id: "
+      ],
+      "cookies": [
+        "ARRAffinity: ",
+        "TiPMix: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Chabokan": {
+    "name": "Chabokan",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Chabokan is a cloud services provider, offering a wide range of incorporated cloud services including Cloud Object Storage, DBaaS, BaaS, and PaaS.",
+    "website": "https://chabokan.net",
+    "patterns": {
+      "headers": [
+        "ch-powered-by: Chabokan\\s\\(chabokan\\.net\\)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Cloudways": {
+    "name": "Cloudways",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Cloudways offers managed cloud-hosting services for WordPress sites on a cloud server where multiple copies of your content will be replicated throughout your chosen data center.",
+    "website": "https://www.cloudways.com",
+    "patterns": {
+      "headers": [
+        "cache-provider: CLOUDWAYS-CACHE-DE"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Deno Deploy": {
+    "name": "Deno Deploy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Deno Deploy is a distributed system that runs JavaScript, TypeScript, and WebAssembly at the edge, worldwide.",
+    "website": "https://deno.land/",
+    "patterns": {
+      "headers": [
+        "server: ^deno/*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Deta": {
+    "name": "Deta",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Deta is a cloud platform for building and deploying apps.",
+    "website": "https://deta.sh",
+    "patterns": {
+      "headers": [
+        "Server: ^Deta$"
+      ],
+      "url": [
+        "^https?://[^/]+\\.deta\\.(?:app|dev)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Fing": {
+    "name": "Fing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Fing is a cloud service to deploy and manage your applications without being worried about your infrastructure and environment.",
+    "website": "https://fing.ir",
+    "patterns": {
+      "headers": [
+        "server: ^Fing"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Glitch": {
+    "name": "Glitch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Glitch is a collaborative programming environment that lives in your browser and deploys code as you type.",
+    "website": "https://glitch.com",
+    "patterns": {
+      "url": [
+        "https://[^.]+\\.glitch\\.me"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Lagoon": {
+    "name": "Lagoon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "The Open Source Application Delivery Platform for Kubernetes.",
+    "website": "https://lagoon.sh/",
+    "patterns": {
+      "headers": [
+        "X-LAGOON: ",
+        "x-lagoon: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Liquid Web": {
+    "name": "Liquid Web",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Liquid Web is a US-based host offering premium managed web hosting solutions.",
+    "website": "https://www.liquidweb.com",
+    "patterns": {
+      "headers": [
+        "x-lw-cache: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Nexcess": {
+    "name": "Nexcess",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Nexcess is a web hosting service.",
+    "website": "https://www.nexcess.net",
+    "patterns": {
+      "headers": [
+        "x-hostname: nxcli\\.net$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ]
+    }
+  },
+  "Pantheon": {
+    "name": "Pantheon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Pantheon is a WebOps (Website Operations) and Management Platform for WordPress and Drupal.",
+    "website": "https://pantheon.io/",
+    "patterns": {
+      "headers": [
+        "Server: ^Pantheon",
+        "x-pantheon-styx-hostname: ",
+        "x-styx-req-id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pressable": {
+    "name": "Pressable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Pressable is a managed hoting platform for WordPress.",
+    "website": "https://pressable.com",
+    "patterns": {
+      "headers": [
+        "host-header: ^Pressable"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "PythonAnywhere": {
+    "name": "PythonAnywhere",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "PythonAnywhere is an online integrated development environment (IDE) and web hosting service (Platform as a service) based on the Python programming language.",
+    "website": "https://www.pythonanywhere.com",
+    "patterns": {
+      "headers": [
+        "Server: ^PythonAnywhere$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ]
+    }
+  },
+  "SiteGround": {
+    "name": "SiteGround",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "SiteGround is a web hosting service.",
+    "website": "https://www.siteground.com",
+    "patterns": {
+      "headers": [
+        "host-header: 192fc2e7e50945beb8231a492d6a8024|b7440e60b07ee7b8044761568fab26e8|624d5be7be38418a3e2a818cc8b7029b|6b7412fb82ca5edfd0917e3957f05d89"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WP Engine": {
+    "name": "WP Engine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "WP Engine is a website hosting provider.",
+    "website": "https://wpengine.com",
+    "patterns": {
+      "headers": [
+        "X-WPE-Loopback-Upstream-Addr: ",
+        "X-Powered-By: WP Engine",
+        "X-Pass-Why: ",
+        "wpe-backend: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WordPress VIP": {
+    "name": "WordPress VIP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "WordPress VIP is a managed hosting platform for WordPress.",
+    "website": "https://wpvip.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^WordPress\\.com VIP",
+        "x-powered-by: ^WordPress VIP|wpvip\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WordPress.com": {
+    "name": "WordPress.com",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "WordPress.com is a platform for self-publishing that is popular for blogging and other works.",
+    "website": "https://wordpress.com",
+    "patterns": {
+      "headers": [
+        "host-header: WordPress\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Automattic": {
+    "name": "Automattic",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 62",
+    "description": "Automattic is a freemium blogging service and an open-source blogging software.",
+    "website": "https://automattic.com/",
+    "patterns": {
+      "headers": [
+        "X-Hacker: (?:automattic\\.com/jobs|wpvip\\.com/careers)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Flywheel": {
+    "name": "Flywheel",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 62",
+    "description": "",
+    "website": "https://getflywheel.com",
+    "patterns": {
+      "headers": [
+        "x-fw-static: ",
+        "x-fw-serve: ",
+        "x-fw-type: ",
+        "x-fw-server: ^Flywheel(?:/([\\d.]+))?\\;version:\\1",
+        "x-fw-hash: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kinsta": {
+    "name": "Kinsta",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 62",
+    "description": "",
+    "website": "https://kinsta.com",
+    "patterns": {
+      "headers": [
+        "x-kinsta-cache: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pagely": {
+    "name": "Pagely",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 62",
+    "description": "",
+    "website": "https://pagely.com/",
+    "patterns": {
+      "headers": [
+        "Server: ^Pagely"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Platform.sh": {
+    "name": "Platform.sh",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 62",
+    "description": "",
+    "website": "https://platform.sh",
+    "patterns": {
+      "headers": [
+        "x-platform-processor: ",
+        "x-platform-cluster: ",
+        "x-platform-server: ",
+        "x-platform-router: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Seravo": {
+    "name": "Seravo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 62",
+    "description": "",
+    "website": "https://seravo.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^Seravo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudflare Workers": {
+    "name": "Cloudflare Workers",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 62",
+    "description": "Cloudflare Workers is a serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure.",
+    "website": "https://workers.cloudflare.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "OVHcloud": {
+    "name": "OVHcloud",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 62",
+    "description": "OVHcloud is a global, cloud provider delivering hosted private cloud, public cloud, and dedicated server solutions.",
+    "website": "https://www.ovhcloud.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62",
+        "Category 88"
+      ]
+    }
+  },
+  "Vultr": {
+    "name": "Vultr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 62",
+    "description": "Vultr is a cloud computing service provider.",
+    "website": "https://www.vultr.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  },
+  "Yandex.Cloud": {
+    "name": "Yandex.Cloud",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 62",
+    "description": "Yandex.Cloud is a public cloud platform where companies can create and develop projects using Yandex's scalable computing power, advanced technologies, and infrastructure.",
+    "website": "https://cloud.yandex.com/en/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 62"
+      ]
+    }
+  }
+}

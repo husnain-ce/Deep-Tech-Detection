@@ -1,0 +1,569 @@
+{
+  "Auth0": {
+    "name": "Auth0",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Auth0 provides authentication and authorisation as a service.",
+    "website": "https://auth0.github.io/auth0.js/index.html",
+    "patterns": {
+      "headers": [
+        "x-auth0-requestid: "
+      ],
+      "scriptSrc": [
+        "/auth0(?:-js)?/([\\d.]+)/auth0(?:.min)?\\.js\\;version:\\1",
+        "/auth0-js@([\\d.]+)/([a-z]+)/auth0\\.min\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/auth0(?:-js)?/([\\d.]+)/auth0(?:.min)?\\.js\\;version:\\1",
+        "cdn\\.auth0\\.com/.*\\.js",
+        "/auth0-js@([\\d.]+)/([a-z]+)/auth0\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Okta": {
+    "name": "Okta",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Okta is a platform in the Identity-as-a-Service (IDaaS) category. Okta features include Provisioning, Single Sign-On (SSO), Active Directory (AD) and LDAP integration, the centralized de-provisioning of users, multi-factor authentication (MFA), mobile identity management.",
+    "website": "https://developer.okta.com",
+    "patterns": {
+      "scriptSrc": [
+        "oktacdn\\.com/.+/([\\d.]+)/\\;version:\\1"
+      ],
+      "scripts": [
+        "oktacdn\\.com/.+/([\\d.]+)/\\;version:\\1",
+        "okta-auth-js|okta-signin-widget"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Apple Sign-in": {
+    "name": "Apple Sign-in",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Apple Sign-in is based on OAuth 2.0 and OpenID Connect, and provides a privacy-friendly way for users to sign in to websites and apps.",
+    "website": "https://developer.apple.com/sign-in-with-apple/",
+    "patterns": {
+      "meta": [
+        "appleid-signin-client-id: "
+      ],
+      "scriptSrc": [
+        "appleid\\.auth\\.js"
+      ],
+      "html": [
+        "<meta[ˆ>]*appleid-signin-client-id"
+      ],
+      "scripts": [
+        "appleid\\.auth\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Auth0 Lock": {
+    "name": "Auth0 Lock",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Auth0 Lock enables you to easily add social identity providers, so that your users can log in seamlessly using any desired provider.",
+    "website": "https://auth0.com/docs/libraries/lock",
+    "patterns": {
+      "scriptSrc": [
+        "/lock/([\\d.]+)/lock(?:.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/lock/([\\d.]+)/lock(?:.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Azure AD B2C": {
+    "name": "Azure AD B2C",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Azure Active Directory B2C is a customer identity access management (CIAM) solution.",
+    "website": "https://azure.microsoft.com/en-us/services/active-directory/external-identities/b2c/",
+    "patterns": {
+      "url": [
+        "https.+\\.b2clogin\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "GetSocial": {
+    "name": "GetSocial",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "GetSocial is a social analytics and publishing platform.",
+    "website": "https://getsocial.io",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.at\\.getsocial\\.io"
+      ],
+      "scripts": [
+        "api\\.at\\.getsocial\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Sign-in": {
+    "name": "Google Sign-in",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Google Sign-In is a secure authentication system that reduces the burden of login for users, by enabling them to sign in with their Google account.",
+    "website": "https://developers.google.com/identity/sign-in/web",
+    "patterns": {
+      "meta": [
+        "google-signin-client_id: ",
+        "google-signin-scope: "
+      ],
+      "scriptSrc": [
+        "accounts\\.google\\.com/gsi/client"
+      ],
+      "html": [
+        "<meta[^>]*google-signin-client_id",
+        "<meta[^>]*google-signin-scope",
+        "<iframe[^>]*accounts\\.google\\.com/o/oauth2",
+        "<a[^>]*accounts\\.google\\.com/o/oauth2"
+      ],
+      "scripts": [
+        "apis\\.google\\.com/js/platform\\.js",
+        "accounts\\.google\\.com/gsi/client"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Linkedin Sign-in": {
+    "name": "Linkedin Sign-in",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Linkedin Sign-In is an authentication system that reduces the burden of login for users, by enabling them to sign in with their Linkedin account.",
+    "website": "https://www.linkedin.com/developers",
+    "patterns": {
+      "scriptSrc": [
+        "platform\\.linkedin\\.com/(?:.*)?in\\.js(?:\\?version)?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "LoginRadius": {
+    "name": "LoginRadius",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "LoginRadius is a cloud based SaaS Customer Identity Access Management platform based in Canada.",
+    "website": "https://www.loginradius.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.loginradius\\.com",
+        "\\.lrcontent\\.com"
+      ],
+      "scripts": [
+        "\\.loginradius\\.com",
+        "\\.lrcontent\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NextAuth.js": {
+    "name": "NextAuth.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "NextAuth.js is a complete open-source authentication solution for Next.js applications.",
+    "website": "https://next-auth.js.org",
+    "patterns": {
+      "cookies": [
+        "__Host-next-auth.csrf-token: ",
+        "__Secure-next-auth.callback-url: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "OneAll": {
+    "name": "OneAll",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "OneAll is a social login solution enables your users to sign into their accounts on your website or mobile app using their login details from networking sites.",
+    "website": "https://www.oneall.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.oneall\\.com/socialize"
+      ],
+      "scripts": [
+        "api\\.oneall\\.com/socialize"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Oxi Social Login": {
+    "name": "Oxi Social Login",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Oxi Social Login provides one click login with services like Facebook, Google and many more.",
+    "website": "https://www.oxiapps.com/",
+    "patterns": {
+      "scriptSrc": [
+        "social-login\\.oxiapps\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "SimpleSAMLphp": {
+    "name": "SimpleSAMLphp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "SimpleSAMLphp is an open-source PHP authentication application that provides support for SAML 2.0 as a Service Provider (SP) or Identity Provider (IdP).",
+    "website": "https://simplesamlphp.org",
+    "patterns": {
+      "cookies": [
+        "SimpleSAML: ",
+        "SimpleSAMLSessionID: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Super Socializer": {
+    "name": "Super Socializer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 69",
+    "description": "Super Socializer is a multipurpose social media plugin for WordPress.",
+    "website": "https://super-socializer-wordpress.heateor.com",
+    "patterns": {
+      "scriptSrc": [
+        "plugins/super-socializer/.+?ver=([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "plugins/super-socializer/.+?ver=([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SAP Customer Data Cloud Sign-in": {
+    "name": "SAP Customer Data Cloud Sign-in",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 69",
+    "description": "",
+    "website": "https://www.sap.com/uk/acquired-brands/what-is-gigya.html",
+    "patterns": {
+      "scriptSrc": [
+        "\\.gigya\\.com/JS/gigya\\.js"
+      ],
+      "scripts": [
+        "\\.gigya\\.com/JS/gigya\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amazon Cognito": {
+    "name": "Amazon Cognito",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps. Amazon Cognito supports sign-in with social identity providers, such as Apple, Facebook, Google, and Amazon, and enterprise identity providers via SAML 2.0 and OpenID Connect.",
+    "website": "https://aws.amazon.com/cognito/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Apereo CAS": {
+    "name": "Apereo CAS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Apereo CAS is an open and well-documented authentication protocol. The primary implementation of the protocol is an open-source Java server component by the same name hosted here, with support for a plethora of additional authentication protocols and features.",
+    "website": "https://www.apereo.org/projects/cas",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Clerk": {
+    "name": "Clerk",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Clerk is a user management platform.",
+    "website": "https://clerk.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Facebook Login": {
+    "name": "Facebook Login",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Facebook Login is a way for people to create accounts and log into your app across multiple platforms.",
+    "website": "https://developers.facebook.com/docs/facebook-login/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "LINE Login": {
+    "name": "LINE Login",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "LINE Login is an API that allows you to implement a login function into your services, regardless of whether they are web apps or native apps.",
+    "website": "https://developers.line.biz/en/services/line-login/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Login with Amazon": {
+    "name": "Login with Amazon",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Login with Amazon allows you use your Amazon user name and password to sign into and share information with participating third-party websites or apps.",
+    "website": "https://developer.amazon.com/apps-and-games/login-with-amazon",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Authentication": {
+    "name": "Microsoft Authentication",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "The Microsoft Authentication Library for JavaScript enables both client-side and server-side JavaScript applications to authenticate users using Azure AD for work and school accounts (AAD), Microsoft personal accounts (MSA), and social identity providers like Facebook, Google, LinkedIn, Microsoft accounts, etc. through Azure AD B2C service.",
+    "website": "https://github.com/AzureAD/microsoft-authentication-library-for-js",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69",
+        "Category 59"
+      ]
+    }
+  },
+  "Twilio Authy": {
+    "name": "Twilio Authy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "Twilio Authy provides Two-factor authentication (2FA) adds an additional layer of protection beyond passwords.",
+    "website": "https://authy.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "uLogin": {
+    "name": "uLogin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "uLogin is a tool that enables its users to get unified access to various Internet services.",
+    "website": "https://ulogin.ru",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  },
+  "Facebook Sign-in": {
+    "name": "Facebook Sign-in",
+    "source": "technology_lookup",
+    "confidence": 65,
+    "category": "Category 69",
+    "description": "FaceBook sign-in allows uses to create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+    "website": "https://developers.facebook.com/docs/facebook-login/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 69"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2687 @@
+{
+  "AddShoppers": {
+    "name": "AddShoppers",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "AddShoppers is the social media marketing command center for small-medium online retailers.",
+    "website": "http://www.addshoppers.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn\\.)?shop\\.pe/widget/"
+      ],
+      "scripts": [
+        "(?:cdn\\.)?shop\\.pe/widget/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Security"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AddThis": {
+    "name": "AddThis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "AddThis is a social bookmarking service that can be integrated into a website with the use of a web widget.",
+    "website": "http://www.addthis.com",
+    "patterns": {
+      "scriptSrc": [
+        "addthis\\.com/js/"
+      ],
+      "scripts": [
+        "addthis\\.com/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AddToAny": {
+    "name": "AddToAny",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "AddToAny is a universal sharing platform that can be integrated into a website by use of a web widget or plugin.",
+    "website": "http://www.addtoany.com",
+    "patterns": {
+      "scriptSrc": [
+        "addtoany\\.com/menu/page\\.js"
+      ],
+      "scripts": [
+        "addtoany\\.com/menu/page\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AnswerDash": {
+    "name": "AnswerDash",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "AnswerDash is a question and answer platform that serves business customers thereby reducing support costs and revealing customer needs.",
+    "website": "https://www.answerdash.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.answerdash\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Babylist": {
+    "name": "Babylist",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Babylist is a universal wish list.",
+    "website": "https://www.babylist.com",
+    "patterns": {
+      "scriptSrc": [
+        "babylist\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "BandsInTown Events Widget": {
+    "name": "BandsInTown Events Widget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Bandsintown Events Widget is a free widget which makes it simple to embed your event listings and allow fans to buy tickets, RSVP, follow you and join your Email & SMS lists.",
+    "website": "https://artists.bandsintown.com/support/events-widget",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.bandsintown\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Booking.com widget": {
+    "name": "Booking.com widget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Booking.com is one of the largest ecommerce travel companies in the world. As an affiliate member, you can make up to 40% commission.",
+    "website": "https://www.booking.com/affiliate-program/v2/selfmanaged.html",
+    "patterns": {
+      "scriptSrc": [
+        "q\\.bstatic\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Booksy": {
+    "name": "Booksy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Booksy is a booking system for people looking to schedule appointments for health and beauty services.",
+    "website": "https://booksy.com/",
+    "patterns": {
+      "scriptSrc": [
+        "booksy\\.com/widget/code\\.js"
+      ],
+      "scripts": [
+        "booksy\\.com/widget/code\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Buy me a coffee": {
+    "name": "Buy me a coffee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Buy me a coffee is a service for online content creators that they may use to receive tips and donations to support their work.",
+    "website": "https://www.buymeacoffee.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdnjs\\.buymeacoffee\\.com/([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 111"
+      ]
+    }
+  },
+  "Caast.tv": {
+    "name": "Caast.tv",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Caast.tv is a digital commercial animation solution integrated into the ecommerce customer journey.",
+    "website": "https://en.caast.tv",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.caast\\.tv/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Chatango": {
+    "name": "Chatango",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Chatango is a website used for connecting to a large selection of users.",
+    "website": "https://chatango.com",
+    "patterns": {
+      "scriptSrc": [
+        "st\\.chatango\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Checkfront": {
+    "name": "Checkfront",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Checkfront is a cloud-based booking management application and ecommerce platform.",
+    "website": "https://www.checkfront.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.checkfront\\.com/"
+      ],
+      "scripts": [
+        "\\.checkfront\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloverly": {
+    "name": "Cloverly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Cloverly is an API integration for ethical ecommerce brands to help their customers offset the carbon footprint of their online transactions.",
+    "website": "https://www.cloverly.com",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.cloverly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "CoconutSoftware": {
+    "name": "CoconutSoftware",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Coconut is a cloud-based appointment scheduling solution designed for enterprise financial services organisations such as credit unions, retail banks and more.",
+    "website": "https://www.coconutsoftware.com/",
+    "patterns": {
+      "cookies": [
+        "coconut_calendar: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Daily Deals": {
+    "name": "Daily Deals",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Daily Deals is a flash sale, limited-time discounts, countdown timers, and sales analytics solution.",
+    "website": "https://dailydeals.ai",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.dailydeals\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "DailyKarma": {
+    "name": "DailyKarma",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "DailyKarma is a turnkey cause marketing solutions for ecommerce merchants.",
+    "website": "https://www.dailykarma.com",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.dailykarma\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "EX.CO": {
+    "name": "EX.CO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "EX.CO (formerly Playbuzz) is an online publishing platform for publishers, brand agencies, and individual content creators to create content in interactive formats such as polls, quizzes, lists, video snippets, slideshows, and countdowns.",
+    "website": "https://ex.co",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ex\\.co",
+        "\\.playbuzz\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Elfsight": {
+    "name": "Elfsight",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Elfsight is an all-in-one platform offering 70+ customisable widgets for websites.",
+    "website": "https://elfsight.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.elfsight\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "EmbedSocial": {
+    "name": "EmbedSocial",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "EmbedSocial is a social media management platform.",
+    "website": "https://embedsocial.com",
+    "patterns": {
+      "scriptSrc": [
+        "embedsocial\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Embedly": {
+    "name": "Embedly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Embedly is a service that allows developers to convert URLs into rich previews and embeddable content.",
+    "website": "https://embed.ly",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.embedly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Envybox": {
+    "name": "Envybox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Envybox is a multiservice for increasing sales.",
+    "website": "https://envybox.io",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.saas-support\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 52"
+      ]
+    }
+  },
+  "Eveve": {
+    "name": "Eveve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Eveve is a restaurant table booking widget.",
+    "website": "https://www.eveve.com",
+    "patterns": {
+      "html": [
+        "<iframe[^>]*[\\w]+\\.eveve\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FareHarbor": {
+    "name": "FareHarbor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "FareHarbor is an booking and schedule management solution intended for tour and activity companies.",
+    "website": "https://fareharbor.com",
+    "patterns": {
+      "html": [
+        "<iframe[^>]+fareharbor"
+      ],
+      "scriptSrc": [
+        "fareharbor\\.com/embeds/api/"
+      ],
+      "scripts": [
+        "fareharbor\\.com/embeds/api/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FlexSlider": {
+    "name": "FlexSlider",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "FlexSlider is a free jQuery slider plugin.",
+    "website": "https://woocommerce.com/flexslider/",
+    "patterns": {
+      "scriptSrc": [
+        "jquery\\.flexslider(?:\\.min)?\\.js$"
+      ],
+      "scripts": [
+        "jquery\\.flexslider(?:\\.min)?\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FlippingBook": {
+    "name": "FlippingBook",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "FlippingBook is a web-based software platform that enables users to create, publish, and share digital publications such as magazines, brochures, catalogs, and presentations.",
+    "website": "https://flippingbook.com",
+    "patterns": {
+      "scriptSrc": [
+        "online\\.flippingbook\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "FullCalendar": {
+    "name": "FullCalendar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "FullCalendar is a full-sized drag and drop JavaScript event calendar.",
+    "website": "https://fullcalendar.io",
+    "patterns": {
+      "scriptSrc": [
+        "/fullcalendar\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "GetButton": {
+    "name": "GetButton",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "The chat button by GetButton takes website visitor directly to the messaging app such as Facebook Messenger or WhatsApp and allows them to initiate a conversation with you.",
+    "website": "https://getbutton.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getbutton\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 52"
+      ]
+    }
+  },
+  "Getsitecontrol": {
+    "name": "Getsitecontrol",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Getsitecontrol is a form and popup builder.",
+    "website": "https://getsitecontrol.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getsitecontrol\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 73"
+      ]
+    }
+  },
+  "GoCertify": {
+    "name": "GoCertify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "GoCertify is a conversion-focused and cost-effective way to verify students, key workers, under-26s, over-60s, military and more for exclusive discounts.",
+    "website": "https://www.gocertify.me",
+    "patterns": {
+      "cookies": [
+        "_gocertify_session: "
+      ],
+      "scriptSrc": [
+        "assets\\.gocertify\\.me/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Gravitec": {
+    "name": "Gravitec",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Gravitec is a push notification tool.",
+    "website": "https://gravitec.net",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn|id)\\.gravitec\\.(?:media|net)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Gumstack": {
+    "name": "Gumstack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Gumstack provides a live video shopping solution for eCommerce.",
+    "website": "https://gumstack.com/",
+    "patterns": {
+      "scriptSrc": [
+        "w\\.gumstack\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Hello Bar": {
+    "name": "Hello Bar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Hello Bar is a customizable notification bar that draws visitors to an important call to action on the website.",
+    "website": "http://hellobar.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.?hellobar\\.(?:com|js)"
+      ],
+      "scripts": [
+        "hellobar\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Instabot": {
+    "name": "Instabot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Instabot is a conversion chatbot that understands your users, and curates information, answers questions, captures contacts, and books meetings instantly.",
+    "website": "https://instabot.io/",
+    "patterns": {
+      "scriptSrc": [
+        "/rokoInstabot\\.js"
+      ],
+      "scripts": [
+        "/rokoInstabot\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Security",
+        "DevOps/CI",
+        "Category 52",
+        "Category 58"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Interact": {
+    "name": "Interact",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Interact is a tool for creating online quizzes.",
+    "website": "https://www.tryinteract.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tryinteract\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Ko-fi": {
+    "name": "Ko-fi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Ko-fi is an online platform that helps content creators get the financial support.",
+    "website": "https://ko-fi.com",
+    "patterns": {
+      "scriptSrc": [
+        "ko-fi\\.com/widgets"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 111"
+      ]
+    }
+  },
+  "Mangeznotez": {
+    "name": "Mangeznotez",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Mangeznotez is a restaurant table booking widget.",
+    "website": "https://www.mangeznotez.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.mangeznotez\\.\\w+",
+        "\\w+.mangeznotez\\.\\w+(?:.*\\?ver=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "www\\.mangeznotez\\.\\w+",
+        "\\w+.mangeznotez\\.\\w+(?:.*\\?ver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Marketo Forms": {
+    "name": "Marketo Forms",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Marketo Forms help create web forms without programming knowledge. Forms can reside on Marketo landing pages and also be embedded on any page of website.",
+    "website": "https://www.marketo.com",
+    "patterns": {
+      "scriptSrc": [
+        "marketo\\.\\w+/js/forms(?:[\\d.]+)/js/forms([\\d.]+)\\.min\\.js\\;version:\\1",
+        "v([\\d.]+)/js/marketo-alt-form\\.min\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "marketo\\.\\w+/js/forms(?:[\\d.]+)/js/forms([\\d.]+)\\.min\\.js\\;version:\\1",
+        "v([\\d.]+)/js/marketo-alt-form\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 110"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Meeting Scheduler": {
+    "name": "Meeting Scheduler",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Meeting Scheduler is a schedule appointments widget.",
+    "website": "https://bookmenow.info",
+    "patterns": {
+      "scriptSrc": [
+        "bookmenow\\.info/(?:runtime|main).+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ]
+    }
+  },
+  "MindBody": {
+    "name": "MindBody",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Mindbody is a (SaaS) company that provides cloud-based online scheduling and other business management software for the wellness services industry.",
+    "website": "https://www.mindbodyonline.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\w+\\.healcode\\.com"
+      ],
+      "scripts": [
+        "\\w+\\.healcode\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mulberry": {
+    "name": "Mulberry",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Mulberry is a developer of personalised product protection solutions used to help brands unlock additional revenue.",
+    "website": "https://www.getmulberry.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getmulberry\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Nextsale": {
+    "name": "Nextsale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Nextsale is a conversion optimisation platform that provides social proof and urgency tools for ecommerce websites.",
+    "website": "https://nextsale.io",
+    "patterns": {
+      "scriptSrc": [
+        "(?:api|sdk)\\.nextsale\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Octane AI": {
+    "name": "Octane AI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Octane AI provides an all-in-one platform for engaging quizzes, data collection, and personalised Facebook Messenger and SMS automation.",
+    "website": "https://www.octaneai.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.octaneai\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 52"
+      ]
+    }
+  },
+  "Ookla Speedtest Custom": {
+    "name": "Ookla Speedtest Custom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Speedtest Custom is a robust and accurate testing solution that is HTML5-based, Flash-free and supports both mobile and desktop browsers built by Ookla.",
+    "website": "https://www.ookla.com/speedtest-custom",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.speedtestcustom\\.com"
+      ],
+      "scriptSrc": [
+        "\\.speedtestcustom\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Outbrain": {
+    "name": "Outbrain",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Outbrain is a web advertising platform that displays boxes of links, known as chumboxes, to pages within websites.",
+    "website": "https://www.outbrain.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.outbrain\\.com/"
+      ],
+      "scripts": [
+        "widgets\\.outbrain\\.com/outbrain\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "POWR": {
+    "name": "POWR",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "POWR is a cloud-based system of plugins that work on almost any website.",
+    "website": "https://www.powr.io",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.powr\\.io/powr\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Patreon": {
+    "name": "Patreon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Patreon is an American membership platform that provides business tools for content creators to run a subscription service.",
+    "website": "https://www.patreon.com",
+    "patterns": {
+      "scriptSrc": [
+        "patreon-connect/assets/.+ver=([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 41"
+      ]
+    }
+  },
+  "PayKickStart": {
+    "name": "PayKickStart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "PayKickstart is an online shopping cart and affiliate management platform with built-in conversion enhancing features like one-click upsells for credit card/paypal, order bumps, custom checkout pages/widgets/embed forms, coupon management, auto-complete shipping fields, subscription saver sequences, and more.",
+    "website": "https://paykickstart.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.paykickstart\\.com"
+      ],
+      "scripts": [
+        "app\\.paykickstart\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Peek": {
+    "name": "Peek",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Peek is a online booking system for tour and activity providers.",
+    "website": "https://www.peek.com/",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.peek\\.\\w+"
+      ],
+      "scripts": [
+        "js\\.peek\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pinterest": {
+    "name": "Pinterest",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Pinterest is an image sharing and social media service designed to enable saving and discovery of information.",
+    "website": "http://pinterest.com",
+    "patterns": {
+      "scriptSrc": [
+        "//assets\\.pinterest\\.com/js/pinit\\.js"
+      ],
+      "scripts": [
+        "//assets\\.pinterest\\.com/js/pinit\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pocket": {
+    "name": "Pocket",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Pocket is a social bookmarking service that can be integrated into a website with the use of a web widget.",
+    "website": "https://getpocket.com",
+    "patterns": {
+      "meta": [
+        "pocket-site-verification': "
+      ],
+      "scriptSrc": [
+        "widgets\\.getpocket\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Podium": {
+    "name": "Podium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Podium is a customer communication platform for businesses who interact with customers on a local level.",
+    "website": "https://www.podium.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.podium\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 52"
+      ]
+    }
+  },
+  "ProvenExpert": {
+    "name": "ProvenExpert",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "ProvenExpert is a review based marketing platform that allows users to create customer surveys, provides aggregate reviews and ratings.",
+    "website": "https://www.provenexpert.com",
+    "patterns": {
+      "scriptSrc": [
+        "provenexpert\\.\\w+/widget"
+      ],
+      "scripts": [
+        "provenexpert\\.\\w+/widget"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Q4 Cookie Monster": {
+    "name": "Q4 Cookie Monster",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Q4 Cookie Monster is an cookie compliance widget built by Q4.",
+    "website": "https://q4mobile.github.io/q4widgets-jquery-ui/doc_html/q4.cookieMonster.html",
+    "patterns": {
+      "scriptSrc": [
+        "widgets\\.q4app\\.com/widgets/q4\\.cookiemonster\\.([\\d\\.]+)\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 67"
+      ]
+    }
+  },
+  "RateParity": {
+    "name": "RateParity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "RateParity is a conversion rate optimisation platform for hotels.",
+    "website": "https://www.rateparity.com",
+    "patterns": {
+      "scriptSrc": [
+        "code\\.rateparity\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "ReadSpeaker": {
+    "name": "ReadSpeaker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "ReadSpeaker is an intuitive text-to-speech API that converts text into natural-sounding audio files for websites and applications.",
+    "website": "https://www.readspeaker.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.readspeaker\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Regiondo": {
+    "name": "Regiondo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Regiondo is a online booking system for tour and activity providers.",
+    "website": "https://www.regiondo.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.regiondo\\.net"
+      ],
+      "scripts": [
+        "cdn\\.regiondo\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Remixd": {
+    "name": "Remixd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Remixd is a platform that enables podcast creators to efficiently produce and share their podcasts with a worldwide audience. The platform provides various tools and features to support podcast creation, hosting, and distribution, such as podcast hosting, analytics, monetisation, and social media integration.",
+    "website": "https://www.remixd.com",
+    "patterns": {
+      "scriptSrc": [
+        "tags\\.remixd\\.com/player"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Rezdy": {
+    "name": "Rezdy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Rezdy is an online booking software for tours and attractions.",
+    "website": "https://www.rezdy.com",
+    "patterns": {
+      "scriptSrc": [
+        "rezdy\\.\\w+/pluginJs"
+      ],
+      "scripts": [
+        "rezdy\\.\\w+/pluginJs"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ruby Receptionists": {
+    "name": "Ruby Receptionists",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Ruby Receptionists is a Portland, Oregon based virtual answering service for small businesses.",
+    "website": "https://www.ruby.com",
+    "patterns": {
+      "scriptSrc": [
+        "chatwidget\\.ruby\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Salesfloor": {
+    "name": "Salesfloor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Salesfloor is a mobile clienteling and virtual selling platform designed for store associates to connect with customers-beyond the store and a mpos platform for frictionless in-store experiences.",
+    "website": "https://salesfloor.net",
+    "patterns": {
+      "scriptSrc": [
+        "\\.salesfloor\\.net/"
+      ],
+      "scripts": [
+        "salesFloor\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Setmore": {
+    "name": "Setmore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Setmore is a cloud-based appointment scheduling solution.",
+    "website": "https://www.setmore.com",
+    "patterns": {
+      "scriptSrc": [
+        "my\\.setmore\\.\\w+/",
+        "/setmore-appointments/script/"
+      ],
+      "scripts": [
+        "my\\.setmore\\.\\w+/",
+        "/setmore-appointments/script/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SevenRooms": {
+    "name": "SevenRooms",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "SevenRooms is an fully-integrated reservation, seating and restaurant management system.",
+    "website": "https://sevenrooms.com",
+    "patterns": {
+      "scriptSrc": [
+        "sevenrooms\\.\\w+/widget/embed\\.js"
+      ],
+      "scripts": [
+        "sevenrooms\\.\\w+/widget/embed\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ShareThis": {
+    "name": "ShareThis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "ShareThis provides free engagement and growth tools (e.g., share buttons, follow buttons, and reaction buttons) for site owners.",
+    "website": "http://sharethis.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sharethis\\.com/"
+      ],
+      "scripts": [
+        "w\\.sharethis\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ShoppingGives": {
+    "name": "ShoppingGives",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "ShoppingGives is a B2B social ecommerce platform that allows companies of all sizes to make charitable donations through their customers' purchases.",
+    "website": "https://shoppinggives.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shoppinggives\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "SiteMinder": {
+    "name": "SiteMinder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "SiteMinder is a appointment booking solution designed for hotels.",
+    "website": "https://www.siteminder.com",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.siteminder\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ]
+    }
+  },
+  "Slider Revolution": {
+    "name": "Slider Revolution",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Slider Revolution is a flexible and highly customisable slider.",
+    "website": "https://www.sliderrevolution.com",
+    "patterns": {
+      "meta": [
+        "generator: Powered\\sby\\sSlider Revolution\\s([\\d\\.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/wp-content/plugins/revslider/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Programming Languages"
+      ]
+    }
+  },
+  "SnapWidget": {
+    "name": "SnapWidget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "SnapWidget is a set of interactive Instagram, Twitter and 500px widgets.",
+    "website": "https://snapwidget.com",
+    "patterns": {
+      "scriptSrc": [
+        "snapwidget\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Social9": {
+    "name": "Social9",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Social9 is a social sharing widgets and plugins.",
+    "website": "https://social9.com",
+    "patterns": {
+      "scriptSrc": [
+        "social9\\.com/.+\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "social9\\.com/.+\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SoundCloud": {
+    "name": "SoundCloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "SoundCloud widget gives you the ability to upload, manage and share tracks.",
+    "website": "https://developers.soundcloud.com/docs/api/html5-widget",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sndcdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "SpurIT": {
+    "name": "SpurIT",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "SpurIT is a team of certified Shopify experts which provide ecommerce software solutions.",
+    "website": "https://spur-i-t.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn-spurit\\.com/shopify-apps/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Squadded": {
+    "name": "Squadded",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Squadded is a social ecommerce solution that allows visitors to shop together with their friends and with other members of the brands online community.",
+    "website": "https://www.squadded.co",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.squadded\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "StorifyMe": {
+    "name": "StorifyMe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "StorifyMe is a storytelling platform for creating and distributing web stories on social networks and the open web.",
+    "website": "https://www.storifyme.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.storifyme\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Sumo": {
+    "name": "Sumo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Sumo is a plugin offering set of marketing tools to automate a website's growth. These tools help drive extra traffic, engage visitors, increase email subscribers and build community.",
+    "website": "http://sumo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sumo(?:me)?\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Taggbox": {
+    "name": "Taggbox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Taggbox is an UGC platform to collect, curate, manage rights, and publish user-generated content marketing campaigns across multiple channels.",
+    "website": "https://taggbox.com/",
+    "patterns": {
+      "url": [
+        "\\.taggbox\\.com"
+      ],
+      "scriptSrc": [
+        "\\.taggbox\\.com",
+        "taggbox\\.com/app/js/embed\\.min\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:widget|web)\\.taggbox\\.com",
+        "taggbox\\.com/app/js/embed\\.min\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Trinity Audio": {
+    "name": "Trinity Audio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Trinity Audio's AI-driven solutions help publishers and content creators create a world of smart audio experiences for their audiences, covering every stage of the audio journey from creation to distribution.",
+    "website": "https://www.trinityaudio.ai",
+    "patterns": {
+      "scriptSrc": [
+        "//trinitymedia\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Tripadviser.Widget": {
+    "name": "Tripadviser.Widget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Tripadvisor embed reviews widget.",
+    "website": "https://www.tripadvisor.com/Widgets",
+    "patterns": {
+      "scriptSrc": [
+        "tripadvisor\\.[\\w]+/WidgetEmbed"
+      ],
+      "scripts": [
+        "tripadvisor\\.[\\w]+/WidgetEmbed"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twitter": {
+    "name": "Twitter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Twitter is a 'microblogging' system that allows you to send and receive short posts called tweets.",
+    "website": "http://twitter.com",
+    "patterns": {
+      "scriptSrc": [
+        "//platform\\.twitter\\.com/widgets\\.js"
+      ],
+      "scripts": [
+        "//platform\\.twitter\\.com/widgets\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "VerifyPass": {
+    "name": "VerifyPass",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "VerifyPass is a company which provide secure identity proofing, authentication, and group affiliation verification for teachers and students.",
+    "website": "https://verifypass.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.id\\.services",
+        "cdn\\.verifypass\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 76"
+      ]
+    }
+  },
+  "Wheelio": {
+    "name": "Wheelio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Wheelio is gamified pop-up/widget for ecommerce sites.",
+    "website": "https://wheelio-app.com/",
+    "patterns": {
+      "scriptSrc": [
+        "wheelioapp\\.azureedge\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Wisepops": {
+    "name": "Wisepops",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Wisepops is an intelligent popup and marketing automation system that offers marketers a single platform from which to create and manage website popups.",
+    "website": "https://wisepops.com",
+    "patterns": {
+      "scriptSrc": [
+        "loader\\.wisepops\\.com/get-loader\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Worldz": {
+    "name": "Worldz",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Worldz calculates the economic value of a user’s social popularity (qualitatively and quantitatively). In proportion to this value, it provides a personalised discount, which can be applied in exchange for a social sharing by the user on their Instagram or Facebook profile.",
+    "website": "https://www.worldz-business.net",
+    "patterns": {
+      "scriptSrc": [
+        "\\.worldztool\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 76"
+      ]
+    }
+  },
+  "Yandex.Messenger": {
+    "name": "Yandex.Messenger",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Yandex.Messenger is an instant messaging application.",
+    "website": "https://dialogs.yandex.ru",
+    "patterns": {
+      "scriptSrc": [
+        "chat\\.s3\\.yandex\\.net/widget\\.js"
+      ],
+      "scripts": [
+        "chat\\.s3\\.yandex\\.net/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yelp Review Badge": {
+    "name": "Yelp Review Badge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Yelp Review Badges showcase business reviews from Yelp on websites.",
+    "website": "http://yelp.com",
+    "patterns": {
+      "scriptSrc": [
+        "yelp\\.com/biz_badge_js"
+      ],
+      "scripts": [
+        "yelp\\.com/biz_badge_js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Facebook": {
+    "name": "Facebook",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Facebook is an online social media and social networking service.",
+    "website": "http://facebook.com",
+    "patterns": {
+      "scripts": [
+        "//connect\\.facebook\\.([a-z]+)/[^/]*/[a-z]*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Google Plus": {
+    "name": "Google Plus",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Google Plus is a social network.",
+    "website": "http://plus.google.com",
+    "patterns": {
+      "scripts": [
+        "apis\\.google\\.com/js/[a-z]*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Linkedin": {
+    "name": "Linkedin",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "LinkedIn is the world's largest professional networking platform.",
+    "website": "http://linkedin.com",
+    "patterns": {
+      "scripts": [
+        "//platform\\.linkedin\\.com/in\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "SumoMe": {
+    "name": "SumoMe",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Advertising",
+    "description": "Sumo is a plugin offering set of marketing tools to automate a website's growth. These tools help drive extra traffic, engage visitors, increase email subscribers and build community.",
+    "website": "http://sumome.com",
+    "patterns": {
+      "scripts": [
+        "load\\.sumome\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Avasize": {
+    "name": "Avasize",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "https://www.avasize.com",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://cdn\\.avasize\\.com/"
+      ],
+      "scripts": [
+        "^https?://cdn\\.avasize\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Crobox": {
+    "name": "Crobox",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "https://crobox.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.crobox\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Meebo": {
+    "name": "Meebo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "http://www.meebo.com",
+    "patterns": {
+      "html": [
+        "(?:<iframe id=\"meebo-iframe\"|Meebo\\('domReady'\\))"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MyBlogLog": {
+    "name": "MyBlogLog",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "http://www.mybloglog.com",
+    "patterns": {
+      "scriptSrc": [
+        "pub\\.mybloglog\\.com"
+      ],
+      "scripts": [
+        "pub\\.mybloglog\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Proximis": {
+    "name": "Proximis",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "https://www.proximis.com",
+    "patterns": {
+      "scriptSrc": [
+        "widget-commerce(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "widget-commerce(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tamago": {
+    "name": "Tamago",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "http://tamago.temonalab.com",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"http://tamago\\.temonalab\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Whooshkaa": {
+    "name": "Whooshkaa",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "https://www.whooshkaa.com",
+    "patterns": {
+      "html": [
+        "<iframe src=\"[^>]+whooshkaa\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Stackla": {
+    "name": "Stackla",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Advertising",
+    "description": "",
+    "website": "http://stackla.com/",
+    "patterns": {
+      "scripts": [
+        "assetscdn\\.stackla\\.com\\/media\\/js\\/widget\\/(?:[a-zA-Z0-9.]+)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "AccuWeather": {
+    "name": "AccuWeather",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "AccuWeather provides weather forecasts and warnings and additional weather products and services.",
+    "website": "https://partners.accuweather.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "AirRobe": {
+    "name": "AirRobe",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "AirRobe partners with brands and retailers to power the circular fashion economy.",
+    "website": "https://airrobe.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Airtable": {
+    "name": "Airtable",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Airtable is a low-code platform for building collaborative apps.",
+    "website": "https://www.airtable.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Algolia DocSearch": {
+    "name": "Algolia DocSearch",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Algolia DocSearch is a search widget specifically designed for documentation websites.",
+    "website": "https://docsearch.algolia.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Arena": {
+    "name": "Arena",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Arena widget is an embeddable widget provided by the Arena platform, which allows users to embed live blogs directly on their website.",
+    "website": "https://arena.im",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Bokun": {
+    "name": "Bokun",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Bokun is a cloud-based booking management solution which enables small to large travel and tourism businesses manage reservations, products content, images, categorisation, pricing, inventory, and payments.",
+    "website": "https://www.bokun.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ]
+    }
+  },
+  "Bookingkit": {
+    "name": "Bookingkit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Bookingkit is an online booking management solution. Bookingkit helps its users generate PDF invoices, manage day-to-day scheduling operations, and automatically sync availabilities in real time.",
+    "website": "https://bookingkit.net/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Browser-Update.org": {
+    "name": "Browser-Update.org",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Browser-update.org is a tool to unobtrusively notify visitors that they should update their web browser in order to use your website.",
+    "website": "https://browser-update.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 59"
+      ]
+    }
+  },
+  "Captivate.fm": {
+    "name": "Captivate.fm",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Captivate.fm is a podcast hosting and analytics platform that provides tools for creating, hosting, and distributing podcasts.",
+    "website": "https://www.captivate.fm",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "CodeSandbox": {
+    "name": "CodeSandbox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "CodeSandbox is an online code editor and prototyping tool that makes creating and sharing web apps faster.",
+    "website": "https://codesandbox.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Webmail"
+      ]
+    }
+  },
+  "Comeet": {
+    "name": "Comeet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Comeet is an Collaborative Recruiting, and Applicant Tracking System.",
+    "website": "https://www.comeet.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 101"
+      ]
+    }
+  },
+  "eKomi": {
+    "name": "eKomi",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "eKomi is a German supplier and product review service.",
+    "website": "https://www.ekomi.de",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Infogram": {
+    "name": "Infogram",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Infogram is a web-based data visualisation and infographics platform.",
+    "website": "https://infogram.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Myhkw player": {
+    "name": "Myhkw player",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Myhkw player is a website music player.",
+    "website": "https://myhkw.cn",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Omny Studio": {
+    "name": "Omny Studio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Omny Studio is a podcast hosting solution, which enables radio stations and enterprises to manage, monetize, publish, share, edit and analyze audio episodes.",
+    "website": "https://omnystudio.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Podigee": {
+    "name": "Podigee",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Podigee is an independent company for podcast publishers. Podigee offers hosting, distribution, analytics and monetisation of podcasts.",
+    "website": "https://www.podigee.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "ReadAloud": {
+    "name": "ReadAloud",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "The SiteSpeaker text-to-speech widget is embedded into your posts and give users an alternate way to consume your content as audio.",
+    "website": "https://www.readaloudwidget.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Rezgo": {
+    "name": "Rezgo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Rezgo is a tour operator software that provides online booking system.",
+    "website": "https://www.rezgo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Shareaholic": {
+    "name": "Shareaholic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Shareaholic is a all-in-one content amplification and monetisation platform.",
+    "website": "https://www.shareaholic.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Spotify Widgets": {
+    "name": "Spotify Widgets",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Spotify Widgets provide an embeddable view of a track, artist, album, user, playlist, podcast or episode for use within your web project.",
+    "website": "https://developer.spotify.com/documentation/widgets",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Tiqets": {
+    "name": "Tiqets",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Tiqets provides a complete overview of a city - museums, attractions, zoos, canal cruises, concerts. Publishers joined to the Tiqets affiliate program can receive 6% commission during our 30-day cookie window from completed total bookings resulting from featuring links to Tiqets products and content across their brand: blog/website, social media, newsletters, etc.",
+    "website": "https://www.tiqets.com/affiliate",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Category 71"
+      ]
+    }
+  },
+  "Transistor.fm": {
+    "name": "Transistor.fm",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Transistor.fm is a podcast host, distribution and management platform.",
+    "website": "https://transistor.fm",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "TrustYou": {
+    "name": "TrustYou",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "TrustYou is guest feedback and hotel reputation software company located in Germany.",
+    "website": "https://www.trustyou.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ubiliz": {
+    "name": "Ubiliz",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Ubiliz is a gift voucher ecommerce solution.",
+    "website": "https://www.ubiliz.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising",
+        "Web Servers"
+      ]
+    }
+  },
+  "Waitlist": {
+    "name": "Waitlist",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Waitlist is a web-based tool that helps businesses to create a waitlist for their product or service.",
+    "website": "https://www.getwaitlist.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Waveform": {
+    "name": "Waveform",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Waveform is a media player that supports various media formats, including audio, video, Youtube, and Vimeo, and includes a waveform visualisation feature, utilising Web Audio API and HTML5 Canvas technologies.",
+    "website": "http://music.flatfull.com/waveme/about/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Web Stories": {
+    "name": "Web Stories",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Advertising",
+    "description": "Web Stories is a format for visual storytelling for the open web.",
+    "website": "https://amp.dev/about/stories/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ]
+    }
+  },
+  "Po.st": {
+    "name": "Po.st",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Advertising",
+    "description": "",
+    "website": "http://www.po.st/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Advertising"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

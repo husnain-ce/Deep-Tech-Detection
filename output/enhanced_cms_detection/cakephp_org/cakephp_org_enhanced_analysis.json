@@ -1,0 +1,190 @@
+{
+  "url": "https://cakephp.org",
+  "final_url": "https://cakephp.org",
+  "analysis_time": 2.61974835395813,
+  "technologies": [
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-CPJRL2XV6L",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-CPJRL2XV6L",
+          "match": "gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.0427978
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fontawesome(?:\\.min)?\\.css|fa-(?:solid|brands|regular)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/plugins/font-awesome/css/font-awesome.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/plugins/font-awesome/css/font-awesome.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.0494242
+    },
+    {
+      "name": "Google Font API",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/fonts",
+      "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.0500698
+    },
+    {
+      "name": "Google Fonts",
+      "confidence": 75,
+      "category": "Category 28",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fonts\\.googleapis\\.com/css",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fonts.google.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.1104615
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=G-CPJRL2XV6L",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.3209028
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/plugins/rs-plugin/js/jquery.themepunch.tools.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515429.8147755
+    }
+  ],
+  "metadata": {
+    "title": "CakePHP - Build fast, grow solid | PHP Framework | Home",
+    "description": "CakePHP is an open-source web, rapid development framework that makes building web applications simpler,\n faster and require less code. It follows the model\u2013view\u2013controller (MVC) . Manual for beginners now available and links\n  towards the last version.",
+    "content_length": 45078,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 6,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 5,
+    "confidence_distribution": {
+      "high (80-100)": 5,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 2.62,
+      "technologies_per_second": 2.29
+    }
+  },
+  "errors": []
+}

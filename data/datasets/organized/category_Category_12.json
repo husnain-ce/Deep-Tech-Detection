@@ -1,0 +1,25 @@
+{
+  "Meta Pixel": {
+    "name": "Meta Pixel",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 12",
+    "description": "",
+    "website": "https://www.facebook.com/business/tools/meta-pixel",
+    "patterns": {
+      "html": [
+        "fbq\\("
+      ],
+      "scripts": [
+        "connect\\.facebook\\.net/.*/fbevents\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 12"
+      ]
+    }
+  }
+}

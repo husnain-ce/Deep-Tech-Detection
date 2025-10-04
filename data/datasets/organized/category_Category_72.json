@@ -1,0 +1,491 @@
+{
+  "Acuity Scheduling": {
+    "name": "Acuity Scheduling",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Acuity Scheduling is a cloud-based appointment scheduling software solution.",
+    "website": "https://acuityscheduling.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.acuityscheduling\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "AddEvent": {
+    "name": "AddEvent",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "AddEvent is used to Add to Calendar and event tools for websites and newsletters.",
+    "website": "https://www.addevent.com",
+    "patterns": {
+      "scriptSrc": [
+        "//addevent\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Appointy": {
+    "name": "Appointy",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Appointy’s online scheduling software.",
+    "website": "https://www.appointy.com/",
+    "patterns": {
+      "html": [
+        "<iframe[^>]+src=\"?https://[\\w\\d\\-]+\\.appointy\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bookero": {
+    "name": "Bookero",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Bookero is online booking system for you website or Facebook page.",
+    "website": "https://www.bookero.org",
+    "patterns": {
+      "url": [
+        "\\.bookero\\.(?:org|pl)"
+      ],
+      "scriptSrc": [
+        "cdn\\.bookero\\.pl"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Bookly": {
+    "name": "Bookly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Bookly is a WordPress scheduling plugin that allows you to accept online reservations on your website and automate your booking system.",
+    "website": "https://www.booking-wp-plugin.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/plugins/bookly-responsive-appointment-booking-tool/.+\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72",
+        "Category 87"
+      ]
+    }
+  },
+  "Booxi": {
+    "name": "Booxi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Booxi is a cloud-based appointment management platform for small to midsize businesses.",
+    "website": "https://www.booxi.com",
+    "patterns": {
+      "scriptSrc": [
+        "/bxe_core\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Calendly": {
+    "name": "Calendly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Calendly is an app for scheduling appointments, meetings, and events.",
+    "website": "https://calendly.com/",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.calendly\\.com/"
+      ],
+      "scripts": [
+        "https://assets\\.calendly\\.com/assets/external/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Chili Piper": {
+    "name": "Chili Piper",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Chili Piper is a suite of automated scheduling tools that help revenue teams convert leads.",
+    "website": "https://www.chilipiper.com/",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.chilipiper\\.com/marketing\\.js"
+      ],
+      "scripts": [
+        "js\\.chilipiper\\.com/marketing\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudbeds": {
+    "name": "Cloudbeds",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Cloudbeds is a cloud-based hotel management platform which includes tools for managing reservations, availability, rates, distribution channels, payments, guests, housekeeping, and more.",
+    "website": "https://www.cloudbeds.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cloudbeds\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "GetYourGuide": {
+    "name": "GetYourGuide",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "GetYourGuide is a Berlin-based online travel agency and online marketplace for tour guides and excursions.",
+    "website": "https://partner.getyourguide.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getyourguide\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Mews": {
+    "name": "Mews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Mews is a hospitalitions service that enables hotels to track their bookings.",
+    "website": "https://www.mews.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.mews\\.li/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Occasion": {
+    "name": "Occasion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Occasion is an online booking system.",
+    "website": "https://www.getoccasion.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.getoccasion\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Periodic": {
+    "name": "Periodic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Periodic is a white-label scheduling system.",
+    "website": "https://periodic.is",
+    "patterns": {
+      "scriptSrc": [
+        "/integrations/embed/periodic-embed-resize\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Skedify": {
+    "name": "Skedify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Skedify is an appointment booking solution created for enterprises.",
+    "website": "https://calendly.com/",
+    "patterns": {
+      "scriptSrc": [
+        "plugin\\.skedify\\.io"
+      ],
+      "scripts": [
+        "plugin\\.skedify\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Timify": {
+    "name": "Timify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Timify is an online scheduling and resource management software for small, medium and large businesses.",
+    "website": "https://www.timify.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.timify\\.com/"
+      ],
+      "scripts": [
+        "https://widget\\.timify\\.com/js/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "X.ai": {
+    "name": "X.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "X.ai is a scheduling tool that organizes meeting times and improves lead conversion by adding embedded booking buttons to websites or within live chat applications.",
+    "website": "https://x.ai",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn)?x\\.ai/.*/xdotai-embed\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Zocdoc": {
+    "name": "Zocdoc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 72",
+    "description": "Zocdoc is a New York City-based company offering an online service that allows people to find and book in-person or telemedicine appointments for medical or dental care.",
+    "website": "https://www.zocdoc.com",
+    "patterns": {
+      "scriptSrc": [
+        "offsiteschedule\\.zocdoc\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Bookeo": {
+    "name": "Bookeo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "Bookeo is a cloud-based booking and reservation solution that caters to tour operators, travel agencies, schools, therapists, photographers and event organizers.",
+    "website": "https://www.bookeo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "CalendarHero": {
+    "name": "CalendarHero",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "CalendarHero (formerly Zoom.ai) is meeting scheduling software that helps you book meetings automatically.",
+    "website": "https://calendarhero.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "EventOn": {
+    "name": "EventOn",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "EventON is event calendar for WordPress.",
+    "website": "https://www.myeventon.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72",
+        "Category 87"
+      ]
+    }
+  },
+  "MIYN Online Appointment": {
+    "name": "MIYN Online Appointment",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "MIYN Online Appointment is an advanced cloud-based online appointment scheduling software.",
+    "website": "https://miyn.app/online-appointment",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Resova": {
+    "name": "Resova",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "Resova is an online booking software.",
+    "website": "https://resova.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Salonist": {
+    "name": "Salonist",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "Salonist is a salon management software.",
+    "website": "https://salonist.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  },
+  "Trumba": {
+    "name": "Trumba",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 72",
+    "description": "Trumba offers web-hosted event calendar software for publishing online, interactive, calendars of events.",
+    "website": "https://www.trumba.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 72"
+      ]
+    }
+  }
+}

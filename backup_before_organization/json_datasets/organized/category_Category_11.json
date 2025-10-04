@@ -1,0 +1,67 @@
+{
+  "Matomo": {
+    "name": "Matomo",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 11",
+    "description": "",
+    "website": "https://matomo.org",
+    "patterns": {
+      "scripts": [
+        "matomo\\.js|piwik\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 11"
+      ]
+    }
+  },
+  "Yandex Metrica": {
+    "name": "Yandex Metrica",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 11",
+    "description": "",
+    "website": "https://metrica.yandex.com",
+    "patterns": {
+      "scripts": [
+        "mc\\.yandex\\.ru/metrika/tag\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 11"
+      ]
+    }
+  },
+  "Adobe Analytics": {
+    "name": "Adobe Analytics",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 11",
+    "description": "",
+    "website": "https://business.adobe.com/products/analytics/adobe-analytics.html",
+    "patterns": {
+      "scripts": [
+        "assets\\.adobedtm\\.com|omtrdc\\.net|s_code\\.js|appmeasurement\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 11"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "Disqus": {
+    "name": "Disqus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Miscellaneous",
+    "description": "Disqus is a worldwide blog comment hosting service for web sites and online communities that use a networked platform.",
+    "website": "https://disqus.com",
+    "patterns": {
+      "scriptSrc": [
+        "disqus_url"
+      ],
+      "scripts": [
+        "disqus\\.com/embed\\.js|disqus\\.com/count\\.js",
+        "disqus_url"
+      ],
+      "html": [
+        "<div[^>]+id=\"disqus_thread\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "IntenseDebate": {
+    "name": "IntenseDebate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Miscellaneous",
+    "description": "IntenseDebate is a blog commenting system that supports Typepad, Blogger and Wordpress blogs. The system allows blog owners to track and moderate comments from one place with features like threading, comment analytics, user reputation, and comment aggregation.",
+    "website": "http://intensedebate.com",
+    "patterns": {
+      "scriptSrc": [
+        "intensedebate\\.com"
+      ],
+      "scripts": [
+        "intensedebate\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Livefyre": {
+    "name": "Livefyre",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Miscellaneous",
+    "description": "Livefyre is a platform that integrates with the social web to boost social interaction.",
+    "website": "http://livefyre.com",
+    "patterns": {
+      "html": [
+        "<[^>]+(?:id|class)=\"livefyre"
+      ],
+      "scriptSrc": [
+        "livefyre_init\\.js"
+      ],
+      "scripts": [
+        "livefyre_init\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Question2Answer": {
+    "name": "Question2Answer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Miscellaneous",
+    "description": "Question2Answer (Q2A) is a popular open-source Q&A platform for PHP/MySQL.",
+    "website": "http://www.question2answer.org",
+    "patterns": {
+      "html": [
+        "<!-- Powered by Question2Answer"
+      ],
+      "scriptSrc": [
+        "\\./qa-content/qa-page\\.js\\?([0-9.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "\\./qa-content/qa-page\\.js\\?([0-9.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twikoo": {
+    "name": "Twikoo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Miscellaneous",
+    "description": "Twikoo is a simple, safe, free comment system.",
+    "website": "https://twikoo.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "/twikoo/dist/twikoo\\.all\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ]
+    }
+  },
+  "utterances": {
+    "name": "utterances",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Miscellaneous",
+    "description": "Utterances is a lightweight comments widget built on GitHub issues.",
+    "website": "https://utteranc.es/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ]
+    }
+  },
+  "Vuukle": {
+    "name": "Vuukle",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Miscellaneous",
+    "description": "Vuukle is an audience engagement and commenting platform.",
+    "website": "https://vuukle.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Miscellaneous"
+      ]
+    }
+  }
+}

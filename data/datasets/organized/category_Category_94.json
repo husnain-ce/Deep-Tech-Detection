@@ -1,0 +1,226 @@
+{
+  "Aklamio": {
+    "name": "Aklamio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Aklamio is a solution for enterprise level referral marketing and customer incentivisation.",
+    "website": "https://www.aklamio.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.aklamio\\.com"
+      ],
+      "scriptSrc": [
+        "\\.aklamio\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "Ambassador": {
+    "name": "Ambassador",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Ambassador is a marketer-friendly software that simplifies referral marketing and helps automating the enrolment, tracking, rewarding and management process.",
+    "website": "https://www.getambassador.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.getambassador\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "Buyapowa": {
+    "name": "Buyapowa",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Buyapowa is a scalable referral marketing and advocacy platform designed for all industries.",
+    "website": "https://www.buyapowa.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.co-buying\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "Extole": {
+    "name": "Extole",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Extole is an online marketing platform that enables brands and businesses to get new customers through loyalty and referral programs.",
+    "website": "https://www.extole.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.(?:extole|xtlo)\\.(?:com|net)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94",
+        "Category 84"
+      ]
+    }
+  },
+  "Flocktory": {
+    "name": "Flocktory",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Flocktory is a social referral marketing platform that enables users to share personalised offers via social networks.",
+    "website": "https://www.flocktory.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.flocktory\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94",
+        "Category 84"
+      ]
+    }
+  },
+  "Friendbuy": {
+    "name": "Friendbuy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Friendbuy is a cloud-based referral marketing solution designed to help ecommerce businesses of all sizes.",
+    "website": "https://www.friendbuy.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cloudfront\\.net/js/friendbuy\\.min\\.js",
+        "static\\.fbot\\.me/friendbuy\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "Mention Me": {
+    "name": "Mention Me",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Mention Me is a referral marketing platform for conversion-obsessed ecommerce brands.",
+    "website": "https://www.mention-me.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.mention-me\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "ReferralCandy": {
+    "name": "ReferralCandy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "ReferralCandy is a marketing platform that gets shoppers to refer their friends.",
+    "website": "https://www.referralcandy.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.referralcandy\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94",
+        "Category 84"
+      ]
+    }
+  },
+  "SaaSquatch": {
+    "name": "SaaSquatch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "SaaSquatch is a cloud-based loyalty, referral and rewards marketing platform.",
+    "website": "https://www.saasquatch.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:\\.cloudfront\\.net/assets/javascripts/(?:v2/)?|/sas)squatch\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94",
+        "Category 84"
+      ]
+    }
+  },
+  "Viral Loops": {
+    "name": "Viral Loops",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 94",
+    "description": "Viral Loops is a viral and referral marketing platform to launch ranking competitions, sweepstakes, pre-launch and referral programs.",
+    "website": "https://viral-loops.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.viral-loops\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  },
+  "Indi": {
+    "name": "Indi",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 94",
+    "description": "Indi is a video social network where everyone - artists, brands, retailers, nonprofits, celebrities and individuals - can connect with fans and supporters to interact directly with your brand utilising exclusive Video Challenges and Video Threads tailor made by you.",
+    "website": "https://indi.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 94"
+      ]
+    }
+  }
+}

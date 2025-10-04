@@ -1,0 +1,1868 @@
+{
+  "Intercom": {
+    "name": "Intercom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Intercom is an American software company that produces a messaging platform which allows businesses to communicate with prospective and existing customers within their app, on their website, through social media, or via email.",
+    "website": "https://www.intercom.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:api\\.intercom\\.io/api|static\\.intercomcdn\\.com/intercom\\.v1)"
+      ],
+      "scripts": [
+        "(?:api\\.intercom\\.io/api|static\\.intercomcdn\\.com/intercom\\.v1)",
+        "widget\\.intercom\\.io/widget/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Zendesk Chat": {
+    "name": "Zendesk Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Zendesk Chat is a live chat and communication widget.",
+    "website": "http://zopim.com",
+    "patterns": {
+      "scriptSrc": [
+        "v2\\.zopim\\.com"
+      ],
+      "scripts": [
+        "static\\.zdassets\\.com/ekr/snippet\\.js",
+        "v2\\.zopim\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Tawk.to": {
+    "name": "Tawk.to",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Tawk.to is a free messaging app to monitor and chat with the visitors to a website, mobile app.",
+    "website": "http://tawk.to",
+    "patterns": {
+      "cookies": [
+        "TawkConnectionTime: "
+      ],
+      "scriptSrc": [
+        "//embed\\.tawk\\.to"
+      ],
+      "scripts": [
+        "embed\\.tawk\\.to/.*",
+        "//embed\\.tawk\\.to"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Acquire Live Chat": {
+    "name": "Acquire Live Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Acquire is a multi-channel customer support platform designed to provide real-time customer support to customers.",
+    "website": "https://acquire.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.acquire\\.io/(?!cobrowse)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Ada": {
+    "name": "Ada",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Ada is an automated customer experience company that provides chat bots used in customer support.",
+    "website": "https://www.ada.cx",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ada\\.support"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Aircall": {
+    "name": "Aircall",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Aircall is a cloud-based phone system for customer support and sales teams.",
+    "website": "http://aircall.io",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://cdn\\.aircall\\.io/"
+      ],
+      "scripts": [
+        "^https?://cdn\\.aircall\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apple Business Chat": {
+    "name": "Apple Business Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Apple Business Chat is a service from Apple that allows your organization to directly chat with your customers using the Messages app.",
+    "website": "https://developer.apple.com/documentation/businesschat",
+    "patterns": {
+      "scriptSrc": [
+        "/apple_business_chat_commerce/.+/apple_message_button_v([\\d\\.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Bold Chat": {
+    "name": "Bold Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "BoldChat is a live chat platform.",
+    "website": "https://www.boldchat.com/",
+    "patterns": {
+      "scriptSrc": [
+        "^https?://vmss\\.boldchat\\.com/aid/\\d{18}/bc\\.vms4/vms\\.js"
+      ],
+      "scripts": [
+        "^https?://vmss\\.boldchat\\.com/aid/\\d{18}/bc\\.vms4/vms\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Callbell": {
+    "name": "Callbell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Callbell is a web-based live chat solution designed to help businesses manage team collaboration via multiple communication channels.",
+    "website": "https://www.callbell.eu",
+    "patterns": {
+      "scriptSrc": [
+        "\\.callbell\\.eu/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Chaport": {
+    "name": "Chaport",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Chaport is a multi-channel live chat and chatbot software for business.",
+    "website": "https://www.chaport.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.chaport\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Chatra": {
+    "name": "Chatra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Chatra is a cloud-based live chat platform aimed at small businesses and ecommerce retailers.",
+    "website": "https://chatra.com",
+    "patterns": {
+      "scriptSrc": [
+        "call\\.chatra\\.io/chatra\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Chord": {
+    "name": "Chord",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Chord is a video-enabled social community and communication platform completely customised to your brand.",
+    "website": "https://m.chord.us",
+    "patterns": {
+      "scriptSrc": [
+        "chord\\.us/embeddable/client-([\\d\\.]+)\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 103"
+      ]
+    }
+  },
+  "CoRover": {
+    "name": "CoRover",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "CoRover is a conversational AI chatbot platform with proprietary cognitive AI technology.",
+    "website": "https://corover.ai",
+    "patterns": {
+      "scriptSrc": [
+        "\\.corover\\.mobi/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Crisp Live Chat": {
+    "name": "Crisp Live Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Crisp Live Chat is a live chat solution with free and paid options.",
+    "website": "https://crisp.chat/",
+    "patterns": {
+      "scriptSrc": [
+        "client\\.crisp\\.chat/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Czater": {
+    "name": "Czater",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Czater is an live chat solution with extended CRM and videochat features.",
+    "website": "https://www.czater.pl",
+    "patterns": {
+      "scriptSrc": [
+        "\\.czater\\.pl"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Droz Bot": {
+    "name": "Droz Bot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Droz Bot is a multi-channel, customisable chatbot designed to help brands provide customer service across commonly used social apps.",
+    "website": "https://meudroz.com/droz-bot/",
+    "patterns": {
+      "scriptSrc": [
+        "chat-app\\.meudroz\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Element": {
+    "name": "Element",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
+    "website": "https://element.io",
+    "patterns": {
+      "meta": [
+        "application-name: ^Element$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Facebook Chat Plugin": {
+    "name": "Facebook Chat Plugin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Facebook Chat Plugin is a website plugin that businesses with a Facebook Page can install on their website.",
+    "website": "https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/",
+    "patterns": {
+      "scriptSrc": [
+        "connect\\.facebook\\.net/.+\\.customerchat\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Freshchat": {
+    "name": "Freshchat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Freshchat is a cloud-hosted live messaging and engagement application.",
+    "website": "https://www.freshworks.com/live-chat-software/",
+    "patterns": {
+      "scriptSrc": [
+        "wchat\\.freshchat\\.com/js/widget\\.js"
+      ],
+      "scripts": [
+        "wchat\\.freshchat\\.com/js/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Front Chat": {
+    "name": "Front Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Front Chat is the live website chat solution that you can manage straight from your inbox.",
+    "website": "https://front.com",
+    "patterns": {
+      "scriptSrc": [
+        "//chat-assets\\.frontapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Gladly": {
+    "name": "Gladly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Gladly is a customer service platform.",
+    "website": "https://www.gladly.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.gladly\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ]
+    }
+  },
+  "Goftino": {
+    "name": "Goftino",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Goftino is an online chat service for web users.",
+    "website": "https://www.goftino.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.goftino\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "HappyFox Live Chat": {
+    "name": "HappyFox Live Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "HappyFox is a help desk ticketing system that is hosted on cloud, supporting multiple customer support channels like email, voice and live chat.",
+    "website": "https://www.happyfox.com/live-chat",
+    "patterns": {
+      "scriptSrc": [
+        "\\.happyfoxchat\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Haptik": {
+    "name": "Haptik",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Haptik is an Indian enterprise conversational AI platform founded in August 2013, and acquired by Reliance Industries Limited in 2019.",
+    "website": "https://www.haptik.ai",
+    "patterns": {
+      "scriptSrc": [
+        "\\.haptikapi\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "HubSpot Chat": {
+    "name": "HubSpot Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "HubSpot Chat is a tool where you can view, manage, and reply to incoming messages from multiple channels.",
+    "website": "https://www.hubspot.com/products/crm/live-chat",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.usemessages\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "iAdvize": {
+    "name": "iAdvize",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "iAdvize is a conversational marketing platform that connects customers in need of advice with experts who are available 24/7 via messaging.",
+    "website": "https://www.iadvize.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.iadvize\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "iSina Chat": {
+    "name": "iSina Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "iSina Chat is a live chat service that provides online support and FAQ for customers.",
+    "website": "https://isina.agency",
+    "patterns": {
+      "scriptSrc": [
+        "chat\\.isina\\.agency/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Jitsi": {
+    "name": "Jitsi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Jitsi is a free and open-source multiplatform voice (VoIP), videoconferencing and instant messaging applications for the web platform.",
+    "website": "https://jitsi.org",
+    "patterns": {
+      "scriptSrc": [
+        "lib-jitsi-meet.*\\.js"
+      ],
+      "scripts": [
+        "lib-jitsi-meet.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JivoChat": {
+    "name": "JivoChat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "JivoChat is a live chat solution for websites offering customizable web and mobile chat widgets.",
+    "website": "https://www.jivosite.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.jivosite\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Kapture CRM": {
+    "name": "Kapture CRM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Kapture CRM is an enterprise-grade SaaS-based customer support automation platform.",
+    "website": "https://www.kapturecrm.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.kapturecrm\\.com/.+\\?ver=([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ]
+    }
+  },
+  "Kustomer": {
+    "name": "Kustomer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Kustomer is a CRM platform.",
+    "website": "https://www.kustomer.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.kustomerapp\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ]
+    }
+  },
+  "Landbot": {
+    "name": "Landbot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Landbot is a no code conversational chatbots, conversational landing pages and website, interactive survey and lead generation bot.",
+    "website": "https://landbot.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.landbot\\.io/.*-([\\d\\.]+)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "LimeChat": {
+    "name": "LimeChat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "LimeChat is India's first level-3 AI chatbot company.",
+    "website": "https://www.limechat.ai",
+    "patterns": {
+      "scriptSrc": [
+        "\\.limechat\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "LiveChat": {
+    "name": "LiveChat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "LiveChat is an online customer service software with online chat, help desk software, and web analytics capabilities.",
+    "website": "https://www.livechat.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.livechatinc\\.com/.*tracking\\.js"
+      ],
+      "scripts": [
+        "cdn\\.livechatinc\\.com/.*tracking\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LivePerson": {
+    "name": "LivePerson",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "LivePerson is a tool for conversational chatbots and messaging.",
+    "website": "https://www.liveperson.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.(?:liveperson|contactatonce)?\\.(?:com|net|co\\.uk)/"
+      ],
+      "scripts": [
+        "^https?://lptag\\.liveperson\\.net/tag/tag\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MyLiveChat": {
+    "name": "MyLiveChat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "MyLiveChat is a live chat developed by CuteSoft.",
+    "website": "https://mylivechat.com",
+    "patterns": {
+      "scriptSrc": [
+        "mylivechat\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Oct8ne": {
+    "name": "Oct8ne",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Oct8ne is a visual customer service software.",
+    "website": "https://oct8ne.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.oct8ne\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Olark": {
+    "name": "Olark",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Olark is a cloud-based live chat solution.",
+    "website": "https://www.olark.com/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.olark\\.com/"
+      ],
+      "scripts": [
+        "^https?:\\/\\/static\\.olark\\.com\\/jsclient\\/loader1\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Provide Support": {
+    "name": "Provide Support",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Provide Support is a SaaS for customer service that includes live chat, real-time website monitoring, chat statistics.",
+    "website": "https://www.providesupport.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.providesupport\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Pure Chat": {
+    "name": "Pure Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Pure Chat is a live chat solution for small to mid-sized teams.",
+    "website": "https://www.purechat.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.purechat\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Qualified": {
+    "name": "Qualified",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Qualified is a B2B marketer that allows buyers and sales reps to connect through real-time website conversations.",
+    "website": "https://www.qualified.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.qualified\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Raychat": {
+    "name": "Raychat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Raychat is a free customer messaging platform.",
+    "website": "https://raychat.io",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.raychat\\.io/scripts/js"
+      ],
+      "scripts": [
+        "app\\.raychat\\.io/scripts/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Re:amaze": {
+    "name": "Re:amaze",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Re:amaze is a multi-brand customer service, live chat, and help desk solution.",
+    "website": "https://www.reamaze.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.reamaze\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Rotic": {
+    "name": "Rotic",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Rotic is a conversion chatbot that answers questions, captures contacts, and books meetings.",
+    "website": "https://rotic.ir",
+    "patterns": {
+      "scripts": [
+        "https://rotic.ir/api/v1/enterprise/\\S+/widget/\\S+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Salesforce Service Cloud": {
+    "name": "Salesforce Service Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Salesforce Service Cloud is a customer relationship management (CRM) platform for customer service and support.",
+    "website": "https://www.salesforce.com/au/products/service-cloud/",
+    "patterns": {
+      "scriptSrc": [
+        "service\\.force\\.com"
+      ],
+      "scripts": [
+        "service\\.force\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Schedule Engine": {
+    "name": "Schedule Engine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Schedule Engine is a customer support solution built for contractors.",
+    "website": "https://www.scheduleengine.com/",
+    "patterns": {
+      "scriptSrc": [
+        "webchat.scheduleengine.net"
+      ],
+      "scripts": [
+        "webchat.scheduleengine.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Shopify Chat": {
+    "name": "Shopify Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Shopify Chat is Shopify's native live chat function that allows you to have real-time conversations with customers visiting your Shopify store.",
+    "website": "https://www.shopify.com/inbox",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shopify\\.com/shopifycloud/shopify_chat/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 100"
+      ]
+    }
+  },
+  "Smartsupp": {
+    "name": "Smartsupp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Smartsupp is a live chat tool that offers visitor recording feature.",
+    "website": "https://www.smartsupp.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.smartsuppchat\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "SnapEngage": {
+    "name": "SnapEngage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "SnapEngage is a live chat solution that caters to businesses across various industries.",
+    "website": "https://snapengage.com/",
+    "patterns": {
+      "html": [
+        "<!-- begin SnapEngage"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Solvvy": {
+    "name": "Solvvy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Solvvy provides live chat and chatbot services.",
+    "website": "https://solvvy.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.solvvy\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Suiteshare": {
+    "name": "Suiteshare",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Suiteshare powers conversational shopping experiences.",
+    "website": "https://suiteshare.com/",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.suiteshare\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Tallentor Widget": {
+    "name": "Tallentor Widget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Tallentor is a subscription-based software website analytics, heatmap, channel chat intergration.",
+    "website": "https://tallentor.com",
+    "patterns": {
+      "cookies": [
+        "tallentor_widget: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Tidio": {
+    "name": "Tidio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Tidio is a customer communication product. It provides multi-channel support so users can communicate with customers on the go. Live chat, messenger, or email are all supported.",
+    "website": "https://www.tidio.com",
+    "patterns": {
+      "scriptSrc": [
+        "code\\.tidio\\.co"
+      ],
+      "scripts": [
+        "code\\.tidio\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Trengo": {
+    "name": "Trengo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Trengo is an omnichannel communication platform that unifies all messaging channels into one single view.",
+    "website": "https://trengo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.widget\\.trengo\\.eu/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "UserLike": {
+    "name": "UserLike",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Userlike is a cloud-based live chat solution that can be integrated with existing websites.",
+    "website": "http://userlike.com",
+    "patterns": {
+      "scriptSrc": [
+        "userlike\\.min\\.js",
+        "userlikelib\\.min\\.js",
+        "//userlike-cdn-widgets\\.",
+        "api\\.userlike\\.com"
+      ],
+      "scripts": [
+        "userlike\\.min\\.js",
+        "userlikelib\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Virtual Chat": {
+    "name": "Virtual Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Virtual Chat is a live-chat service for web sites.",
+    "website": "https://www.virtual-chat.co.il",
+    "patterns": {
+      "scriptSrc": [
+        "virtual-chat\\.co\\.il/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "WidgetWhats": {
+    "name": "WidgetWhats",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "WidgetWhats is a fully customizable chat widget with appearance, text, color, button style and position.",
+    "website": "https://widgetwhats.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.widgetwhats\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Wix Answers": {
+    "name": "Wix Answers",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Wix Answers is a cloud-based help desk software.",
+    "website": "https://www.wixanswers.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.wixanswers\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "yellow.ai": {
+    "name": "yellow.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "yellow.ai provides chatbot and automation services.",
+    "website": "https://yellow.ai/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.yellowmessenger\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Zendesk Sunshine Conversations": {
+    "name": "Zendesk Sunshine Conversations",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Zendesk Sunshine Conversations lets you share a single, continuous conversation with every team in your business. With a unified API and native connectors to popular business applications like Zendesk and Slack, everyone in your organization can get access to a single view of the customer conversation.",
+    "website": "https://www.zendesk.com/platform/conversations",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.smooch\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Zoko": {
+    "name": "Zoko",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Zoko is an all-in-one system that leverages the WhatsApp API to help you do business, on WhatsApp",
+    "website": "https://www.zoko.io/",
+    "patterns": {
+      "scriptSrc": [
+        "zoko-shopify-prod\\.web\\.app"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Zoominfo Chat": {
+    "name": "Zoominfo Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "ZoomInfo chat is a live chat solution.",
+    "website": "https://www.zoominfo.com/chat",
+    "patterns": {
+      "scriptSrc": [
+        "madstreetden\\.widget\\.insent\\.ai"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Helpscout": {
+    "name": "Helpscout",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 52",
+    "description": "Helpscout is a customer service platform including email, a knowledge base tool and live chat.",
+    "website": "https://www.helpscout.com/",
+    "patterns": {
+      "scripts": [
+        "beacon-v2\\.helpscout\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "CEMax": {
+    "name": "CEMax",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "CEMax is a premium customer engagement platform.",
+    "website": "https://cemax.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Channel.io": {
+    "name": "Channel.io",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Channel.io is an all-in-one business communication platform that helps businesses connect with customers.",
+    "website": "https://channel.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ]
+    }
+  },
+  "ChatStack": {
+    "name": "ChatStack",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "ChatStack is a self-hosted live chat software for websites.",
+    "website": "https://www.chatstack.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Chatwoot": {
+    "name": "Chatwoot",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Chatwoot is a customer support tool for instant messaging channels.",
+    "website": "https://www.chatwoot.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Chekkit": {
+    "name": "Chekkit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Chekkit is an all-in-one review, messaging, and lead inbox software.",
+    "website": "https://www.chekkit.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Comm100": {
+    "name": "Comm100",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Comm100 is a provider of customer service and communication products.",
+    "website": "https://www.comm100.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Crikle": {
+    "name": "Crikle",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Crikle is a multichannel customer engagement software.",
+    "website": "https://www.crikle.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "DeskPro Chat": {
+    "name": "DeskPro Chat",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "DeskPro is multi channel helpdesk software for managing customer and citizen requests via email, forms, chat, social and voice.",
+    "website": "https://www.deskpro.com/product/chat",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Dotdigital Chat": {
+    "name": "Dotdigital Chat",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Dotdigital Chat is a smart, customisable widget that makes it easy for shoppers to communicate in real-time with members of your team.",
+    "website": "https://dotdigital.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Drift": {
+    "name": "Drift",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Drift is a conversational marketing platform.",
+    "website": "https://www.drift.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gorgias": {
+    "name": "Gorgias",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Gorgias is a helpdesk and chat solution designed for ecommerce stores.",
+    "website": "https://www.gorgias.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Grasp": {
+    "name": "Grasp",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Grasp is a customer support software company that offers a cloud-based helpdesk and live chat solution for businesses of all sizes.",
+    "website": "https://www.getgrasp.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Imber": {
+    "name": "Imber",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Imber is an all-in-one marketing automation platform built for customer support (live chat), sales, and marketing.",
+    "website": "https://imber.live",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "InSyncai": {
+    "name": "InSyncai",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "InSyncai offers a conversational platform for enterprises to design and build chatbots having applications in customer support and services.",
+    "website": "https://www.insyncai.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Infoset": {
+    "name": "Infoset",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Infoset is an advanced communication and support solutions.",
+    "website": "https://infoset.app",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ]
+    }
+  },
+  "Leadster": {
+    "name": "Leadster",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Leadster is a conversation marketing plataform based on chatbot.",
+    "website": "https://leadster.com.br",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "LiveAgent": {
+    "name": "LiveAgent",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "LiveAgent is an online live chat platform. The software provides a ticket management system.",
+    "website": "https://www.liveagent.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LiveHelp": {
+    "name": "LiveHelp",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "LiveHelp is an online chat tool.",
+    "website": "http://www.livehelp.it",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LiveZilla": {
+    "name": "LiveZilla",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "LiveZilla is a web-based live support platform.",
+    "website": "https://www.livezilla.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Pipedrive": {
+    "name": "Pipedrive",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Pipedrive is a cloud-based sales CRM.",
+    "website": "https://www.pipedrive.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rocket.Chat": {
+    "name": "Rocket.Chat",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Rocket.Chat is a communication hub that facilitates team collaboration and organizes conversations.",
+    "website": "https://rocket.chat",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Solvemate": {
+    "name": "Solvemate",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Solvemate is a customer service automation platform that enables brands to deliver quality customer service through meaningful conversations via chatbots.",
+    "website": "https://www.solvemate.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Spatie Support Bubble": {
+    "name": "Spatie Support Bubble",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Spatie Support Bubble is a non-intrusive support form.",
+    "website": "https://github.com/spatie/laravel-support-bubble",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Tencent QQ": {
+    "name": "Tencent QQ",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Tencent QQ also known as QQ, is an instant messaging software service and web portal developed by the Chinese tech giant Tencent.",
+    "website": "https://im.qq.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Tiledesk": {
+    "name": "Tiledesk",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Tiledesk is the full-stack open-source Live Chat with built-in Chatbots, written in Node.js and Angular.",
+    "website": "https://tiledesk.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "Verloop": {
+    "name": "Verloop",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "Verloop is provider of conversational AI platform for customer support automation.",
+    "website": "https://verloop.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "VirtualSpirits": {
+    "name": "VirtualSpirits",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "VirtualSpirits is a chatbot and live-chat service for websites.",
+    "website": "https://www.virtualspirits.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  },
+  "WhatsApp Business Chat": {
+    "name": "WhatsApp Business Chat",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 52",
+    "description": "WhatsApp Business is a free to download app available on Android and iPhone using which businesses can connect with their customers.",
+    "website": "https://www.whatsapp.com/business",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 52"
+      ]
+    }
+  }
+}

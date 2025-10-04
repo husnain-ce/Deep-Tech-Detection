@@ -1,0 +1,407 @@
+{
+  "Adobe GoLive": {
+    "name": "Adobe GoLive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Adobe GoLive is a WYSIWYG HTML editor and web site management application.",
+    "website": "http://www.adobe.com/products/golive",
+    "patterns": {
+      "meta": [
+        "generator: Adobe GoLive(?:\\s([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amaya": {
+    "name": "Amaya",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Amaya is an open-source web browser editor to create and update documents on the web.",
+    "website": "http://www.w3.org/Amaya",
+    "patterns": {
+      "meta": [
+        "generator: Amaya(?: V?([\\d.]+[a-z]))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bluefish": {
+    "name": "Bluefish",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Bluefish is a free software text editor with a variety of tools for programming in general and the development of websites.",
+    "website": "http://sourceforge.net/projects/bluefish",
+    "patterns": {
+      "meta": [
+        "generator: Bluefish(?:\\s([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Draft.js": {
+    "name": "Draft.js",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Draft.js is a JavaScript rich text editor framework, built for React.",
+    "website": "https://draftjs.org/",
+    "patterns": {
+      "scriptSrc": [
+        "draft-js(@|/)([\\d.]+)\\;version:\\2"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ]
+    }
+  },
+  "DreamWeaver": {
+    "name": "DreamWeaver",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Dreamweaver is a development tool for creating, publishing, and managing websites and mobile content.",
+    "website": "https://www.adobe.com/products/dreamweaver.html",
+    "patterns": {
+      "html": [
+        "<!-- #BeginTemplate\\s\"[\\d_\\w/]+\\.dwt",
+        "<!--[^>]*(?:InstanceBeginEditable|Dreamweaver([^>]+)target|DWLayoutDefaultTable)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FrontPage": {
+    "name": "FrontPage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "FrontPage is a program for developing and maintaining websites.",
+    "website": "http://office.microsoft.com/frontpage",
+    "patterns": {
+      "meta": [
+        "ProgId: ^FrontPage\\.",
+        "generator: Microsoft FrontPage(?:\\s((?:Express )?[\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "iWeb": {
+    "name": "iWeb",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "iWeb is a web site creation tool.",
+    "website": "http://apple.com/ilife/iweb",
+    "patterns": {
+      "meta": [
+        "generator: ^iWeb( [\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Excel": {
+    "name": "Microsoft Excel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Microsoft Excel is an electronic spreadsheet program used for storing, organizing, and manipulating data.",
+    "website": "https://office.microsoft.com/excel",
+    "patterns": {
+      "html": [
+        "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:excel\"|<!--\\s*(?:START|END) OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD\\s*-->|<div [^>]*x:publishsource=\"?Excel\"?)"
+      ],
+      "meta": [
+        "generator: Microsoft Excel( [\\d.]+)?\\;version:\\1",
+        "ProgId: ^Excel\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft PowerPoint": {
+    "name": "Microsoft PowerPoint",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Microsoft PowerPoint is a tool to create presentations using simple drag and drop tools.",
+    "website": "https://office.microsoft.com/powerpoint",
+    "patterns": {
+      "html": [
+        "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:powerpoint\"|<link rel=\"?Presentation-XML\"? href=\"?[^\"]+\\.xml\"?>|<o:PresentationFormat>[^<]+</o:PresentationFormat>[^!]+<o:Slides>\\d+</o:Slides>(?:[^!]+<o:Version>([\\d.]+)</o:Version>)?)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Microsoft PowerPoint ( [\\d.]+)?\\;version:\\1",
+        "ProgId: ^PowerPoint\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Publisher": {
+    "name": "Microsoft Publisher",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Microsoft Publisher is an application that allows you to create professional documents such as newsletters, postcards, flyers, invitations, brochures.",
+    "website": "https://office.microsoft.com/publisher",
+    "patterns": {
+      "html": [
+        "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:publisher\"|<!--[if pub]><xml>)"
+      ],
+      "meta": [
+        "generator: Microsoft Publisher( [\\d.]+)?\\;version:\\1",
+        "ProgId: ^Publisher\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Word": {
+    "name": "Microsoft Word",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "MS Word is a word-processing program used primarily for creating documents.",
+    "website": "https://office.microsoft.com/word",
+    "patterns": {
+      "html": [
+        "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:word\"|<w:WordDocument>|<div [^>]*class=\"?WordSection1[\" >]|<style[^>]*>[^>]*@page WordSection1)"
+      ],
+      "meta": [
+        "ProgId: ^Word\\.",
+        "generator: Microsoft Word( [\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Unbounce": {
+    "name": "Unbounce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Unbounce is a tool to build landing pages.",
+    "website": "http://unbounce.com",
+    "patterns": {
+      "headers": [
+        "X-Unbounce-PageId: "
+      ],
+      "scriptSrc": [
+        "ubembed\\.com"
+      ],
+      "scripts": [
+        "ubembed\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail",
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WEBDEV": {
+    "name": "WEBDEV",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "WEBDEV is a tool to develop internet and intranet sites and applications that support data and processes",
+    "website": "https://www.windev.com/webdev/index.html",
+    "patterns": {
+      "headers": [
+        "WebDevSrc: "
+      ],
+      "html": [
+        "<!-- [a-zA-Z0-9_]+ [\\d/]+ [\\d:]+ WebDev \\d\\d ([\\d.]+) -->\\;version:\\1"
+      ],
+      "meta": [
+        "generator: ^WEBDEV$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Web Stories for WordPress": {
+    "name": "Web Stories for WordPress",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "Web Stories for WordPress is a visual editor for creating Web Stories.",
+    "website": "https://wp.stories.google",
+    "patterns": {
+      "meta": [
+        "amp-story-generator-name: ^Web Stories for WordPress$",
+        "amp-story-generator-version: ^(.+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail",
+        "Category 87"
+      ]
+    }
+  },
+  "WebSite X5": {
+    "name": "WebSite X5",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Webmail",
+    "description": "WebSite X5 is a tools to create and publish websites.",
+    "website": "http://websitex5.com",
+    "patterns": {
+      "meta": [
+        "generator: Incomedia WebSite X5 (\\w+ [\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CodeMirror": {
+    "name": "CodeMirror",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Webmail",
+    "description": "CodeMirror is a JavaScript component that provides a code editor in the browser.",
+    "website": "http://codemirror.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Webmail"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "Material UI": {
+    "name": "Material UI",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 8",
+    "description": "",
+    "website": "https://mui.com",
+    "patterns": {
+      "html": [
+        "Mui[A-Za-z0-9_-]+-root"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 8"
+      ]
+    }
+  },
+  "Foundation": {
+    "name": "Foundation",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 8",
+    "description": "",
+    "website": "https://get.foundation",
+    "patterns": {
+      "scripts": [
+        "foundation(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 8"
+      ]
+    }
+  },
+  "Bulma": {
+    "name": "Bulma",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 8",
+    "description": "",
+    "website": "https://bulma.io",
+    "patterns": {
+      "html": [
+        "<link[^>]+?href=\"[^\"]+bulma(?:\\.min)?\\.css",
+        "bulma(?:\\.min)?\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 8"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

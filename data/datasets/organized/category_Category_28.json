@@ -1,0 +1,22 @@
+{
+  "Google Fonts": {
+    "name": "Google Fonts",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 28",
+    "description": "",
+    "website": "https://fonts.google.com",
+    "patterns": {
+      "html": [
+        "fonts\\.googleapis\\.com/css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 28"
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Pulse Secure": {
+    "name": "Pulse Secure",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 46",
+    "description": "Pulse Secure allows to deploy VPNs to securely to your internal resources.",
+    "website": "https://www.pulsesecure.net/products/remote-access-overview/",
+    "patterns": {
+      "cookies": [
+        "DSSIGNIN: "
+      ],
+      "url": [
+        "/dana-na/auth/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 46"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ShellInABox": {
+    "name": "ShellInABox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 46",
+    "description": "Shell In A Box implements a web server that can export arbitrary command line tools to a web based terminal emulator.",
+    "website": "http://shellinabox.com",
+    "patterns": {
+      "html": [
+        "<title>Shell In A Box</title>",
+        "must be enabled for ShellInABox</noscript>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 46"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

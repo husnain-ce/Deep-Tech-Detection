@@ -1,0 +1,458 @@
+{
+  "url": "https://santamonica.gov",
+  "final_url": "https://www.santamonica.gov/",
+  "analysis_time": 4.6646528244018555,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505239.9513662
+    },
+    {
+      "name": "jsDelivr",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link [^>]*?href=\"?[a-zA-Z]*?:?//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js",
+          "match": "//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js",
+          "match": "cdn\\.jsdelivr\\.net",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js",
+          "match": "//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js",
+          "match": "cdn\\.jsdelivr\\.net",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+          "match": "//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+          "match": "cdn\\.jsdelivr\\.net",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css",
+          "match": "//cdn\\.jsdelivr\\.net/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css",
+          "match": "cdn\\.jsdelivr\\.net",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.jsdelivr.com/",
+      "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505239.9994695
+    },
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-11670373-35",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-11670373-35",
+          "match": "gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505240.1339955
+    },
+    {
+      "name": "Google Font API",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/fonts",
+      "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505240.1549737
+    },
+    {
+      "name": "MailChimp",
+      "confidence": 85,
+      "category": "DevOps/CI",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<form [^>]*id=\"mc-embedded-subscribe-form\"",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<form [^>]*name=\"mc-embedded-subscribe-form\"",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://mailchimp.com",
+      "description": "Mailchimp is a marketing automation platform and email marketing service.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505240.2795618
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-11670373-35",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505240.7145922
+    },
+    {
+      "name": "jQuery CDN",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://code.jquery.com/jquery-3.5.1.slim.min.js",
+          "match": "code\\.jquery\\.com/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://code.jquery.com/",
+      "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505241.1473987
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://code.jquery.com/jquery-3.5.1.slim.min.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505241.2112603
+    },
+    {
+      "name": "Bootstrap",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js",
+          "match": "/bootstrap(?:\\.bundle)?(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://getbootstrap.com",
+      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505241.4408612
+    },
+    {
+      "name": "Unpkg",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://unpkg.com/vue@3/dist/vue.global.prod.js",
+          "match": "unpkg\\.com/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://unpkg.com",
+      "description": "Unpkg is a content delivery network for everything on npm.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505242.0150485
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://kit.fontawesome.com/148c5d4db0.js",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://kit.fontawesome.com/148c5d4db0.js",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://kit.fontawesome.com/148c5d4db0.js",
+          "match": "\\.fontawesome\\.com/([0-9a-z]+).js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://kit.fontawesome.com/148c5d4db0.js",
+          "match": "\\.fontawesome\\.com/([0-9a-z]+).js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505242.2639365
+    },
+    {
+      "name": "Blazor",
+      "confidence": 75,
+      "category": "Widgets",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "_framework/blazor.webassembly.js",
+          "match": "blazor\\.webassembly\\.js",
+          "confidence": 75
+        },
+        {
+          "field": "scripts",
+          "detail": "_framework/blazor.webassembly.js",
+          "match": "blazor\\.webassembly\\.js",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505242.413146
+    },
+    {
+      "name": "Imperva",
+      "confidence": 75,
+      "category": "Issue Trackers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1491621016",
+          "match": "/_Incapsula_Resource",
+          "confidence": 75
+        },
+        {
+          "field": "scripts",
+          "detail": "/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1491621016",
+          "match": "/_Incapsula_Resource",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.imperva.com/",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505242.6481347
+    },
+    {
+      "name": "ArcGIS API for JavaScript",
+      "confidence": 85,
+      "category": "Hosting/PAAS",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "https://js.arcgis.com/4.20/esri/themes/light/main.css",
+          "match": "js\\.arcgis\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://js.arcgis.com/4.20/esri/themes/light/main.css",
+          "match": "js\\.arcgis\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://developers.arcgis.com/javascript/",
+      "description": "ArcGIS API for JavaScript is a tool used to embed maps and tasks in web applications.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759505243.4464586
+    }
+  ],
+  "metadata": {
+    "title": "santamonica.gov - Home Page",
+    "description": "",
+    "content_length": 136349,
+    "response_time": "0",
+    "server": "",
+    "total_technologies": 14,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 10,
+    "confidence_distribution": {
+      "high (80-100)": 12,
+      "medium (50-79)": 2,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 4.66,
+      "technologies_per_second": 3.0
+    },
+    "verbose_stats": {
+      "wappalyzer_detections": 0,
+      "whatweb_detections": 0,
+      "cmseek_detections": 0,
+      "pattern_detections": 13,
+      "additional_detections": 6,
+      "deep_detections": 0,
+      "total_patterns_checked": 0,
+      "categories_covered": [
+        "Database",
+        "Web Servers",
+        "Category 42",
+        "Category 28",
+        "DevOps/CI",
+        "Issue Trackers",
+        "Video Players",
+        "Category 67",
+        "Security",
+        "Category 59",
+        "Widgets",
+        "Category 66",
+        "Hosting/PAAS"
+      ],
+      "engines_used": [
+        "additional_patterns",
+        "pattern_matching"
+      ]
+    }
+  },
+  "errors": []
+}

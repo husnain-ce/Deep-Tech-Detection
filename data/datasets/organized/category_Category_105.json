@@ -1,0 +1,190 @@
+{
+  "<model-viewer>": {
+    "name": "<model-viewer>",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "<model-viewer> is an open-source web component developed by Google and maintained through GitHub. <model-viewer> aims at putting 3D content on the web easily with a few lines of HTML code. This was first introduced with Chrome 72 in July 2019 and enables users to view 3D in the browser and mobile devices.",
+    "website": "https://modelviewer.dev",
+    "patterns": {
+      "scriptSrc": [
+        "/model-viewer/dist/model-viewer\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "Expivi": {
+    "name": "Expivi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "Expivi specialises in 3D visualisation technology for ecommerce stores.",
+    "website": "https://www.expivi.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.expivi\\.(?:com|net)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "Luna": {
+    "name": "Luna",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "Luna is a company that sells software that aids eyewear companies sell their products online using virtual fitting.",
+    "website": "https://luna.io",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: bsdk\\.api\\.ditto.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "ModiFace": {
+    "name": "ModiFace",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "ModiFace is a provider of Augmented Reality technology for the beauty industry.",
+    "website": "https://modiface.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.modiface\\.com"
+      ],
+      "scriptSrc": [
+        "\\.modiface\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "Virtooal": {
+    "name": "Virtooal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "Virtooal allows shoppers to try on and combine decorative cosmetics, sunglasses, contact lenses, jewellery and fashion accessories using models, their own photo or a live webcam feed.",
+    "website": "https://try.virtooal.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.virtooal\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "YouCam Makeup": {
+    "name": "YouCam Makeup",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 105",
+    "description": "YouCam Makeup is a cross-platform virtual makeup solution for omnichannel ecommerce.",
+    "website": "https://www.perfectcorp.com/business/products/virtual-makeup",
+    "patterns": {
+      "scriptSrc": [
+        "plugins-media\\.(?:perfectcorp|makeupar)\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "mirrAR": {
+    "name": "mirrAR",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 105",
+    "description": "mirrAR is a real-time augmented reality platform for retail brands that enables consumers to virtually try on products and experience how it feels to own them before the actual purchase, both in-store and online.",
+    "website": "https://www.mirrar.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "Ocuco FitMix": {
+    "name": "Ocuco FitMix",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 105",
+    "description": "Ocuco is now offering its customers FittingBox's FitMix, a virtual frame try-on tool.",
+    "website": "https://www.ocuco.com/fitmix",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  },
+  "Threekit": {
+    "name": "Threekit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 105",
+    "description": "Threekit is a visual customer experience solution that enables brands to create, manage and scale photorealistic images and 3D product visuals, all from a single design file.",
+    "website": "https://www.threekit.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105",
+        "Category 95"
+      ]
+    }
+  },
+  "Vntana": {
+    "name": "Vntana",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 105",
+    "description": "Vntana (stylised as VNTANA) is an American social augmented reality company.",
+    "website": "https://www.vntana.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 105"
+      ]
+    }
+  }
+}

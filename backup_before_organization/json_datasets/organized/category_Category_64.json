@@ -1,0 +1,126 @@
+{
+  "Envoy": {
+    "name": "Envoy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 64",
+    "description": "Envoy is an open-source edge and service proxy, designed for cloud-native applications.",
+    "website": "https://www.envoyproxy.io/",
+    "patterns": {
+      "headers": [
+        "Server: ^envoy$",
+        "x-envoy-upstream-service-time: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 64"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "F5 BigIP": {
+    "name": "F5 BigIP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 64",
+    "description": "F5's BIG-IP is a family of products covering software and hardware designed around application availability, access control, and security solutions.",
+    "website": "https://www.f5.com/products/big-ip-services",
+    "patterns": {
+      "headers": [
+        "server: ^big-?ip$"
+      ],
+      "cookies": [
+        "F5_HT_shrinked: ",
+        "MRHSequence: ",
+        "F5_ST: ",
+        "MRHSHint: ",
+        "TIN: ",
+        "LastMRH_Session: ",
+        "MRHSession: ",
+        "F5_fullWT: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 64"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "IBM DataPower": {
+    "name": "IBM DataPower",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 64",
+    "description": "IBM DataPower Gateway is a single multi-channel gateway designed to help provide security, control, integration and optimized access to a full range of mobile, web, application programming interface (API), service-oriented architecture (SOA), B2B and cloud workloads.",
+    "website": "https://www.ibm.com/products/datapower-gateway",
+    "patterns": {
+      "headers": [
+        "X-Backside-Transport: ",
+        "X-Global-Transaction-ID: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 64"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kong": {
+    "name": "Kong",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 64",
+    "description": "Kong is an open-source API gateway and platform that acts as middleware between compute clients and the API-centric applications.",
+    "website": "https://konghq.com",
+    "patterns": {
+      "headers": [
+        "via: ^kong/([\\d\\.]+)(?:.+)?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 64"
+      ]
+    }
+  },
+  "MATORI.NET": {
+    "name": "MATORI.NET",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 64",
+    "description": "MATORI.NET is a fully managed reverse proxy.",
+    "website": "http://matori.net",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: MATORI.NET"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 64"
+      ]
+    }
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "Apple MapKit JS": {
+    "name": "Apple MapKit JS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Apple MapKit JS lets you embed interactive maps directly into your websites across platforms and operating systems, including iOS and Android.",
+    "website": "https://developer.apple.com/maps/web/",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.apple-mapkit\\.com"
+      ],
+      "scriptSrc": [
+        "//cdn\\.apple-mapkit\\.com/mk/([\\d\\.\\w]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "ArcGIS API for JavaScript": {
+    "name": "ArcGIS API for JavaScript",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "ArcGIS API for JavaScript is a tool used to embed maps and tasks in web applications.",
+    "website": "https://developers.arcgis.com/javascript/",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.arcgis\\.com",
+        "basemaps\\.arcgis\\.com"
+      ],
+      "scripts": [
+        "js\\.arcgis\\.com",
+        "basemaps\\.arcgis\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ClustrMaps Widget": {
+    "name": "ClustrMaps Widget",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "ClustrMaps widget is a visitor tracker, designed for general web and blog use.",
+    "website": "https://clustrmaps.com/",
+    "patterns": {
+      "scriptSrc": [
+        "clustrmaps\\.com"
+      ],
+      "scripts": [
+        "clustrmaps\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Maps": {
+    "name": "Google Maps",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Google Maps is a web mapping service. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle and air, or public transportation.",
+    "website": "http://maps.google.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)\\;version:API v\\1",
+        "//maps\\.google(?:apis)?\\.com/maps/api/js"
+      ],
+      "scripts": [
+        "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)\\;version:API v\\1",
+        "//maps\\.google(?:apis)?\\.com/maps/api/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Leaflet": {
+    "name": "Leaflet",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Leaflet is the open-source JavaScript library for mobile-friendly interactive maps.",
+    "website": "http://leafletjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "leaflet.{0,32}\\.js(?!.+shopify)"
+      ],
+      "scripts": [
+        "leaflet.{0,32}\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MapLibre GL JS": {
+    "name": "MapLibre GL JS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "MapLibre GL JS is an open-source library for publishing maps on your websites.",
+    "website": "https://github.com/maplibre/maplibre-gl-js",
+    "patterns": {
+      "scriptSrc": [
+        "maplibre-gl@([\\d\\.]+)/dist/maplibre-gl\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "Mapbox GL JS": {
+    "name": "Mapbox GL JS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Mapbox GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles.",
+    "website": "https://github.com/mapbox/mapbox-gl-js",
+    "patterns": {
+      "scriptSrc": [
+        "mapbox-gl\\.js"
+      ],
+      "scripts": [
+        "mapbox-gl.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mapplic": {
+    "name": "Mapplic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Mapplic is a plugin for creating interactive maps based on simple image (jpg, png) or vector (svg) files.",
+    "website": "https://mapplic.com",
+    "patterns": {
+      "scriptSrc": [
+        "wp-content/plugins/mapplic/",
+        "/include/mapplic/mapplic\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "Naver Maps": {
+    "name": "Naver Maps",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "Naver Maps help develop location-based services which provided by Naver.",
+    "website": "https://www.ncloud.com/product/applicationService/maps",
+    "patterns": {
+      "scriptSrc": [
+        "openapi\\.map\\.naver\\.com/openapi/v([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "OpenLayers": {
+    "name": "OpenLayers",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "OpenLayers is an open-source JavaScript library for displaying map data in web browser.",
+    "website": "https://openlayers.org",
+    "patterns": {
+      "scriptSrc": [
+        "openlayers"
+      ],
+      "scripts": [
+        "openlayers"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RevolverMaps": {
+    "name": "RevolverMaps",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "RevolverMaps is a collection of real-time visitor statistics widgets for website or blog. Interactive visitor mappings to a globe rendered by the Revolver Engine.",
+    "website": "https://www.revolvermaps.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.revolvermaps\\.com"
+      ],
+      "scripts": [
+        "\\.revolvermaps\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TomTom Maps": {
+    "name": "TomTom Maps",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Hosting/PAAS",
+    "description": "TomTom Maps is a web mapping service.",
+    "website": "https://www.tomtom.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.tomtom\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "Baidu Maps": {
+    "name": "Baidu Maps",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Hosting/PAAS",
+    "description": "Baidu Maps is a desktop and mobile web mapping service application and technology provided by Baidu, offering satellite imagery, street maps, street view and indoor view perspectives, as well as functions such as a route planner for traveling by foot, car, or with public transportation.",
+    "website": "https://map.baidu.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "Here": {
+    "name": "Here",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Hosting/PAAS",
+    "description": "HERE is a PaaS for creating custom maps, visualize location datasets, gather insights and buy and sell location assets.",
+    "website": "https://www.here.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "Maptalks": {
+    "name": "Maptalks",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Hosting/PAAS",
+    "description": "Maptalks is a light and plugable JavaScript library for integrated 2D/3D maps.",
+    "website": "https://maptalks.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  },
+  "OpenStreetMap": {
+    "name": "OpenStreetMap",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Hosting/PAAS",
+    "description": "OpenStreetMap is a free, editable map of the whole world that is being built by volunteers largely from scratch and released with an open-content license.",
+    "website": "https://www.openstreetmap.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TerriaJS": {
+    "name": "TerriaJS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Hosting/PAAS",
+    "description": "TerriaJS is an open-source framework for web-based geospatial catalogue explorers.",
+    "website": "https://terria.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Hosting/PAAS"
+      ]
+    }
+  }
+}

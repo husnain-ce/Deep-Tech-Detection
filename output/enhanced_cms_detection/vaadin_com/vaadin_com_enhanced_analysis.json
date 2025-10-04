@@ -1,0 +1,124 @@
+{
+  "url": "https://vaadin.com",
+  "final_url": "https://vaadin.com",
+  "analysis_time": 4.210214614868164,
+  "technologies": [
+    {
+      "name": "Alpine.js",
+      "confidence": 75,
+      "category": "Category 7",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "x-data=|x-init=",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://alpinejs.dev",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515444.6961937
+    },
+    {
+      "name": "YouTube Embed",
+      "confidence": 75,
+      "category": "Category 18",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "youtube\\.com/embed/",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.youtube.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515444.8020399
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515445.0116737
+    },
+    {
+      "name": "Unpkg",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://unpkg.com/aos@2.3.1/dist/aos.js",
+          "match": "unpkg\\.com/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://unpkg.com/aos@2.3.1/dist/aos.css",
+          "match": "unpkg\\.com/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://unpkg.com",
+      "description": "Unpkg is a content delivery network for everything on npm.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515445.7350936
+    }
+  ],
+  "metadata": {
+    "title": "Build Modern Web Apps in Java | Java Web Framework | Vaadin",
+    "description": "Develop business full-stack web apps effortlessly with Vaadin",
+    "content_length": 168979,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 4,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 4,
+    "confidence_distribution": {
+      "high (80-100)": 2,
+      "medium (50-79)": 2,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 4.21,
+      "technologies_per_second": 0.95
+    }
+  },
+  "errors": []
+}

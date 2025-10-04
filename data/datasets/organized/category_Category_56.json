@@ -1,0 +1,202 @@
+{
+  "CoinHive": {
+    "name": "CoinHive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "Coinhive is a cryptocurrency mining service.",
+    "website": "https://coinhive.com",
+    "patterns": {
+      "url": [
+        "https?://cnhv\\.co/"
+      ],
+      "scriptSrc": [
+        "\\/(?:coinhive|(authedmine))(?:\\.min)?\\.js\\;version:\\1?opt-in:",
+        "coinhive\\.com/lib"
+      ],
+      "scripts": [
+        "\\/(?:coinhive|(authedmine))(?:\\.min)?\\.js\\;version:\\1?opt-in:",
+        "coinhive\\.com/lib"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Coinhave": {
+    "name": "Coinhave",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "CoinHave is a cryptocurrency mining service.",
+    "website": "https://coin-have.com/",
+    "patterns": {
+      "scriptSrc": [
+        "https?://coin-have\\.com/c/[0-9a-zA-Z]{4}\\.js"
+      ],
+      "scripts": [
+        "https?://coin-have\\.com/c/[0-9a-zA-Z]{4}\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Coinimp": {
+    "name": "Coinimp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "CoinImp is a cryptocurrency mining service.",
+    "website": "https://www.coinimp.com",
+    "patterns": {
+      "scriptSrc": [
+        "https?://www\\.hashing\\.win/scripts/min\\.js"
+      ],
+      "scripts": [
+        "https?://www\\.hashing\\.win/scripts/min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Crypto-Loot": {
+    "name": "Crypto-Loot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "Crypto-Loot is a browser based web miner for the uPlexa Blockchain.",
+    "website": "https://crypto-loot.com/",
+    "patterns": {
+      "scriptSrc": [
+        "^/crypto-loot\\.com/lib/",
+        "^/webmine\\.pro/",
+        "^/cryptoloot\\.pro/",
+        "/crlt\\.js\\;confidence:75"
+      ],
+      "scripts": [
+        "^/crypto-loot\\.com/lib/",
+        "^/webmine\\.pro/",
+        "^/cryptoloot\\.pro/",
+        "/crlt\\.js\\;confidence:75"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JSEcoin": {
+    "name": "JSEcoin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "JSEcoin is a way to mine, receive payments for your goods or services and transfer cryptocurrency",
+    "website": "https://jsecoin.com/",
+    "patterns": {
+      "scriptSrc": [
+        "^(?:https):?//load\\.jsecoin\\.com/load/"
+      ],
+      "scripts": [
+        "^(?:https):?//load\\.jsecoin\\.com/load/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Minero.cc": {
+    "name": "Minero.cc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 56",
+    "description": "Minero.cc is a bot that helps run crypto mining application.",
+    "website": "http://minero.cc/",
+    "patterns": {
+      "scriptSrc": [
+        "//minero\\.cc/lib/minero(?:-miner|-hidden)?\\.min\\.js"
+      ],
+      "scripts": [
+        "//minero\\.cc/lib/minero(?:-miner|-hidden)?\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "deepMiner": {
+    "name": "deepMiner",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 56",
+    "description": "",
+    "website": "https://github.com/deepwn/deepMiner",
+    "patterns": {
+      "scriptSrc": [
+        "deepMiner\\.js"
+      ],
+      "scripts": [
+        "deepMiner\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 56"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

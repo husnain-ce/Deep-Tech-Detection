@@ -1,0 +1,42 @@
+{
+  "Docker": {
+    "name": "Docker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 60",
+    "description": "Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.",
+    "website": "https://www.docker.com/",
+    "patterns": {
+      "html": [
+        "<!-- This comment is expected by the docker HEALTHCHECK  -->"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 60"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Harbor": {
+    "name": "Harbor",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 60",
+    "description": "Harbor is an open-source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.",
+    "website": "https://goharbor.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 60"
+      ]
+    }
+  }
+}

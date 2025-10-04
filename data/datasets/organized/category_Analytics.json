@@ -1,0 +1,664 @@
+{
+  "Docusaurus": {
+    "name": "Docusaurus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Docusaurus is a tool for teams to publish documentation websites.",
+    "website": "https://docusaurus.io/",
+    "patterns": {
+      "meta": [
+        "generator: ^Docusaurus(?: v(.+))?$\\;version:\\1",
+        "docusaurus_tag: ",
+        "docusaurus_locale: "
+      ],
+      "html": [
+        "docusaurus"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics",
+        "Category 57"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "MkDocs": {
+    "name": "MkDocs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "MkDocs is a static site generator, used for building project documentation.",
+    "website": "http://www.mkdocs.org/",
+    "patterns": {
+      "meta": [
+        "generator: ^mkdocs-([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "mkdocs"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Adobe RoboHelp": {
+    "name": "Adobe RoboHelp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Adobe RoboHelp is a Help Authoring Tool (HAT) that allows you to create help systems, e-learning content and knowledge bases.",
+    "website": "http://adobe.com/products/robohelp.html",
+    "patterns": {
+      "meta": [
+        "generator: ^Adobe RoboHelp(?: ([\\d]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "(?:wh(?:utils|ver|proxy|lang|topic|msg)|ehlpdhtm)\\.js"
+      ],
+      "scripts": [
+        "(?:wh(?:utils|ver|proxy|lang|topic|msg)|ehlpdhtm)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apigee": {
+    "name": "Apigee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Apigee is an API gateway management tool to exchange data across cloud services and applications",
+    "website": "https://cloud.google.com/apigee/",
+    "patterns": {
+      "scriptSrc": [
+        "/profiles/apigee"
+      ],
+      "html": [
+        "<script>[^>]{0,50}script src=[^>]/profiles/apigee"
+      ],
+      "scripts": [
+        "/profiles/apigee"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics",
+        "Rich Text Editors"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Asciidoctor": {
+    "name": "Asciidoctor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Asciidoctor is an open-source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",
+    "website": "https://github.com/asciidoctor/asciidoctor",
+    "patterns": {
+      "meta": [
+        "generator: ^Asciidoctor\\s([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "BookStack": {
+    "name": "BookStack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "BookStack is a simple, open-source, self-hosted, easy-to-use platform for organising and storing information.",
+    "website": "https://www.bookstackapp.com",
+    "patterns": {
+      "cookies": [
+        "bookstack_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "DocFX": {
+    "name": "DocFX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "DocFX is a tool for building and publishing API documentation for .NET projects.",
+    "website": "https://github.com/dotnet/docfx",
+    "patterns": {
+      "meta": [
+        "generator: docfx\\s([\\d\\.]+)\\;version:\\1",
+        "docfx:tocrel: toc.html",
+        "docfx:navrel: toc.html"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Doxygen": {
+    "name": "Doxygen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Doxygen is a documentation generator, a tool for writing software reference documentation.",
+    "website": "http://www.doxygen.nl/",
+    "patterns": {
+      "html": [
+        "(?:<!-- Generated by Doxygen ([\\d.]+)|<link[^>]+doxygen\\.css)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Doxygen ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GitBook": {
+    "name": "GitBook",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "GitBook is a command-line tool for creating documentation using Git and Markdown.",
+    "website": "https://www.gitbook.com",
+    "patterns": {
+      "url": [
+        "^https?://[^/]+\\.gitbook\\.com/"
+      ],
+      "meta": [
+        "generator: GitBook ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Haddock": {
+    "name": "Haddock",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Haddock is a tool for automatically generating documentation from annotated Haskell source code.",
+    "website": "http://www.haskell.org/haddock/",
+    "patterns": {
+      "html": [
+        "<p>Produced by <a href=\"http://www\\.haskell\\.org/haddock/\">Haddock</a> version ([0-9.]+)</p>\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "haddock-util\\.js"
+      ],
+      "scripts": [
+        "haddock-util\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "HelpDocs": {
+    "name": "HelpDocs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "HelpDocs is an knowledge management system.",
+    "website": "https://www.helpdocs.io",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.helpdocs\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "Intercom Articles": {
+    "name": "Intercom Articles",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Intercom Articles is a tool to create, organise and publish help articles.",
+    "website": "https://www.intercom.com/articles",
+    "patterns": {
+      "html": [
+        "<a href=\"https://www.intercom.com/intercom-link[^\"]+solution=customer-support[^>]+>We run on Intercom"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Javadoc": {
+    "name": "Javadoc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Javadoc is a tool used for generating Java code documentation in HTML format from Java source code.",
+    "website": "https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html",
+    "patterns": {
+      "html": [
+        "<!-- Generated by javadoc -->"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mdBook": {
+    "name": "mdBook",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "mdBook is a utility to create modern online books from Markdown files.",
+    "website": "https://github.com/rust-lang/mdBook",
+    "patterns": {
+      "scripts": [
+        "localStorage\\.getItem\\('mdbook-(?:sidebar|theme)'\\)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "phpDocumentor": {
+    "name": "phpDocumentor",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "phpDocumentor is an open-source documentation generator written in PHP.",
+    "website": "https://www.phpdoc.org",
+    "patterns": {
+      "html": [
+        "<!-- Generated by phpDocumentor"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RDoc": {
+    "name": "RDoc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "RDoc produces HTML and command-line documentation for Ruby projects.",
+    "website": "https://github.com/ruby/rdoc",
+    "patterns": {
+      "html": [
+        "<link[^>]+href=\"[^\"]*rdoc-style\\.css",
+        "Generated by <a href=\"https:\\/\\/ruby\\.github\\.io\\/rdoc\\/\">RDoc<\\/a> ([\\d.]*\\d)\\;version:\\1",
+        "Generated by <a[^>]+href=\"https?://rdoc\\.rubyforge\\.org[^>]+>RDoc</a> ([\\d.]*\\d)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ReDoc": {
+    "name": "ReDoc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Redoc is an open-source tool that generates API documentation from OpenAPI specifications.",
+    "website": "https://github.com/Rebilly/ReDoc",
+    "patterns": {
+      "html": [
+        "<redoc "
+      ],
+      "scriptSrc": [
+        "/redoc\\.(?:min\\.)?js"
+      ],
+      "scripts": [
+        "/redoc\\.(?:min\\.)?js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ReadMe": {
+    "name": "ReadMe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "ReadMe is a content management system that businesses use to create and manage technical or API documentation.",
+    "website": "https://readme.com",
+    "patterns": {
+      "meta": [
+        "readme-deploy: ^[\\d\\.]+$",
+        "readme-version: ^[\\d\\.]+$"
+      ],
+      "scriptSrc": [
+        "/cdn\\.readme\\.io/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics",
+        "CMS"
+      ]
+    }
+  },
+  "Sphinx": {
+    "name": "Sphinx",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Sphinx is a tool that makes it easy to create documentation.",
+    "website": "https://www.sphinx-doc.org/",
+    "patterns": {
+      "html": [
+        "Created using <a href=\"https?://(?:www\\.)?sphinx-doc\\.org/\">Sphinx</a> ([0-9.]+)\\.\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Swagger UI": {
+    "name": "Swagger UI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate documentation from a Swagger-compliant API.",
+    "website": "https://swagger.io/tools/swagger-ui",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/([\\d.]+))?/swagger-ui-bundle\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "YUI Doc": {
+    "name": "YUI Doc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "UIDoc is a Node.js application used at build time to generate API documentation.",
+    "website": "http://developer.yahoo.com/yui/yuidoc",
+    "patterns": {
+      "html": [
+        "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zendesk": {
+    "name": "Zendesk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Analytics",
+    "description": "Zendesk is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.",
+    "website": "https://zendesk.com",
+    "patterns": {
+      "headers": [
+        "x-zendesk-user-id: "
+      ],
+      "cookies": [
+        "_zendesk_shared_session: ",
+        "_zendesk_cookie: ",
+        "_help_center_session: "
+      ],
+      "scriptSrc": [
+        "static\\.zdassets\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics",
+        "Forums",
+        "Category 52"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BetterDocs": {
+    "name": "BetterDocs",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "BetterDocs is an advanced documentation and knowledge base plugin for WordPress and Shopify.",
+    "website": "https://betterdocs.co",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "Bump": {
+    "name": "Bump",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "Bump is an API contract management platform that helps document and track APIs by identifying changes in API structure, and keeping developers informed through an elegant documentation.",
+    "website": "https://bump.sh",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "Obsidian Publish": {
+    "name": "Obsidian Publish",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "Obsidian Publish is an official, paid plugin for Obsidian that allows users to post selected notes to a directory on the publish.obsidian.md domain.",
+    "website": "https://obsidian.md/publish",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "Support Hero": {
+    "name": "Support Hero",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "Support Hero is a knowledge base solution to reduce inbound support requests.",
+    "website": "https://www.supporthero.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics",
+        "Forums"
+      ]
+    }
+  },
+  "TypeDoc": {
+    "name": "TypeDoc",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "TypeDoc is an API documentation generator for TypeScript projects.",
+    "website": "https://typedoc.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  },
+  "Wiki.js": {
+    "name": "Wiki.js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Analytics",
+    "description": "Wiki.js is a wiki engine running on Node.js and written in JavaScript.",
+    "website": "https://js.wiki",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Analytics"
+      ]
+    }
+  }
+}

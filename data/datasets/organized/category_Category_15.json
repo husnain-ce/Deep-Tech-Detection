@@ -1,0 +1,102 @@
+{
+  "MySQL": {
+    "name": "MySQL",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 15",
+    "description": "",
+    "website": "https://www.mysql.com",
+    "patterns": {
+      "html": [
+        "(?i)You have an error in your SQL syntax;"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 15"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "PostgreSQL": {
+    "name": "PostgreSQL",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 15",
+    "description": "",
+    "website": "https://www.postgresql.org",
+    "patterns": {
+      "html": [
+        "(?i)PostgreSQL.*ERROR"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 15"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "MongoDB": {
+    "name": "MongoDB",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 15",
+    "description": "",
+    "website": "https://www.mongodb.com",
+    "patterns": {
+      "html": [
+        "(?i)MongoNetworkError|MongoServerSelectionError"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 15"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "MariaDB": {
+    "name": "MariaDB",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 15",
+    "description": "",
+    "website": "https://mariadb.org",
+    "patterns": {
+      "html": [
+        "MariaDB server has gone away|MariaDB"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 15"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "url": "https://wordpress.com",
+  "final_url": "https://wordpress.com",
+  "analysis_time": 1.9814043045043945,
+  "technologies": [
+    {
+      "name": "Ant Design",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ant-[a-z-]+",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://ant.design",
+      "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515339.7100961
+    },
+    {
+      "name": "WordPress",
+      "confidence": 85,
+      "category": "Category 1",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']WordPress",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<link[^>]+s\\d+\\.wp\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/bilmur.min.js?i=16&amp;m=202540",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/bilmur.min.js?i=16&amp;m=202540",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/bilmur.min.js?i=16&amp;m=202540",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/def-queue.js?v=1566842360",
+          "match": "/wp-content/.*\\.(?:js|css)",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/def-queue.js?v=1566842360",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/wp-content/js/def-queue.js?v=1566842360",
+          "match": "/wp-(?:content|includes)/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/06/group-1000004724.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/06/play-store-logo.png",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2025/07/wordpress-done-right-hero-2.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-1-2x-2-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-2-2x-2-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-3-2x-3-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-11-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-12-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-3-2-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-19-2-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-4-2x-2-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-5-2x-2-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-6-2x-2-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-14-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-15-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-1-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-2-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-3-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-4-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-5-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-6-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-7-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-8-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2023/10/theme-mobile-9-2x-optimized.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        },
+        {
+          "field": "images",
+          "detail": "https://wordpress.com/wp-content/uploads/2024/06/vip-logo-2.webp",
+          "match": "/wp-(?:content|includes)/|/wp-admin/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://wordpress.org",
+      "description": "Open-source CMS.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515339.7462146
+    },
+    {
+      "name": "Meta Pixel",
+      "confidence": 75,
+      "category": "Category 12",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "fbq\\(",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.facebook.com/business/tools/meta-pixel",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515339.9394083
+    },
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515340.0532708
+    }
+  ],
+  "metadata": {
+    "title": "WordPress.com: Everything You Need to Build Your Website",
+    "description": "Create your WordPress website with built-in hosting, premium themes, and powerful tools. No technical setup required. Start building today\u2014free plan available.",
+    "content_length": 320884,
+    "response_time": "0",
+    "server": "nginx",
+    "total_technologies": 4,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 4,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 1.98,
+      "technologies_per_second": 2.02
+    }
+  },
+  "errors": []
+}

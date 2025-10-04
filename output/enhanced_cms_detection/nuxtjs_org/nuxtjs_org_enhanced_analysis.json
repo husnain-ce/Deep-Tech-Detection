@@ -1,0 +1,160 @@
+{
+  "url": "https://nuxtjs.org",
+  "final_url": "https://nuxt.com/",
+  "analysis_time": 3.103606700897217,
+  "technologies": [
+    {
+      "name": "Vue.js",
+      "confidence": 85,
+      "category": "Blogs",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<[^>]+\\sdata-v(?:ue)?-",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "data-v-[a-f0-9]{5}",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://vuejs.org",
+      "description": "Vue.js is an open-source model\u2013view\u2013viewmodel JavaScript framework for building user interfaces and single-page applications.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515416.095434
+    },
+    {
+      "name": "Nuxt.js",
+      "confidence": 85,
+      "category": "Blogs",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<div [^>]*id=\"__nuxt\"",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "__NUXT__",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/_nuxt/DvPtLE2T.js",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "/_nuxt/DvPtLE2T.js",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/entry.DCU4j26D.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/entry.DCU4j26D.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/pages.BeURGnYc.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/pages.BeURGnYc.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/ModuleItem.C31KIbw5.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/ModuleItem.C31KIbw5.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/Marquee.D-1QBfNL.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/Marquee.D-1QBfNL.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/preview.D8f82E06.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "/_nuxt/preview.D8f82E06.css",
+          "match": "/_nuxt/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://nuxtjs.org",
+      "description": "Nuxt is a Vue framework for developing modern web applications.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515416.095985
+    }
+  ],
+  "metadata": {
+    "title": "Nuxt: The Progressive Web Framework",
+    "description": "Create high-quality web applications with Nuxt, the open source framework that makes full-stack development with Vue.js intuitive.",
+    "content_length": 287992,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 2,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 1,
+    "confidence_distribution": {
+      "high (80-100)": 2,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 3.1,
+      "technologies_per_second": 0.64
+    }
+  },
+  "errors": []
+}

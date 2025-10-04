@@ -1,0 +1,281 @@
+{
+  "Bazaarvoice Curation": {
+    "name": "Bazaarvoice Curation",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Bazaarvoice Curation is a content curation service Bazaarvoice provides post it's acquisition of Curalate.",
+    "website": "https://www.bazaarvoice.com/products/visual-and-social-content/",
+    "patterns": {
+      "scriptSrc": [
+        "edge\\.curalate\\.com",
+        "cdn\\.curalate\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Covet.pics": {
+    "name": "Covet.pics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Covet.pics is a customizable Shopify app for Instagram and Lookbook shoppable galleries.",
+    "website": "https://covet.pics",
+    "patterns": {
+      "scriptSrc": [
+        "\\.covet\\.pics/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96",
+        "Category 100"
+      ]
+    }
+  },
+  "Foursixty": {
+    "name": "Foursixty",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Foursixty is a widget which turns Instagram content and user-generated content into shoppable galleries.",
+    "website": "https://foursixty.com/",
+    "patterns": {
+      "scriptSrc": [
+        "foursixty\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Nosto Visual UGC": {
+    "name": "Nosto Visual UGC",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Nosto Visual UGC (Earlier known as Stackla) is a cloud-based content marketing platform that helps discover, curate, display and engage with user-generated content across all digital marketing platforms.",
+    "website": "https://www.nosto.com/products/visual-ugc/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stackla\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Pixlee TurnTo": {
+    "name": "Pixlee TurnTo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Pixlee TurnTo is a social UGC, ratings and reviews, and influencer marketing platform for community-driven brands.",
+    "website": "https://pixlee.com",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.pixlee\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Sniply": {
+    "name": "Sniply",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Sniply is a special URL shortener that allows to add a call-to-action to any landing page.",
+    "website": "https://sniply.io",
+    "patterns": {
+      "scriptSrc": [
+        "gosniply\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "StoryStream": {
+    "name": "StoryStream",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "StoryStream is a content curation platform that specialises in user generated content.",
+    "website": "https://storystream.ai",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.storystream\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Tagboard": {
+    "name": "Tagboard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Tagboard is a platform which allows users to aggregate data from major social networking websites and embed, repost and redisplay it on various media.",
+    "website": "https://tagboard.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tagboard\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Tagembed": {
+    "name": "Tagembed",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 96",
+    "description": "Tagembed is a social media aggregator that collects and displays engaging user-generated content from any social media network such as Instagram, Facebook, Twitter, Youtube, Tiktok, Google Reviews, Airbnb, and 18+ networks.",
+    "website": "https://tagembed.com",
+    "patterns": {
+      "scriptSrc": [
+        "//widget\\.tagembed\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96",
+        "Advertising"
+      ]
+    }
+  },
+  "ContentStudio": {
+    "name": "ContentStudio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "ContentStudio is an integrated cloud-based social media management and content marketing solution.",
+    "website": "https://contentstudio.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Contently": {
+    "name": "Contently",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "Contently is a SaaS content marketing platform from the company of the same name headquartered in New York.",
+    "website": "https://contently.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "MadCap Software": {
+    "name": "MadCap Software",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "MadCap Software is a company that specialises in creating software tools for technical writers to author and publish various types of content, including user manuals, online help systems, and knowledge bases.",
+    "website": "https://www.madcapsoftware.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Olapic": {
+    "name": "Olapic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "Olapic is a content marketing tool specifically focused on visual marketing content.",
+    "website": "https://www.olapic.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Photoslurp": {
+    "name": "Photoslurp",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "Photoslurp is a visual commerce platform that collects photos and videos of customers using your products from across social networks.",
+    "website": "https://hi.photoslurp.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  },
+  "Scoop.it": {
+    "name": "Scoop.it",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 96",
+    "description": "Scoop.it is a content marketing software company based in San Francisco which provide content curation platform.",
+    "website": "https://www.scoop.it",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 96"
+      ]
+    }
+  }
+}

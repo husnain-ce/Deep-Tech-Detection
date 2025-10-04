@@ -1,0 +1,88 @@
+{
+  "url": "https://seamframework.org",
+  "final_url": "https://www.seamframework.org/",
+  "analysis_time": 6.044456720352173,
+  "technologies": [
+    {
+      "name": "SyntaxHighlighter",
+      "confidence": 75,
+      "category": "Rich Text Editors",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://github.com/syntaxhighlighter",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515539.111414
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "themes/sfwkorg/js/jquery.js",
+          "match": "/jquery(?:-[\\d.]+)?(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "themes/sfwkorg/js/jquery.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "themes/sfwkorg/js/jqueryPlugins.js",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515539.941919
+    }
+  ],
+  "metadata": {
+    "title": "Seam Framework - JBoss Seam",
+    "description": "",
+    "content_length": 35415,
+    "response_time": "0",
+    "server": "GitHub.com",
+    "total_technologies": 2,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 2,
+    "confidence_distribution": {
+      "high (80-100)": 1,
+      "medium (50-79)": 1,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 6.04,
+      "technologies_per_second": 0.33
+    }
+  },
+  "errors": []
+}

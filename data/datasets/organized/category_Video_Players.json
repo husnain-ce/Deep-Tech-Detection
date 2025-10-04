@@ -1,0 +1,342 @@
+{
+  "Font Awesome": {
+    "name": "Font Awesome",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+    "website": "https://fontawesome.com/",
+    "patterns": {
+      "scriptSrc": [
+        "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+        "\\.fontawesome\\.com/([0-9a-z]+).js"
+      ],
+      "html": [
+        "<link[^>]* href=[^>]+(?:([\\d.]+)/)?(?:css/)?font-awesome(?:\\.min)?\\.css\\;version:\\1",
+        "fontawesome(?:\\.min)?\\.css|fa-(?:solid|brands|regular)",
+        "<link[^>]* href=[^>]*kit\\-pro\\.fontawesome\\.com/releases/v([0-9.]+)/\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+        "\\.fontawesome\\.com/([0-9a-z]+).js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Cufon": {
+    "name": "Cufon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Cufon is a tool used to overlap real text with an image.",
+    "website": "http://cufon.shoqolate.com",
+    "patterns": {
+      "scriptSrc": [
+        "cufon-yui\\.js"
+      ],
+      "scripts": [
+        "cufon-yui\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Glyphicons": {
+    "name": "Glyphicons",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Glyphicons are icon fonts which you can use in your web projects.",
+    "website": "http://glyphicons.com",
+    "patterns": {
+      "html": [
+        "(?:<link[^>]* href=[^>]+glyphicons(?:\\.min)?\\.css|<img[^>]* src=[^>]+glyphicons)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Font API": {
+    "name": "Google Font API",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Google Font API is a web service that supports open-source font files that can be used on your web designs.",
+    "website": "http://google.com/fonts",
+    "patterns": {
+      "scriptSrc": [
+        "googleapis\\.com/.+webfont"
+      ],
+      "html": [
+        "<link[^>]* href=[^>]+fonts\\.(?:googleapis|google)\\.com"
+      ],
+      "scripts": [
+        "googleapis\\.com/.+webfont"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ionicons": {
+    "name": "Ionicons",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Ionicons is an open-source icon set crafted for web, iOS, Android, and desktop apps.",
+    "website": "http://ionicons.com",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=[^>]+ionicons(?:\\.min)?\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MyFonts": {
+    "name": "MyFonts",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "MyFonts is a digital fonts distributor, based in Woburn, Massachusetts.",
+    "website": "https://www.myfonts.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.myfonts\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "sIFR": {
+    "name": "sIFR",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "sIFR is a JavaScript and Adobe Flash dynamic web fonts implementation.",
+    "website": "https://www.mikeindustries.com/blog/sifr",
+    "patterns": {
+      "scriptSrc": [
+        "sifr\\.js"
+      ],
+      "scripts": [
+        "sifr\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twitter Emoji (Twemoji)": {
+    "name": "Twitter Emoji (Twemoji)",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Twitter Emoji is a set of open-source emoticons and emojis for Twitter, TweetDeck, and also for Android and iOS versions of the application.",
+    "website": "https://twitter.github.io/twemoji/",
+    "patterns": {
+      "scriptSrc": [
+        "twemoji(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "twemoji(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Typekit": {
+    "name": "Typekit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Video Players",
+    "description": "Typekit is an online service which offers a subscription library of fonts.",
+    "website": "http://typekit.com",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^\"]+use\\.typekit\\.(?:net|com)"
+      ],
+      "scriptSrc": [
+        "use\\.typekit\\.com"
+      ],
+      "scripts": [
+        "use\\.typekit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bootstrap Icons": {
+    "name": "Bootstrap Icons",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "Bootstrap Icons is a growing library of SVG icons that are designed by @mdo and maintained by the Bootstrap Team.",
+    "website": "https://icons.getbootstrap.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "Bunny Fonts": {
+    "name": "Bunny Fonts",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.",
+    "website": "https://fonts.bunny.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "FontServer": {
+    "name": "FontServer",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "FontServer is a online font delivery network service-provider for websites.",
+    "website": "https://fontserver.ir",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "Fork Awesome": {
+    "name": "Fork Awesome",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "Fork Awesome is now a community effort based on Font Awesome by Dave Gandy.",
+    "website": "https://forkaweso.me",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "Hoefler&Co": {
+    "name": "Hoefler&Co",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "Hoefler&Co is a digital type foundry (font design studio) in Woburn, Massachusetts (formerly New York City), founded by type designer Jonathan Hoefler. Hoefler&Co designs typefaces for clients and for retail on its website.",
+    "website": "https://www.typography.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  },
+  "i30con": {
+    "name": "i30con",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Video Players",
+    "description": "i30con is an icon toolkit based on CSS and JavaScript.",
+    "website": "https://30nama.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Video Players"
+      ]
+    }
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "Segment": {
+    "name": "Segment",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Segment is a customer data platform (CDP) that helps you collect, clean, and control your customer data.",
+    "website": "https://segment.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.segment\\.com/analytics\\.js",
+        "/segment-wrapper\\.min\\.js"
+      ],
+      "scripts": [
+        "/segment-wrapper\\.min\\.js",
+        "cdn\\.segment\\.com/analytics\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Insider": {
+    "name": "Insider",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Insider is the first integrated Growth Management Platform helping digital marketers drive growth across the funnel, from Acquisition to Activation, Retention, and Revenue from a unified platform powered by Artificial Intelligence and Machine Learning.",
+    "website": "https://useinsider.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.useinsider\\.\\w+/"
+      ],
+      "scripts": [
+        "api\\.useinsider\\.\\w+/",
+        "cdn\\.insider\\.dev/insider\\.min\\.js|ins-cdn\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Acquia Customer Data Platform": {
+    "name": "Acquia Customer Data Platform",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Acquia Customer Data Platform (formerly AgilOne) is a customer data platform for Drupal.",
+    "website": "https://www.acquia.com/products/marketing-cloud/customer-data-platform",
+    "patterns": {
+      "scriptSrc": [
+        "^https?:\\/\\/.+\\.agilone\\.com",
+        "^https?:\\/\\/scripts\\.agilone\\.com\\/latest\\/a1.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Antsomi CDP 365": {
+    "name": "Antsomi CDP 365",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Antsomi CDP 365 is a AI-enabled customer data platform from Southeast Asia.",
+    "website": "https://www.antsomi.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cdp\\.asia/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Cooladata": {
+    "name": "Cooladata",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Cooladata is a data warehouse and behavioral analytics platform designed for gaming, elearning, ecommerce, SaaS, and media companies.",
+    "website": "https://www.cooladata.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.cooladata\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Exponea": {
+    "name": "Exponea",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Exponea is a cloud-based marketing analysis platform suitable for large and midsize organisations in a variety of industries.",
+    "website": "https://go.exponea.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:\\.exponea\\.com)?/js/exponea\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "FirstHive": {
+    "name": "FirstHive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "FirstHive is a full-stack customer data platform that enables consumer marketers and brands to take control of their first-party data from all sources.",
+    "website": "https://firsthive.com",
+    "patterns": {
+      "scriptSrc": [
+        "firsthive\\.com/engage/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Lytics": {
+    "name": "Lytics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Lytics is a customer data platform built for marketing teams.",
+    "website": "https://www.lytics.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.lytics\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "mParticle": {
+    "name": "mParticle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "mParticle is a mobile-focused event tracking and data ingestion tool.",
+    "website": "https://www.mparticle.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.mparticle\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Netcore Cloud": {
+    "name": "Netcore Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Netcore Cloud is a globally recognised marketing technology SaaS company.",
+    "website": "https://netcorecloud.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.netcoresmartech\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Optimove": {
+    "name": "Optimove",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Optimove is a relationship marketing hub powered by a combination of advanced customer modeling, predictive micro-segmentation and campaign automation technologies.",
+    "website": "https://www.optimove.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.optimove\\.net/.+v([\\d\\.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "PriceSpider": {
+    "name": "PriceSpider",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "PriceSpider is an advanced retail data technology company that provides insights about consumer purchasing behavior.",
+    "website": "https://www.pricespider.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.pricespider\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Rudderstack": {
+    "name": "Rudderstack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Rudderstack is a customer data platform (CDP) that helps you collect, clean, and control your customer data.",
+    "website": "https://rudderstack.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.rudderlabs\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "SALESmanago": {
+    "name": "SALESmanago",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "SALESmanago is a no-code marketing automation and customer data platform designed for mid-sized buinesses and enterprises.",
+    "website": "https://www.salesmanago.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.salesmanago\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Simon": {
+    "name": "Simon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Simon is a customer data platform (CDP) that helps you collect, clean, and control your customer data.",
+    "website": "https://www.simondata.com/",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.simonsignal\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Sirdata": {
+    "name": "Sirdata",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Sirdata is a self-service, third party data-collecting platform that specialises in the collection of behavioural data, predictive targeting and selling of audience segments.",
+    "website": "https://www.sirdata.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:choices|cache)\\.consentframework\\.com/",
+        "js\\.sddan\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97",
+        "Category 67",
+        "Category 86"
+      ]
+    }
+  },
+  "Sub2Tech": {
+    "name": "Sub2Tech",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Sub2Tech is combining real time customer data with industry-leading technology.",
+    "website": "https://www.sub2tech.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.sub2tech\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Tail": {
+    "name": "Tail",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Tail is a customer data management platform.",
+    "website": "https://www.tail.digital",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tailtarget\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Totango": {
+    "name": "Totango",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Totango is a customer success platform that helps recurring revenue businesses simplify the complexities of customer success by connecting the dots of customer data, actively monitoring customer health changes, and driving proactive engagements.",
+    "website": "https://www.totango.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.totango\\.com/totango([\\d\\.]+)\\.js\\;version:\\1",
+        "\\.amazonaws\\.com/totango-cdn/totango\\d\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Treasure Data": {
+    "name": "Treasure Data",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Treasure Data is the only enterprise customer data platform.",
+    "website": "https://www.treasuredata.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.treasuredata\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Zeotap": {
+    "name": "Zeotap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 97",
+    "description": "Zeotap is a customer intelligence platform that helps brands better understand their customers and predict behaviors.",
+    "website": "https://zeotap.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.zeotap\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "Adobe Experience Platform Identity Service": {
+    "name": "Adobe Experience Platform Identity Service",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 97",
+    "description": "Adobe Experience Platform Identity Service creates identity graphs that hold customer profiles and the known identifiers that belong to individual consumers.",
+    "website": "https://docs.adobe.com/content/help/en/id-service/using/home.html",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BlueConic": {
+    "name": "BlueConic",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 97",
+    "description": "BlueConic is the advanced customer data platform that liberates companies' first-party data from disparate systems.",
+    "website": "https://www.blueconic.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "ChurnZero": {
+    "name": "ChurnZero",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 97",
+    "description": "ChurnZero is a real-time customer success platform that helps subscription businesses fight customer churn.",
+    "website": "https://churnzero.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  },
+  "inSided": {
+    "name": "inSided",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 97",
+    "description": "inSided is the only Customer Success Community Platform built to help SaaS companies improve customer success and retention.",
+    "website": "https://www.insided.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 97"
+      ]
+    }
+  }
+}

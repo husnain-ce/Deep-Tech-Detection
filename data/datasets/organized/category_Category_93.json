@@ -1,0 +1,546 @@
+{
+  "BookDinners": {
+    "name": "BookDinners",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "BookDinners is a restaurant table booking widget.",
+    "website": "https://www.bookdinners.nl",
+    "patterns": {
+      "scriptSrc": [
+        "bookdinners\\.nl/widget\\.js"
+      ],
+      "scripts": [
+        "bookdinners\\.nl/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bookatable": {
+    "name": "Bookatable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Bookatable is a restaurant table booking widget.",
+    "website": "https://www.bookatable.co.uk",
+    "patterns": {
+      "scriptSrc": [
+        "bda\\.bookatable\\.com/deploy/lbui\\.direct\\.min\\.js"
+      ],
+      "scripts": [
+        "bda\\.bookatable\\.com/deploy/lbui\\.direct\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CoverManager": {
+    "name": "CoverManager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "CoverManager is a restaurant table booking widget.",
+    "website": "https://www.covermanager.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.covermanager\\.com/"
+      ],
+      "html": [
+        "<iframe[^>]*covermanager\\.com/reservation"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FoodBooking": {
+    "name": "FoodBooking",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "FoodBooking is a virtual food court based on a curated list of restaurants that use the GloriaFood ordering system.",
+    "website": "https://www.foodbooking.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.(?:fbgcdn|foodbooking)\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Foodomaa": {
+    "name": "Foodomaa",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Foodomaa is a multi-restaurant food ordering and restaurant membership system.",
+    "website": "https://foodomaa.com",
+    "patterns": {
+      "cookies": [
+        "foodomaa_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Formitable": {
+    "name": "Formitable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Formitable is an reservation management system for restaurants.",
+    "website": "https://formitable.com",
+    "patterns": {
+      "scriptSrc": [
+        "formitable\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+        "cdn\\.formitable\\.com"
+      ],
+      "scripts": [
+        "formitable\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1",
+        "cdn\\.formitable\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Guestonline": {
+    "name": "Guestonline",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Guestonline is a restaurant table booking widget.",
+    "website": "https://www.guestonline.io",
+    "patterns": {
+      "scriptSrc": [
+        "ib\\.guestonline\\.\\w+"
+      ],
+      "scripts": [
+        "ib\\.guestonline\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hostmeapp": {
+    "name": "Hostmeapp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Hostmeapp is an restaurant software. Includes reservation, waitlist, guestbook and marketing tools.",
+    "website": "https://www.hostmeapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "tables\\.hostmeapp\\.com"
+      ],
+      "scripts": [
+        "tables\\.hostmeapp\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93",
+        "Category 72"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ResDiary": {
+    "name": "ResDiary",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "ResDiary, is a online reservation system for hospitality operators.",
+    "website": "https://www.resdiary.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.resdiary\\.\\w+/"
+      ],
+      "scripts": [
+        "\\.resdiary\\.\\w+/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Resengo": {
+    "name": "Resengo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Resengo is a restaurant table booking widget.",
+    "website": "https://wwc.resengo.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.resengo\\.\\w+"
+      ],
+      "scripts": [
+        "www\\.resengo\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Reservio": {
+    "name": "Reservio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Reservio is a cloud-based appointment scheduling and online booking solution.",
+    "website": "https://www.reservio.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.reservio\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93",
+        "Category 72"
+      ]
+    }
+  },
+  "Resmio": {
+    "name": "Resmio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Resmio is a restaurant table booking widget.",
+    "website": "https://www.resmio.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.resmio\\.\\w+/static/"
+      ],
+      "scripts": [
+        "static\\.resmio\\.\\w+/static/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Resy": {
+    "name": "Resy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Resy is an technology and media company that provides an app and back-end management software for restaurant reservations.",
+    "website": "https://resy.com",
+    "patterns": {
+      "scriptSrc": [
+        "widgets\\.resy\\.\\w+"
+      ],
+      "scripts": [
+        "widgets\\.resy\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TableBooker": {
+    "name": "TableBooker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Tablebooker is an online reservation system for restaurants.",
+    "website": "https://www.tablebooker.com",
+    "patterns": {
+      "scriptSrc": [
+        "reservations\\.tablebooker\\.\\w+/"
+      ],
+      "scripts": [
+        "reservations\\.tablebooker\\.\\w+/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TableCheck": {
+    "name": "TableCheck",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "TableCheck is a restaurant table booking widget.",
+    "website": "https://www.tablecheck.com",
+    "patterns": {
+      "scriptSrc": [
+        "tc_widget\\.js"
+      ],
+      "scripts": [
+        "tc_widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Upserve": {
+    "name": "Upserve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 93",
+    "description": "Upserve is a restaurant management solution featuring an Android or iOS-based point-of-sale system, online ordering, contactless payments, automated inventory management, sales analytics, and more.",
+    "website": "https://onlineordering.upserve.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.upserve\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Fleksa": {
+    "name": "Fleksa",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Fleksa is an online ordering system for restaurants and delivery.",
+    "website": "https://fleksa.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "GloriaFood": {
+    "name": "GloriaFood",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "GloriaFood is an online ordering and food delivery platform that helps restaurant owners manage orders and streamline point-of-sale operations.",
+    "website": "https://www.gloriafood.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Menufy Online Ordering": {
+    "name": "Menufy Online Ordering",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Menufy is an online and mobile meal ordering service.",
+    "website": "https://restaurant.menufy.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "OpenTable": {
+    "name": "OpenTable",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "OpenTable is an online restaurant-reservation service company founded by Sid Gorham, Eric Moe and Chuck Templeton on 2 July 1998 and is based in San Francisco, California.",
+    "website": "https://restaurant.opentable.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Slice": {
+    "name": "Slice",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Slice is an online food ordering platform for independent pizzerias.",
+    "website": "https://slicelife.com/owners",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  },
+  "Thefork": {
+    "name": "Thefork",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Thefork is a restaurant booking, managing system.",
+    "website": "https://www.thefork.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yelp Reservations": {
+    "name": "Yelp Reservations",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Yelp Reservations is a cloud-based restaurant management system.",
+    "website": "http://yelp.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zuppler": {
+    "name": "Zuppler",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 93",
+    "description": "Zuppler is a complete and branded online ordering solution for restaurants and caterers with multi-locations.",
+    "website": "https://www.zuppler.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 93"
+      ]
+    }
+  }
+}

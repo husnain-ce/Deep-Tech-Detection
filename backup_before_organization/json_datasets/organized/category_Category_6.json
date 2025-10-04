@@ -1,0 +1,81 @@
+{
+  "Angular": {
+    "name": "Angular",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 6",
+    "description": "",
+    "website": "https://angular.io",
+    "patterns": {
+      "html": [
+        "ng-version=|ng-app="
+      ],
+      "scripts": [
+        "/angular(?:\\.[\\d.]+)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 6"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Svelte": {
+    "name": "Svelte",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 6",
+    "description": "",
+    "website": "https://svelte.dev",
+    "patterns": {
+      "html": [
+        "data-sveltekit",
+        "<[^>]+class=\\\"[^\\\"]+\\ssvelte-[\\w]*\\\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 6"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Remix": {
+    "name": "Remix",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 6",
+    "description": "",
+    "website": "https://remix.run",
+    "patterns": {
+      "html": [
+        "__remixContext"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 6",
+        "Category 25"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  }
+}

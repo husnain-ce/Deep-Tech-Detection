@@ -1,0 +1,109 @@
+{
+  "Elasticsearch": {
+    "name": "Elasticsearch",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 17",
+    "description": "",
+    "website": "https://www.elastic.co/elasticsearch",
+    "patterns": {
+      "html": [
+        "Elasticsearch"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 17"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Apache Solr": {
+    "name": "Apache Solr",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 17",
+    "description": "",
+    "website": "https://solr.apache.org",
+    "patterns": {
+      "html": [
+        "Solr Admin"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 17"
+      ]
+    }
+  },
+  "Meilisearch": {
+    "name": "Meilisearch",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 17",
+    "description": "",
+    "website": "https://www.meilisearch.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Rocket|Actix"
+      ],
+      "html": [
+        "Meilisearch"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 17"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Typesense": {
+    "name": "Typesense",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 17",
+    "description": "",
+    "website": "https://typesense.org",
+    "patterns": {
+      "html": [
+        "Typesense"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 17"
+      ]
+    }
+  },
+  "Elastic Enterprise Search": {
+    "name": "Elastic Enterprise Search",
+    "source": "web_tech",
+    "confidence": 55,
+    "category": "Category 17",
+    "description": "",
+    "website": "https://www.elastic.co/enterprise-search",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 17"
+      ]
+    }
+  }
+}

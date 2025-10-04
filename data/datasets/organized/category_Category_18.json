@@ -1,0 +1,48 @@
+{
+  "YouTube Embed": {
+    "name": "YouTube Embed",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 18",
+    "description": "",
+    "website": "https://www.youtube.com",
+    "patterns": {
+      "html": [
+        "youtube\\.com/embed/"
+      ],
+      "scripts": [
+        "www\\.youtube\\.com/iframe_api"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 18"
+      ]
+    }
+  },
+  "Video.js": {
+    "name": "Video.js",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 18",
+    "description": "",
+    "website": "https://videojs.com",
+    "patterns": {
+      "html": [
+        "video-js"
+      ],
+      "scripts": [
+        "video(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 18"
+      ]
+    }
+  }
+}

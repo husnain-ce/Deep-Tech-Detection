@@ -1,0 +1,157 @@
+{
+  "Bambuser": {
+    "name": "Bambuser",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Bambuser is a SaaS company based in Stockholm that provides live video shopping technology.",
+    "website": "https://bambuser.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.bambuser\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Confer With": {
+    "name": "Confer With",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Confer With triggers live streaming video calls between shoppers and instore experts from a website, or outside a store.",
+    "website": "https://conferwith.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.conferwith\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Dyte": {
+    "name": "Dyte",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Dyte is a developer-friendly, real-time audio and video communication software development kit (SDK).",
+    "website": "https://dyte.io",
+    "patterns": {
+      "css": [
+        "\\.dyte-client-selfVideo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Go Instore": {
+    "name": "Go Instore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Go Instore uses high-definition live video to connect online customers with in-store product experts.",
+    "website": "https://goinstore.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.goinstore\\.com"
+      ],
+      "scriptSrc": [
+        "//gis\\.goinstore\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Hero": {
+    "name": "Hero",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Hero is a virtual shopping platform for ecommerce and retail stores.",
+    "website": "https://www.usehero.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.usehero\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Vonage Video API": {
+    "name": "Vonage Video API",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 103",
+    "description": "Vonage Video API platform makes it easy to embed real-time, high-quality interactive video, messaging, screen-sharing, and more into web and mobile apps.",
+    "website": "https://www.vonage.com/communications-apis/video/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.opentok\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Plaza": {
+    "name": "Plaza",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 103",
+    "description": "Plaza is a ecommerce platform that allows brands and retailers to communicate with customers via live video.",
+    "website": "https://www.useplaza.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  },
+  "Loom": {
+    "name": "Loom",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 103",
+    "description": "",
+    "website": "https://www.loom.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 103"
+      ]
+    }
+  }
+}

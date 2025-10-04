@@ -1,0 +1,102 @@
+{
+  "AWS Certificate Manager": {
+    "name": "AWS Certificate Manager",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 70",
+    "description": "AWS Certificate Manager is a service that lets you easily provision, manage, and deploy public and private Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates for use with AWS services and your internal connected resources.",
+    "website": "https://aws.amazon.com/certificate-manager/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 70"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Identrust": {
+    "name": "Identrust",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 70",
+    "description": "denTrust is a digital identity authentication solution.",
+    "website": "https://www.identrust.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 70"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Let's Encrypt": {
+    "name": "Let's Encrypt",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 70",
+    "description": "Let's Encrypt is a free, automated, and open certificate authority.",
+    "website": "https://letsencrypt.org/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 70"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sectigo": {
+    "name": "Sectigo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 70",
+    "description": "Sectigo provides SSL certificate and computer security products.",
+    "website": "https://sectigo.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 70"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DigiCert": {
+    "name": "DigiCert",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 70",
+    "description": "",
+    "website": "https://www.digicert.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 70"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

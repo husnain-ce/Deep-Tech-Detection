@@ -1,0 +1,2251 @@
+{
+  "Stripe": {
+    "name": "Stripe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Stripe offers online payment processing for internet businesses as well as fraud prevention, invoicing and subscription management.",
+    "website": "http://stripe.com",
+    "patterns": {
+      "cookies": [
+        "__stripe_sid: ",
+        "__stripe_mid: "
+      ],
+      "html": [
+        "<input[^>]+data-stripe"
+      ],
+      "scriptSrc": [
+        "js\\.stripe\\.com"
+      ],
+      "scripts": [
+        "js\\.stripe\\.com/v3/?",
+        "js\\.stripe\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "PayPal": {
+    "name": "PayPal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "PayPal is an online payments system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders.",
+    "website": "https://paypal.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.paypal\\.com"
+      ],
+      "meta": [
+        "id: in-context-paypal-metadata"
+      ],
+      "scriptSrc": [
+        "paypalobjects\\.com"
+      ],
+      "scripts": [
+        "www\\.paypal\\.com/sdk/js",
+        "paypalobjects\\.com"
+      ],
+      "html": [
+        "<input[^>]+_s-xclick"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Braintree": {
+    "name": "Braintree",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Braintree, a division of PayPal, specializes in mobile and web payment systems for ecommerce companies. Braintree provides clients with a merchant account and a payment gateway.",
+    "website": "https://www.braintreepayments.com",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.braintreegateway\\.com"
+      ],
+      "scripts": [
+        "js\\.braintreegateway\\.com/.*\\.js",
+        "js\\.braintreegateway\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Razorpay": {
+    "name": "Razorpay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Razorpay is a provider of an online payment gateway that allows businesses to accept, process, and disburse payments.",
+    "website": "https://razorpay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "checkout\\.razorpay\\.com"
+      ],
+      "scripts": [
+        "checkout\\.razorpay\\.com/v1/checkout\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Checkout.com": {
+    "name": "Checkout.com",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Checkout.com is an international payment platform that processes different payment methods across a variety of currencies.",
+    "website": "https://www.checkout.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.checkout\\.com/js/.+js(?:\\?ver=)?([\\d\\.]+)?\\;version:\\1"
+      ],
+      "scripts": [
+        "pay\\.checkout\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Square": {
+    "name": "Square",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Square is a mobile payment company that offers business software, payment hardware products and small business services.",
+    "website": "https://squareup.com/",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.squareup\\.com"
+      ],
+      "scripts": [
+        "js\\.squareup\\.com",
+        "web-payments-sdk\\.squareup(?:sandbox)?\\.com|js\\.squareup(?:sandbox)?\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Affirm": {
+    "name": "Affirm",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Affirm is a loan company that allows users to buy goods or services offered by online merchants and pay off those purchases in fixed monthly payments.",
+    "website": "https://www.affirm.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.affirm\\.com/js/v([\\d\\.]+)/affirm\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Afterpay": {
+    "name": "Afterpay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Afterpay is a 'buy now, pay later' platform that makes it possible to pay off purchased goods in fortnightly instalments.",
+    "website": "https://www.afterpay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "portal\\.afterpay\\.com",
+        "static\\.afterpay\\.com",
+        "present-afterpay\\.js",
+        "afterpay-products\\.min\\.js",
+        "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
+      ],
+      "scripts": [
+        "portal\\.afterpay\\.com",
+        "static\\.afterpay\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amazon Pay": {
+    "name": "Amazon Pay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Amazon Pay is an online payments processing service that is owned by Amazon. It lets you use the payment methods associated with your Amazon account to make payments for goods and services.",
+    "website": "https://pay.amazon.com",
+    "patterns": {
+      "meta": [
+        "id: amazon-payments-metadata"
+      ],
+      "scriptSrc": [
+        "/amazonpayments(?:\\.min)?\\.js",
+        "\\.payments-amazon\\.com/"
+      ],
+      "html": [
+        "<meta id=\"amazon-payments"
+      ],
+      "scripts": [
+        "/amazonpayments(?:\\.min)?\\.js",
+        "static-[^.]\\.payments-amazon\\.com/OffAmazonPayments"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "American Express": {
+    "name": "American Express",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "American Express, also known as Amex, facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
+    "website": "https://www.americanexpress.com",
+    "patterns": {
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-american_express"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amex Express Checkout": {
+    "name": "Amex Express Checkout",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Amex Express Checkout is a service that simplifies the checkout experience by auto-filling necessary cardholder payment data into merchant checkout fields.",
+    "website": "https://www.americanexpress.com/us/express-checkout/",
+    "patterns": {
+      "scriptSrc": [
+        "aexp-static\\.com"
+      ],
+      "scripts": [
+        "aexp-static\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Aplazame": {
+    "name": "Aplazame",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Aplazame is a consumer credit company that provides instant financing service for online purchases. It combines an overtime payment method integrated at the ecommerce checkout with marketing tools to enable ecommerce to use financing as a promotional lever to boost sales.",
+    "website": "https://aplazame.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.aplazame\\.com/aplazame\\.js",
+        "aplazame\\.com/static/aplazame\\.js"
+      ],
+      "scripts": [
+        "cdn\\.aplazame\\.com/aplazame\\.js",
+        "aplazame\\.com/static/aplazame\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apple Pay": {
+    "name": "Apple Pay",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Apple Pay is a mobile payment and digital wallet service by Apple that allows users to make payments in person, in iOS apps, and on the web.",
+    "website": "https://www.apple.com/apple-pay",
+    "patterns": {
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-apple_pay",
+        "<script id=\"apple-pay"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bolt Payments": {
+    "name": "Bolt Payments",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Bolt powers a checkout experience designed to convert shoppers.",
+    "website": "https://www.bolt.com/",
+    "patterns": {
+      "scriptSrc": [
+        "connect\\.bolt\\.com/",
+        "account\\.bolt\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Bread": {
+    "name": "Bread",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Bread is a buy now, pay later platform for ecommerce websites.",
+    "website": "https://www.breadpayments.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getbread\\.com"
+      ],
+      "scripts": [
+        "\\.getbread\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ChargeAfter": {
+    "name": "ChargeAfter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "ChargeAfter is a platform that connects retailers and lenders to offer consumers personalized Point of Sale Financing options at checkout from multiple lenders. ",
+    "website": "https://chargeafter.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.chargeafter\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Chargebee": {
+    "name": "Chargebee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Chargebee is a PCI Level 1 certified recurring billing platform for SaaS and subscription-based businesses.",
+    "website": "https://www.chargebee.com",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.chargebee\\.com/v([\\d.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "js\\.chargebee\\.com/v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CitrusPay": {
+    "name": "CitrusPay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "CitrusPay provides payement gateway and wallet services.",
+    "website": "https://consumers.citruspay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "checkout-static\\.citruspay\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Conekta": {
+    "name": "Conekta",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Conekta is a Mexican payment platform.",
+    "website": "https://conekta.com",
+    "patterns": {
+      "scriptSrc": [
+        "conektaapi/v([\\d.]+)\\;version:\\1",
+        "cdn\\.conekta\\.\\w+/js/(?:v([\\d.]+)|)\\;version:\\1"
+      ],
+      "scripts": [
+        "conektaapi/v([\\d.]+)\\;version:\\1",
+        "cdn\\.conekta\\.\\w+/js/(?:v([\\d.]+)|)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cybersource": {
+    "name": "Cybersource",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Cybersource is an ecommerce credit card payment system solution.",
+    "website": "https://www.cybersource.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cybersource\\..+\\.js"
+      ],
+      "scripts": [
+        "cybersource\\..+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Divido": {
+    "name": "Divido",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Divio is a Buy now pay later solution. Divido provided whitelabel platform connects lenders, retailers and channel partners at the point of sale",
+    "website": "https://www.divido.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.divido\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "eWAY Payments": {
+    "name": "eWAY Payments",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "eWAY is a global omnichannel payment provider. The company processes secure credit card payments for merchants. eWay works through eCommerce.",
+    "website": "https://www.eway.com.au/",
+    "patterns": {
+      "html": [
+        "<img [^>]*src=\"[^/]*//[^/]*eway\\.com"
+      ],
+      "scriptSrc": [
+        "secure\\.ewaypayments\\.com"
+      ],
+      "scripts": [
+        "secure\\.ewaypayments\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Fat Zebra": {
+    "name": "Fat Zebra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Fat Zebra provides a process of accepting credit card payments online.",
+    "website": "https://www.fatzebra.com/",
+    "patterns": {
+      "html": [
+        "<(?:iframe|img|form)[^>]+paynow\\.pmnts\\.io",
+        "<(?:iframe)[^>]+FatZebraFrame"
+      ],
+      "scriptSrc": [
+        "paynow\\.pmnts\\.io"
+      ],
+      "scripts": [
+        "paynow\\.pmnts\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Forte": {
+    "name": "Forte",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Forte, a CSG Company offers merchants and partners a broad range of payment solutions.",
+    "website": "https://www.forte.net",
+    "patterns": {
+      "scriptSrc": [
+        "checkout\\.forte\\.net"
+      ],
+      "scripts": [
+        "checkout\\.forte\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Four": {
+    "name": "Four",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Pay with four is a Buy now pay later solution.",
+    "website": "https://paywithfour.com/",
+    "patterns": {
+      "scriptSrc": [
+        "scripts\\.paywithfour\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Google Pay": {
+    "name": "Google Pay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Google Pay is a digital wallet platform and online payment system developed by Google to power in-app and tap-to-pay purchases on mobile devices, enabling users to make payments with Android phones, tablets or watches.",
+    "website": "https://pay.google.com",
+    "patterns": {
+      "scriptSrc": [
+        "pay\\.google\\.com/([a-z/]+)/pay\\.js"
+      ],
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-google_pay"
+      ],
+      "scripts": [
+        "pay\\.google\\.com/([a-z/]+)/pay\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Grab Pay Later": {
+    "name": "Grab Pay Later",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Grab Pay Later is a buy now pay later solution offered by Grab.",
+    "website": "https://www.grab.com/sg/finance/pay-later/",
+    "patterns": {
+      "scriptSrc": [
+        "grab-paylater\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Heartland Payment Systems": {
+    "name": "Heartland Payment Systems",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Heartland Payment Systems is a US-based payment processing and technology provider.",
+    "website": "https://www.heartlandpaymentsystems.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.heartlandportico\\.com"
+      ],
+      "scripts": [
+        "\\.heartlandportico\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Iamport": {
+    "name": "Iamport",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Iamport is an information technology company based in South Korea.",
+    "website": "https://www.iamport.kr",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.iamport\\.kr/js/iamport\\.payment-([\\d\\.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "JUST": {
+    "name": "JUST",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "JUST is a one-click payment solution for online business and online shoppers.",
+    "website": "https://www.getjusto.com",
+    "patterns": {
+      "scriptSrc": [
+        "checkout-button-.+/just-pay-button\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Klarna Checkout": {
+    "name": "Klarna Checkout",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Klarna Checkout is a complete payment solution where Klarna handles a store's entire checkout.",
+    "website": "https://www.klarna.com/international/",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.klarna(?:cdn|services)\\.(?:net|com)"
+      ],
+      "cookies": [
+        "ku1-sid: ",
+        "ku1-vid: "
+      ],
+      "scriptSrc": [
+        "\\.klarnaservices\\.com/lib\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Klasha": {
+    "name": "Klasha",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Klasha is a payment solution provider that handles a store's entire checkout.",
+    "website": "https://www.klasha.com/",
+    "patterns": {
+      "scriptSrc": [
+        "klasha-integration\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "KueskiPay": {
+    "name": "KueskiPay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "KueskiPay is a buy-now-pay-later solution.",
+    "website": "https://kueskipay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.kueskipay\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Laterpay": {
+    "name": "Laterpay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Laterpay is a service that simplifies payments on the Internet. In addition to the classic immediate purchase option, Laterpay also allows you to buy digital content such as articles or videos now and pay later.",
+    "website": "https://www.laterpay.net/",
+    "patterns": {
+      "meta": [
+        "laterpay:connector:callbacks:on_user_has_access: deobfuscateText"
+      ],
+      "scriptSrc": [
+        "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "https?://connectormwi\\.laterpay\\.net/([0-9.]+)[a-zA-z-]*/live/[\\w-]+\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Liberapay": {
+    "name": "Liberapay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Liberapay is a non-profit organisation subscription payment platform.",
+    "website": "https://liberapay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "//liberapay\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Mastercard": {
+    "name": "Mastercard",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "MasterCard facilitates electronic funds transfers throughout the world, most commonly through branded credit cards, debit cards and prepaid cards.",
+    "website": "https://www.mastercard.com",
+    "patterns": {
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-mastercard"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mokka": {
+    "name": "Mokka",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Mokka is a Buy Now Pay Later solution that connects target customer acquisition and settlement costs through marketing and promotion.",
+    "website": "https://mokka.ro",
+    "patterns": {
+      "scriptSrc": [
+        "revoiframe\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Mollie": {
+    "name": "Mollie",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Mollie is a payment provider for Belgium and the Netherlands, offering payment methods such as credit card, iDEAL, Bancontact/Mister cash, PayPal, SCT, SDD, and others.",
+    "website": "https://www.mollie.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/plugins/mollie-payments-for-woocommerce/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Moneris": {
+    "name": "Moneris",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Moneris (formerly Moneris Solutions) is Canada's largest financial technology company that specialises in payment processing.",
+    "website": "https://www.moneris.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.moneris\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "mobicred": {
+    "name": "mobicred",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Mobicred is a credit facility that allows you to safely shop online with our participating retailers.",
+    "website": "https://mobicred.co.za/",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.mobicredwidget\\.co\\.za"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Omise": {
+    "name": "Omise",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Omise is a payment gateway for Thailand, Japan and Singapore. Providing both online and offline payment solutions to merchants.",
+    "website": "https://www.omise.co",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.omise\\.co"
+      ],
+      "scripts": [
+        "cdn\\.omise\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenPay": {
+    "name": "OpenPay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Openpay is an innovative online and in-store payment solution enabling you to purchase now and pay later, with no interest.",
+    "website": "https://www.openpay.com.au/",
+    "patterns": {
+      "scriptSrc": [
+        "openpay\\.com.\\au"
+      ],
+      "scripts": [
+        "openpay\\.com.\\au"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ordergroove": {
+    "name": "Ordergroove",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Ordergroove provides a SaaS (Software as a Service) based subscription and membership commerce platform.",
+    "website": "https://www.ordergroove.com/",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.ordergroove\\.com"
+      ],
+      "scriptSrc": [
+        "\\.ordergroove\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Pace": {
+    "name": "Pace",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "PacePay offers a BNPL (Buy now pay later) solution for merchants.",
+    "website": "https://pacenow.co/",
+    "patterns": {
+      "scriptSrc": [
+        "pay\\.pacenow\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Paddle": {
+    "name": "Paddle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Paddle is a billing and payment gateway for B2B SaaS companies.",
+    "website": "https://paddle.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.paddle\\.com/paddle/paddle\\.js"
+      ],
+      "scripts": [
+        "cdn\\.paddle\\.com/paddle/paddle\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PagSeguro": {
+    "name": "PagSeguro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "PagSeguro is an online or mobile payment-based ecommerce service for commercial operations.",
+    "website": "https://pagseguro.uol.com.br",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pagseguro\\.uol\\.com\\.br/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Pagar.me": {
+    "name": "Pagar.me",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Pagar.me is a Portuguese-language online payments solution for businesses in Brazil.",
+    "website": "https://pagar.me",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.pagar\\.me/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Paidy": {
+    "name": "Paidy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Paidy is basically a two-sided payments service, acting as a middleman between consumers and merchants in Japan.",
+    "website": "https://paidy.com",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.paidy\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Partial.ly": {
+    "name": "Partial.ly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Partial.ly payment plan software lets businesses offer customizable payment plans to their customers.",
+    "website": "https://partial.ly/",
+    "patterns": {
+      "scriptSrc": [
+        "partial\\.ly"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "PayBright": {
+    "name": "PayBright",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "PayBright is a Canadian fintech company that offers short-term interest-free installment loans for online shopping to consumers at checkout.",
+    "website": "https://paybright.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.paybright\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Payflex": {
+    "name": "Payflex",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Payflex offers an online payment gateway solution to South African merchants that allows shoppers to pay over 6 weeks, interest-free.",
+    "website": "https://payflex.co.za/",
+    "patterns": {
+      "scriptSrc": [
+        "partpayassets\\.blob\\.core\\.windows\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Payl8r": {
+    "name": "Payl8r",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "PayL8r.com offers repayment plans and online finance which allow you to purchase products online.",
+    "website": "https://payl8r.com/",
+    "patterns": {
+      "scriptSrc": [
+        "payl8r\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Paysafe": {
+    "name": "Paysafe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Paysafe is a payment platform that enables businesses and consumers to connect and transact by payment processing, digital wallet, and online cash solutions.",
+    "website": "https://www.paysafe.com/en",
+    "patterns": {
+      "scriptSrc": [
+        "/hosted\\.paysafe\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Pin Payments": {
+    "name": "Pin Payments",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Pin Payments is an all-in-one online payment system. It offers merchants a simple JSON API, secure credit card storage, multi-currency capabilities, bank account compatibility, onsite payment processing and automatic fund transfer to specified bank accounts.",
+    "website": "https://www.pinpayments.com/",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.pinpayments\\.com"
+      ],
+      "scripts": [
+        "api\\.pinpayments\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Plaid": {
+    "name": "Plaid",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Plaid is a fintech company that facilitates communication between financial services apps and users' banks and credit card providers.",
+    "website": "https://plaid.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: cdn\\.plaid\\.com/"
+      ],
+      "scriptSrc": [
+        "\\.plaid\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Rich Text Editors"
+      ]
+    }
+  },
+  "Recharge": {
+    "name": "Recharge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Recharge is the a subscription payments platform designed for merchants to set up and manage dynamic recurring billing across web and mobile.",
+    "website": "https://rechargepayments.com",
+    "patterns": {
+      "scriptSrc": [
+        "rechargeassets-bootstrapheroes-rechargeapps\\.netdna-ssl\\.com",
+        "\\.rechargecdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Recurly": {
+    "name": "Recurly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Recurly provides enterprise-class subscription billing and recurring payment management for thousands of businesses worldwide.",
+    "website": "https://recurly.com",
+    "patterns": {
+      "html": [
+        "<input[^>]+data-recurly"
+      ],
+      "scriptSrc": [
+        "js\\.recurly\\.com"
+      ],
+      "scripts": [
+        "js\\.recurly\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Scalapay": {
+    "name": "Scalapay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Scalapay is a payment method for e-commerce merchants in Europe that allows customers to buy now and pay later (BNPL).",
+    "website": "https://www.scalapay.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.scalapay\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Service Provider Pro": {
+    "name": "Service Provider Pro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Service Provider Pro is a client management & billing software for productized service agencies.",
+    "website": "https://spp.co",
+    "patterns": {
+      "cookies": [
+        "spp_csrf: \\;confidence:25",
+        "spp_session: \\;confidence:25",
+        "spp_orderform: "
+      ],
+      "meta": [
+        "server: app.spp.co"
+      ],
+      "scriptSrc": [
+        "js/spp_clients\\.js\\;confidence:50",
+        "\\.spp\\.io/js/"
+      ],
+      "scripts": [
+        "js/spp_clients\\.js\\;confidence:50",
+        "\\.spp\\.io/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sezzle": {
+    "name": "Sezzle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Sezzle offers a buy-now-pay-later solution.",
+    "website": "https://sezzle.com/",
+    "patterns": {
+      "meta": [
+        "sezzle_cid: "
+      ],
+      "scriptSrc": [
+        "widget\\.sezzle\\.(?:in|com)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Shop Pay": {
+    "name": "Shop Pay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Shop Pay is an accelerated checkout that lets customers save their email address, credit card, and shipping and billing information so they can complete their transaction faster the next time they are directed to the Shopify checkout.",
+    "website": "https://shop.app",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shopify\\.com/shopifycloud/shopify_pay/"
+      ],
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-shopify_pay"
+      ],
+      "scripts": [
+        "cdn\\.shopify\\.com/shopifycloud/shopify_pay/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SkyVerge": {
+    "name": "SkyVerge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "SkyVerge  is a company which develop extension tools for WooCommerce stores.",
+    "website": "https://www.skyverge.com",
+    "patterns": {
+      "scriptSrc": [
+        "sv-wc-payment-gateway-payment-form\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ],
+      "scripts": [
+        "sv-wc-payment-gateway-payment-form\\.js(?:\\?ver=([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SplitIt": {
+    "name": "SplitIt",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "SplitIt is a payment solution that divides a purchase into smaller monthly installments.",
+    "website": "https://www.splitit.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.production\\.splitit\\.com/"
+      ],
+      "scripts": [
+        "checkout\\.production\\.splitit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Spotii": {
+    "name": "Spotii",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Spotii is a tech-enabled payments platform where anyone can Shop Now and Pay Later with absolutely zero interest or cost.",
+    "website": "https://www.spotii.com/",
+    "patterns": {
+      "scriptSrc": [
+        "widget\\.spotii\\.me"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "SpurIT Partial Payments App": {
+    "name": "SpurIT Partial Payments App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "SpurIT Partial Payments App allow your customers to pay for the order in several ways or to share a payment with other people.",
+    "website": "https://spur-i-t.com/shopify-apps/split-partial-payments/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn-spurit\\.com/shopify-apps/split-payments/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 100"
+      ]
+    }
+  },
+  "SpurIT Recurring Payments App": {
+    "name": "SpurIT Recurring Payments App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "SpurIT Recurring Payments App is a simple way to create a system of bill payment,subscriptions and invoicing.",
+    "website": "https://spur-i-t.com/shopify-apps/recurring-order-subscription",
+    "patterns": {
+      "scriptSrc": [
+        "cdn-spurit\\.com/shopify-apps/recurring-invoices/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 100"
+      ]
+    }
+  },
+  "T1 Pagos": {
+    "name": "T1 Pagos",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "T1 Pagos is a payment processing platform.",
+    "website": "https://www.t1pagos.com",
+    "patterns": {
+      "meta": [
+        "generator: ^T1PAGOS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "TNS Payments": {
+    "name": "TNS Payments",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "TNS Payments, is designed to deliver payment transaction information to banks, merchants, processors and other payment institutions.",
+    "website": "https://tnsi.com/products/payments/",
+    "patterns": {
+      "scriptSrc": [
+        "secure\\.ap\\.tnspayments\\.com"
+      ],
+      "scripts": [
+        "secure\\.ap\\.tnspayments\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tabby": {
+    "name": "Tabby",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Tabby is a Buy now pay later solution from Middle East.",
+    "website": "https://tabby.ai/",
+    "patterns": {
+      "scriptSrc": [
+        "checkout\\.tabby\\.ai"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Tamara": {
+    "name": "Tamara",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Tamara ia a BNPL (Buy now pay later) provider in Saudi Arabia.",
+    "website": "https://tamara.co/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.tamara\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Venmo": {
+    "name": "Venmo",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Venmo is a mobile payment service owned by PayPal. Venmo account holders can transfer funds to others via a mobile phone app.",
+    "website": "https://venmo.com",
+    "patterns": {
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-venmo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Verifone 2Checkout": {
+    "name": "Verifone 2Checkout",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Verifone is an American multinational corporation headquartered in Coral Springs, Florida, that provides technology for electronic payment transactions and value-added services at the point-of-sale.",
+    "website": "https://www.2checkout.com",
+    "patterns": {
+      "scripts": [
+        "2checkout\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Visa Checkout": {
+    "name": "Visa Checkout",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Visa facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards and prepaid cards.",
+    "website": "https://checkout.visa.com",
+    "patterns": {
+      "scriptSrc": [
+        "secure\\.checkout\\.visa\\.com"
+      ],
+      "scripts": [
+        "secure\\.checkout\\.visa\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Wirecard": {
+    "name": "Wirecard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Wirecard is a defunct German payment processor and financial services provider.",
+    "website": "https://www.wirecard.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.wirecard\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Xpresslane": {
+    "name": "Xpresslane",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Xpresslane is a checkout platform for ecommerce that focuses on increasing conversion during the checkout process.",
+    "website": "https://www.xpresslane.in",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.xpresslane\\.in/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "YooMoney": {
+    "name": "YooMoney",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "YooMoney is an IT company working with electronic payments on the Internet, creating and supporting financial services for individuals and businesses.",
+    "website": "https://yoomoney.ru",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.yoomoney\\.ru"
+      ],
+      "scriptSrc": [
+        "\\.yoomoney\\.ru/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Zip": {
+    "name": "Zip",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Zip is a payment service that lets you receive your purchase now and spread the total cost over a interest-free payment schedule.",
+    "website": "https://www.zip.co/",
+    "patterns": {
+      "scriptSrc": [
+        "quadpay\\.com",
+        "static\\.zipmoney\\.com\\.au",
+        "zip\\.co"
+      ],
+      "scripts": [
+        "static\\.zipmoney\\.com\\.au",
+        "zip\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Blackbaud Luminate Online": {
+    "name": "Blackbaud Luminate Online",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 41",
+    "description": "Blackbaud Luminate Online provides online fundraising and marketing automation for nonprofits.",
+    "website": "https://www.blackbaud.com/products/blackbaud-luminate-online",
+    "patterns": {
+      "scripts": [
+        "js/convio/modules\\.js"
+      ],
+      "url": [
+        "/site/Donation2?.*df_id="
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Google Wallet": {
+    "name": "Google Wallet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 41",
+    "description": "",
+    "website": "http://wallet.google.com",
+    "patterns": {
+      "scriptSrc": [
+        "checkout\\.google\\.com",
+        "wallet\\.google\\.com"
+      ],
+      "scripts": [
+        "checkout\\.google\\.com",
+        "wallet\\.google\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Visa": {
+    "name": "Visa",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Category 41",
+    "description": "",
+    "website": "https://www.visa.com",
+    "patterns": {
+      "html": [
+        "<[^>]+aria-labelledby=\"pi-visa"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Binance Pay": {
+    "name": "Binance Pay",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Binance Pay is a contactless, borderless, and secure cryptocurrency payment technology designed by Binance.",
+    "website": "https://pay.binance.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Bitcoin": {
+    "name": "Bitcoin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.",
+    "website": "https://en.wikipedia.org/wiki/Bitcoin",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "bSecure": {
+    "name": "bSecure",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "bSecure is a one-click checkout solution for selling your products all across the globe instantly.",
+    "website": "https://www.bsecure.pk",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Catch": {
+    "name": "Catch",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Catch is a payment solution which allows merchants to use payments via bank payments instead of credit/debit cards.",
+    "website": "https://www.getcatch.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Coinbase Commerce": {
+    "name": "Coinbase Commerce",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Coinbase Commerce is a platform that enables merchants to accept cryptocurrency payments.",
+    "website": "https://commerce.coinbase.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DivideBuy": {
+    "name": "DivideBuy",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Dividebuy provides retailer financing solutions.",
+    "website": "https://dividebuy.co.uk/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "Facebook Pay": {
+    "name": "Facebook Pay",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Facebook pay is a payment solution which can be used on any site or app outside Facebook ecosystem.",
+    "website": "https://pay.facebook.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Instamojo": {
+    "name": "Instamojo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Instamojo is a Bangalore-based company that provides a platform for selling digital goods and collecting payment online.",
+    "website": "https://www.instamojo.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "iyzico": {
+    "name": "iyzico",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "iyzico is a payment receipt system management platform that offers ePayment solutions.",
+    "website": "https://www.iyzico.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Juspay": {
+    "name": "Juspay",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Juspay is a developer of an online platform designed to be used for mobile-based payments.",
+    "website": "https://juspay.in",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "POLi Payment": {
+    "name": "POLi Payment",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "POLi Payment(formerly known as Centricom) is an online payment service in Australia and New Zealand.",
+    "website": "https://www.polipayments.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "PayFast": {
+    "name": "PayFast",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "PayFast is a payments processing service for South Africans & South African websites.",
+    "website": "https://www.payfast.co.za/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "PayWhirl": {
+    "name": "PayWhirl",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "PayWhirl provides widgets and tools to handle recurring payments.",
+    "website": "https://app.paywhirl.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Simpl": {
+    "name": "Simpl",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Simpl is a fintech company that offers a cardless payment network with multiple solutions for merchants and consumers.",
+    "website": "https://getsimpl.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41",
+        "Category 91"
+      ]
+    }
+  },
+  "WorldPay": {
+    "name": "WorldPay",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "WorldPay is a merchant services and payment processing provider offering a payment gateway for online transactions.",
+    "website": "https://online.worldpay.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  },
+  "Yampi Checkout": {
+    "name": "Yampi Checkout",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 41",
+    "description": "Yampi Checkout is an payment processor from Brazil.",
+    "website": "https://www.yampi.com.br/checkout",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 41"
+      ]
+    }
+  }
+}

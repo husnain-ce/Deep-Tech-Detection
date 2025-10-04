@@ -1,0 +1,163 @@
+{
+  "url": "https://richfaces.jboss.org",
+  "final_url": "https://richfaces.jboss.org",
+  "analysis_time": 4.4510133266448975,
+  "technologies": [
+    {
+      "name": "SyntaxHighlighter",
+      "confidence": 75,
+      "category": "Rich Text Editors",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<(?:script|link)[^>]*sh(?:Core|Brush|ThemeDefault)",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://github.com/syntaxhighlighter",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515468.582673
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "googletagmanager\\.com/ns\\.html[^>]+></iframe>",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "GTM-[A-Z0-9]+",
+          "confidence": 85
+        },
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<!-- (?:End )?Google Tag Manager -->",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515468.6166701
+    },
+    {
+      "name": "ShareThis",
+      "confidence": 85,
+      "category": "Advertising",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://w.sharethis.com/button/buttons.js",
+          "match": "w\\.sharethis\\.com/",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://w.sharethis.com/button/buttons.js",
+          "match": "\\.sharethis\\.com/",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://sharethis.com",
+      "description": "ShareThis provides free engagement and growth tools (e.g., share buttons, follow buttons, and reaction buttons) for site owners.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515468.8748865
+    },
+    {
+      "name": "XRegExp",
+      "confidence": 75,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "/docroot/jbossorg/js/common/syntaxhighlighter/XRegExp.js",
+          "match": "xregexp.*\\.js",
+          "confidence": 75
+        },
+        {
+          "field": "scripts",
+          "detail": "/docroot/jbossorg/js/common/syntaxhighlighter/XRegExp.js",
+          "match": "xregexp.*\\.js",
+          "confidence": 75
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://xregexp.com",
+      "description": "",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515469.8795178
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "https://static.jboss.org/theme/css/magnolia/jquery-ui.css",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515471.1389577
+    }
+  ],
+  "metadata": {
+    "title": "RichFaces - JBoss Community",
+    "description": "",
+    "content_length": 30698,
+    "response_time": "0",
+    "server": "",
+    "total_technologies": 5,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 4,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 2,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 4.45,
+      "technologies_per_second": 1.12
+    }
+  },
+  "errors": []
+}

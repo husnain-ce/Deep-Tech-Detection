@@ -1,0 +1,207 @@
+{
+  "OptiMonk": {
+    "name": "OptiMonk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "OptiMonk is an on-site message toolkit used to improve conversions using action-based popups ad bars.",
+    "website": "https://www.optimonk.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.optimonk\\.com/"
+      ],
+      "scripts": [
+        "front\\.optimonk\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98",
+        "Category 77"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "CareCart": {
+    "name": "CareCart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "CareCart is a smart app to recover big value carts on all sizes of shopify stores.",
+    "website": "https://carecart.io/abandoned-cart-recovery-app",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.carecart\\.io/api/abandoned-cart/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98",
+        "Category 100"
+      ]
+    }
+  },
+  "CartStack": {
+    "name": "CartStack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "CartStack is a SaaS solution that allows any company with an ecommerce site or reservation system to increase revenue through reminding/encouraging consumers to return to their abandoned cart and complete their purchase.",
+    "website": "https://www.cartstack.com",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.cartstack\\.\\w+"
+      ],
+      "scripts": [
+        "api\\.cartstack\\.\\w+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Keptify": {
+    "name": "Keptify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "Keptify helps ecommerce sites of any size to increase sales and conversion rates by providing visitors with a personalised shopping experience.",
+    "website": "https://keptify.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.keptify\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98"
+      ]
+    }
+  },
+  "PushOwl Web Push Notifications": {
+    "name": "PushOwl Web Push Notifications",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "PushOwl Web Push Notifications are a Shopify app which helps recover abandoned carts and market better with web push.",
+    "website": "https://apps.shopify.com/pushowl",
+    "patterns": {
+      "scriptSrc": [
+        "/sdks/pushowl-shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98",
+        "Category 100"
+      ]
+    }
+  },
+  "Recapture": {
+    "name": "Recapture",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "Recapture is an abandoned cart recovery and email marketing solution.",
+    "website": "https://recapture.io",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.recapture\\.io/.+\\?v=\\d+(?:&ver=([\\d\\.]+)?)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98"
+      ]
+    }
+  },
+  "Recart": {
+    "name": "Recart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "Recart is a tool to engage users who abandoned their shopping cart via Facebook Messenger.",
+    "website": "https://recart.com/",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.recart\\.com"
+      ],
+      "scripts": [
+        "api\\.recart\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SpurIT Abandoned Cart Reminder": {
+    "name": "SpurIT Abandoned Cart Reminder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "SpurIT Abandoned Cart Reminder bring back your Shopify store visitors who moved to another tab by blinking your store tab.",
+    "website": "https://spur-i-t.com/shopify-apps/abandoned-cart-reminder/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn-spurit\\.com/shopify-apps/abandoned-cart-reminder/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98",
+        "Category 100"
+      ]
+    }
+  },
+  "UpSellit": {
+    "name": "UpSellit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 98",
+    "description": "UpSellit is a performance based lead and cart abandonment recovery solutions.",
+    "website": "https://us.upsellit.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.upsellit\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 98"
+      ]
+    }
+  }
+}

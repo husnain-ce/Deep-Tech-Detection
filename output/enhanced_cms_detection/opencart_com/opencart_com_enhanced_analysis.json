@@ -1,0 +1,439 @@
+{
+  "url": "https://opencart.com",
+  "final_url": "https://www.opencart.com/",
+  "analysis_time": 5.467739582061768,
+  "technologies": [
+    {
+      "name": "Bootstrap",
+      "confidence": 85,
+      "category": "Category 66",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "bootstrap(?:\\.min)?\\.css",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/bootstrap/js/bootstrap.min.js",
+          "match": "/bootstrap(?:\\.bundle)?(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://getbootstrap.com",
+      "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515565.3824253
+    },
+    {
+      "name": "Google Analytics",
+      "confidence": 85,
+      "category": "Security",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "ga\\(|gtag\\(",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-1988725-3",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-1988725-3",
+          "match": "gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=AW-10797860975",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=AW-10797860975",
+          "match": "gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://google.com/analytics",
+      "description": "Google Analytics is a free web analytics service that tracks and reports website traffic.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515565.4421387
+    },
+    {
+      "name": "Cart Functionality",
+      "confidence": 85,
+      "category": "Web Servers",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "html",
+          "detail": "HTML pattern match",
+          "match": "<a[^>]*href=[^>]*/Cart",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.wappalyzer.com/technologies/ecommerce/cart-functionality",
+      "description": "Websites that have a shopping cart or checkout page, either using a known ecommerce platform or a custom solution.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515565.464712
+    },
+    {
+      "name": "jQuery",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/jquery-1.12.2.min.js",
+          "match": "/jquery(?:-[\\d.]+)?(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/jquery-1.12.2.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/datetimepicker/moment.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js",
+          "match": "jquery",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "application/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css",
+          "match": "jquery",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://jquery.com",
+      "description": "jQuery is a JavaScript library which is a free, open-source software designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515565.585181
+    },
+    {
+      "name": "Moment.js",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/datetimepicker/moment.js",
+          "match": "moment(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "application/view/javascript/jquery/datetimepicker/moment.js",
+          "match": "moment(?:\\.min)?\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://momentjs.com",
+      "description": "Moment.js is a free and open-source JavaScript library that removes the need to use the native JavaScript Date object directly.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515565.896058
+    },
+    {
+      "name": "PayPal",
+      "confidence": 85,
+      "category": "Category 41",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://www.paypal.com/sdk/js?client-id=Aah3N-pqgdc5eLwdDCg_hWrLUt3FEFuNQ399H2owlt6RIMm1m8tRqCfnzgpuydaaNslRbYQJORcSfUmh",
+          "match": "www\\.paypal\\.com/sdk/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://paypal.com",
+      "description": "PayPal is an online payments system that supports online money transfers and serves as an electronic alternative to traditional paper methods like checks and money orders.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515566.368667
+    },
+    {
+      "name": "Google Tag Manager",
+      "confidence": 85,
+      "category": "Category 42",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=UA-1988725-3",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://www.googletagmanager.com/gtag/js?id=AW-10797860975",
+          "match": "googletagmanager\\.com/gtag/js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.google.com/tagmanager",
+      "description": "Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515566.5033145
+    },
+    {
+      "name": "Facebook",
+      "confidence": 85,
+      "category": "Advertising",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0",
+          "match": "//connect\\.facebook\\.([a-z]+)/[^/]*/[a-z]*\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://facebook.com",
+      "description": "Facebook is an online social media and social networking service.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515566.7804344
+    },
+    {
+      "name": "Braintree",
+      "confidence": 85,
+      "category": "Category 41",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/client.min.js",
+          "match": "js\\.braintreegateway\\.com/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/client.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/client.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/three-d-secure.min.js",
+          "match": "js\\.braintreegateway\\.com/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/three-d-secure.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/three-d-secure.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/hosted-fields.min.js",
+          "match": "js\\.braintreegateway\\.com/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/hosted-fields.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/hosted-fields.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/data-collector.min.js",
+          "match": "js\\.braintreegateway\\.com/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/data-collector.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/data-collector.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/paypal-checkout.min.js",
+          "match": "js\\.braintreegateway\\.com/.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/paypal-checkout.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://js.braintreegateway.com/web/3.76.4/js/paypal-checkout.min.js",
+          "match": "js\\.braintreegateway\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.braintreepayments.com",
+      "description": "Braintree, a division of PayPal, specializes in mobile and web payment systems for ecommerce companies. Braintree provides clients with a merchant account and a payment gateway.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515567.3116806
+    },
+    {
+      "name": "cdnjs",
+      "confidence": 85,
+      "category": "Database",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js",
+          "match": "cdnjs\\.cloudflare\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+          "match": "cdnjs\\.cloudflare\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/cleave.min.js",
+          "match": "cdnjs\\.cloudflare\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.6.0/addons/cleave-phone.i18n.js",
+          "match": "cdnjs\\.cloudflare\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://cdnjs.com",
+      "description": "cdnjs is a free distributed JS library delivery service.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515568.0408792
+    },
+    {
+      "name": "Font Awesome",
+      "confidence": 85,
+      "category": "Video Players",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "css",
+          "detail": "application/view/javascript/fontawesome/css/font-awesome.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "application/view/javascript/fontawesome/css/font-awesome.min.css",
+          "match": "(?:F|f)o(?:n|r)t-?(?:A|a)wesome(?:.*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)",
+          "confidence": 85
+        }
+      ],
+      "source": "additional_pattern",
+      "website": "https://fontawesome.com/",
+      "description": "Font Awesome is a font and icon toolkit based on CSS and Less.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515569.4357367
+    }
+  ],
+  "metadata": {
+    "title": "OpenCart - Open Source Shopping Cart Solution",
+    "description": "A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.",
+    "content_length": 27928,
+    "response_time": "0",
+    "server": "cloudflare",
+    "total_technologies": 11,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 9,
+    "confidence_distribution": {
+      "high (80-100)": 11,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 5.47,
+      "technologies_per_second": 2.01
+    }
+  },
+  "errors": []
+}

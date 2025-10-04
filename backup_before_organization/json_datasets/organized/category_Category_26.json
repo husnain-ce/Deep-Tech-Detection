@@ -1,0 +1,27 @@
+{
+  "New Relic": {
+    "name": "New Relic",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 26",
+    "description": "",
+    "website": "https://newrelic.com",
+    "patterns": {
+      "scripts": [
+        "js-agent\\.newrelic\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 26"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

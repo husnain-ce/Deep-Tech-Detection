@@ -1,0 +1,1257 @@
+{
+  "Cloudflare": {
+    "name": "Cloudflare",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
+    "website": "http://www.cloudflare.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)cloudflare",
+        "cf-ray: ",
+        "Server: ^cloudflare$",
+        "CF-Ray: .+",
+        "cf-cache-status: "
+      ],
+      "cookies": [
+        "__cfduid: ",
+        "__cfduid: .*"
+      ],
+      "meta": [
+        "image: //cdn\\.cloudflare"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Amazon CloudFront": {
+    "name": "Amazon CloudFront",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds.",
+    "website": "http://aws.amazon.com/cloudfront/",
+    "patterns": {
+      "headers": [
+        "X-Cache: .*CloudFront.*",
+        "Via: \\(CloudFront\\)$",
+        "X-Amz-Cf-Id: ",
+        "Server: (?i)CloudFront"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Akamai": {
+    "name": "Akamai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Akamai is global content delivery network (CDN) services provider for media and software delivery, and cloud security solutions.",
+    "website": "http://akamai.com",
+    "patterns": {
+      "headers": [
+        "X-EdgeConnect-MidMile-RTT: ",
+        "X-EdgeConnect-Origin-MEX-Latency: ",
+        "X-Akamai-Transformed: ",
+        "Server: (?i)AkamaiGHost|AkamaiNetStorage"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Fastly": {
+    "name": "Fastly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Fastly is a cloud computing services provider. Fastly's cloud platform provides a content delivery network, Internet security services, load balancing, and video & streaming services.",
+    "website": "https://www.fastly.com",
+    "patterns": {
+      "headers": [
+        "X-Served-By: cache-.*\\.fastly\\.net",
+        "x-fastly-request-id: ",
+        "X-Fastly-Request-ID: ",
+        "server: Fastly",
+        "x-fastly-origin: ",
+        "x-via-fastly:: ",
+        "Fastly-Debug-Digest: ",
+        "Vary: Fastly-SSL"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Azure CDN": {
+    "name": "Azure CDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Azure Content Delivery Network (CDN) reduces load times, save bandwidth and speed responsiveness.",
+    "website": "https://azure.microsoft.com/en-us/services/cdn/",
+    "patterns": {
+      "headers": [
+        "X-Azure-Ref: .+",
+        "server: ^(?:ECAcc|ECS|ECD)",
+        "X-EC-Debug: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Google Cloud CDN": {
+    "name": "Google Cloud CDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Cloud CDN uses Google's global edge network to serve content closer to users.",
+    "website": "https://cloud.google.com/cdn",
+    "patterns": {
+      "headers": [
+        "Via: ^1\\.1 google$",
+        "Server: (?i)gws|Google Frontend"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "StackPath": {
+    "name": "StackPath",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "StackPath is a cloud computing and services provider.",
+    "website": "https://www.stackpath.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)StackPath|NetDNA",
+        "x-provided-by: ^StackCDN(?: ([\\d.]+))?\\;version:\\1",
+        "x-backend-server: hosting\\.stackcp\\.net$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "KeyCDN": {
+    "name": "KeyCDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "KeyCDN is a content delivery network (CDN).",
+    "website": "http://www.keycdn.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)KeyCDN",
+        "Server: ^keycdn-engine$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "CDN77": {
+    "name": "CDN77",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "CDN77 is a content delivery network (CDN).",
+    "website": "https://www.cdn77.com",
+    "patterns": {
+      "headers": [
+        "Server: ^CDN77-Turbo$",
+        "Server: (?i)CDN77"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Alibaba Cloud CDN": {
+    "name": "Alibaba Cloud CDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Alibaba Cloud CDN is a global network of servers designed to deliver high-performance, low-latency content to users around the world. It is a cloud-based service provided by Alibaba Cloud, a subsidiary of the Alibaba Group, that enables businesses to accelerate the delivery of their web content, including images, videos, and static files, to end-users.",
+    "website": "https://www.alibabacloud.com/product/content-delivery-network",
+    "patterns": {
+      "scriptSrc": [
+        "\\.alicdn\\.com/"
+      ],
+      "headers": [
+        "Server: (?i)Tengine|AlibabaCloud"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Cloudinary": {
+    "name": "Cloudinary",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Cloudinary is an end-to-end image- and video-management solution for websites and mobile apps, covering everything from image and video uploads, storage, manipulations, optimisations to delivery.",
+    "website": "https://cloudinary.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: player\\.cloudinary\\.com"
+      ],
+      "scripts": [
+        "widget\\.cloudinary\\.com/.*\\.js"
+      ],
+      "url": [
+        "res\\.cloudinary\\.com"
+      ],
+      "html": [
+        "<img[^>]+\\.cloudinary\\.com\\;confidence:80"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 95"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Sucuri": {
+    "name": "Sucuri",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Sucuri is a WordPress security plugin used to protect websites from malware and hacks.",
+    "website": "https://sucuri.net/",
+    "patterns": {
+      "headers": [
+        "x-sucuri-cache:: ",
+        "x-sucuri-id: .+",
+        "x-sucuri-id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "CacheFly": {
+    "name": "CacheFly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "CacheFly is a content delivery network (CDN) which offers CDN service that relies solely on IP anycast for routing, rather than DNS based global load balancing.",
+    "website": "http://www.cachefly.com",
+    "patterns": {
+      "headers": [
+        "X-CF2: ",
+        "Server: (?i)CacheFly",
+        "Server: ^CFS ",
+        "X-CF1: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "5centsCDN": {
+    "name": "5centsCDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "5centsCDN is a content delivery networks service provider.",
+    "website": "https://www.5centscdn.net",
+    "patterns": {
+      "headers": [
+        "x-cdn: ^5centsCDN$"
+      ],
+      "scriptSrc": [
+        "\\.5centscdn\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Amazon S3": {
+    "name": "Amazon S3",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services (AWS) that provides object storage through a web service interface.",
+    "website": "http://aws.amazon.com/s3/",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: s3[^ ]*amazonaws\\.com",
+        "server: ^AmazonS3$",
+        "Content-Security-Policy-Report-Only: s3[^ ]*\\.amazonaws\\.com"
+      ],
+      "scriptSrc": [
+        "s3[^ ]*\\.amazonaws\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Arc": {
+    "name": "Arc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Arc is a peer-to-peer CDN that pays site owners for using it. Instead of expensive servers in distant datacenters, Arc's network is comprised of browsers.",
+    "website": "https://arc.io",
+    "patterns": {
+      "scriptSrc": [
+        "arc\\.io/widget\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "ArvanCloud": {
+    "name": "ArvanCloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "ArvanCloud is a cloud services provider, offering a wide range of incorporated cloud services including CDN, DDoS mitigation, Cloud Managed DNS, Cloud Security, VoD/AoD Streaming, Live Streaming, Cloud Compute, Cloud Object Storage, and PaaS.",
+    "website": "http://www.arvancloud.ir",
+    "patterns": {
+      "headers": [
+        "AR-PoweredBy: Arvan Cloud \\(arvancloud\\.com\\)",
+        "server: ArvanCloud"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CreateJS": {
+    "name": "CreateJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "CreateJS is a suite of modular libraries and tools which work together or independently to enable interactive content on open web technologies via HTML5.",
+    "website": "https://code.createjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "code\\.createjs\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "cdnjs": {
+    "name": "cdnjs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "cdnjs is a free distributed JS library delivery service.",
+    "website": "https://cdnjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdnjs\\.cloudflare\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "DiamondCDN": {
+    "name": "DiamondCDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "DiamondCDN is a CDN with DDoS mitigation for free.",
+    "website": "https://diamondcdn.com",
+    "patterns": {
+      "headers": [
+        "server: ^DiamondCDN$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "EdgeCast": {
+    "name": "EdgeCast",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "EdgeCast is a content delivery network (CDN) that accelerated and delivers static content to users around the world.",
+    "website": "http://www.edgecast.com",
+    "patterns": {
+      "headers": [
+        "Server: ^ECD\\s\\(\\S+\\)"
+      ],
+      "url": [
+        "https?://(?:[^/]+\\.)?edgecastcdn\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Edgio": {
+    "name": "Edgio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Edgio is an integrated suite of Edge services, from Delivery to Compute.",
+    "website": "https://edg.io",
+    "patterns": {
+      "headers": [
+        "x-0-status: ",
+        "x-0-t: ",
+        "x-0-version: ^\\d+ ([\\d.]+) \\;version:\\1"
+      ],
+      "cookies": [
+        "layer0_bucket: ",
+        "layer0_destination: ",
+        "layer0_eid: "
+      ],
+      "scriptSrc": [
+        "/__layer0__/cache-manifest\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 62"
+      ]
+    }
+  },
+  "GoCache": {
+    "name": "GoCache",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "GoCache is an in-memory key:value store/cache similar to memcached that is suitable for applications running on a single machine.",
+    "website": "https://www.gocache.com.br/",
+    "patterns": {
+      "headers": [
+        "X-GoCache-CacheStatus: ",
+        "Server: ^gocache$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Cloud": {
+    "name": "Google Cloud",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Google Cloud is a suite of cloud computing services.",
+    "website": "https://cloud.google.com",
+    "patterns": {
+      "headers": [
+        "Via: ^1\\.1 google$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Hosted Libraries": {
+    "name": "Google Hosted Libraries",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries.",
+    "website": "https://developers.google.com/speed/libraries",
+    "patterns": {
+      "scriptSrc": [
+        "ajax\\.googleapis\\.com/ajax/libs/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "GotiPath": {
+    "name": "GotiPath",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "GotiPath is a content delivery network (CDN) provider that is associated with telecom giant Telekom Malaysia Berhad.",
+    "website": "https://gotipath.com",
+    "patterns": {
+      "headers": [
+        "X-Cache: \\.swiftserve\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Hostinger CDN": {
+    "name": "Hostinger CDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Hostinger Content Delivery Network (CDN).",
+    "website": "https://www.hostinger.com",
+    "patterns": {
+      "headers": [
+        "server: hcdn"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Incapsula": {
+    "name": "Incapsula",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Incapsula is a cloud-based application delivery platform. It uses a global content delivery network to provide web application security, DDoS mitigation, content caching, application delivery, load balancing and failover services.",
+    "website": "http://www.incapsula.com",
+    "patterns": {
+      "headers": [
+        "X-CDN: Incapsula"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "jQuery CDN": {
+    "name": "jQuery CDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
+    "website": "https://code.jquery.com/",
+    "patterns": {
+      "scriptSrc": [
+        "code\\.jquery\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "jsDelivr": {
+    "name": "jsDelivr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
+    "website": "https://www.jsdelivr.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.jsdelivr\\.net"
+      ],
+      "html": [
+        "<link [^>]*?href=\"?[a-zA-Z]*?:?//cdn\\.jsdelivr\\.net/"
+      ],
+      "scripts": [
+        "//cdn\\.jsdelivr\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MaxCDN": {
+    "name": "MaxCDN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "MaxCDN is a content delivery network, which accelerates web-sites and decreases the server load.",
+    "website": "http://www.maxcdn.com",
+    "patterns": {
+      "headers": [
+        "X-CDN-Forward: ^maxcdn$",
+        "Server: ^NetDNA"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Ajax Content Delivery Network": {
+    "name": "Microsoft Ajax Content Delivery Network",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Microsoft Ajax Content Delivery Network hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your web applications.",
+    "website": "https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview",
+    "patterns": {
+      "scriptSrc": [
+        "ajax\\.aspnetcdn\\.com/ajax/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "MizbanCloud": {
+    "name": "MizbanCloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "MizbanCloud is a total cloud infrastructure solutions, CDN service provider and Cloud Computing Services, Cloud DNS, Cloud Security, VoD Streaming Service, Live Streaming, Cloud Object Storage.",
+    "website": "https://mizbancloud.com",
+    "patterns": {
+      "headers": [
+        "server: ^MizbanCloud$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Section.io": {
+    "name": "Section.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Section.io is a Content Delivery Network (CDN).",
+    "website": "https://www.section.io",
+    "patterns": {
+      "headers": [
+        "section-io-origin-status: ",
+        "section-io-origin-time-seconds: ",
+        "section-io-id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sotoon": {
+    "name": "Sotoon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Sotoon is a CDN provider serving users specially in the MENA region.",
+    "website": "https://sotoon.ir",
+    "patterns": {
+      "headers": [
+        "server: ^Sotoon$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Statically": {
+    "name": "Statically",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Statically is a free, fast and modern CDN for open-source projects, WordPress, images, and any static assets.",
+    "website": "https://statically.io",
+    "patterns": {
+      "headers": [
+        "Server: ^statically$"
+      ],
+      "scriptSrc": [
+        "cdn\\.statically\\.io/"
+      ],
+      "html": [
+        "<link [^>]*?href=\"?[a-z]*?:?//cdn\\.statically\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tencent Cloud": {
+    "name": "Tencent Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Tencent Cloud is China's leading public cloud service provider.",
+    "website": "https://intl.cloud.tencent.com",
+    "patterns": {
+      "meta": [
+        "copyright: ^.+Tencent\\sCloud\\.$"
+      ],
+      "scriptSrc": [
+        "\\.tencent-cloud\\.(?:cn|com)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 62"
+      ]
+    }
+  },
+  "TwicPics": {
+    "name": "TwicPics",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "TwicPics offers on-demand responsive image generation.",
+    "website": "https://www.twicpics.com",
+    "patterns": {
+      "headers": [
+        "server: ^TwicPics/\\d+\\.\\d+\\.\\d+$"
+      ],
+      "scriptSrc": [
+        ".+\\.twic\\.pics"
+      ],
+      "scripts": [
+        ".+\\.twic\\.pics"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 59"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Unpkg": {
+    "name": "Unpkg",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Unpkg is a content delivery network for everything on npm.",
+    "website": "https://unpkg.com",
+    "patterns": {
+      "scriptSrc": [
+        "unpkg\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Amazon Cloudfront": {
+    "name": "Amazon Cloudfront",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Database",
+    "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds.",
+    "website": "http://aws.amazon.com/cloudfront/",
+    "patterns": {
+      "headers": [
+        "Via: \\(CloudFront\\)$",
+        "X-Amz-Cf-Id: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Acquia Cloud Platform CDN": {
+    "name": "Acquia Cloud Platform CDN",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Database",
+    "description": "",
+    "website": "https://docs.acquia.com/cloud-platform/platformcdn/",
+    "patterns": {
+      "headers": [
+        "via: Acquia Platform CDN (.+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Airee": {
+    "name": "Airee",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Database",
+    "description": "",
+    "website": "http://xn--80aqc2a.xn--p1ai",
+    "patterns": {
+      "headers": [
+        "Server: ^Airee"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bunny": {
+    "name": "Bunny",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Database",
+    "description": "",
+    "website": "https://bunny.net",
+    "patterns": {
+      "headers": [
+        "Server: ^BunnyCDN"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "DERAK.CLOUD": {
+    "name": "DERAK.CLOUD",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Database",
+    "description": "",
+    "website": "https://derak.cloud",
+    "patterns": {
+      "headers": [
+        "Derak-Umbrage: ",
+        "Server: ^DERAK\\.CLOUD$"
+      ],
+      "cookies": [
+        "__derak_auth: ",
+        "__derak_user: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Fireblade": {
+    "name": "Fireblade",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Database",
+    "description": "",
+    "website": "http://fireblade.com",
+    "patterns": {
+      "headers": [
+        "Server: fbs"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudimage": {
+    "name": "Cloudimage",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Cloudimage automates the transformation and optimisation of images on the fly and accelerates their distribution via the Content Delivery Network (CDN).",
+    "website": "https://www.cloudimage.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 95"
+      ]
+    }
+  },
+  "DigitalOcean Spaces": {
+    "name": "DigitalOcean Spaces",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "DigitalOcean Spaces is a cloud-based object storage service provided by DigitalOcean, a cloud infrastructure provider. It allows users to store and retrieve large amounts of data, such as images, videos, audio files, backups, and logs, using a simple RESTful API or a web-based graphical user interface (GUI).",
+    "website": "https://www.digitalocean.com/products/spaces",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 63"
+      ]
+    }
+  },
+  "Gatsby Cloud Image CDN": {
+    "name": "Gatsby Cloud Image CDN",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Image CDN is a new feature of hosting on Gatsby Cloud. Instead of processing images at build time, Image CDN defers and offloads image processing to the edge.",
+    "website": "https://www.gatsbyjs.com/products/cloud/image-cdn",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "ImageEngine": {
+    "name": "ImageEngine",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "ImageEngine is an intelligent image content delivery network. ImageEngine will resize your image content tailored to the end users device.",
+    "website": "https://imageengine.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 92"
+      ]
+    }
+  },
+  "Imgix": {
+    "name": "Imgix",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Imgix is a visual media platform for managing, processing, rendering, optimising and delivering your existing images.",
+    "website": "https://imgix.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database",
+        "Category 95"
+      ]
+    }
+  },
+  "Uploadcare": {
+    "name": "Uploadcare",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Uploadcare is a complete file handling platform for online business. Receive files from you users via File Uploader or File Upload API, implement image optimization and transformations with Image CDN API, and get HIPAA-compliant storage.",
+    "website": "https://uploadcare.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Wangsu": {
+    "name": "Wangsu",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Wangsu is a China-based company that provides content delivery network and internet data center services.",
+    "website": "https://en.wangsu.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  },
+  "Yandex.Cloud CDN": {
+    "name": "Yandex.Cloud CDN",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Database",
+    "description": "Yandex.Cloud CDN helps you streamline static content delivery for your web service.",
+    "website": "https://cloud.yandex.com/en/services/cdn",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Database"
+      ]
+    }
+  }
+}

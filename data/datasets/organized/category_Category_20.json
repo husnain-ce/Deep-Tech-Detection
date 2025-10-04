@@ -1,0 +1,87 @@
+{
+  "Crisp": {
+    "name": "Crisp",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 20",
+    "description": "",
+    "website": "https://crisp.chat",
+    "patterns": {
+      "scripts": [
+        "client\\.crisp\\.chat/l\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 20"
+      ]
+    }
+  },
+  "Mailchimp": {
+    "name": "Mailchimp",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 20",
+    "description": "",
+    "website": "https://mailchimp.com",
+    "patterns": {
+      "scripts": [
+        "chimpstatic\\.com/mcjs-connected/js/users/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 20"
+      ]
+    }
+  },
+  "SendGrid": {
+    "name": "SendGrid",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 20",
+    "description": "",
+    "website": "https://sendgrid.com",
+    "patterns": {
+      "html": [
+        "sendgrid"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 20"
+      ]
+    }
+  },
+  "Mailgun": {
+    "name": "Mailgun",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 20",
+    "description": "",
+    "website": "https://www.mailgun.com",
+    "patterns": {
+      "html": [
+        "mailgun"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 20"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

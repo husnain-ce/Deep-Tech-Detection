@@ -1,0 +1,2403 @@
+{
+  "Apache": {
+    "name": "Apache",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Apache is a free and open-source cross-platform web server software.",
+    "website": "http://apache.org",
+    "patterns": {
+      "headers": [
+        "Server: (?i)^Apache(?:/|$)",
+        "Server: (?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\\b)HTTPD)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Nginx": {
+    "name": "Nginx",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+    "website": "http://nginx.org/en",
+    "patterns": {
+      "headers": [
+        "Server: nginx(?:/([\\d.]+))?\\;version:\\1",
+        "Server: (?i)^nginx(?:/|$)",
+        "X-Fastcgi-Cache: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks",
+        "Category 64"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "IIS": {
+    "name": "IIS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Internet Information Services (IIS) is an extensible web server software created by Microsoft for use with the Windows NT family.",
+    "website": "https://www.iis.net",
+    "patterns": {
+      "headers": [
+        "Server: ^(?:Microsoft-)?IIS(?:/([\\d.]+))?\\;version:\\1",
+        "Server: (?i)^Microsoft-IIS(?:/|$)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "LiteSpeed": {
+    "name": "LiteSpeed",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "LiteSpeed is a high-scalability web server.",
+    "website": "http://litespeedtech.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)LiteSpeed",
+        "Server: ^LiteSpeed$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "OpenResty": {
+    "name": "OpenResty",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "OpenResty is a web platform based on nginx which can run Lua scripts using its LuaJIT engine.",
+    "website": "http://openresty.org",
+    "patterns": {
+      "headers": [
+        "Server: openresty(?:/([\\d.]+))?\\;version:\\1",
+        "Server: (?i)openresty"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Tengine": {
+    "name": "Tengine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Tengine is a web server which is based on the Nginx HTTP server.",
+    "website": "http://tengine.taobao.org",
+    "patterns": {
+      "headers": [
+        "Server: Tengine",
+        "Server: (?i)Tengine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Apache Tomcat": {
+    "name": "Apache Tomcat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and WebSocket technologies.",
+    "website": "http://tomcat.apache.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: \\bTomcat\\b(?:-([\\d.]+))?\\;version:\\1",
+        "Server: ^Apache-Coyote",
+        "Server: (?i)Apache-Coyote|Apache Tomcat"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Amazon EC2": {
+    "name": "Amazon EC2",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Amazon Elastic Compute Cloud is a part of Amazon.com's cloud-computing platform, Amazon Web Services, that allows users to rent virtual computers on which to run their own computer applications.",
+    "website": "http://aws.amazon.com/ec2/",
+    "patterns": {
+      "headers": [
+        "Server: \\(Amazon\\)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Angie": {
+    "name": "Angie",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Angie is a drop-in replacement for the Nginx web server aiming to extend the functionality of the original version.",
+    "website": "https://angie.software/en/",
+    "patterns": {
+      "headers": [
+        "server: ^Angie(?:/([\\d\\.]+))?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Apache HTTP Server": {
+    "name": "Apache HTTP Server",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Apache is a free and open-source cross-platform web server software.",
+    "website": "https://httpd.apache.org/",
+    "patterns": {
+      "headers": [
+        "Server: (?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\\b)HTTPD)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "CactiveCloud": {
+    "name": "CactiveCloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "CactiveCloud is a freemium based cloud provider and web server for static deployments of websites with HTML builds and serverless functions.",
+    "website": "https://cactivecloud.com",
+    "patterns": {
+      "headers": [
+        "server: ^Cactive$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "CherryPy": {
+    "name": "CherryPy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "CherryPy is an object-oriented web application framework using the Python programming language.",
+    "website": "https://cherrypy.org/",
+    "patterns": {
+      "headers": [
+        "Server: CherryPy(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cowboy": {
+    "name": "Cowboy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Cowboy is a small, fast, modular HTTP server written in Erlang.",
+    "website": "https://github.com/ninenines/cowboy",
+    "patterns": {
+      "headers": [
+        "Server: ^Cowboy$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Discourse": {
+    "name": "Discourse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Discourse is an open-source internet forum and mailing list management software application.",
+    "website": "https://discourse.org",
+    "patterns": {
+      "meta": [
+        "generator: Discourse(?: ?/?([\\d.]+\\d))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Discuz! X": {
+    "name": "Discuz! X",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Discuz! X is an internet forum software written in PHP and supports MySQL and PostgreSQL databases.",
+    "website": "http://www.discuz.net",
+    "patterns": {
+      "meta": [
+        "generator: Discuz! X([\\d\\.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "EZproxy": {
+    "name": "EZproxy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "EZproxy is a web server and a reverse proxy that is usually used by libraries as a reverse proxy in front of electronic educational resources databases (e.g.: Scopus, PubMed, or Web of Science) in order to provide authentication and protect privacy.",
+    "website": "https://www.oclc.org/en/ezproxy.html",
+    "patterns": {
+      "headers": [
+        "server: ^EZproxy$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks",
+        "Category 64"
+      ]
+    }
+  },
+  "Flarum": {
+    "name": "Flarum",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Flarum is a discussion platform.",
+    "website": "http://flarum.org/",
+    "patterns": {
+      "html": [
+        "<div id=\"flarum-loading\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "H2O": {
+    "name": "H2O",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "H2O is a fast and secure HTTP/2 server written in C by Kazuho Oku.",
+    "website": "https://github.com/h2o/h2o",
+    "patterns": {
+      "headers": [
+        "Server: ^h2o(?:/)?([\\d\\.]+)?\\;version:\\1"
+      ],
+      "cookies": [
+        "h2o_casper: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "HCL Domino": {
+    "name": "HCL Domino",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "HCL Domino, formerly called IBM Domino (1995) and Lotus Domino (1989), is an enterprise server application development platform.",
+    "website": "https://www.hcltechsw.com/domino",
+    "patterns": {
+      "headers": [
+        "Server: ^Lotus-Domino$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "HP iLO": {
+    "name": "HP iLO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "HP iLO is a tool that provides multiple ways to configure, update, monitor, and run servers remotely.",
+    "website": "http://hp.com",
+    "patterns": {
+      "headers": [
+        "Server: HP-iLO-Server(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks",
+        "Category 46"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Intel Active Management Technology": {
+    "name": "Intel Active Management Technology",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Intel Active Management Technology (AMT) is a proprietary remote management and control system for personal computers with Intel CPUs.",
+    "website": "http://intel.com",
+    "patterns": {
+      "headers": [
+        "Server: Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks",
+        "Category 46"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "lighttpd": {
+    "name": "lighttpd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Lighttpd is an open-source web server optimised for speed-critical environment.",
+    "website": "http://www.lighttpd.net",
+    "patterns": {
+      "headers": [
+        "Server: (?:L|l)ight(?:y)?(?:tpd)?(?:/([\\d\\.]+))?\\;version:\\1",
+        "Server: lighttpd(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mastodon": {
+    "name": "Mastodon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Mastodon is a free and open-source self-hosted social networking service.",
+    "website": "https://joinmastodon.org",
+    "patterns": {
+      "headers": [
+        "Server: ^Mastodon$"
+      ],
+      "cookies": [
+        "_mastodon_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Misskey": {
+    "name": "Misskey",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Misskey is a distributed microblogging platform.",
+    "website": "https://join.misskey.page/",
+    "patterns": {
+      "html": [
+        "<!-- Thank you for using Misskey! @syuilo -->"
+      ],
+      "meta": [
+        "application-name: Misskey"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MyBB": {
+    "name": "MyBB",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "MyBB is a free and open-source forum software written in PHP.",
+    "website": "https://mybb.com",
+    "patterns": {
+      "cookies": [
+        "mybb[lastactive]: ",
+        "mybb[lastvisit]: "
+      ],
+      "html": [
+        "(?:<script [^>]+\\s+<!--\\s+lang\\.no_new_posts|<a[^>]* title=\"Powered By MyBB)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NodeBB": {
+    "name": "NodeBB",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "NodeBB forum software is powered by Node.js and built on either a Redis or MongoDB database.",
+    "website": "https://nodebb.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^NodeBB$"
+      ],
+      "scriptSrc": [
+        "/nodebb\\.min\\.js\\?"
+      ],
+      "scripts": [
+        "^/nodebb\\.min\\.js\\?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenGSE": {
+    "name": "OpenGSE",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "OpenGSE is a test suite used for testing servlet compliance. It is deployed by using WAR files that are deployed on the server engine.",
+    "website": "http://code.google.com/p/opengse",
+    "patterns": {
+      "headers": [
+        "Server: GSE"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PeerBoard": {
+    "name": "PeerBoard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "PeerBoard is a plug-and-play community solution, which helps groups, clubs, startups, marketplaces and businesses create discussion forums.",
+    "website": "https://peerboard.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.peerboard\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "PeerTube": {
+    "name": "PeerTube",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "PeerTube is a free and open-source, decentralized, federated video platform powered by ActivityPub and WebTorrent.",
+    "website": "https://joinpeertube.org/",
+    "patterns": {
+      "meta": [
+        "og:platform: ^PeerTube$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Phusion Passenger": {
+    "name": "Phusion Passenger",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Phusion Passenger is a free web server and application server with support for Ruby, Python and Node.js.",
+    "website": "https://phusionpassenger.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Phusion Passenger ?([\\d.]+)?\\;version:\\1",
+        "Server: Phusion Passenger ([\\d.]+)\\;version:\\1",
+        "X-Powered-By: Phusion Passenger(?:\\(R\\))? ?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "phpBB": {
+    "name": "phpBB",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "phpBB is a free open-source Internet forum package in the PHP scripting language.",
+    "website": "https://phpbb.com",
+    "patterns": {
+      "cookies": [
+        "phpbb: "
+      ],
+      "html": [
+        "<img[^>]+i_icon_mini",
+        "<table class=\"[^\"]*forumline",
+        "Powered by <a[^>]+phpBB",
+        "<[^>]+styles/(?:sub|pro)silver/theme",
+        "<div class=phpbb_copyright>"
+      ],
+      "meta": [
+        "copyright: phpBB Group"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RoadRunner": {
+    "name": "RoadRunner",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "RoadRunner is a high-performance PHP application server, load balancer, and process manager written in Golang.",
+    "website": "https://roadrunner.dev",
+    "patterns": {
+      "headers": [
+        "Server: RoadRunner"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Vanilla": {
+    "name": "Vanilla",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Vanilla is a both a cloud-based (SaaS) open-source community forum software.",
+    "website": "http://vanillaforums.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Vanilla"
+      ],
+      "html": [
+        "<body id=\"(?:DiscussionsPage|vanilla)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "vBulletin": {
+    "name": "vBulletin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "vBulletin is tool that is used to create and manage online forums or discussion boards. It is written in PHP and uses a MySQL database server.",
+    "website": "https://www.vbulletin.com",
+    "patterns": {
+      "cookies": [
+        "bbsessionhash: ",
+        "bblastvisit: ",
+        "bblastactivity: "
+      ],
+      "html": [
+        "<div id=\"copyright\">Powered by vBulletin"
+      ],
+      "meta": [
+        "generator: vBulletin ?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Weblogic Server": {
+    "name": "Weblogic Server",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "WebLogic Server is an Application Server that runs on a middle tier, between back-end databases and related applications and browser-based thin clients.",
+    "website": "https://www.oracle.com/java/weblogic",
+    "patterns": {
+      "headers": [
+        "Server: ^WebLogic\\sServer\\s([\\d\\.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "XenForo": {
+    "name": "XenForo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "XenForo is a PHP-based forum hosting program for communities that is designed to be deployed on a remote web server.",
+    "website": "http://xenforo.com",
+    "patterns": {
+      "cookies": [
+        "xf_csrf: ",
+        "xf_session: "
+      ],
+      "html": [
+        "<html id=\"XF\" ",
+        "(?:jQuery\\.extend\\(true, XenForo|Forum software by XenForo™|<!--XF:branding|<html[^>]+id=\"XenForo\")",
+        "(?:jQuery\\.extend\\(true, XenForo|<a[^>]+>Forum software by XenForo™|<!--XF:branding|<html[^>]+id=\"XenForo\")"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Yaws": {
+    "name": "Yaws",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Yaws (Yet Another Web Server) is an open-source web server designed to deliver dynamic content efficiently. It was developed by Claes (klacke) Wikström and is written in Erlang, a functional programming language.",
+    "website": "https://github.com/erlyaws/yaws",
+    "patterns": {
+      "headers": [
+        "Server: Yaws(?: ([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Logitech Media Server": {
+    "name": "Logitech Media Server",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "Logitech Media Server is a streaming audio server.",
+    "website": "http://www.mysqueezebox.com",
+    "patterns": {
+      "headers": [
+        "Server: Logitech Media Server(?: \\(([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks",
+        "Miscellaneous"
+      ]
+    }
+  },
+  "SMF": {
+    "name": "SMF",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Web Frameworks",
+    "description": "SMF is a free open-source software, used for community forums and is written in PHP.",
+    "website": "http://www.simplemachines.org",
+    "patterns": {
+      "html": [
+        "credits/?\" title=\"Simple Machines Forum\" target=\"_blank\" class=\"new_win\">SMF ([0-9.]+)</a>\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "AOLserver": {
+    "name": "AOLserver",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://aolserver.com",
+    "patterns": {
+      "headers": [
+        "Server: AOLserver/?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Apache Traffic Server": {
+    "name": "Apache Traffic Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://trafficserver.apache.org/",
+    "patterns": {
+      "headers": [
+        "Server: ATS/?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Artifactory Web Server": {
+    "name": "Artifactory Web Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://jfrog.com/open-source/#os-arti",
+    "patterns": {
+      "headers": [
+        "Server: Artifactory(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Centminmod": {
+    "name": "Centminmod",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://centminmod.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: centminmod"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cherokee": {
+    "name": "Cherokee",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.cherokee-project.com",
+    "patterns": {
+      "headers": [
+        "Server: ^Cherokee(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CouchDB": {
+    "name": "CouchDB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://couchdb.apache.org",
+    "patterns": {
+      "headers": [
+        "Server: CouchDB/([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Daphne": {
+    "name": "Daphne",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://github.com/django/daphne",
+    "patterns": {
+      "headers": [
+        "Server: Daphne"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "ELOG HTTP": {
+    "name": "ELOG HTTP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://midas.psi.ch/elog",
+    "patterns": {
+      "headers": [
+        "Server: ELOG HTTP ?([\\d.-]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "EmbedThis Appweb": {
+    "name": "EmbedThis Appweb",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://embedthis.com/appweb",
+    "patterns": {
+      "headers": [
+        "Server: Mbedthis-Appweb(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FluxBB": {
+    "name": "FluxBB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://fluxbb.org",
+    "patterns": {
+      "html": [
+        "<p id=\"poweredby\">[^<]+<a href=\"https?://fluxbb\\.org/\">"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GlassFish": {
+    "name": "GlassFish",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://glassfish.java.net",
+    "patterns": {
+      "headers": [
+        "Server: GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GoAhead": {
+    "name": "GoAhead",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://embedthis.com/products/goahead/index.html",
+    "patterns": {
+      "headers": [
+        "Server: GoAhead"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Web Server": {
+    "name": "Google Web Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://en.wikipedia.org/wiki/Google_Web_Server",
+    "patterns": {
+      "headers": [
+        "Server: gws"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "gunicorn": {
+    "name": "gunicorn",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://gunicorn.org",
+    "patterns": {
+      "headers": [
+        "Server: gunicorn(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "HHVM": {
+    "name": "HHVM",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://hhvm.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: HHVM/?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "HP Compact Server": {
+    "name": "HP Compact Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://hp.com",
+    "patterns": {
+      "headers": [
+        "Server: HP_Compact_Server(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hiawatha": {
+    "name": "Hiawatha",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://hiawatha-webserver.org",
+    "patterns": {
+      "headers": [
+        "Server: Hiawatha v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hypercorn": {
+    "name": "Hypercorn",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://pgjones.gitlab.io/hypercorn/",
+    "patterns": {
+      "headers": [
+        "Server: hypercorn"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "IBM HTTP Server": {
+    "name": "IBM HTTP Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://ibm.com/software/webservers/httpservers",
+    "patterns": {
+      "headers": [
+        "Server: IBM_HTTP_Server(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "IPB": {
+    "name": "IPB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://invisioncommunity.com/",
+    "patterns": {
+      "cookies": [
+        "ipbWWLsession_id: ",
+        "ipbWWLmodpids: "
+      ],
+      "html": [
+        "<link[^>]+ipb_[^>]+\\.css"
+      ],
+      "scriptSrc": [
+        "jscripts/ips_"
+      ],
+      "scripts": [
+        "jscripts/ips_"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Indy": {
+    "name": "Indy",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://indyproject.org",
+    "patterns": {
+      "headers": [
+        "Server: Indy(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JBoss Application Server": {
+    "name": "JBoss Application Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://jboss.org/jbossas.html",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: JBoss(?:-([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JBoss Web": {
+    "name": "JBoss Web",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://jboss.org/jbossweb",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: JBossWeb(?:-([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "libwww-perl-daemon": {
+    "name": "libwww-perl-daemon",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://metacpan.org/pod/HTTP::Daemon",
+    "patterns": {
+      "headers": [
+        "Server: libwww-perl-daemon(?:/([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mattermost": {
+    "name": "Mattermost",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://about.mattermost.com",
+    "patterns": {
+      "html": [
+        "<noscript> To use Mattermost, please enable JavaScript\\. </noscript>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft HTTPAPI": {
+    "name": "Microsoft HTTPAPI",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://microsoft.com",
+    "patterns": {
+      "headers": [
+        "Server: Microsoft-HTTPAPI(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MiniServ": {
+    "name": "MiniServ",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://github.com/webmin/webmin/blob/master/miniserv.pl",
+    "patterns": {
+      "headers": [
+        "Server: MiniServ/([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "MochiWeb": {
+    "name": "MochiWeb",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://github.com/mochi/mochiweb",
+    "patterns": {
+      "headers": [
+        "Server: MochiWeb(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mongrel": {
+    "name": "Mongrel",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://mongrel2.org",
+    "patterns": {
+      "headers": [
+        "Server: Mongrel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Monkey HTTP Server": {
+    "name": "Monkey HTTP Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://monkey-project.com",
+    "patterns": {
+      "headers": [
+        "Server: Monkey/?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "mini_httpd": {
+    "name": "mini_httpd",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://acme.com/software/mini_httpd",
+    "patterns": {
+      "headers": [
+        "Server: mini_httpd(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "nghttpx - HTTP/2 proxy": {
+    "name": "nghttpx - HTTP/2 proxy",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://nghttp2.org",
+    "patterns": {
+      "headers": [
+        "Server: nghttpx nghttp2/?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenBSD httpd": {
+    "name": "OpenBSD httpd",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://man.openbsd.org/httpd.8",
+    "patterns": {
+      "headers": [
+        "Server: ^OpenBSD httpd"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Oracle Application Server": {
+    "name": "Oracle Application Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.oracle.com/technetwork/middleware/ias/overview/index.html",
+    "patterns": {
+      "headers": [
+        "Server: Oracle[- ]Application[- ]Server(?: Containers for J2EE)?(?:[- ](\\d[\\da-z./]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Oracle HTTP Server": {
+    "name": "Oracle HTTP Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://oracle.com",
+    "patterns": {
+      "headers": [
+        "Server: Oracle-HTTP-Server(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "punBB": {
+    "name": "punBB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://punbb.informer.com",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"[^>]+punbb"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RX Web Server": {
+    "name": "RX Web Server",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://developers.rokitax.co.uk/projects/rxweb",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: RX-WEB"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Reddit": {
+    "name": "Reddit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://code.reddit.com",
+    "patterns": {
+      "html": [
+        "(?:<a[^>]+Powered by Reddit|powered by <a[^>]+>reddit<)"
+      ],
+      "url": [
+        "^https?://(?:www\\.)?reddit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Resin": {
+    "name": "Resin",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://caucho.com",
+    "patterns": {
+      "headers": [
+        "Server: ^Resin(?:/(\\S*))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SimpleHTTP": {
+    "name": "SimpleHTTP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://example.com",
+    "patterns": {
+      "headers": [
+        "Server: SimpleHTTP(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Starlet": {
+    "name": "Starlet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://metacpan.org/pod/Starlet",
+    "patterns": {
+      "headers": [
+        "Server: ^Plack::Handler::Starlet"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TornadoServer": {
+    "name": "TornadoServer",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://tornadoweb.org",
+    "patterns": {
+      "headers": [
+        "Server: TornadoServer(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TwistedWeb": {
+    "name": "TwistedWeb",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://twistedmatrix.com/trac/wiki/TwistedWeb",
+    "patterns": {
+      "headers": [
+        "Server: TwistedWeb(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "thttpd": {
+    "name": "thttpd",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://acme.com/software/thttpd",
+    "patterns": {
+      "headers": [
+        "Server: \\bthttpd(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Uvicorn": {
+    "name": "Uvicorn",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "https://www.uvicorn.org/",
+    "patterns": {
+      "headers": [
+        "Server: uvicorn"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Warp": {
+    "name": "Warp",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.stackage.org/package/warp",
+    "patterns": {
+      "headers": [
+        "Server: ^Warp/(\\d+(?:\\.\\d+)+)?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Winstone Servlet Container": {
+    "name": "Winstone Servlet Container",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://winstone.sourceforge.net",
+    "patterns": {
+      "headers": [
+        "Server: Winstone Servlet (?:Container|Engine) v?([\\d.]+)?\\;version:\\1",
+        "X-Powered-By: Winstone(?:\\/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XAMPP": {
+    "name": "XAMPP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.apachefriends.org/en/xampp.html",
+    "patterns": {
+      "html": [
+        "<title>XAMPP(?: Version ([\\d\\.]+))?</title>\\;version:\\1"
+      ],
+      "meta": [
+        "author: Kai Oswald Seidler\\;confidence:10"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XMB": {
+    "name": "XMB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.xmbforum.com",
+    "patterns": {
+      "html": [
+        "<!-- Powered by XMB"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Xitami": {
+    "name": "Xitami",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://xitami.com",
+    "patterns": {
+      "headers": [
+        "Server: Xitami(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "YaBB": {
+    "name": "YaBB",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www.yabbforum.com",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"[^>]+yabbforum"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zend": {
+    "name": "Zend",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://zend.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Zend(?:Server)?(?:[\\s/]?([0-9.]+))?\\;version:\\1"
+      ],
+      "cookies": [
+        "ZENDSERVERSESSID: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zope": {
+    "name": "Zope",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://zope.org",
+    "patterns": {
+      "headers": [
+        "Server: ^Zope/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Allegro RomPager": {
+    "name": "Allegro RomPager",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://allegrosoft.com/embedded-web-server-s2",
+    "patterns": {
+      "headers": [
+        "Server: Allegro-Software-RomPager(?:/([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "G-WAN": {
+    "name": "G-WAN",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://gwan.com",
+    "patterns": {
+      "headers": [
+        "Server: G-WAN"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Lotus Domino": {
+    "name": "Lotus Domino",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Web Frameworks",
+    "description": "",
+    "website": "http://www-01.ibm.com/software/lotus/products/domino",
+    "patterns": {
+      "headers": [
+        "Server: Lotus-Domino"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Deno": {
+    "name": "Deno",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "website": "https://deno.land",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "FUDforum": {
+    "name": "FUDforum",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "FUDforum is a discussion forum software with support for posts, topics, polls and attachments.",
+    "website": "https://github.com/fudforum/FUDforum",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "Oracle WebLogic Server": {
+    "name": "Oracle WebLogic Server",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "Oracle WebLogic Server is a Java-based application server that provides a platform for developing, deploying, and running enterprise-level Java applications.",
+    "website": "https://www.oracle.com/java/weblogic/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  },
+  "PixelFed": {
+    "name": "PixelFed",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "PixelFed is an activitypub based image sharing platform.",
+    "website": "https://pixelfed.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pleroma": {
+    "name": "Pleroma",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "Pleroma is a free, federated social networking server built on open protocols.",
+    "website": "https://pleroma.social/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Simple Machines Forum": {
+    "name": "Simple Machines Forum",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Web Frameworks",
+    "description": "Simple Machines Forum is a free open-source software, used for community forums and is written in PHP.",
+    "website": "http://www.simplemachines.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Web Frameworks"
+      ]
+    }
+  }
+}

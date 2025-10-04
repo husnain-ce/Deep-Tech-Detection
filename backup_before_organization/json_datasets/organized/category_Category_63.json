@@ -1,0 +1,85 @@
+{
+  "Alibaba Cloud Object Storage Service": {
+    "name": "Alibaba Cloud Object Storage Service",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 63",
+    "description": "Alibaba Cloud Object Storage Service (OSS) is a cloud-based object storage service provided by Alibaba Cloud, which allows users to store and access large amounts of data in the cloud.",
+    "website": "https://www.alibabacloud.com/product/object-storage-service",
+    "patterns": {
+      "headers": [
+        "x-oss-object-type: ",
+        "x-oss-request-id: ",
+        "x-oss-storage-class: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 63"
+      ]
+    }
+  },
+  "Parmin Cloud": {
+    "name": "Parmin Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 63",
+    "description": "Parmin Cloud operates in the field of cloud services.",
+    "website": "https://parmin.cloud",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^ParminCloud$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 63"
+      ]
+    }
+  },
+  "Amazon ECS": {
+    "name": "Amazon ECS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 63",
+    "description": "",
+    "website": "https://aws.amazon.com/ecs/",
+    "patterns": {
+      "headers": [
+        "Server: ^ECS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 63"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Leaseweb": {
+    "name": "Leaseweb",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 63",
+    "description": "Leaseweb is an Infrastructure-as-a-Service (IaaS) provider offering dedicated servers, CDN, cloud hosting and hybrid cloud on a global network.",
+    "website": "https://www.leaseweb.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 63",
+        "Category 88"
+      ]
+    }
+  }
+}

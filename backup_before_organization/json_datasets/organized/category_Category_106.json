@@ -1,0 +1,240 @@
+{
+  "Borderfree": {
+    "name": "Borderfree",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Borderfree is an cross-border ecommerce solutions provider.",
+    "website": "https://www.borderfree.com",
+    "patterns": {
+      "cookies": [
+        "bfx.apiKey:: ^[\\w\\d-]+$",
+        "bfx.country:: ^\\w+$",
+        "bfx.language: ^\\w+$",
+        "bfx.logLevel: ^\\w+$"
+      ],
+      "scriptSrc": [
+        "global\\.prd\\.borderfree\\.com",
+        "wm\\.prd\\.borderfree\\.com",
+        "bfx-objects\\.prd\\.borderfree\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "ESW": {
+    "name": "ESW",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "ESW (eShopWorld) is a company providing payments, shipping, and delivery services focusing on cross-border ecommerce.",
+    "website": "http://esw.com",
+    "patterns": {
+      "scriptSrc": [
+        "Eswhooks\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "Exemptify": {
+    "name": "Exemptify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Exemptify allows you to conduct proper EU B2B transactions by validating EU VAT IDs.",
+    "website": "http://modules4u.biz/exemptify",
+    "patterns": {
+      "scriptSrc": [
+        "\\.modules4u\\.biz/shopify/exemptify"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106",
+        "Category 100"
+      ]
+    }
+  },
+  "Flow": {
+    "name": "Flow",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Flow is an ecommerce platform that enables brands and retailers to sell their merchandise to customers internationally by creating localized shopping experiences.",
+    "website": "https://www.flow.io/",
+    "patterns": {
+      "scriptSrc": [
+        "(?:shopify-)?cdn\\.flow\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "Global-e": {
+    "name": "Global-e",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Global-e is a provider of cross-border ecommerce solutions.",
+    "website": "https://www.global-e.com",
+    "patterns": {
+      "cookies": [
+        "GlobalE_CT_Data: ",
+        "GlobalE_Data: ",
+        "GlobalE_SupportThirdPartCookies: "
+      ],
+      "scriptSrc": [
+        "\\.global-e\\.com"
+      ],
+      "scripts": [
+        "web\\.global-e\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GlobalShopex": {
+    "name": "GlobalShopex",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "GlobalShopex offers a logistics ecommerce solution easy to integrate, which helps online businesses to sell in over 200 countries.",
+    "website": "http://www.globalshopex.com",
+    "patterns": {
+      "scriptSrc": [
+        "//globalshopex\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "Glopal": {
+    "name": "Glopal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Glopal provides advanced international marketing solutions for ecommerce retailers and brands seeking to grow their businesses' globally.",
+    "website": "https://www.glopal.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.glopal\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "With Reach": {
+    "name": "With Reach",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "With Reach is a fintech/payments service provider that helps retailers connect with customers around the world.",
+    "website": "https://www.withreach.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.rch\\.io/",
+        "checkout\\.gointerpay\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "WorldShopping": {
+    "name": "WorldShopping",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "WorldShopping makes online purchases in Japan easier for international visitors.",
+    "website": "https://www.worldshopping.global/",
+    "patterns": {
+      "scriptSrc": [
+        "checkout-api\\.worldshopping\\.jp/(v\\d+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "Zonos": {
+    "name": "Zonos",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 106",
+    "description": "Zonos is a cross-border ecommerce software and app solution for companies with international business.",
+    "website": "https://zonos.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.zonos\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  },
+  "Localised": {
+    "name": "Localised",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 106",
+    "description": "Localised is local-first ecommerce platform.",
+    "website": "https://www.localised.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 106"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7820 @@
+{
+  "Joomla": {
+    "name": "Joomla",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Joomla is a free and open-source content management system for publishing web content.",
+    "website": "https://www.joomla.org/",
+    "patterns": {
+      "headers": [
+        "X-Content-Encoded-By: Joomla! ([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Joomla",
+        "(?:<div[^>]+id=\"wrapper_r\"|<(?:link|script)[^>]+(?:feed|components)/com_|<table[^>]+class=\"pill)\\;confidence:50"
+      ],
+      "url": [
+        "/administrator/|/components/",
+        "option=com_"
+      ],
+      "meta": [
+        "generator: Joomla!(?: ([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Wix": {
+    "name": "Wix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Wix provides cloud-based web development services, allowing users to create HTML5 websites and mobile sites.",
+    "website": "https://www.wix.com",
+    "patterns": {
+      "headers": [
+        "X-Wix-Renderer-Server: ",
+        "X-Wix-Server-Artifact-Id: ",
+        "X-Wix-Request-Id: ",
+        "x-wix-request-id: .+"
+      ],
+      "cookies": [
+        "Domain: \\.wix\\.com"
+      ],
+      "meta": [
+        "generator: Wix\\.com Website Builder"
+      ],
+      "scriptSrc": [
+        "static\\.parastorage\\.com"
+      ],
+      "scripts": [
+        "static\\.parastorage\\.com",
+        "static\\.parastorage\\.com/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Ghost": {
+    "name": "Ghost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content.",
+    "website": "https://ghost.org",
+    "patterns": {
+      "headers": [
+        "X-Ghost-Cache-Status: "
+      ],
+      "meta": [
+        "generator: Ghost(?:\\s([\\d.]+))?\\;version:\\1"
+      ],
+      "html": [
+        "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Ghost"
+      ],
+      "scripts": [
+        "/ghost/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Squarespace": {
+    "name": "Squarespace",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Squarespace provides Software-as-a-Service (SaaS) for website building and hosting, and allows users to use pre-built website templates.",
+    "website": "http://www.squarespace.com",
+    "patterns": {
+      "headers": [
+        "X-Squarespace-Cache: .+",
+        "X-ServedBy: squarespace",
+        "server: Squarespace"
+      ],
+      "html": [
+        "<!-- This is Squarespace\\. -->"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Contentful": {
+    "name": "Contentful",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Contentful is an API-first content management platform to create, manage and publish content on any digital channel.",
+    "website": "http://www.contentful.com",
+    "patterns": {
+      "headers": [
+        "x-contentful-request-id: "
+      ],
+      "html": [
+        "<[^>]+(?:https?:)?//(?:assets|downloads|images|videos)\\.(?:ct?fassets\\.net|contentful\\.com)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Strapi": {
+    "name": "Strapi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Strapi is an open-source headless CMS used for building fast and easily manageable APIs written in JavaScript.",
+    "website": "https://strapi.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)Strapi",
+        "X-Powered-By: ^Strapi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Sanity": {
+    "name": "Sanity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sanity is a platform for structured content. It comes with an open-source, headless CMS that can be customized with Javascript, a real-time hosted data store and an asset delivery pipeline.",
+    "website": "https://www.sanity.io",
+    "patterns": {
+      "headers": [
+        "content-security-policy: cdn\\.sanity\\.io",
+        "x-sanity-shard: "
+      ],
+      "scripts": [
+        "cdn\\.sanity\\.io/.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Prismic": {
+    "name": "Prismic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Prismic is a headless CMS for Jamstack.",
+    "website": "https://prismic.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.prismic\\.io/"
+      ],
+      "scripts": [
+        "static\\.cdn\\.prismic\\.io/prismic\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "DatoCMS": {
+    "name": "DatoCMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "DatoCMS is a cloud-based headless Content as a service (CaaS) platform created to work with static websites, mobile apps and server-side applications of any kind.",
+    "website": "https://www.datocms.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.datocms-assets\\.com"
+      ],
+      "html": [
+        "<[^>]+https://www\\.datocms-assets\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Storyblok": {
+    "name": "Storyblok",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Storyblok is a headless CMS with a visual editor for developers, marketers and content editors. Storyblok helps your team to manage content and digital experiences for every use-case from corporate websites, ecommerce, helpdesks, mobile apps, screen displays, and more.",
+    "website": "https://www.storyblok.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: app\\.storyblok\\.com",
+        "x-frame-options: app\\.storyblok\\.com"
+      ],
+      "scripts": [
+        "app\\.storyblok\\.com/f/.*\\.js"
+      ],
+      "meta": [
+        "generator: storyblok"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Directus": {
+    "name": "Directus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Directus is a free and open-source headless CMS framework for managing custom SQL-based databases.",
+    "website": "https://directus.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)Directus",
+        "x-powered-by: ^Directus$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Craft CMS": {
+    "name": "Craft CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Craft CMS is a content management system for building bespoke websites.",
+    "website": "https://craftcms.com/",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)Craft CMS",
+        "X-Powered-By: \\bCraft CMS\\b"
+      ],
+      "cookies": [
+        "CraftSessionId: .*",
+        "CraftSessionId: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "1C-Bitrix": {
+    "name": "1C-Bitrix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "1C-Bitrix is a system of web project management, universal software for the creation, support and successful development of corporate websites and online stores.",
+    "website": "http://www.1c-bitrix.ru",
+    "patterns": {
+      "headers": [
+        "Set-Cookie: BITRIX_",
+        "X-Powered-CMS: Bitrix Site Manager"
+      ],
+      "cookies": [
+        "BITRIX_SM_GUEST_ID: ",
+        "BITRIX_SM_LAST_IP: ",
+        "BITRIX_SM_SALE_UID: "
+      ],
+      "scriptSrc": [
+        "bitrix(?:\\.info/|/js/main/core)"
+      ],
+      "html": [
+        "(?:<link[^>]+components/bitrix|(?:src|href)=\"/bitrix/(?:js|templates))"
+      ],
+      "scripts": [
+        "1c-bitrix"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adobe Experience Manager": {
+    "name": "Adobe Experience Manager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Adobe Experience Manager (AEM) is a content management solution for building websites, mobile apps and forms.",
+    "website": "https://www.adobe.com/marketing/experience-manager.html",
+    "patterns": {
+      "html": [
+        "<div[^>]+data-component-path=\"[^\"+]jcr:",
+        "<div class=\"[^\"]*aem-Grid",
+        "<div class=\"[^\"]*parbase"
+      ],
+      "scripts": [
+        "aem-(?:GridColumn|apps/)",
+        "/etc\\.clientlibs/",
+        "/etc/clientlibs/",
+        "/etc/designs/"
+      ],
+      "scriptSrc": [
+        "/etc/designs/",
+        "/etc/clientlibs/",
+        "/etc\\.clientlibs/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amiro.CMS": {
+    "name": "Amiro.CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Amiro.CMS is a commercial content management system developed and distributed by the Russian company Amiro. Written in PHP and uses MySQL as a database.",
+    "website": "https://www.amiro.ru",
+    "patterns": {
+      "meta": [
+        "generator: Amiro"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Antee IPO": {
+    "name": "Antee IPO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Antee is a Czech company that will make a custom-made website for you, then you manage it in CMS IPO.",
+    "website": "https://ipo.antee.cz",
+    "patterns": {
+      "meta": [
+        "author: Antee\\ss\\.r\\.o\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "AquilaCMS": {
+    "name": "AquilaCMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "AquilaCMS is a fullstack, headless CMS written in JavaScript.",
+    "website": "https://www.aquila-cms.com/",
+    "patterns": {
+      "meta": [
+        "powered-by: AquilaCMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "AsciiDoc": {
+    "name": "AsciiDoc",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "AsciiDoc is a text document format for writing documentation, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats including HTML, PDF, EPUB, man page.",
+    "website": "http://www.methods.co.nz/asciidoc",
+    "patterns": {
+      "meta": [
+        "generator: ^AsciiDoc ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Webmail",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Azko CMS": {
+    "name": "Azko CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Azko CMS is a content management system developed by Azko (Septeo Group) specifically launched for lawyers in France.",
+    "website": "https://www.azko.fr",
+    "patterns": {
+      "scriptSrc": [
+        "//js\\.fw\\.azko\\.fr/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "BIGACE": {
+    "name": "BIGACE",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Bigace is a free open-source content management developed in PHP and JavaScript that uses a MySQL or ADOdb environment.",
+    "website": "https://github.com/bigace",
+    "patterns": {
+      "meta": [
+        "generator: BIGACE ([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "(?:Powered by <a href=\"[^>]+BIGACE|<!--\\s+Site is running BIGACE)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Banshee": {
+    "name": "Banshee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Banshee is a PHP website framework with a main focus on security. Banshee is protected against common attacks like SQL injection, cross-site scripting, cross-site request forgery and session hijacking.",
+    "website": "http://www.banshee-php.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Banshee PHP framework v([\\d\\.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Banshee PHP"
+      ],
+      "html": [
+        "Built upon the <a href=\"[^>]+banshee-php\\.org/\">[a-z]+</a>(?:v([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Batflat": {
+    "name": "Batflat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Batflat is a lightweight CMS for free.",
+    "website": "https://batflat.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Batflat$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Bentobox": {
+    "name": "Bentobox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Bentobox is a restaurant website platform that handles menus, reservations, gift cards and more.",
+    "website": "https://getbento.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getbento\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 93"
+      ]
+    }
+  },
+  "BoidCMS": {
+    "name": "BoidCMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "BoidCMS is a free and open-source flat file CMS for building simple websites and blogs in seconds, developed using PHP and uses JSON as a database.",
+    "website": "https://boidcms.github.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: BoidCMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "BoldGrid": {
+    "name": "BoldGrid",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "BoldGrid is a free website builder for WordPress websites.",
+    "website": "https://boldgrid.com",
+    "patterns": {
+      "html": [
+        "<link[^>]+s\\d+\\.boldgrid\\.com",
+        "<link rel=[\"']stylesheet[\"'] [^>]+post-and-page-builder",
+        "<link rel=[\"']stylesheet[\"'] [^>]+boldgrid"
+      ],
+      "scriptSrc": [
+        "/wp-content/plugins/post-and-page-builder"
+      ],
+      "scripts": [
+        "/wp-content/plugins/post-and-page-builder"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Brownie": {
+    "name": "Brownie",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Brownie is a framework, CMS, ecommerce and ERP omni-channel platform to manage your entire business in one cloud solution.",
+    "website": "https://www.browniesuite.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Brownie"
+      ],
+      "scriptSrc": [
+        "assets\\.youthsrl\\.com/brownie"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "Cendyn": {
+    "name": "Cendyn",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Cendyn (formerly NextGuest) is a hospitality focused content management system.",
+    "website": "https://www.cendyn.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^NextGuest CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Chameleon system": {
+    "name": "Chameleon system",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Chameleon system is an ecommerce and content management system all-in-one, capable of being integrated straight from the manufacturer.",
+    "website": "https://www.chameleon-system.de",
+    "patterns": {
+      "meta": [
+        "generator: Chameleon CMS/Shop System"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "Chorus": {
+    "name": "Chorus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Chorus is the only all-in-one publishing, audience, and revenue platform built for modern media companies.",
+    "website": "https://getchorus.voxmedia.com",
+    "patterns": {
+      "cookies": [
+        "_chorus_geoip_continent: ",
+        "chorus_preferences: "
+      ],
+      "html": [
+        "<meta data-chorus-version="
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cloudrexx": {
+    "name": "Cloudrexx",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Cloudrexx is a proprietary content management system that provides customisable templates and built-in modules for managing content, ecommerce, events, newsletters, and more, along with tools for SEO, social media integration, and multilingual support.",
+    "website": "https://www.cloudrexx.com",
+    "patterns": {
+      "meta": [
+        "generator: ^cloudrexx$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Congressus": {
+    "name": "Congressus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Congressus is a Dutch-language online application for member administration, financial management, communication and a linked website with webshop.",
+    "website": "https://congressus.nl",
+    "patterns": {
+      "cookies": [
+        "_gat_congressus_analytics: ",
+        "congressus_session: "
+      ],
+      "meta": [
+        "generator: ^Congressus\\s-\\s.+$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Contao": {
+    "name": "Contao",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Contao is an open source CMS that allows you to create websites and scalable web applications.",
+    "website": "http://contao.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Contao Open Source CMS$"
+      ],
+      "html": [
+        "<!--[^>]+powered by (?:TYPOlight|Contao)[^>]*-->",
+        "<link[^>]+(?:typolight|contao)\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CoreMedia Content Cloud": {
+    "name": "CoreMedia Content Cloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "CoreMedia Content Cloud is an agile content management and digital asset management platform.",
+    "website": "https://www.coremedia.com",
+    "patterns": {
+      "meta": [
+        "coremedia_content_id: ",
+        "generator: ^CoreMedia C(?:ontent Cloud|MS)$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 95"
+      ]
+    }
+  },
+  "Cratejoy": {
+    "name": "Cratejoy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Cratejoy is a brand new ecommerce platform with a focus on subscription payments.",
+    "website": "https://www.cratejoy.com",
+    "patterns": {
+      "cookies": [
+        "cratejoy_muffin42: ",
+        "statjoy_metrics: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "DeskPro": {
+    "name": "DeskPro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "DeskPro is multi channel helpdesk software for managing customer and citizen requests via email, forms, chat, social and voice.",
+    "website": "https://www.deskpro.com",
+    "patterns": {
+      "meta": [
+        "generator: ^DeskPRO.+$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 53"
+      ]
+    }
+  },
+  "Django CMS": {
+    "name": "Django CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Django CMS is a free and open source content management system platform for publishing content on the World Wide Web and intranets.",
+    "website": "https://www.django-cms.org",
+    "patterns": {
+      "scriptSrc": [
+        "/djangocms_"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Duopana": {
+    "name": "Duopana",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Duopana is a platform for creating online communities, blogs and managing collaborative content.",
+    "website": "https://duopana.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.beracode\\.com/"
+      ],
+      "html": [
+        "(?:<!-- /*BeraCode script)"
+      ],
+      "scripts": [
+        "\\*berajs.beracode.com\\*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries",
+        "Category 51"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Dynamicweb": {
+    "name": "Dynamicweb",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Dynamicweb is a all-in-one platform for content management, ecommerce, digital marketing​, product information management (PIM) and integration.",
+    "website": "http://www.dynamicweb.dk",
+    "patterns": {
+      "cookies": [
+        "Dynamicweb: "
+      ],
+      "meta": [
+        "generator: Dynamicweb ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "E-monsite": {
+    "name": "E-monsite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "E-monsite is a web-based platform that allows users to create and customise their own websites using a range of templates and features, without requiring coding or technical skills.",
+    "website": "https://www.e-monsite.com",
+    "patterns": {
+      "meta": [
+        "generator: ^e-monsite\\s\\(e-monsite\\.com\\)$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Ebasnet": {
+    "name": "Ebasnet",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Ebasnet is a web project creation and management platform in the cloud. It allows anyone to set up an online store or corporate website without prior IT knowledge.",
+    "website": "https://ebasnet.com",
+    "patterns": {
+      "meta": [
+        "author: ^Ebasnet Web Solutions$"
+      ],
+      "scriptSrc": [
+        "cdnebasnet\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Ektron CMS": {
+    "name": "Ektron CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Ektron CMS is developed on the Microsoft .NET framework and is 100% ASP.NET. In 2015 Ektron merged with EPiServer.",
+    "website": "https://www.optimizely.com/ektron-cms",
+    "patterns": {
+      "scriptSrc": [
+        "/ektron\\.javascript\\.ashx"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Elcom": {
+    "name": "Elcom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "The Elcom Platform is a web content management and intranet portal software written in Microsoft ASP.NET and SQL Server by Elcom Technology.",
+    "website": "https://www.elcom.com.au/",
+    "patterns": {
+      "meta": [
+        "generator: ^elcomCMS"
+      ],
+      "text": [
+        "Web CMS by Elcom"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Enjin CMS": {
+    "name": "Enjin CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Enjin CMS is a content management system which focused creation of websites for gaming guilds, clans, Minecraft servers, or fan communities.",
+    "website": "https://www.enjin.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.enjin\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Essent SiteBuilder Pro": {
+    "name": "Essent SiteBuilder Pro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Essent SiteBuilder Pro is a fully-integrated web-based website design system, content management and ecommerce system.",
+    "website": "https://www.essent.com/SiteBuilderPro.html",
+    "patterns": {
+      "meta": [
+        "GENERATOR: ^Essent® SiteBuilder Pro$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "ExpressionEngine": {
+    "name": "ExpressionEngine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "ExpressionEngine is a free and open-source CMS.",
+    "website": "https://expressionengine.com/",
+    "patterns": {
+      "cookies": [
+        "exp_csrf_token: ",
+        "exp_tracker: ",
+        "exp_last_activity: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Flazio": {
+    "name": "Flazio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Flazio is an Italian website builder.",
+    "website": "https://flazio.com",
+    "patterns": {
+      "scriptSrc": [
+        "//flazio\\.org/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "Fork CMS": {
+    "name": "Fork CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Fork CMS is an open-source content management system.",
+    "website": "http://www.fork-cms.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Fork CMS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Griddo": {
+    "name": "Griddo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Griddo is an Martech Experience Platform for creating custom digital experiences.",
+    "website": "https://griddo.io",
+    "patterns": {
+      "meta": [
+        "generator: ^Griddo$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "HCL Digital Experience": {
+    "name": "HCL Digital Experience",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "HCL Digital Experience software empowers you to create, manage and deliver engaging omni-channel digital experiences to virtually all audiences.",
+    "website": "https://www.hcltechsw.com/dx",
+    "patterns": {
+      "headers": [
+        "IBM-Web2-Location: ",
+        "Itx-Generated-Timestamp: "
+      ],
+      "url": [
+        "/wps/wcm/",
+        "/wps/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hatena Blog": {
+    "name": "Hatena Blog",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Hatena Blog is one of the traditional blog platforms in Japan.",
+    "website": "https://hatenablog.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.blog\\.st-hatena\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ]
+    }
+  },
+  "HubSpot CMS Hub": {
+    "name": "HubSpot CMS Hub",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "CMS Hub is a content management platform by HubSpot for marketers to manage, optimize, and track content performance on websites, blogs, and landing pages.",
+    "website": "https://www.hubspot.com/products/cms",
+    "patterns": {
+      "headers": [
+        "x-hs-hub-id: ",
+        "x-powered-by: HubSpot"
+      ],
+      "meta": [
+        "generator: HubSpot"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Huberway": {
+    "name": "Huberway",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Huberway is a content management system, based on PHP and JavaScript, used to create advanced sales portals oriented towards industrialization 4.0.",
+    "website": "https://www.huberway.com",
+    "patterns": {
+      "cookies": [
+        "huberway_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Ibexa DXP ": {
+    "name": "Ibexa DXP ",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Ibexa DXP is an open-source enterprise PHP content management system (CMS) and Digital Experience Platform (DXP) developed by the company Ibexa (known previously as eZ Systems).",
+    "website": "https://www.ibexa.co",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^Ibexa\\sExperience\\sv([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "imperia CMS": {
+    "name": "imperia CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "imperia CMS is a headless content management for large editorial.",
+    "website": "https://www.pirobase-imperia.com/de/solutions/imperia-cms",
+    "patterns": {
+      "meta": [
+        "generator: ^IMPERIA\\s([\\d\\.\\_]+)\\;version:\\1",
+        "GENERATOR: ^IMPERIA ([0-9.]{2,3})\\;version:\\1",
+        "x-imperia-live-info: ",
+        "X-Imperia-Live-Info: "
+      ],
+      "html": [
+        "<imp:live-info sysid=\"[0-9a-f-]+\"(?: node_id=\"[0-9/]*\")? *\\/>"
+      ],
+      "url": [
+        "imperia/md/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Jimdo": {
+    "name": "Jimdo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Jimdo is a website-builder and all-in-one hosting solution, designed to enable users to build their own websites.",
+    "website": "https://www.jimdo.com",
+    "patterns": {
+      "headers": [
+        "X-Jimdo-Instance: ",
+        "X-Jimdo-Wid: "
+      ],
+      "url": [
+        "\\.jimdo\\.com/",
+        "\\.jimdo(?:site)?\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JouwWeb": {
+    "name": "JouwWeb",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "JouwWeb is an online website builder that allows internet users to create own website.",
+    "website": "https://www.jouwweb.nl",
+    "patterns": {
+      "scriptSrc": [
+        "(?:cdn)?\\.(?:jwwb|jouwweb)\\.nl/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "Kentico CMS": {
+    "name": "Kentico CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Kentico CMS is a web content management system for building websites, online stores, intranets, and Web 2.0 community sites.",
+    "website": "http://www.kentico.com",
+    "patterns": {
+      "cookies": [
+        "CMSPreferredCulture: ",
+        "CMSCookieLevel: "
+      ],
+      "meta": [
+        "generator: Kentico CMS ([\\d.R]+ \\(build [\\d.]+\\))\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/CMSPages/GetResource\\.ashx",
+        "/kentico\\.resource"
+      ],
+      "scripts": [
+        "/CMSPages/GetResource\\.ashx"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kontent.ai": {
+    "name": "Kontent.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Kontent.ai is a SaaS-based modular content platform.",
+    "website": "https://kontent.ai",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.kc-usercontent\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "LGC": {
+    "name": "LGC",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "LGC is a modern CMS designed to improve the management of your website.",
+    "website": "https://luigigabrieleconti.com",
+    "patterns": {
+      "meta": [
+        "generator: ^LGC$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Lede": {
+    "name": "Lede",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Lede is a publishing platform and growth program designed to support journalism startups and news media.",
+    "website": "https://joinlede.com/",
+    "patterns": {
+      "html": [
+        "<a [^>]*href=\"[^\"]+joinlede.com"
+      ],
+      "meta": [
+        "og:image: https?\\:\\/\\/lede-admin"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Liferay": {
+    "name": "Liferay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Liferay is an open-source company that provides free documentation and paid professional service to users of its software.",
+    "website": "https://www.liferay.com/",
+    "patterns": {
+      "headers": [
+        "Liferay-Portal: [a-z\\s]+([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MAAK": {
+    "name": "MAAK",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "MAAK is a Laravel based CMS developed by Mahdi Akbari.",
+    "website": "https://maak-code.ir",
+    "patterns": {
+      "meta": [
+        "author: ^MAAK$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "MGPanel": {
+    "name": "MGPanel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "MGPanel has it all, a content management system that gives programmers the freedom to create professional web pages from scratch, also providing their clients with a self-managing platform.",
+    "website": "https://mgpanel.org",
+    "patterns": {
+      "scriptSrc": [
+        "\\.mgpanel\\.org/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "MODX": {
+    "name": "MODX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "MODX (originally MODx) is an open source content management system and web application framework for publishing content on the World Wide Web and intranets.",
+    "website": "https://modx.com/content-management-framework",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^MODX"
+      ],
+      "html": [
+        "<input[^>]+id=\"ajaxSearch_input\\;confidence:20",
+        "<(?:link|script)[^>]+assets/snippets/\\;confidence:20",
+        "<form[^>]+id=\"ajaxSearch_form\\;confidence:20",
+        "<a[^>]+>Powered by MODX</a>",
+        "<!-- Modx process time debug info -->"
+      ],
+      "meta": [
+        "generator: MODX[^\\d.]*([\\d.]+)?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/assets/components/templates/\\;confidence:50"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Marketpath CMS": {
+    "name": "Marketpath CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Marketpath CMS is a hosted website content management system used by businesses, churches and schools.",
+    "website": "https://www.marketpath.com",
+    "patterns": {
+      "cookies": [
+        "_mp_permissions: ^session\\^"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "MaxenceDEVCMS": {
+    "name": "MaxenceDEVCMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "MaxenceDEVCMS is a simple CMS for ecommerce, esport, landing page.",
+    "website": "https://cms.maxencedev.fr",
+    "patterns": {
+      "meta": [
+        "author: ^MaxenceDEV$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "MemberStack": {
+    "name": "MemberStack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "MemberStack is a no-code membership platform for Webflow.",
+    "website": "https://www.memberstack.io",
+    "patterns": {
+      "cookies": [
+        "memberstack: "
+      ],
+      "url": [
+        "^https?//.+\\.memberstack\\.io"
+      ],
+      "scriptSrc": [
+        "memberstack\\.js"
+      ],
+      "scripts": [
+        "memberstack\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft SharePoint": {
+    "name": "Microsoft SharePoint",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "SharePoint is a cloud-based collaborative platform to manage and share content.",
+    "website": "https://sharepoint.microsoft.com",
+    "patterns": {
+      "headers": [
+        "SPRequestGuid: ",
+        "X-SharePointHealthScore: ",
+        "MicrosoftSharePointTeamServices: ^(.+)$\\;version:\\1",
+        "SharePointHealthScore: "
+      ],
+      "meta": [
+        "generator: Microsoft SharePoint"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Milestone CMS": {
+    "name": "Milestone CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Milestone CMS is a SEO-first CMS that offers built-in advanced schema markups and Core Web Vitals conformance for improved search performance.",
+    "website": "https://www.milestoneinternet.com/products/milestone-cms",
+    "patterns": {
+      "meta": [
+        "generator: ^Milestone\\sCMS\\s([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Mura CMS": {
+    "name": "Mura CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Mura CMS is the cloud-based, API driven, content management platform.",
+    "website": "http://www.getmura.com",
+    "patterns": {
+      "meta": [
+        "generator: Mura CMS ([\\d]+)\\;version:\\1",
+        "generator: Mura\\sCMS\\s([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NexusPHP": {
+    "name": "NexusPHP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "NexusPHP is an open-sourced private tracker script written in PHP.",
+    "website": "https://nexusphp.org",
+    "patterns": {
+      "meta": [
+        "generator: ^NexusPHP$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Nukeviet CMS": {
+    "name": "Nukeviet CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "NukeViet CMS is a Vietnamese content management system.",
+    "website": "https://nukeviet.vn/en/",
+    "patterns": {
+      "meta": [
+        "generator: NukeViet v([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "October CMS": {
+    "name": "October CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "October is a free, open-source, self-hosted CMS platform based on the Laravel PHP Framework.",
+    "website": "http://octobercms.com",
+    "patterns": {
+      "cookies": [
+        "october_session: "
+      ],
+      "meta": [
+        "generator: OctoberCMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Odoo": {
+    "name": "Odoo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Odoo is business management software which includes CRM, ecommerce, billing, accounting, manufacturing, warehouse, project management, and inventory management.",
+    "website": "http://odoo.com",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=[^>]+/web/css/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25"
+      ],
+      "meta": [
+        "generator: Odoo"
+      ],
+      "scriptSrc": [
+        "/web/js/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25"
+      ],
+      "scripts": [
+        "/web/js/(?:web\\.assets_common/|website\\.assets_frontend/)\\;confidence:25"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenElement": {
+    "name": "OpenElement",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "OpenElement is a free website building application with a WYSIWYG interface.",
+    "website": "http://openelement.uk",
+    "patterns": {
+      "meta": [
+        "generator: openElement\\s\\(([\\d\\.]+)\\)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Optimizely Content Management": {
+    "name": "Optimizely Content Management",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Optimizely Content Management (formerly EPiServer) is digital content, ecommerce, and marketing management solution designed for editors and marketers.",
+    "website": "https://www.optimizely.com/products/content/",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.episerver\\.net"
+      ],
+      "cookies": [
+        "EPi:StateMarker: ",
+        "EPiServer: ",
+        "EPiSessionId: ",
+        "EPiTrace: "
+      ],
+      "meta": [
+        "generator: EPiServer"
+      ],
+      "scriptSrc": [
+        "\\.episerver.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Orchard Core": {
+    "name": "Orchard Core",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Orchard Core is an open-source modular and multi-tenant application framework built with ASP.NET Core, and a content management system (CMS).",
+    "website": "https://orchardcore.net",
+    "patterns": {
+      "headers": [
+        "x-generator: ^Orchard$",
+        "x-powered-by: OrchardCore"
+      ],
+      "meta": [
+        "generator: Orchard"
+      ],
+      "scriptSrc": [
+        "/OrchardCore\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "onpublix": {
+    "name": "onpublix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "onpublix is a web content management system (CMS) platform for eBusinesses.",
+    "website": "https://www.onpublix.de",
+    "patterns": {
+      "meta": [
+        "generator: ^onpublix\\s([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Pagefai CMS": {
+    "name": "Pagefai CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Pagefai is a cloud-based platform that offers software-as-a-service solutions to businesses, including the Pagefai CMS which provides ecommerce functionality and other business tools.",
+    "website": "https://www.pagefai.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: PAGEFAI CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Paymenter": {
+    "name": "Paymenter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Paymenter is an open-source webshop solution for hosting companies.",
+    "website": "https://paymenter.org",
+    "patterns": {
+      "cookies": [
+        "paymenter_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "Phoenix Site": {
+    "name": "Phoenix Site",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Phoenix Site software has been developed by the Internet Marketing Union and is especially intended for entrepreneurs (without technical knowledge) who want to score better in Google (SEO) and get more leads and customers (conversion) from their website.",
+    "website": "https://phoenixsite.nl",
+    "patterns": {
+      "cookies": [
+        "phoenix_p_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "PhotoShelter": {
+    "name": "PhotoShelter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "PhotoShelter is a cloud storage service that doubles as a website and ecommerce platform for photographers.",
+    "website": "https://www.photoshelter.com",
+    "patterns": {
+      "url": [
+        "photoshelter\\.com"
+      ],
+      "scriptSrc": [
+        "\\.psecn\\.photoshelter\\.com/"
+      ],
+      "html": [
+        "<!--\\s+#+ Powered by the PhotoShelter Beam platform",
+        "<link[^>]+c\\.photoshelter\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pimcore": {
+    "name": "Pimcore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Pimcore is an open-source digital platform that aggregates, enriches, and manages enterprise data and provides up-to-date, consistent, and personalised experiences to customers.",
+    "website": "https://pimcore.com/en/digital-experience-platform",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^pimcore$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pixieset Website": {
+    "name": "Pixieset Website",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Pixieset Website is a space to create your own beautiful photography website.",
+    "website": "https://pixieset.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Pixieset$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "Plone": {
+    "name": "Plone",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Plone is a free and open source content management system (CMS) built on top of the Zope application server.",
+    "website": "https://plone.org/",
+    "patterns": {
+      "meta": [
+        "generator: Plone"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Popmenu": {
+    "name": "Popmenu",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Popmenu is a restaurant platform which offers CMS, online menus, ordering and delivery and marketing automation solutions.",
+    "website": "https://get.popmenu.com",
+    "patterns": {
+      "cookies": [
+        "Popmenu-Token: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 93"
+      ]
+    }
+  },
+  "ProcessWire": {
+    "name": "ProcessWire",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "ProcessWire is an open source content management system (CMS) and framework (CMF).",
+    "website": "https://processwire.com/",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ProcessWire CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "phpRS": {
+    "name": "phpRS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "phpRS is a content management software written in PHP.",
+    "website": "https://phprs.net",
+    "patterns": {
+      "meta": [
+        "generator: ^phpRS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Quintype": {
+    "name": "Quintype",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Quintype is a digital publishing platform that provides content management, audience engagement, and monetisation solutions for digital media organisations.",
+    "website": "https://www.quintype.com",
+    "patterns": {
+      "headers": [
+        "link: fea\\.assettype\\.com/quintype-ace"
+      ],
+      "cookies": [
+        "qtype-session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "REDAXO": {
+    "name": "REDAXO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "REDAXO is a content management system that provides business optimisation through web projects and output codes.",
+    "website": "https://redaxo.org",
+    "patterns": {
+      "url": [
+        "^https?://(?:www\\.)?[\\d\\w\\-]+\\.[\\w]+/redaxo/\\;confidence:50"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Reactive": {
+    "name": "Reactive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Reactive is a subscription-based software that allows you to set up an online store and website. It has a CMS and has been created to support retail, coffee bars, restaurants owners and accomodation properties such as hotels or villas. With Reactive one can sell products or accept reservations and online orders.",
+    "website": "https://reactiveonline.io",
+    "patterns": {
+      "url": [
+        "^https?//.+\\.reactiveonline\\.io"
+      ],
+      "meta": [
+        "generator: Reactive"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "RockRMS": {
+    "name": "RockRMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Rock RMS is a free, open-source Relationship Management System (RMS) built for churches and businesses.",
+    "website": "http://www.rockrms.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Rock v([0-9.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries",
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SPIP": {
+    "name": "SPIP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "SPIP is a content management system written in PHP that uses one or more databases like SQL, SQLite or PostgreSQL.",
+    "website": "http://www.spip.net",
+    "patterns": {
+      "headers": [
+        "X-Spip-Cache: ",
+        "Composed-By: SPIP ([\\d.]+) @\\;version:\\1"
+      ],
+      "meta": [
+        "generator: (?:^|\\s)SPIP(?:\\s([\\d.]+(?:\\s\\[\\d+\\])?))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sapren": {
+    "name": "Sapren",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sapren is a CMS produced by PHP, Laravel framework and MySQL.",
+    "website": "https://www.sapren.net",
+    "patterns": {
+      "meta": [
+        "generator: ^Saprenco.com Website Builder$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Scorpion": {
+    "name": "Scorpion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Scorpion is a marketing and technology provider.",
+    "website": "https://www.scorpion.co/",
+    "patterns": {
+      "html": [
+        "<[^>]+id=\"HSScorpion"
+      ],
+      "scriptSrc": [
+        "cdn.cxc.scorpion.direct"
+      ],
+      "scripts": [
+        "cdn.cxc.scorpion.direct"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Scrivito": {
+    "name": "Scrivito",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Scrivito is a decoupled/headless enterprise web CMS.",
+    "website": "https://www.scrivito.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Scrivito\\sby\\sInfopark\\sAG\\s\\(scrivito\\.com\\)$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Shift4Shop": {
+    "name": "Shift4Shop",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Shift4Shop, formerly known as 3Dcart, is an ecommerce software provider for online businesses.",
+    "website": "https://www.shift4shop.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: 3DCART"
+      ],
+      "cookies": [
+        "3dvisit: "
+      ],
+      "scriptSrc": [
+        "(?:twlh(?:track)?\\.asp|3d_upsell\\.js)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "Shuttle": {
+    "name": "Shuttle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Shuttle is a website development platform.",
+    "website": "https://www.devisto.com",
+    "patterns": {
+      "scriptSrc": [
+        "shuttle(?:-assets-new|-storage)\\.s3\\.amazonaws\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "SilverStripe": {
+    "name": "SilverStripe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Silverstripe CMS is a free and open source Content Management System and Framework for creating and maintaining websites and web applications.",
+    "website": "https://www.silverstripe.org/",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"[^>]+SilverStripe"
+      ],
+      "meta": [
+        "generator: ^SilverStripe"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SiteManager": {
+    "name": "SiteManager",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "SiteManager is a collaborative no-code/low-code web design platform for agencies and marketing teams.",
+    "website": "https://www.sitemanager.io",
+    "patterns": {
+      "scriptSrc": [
+        "s\\d+\\.sitemn\\.gr/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Sitecore": {
+    "name": "Sitecore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sitecore provides web content management, and multichannel marketing automation software.",
+    "website": "https://www.sitecore.com/",
+    "patterns": {
+      "cookies": [
+        "SC_OS_SessionId: ",
+        "sxa_site: ",
+        "SC_ANALYTICS_GLOBAL_COOKIE: ",
+        "sc_expview: "
+      ],
+      "html": [
+        "<img[^>]+src=\"[^>]*/~/media/[^>]+\\.ashx"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sitefinity": {
+    "name": "Sitefinity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sitefinity is a content management system (CMS) that you use to create, store, manage, and present content on your website.",
+    "website": "http://www.sitefinity.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Sitefinity\\s([\\S]{3,9})\\;version:\\1",
+        "generator: ^Sitefinity (.+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Siteglide": {
+    "name": "Siteglide",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "SiteGlide is a Digital Experience Platform (DEP) for ecommerce stores, membership sites and customer portals.",
+    "website": "https://www.siteglide.com",
+    "patterns": {
+      "scriptSrc": [
+        "siteglide\\.js"
+      ],
+      "scripts": [
+        "siteglide\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 53"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sitepark IES": {
+    "name": "Sitepark IES",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sitepark IES is a content management system written in PHP and paired with a MySQL database.",
+    "website": "https://www.sitepark.com/oeffentlicher-sektor/produkte/cms-technologie.php",
+    "patterns": {
+      "meta": [
+        "generator: ^Sitepark\\sInformation\\sEnterprise\\sServer\\s-\\sIES\\sGenerator\\sv([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Sitepark InfoSite": {
+    "name": "Sitepark InfoSite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sitepark InfoSite is a content management system and complete application of Sitepark IES which written in PHP and paired with a MySQL database.",
+    "website": "https://www.sitepark.com/mittelstand/content-management-system/index.php",
+    "patterns": {
+      "meta": [
+        "generator: ^InfoSite\\s([\\d\\.]+)\\s-\\sSitepark\\sInformation\\sEnterprise\\sServer$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Sitevision CMS": {
+    "name": "Sitevision CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sitevision CMS is a platform for web publishing that consists of flexible and pre-made modules. Available as self-hosed software and Cloud SaaS.",
+    "website": "https://www.sitevision.se",
+    "patterns": {
+      "cookies": [
+        "SiteVisionLTM: "
+      ],
+      "scriptSrc": [
+        "sitevision/system-resource/(?:[\\w\\d]+)/js/docready-min\\.js\\;confidence:25",
+        "sitevision/system-resource/(?:[\\w\\d]+)/js/AppRegistry\\.js\\;confidence:25",
+        "sitevision/system-resource/(?:[\\w\\d]+)/webapps/webapp_sdk-min\\.js\\;confidence:50",
+        "sitevision/system-resource/(?:[\\w\\d]+)/envision/envision\\.js\\;confidence:50"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Skilldo": {
+    "name": "Skilldo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Skilldo is a content management system written in PHP and paired with a MySQL or MariaDB database.",
+    "website": "https://developers.sikido.vn/docs/cms/",
+    "patterns": {
+      "headers": [
+        "cms-name: ^Skilldo$",
+        "cms-version: ([\\d\\.]+)\\;version:\\1\\;confidence:0"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "SolidPixels": {
+    "name": "SolidPixels",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Solidpixels is platform to build websites.",
+    "website": "https://www.solidpixels.net",
+    "patterns": {
+      "meta": [
+        "web_author: ^solidpixels"
+      ],
+      "scriptSrc": [
+        "^https?://cdn\\.solidpixels\\.net/"
+      ],
+      "scripts": [
+        "^https?://cdn\\.solidpixels\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers",
+        "Analytics"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Squiz Matrix": {
+    "name": "Squiz Matrix",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "A flexible, low-code enterprise content management system designed to manage multiple sites with many editors.",
+    "website": "https://www.squiz.net/matrix",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Squiz Matrix"
+      ],
+      "html": [
+        "<!--\\s+Running (?:MySource|Squiz) Matrix"
+      ],
+      "meta": [
+        "generator: Squiz Matrix"
+      ],
+      "scriptSrc": [
+        "/__data/assets/(js_file_folder|git_bridge|js_file)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Statamic": {
+    "name": "Statamic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Statamic is an open-source and self-hosted content management system based on the PHP programming language.",
+    "website": "https://statamic.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^Statamic$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Strato Website": {
+    "name": "Strato Website",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Strato Website is a website builder by Strato hosting provider.",
+    "website": "https://www.strato.de/homepage-baukasten",
+    "patterns": {
+      "scriptSrc": [
+        "strato-editor\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Sulu": {
+    "name": "Sulu",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Sulu is the go-to CMS for back-end projects written within the PHP Symfony framework.",
+    "website": "http://sulu.io",
+    "patterns": {
+      "headers": [
+        "X-Generator: Sulu/?(.+)?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TN Express Web": {
+    "name": "TN Express Web",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Tessitura is an enterprise application to manage activities in ticketing, fundraising, customer relationship management, and marketing.",
+    "website": "https://www.tessituranetwork.com",
+    "patterns": {
+      "cookies": [
+        "TNEW: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TYPO3 CMS": {
+    "name": "TYPO3 CMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
+    "website": "https://typo3.org/",
+    "patterns": {
+      "html": [
+        "<img[^>]+ src=\"/?typo3(?:conf|temp)/",
+        "<link[^>]+ href=\"/?typo3(?:conf|temp)/",
+        "<!--\n\tThis website is powered by TYPO3"
+      ],
+      "url": [
+        "/typo3/"
+      ],
+      "meta": [
+        "generator: TYPO3\\s+(?:CMS\\s+)?(?:[\\d.]+)?(?:\\s+CMS)?"
+      ],
+      "scriptSrc": [
+        "^/?typo3(?:conf|temp)/"
+      ],
+      "scripts": [
+        "^/?typo3(?:conf|temp)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TiddlyWiki": {
+    "name": "TiddlyWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "TiddlyWiki is an open-source notebook for capturing, organising and sharing complex information.",
+    "website": "http://tiddlywiki.com",
+    "patterns": {
+      "html": [
+        "<[^>]*type=[^>]text\\/vnd\\.tiddlywiki"
+      ],
+      "meta": [
+        "copyright: ^TiddlyWiki created by Jeremy Ruston",
+        "generator: ^TiddlyWiki$",
+        "tiddlywiki-version: ^(.+)$\\;version:\\1",
+        "application-name: ^TiddlyWiki$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Frameworks",
+        "Analytics",
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tiki Wiki CMS Groupware": {
+    "name": "Tiki Wiki CMS Groupware",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Tiki Wiki is a free and open-source wiki-based content management system and online office suite written primarily in PHP.",
+    "website": "http://tiki.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Tiki"
+      ],
+      "scriptSrc": [
+        "(?:/|_)tiki"
+      ],
+      "scripts": [
+        "(?:/|_)tiki"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Frameworks",
+        "Operating Systems",
+        "JavaScript Libraries",
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Tilda": {
+    "name": "Tilda",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Tilda is a web design tool.",
+    "website": "https://tilda.cc",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=[^>]+tilda(?:cdn|\\.ws|-blocks)"
+      ],
+      "scriptSrc": [
+        "tilda(?:cdn|\\.ws|-blocks)"
+      ],
+      "scripts": [
+        "tilda(?:cdn|\\.ws|-blocks)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TownNews": {
+    "name": "TownNews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "TownNews is a CMS platform built for local media organizations.",
+    "website": "https://townnews.com/",
+    "patterns": {
+      "headers": [
+        "x-tncms: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Umbraco": {
+    "name": "Umbraco",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Umbraco is an open-source Microsoft ASP.NET based content management system.",
+    "website": "https://umbraco.com/",
+    "patterns": {
+      "headers": [
+        "X-Umbraco-Version: ^(.+)$\\;version:\\1"
+      ],
+      "scripts": [
+        "/Umbraco/Api/"
+      ],
+      "url": [
+        "/umbraco/login\\.aspx(?:$|\\?)"
+      ],
+      "meta": [
+        "generator: umbraco"
+      ],
+      "html": [
+        "powered by <a href=[^>]+umbraco"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ushahidi": {
+    "name": "Ushahidi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Ushahidi is a tool that collects crowdsourced data and targeted survey responses from multiple data sources.",
+    "website": "http://www.ushahidi.com",
+    "patterns": {
+      "cookies": [
+        "ushahidi: "
+      ],
+      "scriptSrc": [
+        "/js/ushahidi\\.js$"
+      ],
+      "scripts": [
+        "/js/ushahidi\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Hosting/PAAS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebNode": {
+    "name": "WebNode",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Webnode is a drag-and-drop online website builder.",
+    "website": "https://www.webnode.com",
+    "patterns": {
+      "cookies": [
+        "_gat_wnd_header: "
+      ],
+      "meta": [
+        "generator: ^Webnode(?:\\s([\\d.]+))?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "WebZi": {
+    "name": "WebZi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "WebZi is a professional website builder.",
+    "website": "https://webzi.ir",
+    "patterns": {
+      "meta": [
+        "generator: ^Webzi\\.ir\\sWebsite\\sBuilder$"
+      ],
+      "scriptSrc": [
+        "//webzi\\.ir/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "Weblication": {
+    "name": "Weblication",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Weblication is an enterprise-class website content management system developed by Scholl Communications AG in Germany.",
+    "website": "https://weblication.de",
+    "patterns": {
+      "meta": [
+        "generator: ^Weblication® CMS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Weblium": {
+    "name": "Weblium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Weblium let's you create a web site or online store without the need for a web developer or designer.",
+    "website": "https://weblium.com",
+    "patterns": {
+      "url": [
+        "\\.weblium\\.site"
+      ],
+      "scriptSrc": [
+        "res2\\.weblium\\.site/common/core\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "Webzie": {
+    "name": "Webzie",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Webzie is a website builder optimised for performance.",
+    "website": "https://www.webzie.com/",
+    "patterns": {
+      "meta": [
+        "generator: ^Webzie\\.com\\sWebsite\\sBuilder$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers",
+        "Category 51"
+      ]
+    }
+  },
+  "Weebly": {
+    "name": "Weebly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "CMS",
+    "description": "Weebly is a website and ecommerce service.",
+    "website": "https://www.weebly.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\d+\\.editmysite\\.com"
+      ],
+      "scripts": [
+        "cdn\\d+\\.editmysite\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ametys": {
+    "name": "Ametys",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://ametys.org",
+    "patterns": {
+      "meta": [
+        "generator: (?:Ametys|Anyware Technologies)"
+      ],
+      "scriptSrc": [
+        "ametys\\.js"
+      ],
+      "scripts": [
+        "ametys\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "a-blog cms": {
+    "name": "a-blog cms",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.a-blogcms.jp",
+    "patterns": {
+      "meta": [
+        "generator: a-blog cms"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BOOM": {
+    "name": "BOOM",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://manaandisheh.com",
+    "patterns": {
+      "headers": [
+        "X-Supplied-By: MANA"
+      ],
+      "meta": [
+        "generator: ^boom site builder$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Backdrop": {
+    "name": "Backdrop",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://backdropcms.org",
+    "patterns": {
+      "headers": [
+        "X-Generator: ^Backdrop CMS(?:\\s([\\d.]+))?\\;version:\\1",
+        "X-Backdrop-Cache: "
+      ],
+      "meta": [
+        "generator: ^Backdrop CMS(?:\\s([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bloomreach": {
+    "name": "Bloomreach",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://developers.bloomreach.com",
+    "patterns": {
+      "html": [
+        "<[^>]+/binaries/(?:[^/]+/)*content/gallery/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bolt CMS": {
+    "name": "Bolt CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://bolt.cm",
+    "patterns": {
+      "meta": [
+        "generator: Bolt"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Botble CMS": {
+    "name": "Botble CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://botble.com",
+    "patterns": {
+      "headers": [
+        "CMS-Version: ^(.+)$\\;version:\\1\\;confidence:0"
+      ],
+      "cookies": [
+        "botble_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Brightspot": {
+    "name": "Brightspot",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.brightspot.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Brightspot$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "BrowserCMS": {
+    "name": "BrowserCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://browsercms.org",
+    "patterns": {
+      "meta": [
+        "generator: BrowserCMS ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Business Catalyst": {
+    "name": "Business Catalyst",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://businesscatalyst.com",
+    "patterns": {
+      "html": [
+        "<!-- BC_OBNW -->"
+      ],
+      "scriptSrc": [
+        "CatalystScripts"
+      ],
+      "scripts": [
+        "CatalystScripts"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Business Website Builder": {
+    "name": "Business Website Builder",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://businesswebsites.google.com/welcome",
+    "patterns": {
+      "url": [
+        "https?://[^.]+\\.business\\.page"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "CMS Made Simple": {
+    "name": "CMS Made Simple",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://cmsmadesimple.org",
+    "patterns": {
+      "cookies": [
+        "CMSSESSID: "
+      ],
+      "meta": [
+        "generator: CMS Made Simple"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CMSimple": {
+    "name": "CMSimple",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.cmsimple.org/en",
+    "patterns": {
+      "meta": [
+        "generator: CMSimple( [\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CPG Dragonfly": {
+    "name": "CPG Dragonfly",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://dragonflycms.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Dragonfly CMS"
+      ],
+      "meta": [
+        "generator: CPG Dragonfly"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Ckan": {
+    "name": "Ckan",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://ckan.org/",
+    "patterns": {
+      "headers": [
+        "Access-Control-Allow-Headers: X-CKAN-API-KEY",
+        "Link: <http://ckan\\.org/>; rel=shortlink"
+      ],
+      "meta": [
+        "generator: ^ckan ?([0-9.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Coaster CMS": {
+    "name": "Coaster CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.coastercms.org",
+    "patterns": {
+      "meta": [
+        "generator: ^Coaster CMS v([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Concrete CMS": {
+    "name": "Concrete CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.concretecms.com/",
+    "patterns": {
+      "cookies": [
+        "CONCRETE5: "
+      ],
+      "meta": [
+        "generator: ^concrete5(?: - ([\\d.]+)$)?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/concrete/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Contenido": {
+    "name": "Contenido",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://contenido.org/en",
+    "patterns": {
+      "meta": [
+        "generator: Contenido ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Contensis": {
+    "name": "Contensis",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://zengenti.com/en-gb/products/contensis",
+    "patterns": {
+      "meta": [
+        "generator: Contensis CMS Version ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ContentBox": {
+    "name": "ContentBox",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.gocontentbox.org",
+    "patterns": {
+      "meta": [
+        "generator: ContentBox powered by ColdBox"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Cotonti": {
+    "name": "Cotonti",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.cotonti.com",
+    "patterns": {
+      "meta": [
+        "generator: Cotonti"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CppCMS": {
+    "name": "CppCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://cppcms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^CppCMS/([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DM Polopoly": {
+    "name": "DM Polopoly",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.atex.com/products/dm-polopoly",
+    "patterns": {
+      "html": [
+        "<(?:link [^>]*href|img [^>]*src)=\"/polopoly_fs/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DNN": {
+    "name": "DNN",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.dnnsoftware.com/",
+    "patterns": {
+      "headers": [
+        "DNNOutputCache: ",
+        "Cookie: dnn_IsMobile=",
+        "X-Compressed-By: DotNetNuke"
+      ],
+      "cookies": [
+        "DotNetNukeAnonymous: "
+      ],
+      "html": [
+        "<!-- DNN Platform",
+        "<!-- by DotNetNuke Corporation"
+      ],
+      "meta": [
+        "generator: DotNetNuke"
+      ],
+      "scriptSrc": [
+        "/js/dnncore\\.js",
+        "/js/dnn\\.js"
+      ],
+      "scripts": [
+        "/js/dnncore\\.js",
+        "/js/dnn\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Danneo CMS": {
+    "name": "Danneo CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://danneo.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: CMS Danneo ([\\d.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Danneo CMS ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DataLife Engine": {
+    "name": "DataLife Engine",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://dle-news.ru",
+    "patterns": {
+      "meta": [
+        "generator: DataLife Engine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DedeCMS": {
+    "name": "DedeCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://dedecms.com",
+    "patterns": {
+      "scriptSrc": [
+        "dedeajax"
+      ],
+      "scripts": [
+        "dedeajax"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Dotclear": {
+    "name": "Dotclear",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://dotclear.org",
+    "patterns": {
+      "headers": [
+        "X-Dotclear-Static-Cache: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Duda": {
+    "name": "Duda",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.duda.co/website-builder",
+    "patterns": {
+      "html": [
+        "<div[^>]*id=\"P6iryBW0Wu\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Eleanor CMS": {
+    "name": "Eleanor CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://eleanor-cms.ru",
+    "patterns": {
+      "meta": [
+        "generator: Eleanor"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "e107": {
+    "name": "e107",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://e107.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: e107"
+      ],
+      "cookies": [
+        "e107_tz: "
+      ],
+      "scriptSrc": [
+        "[^a-z\\d]e107\\.js"
+      ],
+      "scripts": [
+        "[^a-z\\d]e107\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "eSyndiCat": {
+    "name": "eSyndiCat",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://esyndicat.com",
+    "patterns": {
+      "headers": [
+        "X-Drectory-Script: ^eSyndiCat"
+      ],
+      "meta": [
+        "generator: ^eSyndiCat "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "eZ Platform": {
+    "name": "eZ Platform",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://ezplatform.com/",
+    "patterns": {
+      "meta": [
+        "generator: eZ Platform"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "eZ Publish": {
+    "name": "eZ Publish",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://github.com/ezsystems/ezpublish-legacy",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^eZ Publish"
+      ],
+      "cookies": [
+        "eZSESSID: "
+      ],
+      "meta": [
+        "generator: eZ Publish"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "enduro.js": {
+    "name": "enduro.js",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://endurojs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^enduro\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "experiencedCMS": {
+    "name": "experiencedCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://experiencedcms.berkearas.de",
+    "patterns": {
+      "meta": [
+        "generator: ^experiencedCMS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FaraPy": {
+    "name": "FaraPy",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://faral.tech",
+    "patterns": {
+      "html": [
+        "<!-- Powered by FaraPy."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "FlexCMP": {
+    "name": "FlexCMP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.flexcmp.com/cms/home",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: FlexCMP.+\\[v\\. ([\\d.]+)\\;version:\\1",
+        "X-Flex-Lang: "
+      ],
+      "html": [
+        "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: ^FlexCMP"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GX WebManager": {
+    "name": "GX WebManager",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.gxsoftware.com/en/products/web-content-management.htm",
+    "patterns": {
+      "html": [
+        "<!--\\s+Powered by GX"
+      ],
+      "meta": [
+        "generator: GX WebManager(?: ([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GetSimple CMS": {
+    "name": "GetSimple CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://get-simple.info",
+    "patterns": {
+      "meta": [
+        "generator: GetSimple"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GoDaddy Website Builder": {
+    "name": "GoDaddy Website Builder",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.godaddy.com/websites/website-builder",
+    "patterns": {
+      "cookies": [
+        "dps_site_id: "
+      ],
+      "meta": [
+        "generator: Go Daddy Website Builder (.+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google My Business": {
+    "name": "Google My Business",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.google.com/business/website-builder",
+    "patterns": {
+      "url": [
+        "https?://[^.]+\\.business\\.site"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Google Sites": {
+    "name": "Google Sites",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://sites.google.com",
+    "patterns": {
+      "url": [
+        "^https?://sites\\.google\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Graffiti CMS": {
+    "name": "Graffiti CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://graffiticms.codeplex.com",
+    "patterns": {
+      "cookies": [
+        "graffitibot: "
+      ],
+      "meta": [
+        "generator: Graffiti CMS ([^\"]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/graffiti\\.js"
+      ],
+      "scripts": [
+        "/graffiti\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Grav": {
+    "name": "Grav",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://getgrav.org",
+    "patterns": {
+      "meta": [
+        "generator: GravCMS(?:\\s([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Green Valley CMS": {
+    "name": "Green Valley CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.greenvalley.nl/Public/Producten/Content_Management/CMS",
+    "patterns": {
+      "html": [
+        "<img[^>]+/dsresource\\?objectid="
+      ],
+      "meta": [
+        "DC.identifier: /content\\.jsp\\?objectid="
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "govCMS": {
+    "name": "govCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.govcms.gov.au",
+    "patterns": {
+      "meta": [
+        "generator: Drupal ([\\d]+) \\(http:\\/\\/drupal\\.org\\) \\+ govCMS\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Halo": {
+    "name": "Halo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://halo.run",
+    "patterns": {
+      "meta": [
+        "generator: Halo ([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hinza Advanced CMS": {
+    "name": "Hinza Advanced CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://hinzaco.com",
+    "patterns": {
+      "meta": [
+        "generator: hinzacms"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Hotaru CMS": {
+    "name": "Hotaru CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://hotarucms.org",
+    "patterns": {
+      "cookies": [
+        "hotaru_mobile: "
+      ],
+      "meta": [
+        "generator: Hotaru CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ImpressCMS": {
+    "name": "ImpressCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.impresscms.org",
+    "patterns": {
+      "cookies": [
+        "ImpressCMS: ",
+        "ICMSSession: "
+      ],
+      "meta": [
+        "generator: ImpressCMS"
+      ],
+      "scriptSrc": [
+        "include/linkexternal\\.js"
+      ],
+      "scripts": [
+        "include/linkexternal\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ImpressPages": {
+    "name": "ImpressPages",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://impresspages.org",
+    "patterns": {
+      "meta": [
+        "generator: ImpressPages(?: CMS)?( [\\d.]*)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Indexhibit": {
+    "name": "Indexhibit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.indexhibit.org",
+    "patterns": {
+      "html": [
+        "<(?:link|a href) [^>]+ndxz-studio"
+      ],
+      "meta": [
+        "generator: Indexhibit"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Indico": {
+    "name": "Indico",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://indico-software.org",
+    "patterns": {
+      "cookies": [
+        "MAKACSESSION: "
+      ],
+      "html": [
+        "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "InstantCMS": {
+    "name": "InstantCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.instantcms.ru",
+    "patterns": {
+      "cookies": [
+        "InstantCMS[logdate]: "
+      ],
+      "meta": [
+        "generator: InstantCMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "iEXExchanger": {
+    "name": "iEXExchanger",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://exchanger.iexbase.com",
+    "patterns": {
+      "cookies": [
+        "iexexchanger_session: "
+      ],
+      "meta": [
+        "generator: iEXExchanger"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Jahia DX": {
+    "name": "Jahia DX",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.jahia.com/dx",
+    "patterns": {
+      "html": [
+        "<script id=\"staticAssetAggregatedJavascrip"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Jalios": {
+    "name": "Jalios",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.jalios.com",
+    "patterns": {
+      "meta": [
+        "generator: Jalios"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Koala Framework": {
+    "name": "Koala Framework",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://koala-framework.org",
+    "patterns": {
+      "html": [
+        "<!--[^>]+This website is powered by Koala Web Framework CMS"
+      ],
+      "meta": [
+        "generator: ^Koala Web Framework CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Widgets"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Koken": {
+    "name": "Koken",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://koken.me",
+    "patterns": {
+      "cookies": [
+        "koken_referrer: "
+      ],
+      "html": [
+        "<!--\\s+KOKEN DEBUGGING",
+        "<html lang=\"en\" class=\"k-source-essays k-lens-essays\">"
+      ],
+      "meta": [
+        "generator: Koken ([\\d.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "koken(?:\\.js\\?([\\d.]+)|/storage)\\;version:\\1"
+      ],
+      "scripts": [
+        "koken(?:\\.js\\?([\\d.]+)|/storage)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Komodo CMS": {
+    "name": "Komodo CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.komodocms.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Komodo CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Koobi": {
+    "name": "Koobi",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://dream4.de/cms",
+    "patterns": {
+      "html": [
+        "<!--[^K>-]+Koobi ([a-z\\d.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Koobi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kooboo CMS": {
+    "name": "Kooboo CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://kooboo.com",
+    "patterns": {
+      "headers": [
+        "X-KoobooCMS-Version: ^(.+)$\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/Kooboo"
+      ],
+      "scripts": [
+        "/Kooboo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kotisivukone": {
+    "name": "Kotisivukone",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.kotisivukone.fi",
+    "patterns": {
+      "scriptSrc": [
+        "kotisivukone(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "kotisivukone(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LEPTON": {
+    "name": "LEPTON",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.lepton-cms.org",
+    "patterns": {
+      "meta": [
+        "generator: LEPTON"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LightMon Engine": {
+    "name": "LightMon Engine",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://lightmon.ru",
+    "patterns": {
+      "cookies": [
+        "lm_online: "
+      ],
+      "html": [
+        "<!-- Lightmon Engine Copyright Lightmon"
+      ],
+      "meta": [
+        "generator: LightMon Engine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Lithium": {
+    "name": "Lithium",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.lithium.com",
+    "patterns": {
+      "cookies": [
+        "LithiumVisitor: "
+      ],
+      "html": [
+        " <a [^>]+Powered by Lithium"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LiveStreet CMS": {
+    "name": "LiveStreet CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://livestreetcms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: LiveStreet CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "LocomotiveCMS": {
+    "name": "LocomotiveCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.locomotivecms.com",
+    "patterns": {
+      "html": [
+        "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mambo": {
+    "name": "Mambo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://mambo-foundation.org",
+    "patterns": {
+      "meta": [
+        "generator: Mambo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MaxSite CMS": {
+    "name": "MaxSite CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://max-3000.com",
+    "patterns": {
+      "meta": [
+        "generator: MaxSite CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Melis Platform": {
+    "name": "Melis Platform",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.melistechnology.com/",
+    "patterns": {
+      "html": [
+        "<!-- Rendered with Melis CMS V2",
+        "<!-- Rendered with Melis Platform"
+      ],
+      "meta": [
+        "powered-by: ^Melis CMS\\.",
+        "generator: ^Melis Platform\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers",
+        "JavaScript Libraries",
+        "DevOps/CI"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Methode": {
+    "name": "Methode",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.eidosmedia.com/",
+    "patterns": {
+      "html": [
+        "<!-- Methode uuid: \"[a-f\\d]+\" ?-->"
+      ],
+      "meta": [
+        "eomportal-lastUpdate: ",
+        "eomportal-instanceid: \\d+",
+        "eomportal-loid: [\\d.]+",
+        "eomportal-uuid: [a-f\\d]+",
+        "eomportal-id: \\d+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Moguta.CMS": {
+    "name": "Moguta.CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://moguta.ru",
+    "patterns": {
+      "html": [
+        "<link[^>]+href=[\"'][^\"]+mg-(?:core|plugins|templates)/"
+      ],
+      "scriptSrc": [
+        "mg-(?:core|plugins|templates)/"
+      ],
+      "scripts": [
+        "mg-(?:core|plugins|templates)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mono.net": {
+    "name": "Mono.net",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.mono.net/en",
+    "patterns": {
+      "scriptSrc": [
+        "monotracker(?:\\.min)?\\.js"
+      ],
+      "scripts": [
+        "monotracker(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MotoCMS": {
+    "name": "MotoCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://motocms.com",
+    "patterns": {
+      "html": [
+        "<link [^>]*href=\"[^>]*\\/mt-content\\/[^>]*\\.css"
+      ],
+      "scriptSrc": [
+        "/mt-includes/js/website(?:assets)?\\.(?:min)?\\.js"
+      ],
+      "scripts": [
+        "/mt-includes/js/website(?:assets)?\\.(?:min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Movable Type": {
+    "name": "Movable Type",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://movabletype.org",
+    "patterns": {
+      "meta": [
+        "generator: Movable Type"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mozard Suite": {
+    "name": "Mozard Suite",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://mozard.nl",
+    "patterns": {
+      "url": [
+        "/mozard/!suite"
+      ],
+      "meta": [
+        "author: Mozard"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mynetcap": {
+    "name": "Mynetcap",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.netcap-creation.fr",
+    "patterns": {
+      "meta": [
+        "generator: Mynetcap"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Neos CMS": {
+    "name": "Neos CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://neos.io",
+    "patterns": {
+      "headers": [
+        "X-Flow-Powered: Neos/?(.+)?$\\;version:\\1"
+      ],
+      "url": [
+        "/neos/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Nepso": {
+    "name": "Nepso",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.nepso.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-CMS: Nepso"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Omurga Sistemi": {
+    "name": "Omurga Sistemi",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.os.com.tr",
+    "patterns": {
+      "meta": [
+        "generator: ^OS-Omurga Sistemi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "OpenCms": {
+    "name": "OpenCms",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.opencms.org",
+    "patterns": {
+      "headers": [
+        "Server: OpenCms"
+      ],
+      "html": [
+        "<link href=\"/opencms/"
+      ],
+      "scriptSrc": [
+        "opencms"
+      ],
+      "scripts": [
+        "opencms"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenNemas": {
+    "name": "OpenNemas",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.opennemas.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: OpenNemas"
+      ],
+      "meta": [
+        "generator: OpenNemas"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "OpenText Web Solutions": {
+    "name": "OpenText Web Solutions",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://websolutions.opentext.com",
+    "patterns": {
+      "html": [
+        "<!--[^>]+published by Open Text Web Solutions"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PHP-Nuke": {
+    "name": "PHP-Nuke",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://phpnuke.org",
+    "patterns": {
+      "html": [
+        "<[^>]+Powered by PHP-Nuke"
+      ],
+      "meta": [
+        "generator: PHP-Nuke"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PHPFusion": {
+    "name": "PHPFusion",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://phpfusion.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: PHPFusion (.+)$\\;version:\\1",
+        "X-PHPFusion: (.+)$\\;version:\\1"
+      ],
+      "html": [
+        "Powered by <a href=\"[^>]+php-fusion",
+        "Powered by <a href=\"[^>]+phpfusion"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pagekit": {
+    "name": "Pagekit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://pagekit.com",
+    "patterns": {
+      "meta": [
+        "generator: Pagekit"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pagevamp": {
+    "name": "Pagevamp",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.pagevamp.com",
+    "patterns": {
+      "headers": [
+        "X-ServedBy: pagevamp"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pars Elecom Portal": {
+    "name": "Pars Elecom Portal",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://parselecom.net",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Pars Elecom Portal"
+      ],
+      "meta": [
+        "copyright: Pars Elecom Portal"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PencilBlue": {
+    "name": "PencilBlue",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://github.com/pencilblue/pencilblue",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: PencilBlue"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Percussion": {
+    "name": "Percussion",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://percussion.com",
+    "patterns": {
+      "html": [
+        "<[^>]+class=\"perc-region\""
+      ],
+      "meta": [
+        "generator: (?:Percussion|Rhythmyx)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pingoteam": {
+    "name": "Pingoteam",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.pingoteam.ir/",
+    "patterns": {
+      "meta": [
+        "designer: Pingoteam"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PlatformOS": {
+    "name": "PlatformOS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.platform-os.com",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^platformOS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pligg": {
+    "name": "Pligg",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://pligg.com",
+    "patterns": {
+      "html": [
+        "<span[^>]+id=\"xvotes-0"
+      ],
+      "meta": [
+        "generator: Pligg"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Posterous": {
+    "name": "Posterous",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://posterous.com",
+    "patterns": {
+      "html": [
+        "<div class=\"posterous"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Public CMS": {
+    "name": "Public CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.publiccms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-PublicCMS: ^(.+)$\\;version:\\1"
+      ],
+      "cookies": [
+        "PUBLICCMS_USER: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PyroCMS": {
+    "name": "PyroCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://pyrocms.com",
+    "patterns": {
+      "headers": [
+        "X-Streams-Distribution: PyroCMS"
+      ],
+      "cookies": [
+        "pyrocms: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "papaya CMS": {
+    "name": "papaya CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://papaya-cms.com",
+    "patterns": {
+      "html": [
+        "<link[^>]*/papaya-themes/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "phpSQLiteCMS": {
+    "name": "phpSQLiteCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://phpsqlitecms.net",
+    "patterns": {
+      "meta": [
+        "generator: ^phpSQLiteCMS(?: (.+))?$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "phpwind": {
+    "name": "phpwind",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.phpwind.net",
+    "patterns": {
+      "html": [
+        "(?:Powered|Code) by <a href=\"[^\"]+phpwind\\.net"
+      ],
+      "meta": [
+        "generator: ^phpwind(?: v([0-9-]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "pirobase CMS": {
+    "name": "pirobase CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.pirobase-imperia.com/de/produkte/produktuebersicht/pirobase-cms",
+    "patterns": {
+      "html": [
+        "<(?:script|link)[^>]/site/[a-z0-9/._-]+/resourceCached/[a-z0-9/._-]+",
+        "<input[^>]+cbi:///cms/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Quick.CMS": {
+    "name": "Quick.CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://opensolution.org",
+    "patterns": {
+      "html": [
+        "<a href=\"[^>]+opensolution\\.org/\">CMS by"
+      ],
+      "meta": [
+        "generator: Quick\\.CMS(?: v([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RBS Change": {
+    "name": "RBS Change",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.rbschange.fr",
+    "patterns": {
+      "html": [
+        "<html[^>]+xmlns:change="
+      ],
+      "meta": [
+        "generator: RBS Change"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RCMS": {
+    "name": "RCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.rcms.fi",
+    "patterns": {
+      "meta": [
+        "generator: ^(?:RCMS|ReallyCMS)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rayo": {
+    "name": "Rayo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.rayo.ir",
+    "patterns": {
+      "meta": [
+        "generator: ^Rayo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RebelMouse": {
+    "name": "RebelMouse",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.rebelmouse.com/",
+    "patterns": {
+      "headers": [
+        "x-rebelmouse-cache-control: ",
+        "x-rebelmouse-surrogate-control: "
+      ],
+      "html": [
+        "<!-- Powered by RebelMouse\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RiteCMS": {
+    "name": "RiteCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://ritecms.com",
+    "patterns": {
+      "meta": [
+        "generator: ^RiteCMS(?: (.+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Roadiz CMS": {
+    "name": "Roadiz CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.roadiz.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Roadiz CMS"
+      ],
+      "meta": [
+        "generator: ^Roadiz ?(?:master|develop)? v?([0-9\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SDL Tridion": {
+    "name": "SDL Tridion",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.sdl.com/products/tridion",
+    "patterns": {
+      "html": [
+        "<img[^>]+_tcm\\d{2,3}-\\d{6}\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SIMsite": {
+    "name": "SIMsite",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://simgroep.nl/internet/portfolio-contentbeheer_41623/",
+    "patterns": {
+      "meta": [
+        "SIM.medium: "
+      ],
+      "scriptSrc": [
+        "/sim(?:site|core)/js"
+      ],
+      "scripts": [
+        "/sim(?:site|core)/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sarka-SPIP": {
+    "name": "Sarka-SPIP",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://sarka-spip.net",
+    "patterns": {
+      "meta": [
+        "generator: Sarka-SPIP(?:\\s([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SeamlessCMS": {
+    "name": "SeamlessCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.seamlesscms.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Seamless\\.?CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Serendipity": {
+    "name": "Serendipity",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://s9y.org",
+    "patterns": {
+      "meta": [
+        "Powered-By: Serendipity v\\.([\\d.]+)\\;version:\\1",
+        "generator: Serendipity(?: v\\.([\\d.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Simplébo": {
+    "name": "Simplébo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.simplebo.fr",
+    "patterns": {
+      "headers": [
+        "X-ServedBy: simplebo"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SiteEdit": {
+    "name": "SiteEdit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.siteedit.ru",
+    "patterns": {
+      "meta": [
+        "generator: SiteEdit"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sivuviidakko": {
+    "name": "Sivuviidakko",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://sivuviidakko.fi",
+    "patterns": {
+      "meta": [
+        "generator: Sivuviidakko"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SmartSite": {
+    "name": "SmartSite",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.seneca.nl/pub/Smartsite/Smartsite-Smartsite-iXperion",
+    "patterns": {
+      "html": [
+        "<[^>]+/smartsite\\.(?:dws|shtml)\\?id="
+      ],
+      "meta": [
+        "author: Redacteur SmartInstant"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Smartstore Page Builder": {
+    "name": "Smartstore Page Builder",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.smartstore.com",
+    "patterns": {
+      "html": [
+        "<section[^>]+class=\"g-stage"
+      ],
+      "css": [
+        "\\.g-stage \\.g-stage-root"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Solodev": {
+    "name": "Solodev",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.solodev.com",
+    "patterns": {
+      "headers": [
+        "solodev_session: "
+      ],
+      "html": [
+        "<div class=[\"']dynamicDiv[\"'] id=[\"']dd\\.\\d\\.\\d(?:\\.\\d)?[\"']>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Sotel": {
+    "name": "Sotel",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.soteledu.com/en/",
+    "patterns": {
+      "meta": [
+        "generator: sotel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Strikingly": {
+    "name": "Strikingly",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://strikingly.com",
+    "patterns": {
+      "html": [
+        "<!-- Powered by Strikingly\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Subrion": {
+    "name": "Subrion",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://subrion.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-CMS: Subrion CMS"
+      ],
+      "meta": [
+        "generator: ^Subrion "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "sNews": {
+    "name": "sNews",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://snewscms.com",
+    "patterns": {
+      "meta": [
+        "generator: sNews"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Textpattern CMS": {
+    "name": "Textpattern CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://textpattern.com",
+    "patterns": {
+      "meta": [
+        "generator: Textpattern"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Thelia": {
+    "name": "Thelia",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://thelia.net",
+    "patterns": {
+      "html": [
+        "<(?:link|style|script)[^>]+/assets/frontOffice/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Twilight CMS": {
+    "name": "Twilight CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.twilightcms.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-CMS: Twilight CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "UMI.CMS": {
+    "name": "UMI.CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.umi-cms.ru",
+    "patterns": {
+      "headers": [
+        "X-Generated-By: UMI\\.CMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "uKnowva": {
+    "name": "uKnowva",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://uknowva.com",
+    "patterns": {
+      "headers": [
+        "X-Content-Encoded-By: uKnowva ([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "<a[^>]+>Powered by uKnowva</a>"
+      ],
+      "meta": [
+        "generator: uKnowva (?: ([\\d.]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/media/conv/js/jquery\\.js"
+      ],
+      "scripts": [
+        "/media/conv/js/jquery\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Frameworks",
+        "Category 50"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "VIVVO": {
+    "name": "VIVVO",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://vivvo.net",
+    "patterns": {
+      "cookies": [
+        "VivvoSessionId: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Varbase": {
+    "name": "Varbase",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://drupal.org/project/varbase",
+    "patterns": {
+      "meta": [
+        "generator: Varbase"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vigbo": {
+    "name": "Vigbo",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://vigbo.com",
+    "patterns": {
+      "cookies": [
+        "_gphw_mode: "
+      ],
+      "html": [
+        "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+      ],
+      "scriptSrc": [
+        "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+      ],
+      "scripts": [
+        "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vignette": {
+    "name": "Vignette",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.vignette.com",
+    "patterns": {
+      "html": [
+        "<[^>]+=\"vgn-?ext"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Voog.com Website Builder": {
+    "name": "Voog.com Website Builder",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.voog.com/",
+    "patterns": {
+      "html": [
+        "<script [^>]*src=\"[^\"]*voog\\.com/tracker\\.js"
+      ],
+      "scriptSrc": [
+        "voog\\.com/tracker\\.js"
+      ],
+      "scripts": [
+        "voog\\.com/tracker\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebGUI": {
+    "name": "WebGUI",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.webgui.org",
+    "patterns": {
+      "cookies": [
+        "wgSession: "
+      ],
+      "meta": [
+        "generator: ^WebGUI ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebsPlanet": {
+    "name": "WebsPlanet",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://websplanet.com",
+    "patterns": {
+      "meta": [
+        "generator: WebsPlanet"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Website Creator": {
+    "name": "Website Creator",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.hosttech.ch/websitecreator",
+    "patterns": {
+      "meta": [
+        "wsc_rendermode: ",
+        "generator: Website Creator by hosttech"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WebsiteBaker": {
+    "name": "WebsiteBaker",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://websitebaker2.org/en/home.php",
+    "patterns": {
+      "meta": [
+        "generator: WebsiteBaker"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Wolf CMS": {
+    "name": "Wolf CMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.wolfcms.org",
+    "patterns": {
+      "html": [
+        "(?:<a href=\"[^>]+wolfcms\\.org[^>]+>Wolf CMS(?:</a>)? inside|Thank you for using <a[^>]+>Wolf CMS)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Woltlab Community Framework": {
+    "name": "Woltlab Community Framework",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.woltlab.com",
+    "patterns": {
+      "scriptSrc": [
+        "WCF\\..*\\.js"
+      ],
+      "scripts": [
+        "WCF\\..*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "webEdition": {
+    "name": "webEdition",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://webedition.de/en",
+    "patterns": {
+      "meta": [
+        "generator: webEdition",
+        "DC.title: webEdition"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "wisyCMS": {
+    "name": "wisyCMS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://wisy.3we.de",
+    "patterns": {
+      "meta": [
+        "generator: ^wisy CMS[ v]{0,3}([0-9.,]*)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XOOPS": {
+    "name": "XOOPS",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://xoops.org",
+    "patterns": {
+      "meta": [
+        "generator: XOOPS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XpressEngine": {
+    "name": "XpressEngine",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.xpressengine.com/",
+    "patterns": {
+      "meta": [
+        "generator: XpressEngine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "3dCart": {
+    "name": "3dCart",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.3dcart.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: 3DCART"
+      ],
+      "cookies": [
+        "3dvisit: "
+      ],
+      "scripts": [
+        "(?:twlh(?:track)?\\.asp|3d_upsell\\.js)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Web Servers"
+      ]
+    }
+  },
+  "AMP Plugin": {
+    "name": "AMP Plugin",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://amp-wp.org",
+    "patterns": {
+      "meta": [
+        "generator: ^AMP Plugin v(\\d+\\.\\d+.*)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Advertising"
+      ]
+    }
+  },
+  "Arc Publishing": {
+    "name": "Arc Publishing",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.arcpublishing.com/",
+    "patterns": {
+      "html": [
+        "<div [^>]*id=\"pb-root\""
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Bolt": {
+    "name": "Bolt",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://bolt.cm",
+    "patterns": {
+      "meta": [
+        "generator: Bolt"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Concrete5": {
+    "name": "Concrete5",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://concrete5.org",
+    "patterns": {
+      "cookies": [
+        "CONCRETE5: "
+      ],
+      "scripts": [
+        "/concrete/js/"
+      ],
+      "meta": [
+        "generator: ^concrete5 - ([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "DTG": {
+    "name": "DTG",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.dtg.nl",
+    "patterns": {
+      "html": [
+        "<a[^>]+Site Powered by DTG"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "EPiServer": {
+    "name": "EPiServer",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://episerver.com",
+    "patterns": {
+      "cookies": [
+        "EPiServer: ",
+        "EPiTrace: "
+      ],
+      "meta": [
+        "generator: EPiServer"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Kolibri CMS": {
+    "name": "Kolibri CMS",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://alias.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: Kolibri"
+      ],
+      "meta": [
+        "generator: Kolibri"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "NivCMS": {
+    "name": "NivCMS",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://NivSoft.ir",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: NivCMS"
+      ],
+      "cookies": [
+        "cookie_name: NivCMSPro"
+      ],
+      "meta": [
+        "generator: ^NivCMS"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Orchard CMS": {
+    "name": "Orchard CMS",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://orchardproject.net",
+    "patterns": {
+      "meta": [
+        "generator: Orchard"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "SpinCMS": {
+    "name": "SpinCMS",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.spin.cw",
+    "patterns": {
+      "cookies": [
+        "spincms_session: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Translucide": {
+    "name": "Translucide",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://www.translucide.net",
+    "patterns": {
+      "scripts": [
+        "lucide\\.init(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Webzi": {
+    "name": "Webzi",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "https://webzi.ir",
+    "patterns": {
+      "scripts": [
+        "cdn\\.6th\\.ir"
+      ],
+      "meta": [
+        "generator: ^Webzi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "swift.engine": {
+    "name": "swift.engine",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "CMS",
+    "description": "",
+    "website": "http://mittec.ru/default",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: swift\\.engine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "ButterCMS": {
+    "name": "ButterCMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "ButterCMS is a cloud-based headless content management system.",
+    "website": "https://buttercms.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Amplience": {
+    "name": "Amplience",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Amplience is an API-first, headless content management platform for enterprise retail.",
+    "website": "https://amplience.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Aksara CMS": {
+    "name": "Aksara CMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Aksara CMS is a CodeIgniter based CRUD toolkit.",
+    "website": "https://aksaracms.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Arc XP": {
+    "name": "Arc XP",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Arc XP is a cloud-based digital experience platform that helps enterprise companies, retail brands and media and entertainment organization create and distribute content, drive digital commerce, and deliver powerful experiences.",
+    "website": "https://www.arcxp.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 95"
+      ]
+    }
+  },
+  "Arya CMS": {
+    "name": "Arya CMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Arya CMS is a lesser-known content management system that may not have a significant user base or active development community.",
+    "website": "https://sndigitalhub.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "BigTree CMS": {
+    "name": "BigTree CMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "BigTree CMS is an extremely extensible open-source CMS built on PHP and MySQL.",
+    "website": "https://www.bigtreecms.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "ClientXCMS": {
+    "name": "ClientXCMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "ClientXCMS is a content management system that provides a drag-and-drop interface, customisable templates, user and media management, and website analytics to help businesses manage their website content.",
+    "website": "https://clientxcms.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Corebine": {
+    "name": "Corebine",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Corebine is a content management system designed for Sports",
+    "website": "https://corebine.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "ERPNext": {
+    "name": "ERPNext",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "ERPNext is a free and open-source integrated Enterprise Resource Planning (ERP) software developed by Frappe Technologies.",
+    "website": "https://erpnext.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "eClass": {
+    "name": "eClass",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "eClass is an online learning platform.",
+    "website": "https://www.eclass.com.hk",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Gnuboard": {
+    "name": "Gnuboard",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Gnuboard is an open-source bulletin board system or CMS from South Korea.",
+    "website": "https://github.com/gnuboard",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "GraphCMS": {
+    "name": "GraphCMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "GraphCMS is a GraphQL headless CMS for content federation and omnichannel headless content management.",
+    "website": "https://graphcms.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "ISAY": {
+    "name": "ISAY",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "ISAY (Internet Pages Management) is a CMS service provided by the Turkish Ministry of Interior for governorships, district governorships and various official websites.",
+    "website": "https://www.icisleri.gov.tr/internet-sayfalari-yonetimi-isay",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Lieferando": {
+    "name": "Lieferando",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Lieferando is an online portal for food orders.",
+    "website": "https://www.lieferando.de",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 93"
+      ]
+    }
+  },
+  "Megagroup CMS.S3": {
+    "name": "Megagroup CMS.S3",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Megagroup CMS.S3 management system is provided not as a “boxed product”, but as a separate service, that is, it works using SaaS technology. This means that you manage your site directly through your browser using an intuitive interface.",
+    "website": "https://megagroup.ru/cms",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "microCMS": {
+    "name": "microCMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "microCMS is a Japan-based headless CMS that enables editors and developers to build delicate sites and apps.",
+    "website": "https://microcms.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "NationBuilder": {
+    "name": "NationBuilder",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "NationBuilder is a Los Angeles based technology start-up that develops content management and customer relationship management (CRM) software.",
+    "website": "https://nationbuilder.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 53"
+      ]
+    }
+  },
+  "Omeka": {
+    "name": "Omeka",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Omeka is a free Content Management System (CMS) used by archives, historical societies, libraries, museums, and individual researchers for publishing digital collections.",
+    "website": "https://omeka.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Omni CMS": {
+    "name": "Omni CMS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Omni CMS (formerly OU Campus) is a web content management system developed by Modern Campus. Modern Campus is a SaaS-based student lifecycle management software designed to manage continuing education and non-degree programs.",
+    "website": "https://moderncampus.com/products/web-content-management.html",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "OpenCities": {
+    "name": "OpenCities",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "OpenCities is a content management system built for government organizations.",
+    "website": "https://granicus.com/solution/govaccess/opencities/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Pixnet": {
+    "name": "Pixnet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Pixnet is an Taiwanese mobile photo sharing, blogging, and social networking service.",
+    "website": "https://www.pixnet.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "PizzaNetz": {
+    "name": "PizzaNetz",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "PizzaNetz is an ordering system and shop system for pizzerias, Chinese restaurant and kebabs.",
+    "website": "https://www.pizzanetz.de",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 93"
+      ]
+    }
+  },
+  "React Bricks": {
+    "name": "React Bricks",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "React Bricks is a visual editing CMS based on React components.",
+    "website": "https://reactbricks.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "SIDEARM Sports": {
+    "name": "SIDEARM Sports",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "SIDEARM Sports provides the software and technology that powers the websites, livestats, and video streaming for athletic programs North America.",
+    "website": "https://sidearmsports.com/websites",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Shopistry": {
+    "name": "Shopistry",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Shopistry is a data-driven, headless customer management system.",
+    "website": "https://www.shopistry.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Suncel": {
+    "name": "Suncel",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Suncel is a powerful and versatile content platform with a simple visual builder for marketers and publishers.",
+    "website": "https://suncel.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ]
+    }
+  },
+  "Unicorn Platform": {
+    "name": "Unicorn Platform",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Unicorn Platform is a drag and drop website and blog builder for startups, mobile apps, and SaaS.",
+    "website": "https://unicornplatform.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "WHMCS": {
+    "name": "WHMCS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "WHMCS is an automation platform that simplifies and automates all aspects of operating an online web hosting and domain registrar business.",
+    "website": "http://www.whmcs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Wagtail": {
+    "name": "Wagtail",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Wagtail is a Django content management system (CMS) focused on flexibility and user experience.",
+    "website": "https://wagtail.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Wuilt": {
+    "name": "Wuilt",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "CMS",
+    "description": "Wuilt is the first Arab platform of its kind to help individuals and businesses create ready-made websites and ecommerce stores.",
+    "website": "https://wuilt.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS",
+        "Category 51"
+      ]
+    }
+  },
+  "Live Story": {
+    "name": "Live Story",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "CMS",
+    "description": "",
+    "website": "https://www.livestory.nyc/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "phpCMS": {
+    "name": "phpCMS",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "CMS",
+    "description": "",
+    "website": "http://phpcms.de",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Telescope": {
+    "name": "Telescope",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "CMS",
+    "description": "",
+    "website": "http://telescopeapp.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "CMS"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

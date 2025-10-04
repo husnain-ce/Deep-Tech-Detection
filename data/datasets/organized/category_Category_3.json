@@ -1,0 +1,75 @@
+{
+  "Caddy": {
+    "name": "Caddy",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 3",
+    "description": "",
+    "website": "https://caddyserver.com",
+    "patterns": {
+      "headers": [
+        "Server: ^Caddy$",
+        "Server: (?i)^Caddy(?:/|$)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 3"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Google Web Server (GWS)": {
+    "name": "Google Web Server (GWS)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 3",
+    "description": "",
+    "website": "https://www.google.com",
+    "patterns": {
+      "headers": [
+        "Server: gws"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 3"
+      ]
+    }
+  },
+  "Kestrel": {
+    "name": "Kestrel",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 3",
+    "description": "",
+    "website": "https://learn.microsoft.com/aspnet/core/fundamentals/servers/kestrel",
+    "patterns": {
+      "headers": [
+        "Server: ^Kestrel",
+        "Server: (?i)Kestrel"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 3",
+        "Category 5"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

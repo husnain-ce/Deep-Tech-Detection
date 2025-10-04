@@ -1,0 +1,300 @@
+{
+  "Apache JSPWiki": {
+    "name": "Apache JSPWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "Apache JSPWiki is an open-source Wiki engine, built around standard JEE components (Java, servlets, JSP).",
+    "website": "http://jspwiki.org",
+    "patterns": {
+      "html": [
+        "<html[^>]* xmlns:jspwiki="
+      ],
+      "url": [
+        "wiki\\.jsp"
+      ],
+      "scriptSrc": [
+        "jspwiki"
+      ],
+      "scripts": [
+        "jspwiki"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Atlassian Confluence": {
+    "name": "Atlassian Confluence",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "Atlassian Confluence is a web-based collaboration wiki tool.",
+    "website": "http://www.atlassian.com/software/confluence/overview/team-collaboration-software",
+    "patterns": {
+      "headers": [
+        "X-Confluence-Request-Time: "
+      ],
+      "meta": [
+        "confluence-request-time: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DokuWiki": {
+    "name": "DokuWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "DokuWiki is a free open-source wiki software.",
+    "website": "https://www.dokuwiki.org",
+    "patterns": {
+      "cookies": [
+        "DokuWiki: "
+      ],
+      "meta": [
+        "generator: ^DokuWiki( Release [\\d-]+)?\\;version:\\1"
+      ],
+      "html": [
+        "<div[^>]+id=\"dokuwiki__>",
+        "<a[^>]+href=\"#dokuwiki__"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Foswiki": {
+    "name": "Foswiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "Foswiki is a free open-source collaboration platform.",
+    "website": "http://foswiki.org",
+    "patterns": {
+      "headers": [
+        "X-Foswikiaction: ",
+        "X-Foswikiuri: "
+      ],
+      "cookies": [
+        "SFOSWIKISID: ",
+        "FOSWIKISTRIKEONE: "
+      ],
+      "html": [
+        "<div class=\"foswiki(?:Copyright|Page|Main)\">"
+      ],
+      "meta": [
+        "foswiki.SERVERTIME: ",
+        "foswiki.WIKINAME: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ikiwiki": {
+    "name": "ikiwiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "ikiwiki is a free and open-source wiki application.",
+    "website": "http://ikiwiki.info",
+    "patterns": {
+      "html": [
+        "<a href=\"/(?:cgi-bin/)?ikiwiki\\.cgi\\?do=",
+        "<link rel=\"alternate\" type=\"application/x-wiki\" title=\"Edit this page\" href=\"[^\"]*/ikiwiki\\.cgi"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MediaWiki": {
+    "name": "MediaWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "MediaWiki is a free and open-source wiki engine.",
+    "website": "https://www.mediawiki.org",
+    "patterns": {
+      "html": [
+        "<(?:a|img)[^>]+>Powered by MediaWiki</a>",
+        "<body[^>]+class=\"mediawiki\"",
+        "<a[^>]+/Special:WhatLinksHere/"
+      ],
+      "meta": [
+        "generator: ^MediaWiki ?(.+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MoinMoin": {
+    "name": "MoinMoin",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "MoinMoin is a wiki engine implemented in Python.",
+    "website": "https://moinmo.in",
+    "patterns": {
+      "cookies": [
+        "MOIN_SESSION: "
+      ],
+      "scriptSrc": [
+        "moin(?:_static(\\d)(\\d)(\\d)|.+)/common/js/common\\.js\\;version:\\1.\\2.\\3"
+      ],
+      "scripts": [
+        "moin(?:_static(\\d)(\\d)(\\d)|.+)/common/js/common\\.js\\;version:\\1.\\2.\\3"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TWiki": {
+    "name": "TWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "TWiki is an open-source wiki and application platform.",
+    "website": "http://twiki.org",
+    "patterns": {
+      "cookies": [
+        "TWIKISID: "
+      ],
+      "html": [
+        "<img [^>]*(?:title|alt)=\"This site is powered by the TWiki collaboration platform"
+      ],
+      "scriptSrc": [
+        "(?:TWikiJavascripts|twikilib(?:\\.min)?\\.js)"
+      ],
+      "scripts": [
+        "(?:TWikiJavascripts|twikilib(?:\\.min)?\\.js)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "WikkaWiki": {
+    "name": "WikkaWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "WikkaWiki is an open-source wiki application written in PHP.",
+    "website": "http://wikkawiki.org",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"[^>]+WikkaWiki"
+      ],
+      "meta": [
+        "generator: WikkaWiki"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "XWiki": {
+    "name": "XWiki",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Operating Systems",
+    "description": "XWiki is a free wiki software platform written in Java.",
+    "website": "http://www.xwiki.org",
+    "patterns": {
+      "html": [
+        "<html[^>]data-xwiki-[^>]>"
+      ],
+      "meta": [
+        "wiki: xwiki"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Operating Systems"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2237 @@
+{
+  "Accentuate Custom Fields": {
+    "name": "Accentuate Custom Fields",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Accentuate Custom Fields is the professional and de facto solution to easily extend your Shopify store with your own custom fields such multi-language text fields, images, checkboxes, dates, selection list and custom JSON objects.",
+    "website": "https://www.accentuate.io",
+    "patterns": {
+      "scripts": [
+        "\\.accentuate\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Avada AVASHIP": {
+    "name": "Avada AVASHIP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Avada AVASHIP is an order tracking Shopify app.",
+    "website": "https://apps.shopify.com/avaship",
+    "patterns": {
+      "scriptSrc": [
+        "freeshippingbar\\.apps\\.avada\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Avada Boost Sales": {
+    "name": "Avada Boost Sales",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "AVADA Boost Sales is a one-stop solution that is specially designed to increase your sales with countdown timer, trust badges, sales pop, sales boost and many more.",
+    "website": "https://apps.shopify.com/avada-boost-sales",
+    "patterns": {
+      "scriptSrc": [
+        "boostsales\\.apps\\.avada\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Advertising"
+      ]
+    }
+  },
+  "Avada SEO": {
+    "name": "Avada SEO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Avada SEO is a Shopify app built and designed following strict SEO practices.",
+    "website": "https://apps.shopify.com/avada-seo-suite",
+    "patterns": {
+      "scriptSrc": [
+        "seo\\.apps\\.avada\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 54"
+      ]
+    }
+  },
+  "Avada Size Chart": {
+    "name": "Avada Size Chart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Avada Size Chart is a thoughtful app that helps online stores reduce return rates with useful size guides.",
+    "website": "https://apps.shopify.com/avada-size-chart",
+    "patterns": {
+      "scriptSrc": [
+        "sizechart\\.apps\\.avada\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Back In Stock": {
+    "name": "Back In Stock",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Back In Stock lets your customers choose restock alerts for specific variant combinations, including size, colour or style.",
+    "website": "https://backinstock.org",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.backinstock\\.org/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Beam AfterSell": {
+    "name": "Beam AfterSell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "AfterSell is a Shopify app by Beam which helps brands create powerful post purchase offers.",
+    "website": "https://www.aftersell.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.aftersell\\.app/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Beam OutSell": {
+    "name": "Beam OutSell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "OutSell is a Shopify app by Beam. Frequently Bought Together, Discounted Upsell, Also Bought.",
+    "website": "https://apps.shopify.com/outsell",
+    "patterns": {
+      "scriptSrc": [
+        "//outsellapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Better Price": {
+    "name": "Better Price",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Better Price is a Shopify app which provide coupons to real leads only when discounted price is requested build by Architechpro.",
+    "website": "https://apps.shopify.com/better-price",
+    "patterns": {
+      "scriptSrc": [
+        "/shopify-apps//js/betterprice/betterprice\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "BiteSpeed": {
+    "name": "BiteSpeed",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "BiteSpeed is an all-in-one Shopify marketing app which helps ecommerce brands recover revenue.",
+    "website": "https://www.bitespeed.co",
+    "patterns": {
+      "scripts": [
+        "app\\.bitespeed\\.co/"
+      ],
+      "scriptSrc": [
+        "cdn\\.bitespeed\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 98"
+      ]
+    }
+  },
+  "Bold Brain": {
+    "name": "Bold Brain",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Brain help customers discover more products and add more to their cart with dynamic recommendations for Shopify and use advanced analytics.",
+    "website": "https://boldcommerce.com/bold-brain",
+    "patterns": {
+      "scriptSrc": [
+        "brain-assets\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Bundles": {
+    "name": "Bold Bundles",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Bundles Shopify app is designed to present recommended product widgets to cross-sell your products.",
+    "website": "https://boldcommerce.com/bundles",
+    "patterns": {
+      "scriptSrc": [
+        "bundles\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Custom Pricing": {
+    "name": "Bold Custom Pricing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Custom Pricing is an app that makes it easy to create a tiered pricing structure for your customers.",
+    "website": "https://boldcommerce.com/custom-pricing",
+    "patterns": {
+      "scriptSrc": [
+        "cp.\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Motivator": {
+    "name": "Bold Motivator",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Motivator motivate customers to spend more on your store with free shipping and gifts using a customisable banner that counts down how much more they have to buy.",
+    "website": "https://boldcommerce.com/motivator",
+    "patterns": {
+      "scriptSrc": [
+        "motivate\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Product Options": {
+    "name": "Bold Product Options",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Product Options is a Shopify app which allows customers to customise products with unlimited custom options built by Bold.",
+    "website": "https://boldcommerce.com/product-options",
+    "patterns": {
+      "scriptSrc": [
+        "option\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Subscriptions": {
+    "name": "Bold Subscriptions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Subscriptions provides powerful, API-driven customisation options to build and scale a subscription service that fits your business.",
+    "website": "https://boldcommerce.com/shopify-subscription-app",
+    "patterns": {
+      "scriptSrc": [
+        "sub\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Bold Upsell": {
+    "name": "Bold Upsell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Bold Upsell allows the substitution or attachment of products to the customers' carts.",
+    "website": "https://boldcommerce.com/upsell",
+    "patterns": {
+      "scriptSrc": [
+        "upsells\\.boldapps\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "BookThatApp": {
+    "name": "BookThatApp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "BookThatApp is a Shopify appointment booking, product rental and class booking app.",
+    "website": "https://www.bookthatapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.bookthatapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 72"
+      ]
+    }
+  },
+  "Booster Page Speed Optimizer": {
+    "name": "Booster Page Speed Optimizer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "The Page Speed Optimizer is a Shopify app built by BoosterApps.",
+    "website": "https://apps.shopify.com/page-speed-optimizer",
+    "patterns": {
+      "scriptSrc": [
+        "/assets/booster-page-speed-optimizer\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 92"
+      ]
+    }
+  },
+  "CJDropshipping app": {
+    "name": "CJDropshipping app",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "CJDropshipping is a dropshipping supplier and fulfillment service from China.",
+    "website": "https://apps.shopify.com/cucheng",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.cjdropshipping\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "CareCart Sales Pop Up": {
+    "name": "CareCart Sales Pop Up",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "CareCart Sales Pop Up is a stock countdown timer, recent sales notifications, live sales pop up widget.",
+    "website": "https://carecart.io/sales-pop-up-app",
+    "patterns": {
+      "scriptSrc": [
+        "sales-pop\\.carecart\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Advertising"
+      ]
+    }
+  },
+  "Carro": {
+    "name": "Carro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Carro connects participating Shopify stores together to enable cross-store selling or the ability for like-minded partners to directly sell each other products without the need for inventory, managing returns, or minimum order quantities.",
+    "website": "https://getcarro.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getcarro\\.com/",
+        "/carro\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Coin Currency Converter": {
+    "name": "Coin Currency Converter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Coin Currency Converter is an automatic currency conversion app for Shopify.",
+    "website": "https://apps.shopify.com/coin",
+    "patterns": {
+      "scriptSrc": [
+        "/apps/coin/coin\\.js.+\\.myshopify\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Conjured": {
+    "name": "Conjured",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Conjured provides Shopify brands with Shopify apps and custom development.",
+    "website": "https://conjured.co",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.conjured\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Conversio App": {
+    "name": "Conversio App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Conversio App is an optimisation and analytics app for Shopify stores.",
+    "website": "https://apps.shopify.com/conversio",
+    "patterns": {
+      "scriptSrc": [
+        "\\.conversio\\.com/.+\\.myshopify\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Cozy AntiTheft": {
+    "name": "Cozy AntiTheft",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Cozy AntiTheft helps you to protect your store content, images and texts from being stolen with a few simple clicks.",
+    "website": "https://apps.shopify.com/cozy-antitheft-for-images-and-more",
+    "patterns": {
+      "scriptSrc": [
+        "cdncozyantitheft\\.addons\\.business/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Easy Hide PayPal": {
+    "name": "Easy Hide PayPal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Easy Hide PayPal hides PayPal button from product page, cart and checkout but keep PayPal as payment option in checkout.",
+    "website": "https://apps.shopify.com/easyhide",
+    "patterns": {
+      "scriptSrc": [
+        "easyhide\\.herculesapps\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Easy Redirects": {
+    "name": "Easy Redirects",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Easy Redirects is a Shopify app built by Eastside, and part of the best Shopify Apps collection.",
+    "website": "https://apps.shopify.com/easyredirects",
+    "patterns": {
+      "scriptSrc": [
+        "easy-redirects\\..+/redirect-app\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Enlistly": {
+    "name": "Enlistly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Enlistly tracks referral orders in realtime. Orders that are partially refunded, refunded, or cancelled update on the fly.",
+    "website": "https://enlistly.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.enlistly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "EraofEcom MTL": {
+    "name": "EraofEcom MTL",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "EraofEcom MTL is a Shopify pop up app that enables you to catch your website visitors.",
+    "website": "https://eraofecom.org/collections/tech/products/milk-the-leads",
+    "patterns": {
+      "scriptSrc": [
+        "mtl\\.eraofecom\\.org"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Fast Bundle": {
+    "name": "Fast Bundle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Fast Bundle gives you the ability to create product bundle offers with discounts.",
+    "website": "https://fastbundle.co",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.fastbundle\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "FireApps Ali Reviews": {
+    "name": "FireApps Ali Reviews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "FireApps Ali Reviews is an all-in-one solution that helps to collect, showcase, and manage impactful reviews.",
+    "website": "https://apps.shopify.com/ali-reviews",
+    "patterns": {
+      "scriptSrc": [
+        "//alireviews\\.fireapps\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 90"
+      ]
+    }
+  },
+  "Fontify": {
+    "name": "Fontify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Fontify allows you to utilise any font without having to alter code.",
+    "website": "https://apps.shopify.com/fontify-change-customize-font-for-your-store",
+    "patterns": {
+      "scriptSrc": [
+        "fontify\\.nitroapps\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Frequently Bought Together": {
+    "name": "Frequently Bought Together",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Frequently Bought Together is a Shopify app which add Amazon-like 'Customers Who Bought This Item Also Bought' product recommendations to your store.",
+    "website": "https://www.codeblackbelt.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.codeblackbelt\\.com/js/modules/frequently-bought-together/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "GTranslate app": {
+    "name": "GTranslate app",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "GTranslate app is a website translator which can translate any website to any language automatically.",
+    "website": "https://apps.shopify.com/multilingual-shop-by-gtranslate",
+    "patterns": {
+      "scriptSrc": [
+        "gtranslate\\.io/shopify/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 89"
+      ]
+    }
+  },
+  "GemPages": {
+    "name": "GemPages",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "GemPages is a powerful Shopify landing page buidler that empowers SMEs, agency, and freelancers to build their brands and sell online.",
+    "website": "https://gempages.net",
+    "patterns": {
+      "scriptSrc": [
+        "/files/gempagev\\d+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 51"
+      ]
+    }
+  },
+  "Gist Giftship": {
+    "name": "Gist Giftship",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Gist Giftship is a gifting app on Shopify that allows your customers to complete all of their gift shopping at once.",
+    "website": "https://gist-apps.com/giftship",
+    "patterns": {
+      "scriptSrc": [
+        "assets/js/giftship\\.([\\d\\.]+)\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Globo Also Bought": {
+    "name": "Globo Also Bought",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Also Bought is a conversion Shopify app by Globo.",
+    "website": "https://apps.shopify.com/globo-related-products",
+    "patterns": {
+      "scriptSrc": [
+        "assets/globo\\.alsobought\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Globo Color Swatch": {
+    "name": "Globo Color Swatch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Globo Color Swatch app gives you an easy-to-use tool to display product variants on both collection page, homepage and product page creatively as a means to enhance customers' experience and stimulate them to purchase.",
+    "website": "https://apps.shopify.com/globo-related-products",
+    "patterns": {
+      "scriptSrc": [
+        "assets/globo\\.swatch\\.data\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Globo Form Builder": {
+    "name": "Globo Form Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Form Builder is a Shopify form builder app for contact form built by Globo.",
+    "website": "https://apps.shopify.com/form-builder-contact-form",
+    "patterns": {
+      "scriptSrc": [
+        "/assets/globo\\.formbuilder\\.init\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 110"
+      ]
+    }
+  },
+  "Govalo": {
+    "name": "Govalo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Govalo is a software startup company that builds a Shopify app.",
+    "website": "https://govalo.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shopify\\.com/extensions/.+/([\\d\\.]+)/assets/govalo\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Hextom Free Shipping Bar": {
+    "name": "Hextom Free Shipping Bar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Free Shipping Bar is a Shopify app built by Hextom. Free Shipping Bar help promote free shipping with progressive messages to motivate customers to buy more.",
+    "website": "https://hextom.com/case_study/free-shipping-bar",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hextom\\.com/js/freeshippingbar\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Hextom Ultimate Sales Boost": {
+    "name": "Hextom Ultimate Sales Boost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Ultimate Sales Boost by Hextom is an app designed to help you drive more sales by creating a sense of urgency, scarcity and trust.",
+    "website": "https://hextom.com/case_study/ultimate-sales-boost",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hextom\\.com/js/ultimatesalesboost\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "HulkApps Age Verification": {
+    "name": "HulkApps Age Verification",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "HulkApps Age Verification allow your customers to certify their age before they land in your store.",
+    "website": "https://www.hulkapps.com/products/age-verification-shopify",
+    "patterns": {
+      "scriptSrc": [
+        "age-verification\\.hulkapps\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "In Cart Upsell & Cross-Sell": {
+    "name": "In Cart Upsell & Cross-Sell",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "In Cart Upsell & Cross-Sell is a Shopify app built by InCart Upsell, provides targeted upsells and cross-sells directly in your cart and product page.",
+    "website": "https://incartupsell.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.incartupsell\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Instafeed": {
+    "name": "Instafeed",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Instafeed is an official Instagram app.",
+    "website": "https://apps.shopify.com/instafeed",
+    "patterns": {
+      "scriptSrc": [
+        "instafeed\\.nfcube\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Justuno App": {
+    "name": "Justuno App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Justuno is a premium conversion marketing and analytics platform that provides retailers with powerful tools to increase conversions.",
+    "website": "https://apps.shopify.com/justuno-pop-ups-email-conversion",
+    "patterns": {
+      "scriptSrc": [
+        "//scripttags\\.justuno\\.com/shopify_justuno"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "LangShop": {
+    "name": "LangShop",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "LangShop is an app for translating Shopify stores.",
+    "website": "https://langshop.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.langshop\\.app/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 89"
+      ]
+    }
+  },
+  "LayoutHub": {
+    "name": "LayoutHub",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "LayoutHub is an easy page builder that helps merchants quickly set up an online store with any kind of page type by using our library of pre-designed layouts and blocks.",
+    "website": "https://layouthub.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.layouthub\\.com/shopify/layouthub\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 51"
+      ]
+    }
+  },
+  "Leaflet platform": {
+    "name": "Leaflet platform",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Leaflet is the price testing platform for Shopify.",
+    "website": "https://join.leaflet.co",
+    "patterns": {
+      "scriptSrc": [
+        "scripts\\.leaflet\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 74"
+      ]
+    }
+  },
+  "Livescale": {
+    "name": "Livescale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Livescale is a video platform that enables teams to transform content and ecommerce into a live shopping experience that reaches engages and monetizes audiences with LiveShopping.",
+    "website": "https://www.livescale.tv",
+    "patterns": {
+      "scriptSrc": [
+        "\\.livescale\\.tv/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 103"
+      ]
+    }
+  },
+  "Obsidian Incentivize": {
+    "name": "Obsidian Incentivize",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Obsidian Incentivize is designed to increase your average order size through in-cart upsells, cross sells and personalised product recommendations.",
+    "website": "https://obsidianapps.co",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shopify\\.com/extensions/.+/([\\.\\d]{3,})/assets/upsell\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Obviyo": {
+    "name": "Obviyo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Obviyo is an ecommerce intelligence platform helping merchants personalise and optimise shopping experience.",
+    "website": "https://www.obviyo.com",
+    "patterns": {
+      "scriptSrc": [
+        "deploy\\.hiconversion\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 76"
+      ]
+    }
+  },
+  "Omnisend Email Marketing & SMS": {
+    "name": "Omnisend Email Marketing & SMS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Omnisend Email Marketing & SMS is an omnichannel marketing automation channel that allows Shopify store owners to manage their SMS, web push notifications, WhatsApp, Facebook messenger, pop-ups, segmentation, and dynamic Facebook and Google ad integrations.",
+    "website": "https://apps.shopify.com/omnisend",
+    "patterns": {
+      "scriptSrc": [
+        "omnis(?:nippet1|rc)\\.com/inShop/Embed/shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Ordersify Product Alerts": {
+    "name": "Ordersify Product Alerts",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Ordersify Product Alerts is a Shopify app which detects automatically product stock and send email alerts to contact immediately after your products are restocked.",
+    "website": "https://ordersify.com/products/product-alerts",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.ordersify\\.com/sdk/productalerts-shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Packlink PRO": {
+    "name": "Packlink PRO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Packlink PRO is a multicarrier shipping solutions for ecommerce and marketplaces.",
+    "website": "https://apps.shopify.com/packlink-pro",
+    "patterns": {
+      "scriptSrc": [
+        "packlink-spf-pro\\.appspot\\.com/.+myshopify\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 99"
+      ]
+    }
+  },
+  "Paloma": {
+    "name": "Paloma",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Paloma helps ecommerce businesses sell directly to customers in messaging channels, with automated personal shopping conversations.",
+    "website": "https://www.getpaloma.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getpaloma\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "PerfectApps Swift": {
+    "name": "PerfectApps Swift",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Swift is a page speed solution for ecommerce store owners built by PerfectApps.",
+    "website": "https://apps.shopify.com/swift",
+    "patterns": {
+      "scriptSrc": [
+        "swift\\.perfectapps\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 92"
+      ]
+    }
+  },
+  "PickyStory": {
+    "name": "PickyStory",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "PickyStory is the ecommerce conversion platform.",
+    "website": "https://pickystory.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.pickystory\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Privy App": {
+    "name": "Privy App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Privy App helps you improve your website conversion rate, grow your email list, automate your email marketing, drive repeat purchases and much more.",
+    "website": "https://apps.shopify.com/privy",
+    "patterns": {
+      "scriptSrc": [
+        "//shopify\\.privy\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Product Personalizer": {
+    "name": "Product Personalizer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Product Personalizer apps can help you to customise your products and offer a more personalised experience for your customers.",
+    "website": "https://productpersonalizer.com",
+    "patterns": {
+      "scriptSrc": [
+        "/product-personalizer/pplr_common\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 76"
+      ]
+    }
+  },
+  "PushDaddy Whatsapp Chat": {
+    "name": "PushDaddy Whatsapp Chat",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Whatsapp Chat is an live chat and abondoned cart solution built by PushDaddy.",
+    "website": "https://apps.shopify.com/whatsapp-chat-for-support",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.shopify\\.com/.+/pushdaddy_v([\\d\\.]+).*\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 98"
+      ]
+    }
+  },
+  "Qikify": {
+    "name": "Qikify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Qikify is a trusted Shopify Expert providing services for over 35,000 Shopify merchants through Shopify Apps or custom modifications.",
+    "website": "https://qikify.com",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\.qikify\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "ReConvert": {
+    "name": "ReConvert",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "ReConvert is a post-purchase upsell & thank you page.",
+    "website": "https://www.reconvert.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stilyoapps\\.com/reconvert/assets/js/store_reconvert_node\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Recomify": {
+    "name": "Recomify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Recomify is a 1-click install, cost-effective smart product recommendation engine.",
+    "website": "https://www.recomify.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.recomify\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Return Prime": {
+    "name": "Return Prime",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Return Prime is an application to manage returns for Shopify stores.",
+    "website": "https://www.returnprime.com/",
+    "patterns": {
+      "scriptSrc": [
+        "//return-prime-proxy-prod\\.s3[^ ]*\\.amazonaws\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 102"
+      ]
+    }
+  },
+  "Revy": {
+    "name": "Revy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Revy is dedicated to build Shopify Apps to generate more sales for merchants.",
+    "website": "https://revy.io",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.revy\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Seal Subscriptions": {
+    "name": "Seal Subscriptions",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Seal Subscriptions is a Shopify subscriptions app, packed with lots of features, such as automated product swaps, interval changes, payment calendar, Quick Checkout Wizard, and more.",
+    "website": "https://www.sealsubscriptions.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sealsubscriptions\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Secomapp": {
+    "name": "Secomapp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Secomapp is a trusted Shopify Expert providing services through Shopify Apps.",
+    "website": "https://www.secomapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.secomapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "ShipTection": {
+    "name": "ShipTection",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "ShipTection is the easiest way to offer shipping protection on your Shopify site.",
+    "website": "https://wamapps.io/pages/shiptection-protection",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.shiptection\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Shogun Landing Page Builder": {
+    "name": "Shogun Landing Page Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Shogun Landing Page Builder is a drag and drop Shopify page builder for creating high-converting store pages.",
+    "website": "https://apps.shopify.com/shogun",
+    "patterns": {
+      "scriptSrc": [
+        "\\.getshogun\\.com/.+\\.myshopify\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Shopapps": {
+    "name": "Shopapps",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Shopapps is a trusted Shopify Expert providing services through Shopify Apps.",
+    "website": "http://www.shopapps.in",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.myshopapps\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Shopify Buy Button": {
+    "name": "Shopify Buy Button",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Shopify Buy Button is an app from Shopify which allows merchant to embed buy functionality for any product or collection into another website or blog.",
+    "website": "https://apps.shopify.com/buy-button",
+    "patterns": {
+      "scriptSrc": [
+        "sdk\\. shopifycdn\\.com/buy-button/latest/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Shopify Geolocation App": {
+    "name": "Shopify Geolocation App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Shopify Geolocation App makes language and country recommendations to your customers based on their geographic location and browser or device language.",
+    "website": "https://apps.shopify.com/geolocation",
+    "patterns": {
+      "scriptSrc": [
+        "geolocation-recommendations\\.shopifycloud\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 79"
+      ]
+    }
+  },
+  "Shortly": {
+    "name": "Shortly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Shortly help create short URLs for influencer-marketing, social media posts & email-marketing campaigns with your own store domain.",
+    "website": "https://apps.shopify.com/shortly",
+    "patterns": {
+      "scriptSrc": [
+        "//shortly\\.shop/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Simplio Upsells": {
+    "name": "Simplio Upsells",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Simplio Upsells сreate more revenue with promotions and post purchase upsells.",
+    "website": "https://apps.shopify.com/simple-promotions-and-upsells",
+    "patterns": {
+      "scriptSrc": [
+        "//upsell\\.simplio\\.app/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Skio": {
+    "name": "Skio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Skio helps brands on Shopify sell subscriptions without ripping their hair out.",
+    "website": "https://skio.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.skio\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Smile App": {
+    "name": "Smile App",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Smile App offers a loyalty program for Shopify stores.",
+    "website": "https://apps.shopify.com/smile-io",
+    "patterns": {
+      "scriptSrc": [
+        "js\\.smile\\.io/.+smile-shopify\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Spin-a-Sale": {
+    "name": "Spin-a-Sale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Spin-a-Sale adds the intensity of gamification to your site. Spin-a-Sale overlay displays a special prize wheel for visitors that you can fully configure.",
+    "website": "https://spinasale.com",
+    "patterns": {
+      "scriptSrc": [
+        "client\\.spinasale\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Advertising"
+      ]
+    }
+  },
+  "SuperLemon app": {
+    "name": "SuperLemon app",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "SuperLemon app is an all-in-one WhatsApp plugin for Shopify stores.",
+    "website": "https://apps.shopify.com/whatsapp-chat-button",
+    "patterns": {
+      "scriptSrc": [
+        "/files/superlemon_.+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Tabarnapp": {
+    "name": "Tabarnapp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Tabarnapp is a platform for Shopify apps and themes.",
+    "website": "https://tabarnapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.tabarn\\.app/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Tada": {
+    "name": "Tada",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Tada offers interactive website popups that allow Shopify merchants to collect more emails and increase sales by engaging website visitors through gamification.",
+    "website": "https://trytada.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.trytada\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Tern": {
+    "name": "Tern",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Tern is a plug and play ecommerce app, built for Shopify, that offers merchants the ability to provide a seamless trade-in service.",
+    "website": "https://www.tern.eco",
+    "patterns": {
+      "scriptSrc": [
+        "live\\.tern-returns\\.eastsideapps\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Trackify X": {
+    "name": "Trackify X",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Trackify X is a pixel engine that helps merchants backup their pixel data and manage multiple pixels.",
+    "website": "https://trackifyapp.com",
+    "patterns": {
+      "scriptSrc": [
+        "trackifyx\\.redretarget\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Security"
+      ]
+    }
+  },
+  "Visual Quiz Builder": {
+    "name": "Visual Quiz Builder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Visual Quiz Builder is a Shopify app built by AskWhai.",
+    "website": "https://apps.shopify.com/product-recommendation-quiz",
+    "patterns": {
+      "scriptSrc": [
+        "//whai-cdn\\.nyc\\d\\.cdn\\.digitaloceanspaces\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Vitals": {
+    "name": "Vitals",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Vitals is an all-in-one Shopify marketing software.",
+    "website": "https://vitals.co",
+    "patterns": {
+      "scriptSrc": [
+        "//appsolve\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "WideBundle": {
+    "name": "WideBundle",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "WideBundle is a Shopify application that allows a merchant to set up bundles on his store.",
+    "website": "https://en.widebundle.com",
+    "patterns": {
+      "scriptSrc": [
+        "//widebundle\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "YouPay": {
+    "name": "YouPay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "YouPay is an alternative method of payment that allows you to give someone else the ability to pay for your shopping cart with no fees or interest.",
+    "website": "https://youpay.co",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.youpay\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Zakeke Visual Customizer": {
+    "name": "Zakeke Visual Customizer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Zakeke Visual Customizer is a cloud-connected visual ecommerce tool that allows brands and retailers to offer live, personalised, 2D, 3D, and augmented reality (AR) functionality for their products.",
+    "website": "https://www.zakeke.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.zakeke\\.com/Scripts/integration/shopify/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 76"
+      ]
+    }
+  },
+  "Zipify OCU": {
+    "name": "Zipify OCU",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 100",
+    "description": "Zipify OCU allows you to add upsells and cross-sells to your checkout sequence.",
+    "website": "https://zipify.com/apps/ocu/",
+    "patterns": {
+      "scriptSrc": [
+        "/zipify-oneclickupsell-vendor\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Autoketing Product Reviews": {
+    "name": "Autoketing Product Reviews",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Autoketing Product Reviews is an application that allows shop owners to manage the product review section on their website.",
+    "website": "https://apps.shopify.com/product-reviews-autoketing",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 90"
+      ]
+    }
+  },
+  "Boutiq": {
+    "name": "Boutiq",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Boutiq is a personal video shopping solution.",
+    "website": "https://www.getboutiq.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 103"
+      ]
+    }
+  },
+  "Digismoothie Candy Rack": {
+    "name": "Digismoothie Candy Rack",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Digismoothie Candy Rack is an upsell app for Shopify which allow merchants to offer custom services or bundle products.",
+    "website": "https://www.digismoothie.com/apps/candy-rack",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Drop A Hint": {
+    "name": "Drop A Hint",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Drop A Hint is an Shopify app which help share hints via email, SMS, WhatsApp and messengers.",
+    "website": "https://apps.shopify.com/drop-a-hint-v2",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "EraofEcom Cartroids": {
+    "name": "EraofEcom Cartroids",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "EraofEcom Cartroids makes it easy for you to create highly targeted upsells, cross-sells and bundle offers.",
+    "website": "https://eraofecom.org/collections/tech/products/cartroids",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "EraofEcom WinAds": {
+    "name": "EraofEcom WinAds",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "EraofEcom WinAds is an all-in-one Facebook pixel app for Shopify.",
+    "website": "https://eraofecom.org/collections/tech/products/win-ads-manager",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Fera Product Reviews App": {
+    "name": "Fera Product Reviews App",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Fera Product Reviews App is a product review and social proof app for Shopify.",
+    "website": "https://apps.shopify.com/fera",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Flits": {
+    "name": "Flits",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Flits is a customer account pages that get all your shopper data in one place.",
+    "website": "https://getflits.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Globo Pre-Order": {
+    "name": "Globo Pre-Order",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Globo Pre-Order is a Shopify app for building pre-order functionality on Shopify stores.",
+    "website": "https://apps.shopify.com/pre-order-pro",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Helixo UFE": {
+    "name": "Helixo UFE",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Helixo UFE is a lightweight Shopify upsell sales funnel app.",
+    "website": "https://helixo.co/upsell-funnel-engine/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Jilt App": {
+    "name": "Jilt App",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Jilt App helps ecommerce store owners track and recover abandoned orders. Works seamlessly with Shopify and WooCommerce.",
+    "website": "https://community.shopify.com/c/shopify-apps/jilt-is-over-what-app-to-use-for-abandoned-carts-now/td-p/1575095",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 98"
+      ]
+    }
+  },
+  "Littledata": {
+    "name": "Littledata",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Littledata provides a seamless connection between your Shopify site, marketing channels, and Google Analytics.",
+    "website": "https://www.littledata.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Locksmith": {
+    "name": "Locksmith",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Locksmith is a shopify app for adding access control capability on shopify stores.",
+    "website": "https://apps.shopify.com/locksmith",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "MinMaxify": {
+    "name": "MinMaxify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "MinMaxify is an app that allows Shopify store owners to set minimum and maximum values for customer orders built by Intillium.",
+    "website": "https://apps.shopify.com/order-limits-minmaxify",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Order Deadline": {
+    "name": "Order Deadline",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Order Deadline is an estimated delivery, countdown timer, shipping date Shopify app.",
+    "website": "https://apps.shopify.com/order-deadline",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "OrderLogic app": {
+    "name": "OrderLogic app",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "OrderLogic app allows you to define minimum and maximum product quantities for all products in your Shopify store.",
+    "website": "https://apps.shopify.com/orderlogic",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Reserve In-Store": {
+    "name": "Reserve In-Store",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Reserve In-Store app will allow customers to reserve an item in your store online to come to pick it up or view the item before making the purchase.",
+    "website": "https://www.reserveinstore.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 93"
+      ]
+    }
+  },
+  "ShopPad Infinite Options": {
+    "name": "ShopPad Infinite Options",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "ShopPad Infinite Options allows you to create as many custom option fields for your product pages as you need.",
+    "website": "https://apps.shopify.com/custom-options",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Swym Wishlist Plus": {
+    "name": "Swym Wishlist Plus",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Swym Wishlist Plus enables your customers to bookmark their favorite products and pick up where they left off when they return.",
+    "website": "https://swym.it/apps/wishlist/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Tyslo EasySell": {
+    "name": "Tyslo EasySell",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Tyslo EasySell replaces default Shopify checkout process by embedding (or popup) a simple order form on the product or cart page.",
+    "website": "https://tyslo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Video Greet": {
+    "name": "Video Greet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Video Greet lets your customers add a video message to gifts with QR codes.",
+    "website": "https://apps.shopify.com/videogreet-gift-messages",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Visely": {
+    "name": "Visely",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Visely is a Shopify app which personalise product recommendations for Shopify sites.",
+    "website": "https://visely.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 76"
+      ]
+    }
+  },
+  "Wishlist King": {
+    "name": "Wishlist King",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Wishlist King is a Shopify app which helps you to add your favorite products or share the wishlist with your friends built by Appmate.",
+    "website": "https://appmate.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "YMQ Product Options Variant Option": {
+    "name": "YMQ Product Options Variant Option",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "YMQ Product Options Variant Option help add an unlimited number of product options to your items so you're not restricted by Shopify's limit of 3 options and 100 variants.",
+    "website": "https://apps.shopify.com/ymq-options",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100"
+      ]
+    }
+  },
+  "Zipify Pages": {
+    "name": "Zipify Pages",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 100",
+    "description": "Zipify Pages the first landing page builder uniquely designed for ecommerce.",
+    "website": "https://zipify.com/apps/pages/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 100",
+        "Category 51"
+      ]
+    }
+  }
+}

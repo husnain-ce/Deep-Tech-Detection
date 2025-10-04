@@ -1,0 +1,2719 @@
+{
+  "AFThemes CoverNews": {
+    "name": "AFThemes CoverNews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AFThemes CoverNews is a clean and elegant free WordPress theme that is perfect for online blog and magazine.",
+    "website": "https://afthemes.com/products/covernews",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/covernews(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "AndersNoren Baskerville": {
+    "name": "AndersNoren Baskerville",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AndersNoren Baskerville is a responsive and retina-ready masonry WordPress theme for hoarders.",
+    "website": "https://andersnoren.se/teman/baskerville-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/baskerville(?:-2)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "AndersNoren Fukasawa": {
+    "name": "AndersNoren Fukasawa",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AndersNoren Fukasawa is a minimal masonry style blog WordPress theme for photographers and collectors.",
+    "website": "https://andersnoren.se/teman/fukasawa-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/fukasawa/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "AndersNoren Hemingway": {
+    "name": "AndersNoren Hemingway",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AndersNoren Hemingway is a clean and beautiful two-column WordPress theme for bloggers.",
+    "website": "https://andersnoren.se/teman/hemingway-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/hemingway/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "AndersNoren Hitchcock": {
+    "name": "AndersNoren Hitchcock",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AndersNoren Hitchcock is a portfolio WordPress theme for designers, photographers and other creatives.",
+    "website": "https://andersnoren.se/teman/hitchcock-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/hitchcock/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "AndersNoren Lovecraft": {
+    "name": "AndersNoren Lovecraft",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "AndersNoren Lovecraft is a beautiful two-column WordPress theme for bloggers.",
+    "website": "https://andersnoren.se/teman/lovecraft-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/lovecraft/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Apollo13Themes Rife": {
+    "name": "Apollo13Themes Rife",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Apollo13Themes Rife is a great portfolio and photography WordPress theme with 7 ready-to-use demo layouts.",
+    "website": "https://apollo13themes.com/rife",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/rife(?:-free)?/(?:.+script\\.min\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Astra": {
+    "name": "Astra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Astra is a fast, lightweight, and highly customizable WordPress Theme.",
+    "website": "https://wpastra.com/",
+    "patterns": {
+      "scriptSrc": [
+        "themes/astra\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "aThemes Airi": {
+    "name": "aThemes Airi",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "aThemes Airi is a powerful yet lightweight and flexible WordPress theme for organization or freelancer.",
+    "website": "https://athemes.com/theme/airi",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/airi/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "aThemes Astrid": {
+    "name": "aThemes Astrid",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "aThemes Astrid is a powerful yet lightweight and flexible WordPress theme.",
+    "website": "https://athemes.com/theme/astrid",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/astrid/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "aThemes Hiero": {
+    "name": "aThemes Hiero",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "aThemes Hiero is an awesome magazine theme for your WordPress site feature bold colors and details to the content.",
+    "website": "https://athemes.com/theme/hiero",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/hiero/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "aThemes Moesia": {
+    "name": "aThemes Moesia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "aThemes Moesia is the business theme you need in order to build your presence on the Internet.",
+    "website": "https://athemes.com/theme/moesia",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/moesia(?:-pro-ii)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "aThemes Sydney": {
+    "name": "aThemes Sydney",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "aThemes Sydney is a powerful business WordPress theme that provides a fast way for companies or freelancers to create an online presence.",
+    "website": "https://athemes.com/theme/sydney",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/sydney(?:-pro-ii)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Blocksy": {
+    "name": "Blocksy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Blocksy is a modern and lightweight WordPress theme designed for a variety of websites, including blogs, portfolios, ecommerce stores, and business websites.",
+    "website": "https://creativethemes.com/blocksy",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/blocksy/(?:.+main\\.js(?:\\?ver=([\\d\\.]+)))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Blossom Travel": {
+    "name": "Blossom Travel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Blossom Travel is a free WordPress theme which allows you to create various types of feminine blogs such as travel blog, personal blog, fashion blog, beauty blog, and many more.",
+    "website": "https://blossomthemes.com/wordpress-themes/blossom-travel",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/blossom-travel(?:-pro)?/.+custom\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "CSSIgniter Olsen Light": {
+    "name": "CSSIgniter Olsen Light",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "CSSIgniter Olsen Light is a clean, minimal, stylish and elegant WordPress blog theme, perfect for lifestyle, food, cooking, fashion, travel, wedding, health & fitness, photography and beauty blogging.",
+    "website": "https://www.cssigniter.com/themes/olsen-light",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/olsen-light/.+scripts(?:\\.min)?\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Candid Themes Fairy": {
+    "name": "Candid Themes Fairy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Fairy is a free and minimal WordPress blog theme by Candid Themes.",
+    "website": "https://www.candidthemes.com/themes/fairy",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/fairy(?:-premium)?/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Catch Themes Catch Box": {
+    "name": "Catch Themes Catch Box",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Catch Box is a lightweight, box shaped, clean responsive WordPress theme by Catch Themes.",
+    "website": "https://catchthemes.com/themes/catch-box",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/catch-box(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Catch Themes Fotografie": {
+    "name": "Catch Themes Fotografie",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Fotografie is a modern photography WordPress theme that comes with high-quality features and minimal design by Catch Themes.",
+    "website": "https://catchthemes.com/themes/fotografie",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/fotografie(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colibri WP": {
+    "name": "Colibri WP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colibri WP is a drag-and-drop WordPress website builder.",
+    "website": "https://colibriwp.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/plugins/colibri-page-builder.+\\.js(?:.+ver=([\\d\\.\\-\\w]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80",
+        "Category 51"
+      ]
+    }
+  },
+  "ColorMag": {
+    "name": "ColorMag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ColorMag theme is for creating news, magazine, newspaper and other kinds of publishing sites. Compatible with Elementor.",
+    "website": "https://themegrill.com/themes/colormag/",
+    "patterns": {
+      "scriptSrc": [
+        "themes/colormag.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colorlib Activello": {
+    "name": "Colorlib Activello",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colorlib Activello is a clean, minimal multipurpose WordPress blog theme developer using the Bootstrap frontend framework making it fully responsive and mobile-friendly.",
+    "website": "https://colorlib.com/wp/themes/activello",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/activello/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colorlib Illdy": {
+    "name": "Colorlib Illdy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colorlib Illdy is a stunning multipurpose WordPress theme built based on Bootstrap frontend framework making it fully responsive and mobile friendly.",
+    "website": "https://colorlib.com/wp/themes/illdy",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/illdy/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colorlib Shapely": {
+    "name": "Colorlib Shapely",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colorlib Shapely is considered as a powerful, clean and beautiful full-width free WordPress theme.",
+    "website": "https://colorlib.com/wp/themes/shapely",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/shapely/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colorlib Sparkling": {
+    "name": "Colorlib Sparkling",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colorlib Sparkling is a clean, modern, flat design WordPress theme developed using Bootstrap.",
+    "website": "https://colorlib.com/wp/themes/sparkling",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/sparkling/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Colorlib Travelify": {
+    "name": "Colorlib Travelify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Colorlib Travelify is a responsive, free, travel WordPress theme.",
+    "website": "https://colorlib.com/wp/themes/travelify",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/travelify/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Cryout Creations Bravada": {
+    "name": "Cryout Creations Bravada",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Bravada is an unparalleled fullscreen WordPress theme created by Cryout Creations.",
+    "website": "https://www.cryoutcreations.eu/wordpress-themes/bravada",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bravada(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Cryout Creations Fluida": {
+    "name": "Cryout Creations Fluida",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Fluida is a modern, crystal clear and squeaky clean WordPress theme by Cryout Creations.",
+    "website": "https://www.cryoutcreations.eu/wordpress-themes/fluida",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/fluida(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Cryout Creations Mantra": {
+    "name": "Cryout Creations Mantra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Mantra is a do-it-yourself WordPress theme, featuring a pack of over 100 customization option created by Cryout Creations.",
+    "website": "https://www.cryoutcreations.eu/wordpress-themes/mantra",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/mantra(?:-plus)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Cryout Creations Parabola": {
+    "name": "Cryout Creations Parabola",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Parabola is an fully responsive, clean and elegant design WordPress theme created by Cryout Creations.",
+    "website": "https://www.cryoutcreations.eu/wordpress-themes/parabola",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/parabola/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "CyberChimps Responsive": {
+    "name": "CyberChimps Responsive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "CyberChimps Responsive is a modern, lightweight, fully customizable, fast and responsive WordPress theme.",
+    "website": "https://cyberchimps.com/responsive",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/responsive(?:pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Enigma": {
+    "name": "Enigma",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Enigma is the popular superfine multipurpose responsive WordPress theme from Infigo Software.",
+    "website": "https://wordpress.org/themes/enigma",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/enigma/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Envo Shop": {
+    "name": "Envo Shop",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Envo Shop is a fast, clean and modern-looking responsive free WooCommerce WordPress theme by Envo Themes.",
+    "website": "https://envothemes.com/free-envo-shop",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/envo-shop/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Envo Storefront": {
+    "name": "Envo Storefront",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Envo Storefront is a fast, clean and modern-looking responsive WooCommerce theme for WordPress.",
+    "website": "https://envothemes.com/free-envo-storefront",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/envo-storefront/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Envo eCommerce": {
+    "name": "Envo eCommerce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Envo eCommerce is a fast, clean and modern-looking responsive free WooCommerce theme for WordPress.",
+    "website": "https://envothemes.com/free-envo-ecommerce/",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/envo-ecommerce/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ExtendThemes Calliope": {
+    "name": "ExtendThemes Calliope",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ExtendThemes Calliope is an flexible, multipurpose WordPress child theme of Colibri WP.",
+    "website": "https://wordpress.org/themes/calliope",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/calliope/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ExtendThemes EmpowerWP": {
+    "name": "ExtendThemes EmpowerWP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ExtendThemes EmpowerWP is an flexible, multipurpose WordPress theme.",
+    "website": "https://extendthemes.com/empowerwp",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/empowerwp(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ExtendThemes Highlight": {
+    "name": "ExtendThemes Highlight",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ExtendThemes Highlight is an flexible, multipurpose WordPress theme.",
+    "website": "https://extendthemes.com/highlight",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/highlight(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ExtendThemes Materialis": {
+    "name": "ExtendThemes Materialis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ExtendThemes Materialis is an flexible, multipurpose WordPress theme.",
+    "website": "https://extendthemes.com/materialis",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/materialis(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ExtendThemes Mesmerize": {
+    "name": "ExtendThemes Mesmerize",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ExtendThemes Mesmerize is an flexible, multipurpose WordPress theme.",
+    "website": "https://extendthemes.com/mesmerize",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/mesmerize(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "FalguniThemes Nisarg": {
+    "name": "FalguniThemes Nisarg",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "FalguniThemes Nisarg is a new fully responsive and translation ready WordPress theme.",
+    "website": "https://www.falgunithemes.com/downloads/nisarg",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/nisarg(?:pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Futurio": {
+    "name": "Futurio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Futurio is a lightweight and customizable multi-purpose and WooCommerce WordPress theme.",
+    "website": "https://futuriowp.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GeneratePress": {
+    "name": "GeneratePress",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "GeneratePress is a lightweight WordPress theme that focuses on speed, stability, and accessibility",
+    "website": "https://generatepress.com",
+    "patterns": {
+      "scriptSrc": [
+        "themes/generatepress\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Genesis theme": {
+    "name": "Genesis theme",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Genesis theme is a WordPress theme that has been developed using the Genesis Framework from Studiopress.",
+    "website": "https://www.studiopress.com/themes/genesis",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/genesis/lib/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GoDaddy Go": {
+    "name": "GoDaddy Go",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "GoDaddy Go is a flexible Gutenberg-first WordPress theme built for go-getters everywhere.",
+    "website": "https://github.com/godaddy-wordpress/go",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/go/.+frontend\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GoDaddy Primer": {
+    "name": "GoDaddy Primer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "GoDaddy Primer is a powerful theme that brings clarity to your content in a fresh design. This is the parent for all themes in the GoDaddy Primer theme family.",
+    "website": "https://github.com/godaddy-wordpress/primer",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/primer/.+navigation\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Graphene": {
+    "name": "Graphene",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Graphene is a WordPress theme created by Graphene Themes.",
+    "website": "https://www.graphene-theme.com/graphene-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/graphene(?:-plus)?/.+graphene\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "HashThemes Total": {
+    "name": "HashThemes Total",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "HashThemes Total is the powerful and creative multipurpose WordPress theme.",
+    "website": "https://hashthemes.com/wordpress-theme/total",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/(?:t|T)otal(?:-plus)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Hestia": {
+    "name": "Hestia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Hestia is a modern WordPress theme for professionals a multipurpose one-page design, widgetized footer, blog/news page, and a clean look.",
+    "website": "https://themeisle.com/themes/hestia/",
+    "patterns": {
+      "scriptSrc": [
+        "themes/hestia.*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Kadence WP Kadence": {
+    "name": "Kadence WP Kadence",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Kadence WP Kadence is a multipurpose WordPress theme that is available for free download and also offers a pro version.",
+    "website": "https://www.kadencewp.com/kadence-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/kadence/.+navigation\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Kadence WP Virtue": {
+    "name": "Kadence WP Virtue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Kadence WP Virtue is a multipurpose WordPress theme that is available for free download and also offers a pro version.",
+    "website": "https://www.kadencewp.com/product/virtue-free-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/virtue/.+main-min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Kaira Vogue": {
+    "name": "Kaira Vogue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Vogue is a very easy to use multipurpose WordPress theme created by Kaira.",
+    "website": "https://kairaweb.com/wordpress-theme/vogue",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/vogue(?:-child)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "LandingPress": {
+    "name": "LandingPress",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "LandingPress is a WordPress theme.",
+    "website": "https://landingpress.net",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/landingpress-wp/.+script\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Lightning": {
+    "name": "Lightning",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Lightning is a very simple and easy to customize WordPress theme which is based on the Bootstrap.",
+    "website": "https://lightning.vektor-inc.co.jp/en/",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/lightning(?:-pro)?/.+lightning\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "LyraThemes Kale": {
+    "name": "LyraThemes Kale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "LyraThemes Kale is a charming and elegant, aesthetically minimal and uncluttered food blog WordPress theme.",
+    "website": "https://www.lyrathemes.com/kale",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/kale(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "MachoThemes NewsMag": {
+    "name": "MachoThemes NewsMag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "MachoThemes Newsmag is a clean and modern magazine, news or blog WordPress theme.",
+    "website": "https://www.machothemes.com/item/newsmag-lite",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/Newsmag(?:-child)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "MysteryThemes News Portal": {
+    "name": "MysteryThemes News Portal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "News Portal is the ultimate magazine WordPress theme by MysteryThemes.",
+    "website": "https://mysterythemes.com/wp-themes/news-portal",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/news-portal(?:-pro)?/.+np-custom-scripts\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Neve": {
+    "name": "Neve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Neve is a super-fast, easily customizable, multi-purpose theme that works perfectly with Gutenberg and the most popular page builders as well as WooCommerce",
+    "website": "https://themeisle.com/themes/neve/",
+    "patterns": {
+      "scriptSrc": [
+        "themes/neve\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "OceanWP": {
+    "name": "OceanWP",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "OceanWP is a fast-loading WordPress theme that has great support for third-party plugins and drag-and-drop page builders.",
+    "website": "https://oceanwp.org",
+    "patterns": {
+      "scriptSrc": [
+        "themes/oceanwp\\S*\\.js(?:\\?ver=([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "OnePage Express": {
+    "name": "OnePage Express",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "OnePage Express is a beautiful WordPress theme that can be used to create a one page website in minutes by drag and drop.",
+    "website": "https://onepageexpress.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/one-page-express(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "OutTheBoxThemes Panoramic": {
+    "name": "OutTheBoxThemes Panoramic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Panoramic is a fully responsive WordPress theme with a homepage slider by OutTheBoxThemes.",
+    "website": "https://www.outtheboxthemes.com/wordpress-themes/panoramic",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/panoramic/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Page Builder Framework": {
+    "name": "Page Builder Framework",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Page Builder Framework is a lightweight (less than 50kb on the frontend) and highly customizible WordPress theme.",
+    "website": "https://wp-pagebuilderframework.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/page-builder-framework/.+site-min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Phlox": {
+    "name": "Phlox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Phlox is a modern, lightweight and customizable WordPress theme gratify for almost any type of website.",
+    "website": "https://www.phlox.pro",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/phlox(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "PopularFX": {
+    "name": "PopularFX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "PopularFX is a fully customizable responsive WordPress theme. It comes with drag and drop page builder.",
+    "website": "https://popularfx.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/popularfx/.+\\?ver=([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Press Customizr": {
+    "name": "Press Customizr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Press Customizr is a multipurpose WordPress theme suitable for small businesses and ecommerce sites.",
+    "website": "https://presscustomizr.com/customizr",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/customizr/.+js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Press Hueman": {
+    "name": "Press Hueman",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Press Hueman is a mobile friendly WordPress theme for blogs, magazines and business websites.",
+    "website": "https://presscustomizr.com/hueman",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/hueman/.+scripts\\.min\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "PressMaximum Customify": {
+    "name": "PressMaximum Customify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "PressMaximum Customify is lightweight, responsive and flexible multipurpose WordPress theme.",
+    "website": "https://pressmaximum.com/customify",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/customify/.+theme\\.min\\.js(?:.+ver=([\\d\\.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Satori Studio Bento": {
+    "name": "Satori Studio Bento",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Satori Studio Bento is a powerful yet user-friendly free WordPress theme intended for use in the broadest range of web projects.",
+    "website": "https://satoristudio.net/bento-free-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bento/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Scissor Themes Writee": {
+    "name": "Scissor Themes Writee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Writee is an elegant free personal WordPress blog theme and well suited for personal, food, travel, fashion, corporate, or any other amazing blog.",
+    "website": "https://www.scissorthemes.com/themes/writee-free",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/writee(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Semplice": {
+    "name": "Semplice",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Semplice is a Wordpress-based website builder made by designers for designers.",
+    "website": "https://www.semplice.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/semplice(?:\\d+)?(?:-child)?(?:-theme)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80",
+        "Category 51"
+      ]
+    }
+  },
+  "Sinatra": {
+    "name": "Sinatra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Sinatra is a lightweight and highly customizable multi-purpose WordPress theme.",
+    "website": "https://try.sinatrawp.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/sinatra/.+sinatra\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "SiteOrigin Vantage": {
+    "name": "SiteOrigin Vantage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "SiteOrigin Vantage is a response, multi-purpose theme carefully developed with seamless integration into an array of amazing third-party plugins.",
+    "website": "https://siteorigin.com/theme/vantage",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/vantage/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "SpiceThemes SpicePress": {
+    "name": "SpiceThemes SpicePress",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "SpicePress is a responsive and fully customizable business template by SpiceThemes.",
+    "website": "https://spicethemes.com/spicepress-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/spicepress(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "The Theme Foundry Make": {
+    "name": "The Theme Foundry Make",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Make is a free, open-source builder WordPress theme by The Theme Foundry.",
+    "website": "https://thethemefoundry.com/wordpress-themes/make",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/make(?:-child)?/.+frontend\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Freesia Edge": {
+    "name": "Theme Freesia Edge",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Edge is a responsive blogger WordPress theme by Theme Freesia.",
+    "website": "https://themefreesia.com/themes/edge",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/edge(?:-plus)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Freesia Photograph": {
+    "name": "Theme Freesia Photograph",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Photograph is a WordPress theme exclusively built for photographer, blogger, portfolio, photography agency or photo studio websites.",
+    "website": "https://themefreesia.com/themes/Photograph",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/photograph(?:-plus)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Freesia ShoppingCart": {
+    "name": "Theme Freesia ShoppingCart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ShoppingCart is a WordPress theme especially build for store and ecommerce by Theme Freesia.",
+    "website": "https://themefreesia.com/themes/shoppingcart",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/shoppingcart(?:-plus)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Horse Attitude": {
+    "name": "Theme Horse Attitude",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Attitude is a simple, clean and responsive retina ready WordPress theme by Theme Horse.",
+    "website": "https://www.themehorse.com/themes/attitude",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/attitude(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Horse NewsCard": {
+    "name": "Theme Horse NewsCard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "NewsCard is a multi-purpose magazine/news WordPress theme by Theme Horse.",
+    "website": "https://www.themehorse.com/themes/newscard",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/newscard(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme Vision Agama": {
+    "name": "Theme Vision Agama",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Agama is a free multi-purpose WordPress theme by Theme Vision.",
+    "website": "https://theme-vision.com/agama",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/agama(?:-pro)?/.+functions\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Theme4Press Evolve": {
+    "name": "Theme4Press Evolve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Theme4Press Evolve is an multipurpose and minimal WordPress theme.",
+    "website": "https://theme4press.com/evolve-multipurpose-wordpress-theme",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/evolve(?:-plus)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill Accelerate": {
+    "name": "ThemeGrill Accelerate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill Accelerate is free minimal WordPress theme.",
+    "website": "https://themegrill.com/themes/accelerate",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/accelerate(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill Cenote": {
+    "name": "ThemeGrill Cenote",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill Cenote is a creative blogging WordPress theme, fully compatible with WooCommerce and popular page builders.",
+    "website": "https://themegrill.com/themes/cenote",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/cenote(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill ColorMag": {
+    "name": "ThemeGrill ColorMag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill ColorMag is most popular magazine-newspaper style WordPress theme.",
+    "website": "https://themegrill.com/themes/colormag",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/colormag(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill Flash": {
+    "name": "ThemeGrill Flash",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill Flash is one of the most flexible multipurpose WordPress themes.",
+    "website": "https://themegrill.com/themes/flash",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/flash(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill Radiate": {
+    "name": "ThemeGrill Radiate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill Radiate is a simple and minimal WordPress theme focused on blogging.",
+    "website": "https://themegrill.com/themes/radiate",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/radiate(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill Spacious": {
+    "name": "ThemeGrill Spacious",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill Spacious is beautiful small to medium business responsive WordPress theme.",
+    "website": "https://themegrill.com/themes/spacious",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/spacious(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeGrill eStore": {
+    "name": "ThemeGrill eStore",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeGrill eStore is one of the most popular WooCommerce integrated WordPress themes.",
+    "website": "https://themegrill.com/themes/estore",
+    "patterns": {
+      "meta": [
+        "generator: eStore v\\.([\\d\\.]+)\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/wp-content/themes/e(?:s|S)tore(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeZee Donovan": {
+    "name": "ThemeZee Donovan",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeZee Donovan is a flexible, yet easy-to-use blogging WordPress theme.",
+    "website": "https://themezee.com/themes/donovan",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/donovan/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeZee Poseidon": {
+    "name": "ThemeZee Poseidon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemeZee Poseidon is an elegant designed WordPress theme featuring a splendid fullscreen image slideshow.",
+    "website": "https://themezee.com/themes/poseidon",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/poseidon/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemeZee Wellington": {
+    "name": "ThemeZee Wellington",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Wellington is a clean and simple magazine WordPress theme by ThemeZee.",
+    "website": "https://themezee.com/themes/wellington",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/wellington/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themeansar Newsup": {
+    "name": "Themeansar Newsup",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Themeansar Newsup is a fast, clean, modern-looking responsive news magazine WordPress theme.",
+    "website": "https://themeansar.com/free-themes/newsup",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/newsup(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themebeez Orchid Store": {
+    "name": "Themebeez Orchid Store",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Orchid Store is a clean, flexible, stylish and dynamic ecommerce WordPress theme by Themebeez.",
+    "website": "https://themebeez.com/themes/orchid-store",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/orchid-store(?:-child)?/.+bundle\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themegraphy Graphy": {
+    "name": "Themegraphy Graphy",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Themegraphy Graphy is now compatible with WordPress 5.0 and Gutenberg blog-oriented WordPress theme.",
+    "website": "https://themegraphy.com/wordpress-themes/graphy",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/graphy(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themes4Wp Bulk": {
+    "name": "Themes4Wp Bulk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Themes4Wp Bulk is a modern and responsive multipurpose WordPress theme.",
+    "website": "https://themes4wp.com/theme/bulk",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bulk(?:-pro)?/.+customscript\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemezHut Bam": {
+    "name": "ThemezHut Bam",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemezHut Bam is a great flexible WordPress theme for blogging sites.",
+    "website": "https://themezhut.com/themes/bam",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bam(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "ThemezHut HitMag": {
+    "name": "ThemezHut HitMag",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "ThemezHut HitMag is a stylish and powerful WordPress theme crafted for magazines, newspapers or personal blogs.",
+    "website": "https://themezhut.com/themes/hitmag",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/hitmag(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themonic Iconic One": {
+    "name": "Themonic Iconic One",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Themonic Iconic One is a premium quality WordPress theme with pixel perfect typography and responsiveness and is built for speed.",
+    "website": "https://themonic.com/iconic-one",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/iconic-one(?:-[\\w]+)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Think Up Themes Consulting": {
+    "name": "Think Up Themes Consulting",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Think Up Themes Consulting is a multipurpose WordPress theme that is available for free download and also offers a pro version.",
+    "website": "https://www.thinkupthemes.com/themes/consulting",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/consulting(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Think Up Themes Minamaze": {
+    "name": "Think Up Themes Minamaze",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Think Up Themes Minamaze is a multipurpose WordPress theme that is available for free download and also offers a pro version.",
+    "website": "https://www.thinkupthemes.com/themes/minamaze",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/minamaze(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Fifteen": {
+    "name": "Twenty Fifteen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Fifteen is the default WordPress theme for 2015.",
+    "website": "https://wordpress.org/themes/twentyfifteen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentyfifteen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Fourteen": {
+    "name": "Twenty Fourteen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Fourteen is the default WordPress theme for 2014.",
+    "website": "https://wordpress.org/themes/twentyfourteen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentyfourteen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Nineteen": {
+    "name": "Twenty Nineteen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Nineteen is the default WordPress theme for 2019.",
+    "website": "https://wordpress.org/themes/twentynineteen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentynineteen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Seventeen": {
+    "name": "Twenty Seventeen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Seventeen is the default WordPress theme for 2017.",
+    "website": "https://wordpress.org/themes/twentyseventeen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentyseventeen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Sixteen": {
+    "name": "Twenty Sixteen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Sixteen is the default WordPress theme for 2016.",
+    "website": "https://wordpress.org/themes/twentysixteen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentysixteen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Ten": {
+    "name": "Twenty Ten",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Ten is the default WordPress theme for 2010.",
+    "website": "https://wordpress.org/themes/twentyten",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentyten/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Thirteen": {
+    "name": "Twenty Thirteen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Thirteen is the default WordPress theme for 2013.",
+    "website": "https://wordpress.org/themes/twentythirteen",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentythirteen/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Twelve": {
+    "name": "Twenty Twelve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Twelve is the default WordPress theme for 2012.",
+    "website": "https://wordpress.org/themes/twentytwelve",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentytwelve/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Twenty": {
+    "name": "Twenty Twenty",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Twenty is the default WordPress theme for 2020.",
+    "website": "https://wordpress.org/themes/twentytwenty",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentytwenty/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Twenty-One": {
+    "name": "Twenty Twenty-One",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Twenty Twenty-One is the default WordPress theme for 2021.",
+    "website": "https://wordpress.org/themes/twentytwentyone",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/twentytwentyone/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Understrap": {
+    "name": "Understrap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Understrap is a renowned WordPress starter theme framework that combined Underscores and Bootstrap.",
+    "website": "https://understrap.com",
+    "patterns": {
+      "scriptSrc": [
+        "wp-content/themes/understrap(?:[masterchild-]+)?(?:[masterchild-]+)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "UpSolution Zephyr": {
+    "name": "UpSolution Zephyr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Zephyr is a WordPress theme developed by UpSolution, a software development company based in Ukraine that specialises in creating themes and plugins for WordPress.",
+    "website": "https://zephyr.us-themes.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/Zephyr/.+us\\.theme\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WEN Themes Education Hub": {
+    "name": "WEN Themes Education Hub",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "WEN Themes Education Hub is a clean and elegant WordPress education theme.",
+    "website": "https://wenthemes.com/item/wordpress-themes/education-hub",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/education-hub(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WP Puzzle Basic": {
+    "name": "WP Puzzle Basic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "WP Puzzle Basic is fully responsive, clean and minimal WordPress theme.",
+    "website": "https://wp-puzzle.com/basic",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/basic/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WP-Royal Ashe": {
+    "name": "WP-Royal Ashe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "WP-Royal Ashe is a personal and multi-author WordPress blog theme.",
+    "website": "https://wp-royal.com/themes/item-ashe-free",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/ashe(?:-pro-premium)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WP-Royal Bard": {
+    "name": "WP-Royal Bard",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "WP-Royal Bard is a personal and multi-author WordPress blog theme.",
+    "website": "https://wp-royal.com/themes/item-bard-free",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/bard(?:-pro-premium)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Weaver Xtreme": {
+    "name": "Weaver Xtreme",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Weaver Xtreme is the orginal options-based WordPress theme.",
+    "website": "https://weavertheme.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/weaver-xtreme/.+weaverxjslib-end\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Webriti Busiprof": {
+    "name": "Webriti Busiprof",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Busiprof is a fully responsive and translation-ready WordPress theme by Webriti.",
+    "website": "https://webriti.com/busiprof-premium-wordpress-theme-1",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/busiprof(?:-pro)?/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Woostify": {
+    "name": "Woostify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Woostify is fast, lightweight, responsive and flexible WooCommerce theme built with SEO, speed, and usability in mind.",
+    "website": "https://woostify.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/woostify/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WordPress Default": {
+    "name": "WordPress Default",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "WordPress Default is a default WordPress theme.",
+    "website": "https://wordpress.org/themes/default",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/default/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Xtra": {
+    "name": "Xtra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Xtra is a creative, responsive, live drag and drop and easy-to-use WordPress theme for any kind of websites.",
+    "website": "https://xtratheme.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/xtra/.+custom\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Zakra": {
+    "name": "Zakra",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 80",
+    "description": "Zakra is flexible, fast, lightweight and modern multipurpose WordPress theme that comes with many starter free sites.",
+    "website": "https://zakratheme.com",
+    "patterns": {
+      "scriptSrc": [
+        "/wp-content/themes/zakra/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Bold Themes": {
+    "name": "Bold Themes",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Bold Themes is a powerful and easy to use premium WordPress themes.",
+    "website": "https://bold-themes.com/wordpress-themes-plugins/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "FameThemes OnePress": {
+    "name": "FameThemes OnePress",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "FameThemes OnePress is a free portfolio one page WordPress theme suited for an individual or digital agency.",
+    "website": "https://www.famethemes.com/themes/onepress",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "FameThemes Screenr": {
+    "name": "FameThemes Screenr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "FameThemes Screenr is a fullscreen parallax WordPress theme suited for business, portfolio, digital agency, freelancers.",
+    "website": "https://www.famethemes.com/themes/screenr",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GoDaddy Escapade": {
+    "name": "GoDaddy Escapade",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "GoDaddy Escapade is a GoDaddy Primer child theme with a unique sidebar navigation.",
+    "website": "https://github.com/godaddy-wordpress/primer-child-escapade",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GoDaddy Lyrical": {
+    "name": "GoDaddy Lyrical",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "GoDaddy Lyrical is a GoDaddy Primer child theme with a focus on photography and beautiful fonts.",
+    "website": "https://github.com/godaddy-wordpress/primer-child-lyrical",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "GoDaddy Uptown Style": {
+    "name": "GoDaddy Uptown Style",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "GoDaddy Uptown Style is a GoDaddy Primer child theme with elegance and class.",
+    "website": "https://github.com/godaddy-wordpress/primer-child-uptownstyle",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Hello Elementor": {
+    "name": "Hello Elementor",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Hello Elementor is a WordPress theme built for the Elementor website builder platform. It uses minimal styling and scripts for maximum speed and design freedom.",
+    "website": "https://elementor.com/hello-theme/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "MDBootstrap WP theme": {
+    "name": "MDBootstrap WP theme",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "MDBootstrap WP theme is a WordPress theme built on top of the MDBootstrap front-end UI library. It provides a set of pre-designed layouts, widgets, and components that can be easily customised and integrated into WordPress websites.",
+    "website": "https://mdbgo.com/docs/projects/wordpress/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "MysteryThemes News Portal Lite": {
+    "name": "MysteryThemes News Portal Lite",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "News Portal Lite is child theme of News Portal ultimate magazine WordPress theme by MysteryThemes.",
+    "website": "https://mysterythemes.com/wp-themes/news-portal-lite",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "MysteryThemes News Portal Mag": {
+    "name": "MysteryThemes News Portal Mag",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "News Portal Mag is child theme of News Portal ultimate magazine WordPress theme by MysteryThemes.",
+    "website": "https://mysterythemes.com/wp-themes/news-portal-mag",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themeansar Newsberg": {
+    "name": "Themeansar Newsberg",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Themeansar Newsberg is a fast, clean, modern-looking, responsive news magazine WordPress theme.",
+    "website": "https://themeansar.com/free-themes/newsberg",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Themebeez Cream Magazine": {
+    "name": "Themebeez Cream Magazine",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Cream Magazine is a news and magazine WordPress theme by Themebeez.",
+    "website": "https://themebeez.com/themes/cream-magazine",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Eleven": {
+    "name": "Twenty Eleven",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Twenty Eleven is the default WordPress theme for 2011.",
+    "website": "https://wordpress.org/themes/twentyeleven",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Twenty-Three": {
+    "name": "Twenty Twenty-Three",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Twenty Twenty-Three is the default WordPress theme for 2023.",
+    "website": "https://wordpress.org/themes/twentytwentythree",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Twenty Twenty-Two": {
+    "name": "Twenty Twenty-Two",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Twenty Twenty-Two is the default WordPress theme for 2022.",
+    "website": "https://wordpress.org/themes/twentytwentytwo",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "WEN Themes Signify Dark": {
+    "name": "WEN Themes Signify Dark",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Signify Dark is a free dark blog and corporate WordPress theme that is trendy, responsive, and dynamic by WEN Themes.",
+    "website": "https://wenthemes.com/item/wordpress-themes/signify-dark",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  },
+  "Waveme": {
+    "name": "Waveme",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 80",
+    "description": "Waveme is a WordPress theme that is suitable for individuals or businesses involved in the music industry, such as music producers, record labels, artist managers, or independent artists.",
+    "website": "http://music.flatfull.com/waveme/about/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 80"
+      ]
+    }
+  }
+}

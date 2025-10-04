@@ -1,0 +1,497 @@
+{
+  "Optimizely": {
+    "name": "Optimizely",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Optimizely is an experimentation platform that helps developers build and run A/B tests on websites.",
+    "website": "https://www.optimizely.com",
+    "patterns": {
+      "cookies": [
+        "optimizelyEndUserId: "
+      ],
+      "scriptSrc": [
+        "optimizely\\.com.*\\.js"
+      ],
+      "html": [
+        "optimizely(?:active|data)"
+      ],
+      "scripts": [
+        "cdn\\.optimizely\\.com/.*\\.js",
+        "optimizely\\.com.*\\.js",
+        "optimizely\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Kameleoon": {
+    "name": "Kameleoon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Kameleoon is a personalisation technology platform for real-time omnichannel optimisation and conversion.",
+    "website": "https://kameleoon.com/",
+    "patterns": {
+      "cookies": [
+        "kameleoonVisitorCode: "
+      ],
+      "scriptSrc": [
+        "\\.kameleoon\\.\\w+/kameleoon\\.js"
+      ],
+      "scripts": [
+        "kameleoon\\.eu/kameleoon\\.js",
+        "\\.kameleoon\\.\\w+/kameleoon\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "AB Tasty": {
+    "name": "AB Tasty",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "AB Tasty is a customer experience optimisation company. AB Tasty offers AI-driven experimentation, personalisation, and product optimisation platforms for user testing.",
+    "website": "https://www.abtasty.com",
+    "patterns": {
+      "scriptSrc": [
+        "try\\.abtasty\\.com"
+      ],
+      "scripts": [
+        "try\\.abtasty\\.com",
+        "try\\.abtasty\\.com/.*\\.js|cdn\\.abtasty\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Dynamic Yield": {
+    "name": "Dynamic Yield",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Dynamic Yield is a provider of automated conversion optimisation tools for marketers and retailers.",
+    "website": "https://www.dynamicyield.com",
+    "patterns": {
+      "cookies": [
+        "_dy_ses_load_seq: ",
+        "_dy_geo: "
+      ],
+      "scriptSrc": [
+        "cdn(?:-eu)?\\.dynamicyield\\.\\w+/"
+      ],
+      "scripts": [
+        "cdn\\.dynamicyield\\.\\w+/",
+        "cdn\\.dynamicyield\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "SiteSpect": {
+    "name": "SiteSpect",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "SiteSpect is the A/B testing and optimisation solution.",
+    "website": "https://www.sitespect.com",
+    "patterns": {
+      "scriptSrc": [
+        "/__ssobj/core\\.js"
+      ],
+      "scripts": [
+        "/__ssobj/core\\.js",
+        "cdn\\.sitespect\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Oracle Maxymiser": {
+    "name": "Oracle Maxymiser",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Oracle Maxymiser is a real-time behavioral targeting, in-session personalisation, and product recommendations platform.",
+    "website": "https://www.oracle.com/uk/cx/marketing/personalization-testing",
+    "patterns": {
+      "scriptSrc": [
+        "service\\.maxymiser\\.net"
+      ],
+      "scripts": [
+        "maxymiser\\.net/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Qubit": {
+    "name": "Qubit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Qubit is a SaaS based persuasive personalisation at scale services.",
+    "website": "https://www.qubit.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.goqubit\\.com"
+      ],
+      "scripts": [
+        "static\\.qubit\\.com/.*\\.js",
+        "static\\.goqubit\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Complianz": {
+    "name": "Complianz",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Complianz is a GDPR/CCPA Cookie Consent plugin that supports GDPR, DSGVO, CCPA and PIPEDA with a conditional Cookie Notice and customized Cookie Policy based on the results of the built-in Cookie Scan.",
+    "website": "https://complianz.io",
+    "patterns": {
+      "scriptSrc": [
+        "wp-content/plugins/complianz-gdpr-premium"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 67",
+        "Category 87"
+      ]
+    }
+  },
+  "Convert": {
+    "name": "Convert",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Convert Experiences is an enterprise A/B testing and personalisation solution for conversion optimisation and data-driven decisions in high-traffic websites.",
+    "website": "https://www.convert.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.convertexperiments\\.com/js"
+      ],
+      "scripts": [
+        "\\.convertexperiments\\.com/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Estore Compare": {
+    "name": "Estore Compare",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Estore Compare is a website optimisation software that offers A/B testing, CVR and LTV measuring tools.",
+    "website": "https://estore.co.jp/estorecompare/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\d+\\.estore\\.jp/"
+      ],
+      "scripts": [
+        "cdn\\d+\\.estore\\.jp/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Google Optimize": {
+    "name": "Google Optimize",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Google Optimize allows you to test variants of web pages and see how they perform.",
+    "website": "https://optimize.google.com",
+    "patterns": {
+      "scriptSrc": [
+        "googleoptimize\\.com/optimize\\.js"
+      ],
+      "scripts": [
+        "googleoptimize\\.com/optimize\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Juo": {
+    "name": "Juo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Juo is a centralised experimentation platform for innovative marketing and product teams.",
+    "website": "https://get.juo.io",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.juo\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ]
+    }
+  },
+  "Neat A/B testing": {
+    "name": "Neat A/B testing",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Neat A/B Testing is a Shopify app built by NeatShift.",
+    "website": "https://neatab.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.neatab\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 100"
+      ]
+    }
+  },
+  "Omniconvert": {
+    "name": "Omniconvert",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Omniconvert is an award-winning conversion rate optimisation (CRO) software that can be used for A/B testing, online surveys, traffic segmentation.",
+    "website": "https://www.omniconvert.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.omniconvert\\.com"
+      ],
+      "scripts": [
+        "cdn\\.omniconvert\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Trbo": {
+    "name": "Trbo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Trbo is a personalisation, recommendations, A/B testing platform from Germany.",
+    "website": "https://www.trbo.com",
+    "patterns": {
+      "cookies": [
+        "trbo_session: ^(?:[\\d]+)$",
+        "trbo_usr: ^(?:[\\d\\w]+)$"
+      ],
+      "scriptSrc": [
+        "\\.trbo\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ]
+    }
+  },
+  "UserZoom": {
+    "name": "UserZoom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "UserZoom is a cloud-based user experience solution.",
+    "website": "https://www.userzoom.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.userzoom\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Security"
+      ]
+    }
+  },
+  "Zoho PageSense": {
+    "name": "Zoho PageSense",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "Zoho PageSense is a conversion optimisation platform which combines the power of web analytics, A/B testing, and personalisation.",
+    "website": "https://www.zoho.com/pagesense/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pagesense\\.(?:cn|io)?"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 76"
+      ]
+    }
+  },
+  "HiConversion": {
+    "name": "HiConversion",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 74",
+    "description": "HiConversion is a SaaS solution that caters to ecommerce brands seeking actionable insights through their adaptive customer experience optimization.",
+    "website": "https://www.hiconversion.com",
+    "patterns": {
+      "scripts": [
+        "deploy\\.hiconversion\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74"
+      ]
+    }
+  },
+  "Talkable": {
+    "name": "Talkable",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 74",
+    "description": "Talkable is a cloud-based referral marketing system that assists medium to large businesses with campaign creation and channel performance tracking.",
+    "website": "https://www.talkable.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 74",
+        "Category 84",
+        "Category 94"
+      ]
+    }
+  }
+}

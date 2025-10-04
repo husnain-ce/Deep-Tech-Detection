@@ -1,0 +1,332 @@
+{
+  "Akamai mPulse": {
+    "name": "Akamai mPulse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Akamai mPulse is a real user monitoring (RUM) solution that enables companies to monitor, find, and fix website and application performance issues.",
+    "website": "https://developer.akamai.com/akamai-mpulse-real-user-monitoring-solution",
+    "patterns": {
+      "cookies": [
+        "akaas_AB-Testing: "
+      ],
+      "html": [
+        "<script>[\\s\\S]*?go-mpulse\\.net\\/boomerang[\\s\\S]*?</script>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Atatus": {
+    "name": "Atatus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Atatus is a full-stack observability tool that let you identify the performance bottlenecks and helps you optimise your application at the right time.",
+    "website": "https://www.atatus.com",
+    "patterns": {
+      "scriptSrc": [
+        "/atatus\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78",
+        "Forums"
+      ]
+    }
+  },
+  "Datadog": {
+    "name": "Datadog",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Datadog is a SaaS-based monitoring and analytics platform for large-scale applications and infrastructure.",
+    "website": "https://www.datadoghq.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.datadoghq-browser-agent\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78",
+        "Security"
+      ]
+    }
+  },
+  "Dynatrace RUM": {
+    "name": "Dynatrace RUM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Dynatrace RUM is a AI powered, full stack, automated real user monutoring platform built by Dynatrace.",
+    "website": "https://www.dynatrace.com/platform/real-user-monitoring",
+    "patterns": {
+      "scriptSrc": [
+        "/ruxitagentjs_(?:.+)_(?:.+)\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Eggplant": {
+    "name": "Eggplant",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Eggplant is a software testing and monitoring company.",
+    "website": "https://www.eggplantsoftware.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.eggplant\\.cloud"
+      ],
+      "scriptSrc": [
+        "\\.eggplant\\.cloud/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Pingdom": {
+    "name": "Pingdom",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Pingdom is a Swedish website monitoring software as a service company.",
+    "website": "https://www.pingdom.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pingdom\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Quanta": {
+    "name": "Quanta",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Quanta is web performance management solution. Quanta offers the only analytics solution specifically designed to enable business and technical members of ecommerce teams to collaborate effectively with the end in mind: use web performance to directly impact online revenue at all times.",
+    "website": "https://www.quanta.io",
+    "patterns": {
+      "cookies": [
+        "_qta_rum: "
+      ],
+      "scriptSrc": [
+        "\\.quanta\\.io/(?:.+/quanta-rum-v([\\d\\.]+)\\.min\\.js)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78",
+        "Security"
+      ]
+    }
+  },
+  "Raygun": {
+    "name": "Raygun",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Raygun is a cloud-based networking monitoring and bug tracking application.",
+    "website": "https://raygun.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.raygun\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78",
+        "Forums"
+      ]
+    }
+  },
+  "Sematext Experience": {
+    "name": "Sematext Experience",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Sematext Experience for Real User Monitoring Analyze data collected from real-user sessions, detect anomalies, send alerts in real-time, and enhance overall customer digital experience.",
+    "website": "https://sematext.com/experience",
+    "patterns": {
+      "scriptSrc": [
+        "\\.sematext\\.com/experience\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Site24x7": {
+    "name": "Site24x7",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Site24x7 is a cloud-based website and server monitoring platform.",
+    "website": "https://www.site24x7.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.site24x7rum\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "SpeedCurve": {
+    "name": "SpeedCurve",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "SpeedCurve is a front-end performance monitoring service.",
+    "website": "https://www.speedcurve.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.speedcurve\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Splunk RUM": {
+    "name": "Splunk RUM",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Splunk RUM is a real-time, front-end user monitoring and troubleshooting.",
+    "website": "https://www.splunk.com/en_us/observability/real-user-monitoring.html",
+    "patterns": {
+      "scriptSrc": [
+        "browser\\.plumbr\\.io/pa(?:-early)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Uptrends": {
+    "name": "Uptrends",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Uptrends is a website and web performance monitoring solution.",
+    "website": "https://www.uptrends.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.uptrendsdata\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78",
+        "Forums"
+      ]
+    }
+  },
+  "Wakav Performance Monitoring": {
+    "name": "Wakav Performance Monitoring",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 78",
+    "description": "Wakav Performance Monitoring is a real user monitoring (RUM), Web/App performance and availability test platform.",
+    "website": "https://www.wakav.ir",
+    "patterns": {
+      "scriptSrc": [
+        "rum\\.wakav\\.ir/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Amazon CloudWatch RUM": {
+    "name": "Amazon CloudWatch RUM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 78",
+    "description": "Amazon CloudWatch RUM is a real-user monitoring capability that helps you identify and debug issues in the client-side on web applications and enhance end user's digital experience.",
+    "website": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-RUM.html",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  },
+  "Microsoft Application Insights": {
+    "name": "Microsoft Application Insights",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 78",
+    "description": "Microsoft Application Insights is a feature of Azure Monitor that provides extensible application performance management (APM) and monitoring for live web apps.",
+    "website": "https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 78"
+      ]
+    }
+  }
+}

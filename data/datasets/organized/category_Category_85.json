@@ -1,0 +1,86 @@
+{
+  "LaunchDarkly": {
+    "name": "LaunchDarkly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 85",
+    "description": "LaunchDarkly is a continuous delivery and feature flags as a service platform that integrates into a company's current development cycle.",
+    "website": "https://launchdarkly.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:\\.|\\-)launchdarkly(?:\\.com/|\\-sdk\\.)"
+      ],
+      "scripts": [
+        "app\\.launchdarkly\\.com|events\\.launchdarkly\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 85"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "FlagSmith": {
+    "name": "FlagSmith",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 85",
+    "description": "FlagSmith is an open-source, fully supported feature flag & remote configuration solution, which provides hosted API to help deployment to a private cloud or on-premises environment.",
+    "website": "https://flagsmith.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.flagsmith\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 85"
+      ]
+    }
+  },
+  "Split": {
+    "name": "Split",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 85",
+    "description": "Split is a feature delivery platform that powers feature flag management, software experimentation, and continuous delivery.",
+    "website": "https://www.split.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.split\\.io/(?:sdk/split-([\\d\\.]+)\\.min\\.js)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 85",
+        "Category 74"
+      ]
+    }
+  },
+  "Beamer": {
+    "name": "Beamer",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 85",
+    "description": "Beamer is a feature management platform that allows businesses to manage and share new product releases, feature updates, and bug fixes with their customers.",
+    "website": "https://www.getbeamer.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 85"
+      ]
+    }
+  }
+}

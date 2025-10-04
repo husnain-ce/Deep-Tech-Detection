@@ -1,0 +1,320 @@
+{
+  "Adobe Dynamic Media Classic": {
+    "name": "Adobe Dynamic Media Classic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Adobe Dynamic Media Classic is a platform that enables customers to manage, enhance, publish, and deliver dynamic rich media content and personal experiences to consumers across all channels and devices, including web, print material, email campaigns, desktops, social, and mobile.",
+    "website": "https://business.adobe.com/uk/products/experience-manager/scene7-login.html",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.scene7\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Brandfolder": {
+    "name": "Brandfolder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Brandfolder is a cloud-based digital asset management platform.",
+    "website": "https://brandfolder.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.brandfolder\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Bynder": {
+    "name": "Bynder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Bynder is a cloud-based marketing platform where brands create, find, and use all their digital content.",
+    "website": "https://www.bynder.com",
+    "patterns": {
+      "cookies": [
+        "bynder: ^[\\dA-Z]+-[\\dA-Z]+-[\\dA-Z]+-[\\dA-Z]+$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Image Relay": {
+    "name": "Image Relay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Image Relay is a digital asset management system that allows organizations to upload, manage, organize, monitor and track their digital assets.",
+    "website": "https://www.imagerelay.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.imagerelay\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Nextcloud": {
+    "name": "Nextcloud",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Nextcloud is a suite of client-server software for creating and using file hosting services.",
+    "website": "https://nextcloud.com",
+    "patterns": {
+      "cookies": [
+        " __Host-nc_sameSiteCookielax: ",
+        "__Host-nc_sameSiteCookiestrict: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95",
+        "Rich Text Editors"
+      ]
+    }
+  },
+  "Widen": {
+    "name": "Widen",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Widen is a digital asset management and product information management solutions provider.",
+    "website": "https://www.widen.com",
+    "patterns": {
+      "scriptSrc": [
+        "assets/\\d+-\\d+/stack/en/widenjs\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Zmags Creator": {
+    "name": "Zmags Creator",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 95",
+    "description": "Zmags Creator enables marketers to design and publish endless types of interactive digital experiences without coding.",
+    "website": "https://www.creatorbyzmags.com",
+    "patterns": {
+      "scriptSrc": [
+        "c(?:reator)?\\.zmags\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Aprimo": {
+    "name": "Aprimo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Aprimo is a United States-based company that develops and sells marketing automation software and digital asset management technology.",
+    "website": "https://www.aprimo.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Bluestone PIM": {
+    "name": "Bluestone PIM",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Bluestone PIM is primarily a product information management (PIM) solution, which is focused on managing and distributing product data across multiple channels. However, it also includes some features that are typically associated with digital asset management (DAM), such as the ability to manage and store product images, videos, and other digital assets.",
+    "website": "https://www.bluestonepim.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Canto": {
+    "name": "Canto",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Canto is a digital asset management solution.",
+    "website": "https://www.canto.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Celum": {
+    "name": "Celum",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Celum is a software developer that specialises in enterprise digital asset management and marketing content management systems.",
+    "website": "https://www.celum.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Censhare": {
+    "name": "Censhare",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Censhare is a commercial digital experience platform in the form of an enterprise content management system.",
+    "website": "https://www.censhare.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Frontify": {
+    "name": "Frontify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Frontify is a cloud-based brand management platform for creators and collaborators of brands.",
+    "website": "https://www.frontify.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "keep. archeevo": {
+    "name": "keep. archeevo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "keep. archeevo is an archival management software that aims to support all the functional areas of an archival institution, covering activities ranging from archival description to employee performance assessment.",
+    "website": "https://www.keep.pt/en/produts/archeevo-archival-management-software",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "PhotoShelter for Brands": {
+    "name": "PhotoShelter for Brands",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "PhotoShelter for Brands is a cloud-based media management system for companies and organizations.",
+    "website": "https://brands.photoshelter.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Picturepark": {
+    "name": "Picturepark",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Picturepark is designed to facilitate your DAM policies by storing, tagging, searching and delivering files in an automated and controlled way.",
+    "website": "https://picturepark.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Salsify": {
+    "name": "Salsify",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 95",
+    "description": "Salsify is a product experience management platform which connects digital asset management, content syndication, and digital catalog capabilities.",
+    "website": "https://www.salsify.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  },
+  "Dropbox": {
+    "name": "Dropbox",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 95",
+    "description": "",
+    "website": "https://www.dropbox.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 95"
+      ]
+    }
+  }
+}

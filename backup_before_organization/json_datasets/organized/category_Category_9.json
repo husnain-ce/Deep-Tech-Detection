@@ -1,0 +1,242 @@
+{
+  "BunnyCDN": {
+    "name": "BunnyCDN",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://bunny.net/cdn/",
+    "patterns": {
+      "headers": [
+        "Server: (?i)BunnyCDN|BunnyCDN-.*"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "Edgio (Edgecast)": {
+    "name": "Edgio (Edgecast)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://edg.io",
+    "patterns": {
+      "headers": [
+        "Server: (?i)ECD|Ecs|Edgecast"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "Imperva CDN (Incapsula)": {
+    "name": "Imperva CDN (Incapsula)",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.imperva.com",
+    "patterns": {
+      "headers": [
+        "X-CDN: (?i)Incapsula",
+        "X-Iinfo: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 14",
+        "Category 25"
+      ]
+    }
+  },
+  "ArvanCloud CDN": {
+    "name": "ArvanCloud CDN",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.arvancloud.com/en/cdn",
+    "patterns": {
+      "headers": [
+        "Server: (?i)ArvanCloud"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "imgix": {
+    "name": "imgix",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.imgix.com",
+    "patterns": {
+      "url": [
+        "imgix\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 18",
+        "Category 25"
+      ]
+    }
+  },
+  "G-Core Labs CDN": {
+    "name": "G-Core Labs CDN",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://gcore.com/cdn",
+    "patterns": {
+      "headers": [
+        "Server: (?i)G-Core"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "Azion": {
+    "name": "Azion",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.azion.com",
+    "patterns": {
+      "headers": [
+        "Server: ^Azion ",
+        "Server: (?i)Azion"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Medianova CDN": {
+    "name": "Medianova CDN",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.medianova.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)MNCDN|Medianova"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "CDNsun": {
+    "name": "CDNsun",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://cdnsun.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)CDNsun"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "QUANTIL CDN": {
+    "name": "QUANTIL CDN",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://www.quantil.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)QUANTIL|ChinaCache"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  },
+  "Jetpack Site Accelerator": {
+    "name": "Jetpack Site Accelerator",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 9",
+    "description": "",
+    "website": "https://jetpack.com/support/site-accelerator/",
+    "patterns": {
+      "url": [
+        "i\\d\\.wp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 9",
+        "Category 25"
+      ]
+    }
+  }
+}

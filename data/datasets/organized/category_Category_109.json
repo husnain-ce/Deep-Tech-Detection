@@ -1,0 +1,38 @@
+{
+  "GoDaddy Domain Parking": {
+    "name": "GoDaddy Domain Parking",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 109",
+    "description": "GoDaddy is used as a web host and domain registrar.",
+    "website": "https://www.godaddy.com",
+    "patterns": {
+      "scripts": [
+        "wsimg\\.com/parking-lander"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 109"
+      ]
+    }
+  },
+  "Arsys Domain Parking": {
+    "name": "Arsys Domain Parking",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 109",
+    "description": "Arsys is a Spanish domain registrar.",
+    "website": "https://www.arsys.es",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 109"
+      ]
+    }
+  }
+}

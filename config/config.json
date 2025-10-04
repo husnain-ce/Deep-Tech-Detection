@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "datasets": {
+    "path": "data/datasets",
+    "organized_path": "data/datasets/organized",
+    "comprehensive_file": "comprehensive_technologies.json"
+  },
+  "whatweb": {
+    "path": "data/external_tools/WhatWeb/whatweb",
+    "timeout": 30,
+    "aggression": 1
+  },
+  "wappalyzer": {
+    "use_bundled": true,
+    "update_on_init": false
+  },
+  "detection": {
+    "min_confidence": 20,
+    "max_results": 100,
+    "user_agents": 5,
+    "timeout": 30
+  },
+    "output": {
+        "default_format": "json",
+        "pretty_print": true,
+        "save_reports": true,
+        "reports_dir": "output/reports"
+    }
+}

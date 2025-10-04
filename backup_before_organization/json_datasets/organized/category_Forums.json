@@ -1,0 +1,1121 @@
+{
+  "Sentry": {
+    "name": "Sentry",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Sentry is an open-source platform for workflow productivity, aggregating errors from across the stack in real time.",
+    "website": "https://sentry.io/",
+    "patterns": {
+      "html": [
+        "<script[^>]*>\\s*Raven\\.config\\('[^']*', \\{\\s+release: '([0-9\\.]+)'\\;version:\\1",
+        "<script[^>]*src=\"[^\"]*browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "browser\\.sentry\\-cdn\\.com/([0-9.]+)/bundle(?:\\.tracing)?(?:\\.min)?\\.js\\;version:\\1",
+        "browser\\.sentry-cdn\\.com/.*\\.js|js\\.sentry-cdn\\.com/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Atlassian Jira Issue Collector": {
+    "name": "Atlassian Jira Issue Collector",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Atlassian Jira Issue Collector is a tool used to download a list of websites using with email addresses, phone numbers and LinkedIn profiles.",
+    "website": "http://www.atlassian.com/software/jira/overview/",
+    "patterns": {
+      "scriptSrc": [
+        "jira-issue-collector-plugin",
+        "atlassian\\.jira\\.collector\\.plugin"
+      ],
+      "scripts": [
+        "jira-issue-collector-plugin",
+        "atlassian\\.jira\\.collector\\.plugin"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Atlassian Statuspage": {
+    "name": "Atlassian Statuspage",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Statuspage is a status and incident communication tool.",
+    "website": "https://www.atlassian.com/software/statuspage",
+    "patterns": {
+      "headers": [
+        "X-StatusPage-Version: ",
+        "X-StatusPage-Skip-Logging: "
+      ],
+      "html": [
+        "<a[^>]*href=\"https?://(?:www\\.)?statuspage\\.io/powered-by[^>]+>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 62"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Better Uptime": {
+    "name": "Better Uptime",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Better Uptime is the all-in-one infrastructure monitoring platform for your incident management, uptime monitoring, and status pages.",
+    "website": "https://betterstack.com/better-uptime",
+    "patterns": {
+      "scriptSrc": [
+        "//betteruptime\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "BugHerd": {
+    "name": "BugHerd",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "BugHerd is a cloud-based feedback collection and bug management tool.",
+    "website": "https://bugherd.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.bugherd\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Canny": {
+    "name": "Canny",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Canny is a cloud-based solution that helps small to large businesses collect, analyse, prioritise and track user feedback to make informed product decisions.",
+    "website": "https://canny.io",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: //canny\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "cState": {
+    "name": "cState",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "cState is an open-source static (serverless) status page.",
+    "website": "https://github.com/cstate/cstate",
+    "patterns": {
+      "meta": [
+        "generator: cState v([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Feedback Fish": {
+    "name": "Feedback Fish",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Feedback Fish is a widget for collecting website feedback from users.",
+    "website": "https://feedback.fish",
+    "patterns": {
+      "scriptSrc": [
+        "^https://feedback\\.fish/ff\\.js"
+      ],
+      "scripts": [
+        "^https://feedback\\.fish/ff\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GitLab": {
+    "name": "GitLab",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "GitLab is a web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and continuous integration and deployment pipeline features, using an open-source license.",
+    "website": "https://about.gitlab.com",
+    "patterns": {
+      "cookies": [
+        "_gitlab_session: "
+      ],
+      "html": [
+        "<meta content=\"https?://[^/]+/assets/gitlab_logo-",
+        "<header class=\"navbar navbar-fixed-top navbar-gitlab with-horizontal-nav\">"
+      ],
+      "meta": [
+        "og:site_name: ^GitLab$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Help Scout": {
+    "name": "Help Scout",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Help Scout is a customer service platform including email, a knowledge base tool and live chat.",
+    "website": "https://www.helpscout.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.helpscout\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 52"
+      ]
+    }
+  },
+  "HetrixTools": {
+    "name": "HetrixTools",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "HetrixTools is an uptime and blacklist monitoring platform.",
+    "website": "https://hetrixtools.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.hetrixtools\\.com"
+      ],
+      "scriptSrc": [
+        "\\.hetrixtools\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Hund.io": {
+    "name": "Hund.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Hund.io is an automated status pages with monitoring.",
+    "website": "https://hund.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hund\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Marker": {
+    "name": "Marker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Marker.io is an issue tracker solution for Project Managers, QA Testers and Agency Clients to report feedback & bugs to developers.",
+    "website": "https://marker.io",
+    "patterns": {
+      "scriptSrc": [
+        "edge\\.marker\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Mopinion": {
+    "name": "Mopinion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Mopinion is an all-in-one user feedback platform that helps digital enterprises listen, understand, and act across all digital touchpoints.",
+    "website": "https://mopinion.com",
+    "patterns": {
+      "scriptSrc": [
+        "deploy\\.mopinion\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Oh Dear": {
+    "name": "Oh Dear",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "The all-in-one monitoring tool for your entire website. Oh Dear monitors uptime, SSL certificates, broken links, scheduled tasks, application health, DNS, domain expiry and more.",
+    "website": "https://ohdear.app",
+    "patterns": {
+      "scriptSrc": [
+        "\\.ohdear\\.app/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Phabricator": {
+    "name": "Phabricator",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Phabricator is a suite of web-based software development collaboration tools, including the Differential code review tool, the Diffusion repository browser, the Herald change monitoring tool, the Maniphest bug tracker and the Phriction wiki. Phabricator integrates with Git, Mercurial, and Subversion.",
+    "website": "http://phacility.com",
+    "patterns": {
+      "cookies": [
+        "phsid: "
+      ],
+      "html": [
+        "<[^>]+(?:class|id)=\"phabricator-"
+      ],
+      "scriptSrc": [
+        "/phabricator/[a-f0-9]{8}/rsrc/js/phui/[a-z-]+\\.js$"
+      ],
+      "scripts": [
+        "/phabricator/[a-f0-9]{8}/rsrc/js/phui/[a-z-]+\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RapidSpike": {
+    "name": "RapidSpike",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "RapidSpike is an uptime and performance monitoring service for web sites and applications.",
+    "website": "https://www.rapidspike.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.rapidspike\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 78"
+      ]
+    }
+  },
+  "Redmine": {
+    "name": "Redmine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Redmine is a free and open-source, web-based project management and issue tracking tool.",
+    "website": "http://www.redmine.org",
+    "patterns": {
+      "cookies": [
+        "_redmine_session: "
+      ],
+      "html": [
+        "Powered by <a href=\"[^>]+Redmine"
+      ],
+      "meta": [
+        "description: Redmine"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Stackify": {
+    "name": "Stackify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Stackify offers the only solution that fully integrates application performance monitoring with errors and logs.",
+    "website": "https://stackify.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stackify\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 78"
+      ]
+    }
+  },
+  "Status.io": {
+    "name": "Status.io",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Status.io is a hosted system status page manager with features such as customised incident tracking, subscriber notifications, and more.",
+    "website": "https://status.io",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.status\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Statuspal": {
+    "name": "Statuspal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Statuspal is a hosted status page and monitoring software for businesses of all kinds.",
+    "website": "https://statuspal.io",
+    "patterns": {
+      "scriptSrc": [
+        "//statuspal\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Staytus": {
+    "name": "Staytus",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "Staytus is a free, open-source status site that you can install on your own servers.",
+    "website": "https://staytus.co",
+    "patterns": {
+      "meta": [
+        "generator: ^Staytus/([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "UptimeRobot": {
+    "name": "UptimeRobot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "UptimeRobot is a web-based software that is designed to monitor the sites frequently to check whether any site is down owing to server problem or any bug in coding.",
+    "website": "https://uptimerobot.com",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.uptimerobot\\.com"
+      ],
+      "scriptSrc": [
+        "\\.uptimerobot\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "UserReport": {
+    "name": "UserReport",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "UserReport is an online survey and feedback management platform.",
+    "website": "https://www.userreport.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.userreport\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 73"
+      ]
+    }
+  },
+  "UserVoice": {
+    "name": "UserVoice",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "UserVoice is a management to collect and analyse feedback from customers.",
+    "website": "http://uservoice.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.uservoice\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Category 73"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "YouTrack": {
+    "name": "YouTrack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Forums",
+    "description": "YouTrack is a browser-based bug tracker, issue tracking system and project management software.",
+    "website": "http://www.jetbrains.com/youtrack/",
+    "patterns": {
+      "html": [
+        "data-reactid=\"[^\"]+\">youTrack ([0-9.]+)<\\;version:\\1",
+        "type=\"application/opensearchdescription\\+xml\" title=\"YouTrack\"/>",
+        "no-title=\"YouTrack\">"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Atlassian Jira": {
+    "name": "Atlassian Jira",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://www.atlassian.com/software/jira/overview/",
+    "patterns": {
+      "meta": [
+        "data-version: ([\\d.]+)\\;version:\\1\\;confidence:0",
+        "application-name: JIRA"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Bugzilla": {
+    "name": "Bugzilla",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://www.bugzilla.org",
+    "patterns": {
+      "cookies": [
+        "Bugzilla_login_request_cookie: "
+      ],
+      "html": [
+        "href=\"enter_bug\\.cgi\">",
+        "<main id=\"bugzilla-body\"",
+        "<a href=\"https?://www\\.bugzilla\\.org/docs/([0-9.]+)/[^>]+>Help<\\;version:\\1",
+        "<span id=\"information\" class=\"header_addl_info\">version ([\\d.]+)<\\;version:\\1"
+      ],
+      "meta": [
+        "generator: Bugzilla ?([\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Flyspray": {
+    "name": "Flyspray",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://flyspray.org",
+    "patterns": {
+      "cookies": [
+        "flyspray_project: "
+      ],
+      "html": [
+        "(?:<a[^>]+>Powered by Flyspray|<map id=\"projectsearchform)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MantisBT": {
+    "name": "MantisBT",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://www.mantisbt.org",
+    "patterns": {
+      "html": [
+        "<img[^>]+ alt=\"Powered by Mantis Bugtracker"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "osTicket": {
+    "name": "osTicket",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://osticket.com",
+    "patterns": {
+      "cookies": [
+        "OSTSESSID: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "otrs": {
+    "name": "otrs",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "https://www.otrs.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: OTRS ([\\d.]+)\\;version:\\1"
+      ],
+      "html": [
+        "<!--\\s+OTRS: Copyright"
+      ],
+      "scriptSrc": [
+        "^/otrs-web/js/"
+      ],
+      "scripts": [
+        "^/otrs-web/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rollbar": {
+    "name": "Rollbar",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "https://rollbar.com/",
+    "patterns": {
+      "scriptSrc": [
+        "rollbar\\.js/([0-9.]+)\\;version:\\1"
+      ],
+      "scripts": [
+        "rollbar\\.js/([0-9.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Trac": {
+    "name": "Trac",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Forums",
+    "description": "",
+    "website": "http://trac.edgewall.org",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?\\;version:\\1",
+        "<a id=\"tracpowered"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Asana": {
+    "name": "Asana",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Asana is a web and mobile application designed to help teams organize, track, and manage their work.",
+    "website": "https://asana.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Cachet": {
+    "name": "Cachet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Cachet is the free and open-source status page for your API, service or company.",
+    "website": "https://cachethq.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Checkly": {
+    "name": "Checkly",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Checkly is the API and E2E monitoring platform for the modern stack: programmable, flexible and loving JavaScript.",
+    "website": "https://www.checklyhq.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Combodo iTop": {
+    "name": "Combodo iTop",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Combodo iTop is an open-source IT service management (ITSM) and IT operations management (ITOM) platform developed by Combodo, a software company based in France.",
+    "website": "https://www.combodo.com/itop-193",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums",
+        "Rich Text Editors"
+      ]
+    }
+  },
+  "GetFeedback": {
+    "name": "GetFeedback",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "GetFeedback (formerly Usabilla) is a user feedback solution for collecting qualitative and quantitative user feedback across digital channels including websites, apps and emails.",
+    "website": "https://www.getfeedback.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Honeybadger": {
+    "name": "Honeybadger",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Honeybadger provides exception and uptime monitoring to keep your web apps error-free.",
+    "website": "https://www.honeybadger.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Instatus": {
+    "name": "Instatus",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Instatus is a status and incident communication tool.",
+    "website": "https://instatus.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "NodePing": {
+    "name": "NodePing",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "NodePing is a tool in the Website Monitoring category of a tech stack. NodePing is an open source tool with GitHub stars and GitHub forks.",
+    "website": "https://nodeping.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Noibu": {
+    "name": "Noibu",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Noibu helps ecommerce websites detect revenue-impacting errors on their websites and provides them with the information needed to resolve them.",
+    "website": "https://noibu.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Statping": {
+    "name": "Statping",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Statping is an open-source status monitoring tool that helps you to monitor and analyse the performance of your websites, applications, and services. It can monitor multiple endpoints such as HTTP, HTTPS, TCP, DNS, and more.",
+    "website": "https://github.com/statping/statping",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "StatusCast": {
+    "name": "StatusCast",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "StatusCast is a hosted status page management software.",
+    "website": "https://statuscast.com/status-page/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Upptime": {
+    "name": "Upptime",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Upptime is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages.",
+    "website": "https://upptime.js.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Vigil": {
+    "name": "Vigil",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Vigil is a microservices status page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.).",
+    "website": "https://github.com/valeriansaliou/vigil",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Usabilla": {
+    "name": "Usabilla",
+    "source": "technology_lookup",
+    "confidence": 65,
+    "category": "Forums",
+    "description": "Usabilla is a user feedback solution for collecting qualitative and quantitative user feedback across digital channels including websites, apps and emails.",
+    "website": "http://usabilla.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ]
+    }
+  },
+  "Get Satisfaction": {
+    "name": "Get Satisfaction",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Forums",
+    "description": "",
+    "website": "https://getsatisfaction.com/corp/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Taiga": {
+    "name": "Taiga",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Forums",
+    "description": "",
+    "website": "http://taiga.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "UserRules": {
+    "name": "UserRules",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Forums",
+    "description": "",
+    "website": "http://www.userrules.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Forums"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "ApplicantStack": {
+    "name": "ApplicantStack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "ApplicantStack is a full-service applicant tracking system that automates and streamlines all stages of the hiring process.",
+    "website": "https://www.applicantstack.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.applicantstack\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "BambooHR": {
+    "name": "BambooHR",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "BambooHR is an American technology company that provides human resources software as a service.",
+    "website": "https://www.bamboohr.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.bamboohr\\.com"
+      ],
+      "scriptSrc": [
+        "\\.bamboohr\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "DreamApply": {
+    "name": "DreamApply",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "DreamApply is a specialised student application management system designed with and for education institutions.",
+    "website": "https://dreamapply.com",
+    "patterns": {
+      "scriptSrc": [
+        "app\\.cdn\\.dreamapply\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101",
+        "Rich Text Editors"
+      ]
+    }
+  },
+  "Freshteam": {
+    "name": "Freshteam",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "Freshteam is a cloud-based HR and applicant tracking solution offered by Freshworks.",
+    "website": "https://www.freshworks.com/hrms/",
+    "patterns": {
+      "scriptSrc": [
+        "assets\\.freshteam\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Greenhouse": {
+    "name": "Greenhouse",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "Greenhouse is an applicant tracking and hiring tool. Greenhouse features automated workflow, recruitment analytics, CRM, and onboarding.",
+    "website": "https://www.greenhouse.io",
+    "patterns": {
+      "scriptSrc": [
+        "\\.greenhouse\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Hireology": {
+    "name": "Hireology",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "Hireology is a staffing and hiring platform for the franchise and retail-automotive industries.",
+    "website": "https://hireology.com",
+    "patterns": {
+      "url": [
+        "sites\\.hireology\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "HrFlow.ai": {
+    "name": "HrFlow.ai",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "HrFlow.ai is an HR data automation API platform.",
+    "website": "https://hrflow.ai",
+    "patterns": {
+      "scriptSrc": [
+        "\\.hrflow\\.ai"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "JobAdder": {
+    "name": "JobAdder",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "JobAdder is a cloud-based recruitment management platform for staffing agencies and in-house corporate hiring teams.",
+    "website": "https://jobadder.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.jobadder\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Lever": {
+    "name": "Lever",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "Lever is a software company headquartered in San Francisco, California and Toronto, Canada that provides an applicant tracking system for hiring.",
+    "website": "https://www.lever.co",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.lever\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Personio": {
+    "name": "Personio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "Personio is the all-in-one HR software for small- and medium-sized companies with 10 to 2000 employees.",
+    "website": "https://www.personio.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.cdn\\.personio\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "SmartRecruiters": {
+    "name": "SmartRecruiters",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 101",
+    "description": "SmartRecruiters is a web-based talent acquisition platform.",
+    "website": "https://www.smartrecruiters.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.smartrecruiters\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Jobvite": {
+    "name": "Jobvite",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Jobvite is an applicant tracking software and recruiting platform.",
+    "website": "https://www.jobvite.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "OTYS": {
+    "name": "OTYS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "OTYS is a Dutch company that specialises in providing recruitment and staffing agencies with software solutions to manage their workflows, including applicant tracking systems, job board integrations, and candidate sourcing tools.",
+    "website": "https://www.otys.nl",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "PCRecruiter": {
+    "name": "PCRecruiter",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "PCRecruiter is an ATS/CRM hybrid SaaS solution for recruiting and sourcing professionals.",
+    "website": "https://www.pcrecruiter.net",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Paradox": {
+    "name": "Paradox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Paradox is an AI company that helps companies capture and screen candidates, improve conversions, and answer all candidate questions.",
+    "website": "https://www.paradox.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Paylocity": {
+    "name": "Paylocity",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Paylocity is an American company which provides cloud-based payroll and human capital management software.",
+    "website": "https://www.paylocity.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Recruitee": {
+    "name": "Recruitee",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Recruitee is an integrated cloud-based recruitment management and applicant tracking system.",
+    "website": "https://recruitee.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Teamtailor": {
+    "name": "Teamtailor",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Teamtailor is an applicant tracking system, career site and analytics dashboard combined, mobile friendly, and  all-in-one recruitment platform.",
+    "website": "https://www.teamtailor.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  },
+  "Workable": {
+    "name": "Workable",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 101",
+    "description": "Workable is the all-in-one hiring solution.",
+    "website": "https://www.workable.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 101"
+      ]
+    }
+  }
+}

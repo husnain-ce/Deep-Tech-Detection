@@ -1,0 +1,589 @@
+{
+  "Acquia Cloud IDE": {
+    "name": "Acquia Cloud IDE",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Acquia Cloud IDE is a browser-based source code editor and a Drupal development stack running on the Acquia Cloud Platform.",
+    "website": "https://www.acquia.com/products/drupal-cloud/cloud-ide",
+    "patterns": {
+      "url": [
+        "https:?\\/\\/.+\\.web\\.ahdev\\.cloud"
+      ],
+      "scriptSrc": [
+        "https?:\\/\\/.+\\.web\\.ahdev\\.cloud"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ]
+    }
+  },
+  "Atlassian Bitbucket": {
+    "name": "Atlassian Bitbucket",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Bitbucket is a web-based version control repository hosting service for source code and development projects that use either Mercurial or Git revision control systems.",
+    "website": "http://www.atlassian.com/software/bitbucket/overview/",
+    "patterns": {
+      "html": [
+        "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9]+\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1"
+      ],
+      "meta": [
+        "application-name: Bitbucket"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Betty Blocks": {
+    "name": "Betty Blocks",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Betty Blocks is a cloud-based application development solution featuring a no-code, drag-and-drop interface for developing business applications.",
+    "website": "https://www.bettyblocks.com",
+    "patterns": {
+      "meta": [
+        "description: ^Made with Betty Blocks$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47",
+        "Category 62"
+      ]
+    }
+  },
+  "Clockwork": {
+    "name": "Clockwork",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Clockwork is a development tool for PHP available right in your browser.",
+    "website": "https://github.com/underground-works/clockwork-app",
+    "patterns": {
+      "headers": [
+        "x-clockwork-version: ^([\\d\\.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ]
+    }
+  },
+  "EasyEngine": {
+    "name": "EasyEngine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "EasyEngine is a command-line tool for the Nginx web servers to manage WordPress sites that are running on the LEMP Stack.",
+    "website": "https://easyengine.io",
+    "patterns": {
+      "headers": [
+        "x-powered-by: ^EasyEngine (.*)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47",
+        "CDN"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gitea": {
+    "name": "Gitea",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Gitea is an open-source forge software package for hosting software development version control using Git as well as other collaborative features like bug tracking, wikis and code review. It supports self-hosting but also provides a free public first-party instance hosted on DiDi's cloud.",
+    "website": "https://gitea.io",
+    "patterns": {
+      "cookies": [
+        "i_like_gitea: "
+      ],
+      "html": [
+        "<div class=\"ui left\">\\n\\s+© Gitea Version: ([\\d.]+)\\;version:\\1"
+      ],
+      "meta": [
+        "keywords: ^go,git,self-hosted,gitea$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gogs": {
+    "name": "Gogs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Gogs is a self-hosted Git service written in Go.",
+    "website": "http://gogs.io",
+    "patterns": {
+      "cookies": [
+        "i_like_gogits: "
+      ],
+      "html": [
+        "<div class=\"ui left\">\\n\\s+© \\d{4} Gogs Version: ([\\d.]+) Page:\\;version:\\1",
+        "<button class=\"ui basic clone button\" id=\"repo-clone-ssh\" data-link=\"gogs@"
+      ],
+      "meta": [
+        "keywords: go, git, self-hosted, gogs"
+      ],
+      "scriptSrc": [
+        "js/gogs\\.js"
+      ],
+      "scripts": [
+        "js/gogs\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Microsoft Visual Studio": {
+    "name": "Microsoft Visual Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Microsoft Visual Studio is an integrated development environment from Microsoft.",
+    "website": "https://visualstudio.microsoft.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Microsoft\\sVisual\\sStudio"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ]
+    }
+  },
+  "OutSystems": {
+    "name": "OutSystems",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "OutSystems is a low-code platform which provides tools for companies to develop, deploy and manage omnichannel enterprise applications.",
+    "website": "https://www.outsystems.com",
+    "patterns": {
+      "scriptSrc": [
+        "scripts/OutSystems(?:[\\w]+)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ]
+    }
+  },
+  "Replit": {
+    "name": "Replit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "Replit is a platform for creating and sharing software.",
+    "website": "https://replit.com",
+    "patterns": {
+      "headers": [
+        "expect-ct: \\.repl\\.it/",
+        "replit-cluster: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ]
+    }
+  },
+  "SlickStack": {
+    "name": "SlickStack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "SlickStack is a free LEMP stack automation script written in Bash designed to enhance and simplify WordPress provisioning, performance, and security.",
+    "website": "https://slickstack.io",
+    "patterns": {
+      "headers": [
+        "x-powered-by: SlickStack"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47",
+        "CDN"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SonarQubes": {
+    "name": "SonarQubes",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 47",
+    "description": "SonarQube is an open-source platform for the continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages.",
+    "website": "https://www.sonarqube.org/",
+    "patterns": {
+      "html": [
+        "<link href=\"/css/sonar\\.css\\?v=([\\d.]+)\\;version:\\1",
+        "<title>SonarQube</title>"
+      ],
+      "meta": [
+        "application-name: ^SonarQubes$"
+      ],
+      "scriptSrc": [
+        "^/js/bundles/sonar\\.js?v=([\\d.]+)$\\;version:\\1"
+      ],
+      "scripts": [
+        "^/js/bundles/sonar\\.js?v=([\\d.]+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Artifactory": {
+    "name": "Artifactory",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://jfrog.com/open-source/#os-arti",
+    "patterns": {
+      "html": [
+        "<span class=\"version\">Artifactory(?: Pro)?(?: Power Pack)?(?: ([\\d.]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "wicket/resource/org\\.artifactory\\."
+      ],
+      "scripts": [
+        "wicket/resource/org\\.artifactory\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Atlassian FishEye": {
+    "name": "Atlassian FishEye",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://www.atlassian.com/software/fisheye/overview/",
+    "patterns": {
+      "cookies": [
+        "FESESSIONID: "
+      ],
+      "html": [
+        "<title>(?:Log in to )?FishEye (?:and Crucible )?([\\d.]+)?</title>\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gerrit": {
+    "name": "Gerrit",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://www.gerritcodereview.com",
+    "patterns": {
+      "html": [
+        "<(?:div|style) id=\"gerrit_",
+        ">Gerrit Code Review</a>\\s*\"\\s*\\(([0-9.]+)\\)\\;version:\\1"
+      ],
+      "meta": [
+        "title: ^Gerrit Code Review$"
+      ],
+      "scriptSrc": [
+        "^gerrit_ui/gerrit_ui"
+      ],
+      "scripts": [
+        "^gerrit_ui/gerrit_ui"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gitiles": {
+    "name": "Gitiles",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://gerrit.googlesource.com/gitiles/",
+    "patterns": {
+      "html": [
+        "Powered by <a href=\"https://gerrit\\.googlesource\\.com/gitiles/\">Gitiles<"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "git": {
+    "name": "git",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://git-scm.com",
+    "patterns": {
+      "meta": [
+        "generator: \\bgit/([\\d.]+\\d)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "gitlist": {
+    "name": "gitlist",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://gitlist.org",
+    "patterns": {
+      "html": [
+        "<p>Powered by <a[^>]+>GitList ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "gitweb": {
+    "name": "gitweb",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://git-scm.com",
+    "patterns": {
+      "html": [
+        "<!-- git web interface version ([\\d.]+)?\\;version:\\1"
+      ],
+      "meta": [
+        "generator: gitweb(?:/([\\d.]+\\d))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "static/gitweb\\.js$"
+      ],
+      "scripts": [
+        "static/gitweb\\.js$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Kubernetes Dashboard": {
+    "name": "Kubernetes Dashboard",
+    "source": "technology_lookup",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "https://kubernetes.io/",
+    "patterns": {
+      "html": [
+        "<html ng-app=\"kubernetesDashboard\">"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PHPDebugBar": {
+    "name": "PHPDebugBar",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 47",
+    "description": "",
+    "website": "http://phpdebugbar.com/",
+    "patterns": {
+      "scriptSrc": [
+        "debugbar.*\\.js"
+      ],
+      "scripts": [
+        "debugbar.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Storybook": {
+    "name": "Storybook",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 47",
+    "description": "Storybook is a frontend workshop for building UI components and pages in isolation.",
+    "website": "https://storybook.js.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47",
+        "Category 66"
+      ]
+    }
+  },
+  "Upvoty": {
+    "name": "Upvoty",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 47",
+    "description": "",
+    "website": "https://upvoty.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

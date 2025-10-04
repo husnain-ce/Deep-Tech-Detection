@@ -1,0 +1,1224 @@
+{
+  "Bootstrap": {
+    "name": "Bootstrap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+    "website": "https://getbootstrap.com",
+    "patterns": {
+      "html": [
+        "<style>\\s+/\\*!\\s+\\* Bootstrap v(\\d\\.\\d\\.\\d)\\;version:\\1",
+        "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css\\;version:\\1",
+        "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>-]*?(?:\\.min)?\\.css\\;version:\\1",
+        "bootstrap(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1",
+        "/bootstrap(?:\\.bundle)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Tailwind CSS": {
+    "name": "Tailwind CSS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Tailwind is a utility-first CSS framework.",
+    "website": "https://tailwindcss.com/",
+    "patterns": {
+      "css": [
+        "--tw-(?:rotate|translate|space-x|text-opacity|border-opacity)"
+      ],
+      "scriptSrc": [
+        "\\.tailwindcss(?:tailwind-config-cdn)?\\.(?:com|js)"
+      ],
+      "html": [
+        "(?i)tailwind(?:\\.min)?\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Ant Design": {
+    "name": "Ant Design",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
+    "website": "https://ant.design",
+    "patterns": {
+      "html": [
+        "<i class=\"anticon anticon-",
+        "ant-[a-z-]+",
+        "<[^>]*class=\"ant-(?:btn|col|row|layout|breadcrumb|menu|pagination|steps|select|cascader|checkbox|calendar|form|input-number|input|mention|rate|radio|slider|switch|tree-select|time-picker|transfer|upload|avatar|badge|card|carousel|collapse|list|popover|tooltip|table|tabs|tag|timeline|tree|alert|modal|message|notification|progress|popconfirm|spin|anchor|back-top|divider|drawer)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Semantic UI": {
+    "name": "Semantic UI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Semantic UI is a front-end development framework, powered by LESS and jQuery.",
+    "website": "https://semantic-ui.com/",
+    "patterns": {
+      "html": [
+        "<link[^>]+semantic(?:\\.min)\\.css\""
+      ],
+      "scriptSrc": [
+        "/semantic(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "semantic(?:\\.min)?\\.js",
+        "/semantic(?:-([\\d.]+))?(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Angular Material": {
+    "name": "Angular Material",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Angular Material is a UI component library for Angular JS developers. Angular Material components assist in constructing attractive, consistent, and functional web pages and web applications.",
+    "website": "https://material.angularjs.org",
+    "patterns": {
+      "scriptSrc": [
+        "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "/([\\d.rc-]+)?/angular-material(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Chakra UI": {
+    "name": "Chakra UI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.",
+    "website": "https://chakra-ui.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.chakra-ui\\."
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Clarity": {
+    "name": "Clarity",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Clarity is an open-source design system that brings together UX guidelines, an HTML/CSS framework, and Angular components.",
+    "website": "https://clarity.design",
+    "patterns": {
+      "scriptSrc": [
+        "clr-angular(?:\\.umd)?(?:\\.min)?\\.js"
+      ],
+      "html": [
+        "<clr-main-container",
+        "<link [^>]*href=\"[^\"]*clr-ui(?:\\.min)?\\.css"
+      ],
+      "scripts": [
+        "clr-angular(?:\\.umd)?(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "CoreUI": {
+    "name": "CoreUI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "CoreUI provides cloud hosting, web and mobile design, animations, wireframes, and UX testing services.",
+    "website": "https://coreui.io",
+    "patterns": {
+      "scripts": [
+        "webpackJsonp@coreui/coreui"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Elm-ui": {
+    "name": "Elm-ui",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Elm-UI is a library for creating user interfaces in Elm programming language. It provides a set of functions and abstractions for building responsive and reusable UI components, such as buttons, forms, and layouts, in a declarative and type-safe way.",
+    "website": "https://github.com/mdgriffith/elm-ui",
+    "patterns": {
+      "html": [
+        "<style>[\\s\\S]*\\.explain > \\.s[\\s\\S]*\\.explain > \\.ctr > \\.s"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Flowbite": {
+    "name": "Flowbite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Flowbite is an open-source library of UI components based on the utility-first Tailwind CSS framework featuring dark mode support, a Figma design system, and more.",
+    "website": "https://github.com/themesberg/flowbite",
+    "patterns": {
+      "scriptSrc": [
+        "/flowbite(?:@([\\d\\.]+)/|\\.bundle\\.js)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Flutter": {
+    "name": "Flutter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.",
+    "website": "https://flutter.dev",
+    "patterns": {
+      "meta": [
+        "id: ^flutterweb-theme$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Kendo UI": {
+    "name": "Kendo UI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Kendo UI is a HTML5 user interface framework for building interactive and high-performance websites and applications.",
+    "website": "https://www.telerik.com/kendo-ui",
+    "patterns": {
+      "html": [
+        "<link[^>]*\\s+href=[^>]*styles/kendo\\.common(?:\\.min)?\\.css[^>]*/>"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "MDBootstrap": {
+    "name": "MDBootstrap",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "MDBootstrap (Material Design for Bootstrap) is a complete UI package that can be integrated with other frameworks such as Angular, React, Vue, etc. It is used to design a fully responsive and mobile-friendly layout using various components, plugins, animation.",
+    "website": "https://mdbootstrap.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:/mdbootstrap/([\\d\\.]+)/)?js/mdb\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "MUI": {
+    "name": "MUI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "MUI(formerly Material UI) is a simple and customisable component library to build faster, beautiful, and more accessible React applications.",
+    "website": "https://mui.com",
+    "patterns": {
+      "css": [
+        "\\.MuiPaper-root"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Material Design Lite": {
+    "name": "Material Design Lite",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Material Design Lite is a library of components for web developers.",
+    "website": "https://getmdl.io",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "(?:/([\\d.]+))?/material(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "(?:/([\\d.]+))?/material(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Materialize CSS": {
+    "name": "Materialize CSS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Materialize CSS is a front-end framework that helps developers create responsive and mobile-first web applications. It is based on Google's Material Design guidelines.",
+    "website": "http://materializecss.com",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d\\.]+)/.*/materialize\\.min\\.js\\;version:\\1"
+      ],
+      "html": [
+        "<link[^>]* href=\"[^\"]*materialize(?:\\.min)?\\.css"
+      ],
+      "scripts": [
+        "materialize(?:\\.min)?\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NextUI": {
+    "name": "NextUI",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "NextUI allows you to make beautiful, modern, and fast websites/applications regardless of your design experience, created with React.js and Stitches, based on React Aria and inspired by Vuesax.",
+    "website": "https://nextui.org/",
+    "patterns": {
+      "css": [
+        "--nextui-(?:colors-accents1|colors-text|space-0|fonts-sans|fonts-mono)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "PrimeNG": {
+    "name": "PrimeNG",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "PrimeNG is a rich set of open-source UI Components for Angular.",
+    "website": "https://www.primefaces.org",
+    "patterns": {
+      "css": [
+        "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "PrimeReact": {
+    "name": "PrimeReact",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "PrimeReact is a rich set of open-source UI Components for React.",
+    "website": "https://www.primefaces.org",
+    "patterns": {
+      "css": [
+        "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "PrimeVue": {
+    "name": "PrimeVue",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "PrimeVue is a rich set of open-source UI Components for Vue.js.",
+    "website": "https://www.primefaces.org",
+    "patterns": {
+      "css": [
+        "\\.p-(?:toast|calendar|dialog-mask|menuitem-text)(?:-content)?\\{"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Pure CSS": {
+    "name": "Pure CSS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Pure CSS is a set of small, responsive CSS modules that can be used in web projects.",
+    "website": "http://purecss.io",
+    "patterns": {
+      "html": [
+        "<div[^>]+class=\"[^\"]*pure-u-(?:sm-|md-|lg-|xl-)?\\d-\\d",
+        "<link[^>]+(?:([\\d.])+/)?pure(?:-min)?\\.css\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Spatie Media Library Pro": {
+    "name": "Spatie Media Library Pro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Spatie Media Library Pro is a set of customizable UI components for Spatie Media Library.",
+    "website": "https://medialibrary.pro",
+    "patterns": {
+      "scripts": [
+        "media\\-library\\-pro\\-core"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "TDesign": {
+    "name": "TDesign",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "TDesign launched by Tencent contains rich and reusable design component resources, such as color system, text system, motion design, etc.",
+    "website": "https://tdesign.tencent.com",
+    "patterns": {
+      "scriptSrc": [
+        "tdesign\\.gtimg\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "UIKit": {
+    "name": "UIKit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "UIKit is the framework used for developing iOS applications.",
+    "website": "https://getuikit.com",
+    "patterns": {
+      "html": [
+        "<[^>]+class=\"[^\"]*(?:uk-container|uk-section)"
+      ],
+      "scriptSrc": [
+        "uikit.*\\.js"
+      ],
+      "scripts": [
+        "uikit.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "USWDS": {
+    "name": "USWDS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "USWDS is a design system for the federal government.",
+    "website": "https://designsystem.digital.gov",
+    "patterns": {
+      "scriptSrc": [
+        "\\buswds\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "UnoCSS": {
+    "name": "UnoCSS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "UnoCSS is instant on-demand Atomic CSS engine.",
+    "website": "https://uno.antfu.me/",
+    "patterns": {
+      "css": [
+        "--un-(?:rotate|translate|space-x|text-opacity|border-opacity)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Vuetify": {
+    "name": "Vuetify",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Vuetify is a reusable semantic component framework for Vue.js that aims to provide clean, semantic and reusable components.",
+    "website": "https://vuetifyjs.com",
+    "patterns": {
+      "css": [
+        "\\.v-application \\.d-block ",
+        "\\.v-application \\.d-block"
+      ],
+      "html": [
+        "<div data-app[^>]+class=\"v-application"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ZURB Foundation": {
+    "name": "ZURB Foundation",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Zurb Foundation is used to prototype in the browser. Allows rapid creation of websites or applications while leveraging mobile and responsive technology. The front end framework is the collection of HTML, CSS, and Javascript containing design patterns.",
+    "website": "http://foundation.zurb.com",
+    "patterns": {
+      "html": [
+        "<link[^>]+foundation[^>\"]+css",
+        "<div [^>]*class=\"[^\"]*(?:small|medium|large)-\\d{1,2} columns"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "animate.css": {
+    "name": "animate.css",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Animate.css is a ready-to-use library collection of CSS3 animation effects.",
+    "website": "https://daneden.github.io/animate.css/",
+    "patterns": {
+      "html": [
+        "<link [^>]+(?:/([\\d.]+)/)?animate\\.(?:min\\.)?css\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "tailwindcss": {
+    "name": "tailwindcss",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Category 66",
+    "description": "Tailwind is a utility-first CSS framework.",
+    "website": "https://tailwindcss.com/",
+    "patterns": {
+      "html": [
+        "<link[^>]+?href=\"[^\"]+tailwindcss[@|/][a-z]+/tailwind(?:.min)?.css",
+        "<link[^>]+?href=\"[^\"]+tailwindcss[@|/](?:\\^)?([\\d.]+)(?:/[a-z]+)?/(?:tailwind|base|components|utilities)(?:\\.min)?\\.css\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Flat UI": {
+    "name": "Flat UI",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://designmodo.github.io/Flat-UI/",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=[^>]+flat-ui(?:\\.min)?\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GOV.UK Elements": {
+    "name": "GOV.UK Elements",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://github.com/alphagov/govuk_elements/",
+    "patterns": {
+      "html": [
+        "<div[^>]+phase-banner-beta\\;confidence:25",
+        "<link[^>]+elements-page[^>\"]+css\\;confidence:25",
+        "<div[^>]+phase-banner-alpha\\;confidence:25",
+        "<div[^>]+govuk-box-highlight\\;confidence:25"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GOV.UK Frontend": {
+    "name": "GOV.UK Frontend",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://design-system.service.gov.uk/",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=[^>]*?govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.css\\;version:\\1",
+        "<a[^>]+govuk-link\\;confidence:10",
+        "<body[^>]+govuk-template__body\\;confidence:80"
+      ],
+      "scriptSrc": [
+        "govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "govuk-frontend(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>]*?(?:\\.min)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "GOV.UK Template": {
+    "name": "GOV.UK Template",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://github.com/alphagov/govuk_template/",
+    "patterns": {
+      "html": [
+        "<link[^>]+govuk-template-ie7[^>\"]+css",
+        "<link[^>]+govuk-template-ie6[^>\"]+css",
+        "<link[^>]+govuk-template-print[^>\"]+css",
+        "<link[^>]+govuk-template-ie8[^>\"]+css",
+        "<link[^>]+govuk-template[^>\"]+css"
+      ],
+      "scriptSrc": [
+        "govuk-template\\.js"
+      ],
+      "scripts": [
+        "govuk-template\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Milligram": {
+    "name": "Milligram",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://milligram.io",
+    "patterns": {
+      "html": [
+        "<link[^>]+?href=\"[^\"]+milligram(?:\\.min)?\\.css"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Shapecss": {
+    "name": "Shapecss",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://shapecss.com",
+    "patterns": {
+      "html": [
+        "<link[^>]* href=\"[^\"]*shapecss(?:\\.min)?\\.css"
+      ],
+      "scriptSrc": [
+        "shapecss[-.]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+)/shapecss(?:\\.min)?\\.js\\;version:\\1",
+        "shapecss.*\\.js"
+      ],
+      "scripts": [
+        "shapecss[-.]([\\d.]*\\d)[^/]*\\.js\\;version:\\1",
+        "/([\\d.]+)/shapecss(?:\\.min)?\\.js\\;version:\\1",
+        "shapecss.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Animate.css": {
+    "name": "Animate.css",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Animate.css is a ready-to-use library collection of CSS3 animation effects.",
+    "website": "https://animate.style",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Aura": {
+    "name": "Aura",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Aura is an open-source UI framework built by Salesforce for developing dynamic web apps for mobile and desktop devices.",
+    "website": "https://github.com/forcedotcom/aura",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "augmented-ui": {
+    "name": "augmented-ui",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "augmented-ui is a UI framework inspired by cyberpunk and sci-fi.",
+    "website": "http://augmented-ui.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "CivicTheme": {
+    "name": "CivicTheme",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "CivicTheme is an open source, inclusive and component-based design system. It was created so governments and corporations can rapidly assemble modern, consistent and compliant digital experiences.",
+    "website": "https://www.civictheme.io/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "daisyUI": {
+    "name": "daisyUI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "daisyUI is a customisable Tailwind CSS component library that prevents verbose markup in frontend applications. With a focus on customising and creating themes for user interfaces, daisyUI uses pure CSS and Tailwind utility classes, allowing developers to write clean HTML.",
+    "website": "https://daisyui.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Headless UI": {
+    "name": "Headless UI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Headless UI is an unstyled component library for either React.js or Vue.js from the same people that created Tailwind CSS.",
+    "website": "https://headlessui.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Hypestyle CSS": {
+    "name": "Hypestyle CSS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Hypestyle CSS is a small CSS library build on utility classes and components.",
+    "website": "https://www.hypestylecss.xyz",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Layui": {
+    "name": "Layui",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Layui is an open-source modular front-end UI component library.",
+    "website": "https://layui.gitee.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "MDUI": {
+    "name": "MDUI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "MDUI is a CSS Framework based on material design.",
+    "website": "https://www.mdui.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "MetroUI": {
+    "name": "MetroUI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "MetroUI is an open-source frontend toolkit inspired by Microsoft Fluent (former Metro) design principles.",
+    "website": "https://github.com/olton/Metro-UI-CSS",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Naive UI": {
+    "name": "Naive UI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Naive UI is a Vue.js UI library written in TypeScript, offering more than 80 treeshakable components.",
+    "website": "https://www.naiveui.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Pico CSS": {
+    "name": "Pico CSS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Pico CSS is a minimal CSS framework for semantic HTML, without using classes.",
+    "website": "https://picocss.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Storefront UI": {
+    "name": "Storefront UI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Storefront UI is an independent, Vue. js-based, library of UI components.",
+    "website": "https://vuestorefront.io/storefront-ui",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "SvelteKit": {
+    "name": "SvelteKit",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "SvelteKit is the official Svelte framework for building web applications with a flexible filesystem-based routing.",
+    "website": "https://kit.svelte.dev",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "siimple": {
+    "name": "siimple",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "siimple is a minimal CSS toolkit for building flat, clean and responsive web designs.",
+    "website": "https://siimple.xyz",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "Tachyons": {
+    "name": "Tachyons",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "Tachyons is a functional CSS framework.",
+    "website": "https://tachyons.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "VKUI": {
+    "name": "VKUI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "VKUI is a set of React components with which you can create interfaces that are visually indistinguishable from our iOS and Android applications.",
+    "website": "https://vkcom.github.io/VKUI",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "W3.CSS": {
+    "name": "W3.CSS",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 66",
+    "description": "W3.CSS is a CSS framework developed by the World Wide Web Consortium (W3C), the main international standards organisation for the World Wide Web.",
+    "website": "https://www.w3schools.com/w3css/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ]
+    }
+  },
+  "GOV.UK Toolkit": {
+    "name": "GOV.UK Toolkit",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://github.com/alphagov/govuk_frontend_toolkit",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NSW Design System": {
+    "name": "NSW Design System",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "Category 66",
+    "description": "",
+    "website": "https://www.digital.nsw.gov.au/digital-design-system",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 66"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

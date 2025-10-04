@@ -1,0 +1,946 @@
+{
+  "A8.net": {
+    "name": "A8.net",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": " A8.net is an affiliate marketing network.",
+    "website": "https://www.a8.net",
+    "patterns": {
+      "scriptSrc": [
+        "statics\\.a8\\.net"
+      ],
+      "scripts": [
+        "statics\\.a8\\.net"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AWIN": {
+    "name": "AWIN",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "AWIN is a global affiliate marketing network.",
+    "website": "https://www.awin.com",
+    "patterns": {
+      "cookies": [
+        "_aw_xid: ",
+        "BAGawin: "
+      ],
+      "scriptSrc": [
+        "dwin1\\.com"
+      ],
+      "scripts": [
+        "dwin1\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "AccessTrade": {
+    "name": "AccessTrade",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "AccessTrade is an affiliate marketing platform based on the CPA model developed by Interspace Co.",
+    "website": "https://accesstrade.global/",
+    "patterns": {
+      "scriptSrc": [
+        "accesstrade\\.net/js/",
+        "click\\.accesstra\\.de/js/nct/lp\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Admitad": {
+    "name": "Admitad",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Admitad is an affiliate network that acts as an intermediary between advertisers and publishers.",
+    "website": "https://www.admitad.com",
+    "patterns": {
+      "scriptSrc": [
+        "artfut\\.com/static/(?:tracking|crossdevice)\\.min\\.js",
+        "cdn\\.admitad\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Affilae": {
+    "name": "Affilae",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Affilae is an affiliate marketing platform that enables brands to connect, collaborate with influencers and affiliates.",
+    "website": "https://affilae.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.affilae\\.com/(?:.+v([\\d\\.]+)|.+)?\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Affiliate B": {
+    "name": "Affiliate B",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Affiliate B is an advertising system that allows site operators (HP, blogs, e-mail newsletters, etc.) to place advertiser advertisements on their own sites.",
+    "website": "https://affiliate-b.com",
+    "patterns": {
+      "scriptSrc": [
+        "t\\.afi-b\\.com"
+      ],
+      "scripts": [
+        "t\\.afi-b\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Affiliate Future": {
+    "name": "Affiliate Future",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Affiliate Future is a provider of advertisers with marketing solution through its affiliate network and tools.",
+    "website": "http://affiliatefuture.com",
+    "patterns": {
+      "scriptSrc": [
+        "tags\\.affiliatefuture\\.com"
+      ],
+      "scripts": [
+        "tags\\.affiliatefuture\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Affiliatly": {
+    "name": "Affiliatly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Affiliatly is an affiliate marketing software for ecommerce store owners.",
+    "website": "https://www.affiliatly.com",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.affiliatly\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Affilo": {
+    "name": "Affilo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Affilo is an all-in-one solution for referrals and affiliate marketing.",
+    "website": "https://affilo.io",
+    "patterns": {
+      "scriptSrc": [
+        "//affilo\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71",
+        "Category 100"
+      ]
+    }
+  },
+  "Amazon Associates": {
+    "name": "Amazon Associates",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Amazon Associates is an affiliate marketing program that allows website owners and bloggers to create links and earn referral fees when customers click through and buy products from Amazon.",
+    "website": "https://affiliate-program.amazon.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.associates-amazon\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Booking.com": {
+    "name": "Booking.com",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Booking.com is one of the largest ecommerce travel companies in the world. As an affiliate member, you can make up to 40% commission.",
+    "website": "https://www.booking.com/affiliate-program/v2/selfmanaged.html",
+    "patterns": {
+      "scriptSrc": [
+        "aff\\.bstatic\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Digistore24": {
+    "name": "Digistore24",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Digistore24 is a German digital reselling and affiliate marketing platform.",
+    "website": "https://www.digistore24.com",
+    "patterns": {
+      "scriptSrc": [
+        "digistore/digistore\\.js",
+        "www\\.digistore24\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Dovetale": {
+    "name": "Dovetale",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Dovetale (Acquired by Shopify) helps e-commerce stores recruit, manage, & grow their sales with communities of people who love their products.",
+    "website": "https://dovetale.com/",
+    "patterns": {
+      "scriptSrc": [
+        "dttrk\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Duel": {
+    "name": "Duel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Duel is a customer advocacy marketing platform.",
+    "website": "https://www.duel.tech",
+    "patterns": {
+      "cookies": [
+        "_duelcsrf: "
+      ],
+      "scriptSrc": [
+        "\\.duel\\.me/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "eBay Partner Network": {
+    "name": "eBay Partner Network",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "eBay Partner Network is an online referral program where eBay pays commissions to referrers on sales generated by customers they’ve referred.",
+    "website": "https://partnernetwork.ebay.com",
+    "patterns": {
+      "scriptSrc": [
+        "epnt\\.ebay\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71",
+        "Category 94"
+      ]
+    }
+  },
+  "FirstPromoter": {
+    "name": "FirstPromoter",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "FirstPromoter is a software platform that helps businesses to create, manage and track their affiliate marketing programs.",
+    "website": "https://firstpromoter.com",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.firstpromoter\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "GoAffPro": {
+    "name": "GoAffPro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Goaffpro is an affiliate marketing solution for ecommerce stores.",
+    "website": "https://goaffpro.com/",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.goaffpro\\.com/loader\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Impact": {
+    "name": "Impact",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Impact helps businesses contract and pay partners.",
+    "website": "https://impact.com/",
+    "patterns": {
+      "scriptSrc": [
+        "d\\.impactradius-event\\.com"
+      ],
+      "scripts": [
+        "d\\.impactradius-event\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Moshimo": {
+    "name": "Moshimo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Moshimo is a free affiliate service for individuals.",
+    "website": "https://af.moshimo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.moshimo\\.com/af/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Narrativ": {
+    "name": "Narrativ",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Narrativ is a subscription technology platform for brands to acquire new customers through trusted creators.",
+    "website": "https://narrativ.com/",
+    "patterns": {
+      "scriptSrc": [
+        "static\\.narrativ\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Optimise": {
+    "name": "Optimise",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Optimise Media Group is a UK-based performance advertising network.",
+    "website": "https://www.optimisemedia.com",
+    "patterns": {
+      "scriptSrc": [
+        "track\\.omguk\\.com"
+      ],
+      "scripts": [
+        "track\\.omguk\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Pepperjam": {
+    "name": "Pepperjam",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Pepperjam is an affiliate marketing solutions provider.",
+    "website": "https://www.pepperjam.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.pepperjam\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Post Affiliate Pro": {
+    "name": "Post Affiliate Pro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Post Affiliate Pro is a software built for online stores and ecommerce websites that need to track and monitor their affiliate network.",
+    "website": "https://www.postaffiliatepro.com",
+    "patterns": {
+      "scriptSrc": [
+        "postaffiliatepro\\.com/scripts/trackjs\\.js",
+        "(?:affiliate|associate)\\..+/scripts/trackjs\\.js"
+      ],
+      "scripts": [
+        "postaffiliatepro\\.com/scripts/trackjs\\.js",
+        "(?:affiliate|associate)\\..+/scripts/trackjs\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rakuten": {
+    "name": "Rakuten",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Rakuten (formerly Ebates) allows you to earn cash-back rewards.",
+    "website": "https://www.rakuten.com/",
+    "patterns": {
+      "cookies": [
+        "rakuten-source: "
+      ],
+      "scriptSrc": [
+        "tag\\.rmp\\.rakuten\\.com",
+        "\\.linksynergy\\.com"
+      ],
+      "scripts": [
+        "tag\\.rmp\\.rakuten\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Refersion": {
+    "name": "Refersion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Refersion is an affiliate management app.",
+    "website": "http://refersion.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.refersion\\.com"
+      ],
+      "scripts": [
+        "\\.refersion\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71",
+        "Cookie compliance"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "RevenueHunt": {
+    "name": "RevenueHunt",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "RevenueHunt is an affiliate marketing and advertising company specializing in paid surveys and cost per lead campaigns.",
+    "website": "https://revenuehunt.com",
+    "patterns": {
+      "scriptSrc": [
+        "admin\\.revenuehunt\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Rewardful": {
+    "name": "Rewardful",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Rewardful is a way for SaaS companies to setup affiliate and referral programs with Stripe.",
+    "website": "https://www.getrewardful.com/",
+    "patterns": {
+      "scriptSrc": [
+        "r\\.wdfl\\.co"
+      ],
+      "scripts": [
+        "r\\.wdfl\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "ShoutOut": {
+    "name": "ShoutOut",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "ShoutOut is a multi-level marketing SaaS solution that allows tracking of affiliates.",
+    "website": "https://www.shoutout.global",
+    "patterns": {
+      "scriptSrc": [
+        "\\.shoutout\\.global/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Skimlinks": {
+    "name": "Skimlinks",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Skimlinks is a content monetization platform for online publishers.",
+    "website": "https://skimlinks.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.skimresources\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Sovrn//Commerce": {
+    "name": "Sovrn//Commerce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Sovrn//Commerce is  a content monetization tool for publishers.",
+    "website": "https://www.sovrn.com/publishers/commerce/",
+    "patterns": {
+      "scriptSrc": [
+        "(?:^[^/]*//[^/]*viglink\\.com/api/|vglnk\\.js)"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Tapfiliate": {
+    "name": "Tapfiliate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Tapfiliate is a cloud-based affiliate marketing software that helps businesses to create, track, and optimise their own affiliate marketing programs.",
+    "website": "https://tapfiliate.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.tapfiliate\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Tradedoubler": {
+    "name": "Tradedoubler",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Tradedoubler is a global affiliate marketing network.",
+    "website": "https://www.tradedoubler.com/",
+    "patterns": {
+      "scriptSrc": [
+        "swrap\\.tradedoubler\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Upfluence": {
+    "name": "Upfluence",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Upfluence is the all-in-one affiliate and influencer marketing platform for ecommerce and direct-to-consumer brands.",
+    "website": "https://www.upfluence.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.upfluence\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "ValueCommerce": {
+    "name": "ValueCommerce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "ValueCommerce is a pay-per-performance advertising affiliate marketing network.",
+    "website": "https://www.valuecommerce.co.jp",
+    "patterns": {
+      "scriptSrc": [
+        "\\.valuecommerce\\.com"
+      ],
+      "scripts": [
+        "\\.valuecommerce\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Webgains": {
+    "name": "Webgains",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 71",
+    "description": "Webgains is an affiliate marketing network.",
+    "website": "https://www.webgains.com/",
+    "patterns": {
+      "scriptSrc": [
+        "analytics\\.webgains\\.io"
+      ],
+      "scripts": [
+        "analytics\\.webgains\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Clickbank": {
+    "name": "Clickbank",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 71",
+    "description": "",
+    "website": "https://www.clickbank.com/",
+    "patterns": {
+      "scriptSrc": [
+        "r\\.wdfl\\.co"
+      ],
+      "scripts": [
+        "r\\.wdfl\\.co"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Affilio": {
+    "name": "Affilio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "Affilio is an Iranian affiliate marketing platform.",
+    "website": "https://affilio.ir",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "CPABuild": {
+    "name": "CPABuild",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "CPABuild is a next generation CPA network with integrated template building and sharing functionality.",
+    "website": "https://cpabuild.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "FinanceAds": {
+    "name": "FinanceAds",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "FinanceAds is a performance marketing agency that has grown affiliate network for the financial sector.",
+    "website": "https://www.financeads.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "JANet": {
+    "name": "JANet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "JANet is an affiliate marketing network.",
+    "website": "https://j-a-net.jp",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Partnerize": {
+    "name": "Partnerize",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "Partnerize is the only partnership management solution for marketers seeking high quality, scalable subsidies to primary channels.",
+    "website": "https://prf.hn",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  },
+  "Financeads": {
+    "name": "Financeads",
+    "source": "technology_lookup",
+    "confidence": 65,
+    "category": "Category 71",
+    "description": "FinanceAds is a performance marketing agency that has grown affiliate network for the financial sector.",
+    "website": "https://www.financeads.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 71"
+      ]
+    }
+  }
+}

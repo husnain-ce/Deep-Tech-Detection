@@ -1,0 +1,671 @@
+{
+  "Avis Verifies": {
+    "name": "Avis Verifies",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Avis Verifies is a complete solution for managing your customer reviews.",
+    "website": "https://www.netreviews.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.avis-verifies\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Bazaarvoice Reviews": {
+    "name": "Bazaarvoice Reviews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Bazaarvoice is a provider of user-generated content solutions like ratings and reviews and Q&A.",
+    "website": "https://www.bazaarvoice.com/products/ratings-and-reviews/",
+    "patterns": {
+      "scriptSrc": [
+        "apps\\.bazaarvoice\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Clutch": {
+    "name": "Clutch",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Clutch review widgets are stand-alone applications that you can embed on your website to show your dynamic ratings and reviews.",
+    "website": "https://clutch.co/content/add-review-widget-your-website",
+    "patterns": {
+      "scriptSrc": [
+        "//widget\\.clutch\\.co/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Advertising"
+      ]
+    }
+  },
+  "Contlo": {
+    "name": "Contlo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Contlo is an AI powered marketing software.",
+    "website": "https://www.contlo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.contlo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Feefo": {
+    "name": "Feefo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Feefo is a cloud-based consumer review and rating management software.",
+    "website": "https://www.feefo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.feefo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Fera": {
+    "name": "Fera",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Fera is a product review and social proof application for ecommerce websites.",
+    "website": "https://fera.ai/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.fera\\.ai"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Judge.me": {
+    "name": "Judge.me",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Judge.me is a reviews app that helps you collect and display product reviews and site reviews with photos, videos and Q&A.",
+    "website": "https://judge.me",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.judge\\.me"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Junip": {
+    "name": "Junip",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Junip provider of a ecommerce brand review platform designed to share customers' story, send review requests and display review content.",
+    "website": "https://junip.co",
+    "patterns": {
+      "scriptSrc": [
+        "\\.juniphq\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Letro": {
+    "name": "Letro",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Letro is a UGC and review tool for ecommerce platforms.",
+    "website": "https://service.aainc.co.jp/product/letro/",
+    "patterns": {
+      "scriptSrc": [
+        "letro\\.jp/tags"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 96"
+      ]
+    }
+  },
+  "Loox": {
+    "name": "Loox",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Loox is a reviews app for Shopify that helps you gather reviews and user-generated photos from your customers.",
+    "website": "https://loox.app",
+    "patterns": {
+      "scriptSrc": [
+        "loox\\.io/widget"
+      ],
+      "scripts": [
+        "loox\\.io/widget"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Orankl": {
+    "name": "Orankl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Orankl is a provider email marketing and review services.",
+    "website": "https://www.orankl.com",
+    "patterns": {
+      "scriptSrc": [
+        "www\\.orankl\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "PowerReviews": {
+    "name": "PowerReviews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Powerreviews is a provider of UGC solutions like ratings and reviews.",
+    "website": "https://www.powerreviews.com/",
+    "patterns": {
+      "scriptSrc": [
+        "ui\\.powerreviews\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Reevoo": {
+    "name": "Reevoo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Reevoo is a provider of UGC solutions like reviews.",
+    "website": "https://www.reevoo.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.reevoo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Reputon": {
+    "name": "Reputon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Reputon is an customer reviews Shopify app.",
+    "website": "https://reputon.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.reputon\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "ReviewSolicitors": {
+    "name": "ReviewSolicitors",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "ReviewSolicitors is a free and independent client-led review platform focusing on the UK legal market.",
+    "website": "https://www.reviewsolicitors.co.uk",
+    "patterns": {
+      "scriptSrc": [
+        "\\.reviewsolicitors\\.co\\.uk/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Ryviu": {
+    "name": "Ryviu",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Ryviu is customer product reviews app for building social proof for store.",
+    "website": "https://www.ryviu.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.ryviu\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Shopify Product Reviews": {
+    "name": "Shopify Product Reviews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Shopify Product reviews allows you to add a customer review feature to your products.",
+    "website": "https://apps.shopify.com/product-reviews",
+    "patterns": {
+      "scriptSrc": [
+        "productreviews\\.shopifycdn\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "SiteJabber": {
+    "name": "SiteJabber",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Sitejabber is the leading destination for customer ratings and reviews of businesses. Consumers find ratings and read reviews to ensure they buy from the best companies.",
+    "website": "https://www.sitejabber.com/",
+    "patterns": {
+      "scriptSrc": [
+        "biz\\.sitejabber\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Stamped": {
+    "name": "Stamped",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Stamped is a provider of reviews and ratings solution.",
+    "website": "https://stamped.io/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.stamped\\.io/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "TestFreaks": {
+    "name": "TestFreaks",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "TestFreaks is an impartial source that provides product and seller review content for ecommerce websites.",
+    "website": "https://www.testfreaks.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.testfreaks\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Thimatic": {
+    "name": "Thimatic",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Thimatic is a Shopify app for product reviews.",
+    "website": "https://thimatic-apps.com/",
+    "patterns": {
+      "scriptSrc": [
+        "thimatic-apps\\.com/product_review/.*?v=([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "Trusted Shops": {
+    "name": "Trusted Shops",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Trusted Shops is a company that acts as a 3'rd party representing the common interests of both consumers and retailers.",
+    "website": "https://www.trustedshops.co.uk",
+    "patterns": {
+      "scriptSrc": [
+        "widgets\\.trustedshops\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Trustpilot": {
+    "name": "Trustpilot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Trustpilot is a Danish consumer review website which provide embed stand-alone applications in your website to show your most recent reviews, TrustScore, and star ratings.",
+    "website": "https://business.trustpilot.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.trustpilot\\.com"
+      ],
+      "scripts": [
+        "\\.trustpilot\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Trustspot": {
+    "name": "Trustspot",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "TrustSpot provides a solution to capture ratings & reviews, video testimonials, photos, social experiences, and product Q&A.",
+    "website": "https://trustspot.io/",
+    "patterns": {
+      "scriptSrc": [
+        "trustspot\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Yotpo Reviews": {
+    "name": "Yotpo Reviews",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 90",
+    "description": "Yotpo is a user-generated content marketing platform.",
+    "website": "https://www.yotpo.com/platform/reviews/",
+    "patterns": {
+      "scriptSrc": [
+        "\\.yotpo\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Ali Reviews": {
+    "name": "Ali Reviews",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "Ali reviews is a shopify app to collect reviews from customers.",
+    "website": "https://apps.shopify.com/ali-reviews",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "FeatherX": {
+    "name": "FeatherX",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "FeatherX captures content from all major reviews and social media channels.",
+    "website": "https://featherx.ai",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "Google Customer Reviews": {
+    "name": "Google Customer Reviews",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "Google Customer Reviews is a badge on your site that can help users identify your site with the Google brand and can be placed on any page of your site.",
+    "website": "https://support.google.com/merchants/answer/7105655?hl=en",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "HulkApps Product Reviews": {
+    "name": "HulkApps Product Reviews",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "HulkApps Product Reviews is a customer product reviews app for building social proof for store.",
+    "website": "https://www.hulkapps.com/products/product-reviews-shopify",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "Okendo": {
+    "name": "Okendo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "Okendo is a customer marketing platform with product ratings and reviews, customer photos and videos to help personalise experiences.",
+    "website": "https://www.okendo.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Category 100"
+      ]
+    }
+  },
+  "Reviews.io": {
+    "name": "Reviews.io",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "Reviews.io is a review collection tool for companies to collect merchant (company) & product reviews from genuine customers, then share these on Google.",
+    "website": "https://www.reviews.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "SocialJuice": {
+    "name": "SocialJuice",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "SocialJuice is a simple tool to collect video testimonials or textual testimonials from your clients.",
+    "website": "https://socialjuice.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90",
+        "Advertising"
+      ]
+    }
+  },
+  "Trustvox": {
+    "name": "Trustvox",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "Trustvox collects reviews from customers who purchased ecommerce products and publishes them on product pages with Sincerity Seals.",
+    "website": "https://site.trustvox.com.br",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  },
+  "U-KOMI": {
+    "name": "U-KOMI",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 90",
+    "description": "U-KOMI is a user generated content review marketing tool.",
+    "website": "https://u-komi.com/en/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 90"
+      ]
+    }
+  }
+}

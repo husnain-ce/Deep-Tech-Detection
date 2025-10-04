@@ -1,0 +1,590 @@
+{
+  "JW Player": {
+    "name": "JW Player",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "JW Player is a online video player with video engagement analytics, custom video player skins, and live video streaming capability.",
+    "website": "https://www.jwplayer.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.jwplayer\\.com",
+        "\\.jwpcdn\\.com"
+      ],
+      "scripts": [
+        "cdn\\.jwplayer\\.com/libraries/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Vimeo": {
+    "name": "Vimeo",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Vimeo is a video hosting, sharing and services platform. Vimeo operation an ad-free basis by providing subscription plans.",
+    "website": "http://vimeo.com",
+    "patterns": {
+      "html": [
+        "(?:<(?:param|embed)[^>]+vimeo\\.com/moogaloop|<iframe[^>]player\\.vimeo\\.com)",
+        "player\\.vimeo\\.com/video/"
+      ],
+      "scripts": [
+        "player\\.vimeo\\.com/api/player\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Wistia": {
+    "name": "Wistia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Wistia is designed exclusively to serve companies using video on their websites for marketing, support, and sales.",
+    "website": "https://wistia.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.wistia\\.com"
+      ],
+      "scripts": [
+        "fast\\.wistia\\.com/assets/external/E-v1\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Brightcove": {
+    "name": "Brightcove",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Brightcove is a cloud-based online video platform.",
+    "website": "https://www.brightcove.com",
+    "patterns": {
+      "scripts": [
+        "players\\.brightcove\\.net/.*\\.js",
+        "players\\.brightcove\\.net/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "web_tech"
+      ]
+    }
+  },
+  "Asciinema": {
+    "name": "Asciinema",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Asciinema is a free and open-source solution for recording terminal sessions and sharing them on the web.",
+    "website": "https://asciinema.org/",
+    "patterns": {
+      "html": [
+        "<asciinema-player"
+      ],
+      "scriptSrc": [
+        "asciinema\\.org/"
+      ],
+      "scripts": [
+        "asciinema\\.org/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "DPlayer": {
+    "name": "DPlayer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "DPlayer is an HTML 5 video player that supports pop-up.",
+    "website": "https://dplayer.js.org",
+    "patterns": {
+      "scriptSrc": [
+        "/dplayer\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Dailymotion": {
+    "name": "Dailymotion",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Dailymotion is a French video-sharing technology platform.",
+    "website": "https://www.dailymotion.com",
+    "patterns": {
+      "meta": [
+        "name: dailymotion-domain-verification"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "jPlayer": {
+    "name": "jPlayer",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "jPlayer is a cross-browser JavaScript library developed as a jQuery plugin which facilitates the embedding of web based media, notably HTML5 audio and video in addition to Adobe Flash based media.",
+    "website": "https://jplayer.org",
+    "patterns": {
+      "scripts": [
+        "jquery\\.jplayer\\.min\\.js"
+      ],
+      "scriptSrc": [
+        "/jquery\\.jplayer\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards",
+        "Category 59"
+      ]
+    }
+  },
+  "Kaltura": {
+    "name": "Kaltura",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Kaltura is a video content management platform that allows users to upload, manage, share, publish, and stream videos.",
+    "website": "https://corp.kaltura.com",
+    "patterns": {
+      "scripts": [
+        "kalturaPlayer"
+      ],
+      "scriptSrc": [
+        "api\\.kaltura\\.(?:nordu\\.net|com)/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards",
+        "Category 103"
+      ]
+    }
+  },
+  "Magisto": {
+    "name": "Magisto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Magisto is a video management solution designed to help marketing professionals, agencies, and businesses of all sizes.",
+    "website": "https://www.magisto.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.magisto\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Plyr": {
+    "name": "Plyr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports modern browsers.",
+    "website": "https://plyr.io",
+    "patterns": {
+      "css": [
+        "--plyr-progress"
+      ],
+      "scriptSrc": [
+        "cdn\\.plyr\\.io/([0-9.]+)/.+\\.js\\;version:\\1"
+      ],
+      "scripts": [
+        "https://cdn\\.plyr\\.io/([0-9.]+)/.+\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SublimeVideo": {
+    "name": "SublimeVideo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "SublimeVideo is a framework for HTML5 Video Player.",
+    "website": "http://sublimevideo.net",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.sublimevideo\\.net/js/[a-z\\d]+\\.js"
+      ],
+      "scripts": [
+        "cdn\\.sublimevideo\\.net/js/[a-z\\d]+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "VideoJS": {
+    "name": "VideoJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Video.js is a JavaScript and CSS library that makes it easier to work with and build on HTML5 video.",
+    "website": "http://videojs.com",
+    "patterns": {
+      "css": [
+        "\\.video-js\\;confidence:25",
+        "\\.vjs-big-play-button\\;confidence:75"
+      ],
+      "scriptSrc": [
+        "zencdn\\.net/c/video\\.js",
+        "cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/video\\.js\\/([\\d\\.]+)\\/\\;version:\\1"
+      ],
+      "html": [
+        "<div[^>]+class=\"video-js+\">"
+      ],
+      "scripts": [
+        "zencdn\\.net/c/video\\.js",
+        "cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/video\\.js\\/([\\d\\.]+)\\/\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "YouTube": {
+    "name": "YouTube",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "YouTube is a video sharing service where users can create their own profile, upload videos, watch, like and comment on other videos.",
+    "website": "http://www.youtube.com",
+    "patterns": {
+      "html": [
+        "<(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\\.com/(?:v|embed)"
+      ],
+      "scriptSrc": [
+        "\\.youtube\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Blip.tv": {
+    "name": "Blip.tv",
+    "source": "technology_lookup",
+    "confidence": 85,
+    "category": "Message Boards",
+    "description": "Blip.tv is a media platform for web series content and also a dashboard for producers of original web series to distribute and monetise their productions.",
+    "website": "http://blip.tv",
+    "patterns": {
+      "html": [
+        "<(?:param|embed|iframe)[^>]+blip\\.tv/play"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "30namaPlayer": {
+    "name": "30namaPlayer",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "30namaPlayer is a modified version of Video.js to work with videos on HTML using javascript.",
+    "website": "https://30nama.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Cloudflare Stream": {
+    "name": "Cloudflare Stream",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Cloudflare Stream is a serverless live and on-demand video streaming platform.",
+    "website": "https://www.cloudflare.com/products/cloudflare-stream",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards",
+        "Category 103"
+      ]
+    }
+  },
+  "Conviva": {
+    "name": "Conviva",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Conviva is a census, continuous measurement and engagement platform for streaming media.",
+    "website": "https://www.conviva.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards",
+        "Category 103"
+      ]
+    }
+  },
+  "Flowplayer": {
+    "name": "Flowplayer",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Flowplayer is a scalable, performance-first HTML 5 video player and platform hosting solution for publishers, broadcasters and digital media.",
+    "website": "https://flowplayer.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "MediaElement.js": {
+    "name": "MediaElement.js",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "MediaElement.js is a set of custom Flash plugins that mimic the HTML5 MediaElement API for browsers that don't support HTML5 or don't support the media codecs.",
+    "website": "http://www.mediaelementjs.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Rumble": {
+    "name": "Rumble",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Rumble is a Canadian video-streaming platform that presents itself as an alternative to YouTube.",
+    "website": "https://rumble.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Shaka Player": {
+    "name": "Shaka Player",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Shaka Player is an open-source JavaScript library for adaptive media.",
+    "website": "https://github.com/shaka-project/shaka-player",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Twitch Player": {
+    "name": "Twitch Player",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Twitch is an American video live streaming service that focuses on video game live streaming, including broadcasts of esports competitions.",
+    "website": "https://dev.twitch.tv/docs/embed/video-and-clips/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Uscreen": {
+    "name": "Uscreen",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Uscreen is a CMS to monetize VOD and live content. They provide site hosting, video hosting, and a payment gateway for selling video based content.",
+    "website": "https://uscreen.tv/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Vimeo OTT": {
+    "name": "Vimeo OTT",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Vimeo OTT allows brands and creators to launch their own white-label video subscription channels, where subscribers can access video content for free, as a rental, or for purchase.",
+    "website": "https://vimeo.com/ott",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Viqeo": {
+    "name": "Viqeo",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Viqeo is a short video platform to make media and ecommerce more visual and interesting.",
+    "website": "https://viqeo.tv",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  },
+  "Wowza Video Player": {
+    "name": "Wowza Video Player",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Message Boards",
+    "description": "Wowza Video Player is a robust, industry standard player that provides HTML5, HLS, MPEG-DASH, and LL-DASH playback.",
+    "website": "https://www.wowza.com/video/player",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Message Boards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "AccessiBe": {
+    "name": "AccessiBe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "AccessiBe is an accessibility overlay which claims to provide ADA and WCAG compliance. The system scans and analyzes a website, and applies adjustments which they claim make your website ADA and WCAG 2.1 compliant.",
+    "website": "https://accessibe.com",
+    "patterns": {
+      "scriptSrc": [
+        "acsbapp?\\.com/.*/acsb\\.js"
+      ],
+      "scripts": [
+        "acsbapp?\\.com/.*/acsb\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Accessible360": {
+    "name": "Accessible360",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Accessible360 is a web accessibility company based in Edina, Minnesota.",
+    "website": "https://accessible360.com",
+    "patterns": {
+      "scriptSrc": [
+        "/npm/@accessible360/accessible-slick@([\\d\\.]+)/\\;version:\\1",
+        "/accessible360/accessible-slick/slick/slick\\.min\\.js\\?v=([\\d\\.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Accessibly": {
+    "name": "Accessibly",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Accessibly is an app which is designed to assist with meeting certain requirements of WCAG 2.1 using an overlay solution.",
+    "website": "https://www.onthemapmarketing.com/accessibly/",
+    "patterns": {
+      "scriptSrc": [
+        "accessibly\\.onthemapmarketing\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Allyable": {
+    "name": "Allyable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Allyable is an automated web accessibility solution with an AI engine.",
+    "website": "https://allyable.com",
+    "patterns": {
+      "scriptSrc": [
+        "portal\\.allyable\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "AudioEye": {
+    "name": "AudioEye",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "AudioEye is an accessibility overlay which claims to provide ADA and WCAG accessibility compliance.",
+    "website": "https://www.audioeye.com",
+    "patterns": {
+      "scriptSrc": [
+        "(?:\\.)?audioeye\\.com/(?:ae\\.js)?"
+      ],
+      "html": [
+        "<iframe[^>]*audioeye\\.com/frame/cookieStorage"
+      ],
+      "scripts": [
+        "audioeye\\.com/ae\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Droxit": {
+    "name": "Droxit",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Droxit is an automated web accessibility solution.",
+    "website": "https://www.droxit.com",
+    "patterns": {
+      "cookies": [
+        "droxit_a11y_state: "
+      ],
+      "scriptSrc": [
+        "/droxit-a11y/js/activator\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Enable": {
+    "name": "Enable",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Enable is a web accessibility plugin by uPress.",
+    "website": "https://www.enable.co.il",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.enable\\.co\\.il/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "EqualWeb": {
+    "name": "EqualWeb",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "EqualWeb provides a web accessibility overlay, and helps some people with disabilities access digital information.",
+    "website": "https://www.equalweb.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.equalweb\\.com.*\\.js"
+      ],
+      "scripts": [
+        "cdn\\.equalweb\\.com.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Facil-iti": {
+    "name": "Facil-iti",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Facil-iti is a web accessibility overlay which provides support for some people with disabilities and seniors.",
+    "website": "https://www.facil-iti.com/",
+    "patterns": {
+      "scriptSrc": [
+        "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js"
+      ],
+      "scripts": [
+        "ws\\.facil-iti\\.com/tag/faciliti-tag\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Handtalk": {
+    "name": "Handtalk",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Handtalk is an accessiblity plug-in which uses sign language to make sites accessible.",
+    "website": "https://www.handtalk.me/",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.handtalk\\.me"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "HikeOrders": {
+    "name": "HikeOrders",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "HikeOrders is a web accessibility overlay that claims to make your site disability friendly.",
+    "website": "https://hikeorders.com/",
+    "patterns": {
+      "scriptSrc": [
+        "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js"
+      ],
+      "scripts": [
+        "hikeorders\\.com/main/assets/js/hko-accessibility\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Nagich": {
+    "name": "Nagich",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Nagich is a website accessibility overlay provider from Israel.",
+    "website": "https://www.nagich.co.il",
+    "patterns": {
+      "scriptSrc": [
+        "\\.nagich\\.co(?:m|\\.il)/core/([\\d.]+)/accessibility\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Recite Me": {
+    "name": "Recite Me",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "Recite Me is a web accessibility overlay that claims to allow website visitors to customize a site in a way that works for them.",
+    "website": "https://reciteme.com/",
+    "patterns": {
+      "scriptSrc": [
+        "api\\.reciteme\\.com/asset/js"
+      ],
+      "scripts": [
+        "api\\.reciteme\\.com/asset/js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Texthelp": {
+    "name": "Texthelp",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "TextHelp is a literacy, accessibility and dyslexia software developer for people with reading and writing difficulties.",
+    "website": "https://www.texthelp.com/en-gb/products/browsealoud/",
+    "patterns": {
+      "scriptSrc": [
+        "browsealoud\\.com/.*/browsealoud\\.js"
+      ],
+      "scripts": [
+        "browsealoud\\.com/.*/browsealoud\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "UsableNet": {
+    "name": "UsableNet",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "UsableNet is a technology for web accessibility and digital transformation, providing end-to-end services.",
+    "website": "https://usablenet.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.usablenet\\.com/pt/"
+      ],
+      "html": [
+        "<iframe[ˆ>]*\\.usablenet\\.com/pt/"
+      ],
+      "scripts": [
+        "\\.usablenet\\.com/pt/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "User Accessibility": {
+    "name": "User Accessibility",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "User Accessibility is a solution incorporating automated site scanning and machine learning for future updates, while utilising JS to conform to WECAG standards for improved website and application accessibility.",
+    "website": "https://user-a.co.il",
+    "patterns": {
+      "scriptSrc": [
+        "//system\\.user-a\\.co\\.il/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "UserWay": {
+    "name": "UserWay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "UserWay is a web accessibility overlay for websites that claims to improve compliance with accessibility standards.",
+    "website": "https://userway.org/",
+    "patterns": {
+      "scriptSrc": [
+        "cdn\\.userway\\.org/widget.*\\.js"
+      ],
+      "scripts": [
+        "cdn\\.userway\\.org/widget.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "uRemediate": {
+    "name": "uRemediate",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 68",
+    "description": "uRemediate provides web accessibility testing tools and accessibility overlays.",
+    "website": "https://www.user1st.com/uremediate/",
+    "patterns": {
+      "scriptSrc": [
+        "fecdn\\.user1st\\.info/Loader/head"
+      ],
+      "scripts": [
+        "fecdn\\.user1st\\.info/Loader/head"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Adally": {
+    "name": "Adally",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 68",
+    "description": "",
+    "website": "https://adally.com/",
+    "patterns": {
+      "scriptSrc": [
+        "cloudfront\\.net/.*/adally\\.js"
+      ],
+      "scripts": [
+        "cloudfront\\.net/.*/adally\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Make-Sense": {
+    "name": "Make-Sense",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 68",
+    "description": "",
+    "website": "https://mk-sense.com/",
+    "patterns": {
+      "scriptSrc": [
+        "mk-sense\\.com/aweb\\?license"
+      ],
+      "scripts": [
+        "mk-sense\\.com/aweb\\?license"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Accessibility Toolbar Plugin": {
+    "name": "Accessibility Toolbar Plugin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "Accessibility Toolbar Plugin is an accessibility component without dependencies (clean javascript), including a variety of tools.",
+    "website": "https://webworks.ga/acc_toolbar",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "AdaSiteCompliance": {
+    "name": "AdaSiteCompliance",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "AdaSiteCompliance is a web accessibility solution, making websites compliant and accessible to WCAG 2.1 and section 508 compliance standards.",
+    "website": "https://adasitecompliance.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "eSSENTIAL Accessibility": {
+    "name": "eSSENTIAL Accessibility",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "eSSENTIAL Accessibility is a digital accessibility-as-a-service platform.",
+    "website": "https://www.essentialaccessibility.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "NagishLi": {
+    "name": "NagishLi",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "NagishLi is a free accessibility plugin from Localize*, created to provide an equal oppurtunity for webmasters to make their website accessible and make the internet more accessible for people with disability.",
+    "website": "https://www.nagish.li",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Piman": {
+    "name": "Piman",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "Piman is an open-source accessibility UI framework create by Blueplanet Inc.",
+    "website": "https://ya-sai.github.io/piman/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  },
+  "Pojo.me": {
+    "name": "Pojo.me",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 68",
+    "description": "Pojo.me provides a Accessibility overlay plug-in for any WordPress Theme or Page Builder.",
+    "website": "https://pojo.me/plugins/accessibility/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 68"
+      ]
+    }
+  }
+}

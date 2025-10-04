@@ -1,0 +1,282 @@
+{
+  "Chevereto": {
+    "name": "Chevereto",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "Chevereto is an image hosting software that allows you to create a full-featured image hosting website on your own server.",
+    "website": "https://chevereto.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Chevereto ?([0-9.]+)?$\\;version:\\1",
+        "generator: Chevereto\\s(?:[\\d\\.]+)"
+      ],
+      "scriptSrc": [
+        "/chevereto\\.js"
+      ],
+      "html": [
+        "Powered by <a href=\"https?://chevereto\\.com\">"
+      ],
+      "scripts": [
+        "/chevereto\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages",
+        "Rich Text Editors"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Coppermine": {
+    "name": "Coppermine",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "Coppermine is an open-source image gallery application.",
+    "website": "http://coppermine-gallery.net",
+    "patterns": {
+      "html": [
+        "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Gallery": {
+    "name": "Gallery",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "Gallery is an open-source web based photo album organiser.",
+    "website": "http://galleryproject.org/",
+    "patterns": {
+      "html": [
+        "<div id=\"gsNavBar\" class=\"gcBorder1\">",
+        "<a href=\"http://gallery\\.sourceforge\\.net\"><img[^>]+Powered by Gallery\\s*(?:(?:v|Version)\\s*([0-9.]+))?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "JAlbum": {
+    "name": "JAlbum",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "jAlbum is across-platform photo website software for creating and uploading galleries from images and videos.",
+    "website": "http://jalbum.net/en",
+    "patterns": {
+      "meta": [
+        "generator: JAlbum( [\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "NextGEN Gallery": {
+    "name": "NextGEN Gallery",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "NextGEN Gallery is a free open-source image management plugin for the WordPress content management system.",
+    "website": "https://www.imagely.com/wordpress-gallery-plugin",
+    "patterns": {
+      "html": [
+        "<!-- <meta name=\"NextGEN\" version=\"([\\d.]+)\" /> -->\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/nextgen-gallery/js/"
+      ],
+      "scripts": [
+        "/nextgen-gallery/js/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages",
+        "Category 87"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "PhotoSwipe": {
+    "name": "PhotoSwipe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "PhotoSwipe is an open-source gallery to support JavaScript-based image zooming.",
+    "website": "https://photoswipe.com",
+    "patterns": {
+      "scriptSrc": [
+        "photoswipe/([\\d\\.]+)/photoswipe\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages",
+        "Category 59"
+      ]
+    }
+  },
+  "Piwigo": {
+    "name": "Piwigo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "Piwigo is an open-source photo management software designed for creating and managing online photo galleries.",
+    "website": "https://piwigo.com",
+    "patterns": {
+      "meta": [
+        "generator: ^Piwigo\\s"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ]
+    }
+  },
+  "phpAlbum": {
+    "name": "phpAlbum",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "phpAlbum is an open-source PHP script which allows you to create your personal photo album.",
+    "website": "http://phpalbum.net",
+    "patterns": {
+      "html": [
+        "<!--phpalbum ([.\\d\\s]+)-->\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SmugMug": {
+    "name": "SmugMug",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Programming Languages",
+    "description": "SmugMug is a paid image sharing, image hosting service, and online video platform on which users can upload photos and videos.",
+    "website": "https://www.smugmug.com",
+    "patterns": {
+      "headers": [
+        "Smug-CDN: "
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ]
+    }
+  },
+  "Blessing Skin": {
+    "name": "Blessing Skin",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Programming Languages",
+    "description": "Blessing Skin is a plubin that brings your custom skins back in offline Minecraft servers.",
+    "website": "https://github.com/bs-community/blessing-skin-server",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Master Slider": {
+    "name": "Master Slider",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Programming Languages",
+    "description": "Master Slider is an SEO friendly, responsive image and video slider.",
+    "website": "https://www.masterslider.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ]
+    }
+  },
+  "Zenfolio": {
+    "name": "Zenfolio",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Programming Languages",
+    "description": "Zenfolio is a photography website builder.",
+    "website": "https://zenfolio.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Programming Languages"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

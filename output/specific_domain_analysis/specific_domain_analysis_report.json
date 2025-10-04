@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "total_domains": 3,
+    "successful_analyses": 3,
+    "failed_analyses": 0,
+    "average_analysis_time": 3.0234154065450034,
+    "average_technologies": 3.6666666666666665,
+    "average_categories": 3.6666666666666665
+  },
+  "results": {
+    "dskbank.bg": {
+      "analysis_time": 4.488799571990967,
+      "technologies_count": 6,
+      "categories": 6,
+      "confidence_distribution": {
+        "high (80-100)": 5,
+        "medium (50-79)": 1,
+        "low (10-49)": 0
+      },
+      "detection_breakdown": {
+        "pattern_matching": 0,
+        "whatweb": 0,
+        "additional_patterns": 0,
+        "deep_analysis": 0
+      },
+      "performance_metrics": {
+        "analysis_time_seconds": 4.49,
+        "technologies_per_second": 1.34
+      }
+    },
+    "santamonica.gov": {
+      "analysis_time": 0.4997735023498535,
+      "technologies_count": 0,
+      "categories": 0,
+      "confidence_distribution": {
+        "high (80-100)": 0,
+        "medium (50-79)": 0,
+        "low (10-49)": 0
+      },
+      "detection_breakdown": {
+        "pattern_matching": 0,
+        "whatweb": 0,
+        "additional_patterns": 0,
+        "deep_analysis": 0
+      },
+      "performance_metrics": {
+        "analysis_time_seconds": 0.5,
+        "technologies_per_second": 0.0
+      }
+    },
+    "fibank.bg": {
+      "analysis_time": 4.0816731452941895,
+      "technologies_count": 5,
+      "categories": 5,
+      "confidence_distribution": {
+        "high (80-100)": 3,
+        "medium (50-79)": 2,
+        "low (10-49)": 0
+      },
+      "detection_breakdown": {
+        "pattern_matching": 0,
+        "whatweb": 0,
+        "additional_patterns": 0,
+        "deep_analysis": 0
+      },
+      "performance_metrics": {
+        "analysis_time_seconds": 4.08,
+        "technologies_per_second": 1.23
+      }
+    }
+  }
+}

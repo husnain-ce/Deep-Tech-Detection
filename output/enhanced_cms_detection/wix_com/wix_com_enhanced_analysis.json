@@ -1,0 +1,379 @@
+{
+  "url": "https://wix.com",
+  "final_url": "https://www.wix.com/",
+  "analysis_time": 10.367468118667603,
+  "technologies": [
+    {
+      "name": "Wix",
+      "confidence": 85,
+      "category": "CMS",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.f74bb82c.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.f74bb82c.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.f74bb82c.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.3ea18ff8.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.3ea18ff8.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.3ea18ff8.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.f600e767.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.f600e767.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.f600e767.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.min.css",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.min.css",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-header/d42999531ca2809dd2bf86f474126f110267668bbb00e7204a81a5bb/app.min.css",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.min.css",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.min.css",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "//static.parastorage.com/services/wix-footer/d971d25b9101da45836766f7eaaecf9f08f561f86c4fa2559449398b/app.min.css",
+          "match": "static\\.parastorage\\.com/.*",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%228b91408a-2660-481a-b7a0-ec26736823ed%22%3A%22341%22%2C%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%3A%22651%22%2C%22763c026d-90de-4e64-bd8d-93c793614503%22%3A%22112%22%7D&appDefinitionIdsWithCustomCss=%5B%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.classicPaginationAsList%2C.cssInBlocks%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.newStyleApi%2C.propsCarmiMappersMigration1%2C.propsCarmiMappersMigration2%2C.shouldUseResponsiveImages%2C.soapOffsetRefactor%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useDynamicRefShemasInCatharsis%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5053.0&disableStaticPagesUrlHierarchy=false&editorName=Studio&experiments=dm_bgScrubToMotionFixer%2Cdm_deleteLayoutOverridesForRefComponents%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.wix.com&fileId=a28a0c9d.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isResponsive=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=true&isWixSite=true&language=en&languageResolutionMethod=QueryParam&metaSiteId=8771a0ef-c7b6-45b0-94d6-2434fda0af17&module=thunderbolt-features&oneDocEnabled=true&originalLanguage=en&pageId=0784b1_ec4f88b84a6c6709aadfec92c670a3ae_223.json&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=411bc88e-9337-406b-8349-ed33ed7f7a9b&siteRevision=226&staticHTMLComponentUrl=https%3A%2F%2Fwww-wix-com.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%228b91408a-2660-481a-b7a0-ec26736823ed%22%3A%22341%22%2C%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%3A%22651%22%2C%22763c026d-90de-4e64-bd8d-93c793614503%22%3A%22112%22%7D&appDefinitionIdsWithCustomCss=%5B%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.classicPaginationAsList%2C.cssInBlocks%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.newStyleApi%2C.propsCarmiMappersMigration1%2C.propsCarmiMappersMigration2%2C.shouldUseResponsiveImages%2C.soapOffsetRefactor%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useDynamicRefShemasInCatharsis%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5053.0&disableStaticPagesUrlHierarchy=false&editorName=Studio&experiments=dm_bgScrubToMotionFixer%2Cdm_deleteLayoutOverridesForRefComponents%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.wix.com&fileId=a28a0c9d.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isResponsive=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=false&isWixCodeOnSite=true&isWixSite=true&language=en&languageResolutionMethod=QueryParam&metaSiteId=8771a0ef-c7b6-45b0-94d6-2434fda0af17&module=thunderbolt-features&oneDocEnabled=true&originalLanguage=en&pageId=0784b1_ec4f88b84a6c6709aadfec92c670a3ae_223.json&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=411bc88e-9337-406b-8349-ed33ed7f7a9b&siteRevision=226&staticHTMLComponentUrl=https%3A%2F%2Fwww-wix-com.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%228b91408a-2660-481a-b7a0-ec26736823ed%22%3A%22341%22%2C%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%3A%22651%22%2C%22763c026d-90de-4e64-bd8d-93c793614503%22%3A%22112%22%7D&appDefinitionIdsWithCustomCss=%5B%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.classicPaginationAsList%2C.cssInBlocks%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.newStyleApi%2C.propsCarmiMappersMigration1%2C.propsCarmiMappersMigration2%2C.shouldUseResponsiveImages%2C.soapOffsetRefactor%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useDynamicRefShemasInCatharsis%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5053.0&disableStaticPagesUrlHierarchy=false&editorName=Studio&experiments=dm_bgScrubToMotionFixer%2Cdm_deleteLayoutOverridesForRefComponents%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.wix.com&fileId=a28a0c9d.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isResponsive=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=true&isWixCodeOnSite=true&isWixSite=true&language=en&languageResolutionMethod=QueryParam&metaSiteId=8771a0ef-c7b6-45b0-94d6-2434fda0af17&module=thunderbolt-features&oneDocEnabled=true&originalLanguage=en&pageId=0784b1_e69158251d559eb6f6a1479f3421e9c5_215.json&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=411bc88e-9337-406b-8349-ed33ed7f7a9b&siteRevision=226&staticHTMLComponentUrl=https%3A%2F%2Fwww-wix-com.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        },
+        {
+          "field": "css",
+          "detail": "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%228b91408a-2660-481a-b7a0-ec26736823ed%22%3A%22341%22%2C%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%3A%22651%22%2C%22763c026d-90de-4e64-bd8d-93c793614503%22%3A%22112%22%7D&appDefinitionIdsWithCustomCss=%5B%22ccae8471-d686-42ee-9b7b-b8c452e67b21%22%5D&beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.classicPaginationAsList%2C.cssInBlocks%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.newStyleApi%2C.propsCarmiMappersMigration1%2C.propsCarmiMappersMigration2%2C.shouldUseResponsiveImages%2C.soapOffsetRefactor%2C.updateRichTextSemanticClassNamesOnCorvid%2C.useClassnameInResponsiveAppWidget%2C.useDynamicRefShemasInCatharsis%2C.useImageAvifFormatInNativeProGallery%2C.useResponsiveImgClassicFixed&blocksBuilderManifestGeneratorVersion=1.129.0&contentType=application%2Fjson&deviceType=Desktop&dfCk=6&dfVersion=1.5053.0&disableStaticPagesUrlHierarchy=false&editorName=Studio&experiments=dm_bgScrubToMotionFixer%2Cdm_deleteLayoutOverridesForRefComponents%2Cdm_migrateOldHoverBoxToNewFixer&externalBaseUrl=https%3A%2F%2Fwww.wix.com&fileId=a28a0c9d.bundle.min&formFactor=desktop&hasTPAWorkerOnSite=false&isBuilderComponentModel=false&isHttps=true&isInSeo=false&isMultilingualEnabled=false&isPremiumDomain=true&isResponsive=true&isTrackClicksAnalyticsEnabled=false&isUrlMigrated=true&isWixCodeOnPage=true&isWixCodeOnSite=true&isWixSite=true&language=en&languageResolutionMethod=QueryParam&metaSiteId=8771a0ef-c7b6-45b0-94d6-2434fda0af17&module=thunderbolt-features&oneDocEnabled=true&originalLanguage=en&pageId=0784b1_e69158251d559eb6f6a1479f3421e9c5_215.json&quickActionsMenuEnabled=false&registryLibrariesTopology=%5B%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22wixui%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%2C%7B%22artifactId%22%3A%22editor-elements%22%2C%22namespace%22%3A%22dsgnsys%22%2C%22url%22%3A%22https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2F1.14399.0%22%7D%5D&remoteWidgetStructureBuilderVersion=1.251.0&siteId=411bc88e-9337-406b-8349-ed33ed7f7a9b&siteRevision=226&staticHTMLComponentUrl=https%3A%2F%2Fwww-wix-com.filesusr.com%2F&useSandboxInHTMLComp=false&viewMode=desktop",
+          "match": "static\\.parastorage\\.com",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://www.wix.com",
+      "description": "Wix provides cloud-based web development services, allowing users to create HTML5 websites and mobile sites.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515389.8477702
+    },
+    {
+      "name": "Sentry",
+      "confidence": 85,
+      "category": "Forums",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+          "match": "browser\\.sentry-cdn\\.com/.*\\.js|js\\.sentry-cdn\\.com/.*\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "https://sentry.io/",
+      "description": "Sentry is an open-source platform for workflow productivity, aggregating errors from across the stack in real time.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515390.427837
+    },
+    {
+      "name": "Lodash",
+      "confidence": 85,
+      "category": "Category 59",
+      "versions": [],
+      "evidence": [
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "lodash(?:\\.min)?\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "lodash.*\\.js",
+          "confidence": 85
+        },
+        {
+          "field": "scripts",
+          "detail": "https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js",
+          "match": "lodash.*\\.js",
+          "confidence": 85
+        }
+      ],
+      "source": "medium_pattern",
+      "website": "http://www.lodash.com",
+      "description": "Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.",
+      "saas": null,
+      "oss": null,
+      "user_agent_used": null,
+      "detection_time": 1759515391.1058357
+    }
+  ],
+  "metadata": {
+    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
+    "description": "Get everything you need to create your website, your way. With a free easy-to-use website builder, integrated hosting, and essential business solutions.",
+    "content_length": 2480128,
+    "response_time": "0",
+    "server": "Pepyaka",
+    "total_technologies": 3,
+    "dataset_utilization": "3962 technologies available",
+    "categories_detected": 3,
+    "confidence_distribution": {
+      "high (80-100)": 3,
+      "medium (50-79)": 0,
+      "low (10-49)": 0
+    },
+    "detection_breakdown": {
+      "pattern_matching": 0,
+      "whatweb": 0,
+      "cmseek": 0,
+      "additional_patterns": 0,
+      "deep_analysis": 0
+    },
+    "performance_metrics": {
+      "analysis_time_seconds": 10.37,
+      "technologies_per_second": 0.29
+    }
+  },
+  "errors": []
+}

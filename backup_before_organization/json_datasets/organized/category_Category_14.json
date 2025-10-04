@@ -1,0 +1,43 @@
+{
+  "ModSecurity": {
+    "name": "ModSecurity",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 14",
+    "description": "",
+    "website": "https://modsecurity.org",
+    "patterns": {
+      "headers": [
+        "X-Mod-Security: .+",
+        "X-ModSecurity-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 14"
+      ]
+    }
+  },
+  "AWS WAF": {
+    "name": "AWS WAF",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 14",
+    "description": "",
+    "website": "https://aws.amazon.com/waf/",
+    "patterns": {
+      "headers": [
+        "x-amzn-waf-: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 14"
+      ]
+    }
+  }
+}

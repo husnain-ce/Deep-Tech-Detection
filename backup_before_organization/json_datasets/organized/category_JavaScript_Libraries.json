@@ -1,0 +1,340 @@
+{
+  "Blogger": {
+    "name": "Blogger",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries.",
+    "website": "http://www.blogger.com",
+    "patterns": {
+      "url": [
+        "^https?://[^/]+\\.(?:blogspot|blogger)\\.com"
+      ],
+      "meta": [
+        "generator: ^Blogger$"
+      ],
+      "html": [
+        "(?i)content=[\"']blogger[\"']"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "DropInBlog": {
+    "name": "DropInBlog",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "DropInBlog is a remotely hosted, cloud based platform that is designed to embed a blog into your html site.",
+    "website": "https://dropinblog.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.dropinblog\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ]
+    }
+  },
+  "Hashnode": {
+    "name": "Hashnode",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Hashnode is a free developer blogging platform that allows you to publish articles on your own domain and helps you stay connected with a global developer community.",
+    "website": "https://hashnode.com/",
+    "patterns": {
+      "url": [
+        "^https?://[^/]+\\.(?:hashnode)\\.dev"
+      ],
+      "scriptSrc": [
+        "hashnode\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ]
+    }
+  },
+  "LiveJournal": {
+    "name": "LiveJournal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "LiveJournal is a social networking service where users can keep a blog, journal or diary.",
+    "website": "http://www.livejournal.com",
+    "patterns": {
+      "url": [
+        "\\.livejournal\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Medium": {
+    "name": "Medium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Medium is an online publishing platform.",
+    "website": "https://medium.com",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Medium$"
+      ],
+      "url": [
+        "^https?://(?:www\\.)?medium\\.com"
+      ],
+      "scriptSrc": [
+        "medium\\.com"
+      ],
+      "scripts": [
+        "medium\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Substack": {
+    "name": "Substack",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Substack is an American online platform that provides publishing, payment, analytics, and design infrastructure to support subscription newsletters.",
+    "website": "http://substack.com/",
+    "patterns": {
+      "headers": [
+        "x-cluster: substack",
+        "x-served-by: Substack"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ]
+    }
+  },
+  "Tumblr": {
+    "name": "Tumblr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Tumblr is a microblogging and social networking website. The service allows users to post multimedia and other content to a short-form blog.",
+    "website": "http://www.tumblr.com",
+    "patterns": {
+      "headers": [
+        "X-Tumblr-User: "
+      ],
+      "html": [
+        "<iframe src=\"[^>]+tumblr\\.com"
+      ],
+      "url": [
+        "^https?://(?:www\\.)?[^/]+\\.tumblr\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "TypePad": {
+    "name": "TypePad",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Typepad is a blog hosting service.",
+    "website": "http://www.typepad.com",
+    "patterns": {
+      "url": [
+        "typepad\\.com"
+      ],
+      "meta": [
+        "generator: typepad"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Typecho": {
+    "name": "Typecho",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Typecho is a PHP Blogging Platform.",
+    "website": "http://typecho.org/",
+    "patterns": {
+      "url": [
+        "/admin/login\\.php?referer=http%3A%2F%2F"
+      ],
+      "meta": [
+        "generator: Typecho( [\\d.]+)?\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zinnia": {
+    "name": "Zinnia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "JavaScript Libraries",
+    "description": "Zimbra is a is a collaborative software suite that includes an email server and a web client.",
+    "website": "http://django-blog-zinnia.com",
+    "patterns": {
+      "meta": [
+        "generator: Zinnia"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Aegea": {
+    "name": "Aegea",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "JavaScript Libraries",
+    "description": "",
+    "website": "http://blogengine.ru",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^E2 Aegea v(\\d+)$\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Svbtle": {
+    "name": "Svbtle",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "JavaScript Libraries",
+    "description": "",
+    "website": "https://www.svbtle.com",
+    "patterns": {
+      "url": [
+        "^https?://[^/]+\\.svbtle\\.com"
+      ],
+      "meta": [
+        "generator: ^Svbtle\\.com$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Virgool": {
+    "name": "Virgool",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "JavaScript Libraries",
+    "description": "",
+    "website": "https://virgool.io",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: ^Virgool$"
+      ],
+      "url": [
+        "^https?://(?:www\\.)?virgool\\.io"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "JavaScript Libraries"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

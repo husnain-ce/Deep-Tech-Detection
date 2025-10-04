@@ -1,0 +1,156 @@
+{
+  "WordPress": {
+    "name": "WordPress",
+    "source": "web_tech",
+    "confidence": 85,
+    "category": "Category 1",
+    "description": "Open-source CMS.",
+    "website": "https://wordpress.org",
+    "patterns": {
+      "headers": [
+        "X-Powered-By: (?i)WordPress|^WP-?Engine$",
+        "link: rel=\"https://api\\.w\\.org/\"",
+        "X-Pingback: /xmlrpc\\.php$"
+      ],
+      "cookies": [
+        "wp-settings-?\\d*: .*",
+        "wordpress_logged_in: .*"
+      ],
+      "html": [
+        "<link rel=[\"']stylesheet[\"'] [^>]+/wp-(?:content|includes)/",
+        "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']WordPress",
+        "<link[^>]+s\\d+\\.wp\\.com"
+      ],
+      "scripts": [
+        "wp-embed\\.min\\.js\\?ver=([\\d.]+)\\;version:\\1",
+        "/wp-includes/.*\\.js",
+        "/wp-content/.*\\.(?:js|css)",
+        "/wp-(?:content|includes)/"
+      ],
+      "url": [
+        "/wp-(?:content|includes)/|/wp-admin/"
+      ],
+      "meta": [
+        "generator: ^WordPress ?([\\d.]+)?\\;version:\\1",
+        "shareaholic:wp_version: ",
+        "generator: ^WordPress(?: ([\\d.]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/wp-(?:content|includes)/",
+        "wp-embed\\.min\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 1"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Drupal": {
+    "name": "Drupal",
+    "source": "web_tech",
+    "confidence": 85,
+    "category": "Category 1",
+    "description": "Open-source CMS.",
+    "website": "https://www.drupal.org",
+    "patterns": {
+      "cookies": [
+        "SESS[a-z0-9]+: .*"
+      ],
+      "html": [
+        "<(?:link|style)[^>]+\"/sites/(?:default|all)/(?:themes|modules)/",
+        "(?i)<meta[^>]+name=[\"']generator[\"'][^>]+content=[\"']Drupal"
+      ],
+      "scripts": [
+        "drupal\\.js",
+        "drupal_internal__nid",
+        "/misc/drupal\\.js"
+      ],
+      "headers": [
+        "X-Generator: ^Drupal(?:\\s([\\d.]+))?\\;version:\\1",
+        "X-Drupal-Cache: ",
+        "Expires: 19 Nov 1978"
+      ],
+      "meta": [
+        "generator: ^Drupal(?:\\s([\\d.]+))?\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "drupal\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 1"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  },
+  "Shopify": {
+    "name": "Shopify",
+    "source": "web_tech",
+    "confidence": 85,
+    "category": "Category 1",
+    "description": "Hosted ecommerce & CMS.",
+    "website": "https://www.shopify.com",
+    "patterns": {
+      "headers": [
+        "x-shopify-stage: ",
+        "X-ShopId: .+",
+        "x-shopid: \\;confidence:50",
+        "X-Shopify-Stage: .+",
+        "x-shopify-stage: \\;confidence:50"
+      ],
+      "cookies": [
+        "_shopify_s: ",
+        "_shopify_y: ",
+        "_shopify_.*: .*"
+      ],
+      "scripts": [
+        "sdks\\.shopifycdn\\.com",
+        "shopify\\.js",
+        "shopifyTag",
+        "cdn\\.shopify\\.com/.*\\.js"
+      ],
+      "url": [
+        "^https?//.+\\.myshopify\\.com"
+      ],
+      "meta": [
+        "shopify-checkout-api-token: ",
+        "shopify-digital-wallet: "
+      ],
+      "scriptSrc": [
+        "sdks\\.shopifycdn\\.com",
+        "cdn\\.shopify\\.com"
+      ],
+      "html": [
+        "<link[^>]+=['\"]//cdn\\.shopify\\.com\\;confidence:25"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 1",
+        "Category 2"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

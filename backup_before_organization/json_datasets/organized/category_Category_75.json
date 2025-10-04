@@ -1,0 +1,258 @@
+{
+  "Doppler": {
+    "name": "Doppler",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "Doppler is an email marketing and transactional email service.",
+    "website": "https://www.fromdoppler.com",
+    "patterns": {
+      "scriptSrc": [
+        "//(?:hub|cdn)\\.fromdoppler\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ]
+    }
+  },
+  "EmailJS": {
+    "name": "EmailJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "EmailJS is a cloud-based email delivery service that allows you to send emails directly from your client-side JavaScript code without the need for a server-side implementation.",
+    "website": "https://www.emailjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "([\\d\\.]+)?(?:/dist)?/email\\.min\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ]
+    }
+  },
+  "LiveIntent": {
+    "name": "LiveIntent",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "LiveIntent is an email ad monetization platform.",
+    "website": "https://www.liveintent.com",
+    "patterns": {
+      "scriptSrc": [
+        "\\.liadm\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75",
+        "Cookie compliance"
+      ]
+    }
+  },
+  "Mailman": {
+    "name": "Mailman",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "Mailman is free software for managing electronic mail discussion and e-newsletter lists. Mailman is integrated with the web, making it easy for users to manage their accounts and for list owners to administer their lists. Mailman supports built-in archiving, automatic bounce processing, content filtering, digest delivery, spam filters, and more.",
+    "website": "http://list.org",
+    "patterns": {
+      "scriptSrc": [
+        "/mailman\\d+/static/.+\\.js",
+        "/static/(?:hyperkitty|django-mailman3)/.+\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ]
+    }
+  },
+  "Salesforce Marketing Cloud Email Studio": {
+    "name": "Salesforce Marketing Cloud Email Studio",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "Salesforce Marketing Cloud Email Studio is a powerful tool that allows you to build and send personalised emails.",
+    "website": "https://www.salesforce.com/products/marketing-cloud/email-marketing",
+    "patterns": {
+      "headers": [
+        "content-security-policy: \\.exacttarget\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ]
+    }
+  },
+  "SmtpJS": {
+    "name": "SmtpJS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 75",
+    "description": "SmtpJS is a free library you can use for sending emails from JavaScript.",
+    "website": "https://smtpjs.com",
+    "patterns": {
+      "scriptSrc": [
+        "/smtpjs\\.com/(?:v([\\d\\.]+)/)?smtp\\.js\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ]
+    }
+  },
+  "Amazon SES": {
+    "name": "Amazon SES",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "Amazon Simple Email Service (SES) is an email service that enables developers to send mail from within any application.",
+    "website": "https://aws.amazon.com/ses/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Aument": {
+    "name": "Aument",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "Aument is an ecommerce toolbox with easy to use marketing actions and workflows.",
+    "website": "https://aument.io",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75",
+        "Category 98"
+      ]
+    }
+  },
+  "Mailjet": {
+    "name": "Mailjet",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "Mailjet is an email delivery service for marketing and developer teams.",
+    "website": "https://www.mailjet.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Mailmunch": {
+    "name": "Mailmunch",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "Mailmunch is a lead generation tool that combines landing pages, forms, and email marketing.",
+    "website": "https://www.mailmunch.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75",
+        "DevOps/CI"
+      ]
+    }
+  },
+  "Sendgrid": {
+    "name": "Sendgrid",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "SendGrid is a cloud-based email delivery platform for transactional and marketing emails.",
+    "website": "https://sendgrid.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SparkPost": {
+    "name": "SparkPost",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "SparkPost is an email infrastructure provider.",
+    "website": "https://www.sparkpost.com/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Zoho Mail": {
+    "name": "Zoho Mail",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 75",
+    "description": "Zoho Mail is an email hosting service for businesses.",
+    "website": "https://www.zoho.com/mail/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 75"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}

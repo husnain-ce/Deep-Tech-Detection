@@ -1,0 +1,116 @@
+{
+  "Firebase Hosting": {
+    "name": "Firebase Hosting",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 10",
+    "description": "",
+    "website": "https://firebase.google.com/products/hosting",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Google Frontend"
+      ],
+      "url": [
+        "\\.web\\.app/|\\.firebaseapp\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 10",
+        "Category 25"
+      ]
+    }
+  },
+  "Cloudflare Pages": {
+    "name": "Cloudflare Pages",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 10",
+    "description": "",
+    "website": "https://pages.cloudflare.com",
+    "patterns": {
+      "headers": [
+        "Server: (?i)cloudflare"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 10",
+        "Category 25"
+      ]
+    }
+  },
+  "Azure Static Web Apps": {
+    "name": "Azure Static Web Apps",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 10",
+    "description": "",
+    "website": "https://azure.microsoft.com/products/app-service/static/",
+    "patterns": {
+      "headers": [
+        "azurewebsites\\.net: .+"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 10",
+        "Category 25"
+      ]
+    }
+  },
+  "Railway": {
+    "name": "Railway",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 10",
+    "description": "",
+    "website": "https://railway.app",
+    "patterns": {
+      "scripts": [
+        "railway\\.app/.*\\.js"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 10",
+        "Category 25"
+      ]
+    }
+  },
+  "Google App Engine": {
+    "name": "Google App Engine",
+    "source": "web_tech",
+    "confidence": 75,
+    "category": "Category 10",
+    "description": "",
+    "website": "https://cloud.google.com/appengine",
+    "patterns": {
+      "headers": [
+        "Server: (?i)Google Frontend|gws",
+        "Server: Google Frontend"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 10",
+        "Category 25"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup",
+        "web_tech"
+      ]
+    }
+  }
+}

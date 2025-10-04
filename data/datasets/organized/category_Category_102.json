@@ -1,0 +1,183 @@
+{
+  "AfterShip Returns Center": {
+    "name": "AfterShip Returns Center",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 102",
+    "description": "AfterShip Returns Center is an interactive self-service return solution.",
+    "website": "https://www.aftership.com/returns",
+    "patterns": {
+      "url": [
+        "https.+\\.returnscenter\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Narvar": {
+    "name": "Narvar",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 102",
+    "description": "Narvar is a customer experience platform that helps retailers inspire long-term customer loyalty, at all steps of the post-purchase journey.",
+    "website": "https://corp.narvar.com",
+    "patterns": {
+      "headers": [
+        "Content-Security-Policy: \\.narvar\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102",
+        "Category 99"
+      ]
+    }
+  },
+  "ReturnGO": {
+    "name": "ReturnGO",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 102",
+    "description": "ReturnGO's AI-driven returns management platform significantly improves customer lifetime value and post-purchase experience.",
+    "website": "https://returngo.ai",
+    "patterns": {
+      "scriptSrc": [
+        "\\.returngo\\.ai/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Seko OmniReturns": {
+    "name": "Seko OmniReturns",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 102",
+    "description": "Seko OmniReturns is an online portal used on ecommerce websites for customers to create returns and shipping labels globally. Seko is a global logistics company offering both the technology and reverse logistics.",
+    "website": "https://www.sekologistics.com/us/global-cross-border-returns",
+    "patterns": {
+      "scriptSrc": [
+        "//cdn\\.omniparcelreturns\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Sorted Return": {
+    "name": "Sorted Return",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 102",
+    "description": "Sorted is a global SaaS company that provides data-driven software for checkouts, warehouses, and shipping.",
+    "website": "https://sorted.com/give-your-customers-a-5-returns-experience/",
+    "patterns": {
+      "scriptSrc": [
+        "return\\.clicksit\\.com/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Happy Returns": {
+    "name": "Happy Returns",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 102",
+    "description": "Happy Returns is a return software and reverse logistics company, provides a packaging-free, in-person way for customers to return an online purchase for an immediate refund.",
+    "website": "https://happyreturns.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Loop Returns": {
+    "name": "Loop Returns",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 102",
+    "description": "Loop Returns is a return portal that automated all the returns and refunds of products.",
+    "website": "https://www.loopreturns.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Refundid": {
+    "name": "Refundid",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 102",
+    "description": "Refundid provides ecommerce customers instant refunds for their online returns.",
+    "website": "https://refundid.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "Returnly": {
+    "name": "Returnly",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 102",
+    "description": "Returnly is the provider of digital return experiences for direct-to-consumer brands.",
+    "website": "https://returnly.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  },
+  "ShippyPro": {
+    "name": "ShippyPro",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "Category 102",
+    "description": "ShippyPro is the complete shipping software for ecommerce that helps worldwide merchants to ship, track, and manage returns for their orders.",
+    "website": "https://www.shippypro.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 102"
+      ]
+    }
+  }
+}

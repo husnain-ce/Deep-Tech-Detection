@@ -1,0 +1,1228 @@
+{
+  "APC": {
+    "name": "APC",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "APC offers door-to-door parcel and mail delivery.",
+    "website": "https://www.apc-pli.com",
+    "patterns": {
+      "text": [
+        "\\APC\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Asendia": {
+    "name": "Asendia",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Asendia is an international mail joint venture of French La Poste and Swiss Post.",
+    "website": "https://www.asendia.com",
+    "patterns": {
+      "text": [
+        "\\Asendia\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Australia Post": {
+    "name": "Australia Post",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Australia Post is the government business enterprise that provides postal services in Australia.",
+    "website": "https://auspost.com.au",
+    "patterns": {
+      "text": [
+        "\\bAusPost\\b",
+        "\\bAustralia Post\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "B2C Europe": {
+    "name": "B2C Europe",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "B2C Europe offers logistic solutions for your ecommerce businesses.",
+    "website": "https://www.b2ceurope.eu/",
+    "patterns": {
+      "text": [
+        "\\bB2C Europe\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "BRT": {
+    "name": "BRT",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "BRT, also known as Bartolini, is an Italian-based logistics service provider.",
+    "website": "https://www.brt.it",
+    "patterns": {
+      "text": [
+        "\\bBRT\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Billbee": {
+    "name": "Billbee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Billbee is an order processing and inventory management solution.",
+    "website": "https://www.billbee.io/",
+    "patterns": {
+      "text": [
+        "\\bBillbee\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Boxtal": {
+    "name": "Boxtal",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Boxtal is a cloud-based multi-carrier shipping solution.",
+    "website": "https://www.boxtal.com",
+    "patterns": {
+      "text": [
+        "\\bBoxtal\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Bpost": {
+    "name": "Bpost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Bpost, also known as the Belgian Post Group, is the Belgian company responsible for the delivery of national and international mail.",
+    "website": "https://www.bpost.be",
+    "patterns": {
+      "text": [
+        "\\bBpost\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Budbee": {
+    "name": "Budbee",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Budbee is a tech company that operates a logistics service for ecommerce.",
+    "website": "https://app.budbee.com/",
+    "patterns": {
+      "text": [
+        "\\bBudbee\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "CTT": {
+    "name": "CTT",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "CTT operates as the national postal service of Portugal.",
+    "website": "https://www.ctt.pt",
+    "patterns": {
+      "text": [
+        "\\bTourline Express\\b",
+        "\\bCTT\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Celeritas": {
+    "name": "Celeritas",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Celeritas offers transportation logistics services for package deliveries.",
+    "website": "https://celeritastransporte.com",
+    "patterns": {
+      "text": [
+        "\\bCeleritas\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Chronofresh": {
+    "name": "Chronofresh",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Chronofresh is an express transport service for food products.",
+    "website": "https://www.chronofresh.fr",
+    "patterns": {
+      "text": [
+        "\\bChronofresh\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Chronopost": {
+    "name": "Chronopost",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Chronopost provides a domestic and international express shipping and delivery service.",
+    "website": "https://www.chronopost.fr",
+    "patterns": {
+      "text": [
+        "\\bChronopost\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "CityMail": {
+    "name": "CityMail",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "CityMail is a private postal organisation operating in Sweden.",
+    "website": "https://www.citymail.se",
+    "patterns": {
+      "text": [
+        "\\bCitymail\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Colis Privé": {
+    "name": "Colis Privé",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Colis Privé is a private parcel delivery service provider specialised in last-mile delivery.",
+    "website": "https://www.colisprive.fr",
+    "patterns": {
+      "text": [
+        "\\bColis Priv[eé]\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Colissimo": {
+    "name": "Colissimo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Colissimo is a 'drop off' parcel delivery service.",
+    "website": "https://www.colissimo.entreprise.laposte.fr",
+    "patterns": {
+      "text": [
+        "\\bColissimo\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Correos": {
+    "name": "Correos",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Correos is a state-owned company responsible for providing postal service in Spain.",
+    "website": "https://www.correos.es",
+    "patterns": {
+      "text": [
+        "\\bCorreos\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Coureon": {
+    "name": "Coureon",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Coureon is a digital logistics carrier for international shipping.",
+    "website": "https://www.coureon.com",
+    "patterns": {
+      "text": [
+        "\\bCoureon\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Cubyn": {
+    "name": "Cubyn",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Cubyn is B2B logistics company headquartered in France.",
+    "website": "https://www.cubyn.com",
+    "patterns": {
+      "text": [
+        "\\bCubyn\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "DHL": {
+    "name": "DHL",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "DHL is an international courier, package delivery and express mail service, which is a division of the German logistics firm Deutsche Post.",
+    "website": "https://www.dhl.com",
+    "patterns": {
+      "text": [
+        "\\bDHL\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "DPD": {
+    "name": "DPD",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "DPD is an international parcel delivery service for sorter compatible parcels.",
+    "website": "https://www.dpd.com",
+    "patterns": {
+      "text": [
+        "\\bDPD\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "DX": {
+    "name": "DX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "DX (also known as DX Freight) is a British mail, courier and logistics company.",
+    "website": "https://www.dxdelivery.com",
+    "patterns": {
+      "text": [
+        "\\bDX\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Dachser": {
+    "name": "Dachser",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Dachser is a German freight company.",
+    "website": "https://www.dachser.com",
+    "patterns": {
+      "text": [
+        "\\bDachser\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Delivengo": {
+    "name": "Delivengo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Delivengo is an international shipping service powered by La Poste.",
+    "website": "https://mydelivengo.laposte.fr/",
+    "patterns": {
+      "text": [
+        "\\bDelivengo\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Deutsche Post": {
+    "name": "Deutsche Post",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Deutsche Post is a German multinational package delivery and supply chain management company in Germany.",
+    "website": "https://www.deutschepost.de",
+    "patterns": {
+      "text": [
+        "\\bDeutsche Post\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Easylog": {
+    "name": "Easylog",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "EasyLog is a logistics company based in Brazil.",
+    "website": "http://www.easylog.com.br",
+    "patterns": {
+      "text": [
+        "\\bEasylog\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Ecovium": {
+    "name": "Ecovium",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Ecovium is an end-to-end logistics company in Germany.",
+    "website": "https://ecovium.com",
+    "patterns": {
+      "text": [
+        "\\bMHP\\b",
+        "\\bEcovium\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "FedEx": {
+    "name": "FedEx",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "FedEx is an American multinational company which focuses on transportation, ecommerce and business services.",
+    "website": "https://www.fedex.com",
+    "patterns": {
+      "text": [
+        "\\bFedEx\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "France Express": {
+    "name": "France Express",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "France Express is a delivery service based in France.",
+    "website": "https://www.france-express.com",
+    "patterns": {
+      "text": [
+        "\\bFrance Express\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Frequenceo": {
+    "name": "Frequenceo",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Frequenceo is a fixed-rate postage service in France.",
+    "website": "https://www.laposte.fr/entreprise/produit-entreprise/frequenceo",
+    "patterns": {
+      "text": [
+        "\\bFrequenceo\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "GEODIS": {
+    "name": "GEODIS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "GEODIS is a global transport and logistics company.",
+    "website": "https://geodis.com",
+    "patterns": {
+      "text": [
+        "\\bGeodis\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "GLS": {
+    "name": "GLS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "GLS offers parcel, logistics and express services, throughout Europe as well as in the US and in Canada.",
+    "website": "https://gls-group.eu",
+    "patterns": {
+      "text": [
+        "\\bGLS\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Hermes": {
+    "name": "Hermes",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Hermes offers integrated solutions along the supply chain and partners with national and international trading companies.",
+    "website": "https://www.hermesworld.com",
+    "patterns": {
+      "text": [
+        "\\bHermes\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Homerr": {
+    "name": "Homerr",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Homerr is a logistics company operating in the Netherlands and Belgium.",
+    "website": "https://www.homerr.com",
+    "patterns": {
+      "text": [
+        "\\bHomerr\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Keen Delivery": {
+    "name": "Keen Delivery",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Keen Delivery is a Dutch shipping platform ",
+    "website": "https://www.keendelivery.com",
+    "patterns": {
+      "text": [
+        "\\bKeen Delivery\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "LogoiX": {
+    "name": "LogoiX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "LogoiX is a German shipping company.",
+    "website": "https://www.logoix.com",
+    "patterns": {
+      "text": [
+        "\\bLogoiX\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "MRW": {
+    "name": "MRW",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "MRW is a Spanish courier company specialised in express national and international shipping services.",
+    "website": "https://www.mrw.es",
+    "patterns": {
+      "text": [
+        "\\bMRW\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Mondial Relay": {
+    "name": "Mondial Relay",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Mondial Relay is a parcel shipping and delivery service in Europe.",
+    "website": "https://www.mondialrelay.com",
+    "patterns": {
+      "text": [
+        "\\bMondial Relay\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "My Flying Box": {
+    "name": "My Flying Box",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "My Flying Box is an international parcel shipping company.",
+    "website": "https://www.myflyingbox.com/",
+    "patterns": {
+      "text": [
+        "\\bMy Flying Box\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "NACEX": {
+    "name": "NACEX",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "NACEX is an express courier company in Spain, Andorra and Portugal.",
+    "website": "https://www.nacex.es",
+    "patterns": {
+      "text": [
+        "\\bNACEX\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Nexive": {
+    "name": "Nexive",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Nexive is a postal operator in Italy.",
+    "website": "https://www.nexive.it",
+    "patterns": {
+      "text": [
+        "\\bNexive\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Osterreichische Post": {
+    "name": "Osterreichische Post",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Österreichische Post is an Austrian logistics and postal services provider.",
+    "website": "https://www.post.at",
+    "patterns": {
+      "text": [
+        "\\bpost\\.at\\b",
+        "\\bPost AG\\b",
+        "\\b[ÖO]sterreichische Post\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Parcelforce": {
+    "name": "Parcelforce",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Parcelforce is a courier and logistics service in the United Kingdom.",
+    "website": "https://www.parcelforce.com",
+    "patterns": {
+      "text": [
+        "\\bParcelforce\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "PostNL": {
+    "name": "PostNL",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "PostNL (formerly TNT) is a mail, parcel and ecommerce corporation with operations in the Netherlands, Germany, Italy, Belgium, and the United Kingdom.",
+    "website": "https://postnl.post",
+    "patterns": {
+      "text": [
+        "\\bPostNL\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Poste Italiane": {
+    "name": "Poste Italiane",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Poste Italiane is the Italian postal service provider.",
+    "website": "https://www.poste.it",
+    "patterns": {
+      "text": [
+        "\\bPoste Italiane\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Red je Pakketje": {
+    "name": "Red je Pakketje",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Red je Pakketje is a Dutch company specialised in same-day-delivery.",
+    "website": "https://redjepakketje.nl",
+    "patterns": {
+      "text": [
+        "\\bRed je Pakketje\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Relais Colis": {
+    "name": "Relais Colis",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Relais Colis is a French parcel delivery network.",
+    "website": "https://www.relaiscolis.com",
+    "patterns": {
+      "text": [
+        "\\bRelais Colis\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Royal Mail": {
+    "name": "Royal Mail",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Royal Mail is a British multinational postal service and courier company.",
+    "website": "https://www.royalmail.com",
+    "patterns": {
+      "text": [
+        "\\bRoyal Mail\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "SEUR": {
+    "name": "SEUR",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "SEUR is a Spanish shipments and express transport company.",
+    "website": "https://www.seur.com",
+    "patterns": {
+      "text": [
+        "\\bSEUR\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "ShipStation": {
+    "name": "ShipStation",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "ShipStation is a web-based shipping software designed to help ecommerce businesses streamline their shipping processes. It allows businesses to import, manage, and ship their orders from multiple sales channels, including marketplaces, shopping carts, and ecommerce platforms.",
+    "website": "https://www.shipstation.com",
+    "patterns": {
+      "url": [
+        "track\\.shipstation\\.com"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "T1 Envios": {
+    "name": "T1 Envios",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "T1 Envios is a delivery solution, allows the business to select the best courier to send their packages.",
+    "website": "https://t1envios.com",
+    "patterns": {
+      "meta": [
+        "generator: ^T1ENVIOS$"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Tipsa": {
+    "name": "Tipsa",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "TIPSA is a parcel delivery company in Spain, Portugal and Andorra.",
+    "website": "https://www.tip-sa.com",
+    "patterns": {
+      "text": [
+        "\\bTipsa\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Transmart": {
+    "name": "Transmart",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Transmart is a shipping company in Turkey.",
+    "website": "https://transmartshipping.com",
+    "patterns": {
+      "text": [
+        "\\bTransmart\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Trunkrs": {
+    "name": "Trunkrs",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Trunkrs is a Dutch parcel delivery service.",
+    "website": "https://trunkrs.nl",
+    "patterns": {
+      "text": [
+        "\\bTrunkrs\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "UK Mail": {
+    "name": "UK Mail",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "UK Mail is a postal service company operating in the United Kingdom.",
+    "website": "https://www.ukmail.com",
+    "patterns": {
+      "text": [
+        "\\bUK Mail\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "UPS": {
+    "name": "UPS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "UPS is an American multinational shipping & receiving and supply chain management company.",
+    "website": "https://www.ups.com",
+    "patterns": {
+      "text": [
+        "\\b(?<!-)UPS\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "USPS": {
+    "name": "USPS",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "The United States Postal Service (USPS) is an independent agency of the executive branch of the United States federal government responsible for providing postal service in the United States.",
+    "website": "https://www.usps.com",
+    "patterns": {
+      "text": [
+        "\\bUSPS\\b",
+        "\\bUnited States Postal Service\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Whistl": {
+    "name": "Whistl",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Whistl is a postal delivery company operating in the United Kingdom.",
+    "website": "https://www.whistl.co.uk",
+    "patterns": {
+      "text": [
+        "\\bWhistl\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Yodel": {
+    "name": "Yodel",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Yodel is a delivery company for B2B and B2C orders in the United Kingdom.",
+    "website": "https://www.yodel.co.uk/",
+    "patterns": {
+      "text": [
+        "\\bYodel\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Zeleris": {
+    "name": "Zeleris",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "Category 99",
+    "description": "Zeleris provides door to door shipment delivery to Ireland, UK and the EU.",
+    "website": "https://www.zeleris.com",
+    "patterns": {
+      "text": [
+        "\\Zeleris\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  },
+  "Envialia": {
+    "name": "Envialia",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "Category 99",
+    "description": "",
+    "website": "https://www.envialia.com",
+    "patterns": {
+      "text": [
+        "\\bEnvialia\\b"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "Category 99"
+      ]
+    }
+  }
+}

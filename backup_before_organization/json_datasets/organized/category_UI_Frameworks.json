@@ -1,0 +1,207 @@
+{
+  "Claris FileMaker": {
+    "name": "Claris FileMaker",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "UI Frameworks",
+    "description": "Claris FileMaker is a cross-platform relational database application from Claris International.",
+    "website": "https://www.claris.com/filemaker",
+    "patterns": {
+      "url": [
+        "\\.[\\w]+/fmi/webd/"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ]
+    }
+  },
+  "Cloudera": {
+    "name": "Cloudera",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "UI Frameworks",
+    "description": "Cloudera is a software platform for data engineering, data warehousing, machine learning and analytics that runs in the cloud or on-premises.",
+    "website": "http://www.cloudera.com",
+    "patterns": {
+      "headers": [
+        "Server: cloudera"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Firebase": {
+    "name": "Firebase",
+    "source": "wappalyzer",
+    "confidence": 85,
+    "category": "UI Frameworks",
+    "description": "Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps.",
+    "website": "https://firebase.google.com",
+    "patterns": {
+      "headers": [
+        "vary: x-fh-requested-host"
+      ],
+      "scripts": [
+        "/firebasejs/([\\d.]+)/firebase\\;version:\\1",
+        "/(?:([\\d.]+)/)?firebase(?:\\.min)?\\.js\\;version:\\1",
+        "\\.gstatic\\.com/firebasejs/([\\d\\.]+)/\\;version:\\1"
+      ],
+      "scriptSrc": [
+        "/(?:([\\d.]+)/)?firebase(?:\\.min)?\\.js\\;version:\\1",
+        "/firebasejs/([\\d.]+)/firebase\\;version:\\1"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks",
+        "Category 47"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Virtuoso": {
+    "name": "Virtuoso",
+    "source": "wappalyzer",
+    "confidence": 75,
+    "category": "UI Frameworks",
+    "description": "",
+    "website": "https://virtuoso.openlinksw.com/",
+    "patterns": {
+      "headers": [
+        "Server: Virtuoso/?([0-9.]+)?\\;version:\\1"
+      ],
+      "url": [
+        "/sparql"
+      ],
+      "meta": [
+        "Keywords: ^OpenLink Virtuoso Sparql",
+        "Copyright: ^Copyright &copy; \\d{4} OpenLink Software"
+      ]
+    },
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Amazon Aurora": {
+    "name": "Amazon Aurora",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "UI Frameworks",
+    "description": "Amazon Aurora is a relational database service developed and offered by Amazon Web Services.",
+    "website": "https://aws.amazon.com/rds/aurora",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ]
+    }
+  },
+  "Lucene": {
+    "name": "Lucene",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "UI Frameworks",
+    "description": "Lucene is a free and open-source search engine software library.",
+    "website": "http://lucene.apache.org/core/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Percona": {
+    "name": "Percona",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "UI Frameworks",
+    "description": "Percona server is an opensource, fully compatible, enhanced drop-in replacement for MySQL, providing superior performance, scalability, and instrumentation.",
+    "website": "https://www.percona.com",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "Solr": {
+    "name": "Solr",
+    "source": "wappalyzer",
+    "confidence": 65,
+    "category": "UI Frameworks",
+    "description": "Solr is an open-source enterprise-search platform, written in Java.",
+    "website": "http://lucene.apache.org/solr/",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  },
+  "SQLite": {
+    "name": "SQLite",
+    "source": "wappalyzer",
+    "confidence": 55,
+    "category": "UI Frameworks",
+    "description": "",
+    "website": "http://www.sqlite.org",
+    "patterns": {},
+    "versions": [],
+    "evidence": [],
+    "metadata": {
+      "all_categories": [
+        "UI Frameworks"
+      ],
+      "sources": [
+        "wappalyzer",
+        "technology_lookup"
+      ]
+    }
+  }
+}
