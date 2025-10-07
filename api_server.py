@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Flask API Server for Tech Detection Dashboard
-Serves the frontend and provides API endpoints for technology detection
 """
 
 import asyncio
@@ -18,23 +17,15 @@ from flask_cors import CORS
 import aiohttp
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
-
-# Add the project root to the Python path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from ultimate_tech_detector import UltimateTechDetector
-
-# Set up comprehensive logging
 from logging_config import get_logger, log_analysis_start, log_analysis_complete, log_analysis_error, log_engine_status
-logger = get_logger('api_server')
 
-# Initialize Flask app
+logger = get_logger('api_server')
 app = Flask(__name__)
 CORS(app)
-
-# Global detector instance
 detector = None
 
 class GroqAIIntegration:

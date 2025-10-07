@@ -1,6 +1,6 @@
-# 🚀 Ultimate Tech Detection System
+# Ultimate Tech Detection System
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Installation](#installation)
@@ -12,7 +12,7 @@
 9. [Contributing](#contributing)
 10. [License](#license)
 
-## 🎯 Overview
+## Overview
 
 The Ultimate Tech Detection System is a comprehensive technology detection platform that combines multiple detection engines to achieve 100% technology coverage. The system integrates pattern matching, WhatWeb, CMSeeK, WhatCMS.org, Wappalyzer, and custom deep analysis engines with AI-powered analysis and security assessment.
 
@@ -23,9 +23,9 @@ The Ultimate Tech Detection System is a comprehensive technology detection platf
 - **Accuracy**: 95%+ with multiple engine validation
 - **Coverage**: 100% technology detection capability
 
-## ✨ Features
+## Features
 
-### 🔍 **Multi-Engine Detection System**
+### **Multi-Engine Detection System**
 - **Pattern Matching**: 3,962 technologies with 4,674 patterns
 - **WhatWeb Integration**: Advanced web technology detection
 - **CMSeeK**: CMS and framework detection
@@ -34,26 +34,26 @@ The Ultimate Tech Detection System is a comprehensive technology detection platf
 - **Additional Patterns**: Enhanced pattern matching for 100% coverage
 - **Deep Analysis**: Comprehensive content analysis
 
-### 🎨 **Modern Web Interface**
+### **Modern Web Interface**
 - **Responsive Dashboard**: Beautiful, mobile-friendly interface
 - **Real-time Analysis**: Live technology detection
 - **Interactive Charts**: Technology distribution and confidence metrics
 - **AI-Powered Analysis**: Groq AI integration for technology summaries
 - **Security Analysis**: OWASP Top 10 vulnerability assessment
 
-### 🛡️ **Security Features**
+### **Security Features**
 - **OWASP Integration**: Comprehensive security analysis
 - **Threat Assessment**: Risk level evaluation
 - **Compliance Standards**: ISO 27001, NIST framework support
 - **Security Recommendations**: Actionable security insights
 
-### 🤖 **AI Integration**
+### **AI Integration**
 - **Groq AI**: Intelligent technology analysis
 - **Security Assessment**: OWASP Top 10 vulnerability analysis
 - **Technology Summaries**: Detailed explanations and recommendations
 - **Icon Suggestions**: Automatic icon mapping for technologies
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+

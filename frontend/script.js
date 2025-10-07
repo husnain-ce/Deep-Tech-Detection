@@ -1,14 +1,11 @@
-// Global variables
 let currentAnalysis = null;
 let allTechnologies = [];
 let filteredTechnologies = [];
-
-// Client-side logging system
 class ClientLogger {
     constructor() {
         this.logs = [];
         this.maxLogs = 1000;
-        this.logLevel = 'info'; // debug, info, warn, error
+        this.logLevel = 'info';
     }
     
     log(level, message, data = null) {
@@ -24,12 +21,9 @@ class ClientLogger {
         
         this.logs.push(logEntry);
         
-        // Keep only the last maxLogs entries
         if (this.logs.length > this.maxLogs) {
             this.logs = this.logs.slice(-this.maxLogs);
         }
-        
-        // Console logging
         const consoleMessage = `[${timestamp}] ${level.toUpperCase()}: ${message}`;
         if (data) {
             console[level](consoleMessage, data);
@@ -37,7 +31,6 @@ class ClientLogger {
             console[level](consoleMessage);
         }
         
-        // Send to server if error or warning
         if (level === 'error' || level === 'warn') {
             this.sendToServer(logEntry);
         }

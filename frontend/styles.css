@@ -1,11 +1,9 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Font Awesome fallback */
 .fas, .fab, .far, .fal, .fad {
     font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro", "FontAwesome", sans-serif !important;
     font-weight: 900;
@@ -21,7 +19,6 @@
     text-align: center;
 }
 
-/* Ensure icons are visible even if Font Awesome fails to load */
 .fas::before, .fab::before, .far::before, .fal::before, .fad::before {
     content: attr(data-icon);
     font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Pro", "FontAwesome", sans-serif !important;

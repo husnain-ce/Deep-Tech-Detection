@@ -1,20 +1,6 @@
 #!/usr/bin/env python3
 """
 Ultimate Web Technology Detection System
-========================================
-
-A unified, comprehensive web technology detection system that combines:
-- 17,731+ technologies from multiple datasets
-- Deep pattern matching with cross-validation
-- WhatWeb integration for additional signatures
-- Wappalyzer integration for version detection
-- Advanced deduplication and evidence collection
-- 100% dataset utilization with intelligent merging
-
-Usage:
-    python ultimate_tech_detector.py https://example.com
-    python ultimate_tech_detector.py https://example.com --verbose --output json
-    python ultimate_tech_detector.py https://example.com --deep --max-results 500
 """
 
 import asyncio
@@ -34,7 +20,6 @@ from urllib.parse import urlparse
 import aiohttp
 from collections import defaultdict
 
-# Configure comprehensive logging
 from logging_config import get_logger, log_analysis_start, log_analysis_complete, log_analysis_error, log_engine_status
 logger = get_logger('ultimate_tech_detector')
 
