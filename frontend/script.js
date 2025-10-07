@@ -3,6 +3,102 @@ let currentAnalysis = null;
 let allTechnologies = [];
 let filteredTechnologies = [];
 
+// Client-side logging system
+class ClientLogger {
+    constructor() {
+        this.logs = [];
+        this.maxLogs = 1000;
+        this.logLevel = 'info'; // debug, info, warn, error
+    }
+    
+    log(level, message, data = null) {
+        const timestamp = new Date().toISOString();
+        const logEntry = {
+            timestamp,
+            level,
+            message,
+            data,
+            url: window.location.href,
+            userAgent: navigator.userAgent
+        };
+        
+        this.logs.push(logEntry);
+        
+        // Keep only the last maxLogs entries
+        if (this.logs.length > this.maxLogs) {
+            this.logs = this.logs.slice(-this.maxLogs);
+        }
+        
+        // Console logging
+        const consoleMessage = `[${timestamp}] ${level.toUpperCase()}: ${message}`;
+        if (data) {
+            console[level](consoleMessage, data);
+        } else {
+            console[level](consoleMessage);
+        }
+        
+        // Send to server if error or warning
+        if (level === 'error' || level === 'warn') {
+            this.sendToServer(logEntry);
+        }
+    }
+    
+    debug(message, data = null) {
+        this.log('debug', message, data);
+    }
+    
+    info(message, data = null) {
+        this.log('info', message, data);
+    }
+    
+    warn(message, data = null) {
+        this.log('warn', message, data);
+    }
+    
+    error(message, data = null) {
+        this.log('error', message, data);
+    }
+    
+    async sendToServer(logEntry) {
+        try {
+            await fetch('/api/logs', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(logEntry)
+            });
+        } catch (error) {
+            console.error('Failed to send log to server:', error);
+        }
+    }
+    
+    getLogs(level = null) {
+        if (level) {
+            return this.logs.filter(log => log.level === level);
+        }
+        return this.logs;
+    }
+    
+    clearLogs() {
+        this.logs = [];
+    }
+    
+    exportLogs() {
+        const dataStr = JSON.stringify(this.logs, null, 2);
+        const dataBlob = new Blob([dataStr], {type: 'application/json'});
+        const url = URL.createObjectURL(dataBlob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `client-logs-${new Date().toISOString().split('T')[0]}.json`;
+        link.click();
+        URL.revokeObjectURL(url);
+    }
+}
+
+// Initialize client logger
+const clientLogger = new ClientLogger();
+
 // DOM elements
 const domainInput = document.getElementById('domainInput');
 const analyzeBtn = document.getElementById('analyzeBtn');
@@ -13,10 +109,142 @@ const errorState = document.getElementById('errorState');
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
+    clientLogger.info('Application initialized');
     initializeEventListeners();
+    initializeSidebar();
     loadSuggestions();
     hideAllSections();
+    
+    // Ensure Font Awesome is loaded
+    checkFontAwesome();
+    
+    clientLogger.info('DOM loaded and event listeners attached');
 });
+
+// Check if Font Awesome is loaded properly
+function checkFontAwesome() {
+    // Wait a bit for Font Awesome to load
+    setTimeout(() => {
+        const testIcon = document.createElement('i');
+        testIcon.className = 'fas fa-check';
+        testIcon.style.position = 'absolute';
+        testIcon.style.left = '-9999px';
+        testIcon.style.visibility = 'hidden';
+        document.body.appendChild(testIcon);
+        
+        // Check if Font Awesome is loaded by testing the computed style
+        const computedStyle = window.getComputedStyle(testIcon, ':before');
+        const fontFamily = computedStyle.getPropertyValue('font-family');
+        const content = computedStyle.getPropertyValue('content');
+        
+        console.log('Font Awesome check:', { fontFamily, content });
+        
+        if (!fontFamily.includes('Font Awesome') && !fontFamily.includes('FontAwesome') && content === 'none') {
+            console.warn('Font Awesome not loaded properly, applying comprehensive fallback');
+            applyComprehensiveFontAwesomeFallback();
+        }
+        
+        document.body.removeChild(testIcon);
+    }, 1000);
+}
+
+// Apply comprehensive Font Awesome fallback
+function applyComprehensiveFontAwesomeFallback() {
+    // Add comprehensive fallback CSS
+    const fallbackCSS = `
+        /* Font Awesome fallback styles */
+        .fas, .fab, .far, .fal, .fad {
+            font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "FontAwesome", sans-serif !important;
+            font-weight: 900 !important;
+            font-style: normal !important;
+            font-variant: normal !important;
+            text-rendering: auto !important;
+            line-height: 1 !important;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            display: inline-block !important;
+            width: 1em !important;
+            height: 1em !important;
+            text-align: center !important;
+        }
+        
+        /* Specific icon fallbacks using Unicode symbols */
+        .fas.fa-globe::before { content: "🌐" !important; }
+        .fas.fa-search::before { content: "🔍" !important; }
+        .fas.fa-search-plus::before { content: "🔍+" !important; }
+        .fas.fa-cogs::before { content: "⚙️" !important; }
+        .fas.fa-cloud::before { content: "☁️" !important; }
+        .fas.fa-chart-line::before { content: "📈" !important; }
+        .fas.fa-plus-circle::before { content: "➕" !important; }
+        .fas.fa-microscope::before { content: "🔬" !important; }
+        .fas.fa-clock::before { content: "🕐" !important; }
+        .fas.fa-link::before { content: "🔗" !important; }
+        .fas.fa-exclamation-triangle::before { content: "⚠️" !important; }
+        .fas.fa-layer-group::before { content: "📚" !important; }
+        .fas.fa-shield-alt::before { content: "🛡️" !important; }
+        .fas.fa-question-circle::before { content: "❓" !important; }
+        .fas.fa-spinner::before { content: "⏳" !important; }
+        .fas.fa-server::before { content: "🖥️" !important; }
+        .fas.fa-database::before { content: "🗄️" !important; }
+        .fas.fa-palette::before { content: "🎨" !important; }
+        .fas.fa-shopping-cart::before { content: "🛒" !important; }
+        .fas.fa-blog::before { content: "📝" !important; }
+        .fas.fa-comments::before { content: "💬" !important; }
+        .fas.fa-bug::before { content: "🐛" !important; }
+        .fas.fa-edit::before { content: "✏️" !important; }
+        .fas.fa-play::before { content: "▶️" !important; }
+        .fas.fa-tools::before { content: "🔧" !important; }
+        .fas.fa-tags::before { content: "🏷️" !important; }
+        .fas.fa-font::before { content: "🔤" !important; }
+        .fas.fa-bug::before { content: "🐛" !important; }
+        .fab.fa-js-square::before { content: "🟨" !important; }
+        .fab.fa-php::before { content: "🐘" !important; }
+        .fab.fa-linux::before { content: "🐧" !important; }
+    `;
+    
+    const style = document.createElement('style');
+    style.textContent = fallbackCSS;
+    style.id = 'fontawesome-fallback';
+    document.head.appendChild(style);
+    
+    // Also try to reload Font Awesome from a different CDN
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://use.fontawesome.com/releases/v6.5.1/css/all.css';
+    link.id = 'fontawesome-backup';
+    document.head.appendChild(link);
+    
+    console.log('Font Awesome fallback applied');
+}
+
+// Get selected detection engines
+function getSelectedEngines() {
+    const engines = [];
+    
+    if (document.getElementById('engine-pattern').checked) {
+        engines.push('pattern');
+    }
+    if (document.getElementById('engine-whatweb').checked) {
+        engines.push('whatweb');
+    }
+    if (document.getElementById('engine-cmseek').checked) {
+        engines.push('cmseek');
+    }
+    if (document.getElementById('engine-whatcms').checked) {
+        engines.push('whatcms');
+    }
+    if (document.getElementById('engine-wappalyzer').checked) {
+        engines.push('wappalyzer');
+    }
+    if (document.getElementById('engine-additional').checked) {
+        engines.push('additional');
+    }
+    if (document.getElementById('engine-deep').checked) {
+        engines.push('deep');
+    }
+    
+    return engines;
+}
 
 // Event listeners
 function initializeEventListeners() {
@@ -89,24 +317,39 @@ function loadSuggestions() {
 async function analyzeDomain() {
     const domain = domainInput.value.trim();
     if (!domain) {
+        clientLogger.warn('No domain provided for analysis');
         alert('Please enter a domain');
         return;
     }
     
     // Clean domain input
     const cleanDomain = domain.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    clientLogger.info(`Starting analysis for domain: ${cleanDomain}`);
     
     hideAllSections();
     showLoading();
     
     try {
+        // Get selected engines
+        const selectedEngines = getSelectedEngines();
+        clientLogger.info(`Selected engines: ${selectedEngines.join(', ')}`);
+        
+        const startTime = Date.now();
+        clientLogger.debug('Sending analysis request to API');
+        
         const response = await fetch('/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ domain: cleanDomain })
+            body: JSON.stringify({ 
+                domain: cleanDomain,
+                engines: selectedEngines
+            })
         });
+        
+        const requestTime = Date.now() - startTime;
+        clientLogger.info(`API request completed in ${requestTime}ms`);
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -117,9 +360,21 @@ async function analyzeDomain() {
         allTechnologies = data.technologies || [];
         filteredTechnologies = [...allTechnologies];
         
+        clientLogger.info(`Analysis completed: ${allTechnologies.length} technologies detected`);
+        clientLogger.debug('Analysis data received', {
+            technologies: allTechnologies.length,
+            analysisTime: data.analysis_time,
+            engines: data.metadata?.detection_breakdown
+        });
+        
         displayResults(data);
         
     } catch (error) {
+        clientLogger.error('Analysis failed', {
+            domain: cleanDomain,
+            error: error.message,
+            stack: error.stack
+        });
         console.error('Analysis failed:', error);
         showError(error.message);
     }
@@ -197,7 +452,7 @@ function displayResults(data) {
 function updateDomainInfo(data) {
     document.getElementById('domainName').textContent = data.url || 'Unknown';
     document.getElementById('finalUrl').textContent = data.final_url || data.url || 'Unknown';
-    document.getElementById('analysisTimeDetail').textContent = `${data.analysis_time || 0}s`;
+    document.getElementById('analysisTimeDetail').textContent = formatTime(data.analysis_time || 0);
     document.getElementById('errorCount').textContent = data.errors ? data.errors.length : 0;
     
     const statusBadge = document.getElementById('domainStatus');
@@ -230,7 +485,7 @@ function updateOverview(data) {
     // Update header stats
     document.getElementById('totalTechnologies').textContent = technologies.length;
     document.getElementById('totalCategories').textContent = Object.keys(categoryCounts).length;
-    document.getElementById('analysisTime').textContent = `${data.analysis_time || 0}s`;
+    document.getElementById('analysisTime').textContent = formatTime(data.analysis_time || 0);
 }
 
 // Update technologies display
@@ -257,11 +512,14 @@ function createTechnologyCard(tech) {
     const confidenceClass = getConfidenceClass(tech.confidence);
     const categoryIcon = getCategoryIcon(tech.category);
     
+    // Create unique ID for each card's JSON section
+    const jsonId = `json-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    
     card.innerHTML = `
-        <div class="tech-header">
+        <div class="tech-header" onclick="openSidebar(${JSON.stringify(tech).replace(/"/g, '&quot;')})" style="cursor: pointer;">
             <div>
                 <div class="tech-name">${tech.name}</div>
-                <div class="tech-category">${categoryIcon} ${tech.category || 'Unknown'}</div>
+                <div class="tech-category"><i class="${categoryIcon}"></i> ${tech.category || 'Unknown'}</div>
             </div>
             <div class="confidence-badge ${confidenceClass}">${tech.confidence}%</div>
         </div>
@@ -299,6 +557,22 @@ function createTechnologyCard(tech) {
                 ${tech.evidence.length > 3 ? `<div class="evidence-item">... and ${tech.evidence.length - 3} more</div>` : ''}
             </div>
         ` : ''}
+        
+        <div class="tech-actions">
+            <button class="json-toggle-btn" onclick="toggleRawJson('${jsonId}')">
+                <i class="fas fa-code"></i> Raw JSON
+            </button>
+        </div>
+        
+        <div class="raw-json-section" id="${jsonId}" style="display: none;">
+            <div class="json-header">
+                <h4><i class="fas fa-database"></i> Raw Detection Data</h4>
+                <button class="copy-json-btn" onclick="copyToClipboard('${jsonId}')">
+                    <i class="fas fa-copy"></i> Copy JSON
+                </button>
+            </div>
+            <pre class="json-content">${JSON.stringify(tech, null, 2)}</pre>
+        </div>
         
         <div class="tech-source">
             <span class="source-badge ${tech.source || 'unknown'}">${tech.source || 'Unknown'}</span>
@@ -356,8 +630,9 @@ function updateCategoryChart() {
     if (!ctx) return;
     
     // Destroy existing chart if it exists
-    if (window.categoryChart) {
+    if (window.categoryChart && typeof window.categoryChart.destroy === 'function') {
         window.categoryChart.destroy();
+        window.categoryChart = null;
     }
     
     // Count technologies by category
@@ -419,8 +694,9 @@ function updateConfidenceChart() {
     if (!ctx) return;
     
     // Destroy existing chart if it exists
-    if (window.confidenceChart) {
+    if (window.confidenceChart && typeof window.confidenceChart.destroy === 'function') {
         window.confidenceChart.destroy();
+        window.confidenceChart = null;
     }
     
     const high = filteredTechnologies.filter(tech => tech.confidence >= 90).length;
@@ -588,6 +864,98 @@ function formatTime(seconds) {
     }
 }
 
+// JSON display functions
+function toggleRawJson(jsonId) {
+    const jsonSection = document.getElementById(jsonId);
+    if (!jsonSection) return;
+    
+    const isVisible = jsonSection.style.display !== 'none';
+    jsonSection.style.display = isVisible ? 'none' : 'block';
+    
+    // Update button text
+    const button = jsonSection.previousElementSibling.querySelector('.json-toggle-btn');
+    if (button) {
+        button.innerHTML = isVisible ? 
+            '<i class="fas fa-code"></i> Raw JSON' : 
+            '<i class="fas fa-eye-slash"></i> Hide JSON';
+    }
+}
+
+function copyToClipboard(jsonId) {
+    const jsonSection = document.getElementById(jsonId);
+    if (!jsonSection) return;
+    
+    const jsonContent = jsonSection.querySelector('.json-content');
+    if (!jsonContent) return;
+    
+    const text = jsonContent.textContent;
+    
+    // Use the Clipboard API if available
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(() => {
+            showCopySuccess(jsonId);
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+            fallbackCopyTextToClipboard(text, jsonId);
+        });
+    } else {
+        fallbackCopyTextToClipboard(text, jsonId);
+    }
+}
+
+function fallbackCopyTextToClipboard(text, jsonId) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.left = "-999999px";
+    textArea.style.top = "-999999px";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            showCopySuccess(jsonId);
+        } else {
+            showCopyError(jsonId);
+        }
+    } catch (err) {
+        console.error('Fallback copy failed: ', err);
+        showCopyError(jsonId);
+    }
+    
+    document.body.removeChild(textArea);
+}
+
+function showCopySuccess(jsonId) {
+    const button = document.querySelector(`#${jsonId} .copy-json-btn`);
+    if (button) {
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        button.style.backgroundColor = '#4CAF50';
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.style.backgroundColor = '';
+        }, 2000);
+    }
+}
+
+function showCopyError(jsonId) {
+    const button = document.querySelector(`#${jsonId} .copy-json-btn`);
+    if (button) {
+        const originalText = button.innerHTML;
+        button.innerHTML = '<i class="fas fa-times"></i> Failed';
+        button.style.backgroundColor = '#f44336';
+        
+        setTimeout(() => {
+            button.innerHTML = originalText;
+            button.style.backgroundColor = '';
+        }, 2000);
+    }
+}
+
 // Error handling for charts
 function safeChartUpdate(chartFunction) {
     try {
@@ -596,4 +964,210 @@ function safeChartUpdate(chartFunction) {
         console.error('Chart update error:', error);
         showMessage('Chart rendering error: ' + error.message, 'error');
     }
+}
+
+// Sidebar functionality
+function initializeSidebar() {
+    const sidebar = document.getElementById('aiSidebar');
+    const closeBtn = document.getElementById('closeSidebar');
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeSidebar);
+    }
+    
+    // Close sidebar when clicking outside
+    document.addEventListener('click', function(e) {
+        if (sidebar && sidebar.classList.contains('open') && 
+            !sidebar.contains(e.target) && 
+            !e.target.closest('.technology-card')) {
+            closeSidebar();
+        }
+    });
+}
+
+function openSidebar(techData) {
+    const sidebar = document.getElementById('aiSidebar');
+    const loadingDiv = document.getElementById('sidebarLoading');
+    const contentDiv = document.getElementById('sidebarContent');
+    
+    if (!sidebar) return;
+    
+    // Show loading state
+    loadingDiv.style.display = 'block';
+    contentDiv.style.display = 'none';
+    
+    // Open sidebar
+    sidebar.classList.add('open');
+    
+    // Update tech info
+    document.getElementById('sidebarTechName').textContent = techData.name || 'Unknown';
+    document.getElementById('sidebarTechCategory').textContent = techData.category || 'Unknown';
+    document.getElementById('sidebarTechConfidence').textContent = `${techData.confidence || 0}%`;
+    
+    // Generate AI summary
+    generateAISummary(techData);
+}
+
+function closeSidebar() {
+    const sidebar = document.getElementById('aiSidebar');
+    if (sidebar) {
+        sidebar.classList.remove('open');
+    }
+}
+
+function formatAISummary(summary) {
+    if (!summary) return '<div class="no-summary">No summary available</div>';
+    
+    // Convert markdown-like formatting to HTML
+    let formatted = summary
+        // Convert **bold** to <strong>
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        // Convert *italic* to <em>
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        // Convert bullet points to proper list items
+        .replace(/^\s*\*\s+/gm, '<li>')
+        .replace(/^\s*\+\s+/gm, '<li>')
+        // Convert numbered sections to headers
+        .replace(/^\*\*(\d+\.\s+.*?)\*\*/gm, '<h4 class="section-header">$1</h4>')
+        // Convert subsections
+        .replace(/^\*\*(.*?)\*\*:/gm, '<h5 class="subsection-header">$1</h5>')
+        // Convert line breaks
+        .replace(/\n/g, '<br>')
+        // Handle tabs and indentation
+        .replace(/\t/g, '&nbsp;&nbsp;&nbsp;&nbsp;')
+        // Wrap consecutive list items in ul tags
+        .replace(/(<li>.*?<\/li>)(\s*<li>.*?<\/li>)*/g, function(match) {
+            return '<ul class="ai-list">' + match + '</ul>';
+        });
+    
+    // Split into sections for better organization
+    const sections = formatted.split(/<h4 class="section-header">/);
+    let result = '';
+    
+    sections.forEach((section, index) => {
+        if (index === 0) {
+            result += section;
+        } else {
+            result += '<div class="ai-section">';
+            result += '<h4 class="section-header">' + section;
+            result += '</div>';
+        }
+    });
+    
+    return result || formatted;
+}
+
+async function generateAISummary(techData) {
+    try {
+        const response = await fetch('/api/summarize', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                technology: techData
+            })
+        });
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const result = await response.json();
+        
+        // Update sidebar content with formatted HTML
+        document.getElementById('aiSummaryText').innerHTML = formatAISummary(result.summary || 'No summary available');
+        
+        // Populate technical details
+        populateTechDetails(techData);
+        
+        // Hide loading, show content
+        document.getElementById('sidebarLoading').style.display = 'none';
+        document.getElementById('sidebarContent').style.display = 'block';
+        
+    } catch (error) {
+        console.error('Error generating AI summary:', error);
+        document.getElementById('aiSummaryText').innerHTML = '<div class="error-message">Error generating AI summary. Please try again.</div>';
+        document.getElementById('sidebarLoading').style.display = 'none';
+        document.getElementById('sidebarContent').style.display = 'block';
+    }
+}
+
+function populateTechDetails(techData) {
+    const detailsContainer = document.getElementById('sidebarTechDetails');
+    let detailsHTML = '';
+    
+    // Add basic info
+    if (techData.website) {
+        detailsHTML += `<div class="detail-item">
+            <span class="detail-label">Website:</span>
+            <span class="detail-value"><a href="${techData.website}" target="_blank" style="color: #4ecdc4;">${techData.website}</a></span>
+        </div>`;
+    }
+    
+    if (techData.source) {
+        detailsHTML += `<div class="detail-item">
+            <span class="detail-label">Source:</span>
+            <span class="detail-value">${techData.source}</span>
+        </div>`;
+    }
+    
+    if (techData.versions && techData.versions.length > 0) {
+        detailsHTML += `<div class="detail-item">
+            <span class="detail-label">Versions:</span>
+            <span class="detail-value">${techData.versions.join(', ')}</span>
+        </div>`;
+    }
+    
+    // Add evidence
+    if (techData.evidence && techData.evidence.length > 0) {
+        detailsHTML += `<div class="detail-item">
+            <span class="detail-label">Evidence:</span>
+            <span class="detail-value">${techData.evidence.length} items found</span>
+        </div>`;
+    }
+    
+    detailsContainer.innerHTML = detailsHTML;
+}
+
+// Enhanced icon mapping with Grok AI suggestions
+const enhancedIconMapping = {
+    'Telerik UI': 'fas fa-palette',
+    'Microsoft ASP.NET': 'fab fa-microsoft',
+    'IIS': 'fas fa-server',
+    'Windows Server': 'fab fa-windows',
+    'Sitefinity': 'fas fa-globe',
+    'PHP': 'fab fa-php',
+    'Google Analytics': 'fab fa-google',
+    'Google Tag Manager': 'fab fa-google',
+    'Google Fonts': 'fab fa-google',
+    'Cloudflare': 'fas fa-cloud',
+    'HSTS': 'fas fa-shield-alt',
+    'ASP.NET': 'fab fa-microsoft'
+};
+
+// Update getCategoryIcon function to use enhanced mapping
+function getCategoryIcon(category) {
+    // First check enhanced mapping
+    const enhancedIcon = enhancedIconMapping[category];
+    if (enhancedIcon) {
+        return enhancedIcon;
+    }
+    
+    // Fallback to original mapping
+    const iconMap = {
+        'Web Framework': 'fas fa-code',
+        'CMS': 'fas fa-globe',
+        'Web Server': 'fas fa-server',
+        'Operating System': 'fas fa-desktop',
+        'Analytics': 'fas fa-chart-line',
+        'JavaScript Framework': 'fas fa-js',
+        'UI Framework': 'fas fa-palette',
+        'Database': 'fas fa-database',
+        'CDN': 'fas fa-cloud',
+        'Security': 'fas fa-shield-alt',
+        'Unknown': 'fas fa-question-circle'
+    };
+    
+    return iconMap[category] || 'fas fa-question-circle';
 }

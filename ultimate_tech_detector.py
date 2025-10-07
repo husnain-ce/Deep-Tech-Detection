@@ -26,18 +26,17 @@ import subprocess
 import sys
 import time
 import traceback
+import requests
 from dataclasses import dataclass, field
 from typing import Dict, List, Any, Optional, Set, Tuple
+from dotenv import load_dotenv
 from urllib.parse import urlparse
 import aiohttp
 from collections import defaultdict
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
+# Configure comprehensive logging
+from logging_config import get_logger, log_analysis_start, log_analysis_complete, log_analysis_error, log_engine_status
+logger = get_logger('ultimate_tech_detector')
 
 @dataclass
 class DetectionResult:
@@ -612,7 +611,7 @@ class WhatWebIntegration:
     """WhatWeb integration for additional technology detection"""
     
     def __init__(self):
-        self.whatweb_path = "./data/external_tools/WhatWeb/whatweb"
+        self.whatweb_path = "/usr/bin/whatweb"
         self.available = self._check_availability()
     
     def _check_availability(self) -> bool:
@@ -633,11 +632,12 @@ class WhatWebIntegration:
             cmd = [
                 self.whatweb_path,
                 "--log-json=-",
-                "--aggression=1",
+                "--verbose",
+                "--aggression=3",
                 url
             ]
             
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
             
             if result.returncode == 0:
                 if result.stdout and result.stdout.strip():
@@ -796,11 +796,11 @@ class CMSeeKIntegration:
                 sys.executable,
                 self.cmseek_path,
                 "-u", url,
-                "--batch",  # Non-interactive mode
-                "--light-scan"  # Skip deep scan for faster results
+                "-v",
+                "--batch"  # Non-interactive mode
             ]
             
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
             
             if result.returncode == 0:
                 if result.stdout and result.stdout.strip():
@@ -1134,6 +1134,188 @@ class CMSeeKIntegration:
         
         return []
 
+class WhatCMSIntegration:
+    """WhatCMS.org API integration for additional technology detection"""
+    
+    def __init__(self):
+        # Load environment variables
+        load_dotenv()
+        self.api_key = os.getenv('WHATCMS_API_KEY')
+        self.api_url = os.getenv('WHATCMS_API_URL', 'https://whatcms.org/API/Tech')
+        self.available = self._check_availability()
+        
+    def _check_availability(self):
+        """Check if WhatCMS.org API is available"""
+        if not self.api_key:
+            logger.warning("WhatCMS.org API key not found in environment variables")
+            return False
+        
+        try:
+            # Test API with a simple request
+            response = requests.get(
+                self.api_url,
+                params={'key': self.api_key, 'url': 'example.com'},
+                timeout=30
+            )
+            return response.status_code == 200
+        except Exception as e:
+            logger.warning(f"WhatCMS.org API not available: {e}")
+            return False
+    
+    async def analyze_url(self, url: str) -> List[DetectionResult]:
+        """Analyze URL using WhatCMS.org API"""
+        if not self.available:
+            logger.warning("WhatCMS.org API not available")
+            return []
+        
+        try:
+            # Clean URL for API
+            clean_url = url.replace('https://', '').replace('http://', '')
+            
+            # Make API request
+            response = requests.get(
+                self.api_url,
+                params={'key': self.api_key, 'url': clean_url},
+                timeout=30
+            )
+            
+            if response.status_code != 200:
+                logger.warning(f"WhatCMS.org API request failed: {response.status_code}")
+                return []
+            
+            data = response.json()
+            
+            if data.get('result', {}).get('code') != 200:
+                logger.warning(f"WhatCMS.org API error: {data.get('result', {}).get('msg', 'Unknown error')}")
+                return []
+            
+            detections = []
+            results = data.get('results', [])
+            
+            for tech in results:
+                # Extract technology information
+                name = tech.get('name', 'Unknown')
+                version = tech.get('version', '')
+                categories = tech.get('categories', [])
+                tech_id = tech.get('id', '')
+                tech_url = tech.get('url', '')
+                
+                # Determine primary category
+                primary_category = 'Unknown'
+                if categories:
+                    # Prioritize certain categories
+                    if 'CMS' in categories:
+                        primary_category = 'CMS'
+                    elif 'Programming Language' in categories:
+                        primary_category = 'Programming Language'
+                    elif 'Wiki' in categories:
+                        primary_category = 'Wiki'
+                    else:
+                        primary_category = categories[0]
+                
+                # Create detection result
+                detection = DetectionResult(
+                    name=name,
+                    confidence=95,  # High confidence for API results
+                    category=primary_category,
+                    versions=[version] if version else [],
+                    evidence=[{
+                        'field': 'whatcms_api',
+                        'detail': f"API ID: {tech_id}",
+                        'match': name,
+                        'confidence': 95
+                    }],
+                    source='whatcms',
+                    website=f"https://whatcms.org{tech_url}" if tech_url else '',
+                    description=f"Detected by WhatCMS.org API (ID: {tech_id})",
+                    detection_time=time.time()
+                )
+                detections.append(detection)
+                logger.info(f"WhatCMS.org detected: {name} ({primary_category})")
+            
+            logger.info(f"WhatCMS.org detected {len(detections)} technologies")
+            return detections
+            
+        except Exception as e:
+            logger.error(f"WhatCMS.org analysis failed: {e}")
+            return []
+
+class WappalyzerIntegration:
+    """Wappalyzer integration for technology detection"""
+    
+    def __init__(self):
+        self.available = self._check_availability()
+        
+    def _check_availability(self):
+        """Check if Wappalyzer is available"""
+        try:
+            # Check if wappalyzer command is available
+            result = subprocess.run(['which', 'wappalyzer'], 
+                                  capture_output=True, text=True, timeout=15)
+            return result.returncode == 0
+        except Exception as e:
+            logger.warning(f"Wappalyzer not available: {e}")
+            return False
+    
+    async def analyze_url(self, url: str) -> List[DetectionResult]:
+        """Analyze URL using Wappalyzer"""
+        if not self.available:
+            logger.warning("Wappalyzer not available")
+            return []
+        
+        try:
+            # Run wappalyzer command
+            result = subprocess.run(
+                ['wappalyzer', url, '--json'],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            
+            if result.returncode != 0:
+                logger.warning(f"Wappalyzer analysis failed: {result.stderr}")
+                return []
+            
+            # Parse JSON output
+            data = json.loads(result.stdout)
+            detections = []
+            
+            technologies = data.get('technologies', [])
+            for tech in technologies:
+                name = tech.get('name', 'Unknown')
+                confidence = tech.get('confidence', 0)
+                category = tech.get('category', {}).get('name', 'Unknown') if isinstance(tech.get('category'), dict) else 'Unknown'
+                version = tech.get('version', '')
+                website = tech.get('website', '')
+                description = tech.get('description', '')
+                
+                # Create detection result
+                detection = DetectionResult(
+                    name=name,
+                    confidence=confidence,
+                    category=category,
+                    versions=[version] if version else [],
+                    evidence=[{
+                        'field': 'wappalyzer',
+                        'detail': f"Confidence: {confidence}%",
+                        'match': name,
+                        'confidence': confidence
+                    }],
+                    source='wappalyzer',
+                    website=website,
+                    description=description,
+                    detection_time=time.time()
+                )
+                detections.append(detection)
+                logger.info(f"Wappalyzer detected: {name} ({category})")
+            
+            logger.info(f"Wappalyzer detected {len(detections)} technologies")
+            return detections
+            
+        except Exception as e:
+            logger.error(f"Wappalyzer analysis failed: {e}")
+            return []
+
 class UltimateTechDetector:
     """Ultimate unified technology detection system"""
     
@@ -1143,6 +1325,8 @@ class UltimateTechDetector:
         self.pattern_matcher = UltimatePatternMatcher(self.dataset_manager)
         self.whatweb = WhatWebIntegration()
         self.cmseek = CMSeeKIntegration()
+        self.whatcms = WhatCMSIntegration()
+        self.wappalyzer = WappalyzerIntegration()
         self.session = None
     
     async def close(self):
@@ -1151,54 +1335,116 @@ class UltimateTechDetector:
             await self.session.close()
             self.session = None
     
-    async def analyze_url(self, url: str, options: Dict[str, Any] = None) -> AnalysisResult:
+    async def analyze_url(self, url: str, options: Dict[str, Any] = None, engines: List[str] = None) -> AnalysisResult:
         """Analyze URL and detect all technologies"""
         if options is None:
             options = {}
+        if engines is None:
+            engines = ['pattern', 'whatweb', 'cmseek', 'whatcms', 'wappalyzer', 'additional', 'deep']
         
         start_time = time.time()
-        logger.info(f"Starting ultimate analysis of {url}")
+        logger.info(f"ANALYSIS_START: {url} with engines: {engines}")
+        logger.debug(f"ANALYSIS_OPTIONS: {options}")
+        
+        # Log analysis start
+        log_analysis_start(url, engines)
         
         # Initialize session
         if self.session is None or self.session.closed:
+            logger.debug("Initializing new aiohttp session")
             self.session = aiohttp.ClientSession(
-                timeout=aiohttp.ClientTimeout(total=options.get('timeout', 30)),
+                timeout=aiohttp.ClientTimeout(total=options.get('timeout', 60)),
                 headers={'User-Agent': 'UltimateTechDetector/1.0'}
             )
+        else:
+            logger.debug("Reusing existing aiohttp session")
         
         try:
             # Fetch page content
             response_data = await self._fetch_page_content(url)
             
-            # Run comprehensive detection
-            technologies = await self.pattern_matcher.detect_all_technologies(url, response_data)
+            technologies = []
+            
+            # Run Pattern Matching detection
+            if 'pattern' in engines:
+                logger.info("ENGINE_START: Pattern Matching detection")
+                pattern_start = time.time()
+                pattern_technologies = await self.pattern_matcher.detect_all_technologies(url, response_data)
+                pattern_time = time.time() - pattern_start
+                technologies.extend(pattern_technologies)
+                logger.info(f"ENGINE_COMPLETE: Pattern Matching - {len(pattern_technologies)} technologies in {pattern_time:.2f}s")
+                log_engine_status("Pattern Matching", "Completed", f"{len(pattern_technologies)} technologies")
             
             # Run WhatWeb detection
-            whatweb_technologies = await self.whatweb.analyze_url(url)
-            technologies.extend(whatweb_technologies)
+            if 'whatweb' in engines:
+                logger.info("ENGINE_START: WhatWeb detection")
+                whatweb_start = time.time()
+                whatweb_technologies = await self.whatweb.analyze_url(url)
+                whatweb_time = time.time() - whatweb_start
+                technologies.extend(whatweb_technologies)
+                logger.info(f"ENGINE_COMPLETE: WhatWeb - {len(whatweb_technologies)} technologies in {whatweb_time:.2f}s")
+                log_engine_status("WhatWeb", "Completed", f"{len(whatweb_technologies)} technologies")
             
             # Run CMSeeK detection
-            cmseek_technologies = await self.cmseek.analyze_url(url)
-            technologies.extend(cmseek_technologies)
+            if 'cmseek' in engines:
+                logger.info("ENGINE_START: CMSeeK detection")
+                cmseek_start = time.time()
+                cmseek_technologies = await self.cmseek.analyze_url(url)
+                cmseek_time = time.time() - cmseek_start
+                technologies.extend(cmseek_technologies)
+                logger.info(f"ENGINE_COMPLETE: CMSeeK - {len(cmseek_technologies)} technologies in {cmseek_time:.2f}s")
+                log_engine_status("CMSeeK", "Completed", f"{len(cmseek_technologies)} technologies")
+            
+            # Run WhatCMS.org API detection
+            if 'whatcms' in engines:
+                logger.info("ENGINE_START: WhatCMS.org API detection")
+                whatcms_start = time.time()
+                whatcms_technologies = await self.whatcms.analyze_url(url)
+                whatcms_time = time.time() - whatcms_start
+                technologies.extend(whatcms_technologies)
+                logger.info(f"ENGINE_COMPLETE: WhatCMS.org - {len(whatcms_technologies)} technologies in {whatcms_time:.2f}s")
+                log_engine_status("WhatCMS.org", "Completed", f"{len(whatcms_technologies)} technologies")
+            
+            # Run Wappalyzer detection
+            if 'wappalyzer' in engines:
+                logger.info("ENGINE_START: Wappalyzer detection")
+                wappalyzer_start = time.time()
+                wappalyzer_technologies = await self.wappalyzer.analyze_url(url)
+                wappalyzer_time = time.time() - wappalyzer_start
+                technologies.extend(wappalyzer_technologies)
+                logger.info(f"ENGINE_COMPLETE: Wappalyzer - {len(wappalyzer_technologies)} technologies in {wappalyzer_time:.2f}s")
+                log_engine_status("Wappalyzer", "Completed", f"{len(wappalyzer_technologies)} technologies")
             
             # Run additional pattern matching for 100% coverage
-            logger.info(f"Response data for additional patterns: {list(response_data.keys())}")
-            logger.info(f"CSS links: {len(response_data.get('css_links', []))}")
-            logger.info(f"Image sources: {len(response_data.get('img_srcs', []))}")
-            additional_technologies = await self._detect_additional_patterns(url, response_data)
-            logger.info(f"Additional patterns completed: {len(additional_technologies)} technologies detected")
-            technologies.extend(additional_technologies)
+            if 'additional' in engines:
+                logger.info("ENGINE_START: Additional Patterns detection")
+                additional_start = time.time()
+                logger.debug(f"Response data keys: {list(response_data.keys())}")
+                logger.debug(f"CSS links: {len(response_data.get('css_links', []))}")
+                logger.debug(f"Image sources: {len(response_data.get('img_srcs', []))}")
+                additional_technologies = await self._detect_additional_patterns(url, response_data)
+                additional_time = time.time() - additional_start
+                logger.info(f"ENGINE_COMPLETE: Additional Patterns - {len(additional_technologies)} technologies in {additional_time:.2f}s")
+                log_engine_status("Additional Patterns", "Completed", f"{len(additional_technologies)} technologies")
+                technologies.extend(additional_technologies)
             
             # Run deep analysis for comprehensive detection
-            deep_technologies = await self._run_deep_analysis(url, response_data)
-            logger.info(f"Deep analysis completed: {len(deep_technologies)} technologies detected")
-            technologies.extend(deep_technologies)
+            if 'deep' in engines:
+                logger.info("ENGINE_START: Deep Analysis detection")
+                deep_start = time.time()
+                deep_technologies = await self._run_deep_analysis(url, response_data)
+                deep_time = time.time() - deep_start
+                logger.info(f"ENGINE_COMPLETE: Deep Analysis - {len(deep_technologies)} technologies in {deep_time:.2f}s")
+                log_engine_status("Deep Analysis", "Completed", f"{len(deep_technologies)} technologies")
+                technologies.extend(deep_technologies)
             
             # Calculate detection breakdown BEFORE deduplication
             detection_breakdown = {
                 'pattern_matching': len([t for t in technologies if 'pattern' in t.source]),
                 'whatweb': len([t for t in technologies if t.source == 'whatweb']),
                 'cmseek': len([t for t in technologies if t.source == 'cmseek']),
+                'whatcms': len([t for t in technologies if t.source == 'whatcms']),
+                'wappalyzer': len([t for t in technologies if t.source == 'wappalyzer']),
                 'additional_patterns': len([t for t in technologies if t.source == 'additional_pattern']),
                 'deep_analysis': len([t for t in technologies if t.source == 'deep'])
             }
@@ -1243,11 +1489,22 @@ class UltimateTechDetector:
                 successful_agent=response_data.get('user_agent', 'Unknown')
             )
             
-            logger.info(f"Ultimate analysis completed in {result.analysis_time:.2f}s - {len(filtered_technologies)} technologies detected")
+            # Log comprehensive results
+            logger.info(f"ANALYSIS_COMPLETE: {url} - {len(filtered_technologies)} technologies in {result.analysis_time:.2f}s")
+            logger.info(f"DETECTION_BREAKDOWN: {detection_breakdown}")
+            logger.info(f"CATEGORIES_DETECTED: {len(set(tech.category for tech in filtered_technologies))}")
+            logger.info(f"CONFIDENCE_DISTRIBUTION: {self._get_confidence_distribution(filtered_technologies)}")
+            
+            # Log completion
+            engines_used = [engine for engine in engines if detection_breakdown.get(engine, 0) > 0]
+            log_analysis_complete(url, len(filtered_technologies), result.analysis_time, engines_used)
+            
             return result
             
         except Exception as e:
-            logger.error(f"Analysis failed: {e}")
+            logger.error(f"ANALYSIS_FAILED: {url} - {str(e)}")
+            logger.error(f"ERROR_TRACEBACK: {traceback.format_exc()}")
+            log_analysis_error(url, str(e))
             analysis_time = time.time() - start_time
             return AnalysisResult(
                 url=url,
@@ -1477,6 +1734,56 @@ class UltimateTechDetector:
                 'jQuery CDN': r'jquery'
             }
             
+            # Check all content for common technologies
+            all_content = []
+            all_content.extend(response_data.get('scripts', []))
+            all_content.extend(response_data.get('css_links', []))
+            all_content.extend(response_data.get('img_srcs', []))
+            all_content.append(response_data.get('content', ''))
+            
+            # Common technology patterns for additional detection
+            tech_patterns = {
+                'jQuery': [r'jquery', r'jQuery', r'jquery\.min\.js'],
+                'Bootstrap': [r'bootstrap', r'Bootstrap', r'bootstrap\.min\.css'],
+                'React': [r'react', r'React', r'react\.min\.js'],
+                'Angular': [r'angular', r'Angular', r'angular\.min\.js'],
+                'Vue': [r'vue', r'Vue', r'vue\.min\.js'],
+                'Google Analytics': [r'google-analytics', r'gtag', r'analytics\.js'],
+                'Google Tag Manager': [r'googletagmanager', r'gtm\.js'],
+                'Font Awesome': [r'font-awesome', r'fontawesome', r'fa-'],
+                'Cloudflare': [r'cloudflare', r'cf-'],
+                'WordPress': [r'wp-content', r'wp-includes', r'wordpress'],
+                'Drupal': [r'drupal', r'sites/default', r'misc/drupal'],
+                'Joomla': [r'joomla', r'joomla\.org', r'joomla\.js']
+            }
+            
+            for content_item in all_content:
+                if content_item:
+                    for tech_name, patterns in tech_patterns.items():
+                        for pattern in patterns:
+                            try:
+                                if re.search(pattern, content_item, re.IGNORECASE):
+                                    detection = DetectionResult(
+                                        name=tech_name,
+                                        confidence=55,
+                                        category='JavaScript Library' if tech_name in ['jQuery', 'React', 'Angular', 'Vue'] else 'Analytics' if 'Google' in tech_name else 'CMS' if tech_name in ['WordPress', 'Drupal', 'Joomla'] else 'CDN' if tech_name == 'Cloudflare' else 'UI Framework',
+                                        evidence=[{
+                                            'field': 'additional',
+                                            'detail': f'Found in content: {content_item[:100]}...',
+                                            'match': pattern,
+                                            'confidence': 55
+                                        }],
+                                        source='additional_pattern',
+                                        website='',
+                                        description=f'Detected from additional pattern matching',
+                                        detection_time=time.time()
+                                    )
+                                    detections.append(detection)
+                                    logger.info(f"Additional pattern detected: {tech_name} from content")
+                                    break  # Only add once per technology
+                            except re.error:
+                                continue
+            
             for service, pattern in cdn_patterns.items():
                 if re.search(pattern, img_src, re.IGNORECASE):
                     detection = DetectionResult(
@@ -1678,6 +1985,48 @@ class UltimateTechDetector:
                                     )
                                     detections.append(detection)
                                     logger.info(f"Deep analysis detected: {tech_name} from HTML pattern")
+                        except re.error:
+                            continue
+                
+                # Add fallback patterns for common technologies
+                common_patterns = {
+                    'jQuery': [r'jquery', r'jQuery', r'jquery\.min\.js'],
+                    'Bootstrap': [r'bootstrap', r'Bootstrap', r'bootstrap\.min\.css'],
+                    'React': [r'react', r'React', r'react\.min\.js'],
+                    'Angular': [r'angular', r'Angular', r'angular\.min\.js'],
+                    'Vue': [r'vue', r'Vue', r'vue\.min\.js'],
+                    'Google Analytics': [r'google-analytics', r'gtag', r'analytics\.js'],
+                    'Google Tag Manager': [r'googletagmanager', r'gtm\.js'],
+                    'Font Awesome': [r'font-awesome', r'fontawesome', r'fa-'],
+                    'Cloudflare': [r'cloudflare', r'cf-'],
+                    'WordPress': [r'wp-content', r'wp-includes', r'wordpress'],
+                    'Drupal': [r'drupal', r'sites/default', r'misc/drupal'],
+                    'Joomla': [r'joomla', r'joomla\.org', r'joomla\.js']
+                }
+                
+                for tech_name, patterns in common_patterns.items():
+                    for pattern in patterns:
+                        try:
+                            if re.search(pattern, html_content, re.IGNORECASE):
+                                detection = DetectionResult(
+                                    name=tech_name,
+                                    confidence=60,
+                                    category='JavaScript Library' if tech_name in ['jQuery', 'React', 'Angular', 'Vue'] else 'Analytics' if 'Google' in tech_name else 'CMS' if tech_name in ['WordPress', 'Drupal', 'Joomla'] else 'CDN' if tech_name == 'Cloudflare' else 'UI Framework',
+                                    versions=[],
+                                    evidence=[{
+                                        'field': 'html',
+                                        'detail': f'Found pattern: {pattern}',
+                                        'match': pattern,
+                                        'confidence': 60
+                                    }],
+                                    source='deep',
+                                    website='',
+                                    description=f'Detected from HTML content pattern',
+                                    detection_time=time.time()
+                                )
+                                detections.append(detection)
+                                logger.info(f"Deep analysis detected: {tech_name} from HTML pattern")
+                                break  # Only add once per technology
                         except re.error:
                             continue
                 

@@ -17,13 +17,27 @@ sdist/
 var/
 wheels/
 *.egg-info/
-.installed
-.pytest_cache/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual Environment
+# Virtual environments
 venv/
+venv_new/
 env/
 ENV/
+env.bak/
+venv.bak/
+launchers/venv/
+
+# Logs
+logs/
+*.log
+server.log
+
+# Output directories
+output/
+data/reports/
 
 # IDE
 .vscode/
@@ -41,19 +55,27 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
-# Project specific
-*.log
-*.csv
+# Temporary files
 *.tmp
+*.temp
 *.bak
 *.backup
-output/reports/*.csv
-output/logs/*.log
 
-# Keep important files
-!output/
-!output/reports/
-!output/logs/
-!*.md
-!requirements.txt
-!config.json
+# API Keys and sensitive data
+.env
+*.key
+*.pem
+config/secrets.json
+
+# Test files
+test_clean_*.csv
+*.test
+
+# Large datasets (keep structure but ignore large files)
+data/datasets/raw/*.json
+data/datasets/individual/*.json
+!data/datasets/raw/README.md
+!data/datasets/individual/README.md
+
+# Backup directories
+backup_before_organization/
