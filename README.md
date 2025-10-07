@@ -213,4 +213,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for comprehensive technology detection**
+**Made with ❤️ for comprehensive technology detection**# Deep-Tech-Detection
