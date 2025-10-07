@@ -1,10 +1,10 @@
-# 🚀 Ultimate Tech Detection System
+#  Ultimate Tech Detection System
 
 A comprehensive technology detection system that combines multiple detection engines to achieve 100% technology coverage. This system integrates pattern matching, WhatWeb, CMSeeK, WhatCMS.org, Wappalyzer, and custom deep analysis engines.
 
-## ✨ Features
+##  Features
 
-### 🔍 **Multi-Engine Detection**
+###  **Multi-Engine Detection**
 - **Pattern Matching**: 3,962 technologies with 4,674 patterns
 - **WhatWeb Integration**: Advanced web technology detection
 - **CMSeeK**: CMS and framework detection
@@ -13,20 +13,20 @@ A comprehensive technology detection system that combines multiple detection eng
 - **Additional Patterns**: Enhanced pattern matching for 100% coverage
 - **Deep Analysis**: Comprehensive content analysis
 
-### 🎨 **Modern Web Interface**
+###  **Modern Web Interface**
 - **Responsive Dashboard**: Beautiful, mobile-friendly interface
 - **Real-time Analysis**: Live technology detection
 - **Interactive Charts**: Technology distribution and confidence metrics
 - **AI-Powered Analysis**: Groq AI integration for technology summaries
 - **Security Analysis**: OWASP Top 10 vulnerability assessment
 
-### 🛡️ **Security Features**
+###  **Security Features**
 - **OWASP Integration**: Comprehensive security analysis
 - **Threat Assessment**: Risk level evaluation
 - **Compliance Standards**: ISO 27001, NIST framework support
 - **Security Recommendations**: Actionable security insights
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -61,7 +61,7 @@ python3 api_server.py
 - Frontend: `http://localhost:9000`
 - API: `http://localhost:9000/api/`
 
-## 📊 System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -77,7 +77,7 @@ python3 api_server.py
                                               └─────────────────┘
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 ```bash
@@ -94,15 +94,15 @@ FLASK_DEBUG=True
 
 ### Detection Engines
 All engines are enabled by default:
-- ✅ Pattern Matching
-- ✅ WhatWeb
-- ✅ CMSeeK
-- ✅ WhatCMS.org
-- ✅ Wappalyzer
-- ✅ Additional Patterns
-- ✅ Deep Analysis
+-  Pattern Matching
+-  WhatWeb
+-  CMSeeK
+-  WhatCMS.org
+-  Wappalyzer
+-  Additional Patterns
+-  Deep Analysis
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 - **Technologies**: 3,962 available
 - **Patterns**: 4,674 detection patterns
@@ -110,7 +110,7 @@ All engines are enabled by default:
 - **Accuracy**: 95%+ with multiple engine validation
 - **Coverage**: 100% technology detection capability
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Basic Detection
 ```python
@@ -139,7 +139,7 @@ const response = await fetch('/api/analyze', {
 const data = await response.json();
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Project Structure
 ```
@@ -177,14 +177,14 @@ flake8 .
 mypy src/
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - [API Reference](docs/API_REFERENCE.md)
 - [Advanced Usage](docs/ADVANCED_USAGE.md)
 - [Dataset Guide](docs/DATASET_GUIDE.md)
 - [Command Reference](docs/COMMAND_REFERENCE.md)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -192,11 +192,11 @@ mypy src/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - WhatWeb for web technology detection
 - CMSeeK for CMS detection
@@ -205,7 +205,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Groq AI for intelligent analysis
 - Font Awesome for icons
 
-## 📞 Support
+##  Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/ultimate-tech-detection/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/ultimate-tech-detection/discussions)
@@ -213,4 +213,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for comprehensive technology detection**# Deep-Tech-Detection
+**Made with  for comprehensive technology detection**# Deep-Tech-Detection

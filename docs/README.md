@@ -186,4 +186,4 @@ _Minimal example (trimmed):_
 
 ---
 
-**Let’s build the most complete open technology detection dataset on the web.** 🚀
+**Let’s build the most complete open technology detection dataset on the web.** 
