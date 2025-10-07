@@ -88,7 +88,7 @@ pip install flask aiohttp requests python-dotenv beautifulsoup4 lxml
 # Wappalyzer: https://github.com/AliasIO/wappalyzer
 ```
 
-## 🎯 Quick Start
+##  Quick Start
 
 ### 1. **Start the Server**
 ```bash
@@ -154,7 +154,7 @@ for tech in result.technologies:
     print(f"{tech.name} - {tech.category} ({tech.confidence}%)")
 ```
 
-## 🔧 API Reference
+##  API Reference
 
 ### **Endpoints**
 
@@ -382,7 +382,7 @@ CACHE_TTL=3600
 }
 ```
 
-## 🛠️ Development
+##  Development
 
 ### **Project Structure**
 ```
@@ -431,7 +431,7 @@ flake8 .
 mypy src/
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
@@ -463,11 +463,11 @@ pip install -r requirements-dev.txt
 - API improvements
 - Documentation updates
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **WhatWeb** for web technology detection
 - **CMSeeK** for CMS detection
@@ -476,7 +476,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Groq AI** for intelligent analysis
 - **Font Awesome** for icons
 
-## 📞 Support
+##  Support
 
 - **Issues**: [GitHub Issues](https://github.com/husnain-ce/Deep-Tech-Detection/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/husnain-ce/Deep-Tech-Detection/discussions)
@@ -484,9 +484,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for comprehensive technology detection**
+**Made with  for comprehensive technology detection**
 
-## 🚀 Quick Commands
+##  Quick Commands
 
 ### **Start the System**
 ```bash

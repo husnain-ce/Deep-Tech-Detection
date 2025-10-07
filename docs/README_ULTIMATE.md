@@ -1,8 +1,8 @@
-# 🚀 Ultimate Web Technology Detection System
+#  Ultimate Web Technology Detection System
 
 The most comprehensive web technology detection system available, combining multiple detection engines, user agents, and datasets for maximum accuracy.
 
-## ✨ Features
+##  Features
 
 - **7,000+ Technologies**: Comprehensive coverage from multiple datasets
 - **Multiple User Agents**: Robust detection with fallback mechanisms
@@ -13,7 +13,7 @@ The most comprehensive web technology detection system available, combining mult
 - **Comprehensive Logging**: Detailed analysis tracking
 - **Error Handling**: Robust fallback mechanisms
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Basic Usage
 ```bash
@@ -53,7 +53,7 @@ async def analyze_website():
 asyncio.run(analyze_website())
 ```
 
-## 📊 Output Formats
+##  Output Formats
 
 - **JSON**: Structured data for programmatic use
 - **HTML**: Visual reports with confidence indicators
@@ -61,7 +61,7 @@ asyncio.run(analyze_website())
 - **XML**: Machine-readable format
 - **Text**: Human-readable format
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `ultimate_config.json` to customize:
 - Detection engines
@@ -70,7 +70,7 @@ Edit `ultimate_config.json` to customize:
 - Output formats
 - Logging levels
 
-## 📚 Examples
+##  Examples
 
 - `example_basic.py`: Basic usage example
 - `example_advanced.py`: Advanced batch processing
@@ -78,7 +78,7 @@ Edit `ultimate_config.json` to customize:
 - `detect.bat`: Windows launcher script
 - `detect.ps1`: PowerShell launcher script
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 # Run the setup script
@@ -88,21 +88,21 @@ python setup_ultimate.py
 pip install -r requirements_advanced.txt
 ```
 
-## 📈 Performance
+##  Performance
 
 - **Speed**: 2-4x faster than original system
 - **Accuracy**: 15-25% improvement in detection rates
 - **Memory**: 50-80% reduction in memory usage
 - **Scalability**: Process thousands of URLs efficiently
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Add your improvements
 4. Submit a pull request
 
-## 📄 License
+##  License
 
 MIT License - see LICENSE file for details.
 

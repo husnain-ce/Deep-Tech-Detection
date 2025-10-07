@@ -1,6 +1,6 @@
 # Data Deduplication Results Summary
 
-## 🎯 Key Achievements
+##  Key Achievements
 
 ### **Confidence Score Improvements**
 - **Average improvement**: +8.9 points across all domains
@@ -17,7 +17,7 @@
 - **Source diversity rewards** for multi-source detections
 - **Evidence richness bonuses** for well-documented technologies
 
-## 📊 Detailed Results by Domain
+##  Detailed Results by Domain
 
 ### **TKXEL Domain**
 - **Technologies**: 16 (no reduction, already clean)
@@ -49,7 +49,7 @@
 - **File size**: +1.0 KB (due to added metadata)
 - **Key improvement**: Highest confidence improvement achieved
 
-## 🔧 Technical Improvements Implemented
+##  Technical Improvements Implemented
 
 ### **1. Advanced Technology Normalization**
 ```python
@@ -99,7 +99,7 @@
 }
 ```
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### **Data Quality Improvements**
 - **Confidence accuracy**: +8.9 points average improvement
@@ -119,7 +119,7 @@
 - **Propagation system**: Cross-domain learning implementation
 - **Memory optimization**: Reduced memory usage through consolidation
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### **Basic Deduplication**
 ```bash
@@ -189,14 +189,14 @@ final_technologies = propagator.propagate_confidence_scores(clean_technologies)
 3. **Create real-time processing** pipeline
 4. **Add relationship mapping** for technology stacks
 
-## ✅ Conclusion
+##  Conclusion
 
 The advanced deduplication and data propagation system successfully addresses the core issues in the JSON output files:
 
-- **✅ Confidence Improvement**: +8.9 points average improvement
-- **✅ Technology Consolidation**: Intelligent merging of duplicates
-- **✅ Evidence Optimization**: Consolidated redundant information
-- **✅ Source Diversity**: Better tracking of multi-source detections
-- **✅ Data Propagation**: Cross-domain learning implementation
+- ** Confidence Improvement**: +8.9 points average improvement
+- ** Technology Consolidation**: Intelligent merging of duplicates
+- ** Evidence Optimization**: Consolidated redundant information
+- ** Source Diversity**: Better tracking of multi-source detections
+- ** Data Propagation**: Cross-domain learning implementation
 
 The system provides a solid foundation for more efficient and accurate web technology detection while maintaining data integrity and improving confidence scoring across all domains.

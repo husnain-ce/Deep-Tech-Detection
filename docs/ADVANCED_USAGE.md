@@ -1,6 +1,6 @@
 # Advanced Web Technology Detection System
 
-## 🚀 Overview
+##  Overview
 
 The Advanced Web Technology Detection System is an enterprise-grade solution that combines multiple detection engines and datasets to provide comprehensive web technology identification. It's designed for maximum accuracy, performance, and scalability.
 
@@ -50,7 +50,7 @@ brew install whatweb          # macOS
 mkdir -p json_datasets integrations logs cache reports
 ```
 
-## 🎯 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -105,7 +105,7 @@ async def analyze_website():
 asyncio.run(analyze_website())
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Configuration File (config.json)
 
@@ -136,7 +136,7 @@ asyncio.run(analyze_website())
 }
 ```
 
-## 📊 Output Formats
+##  Output Formats
 
 ### JSON Output
 
@@ -194,7 +194,7 @@ WordPress,85,CMS,"5.8.1",dataset,https://wordpress.org,WordPress is a content ma
 jQuery,70,JavaScript Libraries,"3.6.0",wappalyzer,https://jquery.com,jQuery is a JavaScript library
 ```
 
-## 🚀 Performance Optimization
+##  Performance Optimization
 
 ### Parallel Processing
 
@@ -226,7 +226,7 @@ options = {
 }
 ```
 
-## 🔍 Detection Capabilities
+##  Detection Capabilities
 
 ### Technology Categories
 
@@ -246,7 +246,7 @@ options = {
 4. **DNS Analysis**: CNAME records, subdomain patterns
 5. **JavaScript Analysis**: Library detection, framework signatures
 
-## 🛠️ Advanced Features
+##  Advanced Features
 
 ### Custom Pattern Development
 
@@ -302,7 +302,7 @@ def scan_with_tech_detection(url):
             run_apache_scan(url)
 ```
 
-## 📈 Monitoring and Logging
+##  Monitoring and Logging
 
 ### Log Configuration
 
@@ -340,7 +340,7 @@ def monitor_performance():
     print(f"Memory used: {(end_memory - start_memory) / 1024 / 1024:.2f} MB")
 ```
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -376,7 +376,7 @@ def monitor_performance():
 python webtech_matcher_advanced.py https://example.com --debug --verbose --dump
 ```
 
-## 📚 API Reference
+##  API Reference
 
 ### WebTechMatcherAdvanced
 
@@ -416,7 +416,7 @@ class DetectionResult:
     description: Optional[str]
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -424,7 +424,7 @@ class DetectionResult:
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 

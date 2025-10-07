@@ -1,6 +1,6 @@
 # Command Reference - Advanced Web Technology Detection
 
-## 🚀 Quick Start Commands
+##  Quick Start Commands
 
 ### Basic Detection
 ```bash
@@ -26,7 +26,7 @@ python webtech_matcher_advanced.py --batch urls.txt --workers 10
 python webtech_matcher_advanced.py --batch urls.txt --delay 0.5
 ```
 
-## 📊 Output Formats
+##  Output Formats
 
 ### JSON Output
 ```bash
@@ -55,7 +55,7 @@ python webtech_matcher_advanced.py https://example.com --output csv --save-repor
 python webtech_matcher_advanced.py https://example.com --output xml
 ```
 
-## 🔧 Detection Engine Options
+##  Detection Engine Options
 
 ### Dataset Engine (Default)
 ```bash
@@ -133,7 +133,7 @@ python webtech_matcher_advanced.py https://example.com --verbose
 python webtech_matcher_advanced.py https://example.com --verbose --debug
 ```
 
-## 🚀 Performance Optimization
+##  Performance Optimization
 
 ### Parallel Processing
 ```bash
@@ -187,7 +187,7 @@ python webtech_matcher_advanced.py https://example.com --output html --save-repo
 python webtech_matcher_advanced.py https://example.com --output csv --save-report report.csv
 ```
 
-## 🔍 Advanced Analysis
+##  Advanced Analysis
 
 ### Technology-Specific Analysis
 ```bash
@@ -210,7 +210,7 @@ python webtech_matcher_advanced.py https://example.com --use-dataset --use-whatw
 python webtech_matcher_advanced.py --batch large_urls.txt --workers 50 --delay 0.1 --output csv --save-report large_analysis.csv
 ```
 
-## 🛠️ Maintenance Commands
+##  Maintenance Commands
 
 ### Update Datasets
 ```bash
@@ -240,7 +240,7 @@ rm -f *.log
 rm -f reports/*
 ```
 
-## 📊 Monitoring Commands
+##  Monitoring Commands
 
 ### Performance Monitoring
 ```bash
@@ -263,7 +263,7 @@ grep "ERROR" webtech_matcher.log
 grep "technologies detected" webtech_matcher.log | wc -l
 ```
 
-## 🔧 Troubleshooting Commands
+##  Troubleshooting Commands
 
 ### Check Dependencies
 ```bash
@@ -302,7 +302,7 @@ python webtech_matcher_advanced.py https://example.com --use-wappalyzer --debug 
 python webtech_matcher_advanced.py https://example.com --max-results 5 --debug --verbose
 ```
 
-## 🎯 Use Case Examples
+##  Use Case Examples
 
 ### Security Assessment
 ```bash
