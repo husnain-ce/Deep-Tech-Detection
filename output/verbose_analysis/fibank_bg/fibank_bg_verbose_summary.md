@@ -5,8 +5,8 @@
 **Categories Found:** 5
 
 ## Engine Coverage
-- **Additional Patterns:** ✅ Used
-- **Pattern Matching:** ✅ Used
+- **Additional Patterns:**  Used
+- **Pattern Matching:**  Used
 
 ## Detection Breakdown
 - **Pattern Matching:** 0
