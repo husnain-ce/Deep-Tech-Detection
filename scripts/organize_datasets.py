@@ -410,7 +410,7 @@ class DatasetOrganizer:
         
         # Print summary
         print("\n" + "="*60)
-        print("📊 DATASET ORGANIZATION COMPLETE")
+        print(" DATASET ORGANIZATION COMPLETE")
         print("="*60)
         print(f"Total Technologies: {stats['total_technologies']}")
         print(f"Categories: {len(stats['by_category'])}")

@@ -163,30 +163,30 @@ function applyComprehensiveFontAwesomeFallback() {
         
         /* Specific icon fallbacks using Unicode symbols */
         .fas.fa-globe::before { content: "🌐" !important; }
-        .fas.fa-search::before { content: "🔍" !important; }
-        .fas.fa-search-plus::before { content: "🔍+" !important; }
+        .fas.fa-search::before { content: "" !important; }
+        .fas.fa-search-plus::before { content: "+" !important; }
         .fas.fa-cogs::before { content: "⚙️" !important; }
         .fas.fa-cloud::before { content: "☁️" !important; }
-        .fas.fa-chart-line::before { content: "📈" !important; }
+        .fas.fa-chart-line::before { content: "" !important; }
         .fas.fa-plus-circle::before { content: "➕" !important; }
         .fas.fa-microscope::before { content: "🔬" !important; }
         .fas.fa-clock::before { content: "🕐" !important; }
         .fas.fa-link::before { content: "🔗" !important; }
         .fas.fa-exclamation-triangle::before { content: "⚠️" !important; }
-        .fas.fa-layer-group::before { content: "📚" !important; }
-        .fas.fa-shield-alt::before { content: "🛡️" !important; }
+        .fas.fa-layer-group::before { content: "" !important; }
+        .fas.fa-shield-alt::before { content: "" !important; }
         .fas.fa-question-circle::before { content: "❓" !important; }
         .fas.fa-spinner::before { content: "⏳" !important; }
         .fas.fa-server::before { content: "🖥️" !important; }
         .fas.fa-database::before { content: "🗄️" !important; }
-        .fas.fa-palette::before { content: "🎨" !important; }
+        .fas.fa-palette::before { content: "" !important; }
         .fas.fa-shopping-cart::before { content: "🛒" !important; }
         .fas.fa-blog::before { content: "📝" !important; }
         .fas.fa-comments::before { content: "💬" !important; }
         .fas.fa-bug::before { content: "🐛" !important; }
         .fas.fa-edit::before { content: "✏️" !important; }
         .fas.fa-play::before { content: "▶️" !important; }
-        .fas.fa-tools::before { content: "🔧" !important; }
+        .fas.fa-tools::before { content: "" !important; }
         .fas.fa-tags::before { content: "🏷️" !important; }
         .fas.fa-font::before { content: "🔤" !important; }
         .fas.fa-bug::before { content: "🐛" !important; }

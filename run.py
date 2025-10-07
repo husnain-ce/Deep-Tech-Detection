@@ -10,7 +10,7 @@ from pathlib import Path
 
 def run_server():
     """Run the Flask server"""
-    print("🚀 Starting Ultimate Tech Detection Server...")
+    print(" Starting Ultimate Tech Detection Server...")
     print("=" * 50)
     
     # Check if .env exists
@@ -22,9 +22,9 @@ def run_server():
     # Import and run the server
     try:
         from api_server import app
-        print("✅ Server starting on http://localhost:9000")
+        print(" Server starting on http://localhost:9000")
         print("📱 Dashboard: http://localhost:9000")
-        print("🔧 API: http://localhost:9000/api/")
+        print(" API: http://localhost:9000/api/")
         print("🌐 External: http://159.65.65.140:9000")
         print("\nPress Ctrl+C to stop the server")
         app.run(host='0.0.0.0', port=9000, debug=True)
@@ -37,7 +37,7 @@ def run_server():
 
 def run_setup():
     """Run the setup script"""
-    print("🔧 Running setup...")
+    print(" Running setup...")
     try:
         import setup
         setup.main()

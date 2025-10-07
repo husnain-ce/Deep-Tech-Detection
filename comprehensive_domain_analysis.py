@@ -12,7 +12,7 @@ from ultimate_tech_detector import UltimateTechDetector
 
 async def analyze_domain(domain: str, output_dir: str):
     """Analyze a single domain with comprehensive detection"""
-    print(f"\n🔍 Starting comprehensive analysis of {domain}...")
+    print(f"\n Starting comprehensive analysis of {domain}...")
     
     # Initialize detector
     detector = UltimateTechDetector('data/datasets')
@@ -112,7 +112,7 @@ async def analyze_domain(domain: str, output_dir: str):
             if len(sorted_techs) > 20:
                 f.write(f"\n... and {len(sorted_techs) - 20} more technologies\n")
         
-        print(f"✅ Analysis completed for {domain}")
+        print(f" Analysis completed for {domain}")
         print(f"   Technologies: {len(result.technologies)}")
         print(f"   Categories: {len(set(tech.category for tech in result.technologies))}")
         print(f"   Time: {analysis_time:.2f}s")
@@ -153,7 +153,7 @@ async def main():
     output_base = 'output/domain_analysis'
     os.makedirs(output_base, exist_ok=True)
     
-    print("🚀 Starting Comprehensive Domain Analysis")
+    print(" Starting Comprehensive Domain Analysis")
     print(f"📁 Output directory: {output_base}")
     print(f"🌐 Domains to analyze: {len(domains)}")
     
@@ -189,16 +189,16 @@ async def main():
     
     # Print final summary
     print(f"\n🎉 Comprehensive Analysis Complete!")
-    print(f"📊 Total time: {total_time:.2f}s")
-    print(f"✅ Successful: {summary_data['successful_analyses']}/{summary_data['total_domains']}")
-    print(f"🔍 Total technologies: {summary_data['total_technologies_detected']}")
+    print(f" Total time: {total_time:.2f}s")
+    print(f" Successful: {summary_data['successful_analyses']}/{summary_data['total_domains']}")
+    print(f" Total technologies: {summary_data['total_technologies_detected']}")
     print(f"📂 Total categories: {summary_data['total_categories_detected']}")
     print(f"📁 Results saved to: {output_base}")
     
     # Print per-domain results
     print(f"\n📋 Per-Domain Results:")
     for result in results:
-        status = "✅" if result['success'] else "❌"
+        status = "" if result['success'] else "❌"
         print(f"  {status} {result['domain']}: {result['technologies']} techs, {result['categories']} cats, {result['time']:.1f}s")
 
 if __name__ == "__main__":

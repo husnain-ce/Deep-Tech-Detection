@@ -875,11 +875,11 @@ if __name__ == "__main__":
             print("  examples/               # Usage examples")
             print("  launchers/              # Platform launchers")
             print("  output/                 # Generated reports")
-            print("\n🚀 Quick Start:")
+            print("\n Quick Start:")
             print("  Unix/macOS: ./launchers/unix/detect.sh https://example.com")
             print("  Windows:    launchers\\windows\\detect.bat https://example.com")
             print("  PowerShell: .\\launchers\\powershell\\detect.ps1 https://example.com")
-            print("\n📚 Documentation: See docs/ directory")
+            print("\n Documentation: See docs/ directory")
             print("="*60)
             
         except Exception as e:

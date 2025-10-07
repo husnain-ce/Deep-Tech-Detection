@@ -516,24 +516,24 @@ def internal_error(error):
 
 def main():
     """Main function to run the server"""
-    print("🚀 Starting Tech Detection API Server...")
+    print(" Starting Tech Detection API Server...")
     
     # Initialize detector
     if not initialize_detector():
         print("❌ Failed to initialize detector. Exiting.")
         sys.exit(1)
     
-    print("✅ Detector initialized successfully")
-    print("📊 System Statistics:")
+    print(" Detector initialized successfully")
+    print(" System Statistics:")
     print(f"   - Technologies: {len(detector.dataset_manager.all_technologies)}")
     print(f"   - Patterns: {sum(len(patterns) for patterns in detector.dataset_manager.pattern_database.values())}")
-    print(f"   - WhatWeb: {'✅ Available' if detector.whatweb.available else '❌ Not Available'}")
-    print(f"   - CMSeeK: {'✅ Available' if detector.cmseek.available else '❌ Not Available'}")
+    print(f"   - WhatWeb: {' Available' if detector.whatweb.available else '❌ Not Available'}")
+    print(f"   - CMSeeK: {' Available' if detector.cmseek.available else '❌ Not Available'}")
     
     # Run Flask app
     print("\n🌐 Starting web server...")
     print("📱 Dashboard available at: http://localhost:9000")
-    print("🔧 API endpoints available at: http://localhost:9000/api/")
+    print(" API endpoints available at: http://localhost:9000/api/")
     print("🌐 External access: http://159.65.65.140:9000")
     
     app.run(host='0.0.0.0', port=9000, debug=True)

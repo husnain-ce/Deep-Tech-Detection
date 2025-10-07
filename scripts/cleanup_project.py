@@ -274,14 +274,14 @@ output/logs/*.log
         
         summary += f"""
 ## Cleanup Actions Performed:
-1. ✅ Removed Python cache files (__pycache__, *.pyc)
-2. ✅ Cleaned temporary files (*.tmp, *.bak, etc.)
-3. ✅ Removed old CSV report files (kept most recent)
-4. ✅ Cleaned log files (kept most recent)
-5. ✅ Removed duplicate dataset files
-6. ✅ Removed empty directories
-7. ✅ Cleaned output directory
-8. ✅ Updated .gitignore
+1.  Removed Python cache files (__pycache__, *.pyc)
+2.  Cleaned temporary files (*.tmp, *.bak, etc.)
+3.  Removed old CSV report files (kept most recent)
+4.  Cleaned log files (kept most recent)
+5.  Removed duplicate dataset files
+6.  Removed empty directories
+7.  Cleaned output directory
+8.  Updated .gitignore
 
 ## Project Status: CLEAN AND OPTIMIZED
 """
@@ -331,7 +331,7 @@ output/logs/*.log
             print("="*60)
             print(f"Files Cleaned: {len(self.cleaned_files)}")
             print(f"Directories Cleaned: {len(self.cleaned_dirs)}")
-            print("\n✅ Cleanup Actions:")
+            print("\n Cleanup Actions:")
             print("  - Removed Python cache files")
             print("  - Cleaned temporary files")
             print("  - Removed old CSV reports")

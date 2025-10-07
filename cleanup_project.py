@@ -92,7 +92,7 @@ def cleanup_project():
     
     # Create new output directory
     os.makedirs("output", exist_ok=True)
-    print(f"  ✅ Created clean output directory")
+    print(f"   Created clean output directory")
     
     print(f"\n🎉 Cleanup complete! Removed {removed_count} items")
     print("\n📁 New project structure:")

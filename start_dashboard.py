@@ -12,7 +12,7 @@ from pathlib import Path
 
 def main():
     """Main launcher function"""
-    print("🚀 Starting Tech Detection Dashboard...")
+    print(" Starting Tech Detection Dashboard...")
     print("=" * 50)
     
     # Check if API server is already running
@@ -20,16 +20,16 @@ def main():
         import requests
         response = requests.get('http://localhost:9000/api/status', timeout=2)
         if response.status_code == 200:
-            print("✅ API server is already running")
+            print(" API server is already running")
             print("🌐 Dashboard available at: http://localhost:9000")
-            print("🔧 API endpoints available at: http://localhost:9000/api/")
+            print(" API endpoints available at: http://localhost:9000/api/")
             print("🌐 External access: http://159.65.65.140:9000")
             return
     except:
         pass
     
     # Start the API server
-    print("🔧 Starting API server...")
+    print(" Starting API server...")
     try:
         # Start the server in background
         process = subprocess.Popen([
@@ -45,14 +45,14 @@ def main():
             import requests
             response = requests.get('http://localhost:9000/api/status', timeout=5)
             if response.status_code == 200:
-                print("✅ API server started successfully!")
-                print("📊 System Status:")
+                print(" API server started successfully!")
+                print(" System Status:")
                 status = response.json()
                 print(f"   - Technologies: {status.get('technologies_count', 0)}")
                 print(f"   - Patterns: {status.get('patterns_count', 0)}")
-                print(f"   - Pattern Matching: {'✅' if status.get('engines', {}).get('pattern_matching') else '❌'}")
-                print(f"   - WhatWeb: {'✅' if status.get('engines', {}).get('whatweb') else '❌'}")
-                print(f"   - CMSeeK: {'✅' if status.get('engines', {}).get('cmseek') else '❌'}")
+                print(f"   - Pattern Matching: {'' if status.get('engines', {}).get('pattern_matching') else '❌'}")
+                print(f"   - WhatWeb: {'' if status.get('engines', {}).get('whatweb') else '❌'}")
+                print(f"   - CMSeeK: {'' if status.get('engines', {}).get('cmseek') else '❌'}")
                 
                 print("\n🌐 Dashboard Information:")
                 print("   - Main Dashboard: http://localhost:9000")
@@ -60,7 +60,7 @@ def main():
                 print("   - API Status: http://localhost:9000/api/status")
                 print("   - Health Check: http://localhost:9000/api/health")
                 
-                print("\n🎯 Quick Test:")
+                print("\n Quick Test:")
                 print("   - Try analyzing: dskbank.bg")
                 print("   - Try analyzing: wordpress.com")
                 print("   - Try analyzing: joomla.org")
@@ -82,7 +82,7 @@ def main():
                     print("\n🛑 Stopping server...")
                     process.terminate()
                     process.wait()
-                    print("✅ Server stopped")
+                    print(" Server stopped")
             else:
                 print("❌ Server failed to start properly")
                 sys.exit(1)

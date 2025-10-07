@@ -24,13 +24,13 @@ def create_directories():
     
     for directory in directories:
         os.makedirs(directory, exist_ok=True)
-        print(f"✅ Created directory: {directory}")
+        print(f" Created directory: {directory}")
 
 def install_dependencies():
     """Install Python dependencies"""
     try:
         subprocess.check_call([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'])
-        print("✅ Dependencies installed successfully")
+        print(" Dependencies installed successfully")
     except subprocess.CalledProcessError as e:
         print(f"❌ Error installing dependencies: {e}")
         return False
@@ -41,12 +41,12 @@ def setup_environment():
     if not os.path.exists('.env'):
         if os.path.exists('env.example'):
             shutil.copy('env.example', '.env')
-            print("✅ Created .env file from template")
+            print(" Created .env file from template")
             print("⚠️  Please edit .env file with your API keys")
         else:
             print("⚠️  No env.example found, please create .env manually")
     else:
-        print("✅ .env file already exists")
+        print(" .env file already exists")
 
 def check_external_tools():
     """Check if external tools are available"""
@@ -61,7 +61,7 @@ def check_external_tools():
             result = subprocess.run([tool, '--version'], 
                                   capture_output=True, text=True, timeout=5)
             if result.returncode == 0:
-                print(f"✅ {name} is available")
+                print(f" {name} is available")
             else:
                 print(f"⚠️  {name} not found or not working")
         except (subprocess.TimeoutExpired, FileNotFoundError):
@@ -69,7 +69,7 @@ def check_external_tools():
 
 def main():
     """Main setup function"""
-    print("🚀 Setting up Ultimate Tech Detection System...")
+    print(" Setting up Ultimate Tech Detection System...")
     print("=" * 50)
     
     # Create directories
@@ -83,15 +83,15 @@ def main():
         return False
     
     # Setup environment
-    print("\n🔧 Setting up environment...")
+    print("\n Setting up environment...")
     setup_environment()
     
     # Check external tools
-    print("\n🛠️  Checking external tools...")
+    print("\n  Checking external tools...")
     check_external_tools()
     
     print("\n" + "=" * 50)
-    print("✅ Setup completed successfully!")
+    print(" Setup completed successfully!")
     print("\n📋 Next steps:")
     print("1. Edit .env file with your API keys")
     print("2. Run: python3 api_server.py")

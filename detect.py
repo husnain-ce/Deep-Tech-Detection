@@ -46,7 +46,7 @@ async def main():
     result = await detector.analyze_url(url, options)
     
     # Print results
-    print(f"\n🎯 Ultimate Tech Detection Results")
+    print(f"\n Ultimate Tech Detection Results")
     print(f"URL: {result.url}")
     print(f"Final URL: {result.final_url}")
     print(f"Analysis Time: {result.analysis_time:.2f}s")
@@ -57,12 +57,12 @@ async def main():
     if result.errors:
         print(f"\n❌ Errors: {', '.join(result.errors)}")
     
-    print(f"\n📊 Confidence Distribution:")
+    print(f"\n Confidence Distribution:")
     dist = result.metadata.get('confidence_distribution', {})
     for level, count in dist.items():
         print(f"  {level}: {count} technologies")
     
-    print(f"\n🔍 Top Technologies:")
+    print(f"\n Top Technologies:")
     # Sort by confidence and show top 10
     sorted_techs = sorted(result.technologies, key=lambda x: x.confidence, reverse=True)[:10]
     for i, tech in enumerate(sorted_techs, 1):
@@ -71,7 +71,7 @@ async def main():
     if len(result.technologies) > 10:
         print(f"  ... and {len(result.technologies) - 10} more technologies")
     
-    print(f"\n✅ Analysis Complete!")
+    print(f"\n Analysis Complete!")
 
 if __name__ == "__main__":
     asyncio.run(main())
